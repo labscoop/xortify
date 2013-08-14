@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_22bc29c42c7e1ab0eaaec60e3879c46f" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/auth</compoundname>
+    <innerfile refid="auth_8php">auth.php</innerfile>
+    <innerfile refid="auth__curl_8php">auth_curl.php</innerfile>
+    <innerfile refid="auth__curl__provisionning_8php">auth_curl_provisionning.php</innerfile>
+    <innerfile refid="auth__curlserialised_8php">auth_curlserialised.php</innerfile>
+    <innerfile refid="auth__curlserialised__provisionning_8php">auth_curlserialised_provisionning.php</innerfile>
+    <innerfile refid="auth__curlxml_8php">auth_curlxml.php</innerfile>
+    <innerfile refid="auth__curlxml__provisionning_8php">auth_curlxml_provisionning.php</innerfile>
+    <innerfile refid="auth__json_8php">auth_json.php</innerfile>
+    <innerfile refid="auth__json__provisionning_8php">auth_json_provisionning.php</innerfile>
+    <innerfile refid="auth__minimumcloud_8php">auth_minimumcloud.php</innerfile>
+    <innerfile refid="auth__minimumcloud__provisionning_8php">auth_minimumcloud_provisionning.php</innerfile>
+    <innerfile refid="auth__rest__curl_8php">auth_rest_curl.php</innerfile>
+    <innerfile refid="auth__rest__curl__provisionning_8php">auth_rest_curl_provisionning.php</innerfile>
+    <innerfile refid="auth__rest__curlserialised_8php">auth_rest_curlserialised.php</innerfile>
+    <innerfile refid="auth__rest__curlserialised__provisionning_8php">auth_rest_curlserialised_provisionning.php</innerfile>
+    <innerfile refid="auth__rest__curlxml_8php">auth_rest_curlxml.php</innerfile>
+    <innerfile refid="auth__rest__curlxml__provisionning_8php">auth_rest_curlxml_provisionning.php</innerfile>
+    <innerfile refid="auth__rest__json_8php">auth_rest_json.php</innerfile>
+    <innerfile refid="auth__rest__json__provisionning_8php">auth_rest_json_provisionning.php</innerfile>
+    <innerfile refid="auth__rest__wgetserialised_8php">auth_rest_wgetserialised.php</innerfile>
+    <innerfile refid="auth__rest__wgetserialised__provisionning_8php">auth_rest_wgetserialised_provisionning.php</innerfile>
+    <innerfile refid="auth__rest__wgetxml_8php">auth_rest_wgetxml.php</innerfile>
+    <innerfile refid="auth__rest__wgetxml__provisionning_8php">auth_rest_wgetxml_provisionning.php</innerfile>
+    <innerfile refid="auth__soap_8php">auth_soap.php</innerfile>
+    <innerfile refid="auth__soap__provisionning_8php">auth_soap_provisionning.php</innerfile>
+    <innerfile refid="auth__wgetserialised_8php">auth_wgetserialised.php</innerfile>
+    <innerfile refid="auth__wgetserialised__provisionning_8php">auth_wgetserialised_provisionning.php</innerfile>
+    <innerfile refid="auth__wgetxml_8php">auth_wgetxml.php</innerfile>
+    <innerfile refid="auth__wgetxml__provisionning_8php">auth_wgetxml_provisionning.php</innerfile>
+    <innerfile refid="authfactory_8php">authfactory.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/auth/"/>
+  </compounddef>
+</doxygen>

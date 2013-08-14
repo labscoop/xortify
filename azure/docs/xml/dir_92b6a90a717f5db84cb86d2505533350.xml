@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_92b6a90a717f5db84cb86d2505533350" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xrest/include</compoundname>
+    <innerfile refid="xrest_2include_2common_8php">common.php</innerfile>
+    <innerfile refid="forms_8xrest_8php">forms.xrest.php</innerfile>
+    <innerfile refid="xrest_2include_2functions_8php">functions.php</innerfile>
+    <innerfile refid="modules_2xrest_2include_2_j_s_o_n_8php">JSON.php</innerfile>
+    <innerfile refid="modules_2xrest_2include_2server_8php">server.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/include/"/>
+  </compounddef>
+</doxygen>

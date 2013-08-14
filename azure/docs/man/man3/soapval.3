@@ -1,0 +1,195 @@
+.TH "soapval" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+soapval \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBnusoap_base\fP, and \fBnusoap_base\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsoapval\fP ($name='\fBsoapval\fP', $type=false, $value=-1, $element_ns=false, $type_ns=false, $attributes=false)"
+.br
+.ti -1c
+.RI "\fBserialize\fP ($use='encoded')"
+.br
+.ti -1c
+.RI "\fBdecode\fP ()"
+.br
+.ti -1c
+.RI "\fBsoapval\fP ($name='\fBsoapval\fP', $type=false, $value=-1, $element_ns=false, $type_ns=false, $attributes=false)"
+.br
+.ti -1c
+.RI "\fBserialize\fP ($use='encoded')"
+.br
+.ti -1c
+.RI "\fBdecode\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$name\fP"
+.br
+.ti -1c
+.RI "\fB$type\fP"
+.br
+.ti -1c
+.RI "\fB$value\fP"
+.br
+.ti -1c
+.RI "\fB$element_ns\fP"
+.br
+.ti -1c
+.RI "\fB$type_ns\fP"
+.br
+.ti -1c
+.RI "\fB$attributes\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+For creating serializable abstractions of native PHP types\&. This class allows element name/namespace, XSD type, and XML attributes to be associated with a value\&. This is extremely useful when WSDL is not used, but is also useful when WSDL is used with polymorphic types, including xsd:anyType and user-defined types\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.soap_val\&.php\fP,v 1\&.9 2005/07/27 19:24:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+For creating serializable abstractions of native PHP types\&. This class allows element name/namespace, XSD type, and XML attributes to be associated with a value\&. This is extremely useful when WSDL is not used, but is also useful when WSDL is used with polymorphic types, including xsd:anyType and user-defined types\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 17 of file class\&.soap_val\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "decode ()"
+decodes a soapval object into a PHP native type
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+
+.PP
+Definition at line 99 of file class\&.soap_val\&.php\&.
+.SS "decode ()"
+decodes a soapval object into a PHP native type
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+
+.PP
+Definition at line 1987 of file nusoap\&.php\&.
+.SS "serialize ($use = \fC'encoded'\fP)"
+return serialized value
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$use\fP The WSDL use value (encoded|literal) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string XML data  public 
+.RE
+.PP
+
+.PP
+Definition at line 89 of file class\&.soap_val\&.php\&.
+.SS "serialize ($use = \fC'encoded'\fP)"
+return serialized value
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$use\fP The WSDL use value (encoded|literal) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string XML data  public 
+.RE
+.PP
+
+.PP
+Definition at line 1977 of file nusoap\&.php\&.
+.SS "\fBsoapval\fP ($name = \fC'\fBsoapval\fP'\fP, $type = \fCfalse\fP, $value = \fC-1\fP, $element_ns = \fCfalse\fP, $type_ns = \fCfalse\fP, $attributes = \fCfalse\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP optional name 
+.br
+\fI$type\fP optional type name 
+.br
+\fI$value\fP optional value 
+.br
+\fI$element_ns\fP optional namespace of value 
+.br
+\fI$type_ns\fP optional namespace of type 
+.br
+\fI$attributes\fP associative array of attributes to add to element serialization  public 
+.RE
+.PP
+
+.PP
+Definition at line 72 of file class\&.soap_val\&.php\&.
+.SS "\fBsoapval\fP ($name = \fC'\fBsoapval\fP'\fP, $type = \fCfalse\fP, $value = \fC-1\fP, $element_ns = \fCfalse\fP, $type_ns = \fCfalse\fP, $attributes = \fCfalse\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP optional name 
+.br
+\fI$type\fP optional type name 
+.br
+\fI$value\fP optional value 
+.br
+\fI$element_ns\fP optional namespace of value 
+.br
+\fI$type_ns\fP optional namespace of type 
+.br
+\fI$attributes\fP associative array of attributes to add to element serialization  public 
+.RE
+.PP
+
+.PP
+Definition at line 1960 of file nusoap\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_plugin_xortify" kind="class" prot="public">
+    <compoundname>XortifyPluginXortify</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_plugin_xortify_1aacd0a27d3740aae83c03e921f6e58783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BannedPreHook</definition>
+        <argsstring>($default, XortifyLog $log)</argsstring>
+        <name>BannedPreHook</name>
+        <param>
+          <declname>$default</declname>
+        </param>
+        <param>
+          <type><ref refid="class_xortify_log" kindref="compound">XortifyLog</ref></type>
+          <declname>$log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" line="50" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_plugin_xortify_1a1b0001df5cf5ef18a5181774ce16b089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BlockedPreHook</definition>
+        <argsstring>($default, XortifyLog $log)</argsstring>
+        <name>BlockedPreHook</name>
+        <param>
+          <declname>$default</declname>
+        </param>
+        <param>
+          <type><ref refid="class_xortify_log" kindref="compound">XortifyLog</ref></type>
+          <declname>$log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" line="61" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_plugin_xortify_1abbd4e782a10042ec86d3bef94daad89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MonitoredPreHook</definition>
+        <argsstring>($default, XortifyLog $log)</argsstring>
+        <name>MonitoredPreHook</name>
+        <param>
+          <declname>$default</declname>
+        </param>
+        <param>
+          <type><ref refid="class_xortify_log" kindref="compound">XortifyLog</ref></type>
+          <declname>$log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" line="72" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_plugin_xortify_1a6bc03033f17c2fcede4d020d1cfbcc48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BannedPostHook</definition>
+        <argsstring>(XortifyLog $log, $lid)</argsstring>
+        <name>BannedPostHook</name>
+        <param>
+          <type><ref refid="class_xortify_log" kindref="compound">XortifyLog</ref></type>
+          <declname>$log</declname>
+        </param>
+        <param>
+          <declname>$lid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" line="83" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_plugin_xortify_1a1cb2408e6422326482b2e8eb45d2d0c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BlockedPostHook</definition>
+        <argsstring>(XortifyLog $log, $lid)</argsstring>
+        <name>BlockedPostHook</name>
+        <param>
+          <type><ref refid="class_xortify_log" kindref="compound">XortifyLog</ref></type>
+          <declname>$log</declname>
+        </param>
+        <param>
+          <declname>$lid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" line="94" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_plugin_xortify_1aa4a3d909c3769e0c3c7b6488f8659a1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MonitoredPostHook</definition>
+        <argsstring>(XortifyLog $log, $lid)</argsstring>
+        <name>MonitoredPostHook</name>
+        <param>
+          <type><ref refid="class_xortify_log" kindref="compound">XortifyLog</ref></type>
+          <declname>$log</declname>
+        </param>
+        <param>
+          <declname>$lid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" line="105" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" bodystart="105" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" line="41" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin/xortify.php" bodystart="41" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_xortify_plugin_xortify_1a6bc03033f17c2fcede4d020d1cfbcc48" prot="public" virt="non-virtual"><scope>XortifyPluginXortify</scope><name>BannedPostHook</name></member>
+      <member refid="class_xortify_plugin_xortify_1aacd0a27d3740aae83c03e921f6e58783" prot="public" virt="non-virtual"><scope>XortifyPluginXortify</scope><name>BannedPreHook</name></member>
+      <member refid="class_xortify_plugin_xortify_1a1cb2408e6422326482b2e8eb45d2d0c1" prot="public" virt="non-virtual"><scope>XortifyPluginXortify</scope><name>BlockedPostHook</name></member>
+      <member refid="class_xortify_plugin_xortify_1a1b0001df5cf5ef18a5181774ce16b089" prot="public" virt="non-virtual"><scope>XortifyPluginXortify</scope><name>BlockedPreHook</name></member>
+      <member refid="class_xortify_plugin_xortify_1aa4a3d909c3769e0c3c7b6488f8659a1d" prot="public" virt="non-virtual"><scope>XortifyPluginXortify</scope><name>MonitoredPostHook</name></member>
+      <member refid="class_xortify_plugin_xortify_1abbd4e782a10042ec86d3bef94daad89a" prot="public" virt="non-virtual"><scope>XortifyPluginXortify</scope><name>MonitoredPreHook</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

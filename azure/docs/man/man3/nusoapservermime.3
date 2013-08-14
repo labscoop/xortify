@@ -1,0 +1,182 @@
+.TH "nusoapservermime" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+nusoapservermime \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBsoap_server\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBaddAttachment\fP ($data, $filename= '', $contenttype= 'application/octet-stream', $cid=false)"
+.br
+.ti -1c
+.RI "\fBclearAttachments\fP ()"
+.br
+.ti -1c
+.RI "\fBgetAttachments\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHTTPBody\fP ($soapmsg)"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentType\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentTypeCharset\fP ()"
+.br
+.ti -1c
+.RI "\fBparseRequest\fP ($headers, $data)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$requestAttachments\fP = array()"
+.br
+.ti -1c
+.RI "\fB$responseAttachments\fP"
+.br
+.ti -1c
+.RI "\fB$mimeContentType\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+nusoapservermime server supporting MIME attachments defined at http://www.w3.org/TR/SOAP-attachments\&. It depends on the PEAR Mail_MIME library\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Scott Nichol snichol@sourceforge.net 
+.PP
+Thanks to Guillaume and Henning Reich for posting great attachment code to the mail list 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoapmime\&.php\fP,v 1\&.7 2005/07/27 19:24:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 268 of file nusoapmime\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "addAttachment ($data, $filename = \fC''\fP, $contenttype = \fC'application/octet-stream'\fP, $cid = \fCfalse\fP)"
+adds a MIME attachment to the current response\&.
+.PP
+If the $data parameter contains an empty string, this method will read the contents of the file named by the $filename parameter\&.
+.PP
+If the $cid parameter is false, this method will generate the cid\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP The data of the attachment 
+.br
+\fI$filename\fP The filename of the attachment (default is empty string) 
+.br
+\fI$contenttype\fP The MIME Content-Type of the attachment (default is application/octet-stream) 
+.br
+\fI$cid\fP The content-id (cid) of the attachment (default is false) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The content-id (cid) of the attachment  public 
+.RE
+.PP
+
+.PP
+Definition at line 302 of file nusoapmime\&.php\&.
+.SS "clearAttachments ()"
+clears the MIME attachments for the current response\&.
+.PP
+public 
+.PP
+Definition at line 322 of file nusoapmime\&.php\&.
+.SS "getAttachments ()"
+gets the MIME attachments from the current request\&.
+.PP
+Each array element in the return is an associative array with keys data, filename, contenttype, cid\&. These keys correspond to the parameters for addAttachment\&.
+.PP
+\fBReturns:\fP
+.RS 4
+array The attachments\&.  public 
+.RE
+.PP
+
+.PP
+Definition at line 336 of file nusoapmime\&.php\&.
+.SS "getHTTPBody ($soapmsg)"
+gets the HTTP body for the current response\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapmsg\fP The SOAP payload 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The HTTP body, which includes the SOAP payload  private 
+.RE
+.PP
+
+.PP
+Definition at line 347 of file nusoapmime\&.php\&.
+.SS "getHTTPContentType ()"
+gets the HTTP content type for the current response\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type for the current response\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 406 of file nusoapmime\&.php\&.
+.SS "getHTTPContentTypeCharset ()"
+gets the HTTP content type charset for the current response\&. returns false for non-text content types\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type charset for the current response\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 422 of file nusoapmime\&.php\&.
+.SS "parseRequest ($headers, $data)"
+processes SOAP message received from client
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$headers\fP The HTTP headers 
+.br
+\fI$data\fP unprocessed request data from client 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed value of the message, decoded into a PHP type  private 
+.RE
+.PP
+
+.PP
+Definition at line 437 of file nusoapmime\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

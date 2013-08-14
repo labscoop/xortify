@@ -1,0 +1,49 @@
+\hypertarget{cron_2unbanner_8php}{\section{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.6/4.11/htdocs/modules/xortify/cron/unbanner.php File Reference}
+\label{cron_2unbanner_8php}\index{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.\-6/4.\-11/htdocs/modules/xortify/cron/unbanner.\-php@{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.\-6/4.\-11/htdocs/modules/xortify/cron/unbanner.\-php}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{cron_2unbanner_8php_a787f648c22cbfb8f2a898edb32eee3e6}{\$banmemberhandler} = xoops\-\_\-getmodulehandler('members','ban')
+\item 
+\hyperlink{cron_2unbanner_8php_a095f2061791cf4be58c4b41a5790dc85}{\$criteria} = new Criteria\-Compo(new Criteria('`made`', time() -\/ (((7$\ast$(24$\ast$(60$\ast$60))))$\ast$3), '$<$'))
+\item 
+\hyperlink{cron_2unbanner_8php_a910690950e9ee9823bdd1f8f7a7055a9}{\$banned} = \$banmemberhandler-\/$>$get\-Objects(\$criteria, true)
+\item 
+\hyperlink{cron_2unbanner_8php_a8a2604af20e56f0769bf45487438b167}{\$comment\-\_\-handler} = \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Handler('comment')
+\item 
+\hyperlink{cron_2unbanner_8php_aca5d2f7b731319ff76b78409ddf053d5}{\$unbanmemberhandler} = xoops\-\_\-getmodulehandler('members','unban')
+\item 
+\hyperlink{cron_2unbanner_8php_afe9169534dbc3935c0823c21cfbf68bb}{\$module\-\_\-handler} = \& \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Handler('module')
+\item 
+\hyperlink{cron_2unbanner_8php_a110f4b3634321d724bce871da3484f52}{\$xo\-Ban\-Module} = \$module\-\_\-handler-\/$>$get\-By\-Dirname('ban')
+\item 
+\hyperlink{cron_2unbanner_8php_ac6ad0bb9e31c6e133b077f0d7f1aecc1}{\$xo\-Unban\-Module} = \$module\-\_\-handler-\/$>$get\-By\-Dirname('unban')
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{cron_2unbanner_8php_a787f648c22cbfb8f2a898edb32eee3e6}{\index{cron/unbanner.\-php@{cron/unbanner.\-php}!\$banmemberhandler@{\$banmemberhandler}}
+\index{\$banmemberhandler@{\$banmemberhandler}!cron/unbanner.php@{cron/unbanner.\-php}}
+\subsubsection[{\$banmemberhandler}]{\setlength{\rightskip}{0pt plus 5cm}\$banmemberhandler = xoops\-\_\-getmodulehandler('members','ban')}}\label{cron_2unbanner_8php_a787f648c22cbfb8f2a898edb32eee3e6}
+\hypertarget{cron_2unbanner_8php_a910690950e9ee9823bdd1f8f7a7055a9}{\index{cron/unbanner.\-php@{cron/unbanner.\-php}!\$banned@{\$banned}}
+\index{\$banned@{\$banned}!cron/unbanner.php@{cron/unbanner.\-php}}
+\subsubsection[{\$banned}]{\setlength{\rightskip}{0pt plus 5cm}\$banned = \$banmemberhandler-\/$>$get\-Objects(\$criteria, true)}}\label{cron_2unbanner_8php_a910690950e9ee9823bdd1f8f7a7055a9}
+\hypertarget{cron_2unbanner_8php_a8a2604af20e56f0769bf45487438b167}{\index{cron/unbanner.\-php@{cron/unbanner.\-php}!\$comment\-\_\-handler@{\$comment\-\_\-handler}}
+\index{\$comment\-\_\-handler@{\$comment\-\_\-handler}!cron/unbanner.php@{cron/unbanner.\-php}}
+\subsubsection[{\$comment\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}\$comment\-\_\-handler = \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Handler('comment')}}\label{cron_2unbanner_8php_a8a2604af20e56f0769bf45487438b167}
+\hypertarget{cron_2unbanner_8php_a095f2061791cf4be58c4b41a5790dc85}{\index{cron/unbanner.\-php@{cron/unbanner.\-php}!\$criteria@{\$criteria}}
+\index{\$criteria@{\$criteria}!cron/unbanner.php@{cron/unbanner.\-php}}
+\subsubsection[{\$criteria}]{\setlength{\rightskip}{0pt plus 5cm}\$criteria = new Criteria\-Compo(new Criteria('`made`', time() -\/ (((7$\ast$(24$\ast$(60$\ast$60))))$\ast$3), '$<$'))}}\label{cron_2unbanner_8php_a095f2061791cf4be58c4b41a5790dc85}
+\hypertarget{cron_2unbanner_8php_afe9169534dbc3935c0823c21cfbf68bb}{\index{cron/unbanner.\-php@{cron/unbanner.\-php}!\$module\-\_\-handler@{\$module\-\_\-handler}}
+\index{\$module\-\_\-handler@{\$module\-\_\-handler}!cron/unbanner.php@{cron/unbanner.\-php}}
+\subsubsection[{\$module\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}\$module\-\_\-handler = \& \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Handler('module')}}\label{cron_2unbanner_8php_afe9169534dbc3935c0823c21cfbf68bb}
+\hypertarget{cron_2unbanner_8php_aca5d2f7b731319ff76b78409ddf053d5}{\index{cron/unbanner.\-php@{cron/unbanner.\-php}!\$unbanmemberhandler@{\$unbanmemberhandler}}
+\index{\$unbanmemberhandler@{\$unbanmemberhandler}!cron/unbanner.php@{cron/unbanner.\-php}}
+\subsubsection[{\$unbanmemberhandler}]{\setlength{\rightskip}{0pt plus 5cm}\$unbanmemberhandler = xoops\-\_\-getmodulehandler('members','unban')}}\label{cron_2unbanner_8php_aca5d2f7b731319ff76b78409ddf053d5}
+\hypertarget{cron_2unbanner_8php_a110f4b3634321d724bce871da3484f52}{\index{cron/unbanner.\-php@{cron/unbanner.\-php}!\$xo\-Ban\-Module@{\$xo\-Ban\-Module}}
+\index{\$xo\-Ban\-Module@{\$xo\-Ban\-Module}!cron/unbanner.php@{cron/unbanner.\-php}}
+\subsubsection[{\$xo\-Ban\-Module}]{\setlength{\rightskip}{0pt plus 5cm}\$xo\-Ban\-Module = \$module\-\_\-handler-\/$>$get\-By\-Dirname('ban')}}\label{cron_2unbanner_8php_a110f4b3634321d724bce871da3484f52}
+\hypertarget{cron_2unbanner_8php_ac6ad0bb9e31c6e133b077f0d7f1aecc1}{\index{cron/unbanner.\-php@{cron/unbanner.\-php}!\$xo\-Unban\-Module@{\$xo\-Unban\-Module}}
+\index{\$xo\-Unban\-Module@{\$xo\-Unban\-Module}!cron/unbanner.php@{cron/unbanner.\-php}}
+\subsubsection[{\$xo\-Unban\-Module}]{\setlength{\rightskip}{0pt plus 5cm}\$xo\-Unban\-Module = \$module\-\_\-handler-\/$>$get\-By\-Dirname('unban')}}\label{cron_2unbanner_8php_ac6ad0bb9e31c6e133b077f0d7f1aecc1}

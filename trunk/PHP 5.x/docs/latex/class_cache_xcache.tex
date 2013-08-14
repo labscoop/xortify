@@ -1,0 +1,175 @@
+\hypertarget{class_cache_xcache}{\section{Cache\-Xcache Class Reference}
+\label{class_cache_xcache}\index{Cache\-Xcache@{Cache\-Xcache}}
+}
+
+
+Inheritance diagram for Cache\-Xcache\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=156pt]{class_cache_xcache__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cache\-Xcache\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=156pt]{class_cache_xcache__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_xcache_a5a352605cb6d44ea8c1b059e6413589c}{init} (\$\hyperlink{class_cache_engine_ad7354383714c6ae99d6ee1bfb95ab49f}{settings})
+\item 
+\hyperlink{class_cache_xcache_a0e72b4e1d3c5ff461155883cad18358d}{write} (\$key, \&\$value, \$duration)
+\item 
+\hyperlink{class_cache_xcache_a4c50c958c469c08bba0c0ccb710ca8af}{read} (\$key)
+\item 
+\hyperlink{class_cache_xcache_aa74a2edd6f3cbb5c5353f7faa97b6d70}{delete} (\$key)
+\item 
+\hyperlink{class_cache_xcache_aa821bec12eaa7e0f649397c9675ff505}{clear} ()
+\item 
+\hyperlink{class_cache_xcache_ab427c2e7c1591f5e7dd6818f65a38a62}{\-\_\-\-\_\-auth} (\$reverse=false)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_xcache_ac7c3353107070daa85f641882931b358}{\$settings} = array()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Xcache storage engine for cache.
+
+P\-H\-P versions 4 and 5
+
+Cake\-P\-H\-P(tm) \-: Rapid Development Framework \href{http://www.cakephp.org/}{\tt http\-://www.\-cakephp.\-org/} Copyright 2005-\/2008, Cake Software Foundation, Inc. 1785 E. Sahara Avenue, Suite 490-\/204 Las Vegas, Nevada 89104
+
+Licensed under The M\-I\-T License Redistributions of files must retain the above copyright notice.
+
+\begin{DoxyCopyright}{Copyright}
+Copyright 2005-\/2008, Cake Software Foundation, Inc. \hyperlink{}{Cake\-P\-H\-P(tm) Project  Cake\-P\-H\-P(tm) v 1.\-2.\-0.\-4947        \href{http://www.opensource.org/licenses/mit-license.php}{\tt http\-://www.\-opensource.\-org/licenses/mit-\/license.\-php} The M\-I\-T License Xcache storage engine for cache  \href{http://trac.lighttpd.net/xcache/}{\tt http\-://trac.\-lighttpd.\-net/xcache/} Xcache }
+\end{DoxyCopyright}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_cache_xcache_ab427c2e7c1591f5e7dd6818f65a38a62}{\index{Cache\-Xcache@{Cache\-Xcache}!\-\_\-\-\_\-auth@{\-\_\-\-\_\-auth}}
+\index{\-\_\-\-\_\-auth@{\-\_\-\-\_\-auth}!CacheXcache@{Cache\-Xcache}}
+\subsubsection[{\-\_\-\-\_\-auth}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-auth (
+\begin{DoxyParamCaption}
+\item[{}]{\$reverse = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{class_cache_xcache_ab427c2e7c1591f5e7dd6818f65a38a62}
+Populates and reverses \$\-\_\-\-S\-E\-R\-V\-E\-R authentication values Makes necessary changes (and reverting them back) in \$\-\_\-\-S\-E\-R\-V\-E\-R
+
+This has to be done because xcache\-\_\-clear\-\_\-cache() needs to pass Basic Http Auth (see xcache.\-admin configuration settings)
+
+
+\begin{DoxyParams}{Parameters}
+{\em boolean} & \$ Revert changes  private \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cache_xcache_aa821bec12eaa7e0f649397c9675ff505}{\index{Cache\-Xcache@{Cache\-Xcache}!clear@{clear}}
+\index{clear@{clear}!CacheXcache@{Cache\-Xcache}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cache_xcache_aa821bec12eaa7e0f649397c9675ff505}
+Delete all keys from the cache
+
+\begin{DoxyReturn}{Returns}
+boolean True if the cache was succesfully cleared, false otherwise  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_xcache_aa74a2edd6f3cbb5c5353f7faa97b6d70}{\index{Cache\-Xcache@{Cache\-Xcache}!delete@{delete}}
+\index{delete@{delete}!CacheXcache@{Cache\-Xcache}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_xcache_aa74a2edd6f3cbb5c5353f7faa97b6d70}
+Delete a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_xcache_a5a352605cb6d44ea8c1b059e6413589c}{\index{Cache\-Xcache@{Cache\-Xcache}!init@{init}}
+\index{init@{init}!CacheXcache@{Cache\-Xcache}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}init (
+\begin{DoxyParamCaption}
+\item[{}]{\$settings}
+\end{DoxyParamCaption}
+)}}\label{class_cache_xcache_a5a352605cb6d44ea8c1b059e6413589c}
+Initialize the \hyperlink{class_cache}{Cache} Engine
+
+Called automatically by the cache frontend To reinitialize the settings call \hyperlink{class_cache_a227d1ab3c57640a1692c8d090eb4ef22}{Cache\-::engine}('Engine\-Name', \mbox{[}optional\mbox{]} settings = array());
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$setting} & array of setting for the engine \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the engine has been successfully initialized, false if not  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_xcache_a4c50c958c469c08bba0c0ccb710ca8af}{\index{Cache\-Xcache@{Cache\-Xcache}!read@{read}}
+\index{read@{read}!CacheXcache@{Cache\-Xcache}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}read (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_xcache_a4c50c958c469c08bba0c0ccb710ca8af}
+Read a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_xcache_a0e72b4e1d3c5ff461155883cad18358d}{\index{Cache\-Xcache@{Cache\-Xcache}!write@{write}}
+\index{write@{write}!CacheXcache@{Cache\-Xcache}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}write (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{\&}]{\$value, }
+\item[{}]{\$duration}
+\end{DoxyParamCaption}
+)}}\label{class_cache_xcache_a0e72b4e1d3c5ff461155883cad18358d}
+Write data for key into cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+mixed & {\em \$value} & Data to be cached \\
+\hline
+integer & {\em \$duration} & How long to cache the data, in seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the data was succesfully cached, false on failure  public 
+\end{DoxyReturn}
+
+
+\subsection{Field Documentation}
+\hypertarget{class_cache_xcache_ac7c3353107070daa85f641882931b358}{\index{Cache\-Xcache@{Cache\-Xcache}!\$settings@{\$settings}}
+\index{\$settings@{\$settings}!CacheXcache@{Cache\-Xcache}}
+\subsubsection[{\$settings}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf settings} = array()}}\label{class_cache_xcache_ac7c3353107070daa85f641882931b358}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Q\-:/@websites@/coop/labs/dev2/class/cache/\hyperlink{xcache_8php}{xcache.\-php}\end{DoxyCompactItemize}

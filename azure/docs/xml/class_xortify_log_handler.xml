@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_log_handler" kind="class" prot="public">
+    <compoundname>XortifyLogHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_log_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/log.php" line="127" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/log.php" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_log_handler_1a43ce63406579e889066e8a073ff2ccf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert</definition>
+        <argsstring>($object, $force=true)</argsstring>
+        <name>insert</name>
+        <param>
+          <declname>$object</declname>
+        </param>
+        <param>
+          <declname>$force</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/log.php" line="133" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/log.php" bodystart="133" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_log_handler_1a9438af458937a969601359ed9db48792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCountByField</definition>
+        <argsstring>($field, $value)</argsstring>
+        <name>getCountByField</name>
+        <param>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/log.php" line="164" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/log.php" bodystart="164" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="727">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="726">
+        <label>XortifyLogHandler</label>
+        <link refid="class_xortify_log_handler"/>
+        <childnode refid="727" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="729">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="728">
+        <label>XortifyLogHandler</label>
+        <link refid="class_xortify_log_handler"/>
+        <childnode refid="729" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/log.php" line="126" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/log.php" bodystart="125" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_xortify_log_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>XortifyLogHandler</scope><name>__construct</name></member>
+      <member refid="class_xortify_log_handler_1a9438af458937a969601359ed9db48792" prot="public" virt="non-virtual"><scope>XortifyLogHandler</scope><name>getCountByField</name></member>
+      <member refid="class_xortify_log_handler_1a43ce63406579e889066e8a073ff2ccf9" prot="public" virt="non-virtual"><scope>XortifyLogHandler</scope><name>insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

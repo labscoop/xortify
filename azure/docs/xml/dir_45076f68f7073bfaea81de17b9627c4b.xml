@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_45076f68f7073bfaea81de17b9627c4b" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xortify/providers/xortify</compoundname>
+    <innerfile refid="xortify_2footer_8post_8loader_8php">footer.post.loader.php</innerfile>
+    <innerfile refid="xortify_2header_8post_8loader_8php">header.post.loader.php</innerfile>
+    <innerfile refid="xortify_2post_8loader_8php">post.loader.php</innerfile>
+    <innerfile refid="pre_8loader_8php">pre.loader.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/xortify/"/>
+  </compounddef>
+</doxygen>

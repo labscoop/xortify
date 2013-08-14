@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_auth" kind="class" prot="public">
+    <compoundname>XortifyAuth</compoundname>
+    <derivedcompoundref refid="class_xortify_auth_curl" prot="public" virt="non-virtual">XortifyAuthCurl</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_curlserialised" prot="public" virt="non-virtual">XortifyAuthCurlserialised</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_curlxml" prot="public" virt="non-virtual">XortifyAuthCurlxml</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_json" prot="public" virt="non-virtual">XortifyAuthJson</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_rest___curl" prot="public" virt="non-virtual">XortifyAuthRest_Curl</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_rest___curlserialised" prot="public" virt="non-virtual">XortifyAuthRest_Curlserialised</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_rest___curlxml" prot="public" virt="non-virtual">XortifyAuthRest_Curlxml</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_rest___json" prot="public" virt="non-virtual">XortifyAuthRest_Json</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_rest___wgetserialised" prot="public" virt="non-virtual">XortifyAuthRest_Wgetserialised</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_rest___wgetxml" prot="public" virt="non-virtual">XortifyAuthRest_Wgetxml</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_soap" prot="public" virt="non-virtual">XortifyAuthSoap</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_wgetserialised" prot="public" virt="non-virtual">XortifyAuthWgetserialised</derivedcompoundref>
+    <derivedcompoundref refid="class_xortify_auth_wgetxml" prot="public" virt="non-virtual">XortifyAuthWgetxml</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xortify_auth_1a12a029c610f699b4b25e79a1f64a3485" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_dao</definition>
+        <argsstring></argsstring>
+        <name>$_dao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="36" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xortify_auth_1a09272cb16edd572f760a622f37cee6d1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_errors</definition>
+        <argsstring></argsstring>
+        <name>$_errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="38" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_auth_1a726d2829d96759ca86f62e9990b10a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XortifyAuth</definition>
+        <argsstring>(&amp;$dao)</argsstring>
+        <name>XortifyAuth</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$dao</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Authentication Service constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="42" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_1a750c93a7dfab5314f2bf662a407bc5a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>authenticate</definition>
+        <argsstring>()</argsstring>
+        <name>authenticate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>need to be write in the dervied class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="49" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_1a84268a33f3ed3114bd0b08404e48893f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setErrors</definition>
+        <argsstring>($err_no, $err_str)</argsstring>
+        <name>setErrors</name>
+        <param>
+          <declname>$err_no</declname>
+        </param>
+        <param>
+          <declname>$err_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>add an error</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>error to add  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="61" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_1a6e548ebf2656742bfd19939ead923ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getErrors</definition>
+        <argsstring>()</argsstring>
+        <name>getErrors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the errors for this object as an array</para><para><simplesect kind="return"><para>array an array of errors  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="72" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_1a10ee66ee5b086b4e6692174531af900e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getHtmlErrors</definition>
+        <argsstring>()</argsstring>
+        <name>getHtmlErrors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return the errors for this object as html</para><para><simplesect kind="return"><para>string html listing the errors  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="83" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="83" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_1a9d67d9bde367762a7a27e279e3cfcdf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>check_siteinfo</definition>
+        <argsstring>($siteinfo)</argsstring>
+        <name>check_siteinfo</name>
+        <param>
+          <declname>$siteinfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks for variables require in siteinfo package in the auth library</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$siteinfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array $siteinfo  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="112" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="112" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="230">
+        <label>XortifyAuthCurlxml</label>
+        <link refid="class_xortify_auth_curlxml"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>XortifyAuthWgetserialised</label>
+        <link refid="class_xortify_auth_wgetserialised"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="227">
+        <label>XortifyAuth</label>
+        <link refid="class_xortify_auth"/>
+      </node>
+      <node id="234">
+        <label>XortifyAuthRest_Curlxml</label>
+        <link refid="class_xortify_auth_rest___curlxml"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>XortifyAuthRest_Wgetxml</label>
+        <link refid="class_xortify_auth_rest___wgetxml"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>XortifyAuthJson</label>
+        <link refid="class_xortify_auth_json"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>XortifyAuthCurl</label>
+        <link refid="class_xortify_auth_curl"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>XortifyAuthRest_Wgetserialised</label>
+        <link refid="class_xortify_auth_rest___wgetserialised"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>XortifyAuthRest_Curlserialised</label>
+        <link refid="class_xortify_auth_rest___curlserialised"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>XortifyAuthCurlserialised</label>
+        <link refid="class_xortify_auth_curlserialised"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>XortifyAuthRest_Curl</label>
+        <link refid="class_xortify_auth_rest___curl"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>XortifyAuthSoap</label>
+        <link refid="class_xortify_auth_soap"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>XortifyAuthWgetxml</label>
+        <link refid="class_xortify_auth_wgetxml"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>XortifyAuthRest_Json</label>
+        <link refid="class_xortify_auth_rest___json"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" line="34" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth.php" bodystart="34" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_xortify_auth_1a12a029c610f699b4b25e79a1f64a3485" prot="public" virt="non-virtual"><scope>XortifyAuth</scope><name>$_dao</name></member>
+      <member refid="class_xortify_auth_1a09272cb16edd572f760a622f37cee6d1" prot="public" virt="non-virtual"><scope>XortifyAuth</scope><name>$_errors</name></member>
+      <member refid="class_xortify_auth_1a750c93a7dfab5314f2bf662a407bc5a6" prot="public" virt="non-virtual"><scope>XortifyAuth</scope><name>authenticate</name></member>
+      <member refid="class_xortify_auth_1a9d67d9bde367762a7a27e279e3cfcdf3" prot="public" virt="non-virtual"><scope>XortifyAuth</scope><name>check_siteinfo</name></member>
+      <member refid="class_xortify_auth_1a6e548ebf2656742bfd19939ead923ed2" prot="public" virt="non-virtual"><scope>XortifyAuth</scope><name>getErrors</name></member>
+      <member refid="class_xortify_auth_1a10ee66ee5b086b4e6692174531af900e" prot="public" virt="non-virtual"><scope>XortifyAuth</scope><name>getHtmlErrors</name></member>
+      <member refid="class_xortify_auth_1a84268a33f3ed3114bd0b08404e48893f" prot="public" virt="non-virtual"><scope>XortifyAuth</scope><name>setErrors</name></member>
+      <member refid="class_xortify_auth_1a726d2829d96759ca86f62e9990b10a15" prot="public" virt="non-virtual"><scope>XortifyAuth</scope><name>XortifyAuth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

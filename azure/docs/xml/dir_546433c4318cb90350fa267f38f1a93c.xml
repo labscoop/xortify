@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_546433c4318cb90350fa267f38f1a93c" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/ban/class</compoundname>
+    <innerfile refid="ban_2class_2categories_8php">categories.php</innerfile>
+    <innerfile refid="ban_2class_2formrecaptcha_8php">formrecaptcha.php</innerfile>
+    <innerfile refid="ban_2class_2formselectcategory_8php">formselectcategory.php</innerfile>
+    <innerfile refid="ban_2class_2formselectmember_8php">formselectmember.php</innerfile>
+    <innerfile refid="modules_2ban_2class_2ip2locationlite_8class_8php">ip2locationlite.class.php</innerfile>
+    <innerfile refid="ban_2class_2members_8php">members.php</innerfile>
+    <innerfile refid="ban_2class_2uploader_8php">uploader.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/class/"/>
+  </compounddef>
+</doxygen>

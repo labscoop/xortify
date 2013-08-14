@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_auth_rest___wgetxml_provisionning" kind="class" prot="public">
+    <compoundname>XortifyAuthRest_WgetxmlProvisionning</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xortify_auth_rest___wgetxml_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_auth_instance</definition>
+        <argsstring></argsstring>
+        <name>$_auth_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="36" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>&amp;</type>
+        <definition>&amp; getInstance</definition>
+        <argsstring>(&amp;$auth_instance)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$auth_instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="38" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1a0f25832dc86774e7605b81fe57b083c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$auth_instance)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$auth_instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Authentication Service constructor </para>        </detaileddescription>
+        <inbodydescription>
+<para>Syronise User to Database/Storage Mechanism</para>        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="50" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1a041d726ac26672547ed1504e8e0117aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getXortifyUser</definition>
+        <argsstring>($uname)</argsstring>
+        <name>getXortifyUser</name>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a Xortify User Object</para><para><simplesect kind="return"><para>XortifyUser or false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Get a USer Object based on $uname</para>        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="62" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sync</definition>
+        <argsstring>($datas, $uname, $pwd=null)</argsstring>
+        <name>sync</name>
+        <param>
+          <declname>$datas</declname>
+        </param>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <param>
+          <declname>$pwd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Launch the synchronisation process</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Syronise User to Database/Storage Mechanism</para>        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="73" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>add</definition>
+        <argsstring>($datas, $uname, $pwd=null)</argsstring>
+        <name>add</name>
+        <param>
+          <declname>$datas</declname>
+        </param>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <param>
+          <declname>$pwd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a new user to the system</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Add User to Database/Storage Mechanism</para>        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="84" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="84" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1ae1f0971b9712c794620cf309164e43af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>change</definition>
+        <argsstring>(&amp;$xoopsUser, $datas, $uname, $pwd=null)</argsstring>
+        <name>change</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$xoopsUser</declname>
+        </param>
+        <param>
+          <declname>$datas</declname>
+        </param>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <param>
+          <declname>$pwd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modify user information</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Update &amp; Change User to Database/Storage Mechanism</para>        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="96" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="96" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1a94f4e0408f26e65abca347ec883f4ec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>change_json</definition>
+        <argsstring>(&amp;$xoopsUser, $datas, $uname, $pwd=null)</argsstring>
+        <name>change_json</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$xoopsUser</declname>
+        </param>
+        <param>
+          <declname>$datas</declname>
+        </param>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <param>
+          <declname>$pwd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Update &amp; Change User to Database/Storage Mechanism</para>        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="102" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="102" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1a13bdffdd926f26b825ea57066334ff01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modify a user</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="113" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="113" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1ad73006a505121228f3b075c2409787d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>suspend</definition>
+        <argsstring>()</argsstring>
+        <name>suspend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Suspend a user</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="121" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="121" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1aa1371f22826cf8cde4454c9b467203d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>restore</definition>
+        <argsstring>()</argsstring>
+        <name>restore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Restore a user</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="129" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="129" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>resetpwd</definition>
+        <argsstring>()</argsstring>
+        <name>resetpwd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a new user to the system</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="137" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="137" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" line="34" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/auth/auth_rest_wgetxml_provisionning.php" bodystart="34" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>$_auth_instance</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a0f25832dc86774e7605b81fe57b083c2" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>__construct</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>add</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1ae1f0971b9712c794620cf309164e43af" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>change</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a94f4e0408f26e65abca347ec883f4ec9" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>change_json</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a13bdffdd926f26b825ea57066334ff01" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>delete</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>getInstance</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a041d726ac26672547ed1504e8e0117aa" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>getXortifyUser</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>resetpwd</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1aa1371f22826cf8cde4454c9b467203d0" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>restore</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1ad73006a505121228f3b075c2409787d2" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>suspend</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" prot="public" virt="non-virtual"><scope>XortifyAuthRest_WgetxmlProvisionning</scope><name>sync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_9de7d06eabdac68592f1bdebc48e6eb0" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap</compoundname>
+    <innerfile refid="class_8nusoap__base_8php">class.nusoap_base.php</innerfile>
+    <innerfile refid="class_8soap__fault_8php">class.soap_fault.php</innerfile>
+    <innerfile refid="class_8soap__parser_8php">class.soap_parser.php</innerfile>
+    <innerfile refid="class_8soap__server_8php">class.soap_server.php</innerfile>
+    <innerfile refid="class_8soap__transport__http_8php">class.soap_transport_http.php</innerfile>
+    <innerfile refid="class_8soap__val_8php">class.soap_val.php</innerfile>
+    <innerfile refid="class_8soapclient_8php">class.soapclient.php</innerfile>
+    <innerfile refid="class_8wsdl_8php">class.wsdl.php</innerfile>
+    <innerfile refid="class_8wsdlcache_8php">class.wsdlcache.php</innerfile>
+    <innerfile refid="class_8xmlschema_8php">class.xmlschema.php</innerfile>
+    <innerfile refid="nusoap_8php">nusoap.php</innerfile>
+    <innerfile refid="nusoapmime_8php">nusoapmime.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/"/>
+  </compounddef>
+</doxygen>

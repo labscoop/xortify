@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="unban_2language_2english_2main_8php" kind="file">
+    <compoundname>main.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1ac6cf3d9d8469ffdd8415efe396931838" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_MEMBER_ID</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_MEMBER_ID</name>
+        <initializer>&apos;Ban ID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="3" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a07d706871275028ae7ebf86b3636769c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_CATEGORY_ID</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_CATEGORY_ID</name>
+        <initializer>&apos;Category ID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="4" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a4251523989a471d3d9bf1ad8206c9eed" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_UID</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_UID</name>
+        <initializer>&apos;User ID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="5" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1aca1ca3286a534305a133c6bf6dd847ce" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_UNAME</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_UNAME</name>
+        <initializer>&apos;Username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="6" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1abbddb70a3787f32438ed1096ff35ea6d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_EMAIL</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_EMAIL</name>
+        <initializer>&apos;Email&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="7" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1ab61dd579f459c5c6e86dd34fffbf573a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_IP4</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_IP4</name>
+        <initializer>&apos;IPv4&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="8" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1af3311254e88e157e517e4764814b51ec" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_IP6</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_IP6</name>
+        <initializer>&apos;IPv6&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="9" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a5838ff69fe0e0f055795f3ecc3571a44" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_LONG</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_LONG</name>
+        <initializer>&apos;Network Pointer&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="10" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a0fec5df0697e3c585ed90d554de71b0a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_PROXY_IP4</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_PROXY_IP4</name>
+        <initializer>&apos;Proxy IPv4&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="11" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a9ea13bc71e5ebe6ab29c58c108ca6435" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_PROXY_IP6</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_PROXY_IP6</name>
+        <initializer>&apos;Proxy IPv6&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="12" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1aa7196fccbdf1fb4701379a58173b0dc5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_NETWORK_ADDY</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_NETWORK_ADDY</name>
+        <initializer>&apos;Netbios Name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="13" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a3b6b47f40dc97a8cd6054afb4bac2ff8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_MAC_ADDY</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_MAC_ADDY</name>
+        <initializer>&apos;Mac Address&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1ab0bd3fbbf8cd98d6905d708e93e11a50" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_COUNTRY_CODE</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_COUNTRY_CODE</name>
+        <initializer>&apos;Country Code&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="15" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1ad12496dc0279752309234a22b2ab8884" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_COUNTRY_NAME</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_COUNTRY_NAME</name>
+        <initializer>&apos;Country&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a99bda67870c3842977074e9b81fb555f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_REGION_NAME</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_REGION_NAME</name>
+        <initializer>&apos;Region&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="17" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1abe45e055f0a4dc3f7db6350519b219d7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_CITY_NAME</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_CITY_NAME</name>
+        <initializer>&apos;City&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="18" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1ab0d7a937670a31f83810d74a6eb35869" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_POSTCODE</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_POSTCODE</name>
+        <initializer>&apos;Postcode&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1ac48063cb5847043de9f6f8466bd86182" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_LATITUDE</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_LATITUDE</name>
+        <initializer>&apos;Latitude&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1aa551b7f4b921918ec8fdd611228554b8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_LONGITUDE</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_LONGITUDE</name>
+        <initializer>&apos;Longitude&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a86bcfc1ed3e96d318af7018e27da7d96" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_TIMEZONE</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_TIMEZONE</name>
+        <initializer>&apos;Timezone&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2main_8php_1a93c8727a0e60c8ecbb4b9355e5636ae9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MF_MADE</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MF_MADE</name>
+        <initializer>&apos;Ban Made&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_MEMBER_ID&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Ban<sp/>ID&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_CATEGORY_ID&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Category<sp/>ID&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_UID&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;User<sp/>ID&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_UNAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Username&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_EMAIL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Email&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_IP4&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;IPv4&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_IP6&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;IPv6&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_LONG&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Network<sp/>Pointer&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_PROXY_IP4&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Proxy<sp/>IPv4&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_PROXY_IP6&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Proxy<sp/>IPv6&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_NETWORK_ADDY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Netbios<sp/>Name&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_MAC_ADDY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Mac<sp/>Address&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_COUNTRY_CODE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Country<sp/>Code&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_COUNTRY_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Country&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_REGION_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Region&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_CITY_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;City&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_POSTCODE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Postcode&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_LATITUDE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Latitude&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_LONGITUDE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Longitude&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_TIMEZONE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Timezone&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MF_MADE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Ban<sp/>Made&apos;</highlight><highlight class="normal">);s</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/main.php"/>
+  </compounddef>
+</doxygen>

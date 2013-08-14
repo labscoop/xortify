@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2include_2categories_8forms_8php" kind="file">
+    <compoundname>categories.forms.php</compoundname>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ban_2include_2categories_8forms_8php_1a0aaeb792f69a86884319a4bea547bc6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>edit_categories_form</definition>
+        <argsstring>()</argsstring>
+        <name>edit_categories_form</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Edit Categories Form edit_categories_form() </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/include/categories.forms.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/include/categories.forms.php" bodystart="24" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="ban_2include_2categories_8forms_8php_1a2a9891134ce0b26d69ef438ae45fa613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sel_categories_form</definition>
+        <argsstring>()</argsstring>
+        <name>sel_categories_form</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Select Categories Form sel_categories_form() </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/include/categories.forms.php" line="61" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/include/categories.forms.php" bodystart="61" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="24"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>edit_categories_form()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$id<sp/>=<sp/>intval($_REQUEST[</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">]);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$categorieshandler<sp/>=<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;categories&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;ban&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$categories<sp/>=<sp/>$categorieshandler-&gt;get($id);<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$category_id<sp/>=<sp/>$categories-&gt;getVar(</highlight><highlight class="stringliteral">&apos;category_id&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$category_name<sp/>=<sp/>$categories-&gt;getVar(</highlight><highlight class="stringliteral">&apos;category_name&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$category_weight<sp/>=<sp/>$categories-&gt;getVar(</highlight><highlight class="stringliteral">&apos;category_weight&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$title<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Edit<sp/>categories<sp/>Item&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$category_id<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$category_weight<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$category_name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$title<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;New<sp/>categories<sp/>Item&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>$form<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsThemeForm($title,<sp/></highlight><highlight class="stringliteral">&quot;edititem&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormText(</highlight><highlight class="stringliteral">&apos;Name:&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;category_name&quot;</highlight><highlight class="normal">,<sp/>35,<sp/>128,<sp/>$category_name));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//$form-&gt;addElement(new<sp/>XoopsFormText(&apos;Weight:&apos;,<sp/>&quot;weight&quot;,<sp/>5,<sp/>3,<sp/>$weight));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormHidden(</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal">,<sp/>$category_id));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormHidden(</highlight><highlight class="stringliteral">&quot;op&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;categories&quot;</highlight><highlight class="normal">));<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormHidden(</highlight><highlight class="stringliteral">&quot;fct&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;save&quot;</highlight><highlight class="normal">));<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormButton(</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;contents_submit&apos;</highlight><highlight class="normal">,<sp/>_SUBMIT,<sp/></highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;display();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>sel_categories_form()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>$form<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsThemeForm(</highlight><highlight class="stringliteral">&apos;Current<sp/>Categories&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;current&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>$categorieshandler<sp/>=<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;categories&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;ban&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">,<sp/>1);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>$categories<sp/>=<sp/>$categorieshandler-&gt;getObjects($criteria);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>$element<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($categories<sp/>as<sp/>$key<sp/>=&gt;<sp/>$item)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$element[$key]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormElementTray(</highlight><highlight class="stringliteral">&apos;Item<sp/>&apos;</highlight><highlight class="normal">.$item-&gt;getVar(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">).</highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$element[$key]-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormLabel(</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&lt;a<sp/>href=&quot;index.php?op=categories&amp;fct=edit&amp;id=&apos;</highlight><highlight class="normal">.$item-&gt;getVar(</highlight><highlight class="stringliteral">&apos;category_id&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&quot;&gt;Edit&lt;/a&gt;&amp;nbsp;&lt;a<sp/>href=&quot;index.php?op=categories&amp;fct=delete&amp;id=&apos;</highlight><highlight class="normal">.$item-&gt;getVar(</highlight><highlight class="stringliteral">&apos;category_id&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&quot;&gt;Delete&lt;/a&gt;&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//$element[$key]-&gt;addElement(new<sp/>XoopsFormText(&apos;Weight:&apos;,<sp/>&apos;weight[&apos;.$item-&gt;getVar(&apos;category_id&apos;).&apos;]&apos;,<sp/>4,<sp/>5,<sp/>$item-&gt;getVar(&apos;category_weight&apos;)));<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$element[$key]-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormText(</highlight><highlight class="stringliteral">&apos;Name:&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;category_name[&apos;</highlight><highlight class="normal">.$item-&gt;getVar(</highlight><highlight class="stringliteral">&apos;category_id&apos;</highlight><highlight class="normal">).</highlight><highlight class="charliteral">&apos;]&apos;</highlight><highlight class="normal">,<sp/>25,128,$item-&gt;getVar(</highlight><highlight class="stringliteral">&apos;category_name&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$element[$key]-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormHidden(</highlight><highlight class="stringliteral">&apos;id[&apos;</highlight><highlight class="normal">.$key.</highlight><highlight class="charliteral">&apos;]&apos;</highlight><highlight class="normal">,<sp/>$item-&gt;getVar(</highlight><highlight class="stringliteral">&apos;category_id&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$form-&gt;addElement($element[$key]);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormHidden(</highlight><highlight class="stringliteral">&quot;op&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;categories&quot;</highlight><highlight class="normal">));<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormHidden(</highlight><highlight class="stringliteral">&quot;fct&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;saveall&quot;</highlight><highlight class="normal">));<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;addElement(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsFormButton(</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;contents_submit&apos;</highlight><highlight class="normal">,<sp/>_SUBMIT,<sp/></highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>$form-&gt;display();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/include/categories.forms.php"/>
+  </compounddef>
+</doxygen>

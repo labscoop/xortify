@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_5636210073ee525eff3466868d38080d" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xxml</compoundname>
+    <innerdir refid="dir_9ebec20951c60bf89fe511fa5710696f">E:/Packages/xortify server/htdocs/modules/xxml/admin</innerdir>
+    <innerdir refid="dir_cbe7bc3d816776f5497e27597fe32beb">E:/Packages/xortify server/htdocs/modules/xxml/class</innerdir>
+    <innerdir refid="dir_32d26ac719ede4b7290aa11a39a8530a">E:/Packages/xortify server/htdocs/modules/xxml/include</innerdir>
+    <innerdir refid="dir_5a24aff5086ba7b49e18a4f852622e2a">E:/Packages/xortify server/htdocs/modules/xxml/language</innerdir>
+    <innerdir refid="dir_8fcaca7a2ccce141b90edea55484fb1d">E:/Packages/xortify server/htdocs/modules/xxml/plugins</innerdir>
+    <innerfile refid="modules_2xxml_2index_8php">index.php</innerfile>
+    <innerfile refid="xxml_2xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xxml/"/>
+  </compounddef>
+</doxygen>

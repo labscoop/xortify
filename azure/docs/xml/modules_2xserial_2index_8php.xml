@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="modules_2xserial_2index_8php" kind="file">
+    <compoundname>index.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="modules_2xserial_2index_8php_1a3f95f6850405b658dbfda45a952e644e" prot="public" static="no" mutable="no">
+        <type>if(empty($_POST)&amp;&amp;empty($_GET))</type>
+        <definition>if (empty($_POST)&amp;&amp;empty($_GET)) else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{
+		include (dirname(__FILE__).DIRECTORY_SEPARATOR.&apos;include&apos;.DIRECTORY_SEPARATOR.&apos;server.php&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/index.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/index.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xserial_2index_8php_1a6733eb5f605d09eaede9845835d71c4e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>exit</definition>
+        <argsstring></argsstring>
+        <name>exit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/index.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/index.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">include<sp/>(dirname(dirname(dirname(__FILE__))).DIRECTORY_SEPARATOR.</highlight><highlight class="stringliteral">&apos;mainfile.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(empty($_POST)&amp;&amp;empty($_GET))<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>header(</highlight><highlight class="stringliteral">&apos;Location:<sp/>&apos;</highlight><highlight class="normal">.XOOPS_URL);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>exit;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include<sp/>(dirname(__FILE__).DIRECTORY_SEPARATOR.</highlight><highlight class="stringliteral">&apos;include&apos;</highlight><highlight class="normal">.DIRECTORY_SEPARATOR.</highlight><highlight class="stringliteral">&apos;server.php&apos;</highlight><highlight class="normal">);;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>exit;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xserial/index.php"/>
+  </compounddef>
+</doxygen>

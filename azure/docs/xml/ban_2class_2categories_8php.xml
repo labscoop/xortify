@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2class_2categories_8php" kind="file">
+    <compoundname>categories.php</compoundname>
+    <innerclass refid="classban_categories" prot="public">banCategories</innerclass>
+    <innerclass refid="classban_categories_handler" prot="public">banCategoriesHandler</innerclass>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="20"><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!defined(</highlight><highlight class="stringliteral">&apos;XOOPS_ROOT_PATH&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>exit();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29" refid="classban_categories" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classban_categories" kindref="compound">banCategories</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>XoopsObject</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classban_categories" kindref="compound">banCategories</ref>($fid<sp/>=<sp/>null)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;initVar(</highlight><highlight class="stringliteral">&apos;category_id&apos;</highlight><highlight class="normal">,<sp/>XOBJ_DTYPE_INT,<sp/>null,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;initVar(</highlight><highlight class="stringliteral">&apos;category_name&apos;</highlight><highlight class="normal">,<sp/>XOBJ_DTYPE_TXTBOX,<sp/>null,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>128);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classban_categories_handler" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classban_categories_handler" kindref="compound">banCategoriesHandler</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>XoopsPersistableObjectHandler</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct(&amp;$db)<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::__construct($db,<sp/></highlight><highlight class="stringliteral">&quot;ban_categories&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;banCategories&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;category_id&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;category_name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/class/categories.php"/>
+  </compounddef>
+</doxygen>

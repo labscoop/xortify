@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="com-example" kind="example">
+    <compoundname>com</compoundname>
+    <detaileddescription>
+<para>gets the parts of the email to expose to the user. eg, given johndoe return [&quot;john&quot;, &quot;example.com&quot;]. the email is then displayed as <ulink url="mailto:john...@example.com">john...@example.com</ulink> <programlisting></programlisting> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

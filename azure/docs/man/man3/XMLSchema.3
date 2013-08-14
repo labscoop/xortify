@@ -1,0 +1,773 @@
+.TH "XMLSchema" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+XMLSchema \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBnusoap_base\fP, and \fBnusoap_base\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBXMLSchema\fP ($schema='', $xml='', $namespaces=array())"
+.br
+.ti -1c
+.RI "\fBparseFile\fP ($xml, $type)"
+.br
+.ti -1c
+.RI "\fBparseString\fP ($xml, $type)"
+.br
+.ti -1c
+.RI "\fBschemaStartElement\fP ($parser, $name, $attrs)"
+.br
+.ti -1c
+.RI "\fBschemaEndElement\fP ($parser, $name)"
+.br
+.ti -1c
+.RI "\fBschemaCharacterData\fP ($parser, $data)"
+.br
+.ti -1c
+.RI "\fBserializeSchema\fP ()"
+.br
+.ti -1c
+.RI "\fBxdebug\fP ($string)"
+.br
+.ti -1c
+.RI "\fBgetPHPType\fP ($type, $ns)"
+.br
+.ti -1c
+.RI "\fBgetTypeDef\fP ($type)"
+.br
+.ti -1c
+.RI "\fBserializeTypeDef\fP ($type)"
+.br
+.ti -1c
+.RI "\fBtypeToForm\fP ($name, $type)"
+.br
+.ti -1c
+.RI "\fBaddComplexType\fP ($name, $typeClass='complexType', $phpType='array', $compositor='', $restrictionBase='', $elements=array(), $attrs=array(), $arrayType='')"
+.br
+.ti -1c
+.RI "\fBaddSimpleType\fP ($name, $restrictionBase='', $typeClass='simpleType', $phpType='scalar', $enumeration=array())"
+.br
+.ti -1c
+.RI "\fBaddElement\fP ($attrs)"
+.br
+.ti -1c
+.RI "\fBXMLSchema\fP ($schema='', $xml='', $namespaces=array())"
+.br
+.ti -1c
+.RI "\fBparseFile\fP ($xml, $type)"
+.br
+.ti -1c
+.RI "\fBparseString\fP ($xml, $type)"
+.br
+.ti -1c
+.RI "\fBschemaStartElement\fP ($parser, $name, $attrs)"
+.br
+.ti -1c
+.RI "\fBschemaEndElement\fP ($parser, $name)"
+.br
+.ti -1c
+.RI "\fBschemaCharacterData\fP ($parser, $data)"
+.br
+.ti -1c
+.RI "\fBserializeSchema\fP ()"
+.br
+.ti -1c
+.RI "\fBxdebug\fP ($string)"
+.br
+.ti -1c
+.RI "\fBgetPHPType\fP ($type, $ns)"
+.br
+.ti -1c
+.RI "\fBgetTypeDef\fP ($type)"
+.br
+.ti -1c
+.RI "\fBserializeTypeDef\fP ($type)"
+.br
+.ti -1c
+.RI "\fBtypeToForm\fP ($name, $type)"
+.br
+.ti -1c
+.RI "\fBaddComplexType\fP ($name, $typeClass='complexType', $phpType='array', $compositor='', $restrictionBase='', $elements=array(), $attrs=array(), $arrayType='')"
+.br
+.ti -1c
+.RI "\fBaddSimpleType\fP ($name, $restrictionBase='', $typeClass='simpleType', $phpType='scalar', $enumeration=array())"
+.br
+.ti -1c
+.RI "\fBaddElement\fP ($attrs)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$schema\fP = ''"
+.br
+.ti -1c
+.RI "\fB$xml\fP = ''"
+.br
+.ti -1c
+.RI "\fB$enclosingNamespaces\fP"
+.br
+.ti -1c
+.RI "\fB$schemaInfo\fP = array()"
+.br
+.ti -1c
+.RI "\fB$schemaTargetNamespace\fP = ''"
+.br
+.ti -1c
+.RI "\fB$attributes\fP = array()"
+.br
+.ti -1c
+.RI "\fB$complexTypes\fP = array()"
+.br
+.ti -1c
+.RI "\fB$complexTypeStack\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentComplexType\fP = null"
+.br
+.ti -1c
+.RI "\fB$elements\fP = array()"
+.br
+.ti -1c
+.RI "\fB$elementStack\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentElement\fP = null"
+.br
+.ti -1c
+.RI "\fB$simpleTypes\fP = array()"
+.br
+.ti -1c
+.RI "\fB$simpleTypeStack\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentSimpleType\fP = null"
+.br
+.ti -1c
+.RI "\fB$imports\fP = array()"
+.br
+.ti -1c
+.RI "\fB$parser\fP"
+.br
+.ti -1c
+.RI "\fB$position\fP = 0"
+.br
+.ti -1c
+.RI "\fB$depth\fP = 0"
+.br
+.ti -1c
+.RI "\fB$depth_array\fP = array()"
+.br
+.ti -1c
+.RI "\fB$message\fP = array()"
+.br
+.ti -1c
+.RI "\fB$defaultNamespace\fP = array()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+parses an XML Schema, allows access to it's data, other utility methods no validation\&.\&.\&. yet\&. very experimental and limited\&. As is discussed on XML-DEV, I'm one of the people that just doesn't have time to read the spec(s) thoroughly, and just have a couple of trusty tutorials I refer to :)
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.xmlschema\&.php\fP,v 1\&.39 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+parses an XML Schema, allows access to it's data, other utility methods no validation\&.\&.\&. yet\&. very experimental and limited\&. As is discussed on XML-DEV, I'm one of the people that just doesn't have time to read the spec(s) thoroughly, and just have a couple of trusty tutorials I refer to :)
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 17 of file class\&.xmlschema\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "addComplexType ($name, $typeClass = \fC'complexType'\fP, $phpType = \fC'array'\fP, $compositor = \fC''\fP, $restrictionBase = \fC''\fP, $elements = \fCarray()\fP, $attrs = \fCarray()\fP, $arrayType = \fC''\fP)"
+adds a complex type to the schema
+.PP
+example: array
+.PP
+addType( 'ArrayOfstring', 'complexType', 'array', '', 'SOAP-ENC:Array', array('ref'=>'SOAP-ENC:arrayType','wsdl:arrayType'=>'string[]'), 'xsd:string' );
+.PP
+example: PHP associative array ( SOAP Struct )
+.PP
+addType( 'SOAPStruct', 'complexType', 'struct', 'all', array('myVar'=> array('name'=>'myVar','type'=>'string') );
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.br
+\fItypeClass\fP (complexType|simpleType|attribute) 
+.br
+\fIphpType,:\fP currently supported are array and struct (php assoc array) 
+.br
+\fIcompositor\fP (all|sequence|choice) 
+.br
+\fIrestrictionBase\fP namespace:name (http://schemas.xmlsoap.org/soap/encoding/:Array) 
+.br
+\fIelements\fP = array ( name = array(name=>'',type=>'') ) 
+.br
+\fIattrs\fP = array( array( 'ref' => 'http://schemas\&.xmlsoap\&.org/soap/encoding/:arrayType', 'http://schemas\&.xmlsoap\&.org/wsdl/:arrayType' => 'string[]' ) ) 
+.br
+\fIarrayType,:\fP namespace:name (http://www.w3.org/2001/XMLSchema:string)  public 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBgetTypeDef\fP 
+.RE
+.PP
+
+.PP
+Definition at line 843 of file class\&.xmlschema\&.php\&.
+.SS "addComplexType ($name, $typeClass = \fC'complexType'\fP, $phpType = \fC'array'\fP, $compositor = \fC''\fP, $restrictionBase = \fC''\fP, $elements = \fCarray()\fP, $attrs = \fCarray()\fP, $arrayType = \fC''\fP)"
+adds a complex type to the schema
+.PP
+example: array
+.PP
+addType( 'ArrayOfstring', 'complexType', 'array', '', 'SOAP-ENC:Array', array('ref'=>'SOAP-ENC:arrayType','wsdl:arrayType'=>'string[]'), 'xsd:string' );
+.PP
+example: PHP associative array ( SOAP Struct )
+.PP
+addType( 'SOAPStruct', 'complexType', 'struct', 'all', array('myVar'=> array('name'=>'myVar','type'=>'string') );
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP 
+.br
+\fItypeClass\fP (complexType|simpleType|attribute) 
+.br
+\fIphpType,:\fP currently supported are array and struct (php assoc array) 
+.br
+\fIcompositor\fP (all|sequence|choice) 
+.br
+\fIrestrictionBase\fP namespace:name (http://schemas.xmlsoap.org/soap/encoding/:Array) 
+.br
+\fIelements\fP = array ( name = array(name=>'',type=>'') ) 
+.br
+\fIattrs\fP = array( array( 'ref' => 'http://schemas\&.xmlsoap\&.org/soap/encoding/:arrayType', 'http://schemas\&.xmlsoap\&.org/wsdl/:arrayType' => 'string[]' ) ) 
+.br
+\fIarrayType,:\fP namespace:name (http://www.w3.org/2001/XMLSchema:string)  public 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBgetTypeDef\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1828 of file nusoap\&.php\&.
+.SS "addElement ($attrs)"
+adds an element to the schema
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$attrs\fP attributes that must include name and type 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema  public 
+.RE
+.PP
+
+.PP
+Definition at line 891 of file class\&.xmlschema\&.php\&.
+.SS "addElement ($attrs)"
+adds an element to the schema
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$attrs\fP attributes that must include name and type 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema  public 
+.RE
+.PP
+
+.PP
+Definition at line 1876 of file nusoap\&.php\&.
+.SS "addSimpleType ($name, $restrictionBase = \fC''\fP, $typeClass = \fC'simpleType'\fP, $phpType = \fC'scalar'\fP, $enumeration = \fCarray()\fP)"
+adds a simple type to the schema
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$restrictionBase\fP namespace:name (http://schemas.xmlsoap.org/soap/encoding/:Array) 
+.br
+\fI$typeClass\fP (should always be simpleType) 
+.br
+\fI$phpType\fP (should always be scalar) 
+.br
+\fI$enumeration\fP array of values  public 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema 
+.PP
+\fBgetTypeDef\fP 
+.RE
+.PP
+
+.PP
+Definition at line 871 of file class\&.xmlschema\&.php\&.
+.SS "addSimpleType ($name, $restrictionBase = \fC''\fP, $typeClass = \fC'simpleType'\fP, $phpType = \fC'scalar'\fP, $enumeration = \fCarray()\fP)"
+adds a simple type to the schema
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$restrictionBase\fP namespace:name (http://schemas.xmlsoap.org/soap/encoding/:Array) 
+.br
+\fI$typeClass\fP (should always be simpleType) 
+.br
+\fI$phpType\fP (should always be scalar) 
+.br
+\fI$enumeration\fP array of values  public 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema 
+.PP
+\fBgetTypeDef\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1856 of file nusoap\&.php\&.
+.SS "getPHPType ($type, $ns)"
+get the PHP type of a user defined type in the schema PHP type is kind of a misnomer since it actually returns 'struct' for assoc\&. arrays returns false if no type exists, or not w/ the given namespace else returns a string that is either a native php type, or 'struct'
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$type,name\fP of defined type 
+.br
+\fI$ns,namespace\fP of type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 633 of file class\&.xmlschema\&.php\&.
+.SS "getPHPType ($type, $ns)"
+get the PHP type of a user defined type in the schema PHP type is kind of a misnomer since it actually returns 'struct' for assoc\&. arrays returns false if no type exists, or not w/ the given namespace else returns a string that is either a native php type, or 'struct'
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$type,name\fP of defined type 
+.br
+\fI$ns,namespace\fP of type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 1618 of file nusoap\&.php\&.
+.SS "getTypeDef ($type)"
+returns an associative array of information about a given type returns false if no type exists by the given name
+.PP
+For a complexType typeDef = array( 'restrictionBase' => '', 'phpType' => '', 'compositor' => '(sequence|all)', 'elements' => array(), // refs to elements array 'attrs' => array() // refs to attributes array \&.\&.\&. and so on (see addComplexType) )
+.PP
+For simpleType or element, the array has different keys\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBaddComplexType\fP 
+.PP
+\fBaddSimpleType\fP 
+.PP
+\fBaddElement\fP 
+.RE
+.PP
+
+.PP
+Definition at line 666 of file class\&.xmlschema\&.php\&.
+.SS "getTypeDef ($type)"
+returns an associative array of information about a given type returns false if no type exists by the given name
+.PP
+For a complexType typeDef = array( 'restrictionBase' => '', 'phpType' => '', 'compositor' => '(sequence|all)', 'elements' => array(), // refs to elements array 'attrs' => array() // refs to attributes array \&.\&.\&. and so on (see addComplexType) )
+.PP
+For simpleType or element, the array has different keys\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+\fBaddComplexType\fP 
+.PP
+\fBaddSimpleType\fP 
+.PP
+\fBaddElement\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1651 of file nusoap\&.php\&.
+.SS "parseFile ($xml, $type)"
+parse an XML file
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$xml,path/URL\fP to XML file 
+.br
+\fI$type,(schema\fP | xml) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean  public 
+.RE
+.PP
+
+.PP
+Definition at line 89 of file class\&.xmlschema\&.php\&.
+.SS "parseFile ($xml, $type)"
+parse an XML file
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$xml,path/URL\fP to XML file 
+.br
+\fI$type,(schema\fP | xml) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean  public 
+.RE
+.PP
+
+.PP
+Definition at line 1074 of file nusoap\&.php\&.
+.SS "parseString ($xml, $type)"
+parse an XML string
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$xml\fP path or URL 
+.br
+\fI$type,(schema|xml)\fP private 
+.RE
+.PP
+
+.PP
+Definition at line 115 of file class\&.xmlschema\&.php\&.
+.SS "parseString ($xml, $type)"
+parse an XML string
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$xml\fP path or URL 
+.br
+\fI$type,(schema|xml)\fP private 
+.RE
+.PP
+
+.PP
+Definition at line 1100 of file nusoap\&.php\&.
+.SS "schemaCharacterData ($parser, $data)"
+element content handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$data\fP element content  private 
+.RE
+.PP
+
+.PP
+Definition at line 495 of file class\&.xmlschema\&.php\&.
+.SS "schemaCharacterData ($parser, $data)"
+element content handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$data\fP element content  private 
+.RE
+.PP
+
+.PP
+Definition at line 1480 of file nusoap\&.php\&.
+.SS "schemaEndElement ($parser, $name)"
+end-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name  private 
+.RE
+.PP
+
+.PP
+Definition at line 458 of file class\&.xmlschema\&.php\&.
+.SS "schemaEndElement ($parser, $name)"
+end-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name  private 
+.RE
+.PP
+
+.PP
+Definition at line 1443 of file nusoap\&.php\&.
+.SS "schemaStartElement ($parser, $name, $attrs)"
+start-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name 
+.br
+\fI$attrs\fP associative array of attributes  private 
+.RE
+.PP
+
+.PP
+Definition at line 163 of file class\&.xmlschema\&.php\&.
+.SS "schemaStartElement ($parser, $name, $attrs)"
+start-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name 
+.br
+\fI$attrs\fP associative array of attributes  private 
+.RE
+.PP
+
+.PP
+Definition at line 1148 of file nusoap\&.php\&.
+.SS "serializeSchema ()"
+serialize the schema
+.PP
+public 
+.PP
+Definition at line 505 of file class\&.xmlschema\&.php\&.
+.SS "serializeSchema ()"
+serialize the schema
+.PP
+public 
+.PP
+Definition at line 1490 of file nusoap\&.php\&.
+.SS "serializeTypeDef ($type)"
+returns a sample serialization of a given type, or false if no type by the given name
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$type,name\fP of type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 735 of file class\&.xmlschema\&.php\&.
+.SS "serializeTypeDef ($type)"
+returns a sample serialization of a given type, or false if no type by the given name
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$type,name\fP of type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 1720 of file nusoap\&.php\&.
+.SS "typeToForm ($name, $type)"
+returns HTML form elements that allow a user to enter values for creating an instance of the given type\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name,name\fP for type instance 
+.br
+\fI$type,name\fP of type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 771 of file class\&.xmlschema\&.php\&.
+.SS "typeToForm ($name, $type)"
+returns HTML form elements that allow a user to enter values for creating an instance of the given type\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name,name\fP for type instance 
+.br
+\fI$type,name\fP of type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 1756 of file nusoap\&.php\&.
+.SS "xdebug ($string)"
+adds debug data to the clas level debug string
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP debug data  private 
+.RE
+.PP
+
+.PP
+Definition at line 617 of file class\&.xmlschema\&.php\&.
+.SS "xdebug ($string)"
+adds debug data to the clas level debug string
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP debug data  private 
+.RE
+.PP
+
+.PP
+Definition at line 1602 of file nusoap\&.php\&.
+.SS "\fBXMLSchema\fP ($schema = \fC''\fP, $xml = \fC''\fP, $namespaces = \fCarray()\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$schema\fP schema document URI 
+.br
+\fI$xml\fP xml document URI 
+.br
+\fI$namespaces\fP namespaces defined in enclosing XML  public 
+.RE
+.PP
+
+.PP
+Definition at line 56 of file class\&.xmlschema\&.php\&.
+.SS "\fBXMLSchema\fP ($schema = \fC''\fP, $xml = \fC''\fP, $namespaces = \fCarray()\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$schema\fP schema document URI 
+.br
+\fI$xml\fP xml document URI 
+.br
+\fI$namespaces\fP namespaces defined in enclosing XML  public 
+.RE
+.PP
+
+.PP
+Definition at line 1041 of file nusoap\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

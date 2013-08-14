@@ -1,0 +1,165 @@
+\hypertarget{class_cache_engine}{\section{Cache\-Engine Class Reference}
+\label{class_cache_engine}\index{Cache\-Engine@{Cache\-Engine}}
+}
+
+
+Inheritance diagram for Cache\-Engine\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_cache_engine__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_engine_add47463221d657541f10f2ca5ec218d8}{init} (\$\hyperlink{class_cache_engine_ad7354383714c6ae99d6ee1bfb95ab49f}{settings}=array())
+\item 
+\hyperlink{class_cache_engine_a14ff7ef4b198ff14884dd8c564264ca3}{gc} ()
+\item 
+\hyperlink{class_cache_engine_a0e72b4e1d3c5ff461155883cad18358d}{write} (\$key, \&\$value, \$duration)
+\item 
+\hyperlink{class_cache_engine_a4c50c958c469c08bba0c0ccb710ca8af}{read} (\$key)
+\item 
+\hyperlink{class_cache_engine_aa74a2edd6f3cbb5c5353f7faa97b6d70}{delete} (\$key)
+\item 
+\hyperlink{class_cache_engine_a25e4cc07f5ba4a55b97a26734f71eac6}{clear} (\$check)
+\item 
+\hyperlink{class_cache_engine_ad7354383714c6ae99d6ee1bfb95ab49f}{settings} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_engine_ac7c3353107070daa85f641882931b358}{\$settings}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_cache_engine_a25e4cc07f5ba4a55b97a26734f71eac6}{\index{Cache\-Engine@{Cache\-Engine}!clear@{clear}}
+\index{clear@{clear}!CacheEngine@{Cache\-Engine}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}clear (
+\begin{DoxyParamCaption}
+\item[{}]{\$check}
+\end{DoxyParamCaption}
+)}}\label{class_cache_engine_a25e4cc07f5ba4a55b97a26734f71eac6}
+Delete all keys from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+boolean & {\em \$check} & if true will check expiration, otherwise delete all \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the cache was succesfully cleared, false otherwise  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_engine_aa74a2edd6f3cbb5c5353f7faa97b6d70}{\index{Cache\-Engine@{Cache\-Engine}!delete@{delete}}
+\index{delete@{delete}!CacheEngine@{Cache\-Engine}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_engine_aa74a2edd6f3cbb5c5353f7faa97b6d70}
+Delete a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_engine_a14ff7ef4b198ff14884dd8c564264ca3}{\index{Cache\-Engine@{Cache\-Engine}!gc@{gc}}
+\index{gc@{gc}!CacheEngine@{Cache\-Engine}}
+\subsubsection[{gc}]{\setlength{\rightskip}{0pt plus 5cm}gc (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cache_engine_a14ff7ef4b198ff14884dd8c564264ca3}
+Garbage collection
+
+Permanently remove all expired and deleted data
+
+public \hypertarget{class_cache_engine_add47463221d657541f10f2ca5ec218d8}{\index{Cache\-Engine@{Cache\-Engine}!init@{init}}
+\index{init@{init}!CacheEngine@{Cache\-Engine}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}init (
+\begin{DoxyParamCaption}
+\item[{}]{\$settings = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_cache_engine_add47463221d657541f10f2ca5ec218d8}
+Iitialize the cache engine
+
+Called automatically by the cache frontend
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$params} & Associative array of parameters for the engine \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the engine has been succesfully initialized, false if not  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_engine_a4c50c958c469c08bba0c0ccb710ca8af}{\index{Cache\-Engine@{Cache\-Engine}!read@{read}}
+\index{read@{read}!CacheEngine@{Cache\-Engine}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}read (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_engine_a4c50c958c469c08bba0c0ccb710ca8af}
+Read a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_engine_ad7354383714c6ae99d6ee1bfb95ab49f}{\index{Cache\-Engine@{Cache\-Engine}!settings@{settings}}
+\index{settings@{settings}!CacheEngine@{Cache\-Engine}}
+\subsubsection[{settings}]{\setlength{\rightskip}{0pt plus 5cm}settings (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cache_engine_ad7354383714c6ae99d6ee1bfb95ab49f}
+\hyperlink{class_cache}{Cache} Engine settings
+
+\begin{DoxyReturn}{Returns}
+array settings  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_engine_a0e72b4e1d3c5ff461155883cad18358d}{\index{Cache\-Engine@{Cache\-Engine}!write@{write}}
+\index{write@{write}!CacheEngine@{Cache\-Engine}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}write (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{\&}]{\$value, }
+\item[{}]{\$duration}
+\end{DoxyParamCaption}
+)}}\label{class_cache_engine_a0e72b4e1d3c5ff461155883cad18358d}
+Write value for a key into cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+mixed & {\em \$value} & Data to be cached \\
+\hline
+mixed & {\em \$duration} & How long to cache the data, in seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the data was succesfully cached, false on failure  public 
+\end{DoxyReturn}
+
+
+\subsection{Field Documentation}
+\hypertarget{class_cache_engine_ac7c3353107070daa85f641882931b358}{\index{Cache\-Engine@{Cache\-Engine}!\$settings@{\$settings}}
+\index{\$settings@{\$settings}!CacheEngine@{Cache\-Engine}}
+\subsubsection[{\$settings}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf settings}}}\label{class_cache_engine_ac7c3353107070daa85f641882931b358}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Q\-:/@websites@/coop/labs/dev2/class/cache/\hyperlink{cache_8php}{cache.\-php}\end{DoxyCompactItemize}

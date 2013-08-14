@@ -1,0 +1,1178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="spiders_2xoops__version_8php" kind="file">
+    <compoundname>xoops_version.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a5cdbd2ac9e212ff077aaa59101b3b867" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;name&apos;]</definition>
+        <argsstring>[&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _MI_SPIDERS_NAME</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1acca90d0d682b0eb029fdaad38ff16570" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;version&apos;]</definition>
+        <argsstring>[&apos;version&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 2.65</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a0155196723a439a1c9c63166d75e1aa9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;releasedate&apos;]</definition>
+        <argsstring>[&apos;releasedate&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Thur: June 2, 2010&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a3e2ba4037e62f8dd1790bdbde525315a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;description&apos;]</definition>
+        <argsstring>[&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _MI_SPIDERS_DESCRIPTION</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a71cc638deee036400821a7fbe821c9c0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;author&apos;]</definition>
+        <argsstring>[&apos;author&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Wishcraft&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a959303c9b36209d115fdef00ee85b476" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;credits&apos;]</definition>
+        <argsstring>[&apos;credits&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Chronolabs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1ab024cf3ad0ca97d54e30a29c04a00d21" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;help&apos;]</definition>
+        <argsstring>[&apos;help&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;spiders.html&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1ac01b0a110a2b2471b022408cc144ba6a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;license&apos;]</definition>
+        <argsstring>[&apos;license&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;GPL&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a67cc0580683a24bde7fb2a93a6b0b8b3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;official&apos;]</definition>
+        <argsstring>[&apos;official&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1adb1e35b60288f0d3e9b98e948054ad62" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;status&apos;]</definition>
+        <argsstring>[&apos;status&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Stable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a2372fb2a0d0c8276a91ee60be1ba845b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;image&apos;]</definition>
+        <argsstring>[&apos;image&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;images/spiders_slogo.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a39d2d4621e3065109051fa95e5ea69d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;dirname&apos;]</definition>
+        <argsstring>[&apos;dirname&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _MI_SPIDERS_DIRNAME</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a42cbe75464ce49a2d4b4021d2723d138" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;author_realname&apos;]</definition>
+        <argsstring>[&apos;author_realname&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Simon Roberts&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1aa4e12581579c2367973edde1bb88501b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;author_website_url&apos;]</definition>
+        <argsstring>[&apos;author_website_url&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;http://www.chronolabs.org.au&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a46166b6a7758f2db961ddfc222c7cee7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;author_website_name&apos;]</definition>
+        <argsstring>[&apos;author_website_name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Chronolabs Australia&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1ab54848746dffc89a9586849773c37117" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;author_email&apos;]</definition>
+        <argsstring>[&apos;author_email&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;simon@labs.coop&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1ac4ba86acfbe5315b02336ae5b1bfda08" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;demo_site_url&apos;]</definition>
+        <argsstring>[&apos;demo_site_url&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Chronolabs Australia&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a791eeaa88e332857d66106842bea8dbe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;demo_site_name&apos;]</definition>
+        <argsstring>[&apos;demo_site_name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a641a463ee220e6308d212336ac3fc5d3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;support_site_url&apos;]</definition>
+        <argsstring>[&apos;support_site_url&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;http://www.chronolabs.org.au/forums/viewforum.php?forum=30&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1abf96815bce17f25c7e7536bc71495ae1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;support_site_name&apos;]</definition>
+        <argsstring>[&apos;support_site_name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Chronolabs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="52" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1af3e5bbed6b430087f78267070c0ac644" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;submit_bug&apos;]</definition>
+        <argsstring>[&apos;submit_bug&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;http://www.chronolabs.org.au/forums/viewforum.php?forum=30&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="53" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1af10a40e06ffacd8c9887aa19248962ea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;submit_feature&apos;]</definition>
+        <argsstring>[&apos;submit_feature&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;http://www.chronolabs.org.au/forums/viewforum.php?forum=30&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a1d2b2a5769eed42798472aa6383b4138" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;usenet_group&apos;]</definition>
+        <argsstring>[&apos;usenet_group&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;sci.chronolabs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a9817ed669ea459a38ad8246e621165da" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;maillist_announcements&apos;]</definition>
+        <argsstring>[&apos;maillist_announcements&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="56" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a8be69d7d0067839ed0cd81d6f111d055" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;maillist_bugs&apos;]</definition>
+        <argsstring>[&apos;maillist_bugs&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a000d0d88cf59a126590d556801104982" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;maillist_features&apos;]</definition>
+        <argsstring>[&apos;maillist_features&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a32e1c2084cd61fd8eed6ea4e1aa48f42" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;hasAdmin&apos;]</definition>
+        <argsstring>[&apos;hasAdmin&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="61" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a768e74a968bcadb55351611867c017b7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;adminindex&apos;]</definition>
+        <argsstring>[&apos;adminindex&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;admin/index.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a677e42dae338738010a78548909bf2f5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;adminmenu&apos;]</definition>
+        <argsstring>[&apos;adminmenu&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;admin/menu.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="63" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1acbce95e76b8d940e8d770b88e1bebe35" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;onUpdate&apos;]</definition>
+        <argsstring>[&apos;onUpdate&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;include/update.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="65" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a31e14c91e594cf1f3d23df166027f58c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;onInstall&apos;]</definition>
+        <argsstring>[&apos;onInstall&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;include/install.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="66" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a6b8a41cfe57617146034edf70e4b92ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;onUninstall&apos;]</definition>
+        <argsstring>[&apos;onUninstall&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;include/uninstall.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="67" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a5836e107844ac303be9f58f51a8a4fd4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sqlfile&apos;][&apos;mysql&apos;]</definition>
+        <argsstring>[&apos;sqlfile&apos;][&apos;mysql&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;sql/spiders.sql&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="71" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a890ca3f221b00adef5ce8b87a4356816" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;tables&apos;][0]</definition>
+        <argsstring>[&apos;tables&apos;][0]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;spiders&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="75" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a94b725b908acb5b9c52aaf824ee08ce4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;tables&apos;][1]</definition>
+        <argsstring>[&apos;tables&apos;][1]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;spiders_user&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="76" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a434fdfe156f54f0edcc90301816a25c4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;tables&apos;][2]</definition>
+        <argsstring>[&apos;tables&apos;][2]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;spiders_statistics&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="77" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a29fb3292cffa7f059ff569297785761c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;tables&apos;][3]</definition>
+        <argsstring>[&apos;tables&apos;][3]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;spiders_modifications&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="78" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a532e5fd79657c7c9c0c57ff2b74eabf6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][1][&apos;file&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][1][&apos;file&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;spiders_footer_seo.html&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="81" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a1fe6c48730fa174c9598254a463d3c9b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][1][&apos;description&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][1][&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;Main Spiders Index Page&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="82" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a4c3ca564266c57c1769256470964c6fe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][2][&apos;file&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][2][&apos;file&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;spiders_robots.html&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="83" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a47219f5b92f9717f1998e9e4ca05fbc1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][2][&apos;description&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][2][&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;Main Spiders Robots Page&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="84" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1ad6d408d6d4b5e70684d2d4e75b862d0b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][3][&apos;file&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][3][&apos;file&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;spiders_robots_last.html&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="85" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a9622c872b70caa8a539d02c73e40acbf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][3][&apos;description&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][3][&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;Main Spiders Robot Page&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="86" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a516eb6e04e60bd36315a056fb04f0882" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][4][&apos;file&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][4][&apos;file&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;spiders_robottxt.html&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="87" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a4780c298a817b452f5de4349e61f0abb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][4][&apos;description&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][4][&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;Main Spiders Robot TXT Page&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="88" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a00f87cb02a0a95bc81e52fd801c6bc48" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][1][&apos;name&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][1][&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _MI_SPIDERS_MM1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="91" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a52f71d8a82001e4a979bca40c97bfa01" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][1][&apos;url&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][1][&apos;url&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;index.php?op=robots&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="92" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1afaf5b722c65e0c1683274fdc7d63724c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][2][&apos;name&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][2][&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _MI_SPIDERS_MM2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="93" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a7049a8dc5bdbbdfe736f65e5e3a95873" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][2][&apos;url&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][2][&apos;url&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;index.php?op=lastin&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="94" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a3d1e7413135f2ef5659d6be8d245442e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][3][&apos;name&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][3][&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _MI_SPIDERS_MM3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="95" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a1f82a24e9ff14e8cb01708ab1cb66010" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][3][&apos;url&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][3][&apos;url&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;index.php?op=robotstxt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="96" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1abfb3e6806088c7dc1915d6306d0d4d15" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;hasMain&apos;]</definition>
+        <argsstring>[&apos;hasMain&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="98" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a83018d9153d17d91fbcf3bc10158d34f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$i</definition>
+        <argsstring></argsstring>
+        <name>$i</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="100" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a97bde72eb399d36cae8b92f0fe643e4c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;name&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;xortify_username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="103" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a2f084d4cbd766a0a77a22c3a0569d00a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;title&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;title&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;_MI_SPIDER_USERNAME&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="104" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a5e9eb73a3e95f753e596d6a407eaa7e2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;description&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;_MI_SPIDER_USERNAME_DESC&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="105" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a3a99fbd85eb007c5a24976ed7a746dc5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;formtype&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;formtype&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;text&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="106" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a565f7b70c886b13fc870233f5bfcbeec" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;valuetype&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;valuetype&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;text&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="107" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a8015bb547bd75a72113a2b7f832e0bf2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;default&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;default&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="108" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a31aacf68610348b26353db312067a1ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$group_handler</definition>
+        <argsstring></argsstring>
+        <name>$group_handler</name>
+        <initializer>= &amp;xoops_gethandler( &apos;group&apos; )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="126" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a095f2061791cf4be58c4b41a5790dc85" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$criteria</definition>
+        <argsstring></argsstring>
+        <name>$criteria</name>
+        <initializer>= new Criteria(&apos;group_type&apos;, _MI_SPIDERS_GROUP_TYPE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="127" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a1af3c911abb4f6414a86954705266327" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$groups</definition>
+        <argsstring></argsstring>
+        <name>$groups</name>
+        <initializer>= $group_handler-&gt;getObjects($criteria)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="128" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a011800c63ece4cbbfa77136a20607023" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$options</definition>
+        <argsstring></argsstring>
+        <name>$options</name>
+        <initializer>=array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="140" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1a2d446acc674eb0afef1c17e4237333c1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;options&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;options&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= $options</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="207" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1af10ceeab19e022bc0076d9a57b22f827" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;hasSearch&apos;]</definition>
+        <argsstring>[&apos;hasSearch&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="222" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1ac411a19717edeffbbd48c4637e04c807" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;search&apos;][&apos;file&apos;]</definition>
+        <argsstring>[&apos;search&apos;][&apos;file&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;include/search.inc.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="223" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2xoops__version_8php_1aa857618186c4df86c03c3641a121d11f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;search&apos;][&apos;func&apos;]</definition>
+        <argsstring>[&apos;search&apos;][&apos;func&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;spiders_search&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" line="224" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Author:<sp/>wishcraft<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XOOPS<sp/>-<sp/>PHP<sp/>Content<sp/>Management<sp/>System<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>2000<sp/>XOOPS.org<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;http://www.xoops.org/&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>You<sp/>may<sp/>not<sp/>change<sp/>or<sp/>alter<sp/>any<sp/>portion<sp/>of<sp/>this<sp/>comment<sp/>or<sp/>credits<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>supporting<sp/>developers<sp/>from<sp/>this<sp/>source<sp/>code<sp/>or<sp/>any<sp/>supporting<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>source<sp/>code<sp/>which<sp/>is<sp/>considered<sp/>copyrighted<sp/>(c)<sp/>material<sp/>of<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>original<sp/>comment<sp/>or<sp/>credit<sp/>authors.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Foundation,<sp/>Inc.,<sp/>59<sp/>Temple<sp/>Place,<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307<sp/>USA<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Author:<sp/>Simon<sp/>Roberts<sp/>(AKA<sp/>wishcraft)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>URL:<sp/>http://www.chronolabs.org.au<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Project:<sp/>The<sp/>XOOPS<sp/>Project<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_NAME;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;version&apos;</highlight><highlight class="normal">]<sp/>=<sp/>2.65;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;releasedate&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Thur:<sp/>June<sp/>2,<sp/>2010&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_DESCRIPTION;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;author&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Wishcraft&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;credits&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Chronolabs&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;help&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;spiders.html&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;license&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GPL&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;official&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Stable&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;images/spiders_slogo.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;dirname&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_DIRNAME;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;author_realname&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Simon<sp/>Roberts&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;author_website_url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;http://www.chronolabs.org.au&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;author_website_name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Chronolabs<sp/>Australia&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;author_email&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;simon@labs.coop&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;demo_site_url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Chronolabs<sp/>Australia&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;demo_site_name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;support_site_url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;http://www.chronolabs.org.au/forums/viewforum.php?forum=30&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;support_site_name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Chronolabs&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;submit_bug&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;http://www.chronolabs.org.au/forums/viewforum.php?forum=30&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;submit_feature&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;http://www.chronolabs.org.au/forums/viewforum.php?forum=30&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;usenet_group&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;sci.chronolabs&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;maillist_announcements&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;maillist_bugs&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;maillist_features&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Admin<sp/>things</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;hasAdmin&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;adminindex&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;adminmenu&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/menu.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;onUpdate&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;include/update.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;onInstall&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;include/install.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;onUninstall&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;include/uninstall.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Sql<sp/>file<sp/>(must<sp/>contain<sp/>sql<sp/>generated<sp/>by<sp/>phpMyAdmin<sp/>or<sp/>phpPgAdmin)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>tables<sp/>should<sp/>not<sp/>have<sp/>any<sp/>prefix!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sqlfile&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;mysql&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;sql/spiders.sql&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$modversion[&apos;sqlfile&apos;][&apos;postgresql&apos;]<sp/>=<sp/>&quot;sql/pgsql.sql&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Tables<sp/>created<sp/>by<sp/>sql<sp/>file<sp/>(without<sp/>prefix!)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;tables&apos;</highlight><highlight class="normal">][0]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;spiders&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;tables&apos;</highlight><highlight class="normal">][1]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;spiders_user&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;tables&apos;</highlight><highlight class="normal">][2]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;spiders_statistics&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;tables&apos;</highlight><highlight class="normal">][3]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;spiders_modifications&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Templates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][1][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;spiders_footer_seo.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][1][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Main<sp/>Spiders<sp/>Index<sp/>Page&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][2][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;spiders_robots.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][2][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Main<sp/>Spiders<sp/>Robots<sp/>Page&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][3][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;spiders_robots_last.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][3][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Main<sp/>Spiders<sp/>Robot<sp/>Page&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][4][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;spiders_robottxt.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][4][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Main<sp/>Spiders<sp/>Robot<sp/>TXT<sp/>Page&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Menu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][1][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_MM1;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][1][</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;index.php?op=robots&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][2][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_MM2;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][2][</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;index.php?op=lastin&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][3][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_MM3;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][3][</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;index.php?op=robotstxt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;hasMain&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">$i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Config<sp/>items</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;xortify_username&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_MI_SPIDER_USERNAME&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_MI_SPIDER_USERNAME_DESC&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;xortify_password&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_MI_SPIDER_PASSWORD&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_MI_SPIDER_PASSWORD_DESC&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;password&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;xortify_shareme&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_MI_SPIDER_SEOSHAREME&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_MI_SPIDER_SEOSHAREME_DESC&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;yesno&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;int&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">$group_handler<sp/>=<sp/>&amp;xoops_gethandler(<sp/></highlight><highlight class="stringliteral">&apos;group&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;group_type&apos;</highlight><highlight class="normal">,<sp/>_MI_SPIDERS_GROUP_TYPE);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">$groups<sp/>=<sp/>$group_handler-&gt;getObjects($criteria);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;bot_group&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_BOTGROUP&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_BOTGROUP_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;group&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;int&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_object($groups[0]))</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$groups[0]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;groupid&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">$options=array();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;weeks_stats&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_WEEKSSTATS&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_WEEKSSTATS_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;int&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/>mt_rand(16,<sp/>48);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;htaccess&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_HTACCESS&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_HTACCESS_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;yesno&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;int&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;baseurl&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_BASEURL&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_BASEURL_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;spiders&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;endofurl&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_ENDOFURL&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_ENDOFURL_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;endofurl_rss&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_ENDOFURLRSS&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_ENDOFURLRSS_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;.rss&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;endofurl_pdf&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_ENDOFURLPDF&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_ENDOFURLPDF_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;.pdf&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">$options=array();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;reserved_prases&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_RESERVEDPHRASES&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_RESERVEDPHRASES_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;textarea&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Mozilla/5.0|Mozilla/4.0|Mozilla/3.0|Mozilla/3.01|Mozilla/2.0|Mozilla|mozilla&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">$options=array();</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($j=1;$j&lt;101;$j++)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>$options[$j.</highlight><highlight class="charliteral">&apos;%&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$j;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;compair_percent&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_COMPAIRPERCENTILE&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_COMPAIRPERCENTILE_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;select&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;int&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/>35;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;options&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$options;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">$options=array();</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($j=1;$j&lt;101;$j++)</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>$options[$j.</highlight><highlight class="charliteral">&apos;%&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$j;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;match_percentile&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_MATCHPERCENTILE&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;_MI_SPIDER_MATCHPERCENTILE_DESC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;select&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;int&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/>52;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;options&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$options;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">//Search</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;hasSearch&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;search&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;include/search.inc.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;search&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;func&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;spiders_search&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/xoops_version.php"/>
+  </compounddef>
+</doxygen>

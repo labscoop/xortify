@@ -1,0 +1,143 @@
+.TH "soap_fault" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+soap_fault \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBnusoap_base\fP, and \fBnusoap_base\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsoap_fault\fP ($faultcode, $faultactor='', $faultstring='', $faultdetail='')"
+.br
+.ti -1c
+.RI "\fBserialize\fP ()"
+.br
+.ti -1c
+.RI "\fBsoap_fault\fP ($faultcode, $faultactor='', $faultstring='', $faultdetail='')"
+.br
+.ti -1c
+.RI "\fBserialize\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$faultcode\fP"
+.br
+.ti -1c
+.RI "\fB$faultactor\fP"
+.br
+.ti -1c
+.RI "\fB$faultstring\fP"
+.br
+.ti -1c
+.RI "\fB$faultdetail\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Contains information for a SOAP fault\&. Mainly used for returning faults from deployed functions in a server instance\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.soap_fault\&.php\fP,v 1\&.12 2005/07/27 19:24:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+Contains information for a SOAP fault\&. Mainly used for returning faults from deployed functions in a server instance\&. 
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 14 of file class\&.soap_fault\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "serialize ()"
+serialize a fault
+.PP
+\fBReturns:\fP
+.RS 4
+string The serialization of the fault instance\&.  public 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file class\&.soap_fault\&.php\&.
+.SS "serialize ()"
+serialize a fault
+.PP
+\fBReturns:\fP
+.RS 4
+string The serialization of the fault instance\&.  public 
+.RE
+.PP
+
+.PP
+Definition at line 964 of file nusoap\&.php\&.
+.SS "\fBsoap_fault\fP ($faultcode, $faultactor = \fC''\fP, $faultstring = \fC''\fP, $faultdetail = \fC''\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$faultcode\fP (client | server) 
+.br
+\fI$faultactor\fP only used when msg routed between multiple actors 
+.br
+\fI$faultstring\fP human readable error message 
+.br
+\fI$faultdetail\fP detail, typically a string or array of string 
+.RE
+.PP
+
+.PP
+Definition at line 48 of file class\&.soap_fault\&.php\&.
+.SS "\fBsoap_fault\fP ($faultcode, $faultactor = \fC''\fP, $faultstring = \fC''\fP, $faultdetail = \fC''\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$faultcode\fP (client | server) 
+.br
+\fI$faultactor\fP only used when msg routed between multiple actors 
+.br
+\fI$faultstring\fP human readable error message 
+.br
+\fI$faultdetail\fP detail, typically a string or array of string 
+.RE
+.PP
+
+.PP
+Definition at line 950 of file nusoap\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

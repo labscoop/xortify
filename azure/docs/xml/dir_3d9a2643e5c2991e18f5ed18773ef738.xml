@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_3d9a2643e5c2991e18f5ed18773ef738" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules</compoundname>
+    <innerdir refid="dir_7ce4bda08a90fd4ec4fd75fcabfaa784">E:/Packages/xortify server/htdocs/modules/ban</innerdir>
+    <innerdir refid="dir_9f5115a79b242d34eafa2cdaca7f11fd">E:/Packages/xortify server/htdocs/modules/spiders</innerdir>
+    <innerdir refid="dir_9579f422827afac85ebb16d5b4f086c8">E:/Packages/xortify server/htdocs/modules/unban</innerdir>
+    <innerdir refid="dir_b2fa74e9582124a8748994cd2ba7b886">E:/Packages/xortify server/htdocs/modules/xcurl</innerdir>
+    <innerdir refid="dir_b533c34aa9d66d111fe6b108edf911bd">E:/Packages/xortify server/htdocs/modules/xjson</innerdir>
+    <innerdir refid="dir_73b24eeac1ef26d4d7d0587116ce3c2d">E:/Packages/xortify server/htdocs/modules/xortify</innerdir>
+    <innerdir refid="dir_2a3f9b40595ffb5f9bac077686611675">E:/Packages/xortify server/htdocs/modules/xrest</innerdir>
+    <innerdir refid="dir_d9e5be09e46207bd9e923f719639f708">E:/Packages/xortify server/htdocs/modules/xserial</innerdir>
+    <innerdir refid="dir_672dca0ec13e861eea9c9cc5a710edf7">E:/Packages/xortify server/htdocs/modules/xsoap</innerdir>
+    <innerdir refid="dir_5636210073ee525eff3466868d38080d">E:/Packages/xortify server/htdocs/modules/xxml</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/"/>
+  </compounddef>
+</doxygen>

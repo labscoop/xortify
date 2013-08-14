@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="include_2cloud_2bans_8php" kind="file">
+    <compoundname>bans.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="17"><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!function_exists(</highlight><highlight class="stringliteral">&apos;bans&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/>Gets<sp/>from<sp/>Xortify<sp/>Cloud<sp/>Ban<sp/>List<sp/>Starting<sp/>at<sp/>the<sp/>most<sp/>recent<sp/>from<sp/>start<sp/>limitation</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>bans($username,<sp/>$password,<sp/>$records,<sp/>$start=0)</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@subpackage<sp/>plugin</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@param<sp/>string<sp/>$username<sp/><sp/><sp/><sp/><sp/>Xortify<sp/>username<sp/>for<sp/>function</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@param<sp/>string<sp/>$password<sp/><sp/><sp/><sp/><sp/>Xortify<sp/>password<sp/>or<sp/>md5<sp/>hash<sp/>of<sp/>password<sp/>for<sp/>function</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@param<sp/>integer<sp/>$records<sp/><sp/><sp/><sp/><sp/>Number<sp/>of<sp/>Records<sp/>to<sp/>Return</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@param<sp/>integer<sp/>$start<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Start<sp/>list<sp/>from<sp/>this<sp/>index<sp/>number<sp/>starting<sp/>at<sp/>the<sp/>most<sp/>recent</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@return<sp/>array</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>bans($username,<sp/>$password,<sp/>$records,<sp/>$start=0)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>global<sp/>$xoopsModuleConfig,<sp/>$xoopsDB;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($xoopsModuleConfig[</highlight><highlight class="stringliteral">&apos;site_user_auth&apos;</highlight><highlight class="normal">]==1){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($ret<sp/>=<sp/>check_for_lock(basename(__FILE__),$username,$password))<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;<sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!checkright(basename(__FILE__),$username,$password))<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mark_for_lock(basename(__FILE__),$username,$password);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight><highlight class="stringliteral">&apos;ErrNum&apos;</highlight><highlight class="normal">=&gt;<sp/>9,<sp/></highlight><highlight class="stringliteral">&quot;ErrDesc&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;No<sp/>Permission<sp/>for<sp/>plug-in&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$records<sp/>=<sp/>($records!=0)?intval($records):60*60*0.65;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ban_handler<sp/>=<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;members&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;ban&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(1,<sp/>1);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;setOrder(</highlight><highlight class="stringliteral">&apos;DESC&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;setSort(</highlight><highlight class="stringliteral">&apos;`made`&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;setLimit(intval($records));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;setStart(intval($start));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$id=1;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($ban_handler-&gt;getObjects($criteria,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>as<sp/>$member_id<sp/>=&gt;<sp/>$ban<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[$id]<sp/>=<sp/>$ban-&gt;toArray();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$id++;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight><highlight class="stringliteral">&quot;bans&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/>count($ret),<sp/></highlight><highlight class="stringliteral">&quot;made&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/>time(),<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$ret);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/include/cloud/bans.php"/>
+  </compounddef>
+</doxygen>

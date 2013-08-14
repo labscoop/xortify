@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_370194428f404877ed129766ba2a60c8" kind="dir">
+    <compoundname>E:/Packages</compoundname>
+    <innerdir refid="dir_a56c19072b1e5327a29fdaaef2369079">E:/Packages/xortify server</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/"/>
+  </compounddef>
+</doxygen>

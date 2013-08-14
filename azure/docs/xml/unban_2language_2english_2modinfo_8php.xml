@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="unban_2language_2english_2modinfo_8php" kind="file">
+    <compoundname>modinfo.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1af3fb318c983be2747376750732d89a79" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_ADMENU1</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_ADMENU1</name>
+        <initializer>&apos;Profiler&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="3" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a793b978e9c9bf128f452da17fbdfe2e0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_ADMENU2</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_ADMENU2</name>
+        <initializer>&apos;Unbanned Members&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="4" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1ab4162dc0269d211d51db00e2fa3ddd06" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_ADMENU3</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_ADMENU3</name>
+        <initializer>&apos;unbanning Categories&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="5" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a9e2d1d8f4cf81920774e6bf4b112bb71" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_ADMENU4</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_ADMENU4</name>
+        <initializer>&apos;New Categories&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="6" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a36ed93d2e762a4d74d0aae942fa64355" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_UNBAN_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_UNBAN_DESC</name>
+        <initializer>&apos;Unbanning Profiler Built for Xortify&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="8" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1aa068baa01f2d4284620fa8ded159b1cc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_LATESTUNBANS</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_LATESTUNBANS</name>
+        <initializer>&apos;Latest Unbans&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="10" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a6136e910ac55f47d410061957dda6cdb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_PUBLICKEY</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_PUBLICKEY</name>
+        <initializer>&apos;Public Captcha Key&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="11" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a2b8499771bd2f2bea0922380cbc9b579" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_PRIVATEKEY</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_PRIVATEKEY</name>
+        <initializer>&apos;Private Captcha Key&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="12" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1ac3c29efaf5edeb97d137be69ab2c78ec" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_PUBLICKEY_DESC</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_PUBLICKEY_DESC</name>
+        <initializer>&apos;Public &lt;a href=&quot;http://www.recaptcha.net&quot;&gt;Re-Captcha.net&lt;/a&gt; Key&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="13" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a17c0408f54566de80cd5eda7cce02f6e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_PRIVATEKEY_DESC</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_PRIVATEKEY_DESC</name>
+        <initializer>&apos;Private &lt;a href=&quot;http://www.recaptcha.net&quot;&gt;Re-Captcha.net&lt;/a&gt; Key&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1ae432ed9ccc954558c14c2bd5af2ca20c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_DISPLAYNAME</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_DISPLAYNAME</name>
+        <initializer>&apos;Page Display Header&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="15" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a3c08b48dcda161fbb039487a9d6ac948" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_DISPLAYTEXT</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_DISPLAYTEXT</name>
+        <initializer>&apos;Page Display Caption&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a3c5974d7cc9feb8c39d4bca8aae5eda0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_DISPLAYNAME_DESC</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_DISPLAYNAME_DESC</name>
+        <initializer>&apos;This is the header for the display of items!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="17" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1add53087ae14112bd7c6e389ec0a21abf" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_DISPLAYTEXT_DESC</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_DISPLAYTEXT_DESC</name>
+        <initializer>&apos;This is the display text for the header of members!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="18" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a4e94ee1f839329bbf4e9d4c5fe864f50" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_HTACCESS</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_HTACCESS</name>
+        <initializer>&apos;.htaccess SEO&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a7827b142f369d6696e488728764ba786" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_HTACCESS_DESC</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_HTACCESS_DESC</name>
+        <initializer>&apos;You must have the correct .htaccess rewrites in the root of xoops to make use of this.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2language_2english_2modinfo_8php_1a9e80bab9aa236154ae7aa086806a27f8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _UNBAN_MI_UNBAN</definition>
+        <argsstring></argsstring>
+        <name>_UNBAN_MI_UNBAN</name>
+        <initializer>&apos;Unban IP, Netbios...&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_ADMENU1&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Profiler&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_ADMENU2&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Unbanned<sp/>Members&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_ADMENU3&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;unbanning<sp/>Categories&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_ADMENU4&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;New<sp/>Categories&apos;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_UNBAN_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Unbanning<sp/>Profiler<sp/>Built<sp/>for<sp/>Xortify&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_LATESTUNBANS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Latest<sp/>Unbans&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_PUBLICKEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Public<sp/>Captcha<sp/>Key&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_PRIVATEKEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Private<sp/>Captcha<sp/>Key&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_PUBLICKEY_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Public<sp/>&lt;a<sp/>href=&quot;http://www.recaptcha.net&quot;&gt;Re-Captcha.net&lt;/a&gt;<sp/>Key&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_PRIVATEKEY_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Private<sp/>&lt;a<sp/>href=&quot;http://www.recaptcha.net&quot;&gt;Re-Captcha.net&lt;/a&gt;<sp/>Key&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_DISPLAYNAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Page<sp/>Display<sp/>Header&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_DISPLAYTEXT&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Page<sp/>Display<sp/>Caption&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_DISPLAYNAME_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;This<sp/>is<sp/>the<sp/>header<sp/>for<sp/>the<sp/>display<sp/>of<sp/>items!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_DISPLAYTEXT_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;This<sp/>is<sp/>the<sp/>display<sp/>text<sp/>for<sp/>the<sp/>header<sp/>of<sp/>members!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_HTACCESS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;.htaccess<sp/>SEO&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_HTACCESS_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>must<sp/>have<sp/>the<sp/>correct<sp/>.htaccess<sp/>rewrites<sp/>in<sp/>the<sp/>root<sp/>of<sp/>xoops<sp/>to<sp/>make<sp/>use<sp/>of<sp/>this.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_UNBAN_MI_UNBAN&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Unban<sp/>IP,<sp/>Netbios...&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/language/english/modinfo.php"/>
+  </compounddef>
+</doxygen>

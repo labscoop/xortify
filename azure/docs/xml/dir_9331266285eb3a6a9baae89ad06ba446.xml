@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_9331266285eb3a6a9baae89ad06ba446" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/include/xsd</compoundname>
+    <innerdir refid="dir_3efdec382a97f98085b027a387587332">E:/Packages/xortify server/htdocs/include/xsd/legacy</innerdir>
+    <innerdir refid="dir_e082d80ed53806521494a6c2a20612ad">E:/Packages/xortify server/htdocs/include/xsd/rest</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/include/xsd/"/>
+  </compounddef>
+</doxygen>

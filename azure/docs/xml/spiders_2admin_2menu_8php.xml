@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="spiders_2admin_2menu_8php" kind="file">
+    <compoundname>menu.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1aa4d95e2b8402adb7aac22031a76bf8ac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;title&apos;]</definition>
+        <argsstring>[1][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _MI_SPIDERS_ADMINMENU1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a8b18a24b489369490446d45ac2b617f7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;link&apos;]</definition>
+        <argsstring>[1][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=list&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a2bfe17f3051123a62497c4f163a989be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;icon&apos;]</definition>
+        <argsstring>[1][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;images/list.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a0786c93d1375203e0020cc121fe02068" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;title&apos;]</definition>
+        <argsstring>[2][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _MI_SPIDERS_ADMINMENU2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a5f30f443311414593df5a4ae2c7501c8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;link&apos;]</definition>
+        <argsstring>[2][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=add&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a0f5b9b0199b46370782c408755cad310" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;icon&apos;]</definition>
+        <argsstring>[2][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;images/add.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1ad27660fd5d267f334743070c732b1286" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;title&apos;]</definition>
+        <argsstring>[3][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _MI_SPIDERS_ADMINMENU3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1ac8c8ccf89ea2c8889dd64b08737d6dd9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;link&apos;]</definition>
+        <argsstring>[3][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=listmods&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a967967c3b047a56a25c5e7fb4979a0de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;icon&apos;]</definition>
+        <argsstring>[3][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;images/list.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1ac3c70c66723d68528e5e9c8a4383c126" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;title&apos;]</definition>
+        <argsstring>[4][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _MI_SPIDERS_ADMINMENU4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a076adc5338eb254a63b2e2d679087482" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;link&apos;]</definition>
+        <argsstring>[4][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=import&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1ae825aefb069414ecc0bbf1fc86335167" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;icon&apos;]</definition>
+        <argsstring>[4][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;images/import.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a014e06ed36a394774cc2f03aa232a072" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;title&apos;]</definition>
+        <argsstring>[5][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _MI_SPIDERS_ADMINMENU5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1a86c31a48d4510b1076e6fbfb731ba1d8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;link&apos;]</definition>
+        <argsstring>[5][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=signup&amp;fct=signup&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2admin_2menu_8php_1aadc33c1b4aea642afa84d339642b4844" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;icon&apos;]</definition>
+        <argsstring>[5][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;images/import.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Author:<sp/>wishcraft<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XOOPS<sp/>-<sp/>PHP<sp/>Content<sp/>Management<sp/>System<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>2000<sp/>XOOPS.org<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;http://www.xoops.org/&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>You<sp/>may<sp/>not<sp/>change<sp/>or<sp/>alter<sp/>any<sp/>portion<sp/>of<sp/>this<sp/>comment<sp/>or<sp/>credits<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>supporting<sp/>developers<sp/>from<sp/>this<sp/>source<sp/>code<sp/>or<sp/>any<sp/>supporting<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>source<sp/>code<sp/>which<sp/>is<sp/>considered<sp/>copyrighted<sp/>(c)<sp/>material<sp/>of<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>original<sp/>comment<sp/>or<sp/>credit<sp/>authors.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Foundation,<sp/>Inc.,<sp/>59<sp/>Temple<sp/>Place,<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307<sp/>USA<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Author:<sp/>Simon<sp/>Roberts<sp/>(AKA<sp/>wishcraft)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>URL:<sp/>http://www.chronolabs.org.au<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Project:<sp/>The<sp/>XOOPS<sp/>Project<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_ADMINMENU1;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=list&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;images/list.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_ADMINMENU2;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=add&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;images/add.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_ADMINMENU3;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=listmods&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;images/list.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_ADMINMENU4;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=import&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;images/import.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_SPIDERS_ADMINMENU5;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=signup&amp;fct=signup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;images/import.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/admin/menu.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_providers" kind="class" prot="public">
+    <compoundname>Providers</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_providers_1a8619fb6079fbd79202034b45724fd6ca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$providers</definition>
+        <argsstring></argsstring>
+        <name>$providers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_providers_1afac76ed123e82d52003cb884b2e06e2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>init</definition>
+        <argsstring>($check)</argsstring>
+        <name>init</name>
+        <param>
+          <declname>$check</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Get xoops configs Requires functions and database loaded</para><para>User Sessions</para>        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" bodystart="45" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_providers_1a0ca9c4416d1fe61c895ef20caabddbe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($check= &apos;precheck&apos;)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$check</declname>
+          <defval>&apos;precheck&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" line="130" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" bodystart="130" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_providers_1a8b02b7a03a0a0fec772f650af20b774c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>precheck</definition>
+        <argsstring>()</argsstring>
+        <name>precheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" line="143" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" bodystart="143" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_providers_1a998b2df50f4a9e2f0763eed8aa736420" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>postcheck</definition>
+        <argsstring>()</argsstring>
+        <name>postcheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" line="164" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" bodystart="164" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_providers_1aa4c3cc4c1d4c1f1424529f79dc8fd1fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>headerpostcheck</definition>
+        <argsstring>()</argsstring>
+        <name>headerpostcheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" line="182" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" bodystart="182" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_providers_1aa03945d949312243a14c895b0a6caa7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>footerpostcheck</definition>
+        <argsstring>()</argsstring>
+        <name>footerpostcheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" line="204" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" bodystart="204" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/providers/providers.php" bodystart="41" bodyend="222"/>
+    <listofallmembers>
+      <member refid="class_providers_1a8619fb6079fbd79202034b45724fd6ca" prot="public" virt="non-virtual"><scope>Providers</scope><name>$providers</name></member>
+      <member refid="class_providers_1a0ca9c4416d1fe61c895ef20caabddbe4" prot="public" virt="non-virtual"><scope>Providers</scope><name>__construct</name></member>
+      <member refid="class_providers_1aa03945d949312243a14c895b0a6caa7d" prot="private" virt="non-virtual"><scope>Providers</scope><name>footerpostcheck</name></member>
+      <member refid="class_providers_1aa4c3cc4c1d4c1f1424529f79dc8fd1fd" prot="private" virt="non-virtual"><scope>Providers</scope><name>headerpostcheck</name></member>
+      <member refid="class_providers_1afac76ed123e82d52003cb884b2e06e2e" prot="public" virt="non-virtual"><scope>Providers</scope><name>init</name></member>
+      <member refid="class_providers_1a998b2df50f4a9e2f0763eed8aa736420" prot="private" virt="non-virtual"><scope>Providers</scope><name>postcheck</name></member>
+      <member refid="class_providers_1a8b02b7a03a0a0fec772f650af20b774c" prot="private" virt="non-virtual"><scope>Providers</scope><name>precheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

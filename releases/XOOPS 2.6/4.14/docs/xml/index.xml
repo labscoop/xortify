@@ -1,0 +1,1567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.4">
+  <compound refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange" kind="class"><name>CURLSERIALISEDXortifyExchange</name>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a276a5744b88de586eb05b0dce0f6873d" kind="variable"><name>$serial_xoops_username</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7ac0fbf96eb048ccec682ee45eb3df00" kind="variable"><name>$serial_xoops_password</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1acedd13b51401130848ce18f4d5c52605" kind="variable"><name>$json</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a2d9a2fd0a191b4f2ca7f75a0ac930ffb" kind="function"><name>CURLSERIALISEDXortifyExchange</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_c_u_r_l_x_m_l_xortify_exchange" kind="class"><name>CURLXMLXortifyExchange</name>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a725df0dd6b578e15522ed15945e5901c" kind="variable"><name>$xml_xoops_username</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a8ec2889165c837354fded1cedbd42157" kind="variable"><name>$xml_xoops_password</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a3b76009f81aba09d4775db8b93c36fe3" kind="function"><name>CURLXMLXortifyExchange</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_c_u_r_l_x_m_l_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_c_u_r_l_xortify_exchange" kind="class"><name>CURLXortifyExchange</name>
+    <member refid="class_c_u_r_l_xortify_exchange_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1aab7480ba9f878a02b2c9fd43922fa070" kind="variable"><name>$curl_xoops_username</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a6c9851541ed3826c67cfe7224c38f0b8" kind="variable"><name>$curl_xoops_password</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a3e47d53032637da1adeb1e4c5b1d4483" kind="function"><name>CURLXortifyExchange</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_c_u_r_l_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_j_s_o_n_xortify_exchange" kind="class"><name>JSONXortifyExchange</name>
+    <member refid="class_j_s_o_n_xortify_exchange_1ac058687d82a56fb93513e7e58c4ec391" kind="variable"><name>$json_xoops_username</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a7af311f07c1c09254920e6ac0cefe9a9" kind="variable"><name>$json_xoops_password</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a5b94fbd0db11c88aaac5a4d6025957c5" kind="function"><name>JSONXortifyExchange</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_j_s_o_n_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_minimumcloud_xortify_exchange" kind="class"><name>MinimumcloudXortifyExchange</name>
+    <member refid="class_minimumcloud_xortify_exchange_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a43e053bc7e50dc0203616ef89c3fb392" kind="variable"><name>$minimumcloud_xoops_username</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a8dfe74264e11f530e89e3527d432b4c1" kind="variable"><name>$minimumcloud_xoops_password</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1aaef98b6ba174f0a6dba0dd3074477a67" kind="function"><name>MinimumcloudXortifyExchange</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1aa0d9f9689b3190c5a21a3bfc5e1b5217" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a95988cecfec1c9d3aa0d66853ca0d135" kind="function"><name>checksfsbans_GetFromToHost</name></member>
+    <member refid="class_minimumcloud_xortify_exchange_1a391fa2ef72add38235a60e0cd55972d2" kind="function"><name>checkphpbans_dolookup</name></member>
+  </compound>
+  <compound refid="class_providers" kind="class"><name>Providers</name>
+    <member refid="class_providers_1a8619fb6079fbd79202034b45724fd6ca" kind="variable"><name>$providers</name></member>
+    <member refid="class_providers_1afac76ed123e82d52003cb884b2e06e2e" kind="function"><name>init</name></member>
+    <member refid="class_providers_1a6ce8d562ccbc8eb7d4512428728663ee" kind="function"><name>Providers</name></member>
+    <member refid="class_providers_1a8b02b7a03a0a0fec772f650af20b774c" kind="function"><name>precheck</name></member>
+    <member refid="class_providers_1a998b2df50f4a9e2f0763eed8aa736420" kind="function"><name>postcheck</name></member>
+    <member refid="class_providers_1aa4c3cc4c1d4c1f1424529f79dc8fd1fd" kind="function"><name>headerpostcheck</name></member>
+    <member refid="class_providers_1aa03945d949312243a14c895b0a6caa7d" kind="function"><name>footerpostcheck</name></member>
+  </compound>
+  <compound refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange" kind="class"><name>REST_CURLSERIALISEDXortifyExchange</name>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a276a5744b88de586eb05b0dce0f6873d" kind="variable"><name>$serial_xoops_username</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7ac0fbf96eb048ccec682ee45eb3df00" kind="variable"><name>$serial_xoops_password</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1acedd13b51401130848ce18f4d5c52605" kind="variable"><name>$json</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a181d8a7452f7fd69c483c46a51cc6cef" kind="function"><name>__construct</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7fa5fed254db9c1ef2a324cd17e31b12" kind="function"><name>REST_CURLSERIALISEDXortifyExchange</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange" kind="class"><name>REST_CURLXMLXortifyExchange</name>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a725df0dd6b578e15522ed15945e5901c" kind="variable"><name>$xml_xoops_username</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a8ec2889165c837354fded1cedbd42157" kind="variable"><name>$xml_xoops_password</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a0e33a9b5cea89315431b2d440e576d5f" kind="function"><name>__construct</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1ab6114b6ef43b544c6ca514f363f88e45" kind="function"><name>REST_CURLXMLXortifyExchange</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_x_m_l_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_r_e_s_t___c_u_r_l_xortify_exchange" kind="class"><name>REST_CURLXortifyExchange</name>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1aab7480ba9f878a02b2c9fd43922fa070" kind="variable"><name>$curl_xoops_username</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a6c9851541ed3826c67cfe7224c38f0b8" kind="variable"><name>$curl_xoops_password</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a0e33a9b5cea89315431b2d440e576d5f" kind="function"><name>__construct</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a0158f268fc7102a5d426a69dfd806885" kind="function"><name>REST_CURLXortifyExchange</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_r_e_s_t___c_u_r_l_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_r_e_s_t___j_s_o_n_xortify_exchange" kind="class"><name>REST_JSONXortifyExchange</name>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1ac058687d82a56fb93513e7e58c4ec391" kind="variable"><name>$json_xoops_username</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a7af311f07c1c09254920e6ac0cefe9a9" kind="variable"><name>$json_xoops_password</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a0e33a9b5cea89315431b2d440e576d5f" kind="function"><name>__construct</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1ad0e8f0318847edab7a98c714cd47c63a" kind="function"><name>REST_JSONXortifyExchange</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_r_e_s_t___j_s_o_n_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange" kind="class"><name>REST_WGETSERIALISEDXortifyExchange</name>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a276a5744b88de586eb05b0dce0f6873d" kind="variable"><name>$serial_xoops_username</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7ac0fbf96eb048ccec682ee45eb3df00" kind="variable"><name>$serial_xoops_password</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ace465ce9251bb81aa71bcc682c3f08b2" kind="variable"><name>$serial</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aa2e56e4630853297f1f4f220b93b797c" kind="function"><name>REST_WGETSERIALISEDXortifyExchange</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange" kind="class"><name>REST_WGETXMLXortifyExchange</name>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a725df0dd6b578e15522ed15945e5901c" kind="variable"><name>$xml_xoops_username</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a8ec2889165c837354fded1cedbd42157" kind="variable"><name>$xml_xoops_password</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a7d7e5d1092a075a86ff1edb6bd5a4171" kind="function"><name>WGETXMLXortifyExchange</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_r_e_s_t___w_g_e_t_x_m_l_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_services___j_s_o_n" kind="class"><name>Services_JSON</name>
+    <member refid="class_services___j_s_o_n_1abc84bd855fe129a4c68bcb68b4d17108" kind="function"><name>Services_JSON</name></member>
+    <member refid="class_services___j_s_o_n_1aa7b1b36cd3a4995bbb60f5def6a216e2" kind="function"><name>utf162utf8</name></member>
+    <member refid="class_services___j_s_o_n_1af9687bbf6bcddc9c847d608f9a1fa4c0" kind="function"><name>utf82utf16</name></member>
+    <member refid="class_services___j_s_o_n_1acdf1c85111e34b3048d436228bf39819" kind="function"><name>encode</name></member>
+    <member refid="class_services___j_s_o_n_1aa7f3e18209717e584f01f53a0325e9ff" kind="function"><name>name_value</name></member>
+    <member refid="class_services___j_s_o_n_1ae463a3baa44e95fa5b5151ab2334df1c" kind="function"><name>reduce_string</name></member>
+    <member refid="class_services___j_s_o_n_1a4afbb486f4a5ff5a8170c832f5997986" kind="function"><name>decode</name></member>
+    <member refid="class_services___j_s_o_n_1a55ae0955466c3970507b122f3f5d1b38" kind="function"><name>isError</name></member>
+  </compound>
+  <compound refid="class_s_o_a_p_xortify_exchange" kind="class"><name>SOAPXortifyExchange</name>
+    <member refid="class_s_o_a_p_xortify_exchange_1a18c3d5ef7b606d5f21c8fda9d08e8c7e" kind="variable"><name>$soap_client</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1ab46ae973f580890282bce8dbe346abab" kind="variable"><name>$soap_xoops_username</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1ac116a126fa48c572acc0a859f42fa8dc" kind="variable"><name>$soap_xoops_password</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1add339868d9ad9a22afe8c95564aa063a" kind="function"><name>SOAPXortifyExchange</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_s_o_a_p_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_system_xortify_preload" kind="class"><name>SystemXortifyPreload</name>
+    <member refid="class_system_xortify_preload_1a87b15888767bafa70ea17f96bf176c87" kind="function"><name>eventCoreFooterEnd</name></member>
+  </compound>
+  <compound refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange" kind="class"><name>WGETSERIALISEDXortifyExchange</name>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a276a5744b88de586eb05b0dce0f6873d" kind="variable"><name>$serial_xoops_username</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7ac0fbf96eb048ccec682ee45eb3df00" kind="variable"><name>$serial_xoops_password</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ace465ce9251bb81aa71bcc682c3f08b2" kind="variable"><name>$serial</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a01a64763f4983c5d16db5b686c13b52e" kind="function"><name>WGETSERIALISEDXortifyExchange</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_w_g_e_t_s_e_r_i_a_l_i_s_e_d_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_w_g_e_t_x_m_l_xortify_exchange" kind="class"><name>WGETXMLXortifyExchange</name>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a725df0dd6b578e15522ed15945e5901c" kind="variable"><name>$xml_xoops_username</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a8ec2889165c837354fded1cedbd42157" kind="variable"><name>$xml_xoops_password</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" kind="variable"><name>$refresh</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a7d7e5d1092a075a86ff1edb6bd5a4171" kind="function"><name>WGETXMLXortifyExchange</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" kind="function"><name>training</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" kind="function"><name>checkForSpam</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1ae7926cba79660f77479306100f492c03" kind="function"><name>getSpoof</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" kind="function"><name>getServers</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" kind="function"><name>sendBan</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" kind="function"><name>checkSFSBans</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" kind="function"><name>checkPHPBans</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" kind="function"><name>getBans</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" kind="function"><name>retrieveBans</name></member>
+    <member refid="class_w_g_e_t_x_m_l_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" kind="function"><name>checkBanned</name></member>
+  </compound>
+  <compound refid="class_xoops_form_dhtml_text_area" kind="class"><name>XoopsFormDhtmlTextArea</name>
+    <member refid="class_xoops_form_dhtml_text_area_1a329008b431ffa2c4030435018c8d773c" kind="variable"><name>$htmlEditor</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1aa0dd4edcea52081fc67fdc3053edc2ed" kind="variable"><name>$skipPreview</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1afbcedef390be09deb8c4939b7cfab1eb" kind="variable"><name>$doHtml</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1a747181e96d083c6396169e81e4d2056d" kind="variable"><name>$js</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1a95691168d68a876ecc24c7dad14ef24e" kind="variable"><name>$configs</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1a44964e6a3dc5569cded691026318bb46" kind="variable"><name>$_hiddenText</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1a7f1529c70e84a7fc20288ce43504fbd7" kind="function"><name>__construct</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1afde88292c44dc59faf017738dae6dffb" kind="function"><name>render</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1acb81ef17f7e7796804e22ca93aeb6fd5" kind="function"><name>codeIcon</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1ab30939ed7ed069182752a0a763d4d2bd" kind="function"><name>fontArray</name></member>
+    <member refid="class_xoops_form_dhtml_text_area_1a2747262e7fc6aba84bfc52bcf38407df" kind="function"><name>renderValidationJS</name></member>
+  </compound>
+  <compound refid="class_xoops_form_editor" kind="class"><name>XoopsFormEditor</name>
+    <member refid="class_xoops_form_editor_1ae693002b1a41abcb7deb80901cd9aedb" kind="variable"><name>$editor</name></member>
+    <member refid="class_xoops_form_editor_1aeed189812b5f5ff43110a59d2c563f66" kind="function"><name>__construct</name></member>
+    <member refid="class_xoops_form_editor_1a2747262e7fc6aba84bfc52bcf38407df" kind="function"><name>renderValidationJS</name></member>
+    <member refid="class_xoops_form_editor_1afde88292c44dc59faf017738dae6dffb" kind="function"><name>render</name></member>
+  </compound>
+  <compound refid="class_xoops_form_text_area" kind="class"><name>XoopsFormTextArea</name>
+    <member refid="class_xoops_form_text_area_1a45b0a071e35bf0181b186d04bb6f9cfc" kind="variable"><name>$_cols</name></member>
+    <member refid="class_xoops_form_text_area_1ac21ae64e8b036936d486d74649b72b68" kind="variable"><name>$_rows</name></member>
+    <member refid="class_xoops_form_text_area_1a032af8ab4b0ac0551d13a6fc2fb67836" kind="variable"><name>$_placeholder</name></member>
+    <member refid="class_xoops_form_text_area_1a74181343558bddc9598d682718a9b018" kind="function"><name>__construct</name></member>
+    <member refid="class_xoops_form_text_area_1ad93a3a7b26a8578a36b6e8f6d05ca5ba" kind="function"><name>getRows</name></member>
+    <member refid="class_xoops_form_text_area_1afc020a5052f695efa2e9e8d9ce6e6029" kind="function"><name>getCols</name></member>
+    <member refid="class_xoops_form_text_area_1a4afcccec5ceaedaa747a38d2459d82a5" kind="function"><name>getPlaceholder</name></member>
+    <member refid="class_xoops_form_text_area_1afde88292c44dc59faf017738dae6dffb" kind="function"><name>render</name></member>
+  </compound>
+  <compound refid="class_xortify_auth" kind="class"><name>XortifyAuth</name>
+    <member refid="class_xortify_auth_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_1a09272cb16edd572f760a622f37cee6d1" kind="variable"><name>$_errors</name></member>
+    <member refid="class_xortify_auth_1a726d2829d96759ca86f62e9990b10a15" kind="function"><name>XortifyAuth</name></member>
+    <member refid="class_xortify_auth_1a750c93a7dfab5314f2bf662a407bc5a6" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_1a84268a33f3ed3114bd0b08404e48893f" kind="function"><name>setErrors</name></member>
+    <member refid="class_xortify_auth_1a6e548ebf2656742bfd19939ead923ed2" kind="function"><name>getErrors</name></member>
+    <member refid="class_xortify_auth_1a10ee66ee5b086b4e6692174531af900e" kind="function"><name>getHtmlErrors</name></member>
+    <member refid="class_xortify_auth_1a9d67d9bde367762a7a27e279e3cfcdf3" kind="function"><name>check_siteinfo</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_curl" kind="class"><name>XortifyAuthCurl</name>
+    <member refid="class_xortify_auth_curl_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_xortify_auth_curl_1aab7480ba9f878a02b2c9fd43922fa070" kind="variable"><name>$curl_xoops_username</name></member>
+    <member refid="class_xortify_auth_curl_1a6c9851541ed3826c67cfe7224c38f0b8" kind="variable"><name>$curl_xoops_password</name></member>
+    <member refid="class_xortify_auth_curl_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_curl_1a94787b37d92a2dee02534eed4f316589" kind="variable"><name>$_json</name></member>
+    <member refid="class_xortify_auth_curl_1a2430898abaead91368d79a7caa17a1b7" kind="function"><name>XortifyAuthCurl</name></member>
+    <member refid="class_xortify_auth_curl_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_curl_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_curl_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_curl_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_curl_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_curl_provisionning" kind="class"><name>XortifyAuthCurlProvisionning</name>
+    <member refid="class_xortify_auth_curl_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1ae3322c493c27ac523093137bf532b541" kind="function"><name>XortifyAuthCurlProvisionning</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1aba6f598c234d191a3b3934f90b35fd9f" kind="function"><name>change_curl</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_curl_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_curlserialised" kind="class"><name>XortifyAuthCurlserialised</name>
+    <member refid="class_xortify_auth_curlserialised_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_xortify_auth_curlserialised_1aab7480ba9f878a02b2c9fd43922fa070" kind="variable"><name>$curl_xoops_username</name></member>
+    <member refid="class_xortify_auth_curlserialised_1a6c9851541ed3826c67cfe7224c38f0b8" kind="variable"><name>$curl_xoops_password</name></member>
+    <member refid="class_xortify_auth_curlserialised_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_curlserialised_1a5a69ea149424b5e92245daaa880dbb43" kind="function"><name>XortifyAuthCurlserialised</name></member>
+    <member refid="class_xortify_auth_curlserialised_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_curlserialised_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_curlserialised_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_curlserialised_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_curlserialised_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_curlserialised_provisionning" kind="class"><name>XortifyAuthCurlserialisedProvisionning</name>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1aaae1c1a1306d79a38af6f3e08f39b626" kind="function"><name>XortifyAuthCurlserialisedProvisionning</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1aba6f598c234d191a3b3934f90b35fd9f" kind="function"><name>change_curl</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_curlserialised_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_curlxml" kind="class"><name>XortifyAuthCurlxml</name>
+    <member refid="class_xortify_auth_curlxml_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_xortify_auth_curlxml_1aab7480ba9f878a02b2c9fd43922fa070" kind="variable"><name>$curl_xoops_username</name></member>
+    <member refid="class_xortify_auth_curlxml_1a6c9851541ed3826c67cfe7224c38f0b8" kind="variable"><name>$curl_xoops_password</name></member>
+    <member refid="class_xortify_auth_curlxml_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_curlxml_1a94787b37d92a2dee02534eed4f316589" kind="variable"><name>$_json</name></member>
+    <member refid="class_xortify_auth_curlxml_1a13dd1fcc61eefac807467f1ae7a9e2a6" kind="function"><name>XortifyAuthCurlxml</name></member>
+    <member refid="class_xortify_auth_curlxml_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_curlxml_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_curlxml_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_curlxml_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_curlxml_provisionning" kind="class"><name>XortifyAuthCurlxmlProvisionning</name>
+    <member refid="class_xortify_auth_curlxml_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1accc0d33e8eb86362d253e29bd29fcc2e" kind="function"><name>XortifyAuthCurlxmlProvisionning</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1aba6f598c234d191a3b3934f90b35fd9f" kind="function"><name>change_curl</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_curlxml_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_json" kind="class"><name>XortifyAuthJson</name>
+    <member refid="class_xortify_auth_json_1ac058687d82a56fb93513e7e58c4ec391" kind="variable"><name>$json_xoops_username</name></member>
+    <member refid="class_xortify_auth_json_1a7af311f07c1c09254920e6ac0cefe9a9" kind="variable"><name>$json_xoops_password</name></member>
+    <member refid="class_xortify_auth_json_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_json_1a94787b37d92a2dee02534eed4f316589" kind="variable"><name>$_json</name></member>
+    <member refid="class_xortify_auth_json_1af9cea820589b04eda07f0170290d81ae" kind="function"><name>XortifyAuthJson</name></member>
+    <member refid="class_xortify_auth_json_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_json_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_json_1ae463a3baa44e95fa5b5151ab2334df1c" kind="function"><name>reduce_string</name></member>
+    <member refid="class_xortify_auth_json_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_json_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_json_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_json_provisionning" kind="class"><name>XortifyAuthJsonProvisionning</name>
+    <member refid="class_xortify_auth_json_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1acaf0cac25f9cd967c0329db929627521" kind="function"><name>XortifyAuthJsonProvisionning</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1a94f4e0408f26e65abca347ec883f4ec9" kind="function"><name>change_json</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_json_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_minimum_cloud" kind="class"><name>XortifyAuthMinimumCloud</name>
+    <member refid="class_xortify_auth_minimum_cloud_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1a43e053bc7e50dc0203616ef89c3fb392" kind="variable"><name>$minimumcloud_xoops_username</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1a8dfe74264e11f530e89e3527d432b4c1" kind="variable"><name>$minimumcloud_xoops_password</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1a94787b37d92a2dee02534eed4f316589" kind="variable"><name>$_json</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1ab5abc9d5e7788b74fe7dcd8a3dd7e315" kind="function"><name>XortifyAuthMinimumCloud</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1ae463a3baa44e95fa5b5151ab2334df1c" kind="function"><name>reduce_string</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_minimum_cloud_provisionning" kind="class"><name>XortifyAuthMinimumCloudProvisionning</name>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1a8579b3306fed02b8650e98d07834f425" kind="function"><name>XortifyAuthMinimumCloudProvisionning</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1a94f4e0408f26e65abca347ec883f4ec9" kind="function"><name>change_json</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_minimum_cloud_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___curl" kind="class"><name>XortifyAuthRest_Curl</name>
+    <member refid="class_xortify_auth_rest___curl_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_xortify_auth_rest___curl_1aab7480ba9f878a02b2c9fd43922fa070" kind="variable"><name>$curl_xoops_username</name></member>
+    <member refid="class_xortify_auth_rest___curl_1a6c9851541ed3826c67cfe7224c38f0b8" kind="variable"><name>$curl_xoops_password</name></member>
+    <member refid="class_xortify_auth_rest___curl_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_rest___curl_1a94787b37d92a2dee02534eed4f316589" kind="variable"><name>$_json</name></member>
+    <member refid="class_xortify_auth_rest___curl_1af9b64b3967386563a2384fba32486ad2" kind="function"><name>XortifyAuthRest_Curl</name></member>
+    <member refid="class_xortify_auth_rest___curl_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_rest___curl_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_rest___curl_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_rest___curl_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_rest___curl_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___curl_provisionning" kind="class"><name>XortifyAuthRest_CurlProvisionning</name>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1a68de3f383b2ad5d695215059fdeed7fa" kind="function"><name>XortifyAuthRest_CurlProvisionning</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1aba6f598c234d191a3b3934f90b35fd9f" kind="function"><name>change_curl</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_rest___curl_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___curlserialised" kind="class"><name>XortifyAuthRest_Curlserialised</name>
+    <member refid="class_xortify_auth_rest___curlserialised_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1aab7480ba9f878a02b2c9fd43922fa070" kind="variable"><name>$curl_xoops_username</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1a6c9851541ed3826c67cfe7224c38f0b8" kind="variable"><name>$curl_xoops_password</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1a830d8746a22e602284bf83fcd432ec07" kind="function"><name>XortifyAuthRest_Curlserialised</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___curlserialised_provisionning" kind="class"><name>XortifyAuthRest_CurlserialisedProvisionning</name>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1a1910eb4c9f28b81383f5d6db148df984" kind="function"><name>XortifyAuthRest_CurlserialisedProvisionning</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1aba6f598c234d191a3b3934f90b35fd9f" kind="function"><name>change_curl</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_rest___curlserialised_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___curlxml" kind="class"><name>XortifyAuthRest_Curlxml</name>
+    <member refid="class_xortify_auth_rest___curlxml_1a402f2112991f3227835af80e9df33e38" kind="variable"><name>$curl_client</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1aab7480ba9f878a02b2c9fd43922fa070" kind="variable"><name>$curl_xoops_username</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1a6c9851541ed3826c67cfe7224c38f0b8" kind="variable"><name>$curl_xoops_password</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1a94787b37d92a2dee02534eed4f316589" kind="variable"><name>$_json</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1a923afe8097b328b00be4a03f7f8ec4b8" kind="function"><name>XortifyAuthRest_Curlxml</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___curlxml_provisionning" kind="class"><name>XortifyAuthRest_CurlxmlProvisionning</name>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1adc9122f707545243b2cc3d8f5b542095" kind="function"><name>XortifyAuthRest_CurlxmlProvisionning</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1aba6f598c234d191a3b3934f90b35fd9f" kind="function"><name>change_curl</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_rest___curlxml_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___json" kind="class"><name>XortifyAuthRest_Json</name>
+    <member refid="class_xortify_auth_rest___json_1ac058687d82a56fb93513e7e58c4ec391" kind="variable"><name>$json_xoops_username</name></member>
+    <member refid="class_xortify_auth_rest___json_1a7af311f07c1c09254920e6ac0cefe9a9" kind="variable"><name>$json_xoops_password</name></member>
+    <member refid="class_xortify_auth_rest___json_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_rest___json_1a94787b37d92a2dee02534eed4f316589" kind="variable"><name>$_json</name></member>
+    <member refid="class_xortify_auth_rest___json_1a49655248be6ee9b8888388b9137f433c" kind="function"><name>XortifyAuthRest_Json</name></member>
+    <member refid="class_xortify_auth_rest___json_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_rest___json_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_rest___json_1ae463a3baa44e95fa5b5151ab2334df1c" kind="function"><name>reduce_string</name></member>
+    <member refid="class_xortify_auth_rest___json_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_rest___json_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_rest___json_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___json_provisionning" kind="class"><name>XortifyAuthRest_JsonProvisionning</name>
+    <member refid="class_xortify_auth_rest___json_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1a03e64738687ab1fe682d5ab476372acd" kind="function"><name>XortifyAuthRest_JsonProvisionning</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1a94f4e0408f26e65abca347ec883f4ec9" kind="function"><name>change_json</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_rest___json_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___wgetserialised" kind="class"><name>XortifyAuthRest_Wgetserialised</name>
+    <member refid="class_xortify_auth_rest___wgetserialised_1a237f5dcc3c161c5b1909327a90b56618" kind="variable"><name>$wget_xoops_username</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1ab9145a618042e8282ecb90d5f634311f" kind="variable"><name>$wget_xoops_password</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1ae7a6ecbdc464f48cce1e8edfa7de02d8" kind="function"><name>XortifyAuthRest_Wgetserialised</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1ae463a3baa44e95fa5b5151ab2334df1c" kind="function"><name>reduce_string</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___wgetserialised_provisionning" kind="class"><name>XortifyAuthRest_WgetserialisedProvisionning</name>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1a527aad8711de2a1c67cb93b4621b1fb3" kind="function"><name>XortifyAuthRest_WgetserialisedProvisionning</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1a94f4e0408f26e65abca347ec883f4ec9" kind="function"><name>change_json</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_rest___wgetserialised_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___wgetxml" kind="class"><name>XortifyAuthRest_Wgetxml</name>
+    <member refid="class_xortify_auth_rest___wgetxml_1a725df0dd6b578e15522ed15945e5901c" kind="variable"><name>$xml_xoops_username</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_1a8ec2889165c837354fded1cedbd42157" kind="variable"><name>$xml_xoops_password</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_1a84ac6c33916f84f4dc6c94124aae0cb4" kind="function"><name>XortifyAuthRest_Wgetxml</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_1ae463a3baa44e95fa5b5151ab2334df1c" kind="function"><name>reduce_string</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_rest___wgetxml_provisionning" kind="class"><name>XortifyAuthRest_WgetxmlProvisionning</name>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1af423120961930c8e60cca3d8db6ab8fe" kind="function"><name>XortifyAuthRest_WgetxmlProvisionning</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1ab594a8b13e8777f281050b8e348be6c2" kind="function"><name>change_xml</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_rest___wgetxml_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_soap" kind="class"><name>XortifyAuthSoap</name>
+    <member refid="class_xortify_auth_soap_1a18c3d5ef7b606d5f21c8fda9d08e8c7e" kind="variable"><name>$soap_client</name></member>
+    <member refid="class_xortify_auth_soap_1ab46ae973f580890282bce8dbe346abab" kind="variable"><name>$soap_xoops_username</name></member>
+    <member refid="class_xortify_auth_soap_1ac116a126fa48c572acc0a859f42fa8dc" kind="variable"><name>$soap_xoops_password</name></member>
+    <member refid="class_xortify_auth_soap_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_soap_1ad502760b81f77dd8f0ebdbfa04cbac9c" kind="function"><name>XortifyAuthSoap</name></member>
+    <member refid="class_xortify_auth_soap_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_soap_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_soap_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_soap_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_soap_provisionning" kind="class"><name>XortifyAuthSoapProvisionning</name>
+    <member refid="class_xortify_auth_soap_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1a8b92f1ad88521a50ccad3531e57bafef" kind="function"><name>XortifyAuthSoapProvisionning</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1a6b0d41baa32408f3442dfcfaf7cdc786" kind="function"><name>change_soap</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_soap_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_wgetserialised" kind="class"><name>XortifyAuthWgetserialised</name>
+    <member refid="class_xortify_auth_wgetserialised_1a237f5dcc3c161c5b1909327a90b56618" kind="variable"><name>$wget_xoops_username</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1ab9145a618042e8282ecb90d5f634311f" kind="variable"><name>$wget_xoops_password</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1a105dc6259614484bc637fdf1a5aa3832" kind="function"><name>XortifyAuthWgetserialised</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1ae463a3baa44e95fa5b5151ab2334df1c" kind="function"><name>reduce_string</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+    <member refid="class_xortify_auth_wgetserialised_1aabc52e4f78557f0e0b360a8aaba6e11d" kind="function"><name>obj2array</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_wgetserialised_provisionning" kind="class"><name>XortifyAuthWgetserialisedProvisionning</name>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1aec6821499309e62b1196f632361b8849" kind="function"><name>XortifyAuthWgetserialisedProvisionning</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1a94f4e0408f26e65abca347ec883f4ec9" kind="function"><name>change_json</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_wgetserialised_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_wgetxml" kind="class"><name>XortifyAuthWgetxml</name>
+    <member refid="class_xortify_auth_wgetxml_1a725df0dd6b578e15522ed15945e5901c" kind="variable"><name>$xml_xoops_username</name></member>
+    <member refid="class_xortify_auth_wgetxml_1a8ec2889165c837354fded1cedbd42157" kind="variable"><name>$xml_xoops_password</name></member>
+    <member refid="class_xortify_auth_wgetxml_1a12a029c610f699b4b25e79a1f64a3485" kind="variable"><name>$_dao</name></member>
+    <member refid="class_xortify_auth_wgetxml_1a877a7c66977f20634965c4ebe6657cfb" kind="function"><name>XortifyAuthWgetxml</name></member>
+    <member refid="class_xortify_auth_wgetxml_1a00678ba307326b734e6c679f28bea315" kind="function"><name>authenticate</name></member>
+    <member refid="class_xortify_auth_wgetxml_1a91121a1b702dfd20fb65a027c8ed26ec" kind="function"><name>validate</name></member>
+    <member refid="class_xortify_auth_wgetxml_1ae463a3baa44e95fa5b5151ab2334df1c" kind="function"><name>reduce_string</name></member>
+    <member refid="class_xortify_auth_wgetxml_1a1874c27b6f81a3f2ff9015405ad0f8bc" kind="function"><name>network_disclaimer</name></member>
+    <member refid="class_xortify_auth_wgetxml_1ac72efc5ad313a592cf6706876f56f7ec" kind="function"><name>create_user</name></member>
+  </compound>
+  <compound refid="class_xortify_auth_wgetxml_provisionning" kind="class"><name>XortifyAuthWgetxmlProvisionning</name>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1a486ed878bb5a7188c99ac4c9ee46ac6e" kind="variable"><name>$_auth_instance</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1a2c8eaa915c70d75289ac8a03686194f9" kind="function"><name>getInstance</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1a19fcb3e96d11cb81e368ba658ee38dfb" kind="function"><name>XortifyAuthWgetxmlProvisionning</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1a041d726ac26672547ed1504e8e0117aa" kind="function"><name>getXortifyUser</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1a35dc08b0f2138eb818ff95345b73bcff" kind="function"><name>sync</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1adfc9fcef01e7bd7b2f47e8e79d51fc63" kind="function"><name>add</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1ae1f0971b9712c794620cf309164e43af" kind="function"><name>change</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1a94f4e0408f26e65abca347ec883f4ec9" kind="function"><name>change_json</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1a13bdffdd926f26b825ea57066334ff01" kind="function"><name>delete</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1ad73006a505121228f3b075c2409787d2" kind="function"><name>suspend</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1aa1371f22826cf8cde4454c9b467203d0" kind="function"><name>restore</name></member>
+    <member refid="class_xortify_auth_wgetxml_provisionning_1a06d70fbd3a2db390b6f2530c0076628e" kind="function"><name>resetpwd</name></member>
+  </compound>
+  <compound refid="class_xortify_bans_preload" kind="class"><name>XortifyBansPreload</name>
+    <member refid="class_xortify_bans_preload_1a62e459a2f1d1676b74b93eaa0e01bd02" kind="function"><name>eventApiServerEnd</name></member>
+  </compound>
+  <compound refid="class_xortify_core_preload" kind="class"><name>XortifyCorePreload</name>
+    <member refid="class_xortify_core_preload_1a9f0be6ae273d3669e11c29910a0be338" kind="function"><name>init</name></member>
+    <member refid="class_xortify_core_preload_1a0ac5c4ae5ca172fc4ba58f576c215186" kind="function"><name>eventCoreIncludeAuthSuccess</name></member>
+    <member refid="class_xortify_core_preload_1a5cb12f8c8b7ab32f89c01204bdc7dda9" kind="function"><name>eventCoreIncludeCommonEnd</name></member>
+    <member refid="class_xortify_core_preload_1ab40d1b1df5c1bbe50a8b662ccdca179b" kind="function"><name>eventCoreHeaderCacheEnd</name></member>
+    <member refid="class_xortify_core_preload_1ad87d8eb3de0b5e76826affb376348ed8" kind="function"><name>eventCoreHeaderAddmeta</name></member>
+    <member refid="class_xortify_core_preload_1a87a684f242cb74d15cef3f0105e25776" kind="function"><name>hasAPIUserPass</name></member>
+    <member refid="class_xortify_core_preload_1a04f25a3d87f0ec4c02b11858680c86db" kind="function"><name>getFileListAsArray</name></member>
+  </compound>
+  <compound refid="class_xortify_emails" kind="class"><name>XortifyEmails</name>
+    <member refid="class_xortify_emails_1ac275a475a83ee8de16cf9c9f928fbe77" kind="variable"><name>$_ip</name></member>
+    <member refid="class_xortify_emails_1ab957a2cd087fd52a2718edf6cecca3ab" kind="function"><name>XortifyEmails</name></member>
+    <member refid="class_xortify_emails_1a658defb34762c8f40085aec87e16ba1a" kind="function"><name>toArray</name></member>
+  </compound>
+  <compound refid="class_xortify_emails__links" kind="class"><name>XortifyEmails_links</name>
+    <member refid="class_xortify_emails__links_1a92acc301077c8e3b54e83301b2f20861" kind="function"><name>XortifyEmails_links</name></member>
+    <member refid="class_xortify_emails__links_1a658defb34762c8f40085aec87e16ba1a" kind="function"><name>toArray</name></member>
+  </compound>
+  <compound refid="class_xortify_emails__links_handler" kind="class"><name>XortifyEmails_linksHandler</name>
+    <member refid="class_xortify_emails__links_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_xortify_emails_handler" kind="class"><name>XortifyEmailsHandler</name>
+    <member refid="class_xortify_emails_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" kind="function"><name>__construct</name></member>
+    <member refid="class_xortify_emails_handler_1adf61da246e18ae0d9f332c8aa463596a" kind="function"><name>insert</name></member>
+  </compound>
+  <compound refid="class_xortify_log" kind="class"><name>XortifyLog</name>
+    <member refid="class_xortify_log_1aac1a28175a1b29fd7e72c6d795297411" kind="function"><name>XortifyLog</name></member>
+    <member refid="class_xortify_log_1a658defb34762c8f40085aec87e16ba1a" kind="function"><name>toArray</name></member>
+    <member refid="class_xortify_log_1a3f189f6b1ffd23878681ca12bb91a486" kind="function"><name>runPrePlugin</name></member>
+    <member refid="class_xortify_log_1aa17aa62835f5fd61698b0b428c9932ac" kind="function"><name>runPostPlugin</name></member>
+  </compound>
+  <compound refid="class_xortify_log_handler" kind="class"><name>XortifyLogHandler</name>
+    <member refid="class_xortify_log_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" kind="function"><name>__construct</name></member>
+    <member refid="class_xortify_log_handler_1aa87428a86f05826a6eb558e15e11a2ec" kind="function"><name>insert</name></member>
+    <member refid="class_xortify_log_handler_1a9438af458937a969601359ed9db48792" kind="function"><name>getCountByField</name></member>
+  </compound>
+  <compound refid="class_xortify_markonline_preload" kind="class"><name>XortifyMarkonlinePreload</name>
+    <member refid="class_xortify_markonline_preload_1a62e459a2f1d1676b74b93eaa0e01bd02" kind="function"><name>eventApiServerEnd</name></member>
+  </compound>
+  <compound refid="class_xortify_php_preload" kind="class"><name>XortifyPhpPreload</name>
+    <member refid="class_xortify_php_preload_1a62e459a2f1d1676b74b93eaa0e01bd02" kind="function"><name>eventApiServerEnd</name></member>
+  </compound>
+  <compound refid="class_xortify_plugin_projecthoneypot__org" kind="class"><name>XortifyPluginProjecthoneypot_org</name>
+    <member refid="class_xortify_plugin_projecthoneypot__org_1aacd0a27d3740aae83c03e921f6e58783" kind="function"><name>BannedPreHook</name></member>
+    <member refid="class_xortify_plugin_projecthoneypot__org_1a1b0001df5cf5ef18a5181774ce16b089" kind="function"><name>BlockedPreHook</name></member>
+    <member refid="class_xortify_plugin_projecthoneypot__org_1abbd4e782a10042ec86d3bef94daad89a" kind="function"><name>MonitoredPreHook</name></member>
+    <member refid="class_xortify_plugin_projecthoneypot__org_1a6bc03033f17c2fcede4d020d1cfbcc48" kind="function"><name>BannedPostHook</name></member>
+    <member refid="class_xortify_plugin_projecthoneypot__org_1a1cb2408e6422326482b2e8eb45d2d0c1" kind="function"><name>BlockedPostHook</name></member>
+    <member refid="class_xortify_plugin_projecthoneypot__org_1aa4a3d909c3769e0c3c7b6488f8659a1d" kind="function"><name>MonitoredPostHook</name></member>
+  </compound>
+  <compound refid="class_xortify_plugin_protector" kind="class"><name>XortifyPluginProtector</name>
+    <member refid="class_xortify_plugin_protector_1aacd0a27d3740aae83c03e921f6e58783" kind="function"><name>BannedPreHook</name></member>
+    <member refid="class_xortify_plugin_protector_1a1b0001df5cf5ef18a5181774ce16b089" kind="function"><name>BlockedPreHook</name></member>
+    <member refid="class_xortify_plugin_protector_1abbd4e782a10042ec86d3bef94daad89a" kind="function"><name>MonitoredPreHook</name></member>
+    <member refid="class_xortify_plugin_protector_1a6bc03033f17c2fcede4d020d1cfbcc48" kind="function"><name>BannedPostHook</name></member>
+    <member refid="class_xortify_plugin_protector_1a1cb2408e6422326482b2e8eb45d2d0c1" kind="function"><name>BlockedPostHook</name></member>
+    <member refid="class_xortify_plugin_protector_1aa4a3d909c3769e0c3c7b6488f8659a1d" kind="function"><name>MonitoredPostHook</name></member>
+  </compound>
+  <compound refid="class_xortify_plugin_spiders" kind="class"><name>XortifyPluginSpiders</name>
+    <member refid="class_xortify_plugin_spiders_1aacd0a27d3740aae83c03e921f6e58783" kind="function"><name>BannedPreHook</name></member>
+    <member refid="class_xortify_plugin_spiders_1a1b0001df5cf5ef18a5181774ce16b089" kind="function"><name>BlockedPreHook</name></member>
+    <member refid="class_xortify_plugin_spiders_1abbd4e782a10042ec86d3bef94daad89a" kind="function"><name>MonitoredPreHook</name></member>
+    <member refid="class_xortify_plugin_spiders_1a6bc03033f17c2fcede4d020d1cfbcc48" kind="function"><name>BannedPostHook</name></member>
+    <member refid="class_xortify_plugin_spiders_1a1cb2408e6422326482b2e8eb45d2d0c1" kind="function"><name>BlockedPostHook</name></member>
+    <member refid="class_xortify_plugin_spiders_1aa4a3d909c3769e0c3c7b6488f8659a1d" kind="function"><name>MonitoredPostHook</name></member>
+  </compound>
+  <compound refid="class_xortify_plugin_stopforumspam__com" kind="class"><name>XortifyPluginStopforumspam_com</name>
+    <member refid="class_xortify_plugin_stopforumspam__com_1aacd0a27d3740aae83c03e921f6e58783" kind="function"><name>BannedPreHook</name></member>
+    <member refid="class_xortify_plugin_stopforumspam__com_1a1b0001df5cf5ef18a5181774ce16b089" kind="function"><name>BlockedPreHook</name></member>
+    <member refid="class_xortify_plugin_stopforumspam__com_1abbd4e782a10042ec86d3bef94daad89a" kind="function"><name>MonitoredPreHook</name></member>
+    <member refid="class_xortify_plugin_stopforumspam__com_1a6bc03033f17c2fcede4d020d1cfbcc48" kind="function"><name>BannedPostHook</name></member>
+    <member refid="class_xortify_plugin_stopforumspam__com_1a1cb2408e6422326482b2e8eb45d2d0c1" kind="function"><name>BlockedPostHook</name></member>
+    <member refid="class_xortify_plugin_stopforumspam__com_1aa4a3d909c3769e0c3c7b6488f8659a1d" kind="function"><name>MonitoredPostHook</name></member>
+  </compound>
+  <compound refid="class_xortify_plugin_xortify" kind="class"><name>XortifyPluginXortify</name>
+    <member refid="class_xortify_plugin_xortify_1aacd0a27d3740aae83c03e921f6e58783" kind="function"><name>BannedPreHook</name></member>
+    <member refid="class_xortify_plugin_xortify_1a1b0001df5cf5ef18a5181774ce16b089" kind="function"><name>BlockedPreHook</name></member>
+    <member refid="class_xortify_plugin_xortify_1abbd4e782a10042ec86d3bef94daad89a" kind="function"><name>MonitoredPreHook</name></member>
+    <member refid="class_xortify_plugin_xortify_1a6bc03033f17c2fcede4d020d1cfbcc48" kind="function"><name>BannedPostHook</name></member>
+    <member refid="class_xortify_plugin_xortify_1a1cb2408e6422326482b2e8eb45d2d0c1" kind="function"><name>BlockedPostHook</name></member>
+    <member refid="class_xortify_plugin_xortify_1aa4a3d909c3769e0c3c7b6488f8659a1d" kind="function"><name>MonitoredPostHook</name></member>
+  </compound>
+  <compound refid="class_xortify_servers" kind="class"><name>XortifyServers</name>
+    <member refid="class_xortify_servers_1ab20b47ee40f09c78cbddcd47b1495de6" kind="function"><name>XortifyServers</name></member>
+    <member refid="class_xortify_servers_1a658defb34762c8f40085aec87e16ba1a" kind="function"><name>toArray</name></member>
+  </compound>
+  <compound refid="class_xortify_servers_handler" kind="class"><name>XortifyServersHandler</name>
+    <member refid="class_xortify_servers_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_xortify_servers_preload" kind="class"><name>XortifyServersPreload</name>
+    <member refid="class_xortify_servers_preload_1a62e459a2f1d1676b74b93eaa0e01bd02" kind="function"><name>eventApiServerEnd</name></member>
+  </compound>
+  <compound refid="class_xortify_sfs_preload" kind="class"><name>XortifySfsPreload</name>
+    <member refid="class_xortify_sfs_preload_1a62e459a2f1d1676b74b93eaa0e01bd02" kind="function"><name>eventApiServerEnd</name></member>
+  </compound>
+  <compound refid="class_xortify_unbanner_preload" kind="class"><name>XortifyUnbannerPreload</name>
+    <member refid="class_xortify_unbanner_preload_1a62e459a2f1d1676b74b93eaa0e01bd02" kind="function"><name>eventApiServerEnd</name></member>
+  </compound>
+  <compound refid="class_xortify_unbans_preload" kind="class"><name>XortifyUnbansPreload</name>
+    <member refid="class_xortify_unbans_preload_1a62e459a2f1d1676b74b93eaa0e01bd02" kind="function"><name>eventApiServerEnd</name></member>
+  </compound>
+  <compound refid="class_xortify_usercrawl_preload" kind="class"><name>XortifyUsercrawlPreload</name>
+    <member refid="class_xortify_usercrawl_preload_1ac2af80e68afcdf13313a117ae01a9a6c" kind="function"><name>eventUsercrawlHeaderCacheEnd</name></member>
+    <member refid="class_xortify_usercrawl_preload_1ad0df3ce79d7b6da3335c3fe84d777ce7" kind="function"><name>eventUsercrawlFooterEnd</name></member>
+    <member refid="class_xortify_usercrawl_preload_1a2ed534bf0ce75f3f5ea332fa6b373549" kind="function"><name>hasAPIUserPass</name></member>
+  </compound>
+  <compound refid="class_xortify_users_preload" kind="class"><name>XortifyUsersPreload</name>
+    <member refid="class_xortify_users_preload_1a62e459a2f1d1676b74b93eaa0e01bd02" kind="function"><name>eventApiServerEnd</name></member>
+  </compound>
+  <compound refid="namespaceclass" kind="namespace"><name>class</name>
+  </compound>
+  <compound refid="namespacekernel" kind="namespace"><name>kernel</name>
+  </compound>
+  <compound refid="namespaceprotector" kind="namespace"><name>protector</name>
+  </compound>
+  <compound refid="namespace_services___j_s_o_n" kind="namespace"><name>Services_JSON</name>
+  </compound>
+  <compound refid="namespacexortify" kind="namespace"><name>xortify</name>
+  </compound>
+  <compound refid="banned_8php" kind="file"><name>banned.php</name>
+    <member refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="banned_8php_1afe9169534dbc3935c0823c21cfbf68bb" kind="variable"><name>$module_handler</name></member>
+    <member refid="banned_8php_1abe1e967dbf87a7b078bc37e6b4803e04" kind="variable"><name>$_SESSION</name></member>
+    <member refid="banned_8php_1a57087b1c7fc5b4ecf0edf917f6c40b71" kind="variable"><name>$log_handler</name></member>
+    <member refid="banned_8php_1a9a2cf15a653aee8be437f7ae474cd494" kind="variable"><name>$log</name></member>
+  </compound>
+  <compound refid="formdhtmltextarea_8php" kind="file"><name>formdhtmltextarea.php</name>
+  </compound>
+  <compound refid="formeditor_8php" kind="file"><name>formeditor.php</name>
+  </compound>
+  <compound refid="formtextarea_8php" kind="file"><name>formtextarea.php</name>
+  </compound>
+  <compound refid="precheck_8inc_8php" kind="file"><name>precheck.inc.php</name>
+    <member refid="precheck_8inc_8php_1afa319326ba67c00cadcdc82ac772a5d2" kind="variable"><name>PROTECTOR_PRECHECK_INCLUDED</name></member>
+    <member refid="precheck_8inc_8php_1a7e97813f6f2bef74ab21ee200405c773" kind="variable"><name>PROTECTOR_VERSION</name></member>
+  </compound>
+  <compound refid="system_2preloads_2xortify_8php" kind="file"><name>xortify.php</name>
+  </compound>
+  <compound refid="xortify_2plugin_2xortify_8php" kind="file"><name>xortify.php</name>
+  </compound>
+  <compound refid="admin_2index_8php" kind="file"><name>index.php</name>
+    <member refid="admin_2index_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="admin_2index_8php_1a68a3115a9d21b3451b1b631ea0aa45a8" kind="variable"><name>UTF</name></member>
+    <member refid="admin_2index_8php_1a925a4f82eb4a8af51868be3473dd6cb3" kind="variable"><name>ISO</name></member>
+    <member refid="admin_2index_8php_1aea741b6e2c7fbb6439b8cdb3091591a4" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="admin_2index_8php_1afe9169534dbc3935c0823c21cfbf68bb" kind="variable"><name>$module_handler</name></member>
+    <member refid="admin_2index_8php_1a3906023967379550e215cdec8f56ae20" kind="variable"><name>$config_handler</name></member>
+    <member refid="admin_2index_8php_1ade93c98e293ae39806072af3365c6f0e" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="admin_2index_8php_1a64b8ca00cce4671f7e9ca46aa82d0f88" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="admin_2index_8php_1a337b648fca998b37a46d84b43aa6e8f9" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="admin_2index_8php_1a12466d9a3f1c87076ded6bfe0cf0c9e5" kind="variable"><name>$myts</name></member>
+    <member refid="admin_2index_8php_1abeec3bb8da31e2d7ea01403e08a70401" kind="variable"><name>else</name></member>
+    <member refid="admin_2index_8php_1a7c93a81c9b28ec2f78f33cdabda28c76" kind="variable"><name>$op</name></member>
+    <member refid="admin_2index_8php_1acc8d70c12faff4b8d057986eece72b6c" kind="variable"><name>$fct</name></member>
+  </compound>
+  <compound refid="poll_2index_8php" kind="file"><name>index.php</name>
+    <member refid="poll_2index_8php_1a878554a49a15a826fbba2adeedfc5b75" kind="variable"><name>$xoops</name></member>
+    <member refid="poll_2index_8php_1a85f18f874c1d75c3d8e442d2f1f2bb2d" kind="variable"><name>$xoopsPreload</name></member>
+    <member refid="poll_2index_8php_1aff0c188cf9380be9ffa8bdedf998c316" kind="variable"><name>$xoopsLogger</name></member>
+    <member refid="poll_2index_8php_1a689ddc269addf1252ca6949478817726" kind="variable"><name>$xoopsErrorHandler</name></member>
+    <member refid="poll_2index_8php_1af6ccf79677b0f355d9b7fdaa45e96b3b" kind="variable"><name>$xoopsSecurity</name></member>
+    <member refid="poll_2index_8php_1a515ae51cf844df6d62e9ee01faebe7ef" kind="variable"><name>$sess_handler</name></member>
+    <member refid="poll_2index_8php_1a454e5028e8a41bf6b2225d72bc767379" kind="variable"><name>$xoopsOption</name></member>
+    <member refid="poll_2index_8php_1ae404acbb304be6b6ac443de921697faf" kind="variable"><name>if</name></member>
+    <member refid="poll_2index_8php_1a6733eb5f605d09eaede9845835d71c4e" kind="variable"><name>exit</name></member>
+  </compound>
+  <compound refid="menu_8php" kind="file"><name>menu.php</name>
+    <member refid="menu_8php_1a9e95e7fdb7ca106c9d44e97430edef59" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a3ab6c4c4d121f975136f6a49bda61104" kind="variable"><name>$xortifyImageAdmin</name></member>
+    <member refid="menu_8php_1aa4d95e2b8402adb7aac22031a76bf8ac" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a2bfe17f3051123a62497c4f163a989be" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a874680199c4b14f5e8fb1123a3bf24b6" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a8b18a24b489369490446d45ac2b617f7" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a0786c93d1375203e0020cc121fe02068" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a0f5b9b0199b46370782c408755cad310" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1ae2b4c511406ecfc8cb23eeba3cef2959" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a5f30f443311414593df5a4ae2c7501c8" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1ad27660fd5d267f334743070c732b1286" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a967967c3b047a56a25c5e7fb4979a0de" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a611f5939c752bb454bdce8f81812e872" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1ac8c8ccf89ea2c8889dd64b08737d6dd9" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1ac3c70c66723d68528e5e9c8a4383c126" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1ae825aefb069414ecc0bbf1fc86335167" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1aab8f8f168350fdbc929c79d6f8e6564c" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a076adc5338eb254a63b2e2d679087482" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a014e06ed36a394774cc2f03aa232a072" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1aadc33c1b4aea642afa84d339642b4844" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a2aba67319256287d166fc8ebfa4bede6" kind="variable"><name>$adminmenu</name></member>
+    <member refid="menu_8php_1a86c31a48d4510b1076e6fbfb731ba1d8" kind="variable"><name>$adminmenu</name></member>
+  </compound>
+  <compound refid="spoof_8php" kind="file"><name>spoof.php</name>
+    <member refid="spoof_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="spoof_8php_1ad7f6bff091c57019f377538b4c230400" kind="function"><name>b_xortify_spoof_comment</name></member>
+    <member refid="spoof_8php_1a25f011e1427a84190227f2af20439066" kind="function"><name>b_xortify_spoof_registration</name></member>
+    <member refid="spoof_8php_1a2ee38967658737c4e483c0a01f2c3b29" kind="function"><name>b_xortify_spoof_thread</name></member>
+  </compound>
+  <compound refid="auth_8php" kind="file"><name>auth.php</name>
+  </compound>
+  <compound refid="auth__curl_8php" kind="file"><name>auth_curl.php</name>
+  </compound>
+  <compound refid="auth__curl__provisionning_8php" kind="file"><name>auth_curl_provisionning.php</name>
+  </compound>
+  <compound refid="auth__curlserialised_8php" kind="file"><name>auth_curlserialised.php</name>
+  </compound>
+  <compound refid="auth__curlserialised__provisionning_8php" kind="file"><name>auth_curlserialised_provisionning.php</name>
+  </compound>
+  <compound refid="auth__curlxml_8php" kind="file"><name>auth_curlxml.php</name>
+  </compound>
+  <compound refid="auth__curlxml__provisionning_8php" kind="file"><name>auth_curlxml_provisionning.php</name>
+  </compound>
+  <compound refid="auth__json_8php" kind="file"><name>auth_json.php</name>
+  </compound>
+  <compound refid="auth__json__provisionning_8php" kind="file"><name>auth_json_provisionning.php</name>
+  </compound>
+  <compound refid="auth__minimumcloud_8php" kind="file"><name>auth_minimumcloud.php</name>
+    <member refid="auth__minimumcloud_8php_1ad3f5451abb22c5d78bd5abeac2cf7cfd" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="auth__minimumcloud__provisionning_8php" kind="file"><name>auth_minimumcloud_provisionning.php</name>
+  </compound>
+  <compound refid="auth__rest__curl_8php" kind="file"><name>auth_rest_curl.php</name>
+  </compound>
+  <compound refid="auth__rest__curl__provisionning_8php" kind="file"><name>auth_rest_curl_provisionning.php</name>
+  </compound>
+  <compound refid="auth__rest__curlserialised_8php" kind="file"><name>auth_rest_curlserialised.php</name>
+  </compound>
+  <compound refid="auth__rest__curlserialised__provisionning_8php" kind="file"><name>auth_rest_curlserialised_provisionning.php</name>
+  </compound>
+  <compound refid="auth__rest__curlxml_8php" kind="file"><name>auth_rest_curlxml.php</name>
+  </compound>
+  <compound refid="auth__rest__curlxml__provisionning_8php" kind="file"><name>auth_rest_curlxml_provisionning.php</name>
+  </compound>
+  <compound refid="auth__rest__json_8php" kind="file"><name>auth_rest_json.php</name>
+  </compound>
+  <compound refid="auth__rest__json__provisionning_8php" kind="file"><name>auth_rest_json_provisionning.php</name>
+  </compound>
+  <compound refid="auth__rest__wgetserialised_8php" kind="file"><name>auth_rest_wgetserialised.php</name>
+  </compound>
+  <compound refid="auth__rest__wgetserialised__provisionning_8php" kind="file"><name>auth_rest_wgetserialised_provisionning.php</name>
+  </compound>
+  <compound refid="auth__rest__wgetxml_8php" kind="file"><name>auth_rest_wgetxml.php</name>
+  </compound>
+  <compound refid="auth__rest__wgetxml__provisionning_8php" kind="file"><name>auth_rest_wgetxml_provisionning.php</name>
+  </compound>
+  <compound refid="auth__soap_8php" kind="file"><name>auth_soap.php</name>
+    <member refid="auth__soap_8php_1aa1dfe8b03eb0a67bfa60d8a6a976ff12" kind="variable"><name>else</name></member>
+  </compound>
+  <compound refid="auth__soap__provisionning_8php" kind="file"><name>auth_soap_provisionning.php</name>
+  </compound>
+  <compound refid="auth__wgetserialised_8php" kind="file"><name>auth_wgetserialised.php</name>
+  </compound>
+  <compound refid="auth__wgetserialised__provisionning_8php" kind="file"><name>auth_wgetserialised_provisionning.php</name>
+  </compound>
+  <compound refid="auth__wgetxml_8php" kind="file"><name>auth_wgetxml.php</name>
+  </compound>
+  <compound refid="auth__wgetxml__provisionning_8php" kind="file"><name>auth_wgetxml_provisionning.php</name>
+  </compound>
+  <compound refid="authfactory_8php" kind="file"><name>authfactory.php</name>
+  </compound>
+  <compound refid="curl_8php" kind="file"><name>curl.php</name>
+    <member refid="curl_8php_1a8665f154810f15495d0d72726758b563" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="curlserialised_8php" kind="file"><name>curlserialised.php</name>
+    <member refid="curlserialised_8php_1a2d7a63f7026da930d5173440db241a6e" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="curlxml_8php" kind="file"><name>curlxml.php</name>
+    <member refid="curlxml_8php_1ada6200c7fa12b633a7d6f6f54ff17e13" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="emails_8php" kind="file"><name>emails.php</name>
+  </compound>
+  <compound refid="emails__links_8php" kind="file"><name>emails_links.php</name>
+  </compound>
+  <compound refid="class_2json_8php" kind="file"><name>json.php</name>
+    <member refid="class_2json_8php_1ab990bf70b4d23779b5e44c6ad5cbdf5d" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="class_2json_8php_1a42fbc26b113afc08a5757bacf456cd8a" kind="variable"><name>XOOPS_JSON_LIB</name></member>
+  </compound>
+  <compound refid="include_2json_8php" kind="file"><name>JSON.php</name>
+    <member refid="include_2json_8php_1a1e79ff1fd74e07c4ccdcd0b80e43ea04" kind="variable"><name>SERVICES_JSON_SLICE</name></member>
+    <member refid="include_2json_8php_1ab05e1b32faca0c11f3843141c2e89f40" kind="variable"><name>SERVICES_JSON_IN_STR</name></member>
+    <member refid="include_2json_8php_1a800e29918ef4103a764768fd9fba3f76" kind="variable"><name>SERVICES_JSON_IN_ARR</name></member>
+    <member refid="include_2json_8php_1a3c58eb6f6956ee76d47965de616827a3" kind="variable"><name>SERVICES_JSON_IN_OBJ</name></member>
+    <member refid="include_2json_8php_1a6061c244fdf8c7c5d6423814af6ecb07" kind="variable"><name>SERVICES_JSON_IN_CMT</name></member>
+    <member refid="include_2json_8php_1a05615b32a21d38e71227831a102e0275" kind="variable"><name>SERVICES_JSON_LOOSE_TYPE</name></member>
+    <member refid="include_2json_8php_1ae614918331d7f14a4da9de624af7df33" kind="variable"><name>SERVICES_JSON_SUPPRESS_ERRORS</name></member>
+  </compound>
+  <compound refid="log_8php" kind="file"><name>log.php</name>
+  </compound>
+  <compound refid="minimumcloud_8php" kind="file"><name>minimumcloud.php</name>
+    <member refid="minimumcloud_8php_1adf2565575f9f929aa494be5a87b37b20" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="minimumcloud_8php_1aa49fda3cc7e19124c0d4107259577ad1" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="rest__curl_8php" kind="file"><name>rest_curl.php</name>
+    <member refid="rest__curl_8php_1a8665f154810f15495d0d72726758b563" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="rest__curlserialised_8php" kind="file"><name>rest_curlserialised.php</name>
+    <member refid="rest__curlserialised_8php_1a2d7a63f7026da930d5173440db241a6e" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="rest__curlxml_8php" kind="file"><name>rest_curlxml.php</name>
+    <member refid="rest__curlxml_8php_1ada6200c7fa12b633a7d6f6f54ff17e13" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="rest__json_8php" kind="file"><name>rest_json.php</name>
+    <member refid="rest__json_8php_1ab990bf70b4d23779b5e44c6ad5cbdf5d" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="rest__json_8php_1a42fbc26b113afc08a5757bacf456cd8a" kind="variable"><name>XOOPS_JSON_LIB</name></member>
+  </compound>
+  <compound refid="rest__wgetserialised_8php" kind="file"><name>rest_wgetserialised.php</name>
+    <member refid="rest__wgetserialised_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="rest__wgetserialised_8php_1a70ad743fdbf705daf2366b5cabf7a04d" kind="variable"><name>XOOPS_SERIAL_LIB</name></member>
+  </compound>
+  <compound refid="rest__wgetxml_8php" kind="file"><name>rest_wgetxml.php</name>
+    <member refid="rest__wgetxml_8php_1a121ad903444481b9834116cef5ea2f4d" kind="variable"><name>if</name></member>
+    <member refid="rest__wgetxml_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="class_2servers_8php" kind="file"><name>servers.php</name>
+  </compound>
+  <compound refid="preloads_2servers_8php" kind="file"><name>servers.php</name>
+  </compound>
+  <compound refid="soap_8php" kind="file"><name>soap.php</name>
+    <member refid="soap_8php_1a6146df301f89432497e6bfe9680af293" kind="variable"><name>if</name></member>
+    <member refid="soap_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="wgetserialised_8php" kind="file"><name>wgetserialised.php</name>
+    <member refid="wgetserialised_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="wgetserialised_8php_1a70ad743fdbf705daf2366b5cabf7a04d" kind="variable"><name>XOOPS_SERIAL_LIB</name></member>
+  </compound>
+  <compound refid="wgetxml_8php" kind="file"><name>wgetxml.php</name>
+    <member refid="wgetxml_8php_1a121ad903444481b9834116cef5ea2f4d" kind="variable"><name>if</name></member>
+    <member refid="wgetxml_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="serverup_8php" kind="file"><name>serverup.php</name>
+    <member refid="serverup_8php_1a58e794bee7ddf93b7733e35ac71cf8ed" kind="variable"><name>SERVER1</name></member>
+    <member refid="serverup_8php_1a8a17ba733d7bbbe191983c1998184298" kind="variable"><name>SERVER2</name></member>
+    <member refid="serverup_8php_1a4bec4584771b978c7de363db5d597cd2" kind="variable"><name>SERVER3</name></member>
+    <member refid="serverup_8php_1a4223a719e1c916bf302beb9b827fc632" kind="variable"><name>REPLACE</name></member>
+    <member refid="serverup_8php_1a9be718298ebd995eb6a5145cf8857de4" kind="variable"><name>SEARCHFOR</name></member>
+    <member refid="serverup_8php_1abd77e417d95ee59b739e54a62fe97fbc" kind="variable"><name>SOAP</name></member>
+    <member refid="serverup_8php_1ad0bd3808c083915191b2eb89901e57c0" kind="variable"><name>CURL</name></member>
+    <member refid="serverup_8php_1addb3dc7c4a57b9cee800f894e6dc2b4d" kind="variable"><name>JSON</name></member>
+    <member refid="serverup_8php_1a2f015ddb4cf5e19b82bf7191a2a3e9fa" kind="variable"><name>SERIAL</name></member>
+    <member refid="serverup_8php_1a5f33028773b1db8e11fcd34516dacb28" kind="variable"><name>XML</name></member>
+    <member refid="serverup_8php_1a1273e4f6dfecad5cc711360770b7d784" kind="variable"><name>REST</name></member>
+    <member refid="serverup_8php_1afe9169534dbc3935c0823c21cfbf68bb" kind="variable"><name>$module_handler</name></member>
+    <member refid="serverup_8php_1a3906023967379550e215cdec8f56ae20" kind="variable"><name>$config_handler</name></member>
+    <member refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kind="variable"><name>$configitem_handler</name></member>
+    <member refid="serverup_8php_1a45a3b595731ee647ebed75a62561beeb" kind="variable"><name>$serverup</name></member>
+    <member refid="serverup_8php_1ab3bee0b0adc9956c66ef9b6bf2d54213" kind="function"><name>xortify_getURLData</name></member>
+  </compound>
+  <compound refid="cron_2unbanner_8php" kind="file"><name>unbanner.php</name>
+    <member refid="cron_2unbanner_8php_1a787f648c22cbfb8f2a898edb32eee3e6" kind="variable"><name>$banmemberhandler</name></member>
+    <member refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kind="variable"><name>$criteria</name></member>
+    <member refid="cron_2unbanner_8php_1a910690950e9ee9823bdd1f8f7a7055a9" kind="variable"><name>$banned</name></member>
+    <member refid="cron_2unbanner_8php_1a8a2604af20e56f0769bf45487438b167" kind="variable"><name>$comment_handler</name></member>
+    <member refid="cron_2unbanner_8php_1aca5d2f7b731319ff76b78409ddf053d5" kind="variable"><name>$unbanmemberhandler</name></member>
+    <member refid="cron_2unbanner_8php_1afe9169534dbc3935c0823c21cfbf68bb" kind="variable"><name>$module_handler</name></member>
+    <member refid="cron_2unbanner_8php_1a110f4b3634321d724bce871da3484f52" kind="variable"><name>$xoBanModule</name></member>
+    <member refid="cron_2unbanner_8php_1ac6ad0bb9e31c6e133b077f0d7f1aecc1" kind="variable"><name>$xoUnbanModule</name></member>
+  </compound>
+  <compound refid="preloads_2unbanner_8php" kind="file"><name>unbanner.php</name>
+  </compound>
+  <compound refid="forms_8objects_8php" kind="file"><name>forms.objects.php</name>
+    <member refid="forms_8objects_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="forms_8xortify_8php" kind="file"><name>forms.xortify.php</name>
+  </compound>
+  <compound refid="functions_8php" kind="file"><name>functions.php</name>
+    <member refid="functions_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="install_8php" kind="file"><name>install.php</name>
+    <member refid="install_8php_1ae17a195e08ff39782b8f7626d4e23a0b" kind="function"><name>xoops_module_pre_install_xortify</name></member>
+  </compound>
+  <compound refid="instance_8php" kind="file"><name>instance.php</name>
+    <member refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kind="variable"><name>XORTIFY_INSTANCE_KEY</name></member>
+  </compound>
+  <compound refid="post_8footer_8end_8php" kind="file"><name>post.footer.end.php</name>
+    <member refid="post_8footer_8end_8php_1a830cf70d25fefacddcf4c6bc3fd7a0e0" kind="variable"><name>$check</name></member>
+  </compound>
+  <compound refid="post_8header_8addmeta_8php" kind="file"><name>post.header.addmeta.php</name>
+    <member refid="post_8header_8addmeta_8php_1a830cf70d25fefacddcf4c6bc3fd7a0e0" kind="variable"><name>$check</name></member>
+  </compound>
+  <compound refid="post_8header_8endcache_8php" kind="file"><name>post.header.endcache.php</name>
+    <member refid="post_8header_8endcache_8php_1a830cf70d25fefacddcf4c6bc3fd7a0e0" kind="variable"><name>$check</name></member>
+  </compound>
+  <compound refid="post_8loader_8mainfile_8php" kind="file"><name>post.loader.mainfile.php</name>
+    <member refid="post_8loader_8mainfile_8php_1a830cf70d25fefacddcf4c6bc3fd7a0e0" kind="variable"><name>$check</name></member>
+  </compound>
+  <compound refid="pre_8loader_8mainfile_8php" kind="file"><name>pre.loader.mainfile.php</name>
+    <member refid="pre_8loader_8mainfile_8php_1a830cf70d25fefacddcf4c6bc3fd7a0e0" kind="variable"><name>$check</name></member>
+  </compound>
+  <compound refid="update_8php" kind="file"><name>update.php</name>
+    <member refid="update_8php_1acdab42e02aa576211073a5e605b33a0b" kind="function"><name>xoops_module_update_xortify</name></member>
+  </compound>
+  <compound refid="admin_8php" kind="file"><name>admin.php</name>
+    <member refid="admin_8php_1abc1ff29169a949be307aee2df3aaed2d" kind="variable"><name>_XS_IPTYPE_IP4</name></member>
+    <member refid="admin_8php_1a9c7e9d9f83dbd4bc0ff65ca5aed3b89a" kind="variable"><name>_XS_IPTYPE_IP6</name></member>
+    <member refid="admin_8php_1a307ce2dd126665a03dadf72004635d2b" kind="variable"><name>_XS_IPTYPE_EMPTY</name></member>
+    <member refid="admin_8php_1aa1beda4a2cf402e94dd56feb627a3ac9" kind="variable"><name>_XS_AM_IPTYPE</name></member>
+    <member refid="admin_8php_1a4cbc5b28dd9e2a27eed730b8e78466f9" kind="variable"><name>_XS_AM_IPADDRESS</name></member>
+    <member refid="admin_8php_1a38a035a36a30fc40a6be44ac576a030e" kind="variable"><name>_XS_AM_NETADDRESS</name></member>
+    <member refid="admin_8php_1a4a82d909aa5d43e1d73aca4e25c9d1f5" kind="variable"><name>_XS_AM_PROXYIP</name></member>
+    <member refid="admin_8php_1afcbe4d825abea3eb73f739aabe6e3ffe" kind="variable"><name>_XS_AM_MACADDRESS</name></member>
+    <member refid="admin_8php_1ad7def70ea1a456f44a6cee82016ba442" kind="variable"><name>_XS_AM_LONG</name></member>
+    <member refid="admin_8php_1abed901e3f7de30e94bdd70dee96812e1" kind="variable"><name>_XS_AM_BANS</name></member>
+    <member refid="admin_8php_1a33ce28aaaf6456650d822a7f1ea85390" kind="variable"><name>_XS_AM_NOCACHEMSG</name></member>
+    <member refid="admin_8php_1a29897cd4b39b78ac6876ecaa5ba5d963" kind="variable"><name>_XOR_AM_LOG_H1</name></member>
+    <member refid="admin_8php_1a2fbd3538c912bb2da9080e494d8988bf" kind="variable"><name>_XOR_AM_LOG_P</name></member>
+    <member refid="admin_8php_1af580055456a051476465043a8a20e8c2" kind="variable"><name>_XOR_AM_TH_ACTION</name></member>
+    <member refid="admin_8php_1ab7d4977dc739734b4f4ff4ee6511cccb" kind="variable"><name>_XOR_AM_TH_PROVIDER</name></member>
+    <member refid="admin_8php_1a72fd968013399607191154b89403308c" kind="variable"><name>_XOR_AM_TH_DATE</name></member>
+    <member refid="admin_8php_1a3a9ff5904b2128321cb29d47d840f44b" kind="variable"><name>_XOR_AM_TH_UNAME</name></member>
+    <member refid="admin_8php_1a276072da8be36a1bb0bbb0cc167679e1" kind="variable"><name>_XOR_AM_TH_EMAIL</name></member>
+    <member refid="admin_8php_1a1d2afdea31c70077f9e845c33e81e748" kind="variable"><name>_XOR_AM_TH_IP4</name></member>
+    <member refid="admin_8php_1ae41a2fb1e269947bdba43d31430b13bc" kind="variable"><name>_XOR_AM_TH_IP6</name></member>
+    <member refid="admin_8php_1af6d9c5c52e8332b1dac37d25c742209d" kind="variable"><name>_XOR_AM_TH_PROXY_IP4</name></member>
+    <member refid="admin_8php_1a5c52d492ee99a1a05f5d41813475cb7d" kind="variable"><name>_XOR_AM_TH_PROXY_IP6</name></member>
+    <member refid="admin_8php_1adaa4be947d47b71f232f8cc28a7bc721" kind="variable"><name>_XOR_AM_TH_NETWORK_ADDY</name></member>
+    <member refid="admin_8php_1a558fca7a89d9fef674ad44fbc3f0ffdc" kind="variable"><name>_XOR_AM_TH_AGENT</name></member>
+    <member refid="admin_8php_1a50dfb93eafeab6f8c92bd87c54a4e3a3" kind="variable"><name>_XOR_ADMIN_COUNTS</name></member>
+    <member refid="admin_8php_1a834918998aca006f698e20c388cf89e5" kind="variable"><name>_XOR_ADMIN_THEREARE_BANNED</name></member>
+    <member refid="admin_8php_1ae91edf969356174ec66dc2592084b91f" kind="variable"><name>_XOR_ADMIN_THEREARE_BLOCKED</name></member>
+    <member refid="admin_8php_1a04c16d37c64d208172b86684f1bc311f" kind="variable"><name>_XOR_ADMIN_THEREARE_MONITORED</name></member>
+    <member refid="admin_8php_1a912087e6835ed6dc88251691d27a02ab" kind="variable"><name>_XOR_ADMIN_THEREARE_PROJECTHONEYPOTORG</name></member>
+    <member refid="admin_8php_1ab53ea620611ab351f4a9acf2c47db63e" kind="variable"><name>_XOR_ADMIN_THEREARE_PROTECTOR</name></member>
+    <member refid="admin_8php_1adc22fe7fc7d8e65bcb8799ed2f002fe1" kind="variable"><name>_XOR_ADMIN_THEREARE_SPIDERS</name></member>
+    <member refid="admin_8php_1ab3cfb616ea50c853d840ae592cecbf61" kind="variable"><name>_XOR_ADMIN_THEREARE_STOPFORUMSPAMCOM</name></member>
+    <member refid="admin_8php_1a839ff2c39ee9ff8f0d93da6c0f0626dc" kind="variable"><name>_XOR_ADMIN_THEREARE_XORTIFY</name></member>
+    <member refid="admin_8php_1a7c17f435033a48b5c83f6d93a06a667d" kind="variable"><name>_XOR_ADMIN_THEREARE_CLOUDEDBANS</name></member>
+    <member refid="admin_8php_1af82fe39e33f488420d749c6e47e9b9cd" kind="variable"><name>_XOR_ADMIN_MAKEDONATE</name></member>
+    <member refid="admin_8php_1a748f2b5592be47602cd0faae99c6c736" kind="variable"><name>_XOR_ADMIN_NONETWORKCOMM_DISCLAIMER</name></member>
+    <member refid="admin_8php_1a6f58bf05661814570409cd98573bc0b2" kind="variable"><name>_XOR_ADMIN_ERROR_OCCURED</name></member>
+    <member refid="admin_8php_1a99fced20eb19ef6a0024af039f2b8626" kind="variable"><name>_XOR_ADMIN_ERROR_URL</name></member>
+    <member refid="admin_8php_1a1acbc7d653af2300ac96112c38115d4e" kind="variable"><name>_XOR_ADMIN_ERROR_PROTOCOL</name></member>
+    <member refid="admin_8php_1a05e9065d35734850f0062843a86364b4" kind="variable"><name>_XOR_ADMIN_SIGNUP_XORTIFY_H2</name></member>
+    <member refid="admin_8php_1a5d647b6b983396b3837a2c6327c0c5d8" kind="variable"><name>_XOR_ADMIN_SIGNUP_XORTIFY_P</name></member>
+    <member refid="admin_8php_1a3d01c528ec2a398e228faa3a212291e6" kind="variable"><name>_XOR_ADMIN_SIGNUP_XORTIFY_FORM_TD2</name></member>
+    <member refid="admin_8php_1afae007156879341ae852ea2a072f6573" kind="variable"><name>_XOR_ADMIN_THEREARE_WHENCLEANED</name></member>
+    <member refid="admin_8php_1a8b6262b7d13c7fa83c5d50f1dec7ac5a" kind="variable"><name>_XOR_ADMIN_THEREARE_CLEANINGTOOK</name></member>
+    <member refid="admin_8php_1ad3cc152f725c9a18bf2ee09448d7203b" kind="variable"><name>_XOR_ADMIN_THEREARE_FILESDELETED</name></member>
+    <member refid="admin_8php_1ac4586fb8fcffface0612692b5d8259cd" kind="variable"><name>_XOR_ADMIN_THEREARE_BYTESSAVED</name></member>
+    <member refid="admin_8php_1a85b6051b1853dd7323a316a0a7be10fd" kind="variable"><name>_XS_AM_CATEGORY</name></member>
+    <member refid="admin_8php_1abd1dbb1388e056d25293fdc206f6ee92" kind="variable"><name>_XS_AM_BANID</name></member>
+    <member refid="admin_8php_1afa25ff7c50ae2b3fd766e59f4a375e95" kind="variable"><name>_XOR_ADMIN_ABOUT_CHANGELOG</name></member>
+    <member refid="admin_8php_1a3d015b333671cf464dd6ef55ca897bf1" kind="variable"><name>_XOR_ADMIN_ABOUT_DESCRIPTION</name></member>
+    <member refid="admin_8php_1ad508ca7cdcc22950a35c5dc032cb0b07" kind="variable"><name>_XOR_ADMIN_ABOUT_MODULEINFO</name></member>
+    <member refid="admin_8php_1a99aae1a62e59e926e039093886ff9290" kind="variable"><name>_XOR_ADMIN_ABOUT_MODULESTATUS</name></member>
+    <member refid="admin_8php_1a1bf19049af979a44f07e388459118f05" kind="variable"><name>_XOR_ADMIN_ABOUT_UPDATEDATE</name></member>
+    <member refid="admin_8php_1a7e5249444e39a7b104452f7cae4b9d74" kind="variable"><name>_XOR_ADMIN_ABOUT_WEBSITE</name></member>
+    <member refid="admin_8php_1abf4f547c45ab804d5a4262e77be36527" kind="variable"><name>_XOR_ADMIN_KEYS</name></member>
+    <member refid="admin_8php_1ac038d8fcb468ed8c2fa318b04d9a575e" kind="variable"><name>_XOR_ADMIN_INSTANCE_KEY</name></member>
+  </compound>
+  <compound refid="ban_8php" kind="file"><name>ban.php</name>
+    <member refid="ban_8php_1aa879fc3c50b0de0ec937a511dc798057" kind="variable"><name>_XOR_PAGETITLE</name></member>
+    <member refid="ban_8php_1aff93f77f179e77eefb0099807ed2605a" kind="variable"><name>_XOR_DESCRIPTION</name></member>
+    <member refid="ban_8php_1a04a63bef6c79e037e83950390ff8cf5a" kind="variable"><name>_XOR_BAN_PHP_TYPE</name></member>
+    <member refid="ban_8php_1a6127ff3e04b1a2c621962aeef2aa26e9" kind="variable"><name>_XOR_BAN_PHP_OCTETA</name></member>
+    <member refid="ban_8php_1a1018fe45867767415d72eba181c4c456" kind="variable"><name>_XOR_BAN_PHP_OCTETB</name></member>
+    <member refid="ban_8php_1a4262423ef1ed9d8d2a7e5232522a8bc0" kind="variable"><name>_XOR_BAN_PHP_OCTETC</name></member>
+    <member refid="ban_8php_1ad9a5e60057936e55be5e2f44b17e56ba" kind="variable"><name>_XOR_BAN_SPIDER_TYPE</name></member>
+    <member refid="ban_8php_1a03245804099af3e1a39a62be99f8c859" kind="variable"><name>_XOR_BAN_SFS_TYPE</name></member>
+    <member refid="ban_8php_1af24660519d4578cbcd90a35a3b93b5aa" kind="variable"><name>_XOR_BAN_SFS_EMAIL_FREQ</name></member>
+    <member refid="ban_8php_1a35d3988576a066dcd968a0ea47561b4f" kind="variable"><name>_XOR_BAN_SFS_EMAIL_LASTSEEN</name></member>
+    <member refid="ban_8php_1a710bb7a3321312bea8566396504acf3e" kind="variable"><name>_XOR_BAN_SFS_USERNAME_FREQ</name></member>
+    <member refid="ban_8php_1aa4c47edb99cc5c736a03a6568fc363c5" kind="variable"><name>_XOR_BAN_SFS_USERNAME_LASTSEEN</name></member>
+    <member refid="ban_8php_1af711d2efbe4db74f1d4a699dbcdb1807" kind="variable"><name>_XOR_BAN_SFS_IP_FREQ</name></member>
+    <member refid="ban_8php_1a83d4e783ae9a0d18ce06125d8c0c7f9a" kind="variable"><name>_XOR_BAN_SFS_IP_LASTSEEN</name></member>
+    <member refid="ban_8php_1a887237b8219acad416b3af82162c0f66" kind="variable"><name>_XOR_BAN_XORT_KEY</name></member>
+    <member refid="ban_8php_1ac8a9d9a3f65057b420ac8066a78d894d" kind="variable"><name>_XOR_BAN_XORT_MATCH</name></member>
+    <member refid="ban_8php_1a25f8dc1dd9b52929acb53de55de6b69c" kind="variable"><name>_XOR_BAN_XORT_LENGTH</name></member>
+    <member refid="ban_8php_1a45fd9bade6417b9981702ac84812014c" kind="variable"><name>_XOR_WORDS</name></member>
+    <member refid="ban_8php_1a5e2ba7d14d9e4b46ebbdae6ef0f62e7d" kind="variable"><name>_XOR_SPAM</name></member>
+    <member refid="ban_8php_1afdf5096fd748fba60a1f0d81dde475d7" kind="variable"><name>_XOR_WORDS_PAGETITLE</name></member>
+    <member refid="ban_8php_1aeef3756f11e3ee4fedde08147263640d" kind="variable"><name>_XOR_SPAM_PAGETITLE</name></member>
+    <member refid="ban_8php_1a901b1160bf5dfe4696745afbd2f087e9" kind="variable"><name>_XOR_WORDS_DESCRIPTION</name></member>
+    <member refid="ban_8php_1a8a623b5761ef811e78d8269b3c36f56c" kind="variable"><name>_XOR_SPAM_DESCRIPTION</name></member>
+  </compound>
+  <compound refid="main_8php" kind="file"><name>main.php</name>
+  </compound>
+  <compound refid="modinfo_8php" kind="file"><name>modinfo.php</name>
+    <member refid="modinfo_8php_1ad67726f7fdc3379977791dbae46e7a2e" kind="variable"><name>_MI_XOR_DESC</name></member>
+    <member refid="modinfo_8php_1abed4f2d9574815f82f828253c69b3045" kind="variable"><name>_MI_XOR_CREDITS</name></member>
+    <member refid="modinfo_8php_1a3e1d80b4ffcc3e529cbb0a2c3e2890f1" kind="variable"><name>_XOR_MI_USERNAME</name></member>
+    <member refid="modinfo_8php_1a5b188b1e94189bc17f0be9b90f49c697" kind="variable"><name>_XOR_MI_USERNAME_DESC</name></member>
+    <member refid="modinfo_8php_1a9ba56b46a075ab7de713ffc49801aee1" kind="variable"><name>_XOR_MI_PASSWORD</name></member>
+    <member refid="modinfo_8php_1a36129160e698bb9b12591e4b669c59c6" kind="variable"><name>_XOR_MI_PASSWORD_DESC</name></member>
+    <member refid="modinfo_8php_1a146acc4cd72e94a6ea2b7f9bd7930d55" kind="variable"><name>_XOR_MI_SECONDS</name></member>
+    <member refid="modinfo_8php_1ad18744bd726d3401cd929bf117fd9688" kind="variable"><name>_XOR_MI_SECONDS_DESC</name></member>
+    <member refid="modinfo_8php_1a3577341953a8b85fe104f829d0c15a9d" kind="variable"><name>_XOR_MI_PROVIDERS</name></member>
+    <member refid="modinfo_8php_1a461258effe4c47da6688263d2fc08855" kind="variable"><name>_XOR_MI_PROVIDERS_DESC</name></member>
+    <member refid="modinfo_8php_1aa1ec3ad910b652de032d02e89ef3b806" kind="variable"><name>_XOR_ADMENU1</name></member>
+    <member refid="modinfo_8php_1a95a892b4875491ced8fbd2f549d930d7" kind="variable"><name>_XOR_ADMENU2</name></member>
+    <member refid="modinfo_8php_1a008c720fa75affb52127965361361fd8" kind="variable"><name>_XOR_ADMENU3</name></member>
+    <member refid="modinfo_8php_1a5fbb901963def6307c1d4e336f4d8a1e" kind="variable"><name>_XOR_FRM_TITLE</name></member>
+    <member refid="modinfo_8php_1ad303fffdec43e07cc313f06c371b4393" kind="variable"><name>_XOR_FRM_UNAME</name></member>
+    <member refid="modinfo_8php_1a8bf3964f64499bbc2f5e9e5d1e99dfa4" kind="variable"><name>_XOR_FRM_EMAIL</name></member>
+    <member refid="modinfo_8php_1aa2de0bd8f44fcfb1c248ebdd0086632a" kind="variable"><name>_XOR_FRM_PASS</name></member>
+    <member refid="modinfo_8php_1a8dd4a36daee5d790f556324d6675c9ea" kind="variable"><name>_XOR_FRM_VPASS</name></member>
+    <member refid="modinfo_8php_1a865f5fdbdd7f08c0efded6731ac41eda" kind="variable"><name>_XOR_FRM_URL</name></member>
+    <member refid="modinfo_8php_1a4274dc2c27cca45dfa79fa7438c02eb0" kind="variable"><name>_XOR_FRM_VIEWEMAIL</name></member>
+    <member refid="modinfo_8php_1a3b15f8ba04e01f80e4bad0064d9a2196" kind="variable"><name>_XOR_FRM_TIMEZONE</name></member>
+    <member refid="modinfo_8php_1aa1dff11def4e2b8c8417b1514dccb087" kind="variable"><name>_XOR_FRM_DISCLAIMER</name></member>
+    <member refid="modinfo_8php_1a27d10109ee13581dcf8da8b82e730124" kind="variable"><name>_XOR_FRM_DISCLAIMER_AGREE</name></member>
+    <member refid="modinfo_8php_1ac083ec5b8a1e54fb36e4757c8f64b527" kind="variable"><name>_XOR_FRM_PUZZEL</name></member>
+    <member refid="modinfo_8php_1a9c85538866520c5aa93787af24aefcdb" kind="variable"><name>_XOR_FRM_REGISTER</name></member>
+    <member refid="modinfo_8php_1aa88aaa597939c6f9c48e42702e5f9703" kind="variable"><name>_XOR_USERCREATED_PLEASEACTIVATE</name></member>
+    <member refid="modinfo_8php_1a4bd036c1fe4b9888fa44bc36168c0900" kind="variable"><name>_XOR_FRM_NOSOAP_DISCLAIMER</name></member>
+    <member refid="modinfo_8php_1a3aff86a5f10d9e1a1bfda77d4404aad6" kind="variable"><name>_XOR_MI_RECORDS</name></member>
+    <member refid="modinfo_8php_1a339be6d2fe23ff9b00a837f916858eb3" kind="variable"><name>_XOR_MI_RECORDS_DESC</name></member>
+    <member refid="modinfo_8php_1aee69ab7ded4ec47c6a5fcf212b8c11d7" kind="variable"><name>_XOR_MI_SECONDS_37600</name></member>
+    <member refid="modinfo_8php_1a6fcaf92838ff41d6ce6ae16c14257c15" kind="variable"><name>_XOR_MI_SECONDS_28800</name></member>
+    <member refid="modinfo_8php_1a0cd2135208a59ea30fa98e1dcb1383a1" kind="variable"><name>_XOR_MI_SECONDS_14400</name></member>
+    <member refid="modinfo_8php_1a382482a9ac5c98c7f7458e02e14f4767" kind="variable"><name>_XOR_MI_SECONDS_7200</name></member>
+    <member refid="modinfo_8php_1a4f525b1e66ba787037a4ee7cb6f414a4" kind="variable"><name>_XOR_MI_SECONDS_3600</name></member>
+    <member refid="modinfo_8php_1af64161e51d13555d38abe5356a56963f" kind="variable"><name>_XOR_MI_SECONDS_1800</name></member>
+    <member refid="modinfo_8php_1a044a4868fce742ed414cecd78fcec1c8" kind="variable"><name>_XOR_MI_SECONDS_1200</name></member>
+    <member refid="modinfo_8php_1a1b6a50adfe344a78d47a78527c9079bf" kind="variable"><name>_XOR_MI_SECONDS_600</name></member>
+    <member refid="modinfo_8php_1a156d1cf6beff612993efa9e76aff5c35" kind="variable"><name>_XOR_MI_SECONDS_300</name></member>
+    <member refid="modinfo_8php_1a046ce94d2f4d53b35278afde15160061" kind="variable"><name>_XOR_MI_SECONDS_180</name></member>
+    <member refid="modinfo_8php_1ae29e326ff0e84590aacc61999f409a24" kind="variable"><name>_XOR_MI_SECONDS_60</name></member>
+    <member refid="modinfo_8php_1ad500389422d456a86753b693ecbd1d9b" kind="variable"><name>_XOR_MI_SECONDS_30</name></member>
+    <member refid="modinfo_8php_1a47296a93c6805228139f637493171464" kind="variable"><name>_XOR_MI_RECORDS_177600</name></member>
+    <member refid="modinfo_8php_1a86e283d5ad92e2673830778e733bd4f5" kind="variable"><name>_XOR_MI_RECORDS_48800</name></member>
+    <member refid="modinfo_8php_1a5e9659e8df9de619ca4f8f593ff60feb" kind="variable"><name>_XOR_MI_RECORDS_24400</name></member>
+    <member refid="modinfo_8php_1a574b5feb43e355695c54fa37fe424740" kind="variable"><name>_XOR_MI_RECORDS_12200</name></member>
+    <member refid="modinfo_8php_1ab15c448b7737b571d1bb63edd1046c5a" kind="variable"><name>_XOR_MI_RECORDS_3600</name></member>
+    <member refid="modinfo_8php_1a46d39d813294fcdda8007b53823f26c9" kind="variable"><name>_XOR_MI_RECORDS_1800</name></member>
+    <member refid="modinfo_8php_1a2c69df06854228a3c0099116bc2c6816" kind="variable"><name>_XOR_MI_RECORDS_1200</name></member>
+    <member refid="modinfo_8php_1a6da9ae835764208a9ec81d1341b833eb" kind="variable"><name>_XOR_MI_RECORDS_600</name></member>
+    <member refid="modinfo_8php_1a518f94614622bb30fb7c91c3fe2f097e" kind="variable"><name>_XOR_MI_RECORDS_300</name></member>
+    <member refid="modinfo_8php_1a1ac53f16de1b5509abff9f08ce242099" kind="variable"><name>_XOR_MI_RECORDS_180</name></member>
+    <member refid="modinfo_8php_1acb26704caf28563704d7c57f807ab995" kind="variable"><name>_XOR_MI_RECORDS_60</name></member>
+    <member refid="modinfo_8php_1a0859d8ad94c7dbf6f73ded85a7d03693" kind="variable"><name>_XOR_MI_RECORDS_30</name></member>
+    <member refid="modinfo_8php_1a19a4cb09326a46ea00cdb3581056fd89" kind="variable"><name>_XOR_MI_PROVIDER_XORTIFY</name></member>
+    <member refid="modinfo_8php_1a1d6af2e8f752de82eef0865af4a96a0a" kind="variable"><name>_XOR_MI_PROVIDER_PROTECTOR</name></member>
+    <member refid="modinfo_8php_1a4260b8226738b1d616d38df67f41e8a8" kind="variable"><name>_XOR_MI_PROVIDER_STOPFORUMSPAM</name></member>
+    <member refid="modinfo_8php_1a4107a00cfe0faddc049b059c1c19d873" kind="variable"><name>_XOR_MI_PROVIDER_SPIDERS</name></member>
+    <member refid="modinfo_8php_1ab2c87d3be77ab5f8a102b1f328b9c570" kind="variable"><name>_XOR_MI_PROVIDER_PROJECTHONEYPOT</name></member>
+    <member refid="modinfo_8php_1aa1b5e85963dab35808c4d39596cf3379" kind="variable"><name>_XOR_MI_PROTOCOL</name></member>
+    <member refid="modinfo_8php_1a3fb61039ab50ee2a6938b06d2e2701fb" kind="variable"><name>_XOR_MI_PROTOCOL_DESC</name></member>
+    <member refid="modinfo_8php_1a68e7323771efb073fde70ea3fce191f6" kind="variable"><name>_XOR_MI_PROTOCOL_SOAP</name></member>
+    <member refid="modinfo_8php_1a53a07d257318b651c98366ed059cf52e" kind="variable"><name>_XOR_MI_PROTOCOL_CURL</name></member>
+    <member refid="modinfo_8php_1a89313cebc9031877b5fe8da613b6cebc" kind="variable"><name>_XOR_MI_PROTOCOL_JSON</name></member>
+    <member refid="modinfo_8php_1aca64726abfc5897724436f2259a485b8" kind="variable"><name>_XOR_MI_URISOAP</name></member>
+    <member refid="modinfo_8php_1a839ee70525b4a810699cec742e4fe9cc" kind="variable"><name>_XOR_MI_URISOAP_DESC</name></member>
+    <member refid="modinfo_8php_1aa16a50e507f85433921e22db77280f9f" kind="variable"><name>_XOR_MI_URICURL</name></member>
+    <member refid="modinfo_8php_1a175824fa8263f9983e13d8b9b0cc8534" kind="variable"><name>_XOR_MI_URICURL_DESC</name></member>
+    <member refid="modinfo_8php_1af70d8d0e63efdb150ddf3f260cc184ff" kind="variable"><name>_XOR_MI_URIJSON</name></member>
+    <member refid="modinfo_8php_1a5191eb74323ad6c3f639fc7681fd35e8" kind="variable"><name>_XOR_MI_URIJSON_DESC</name></member>
+    <member refid="modinfo_8php_1ab976f916a20fba3b01896f59e4f4af76" kind="variable"><name>_XOR_MI_PHP_DAYS</name></member>
+    <member refid="modinfo_8php_1a27718de8decd9e32fd05a718e26085c2" kind="variable"><name>_XOR_MI_PHP_NUMBEROFDAYS</name></member>
+    <member refid="modinfo_8php_1a8bf1b1d2160e40d8a1f18efbedeb1837" kind="variable"><name>_XOR_MI_PHP_NUMBEROFDAYS_DESC</name></member>
+    <member refid="modinfo_8php_1a5f9ed44a15d5b17aa65a9933e46c9f66" kind="variable"><name>_XOR_MI_PHP_SEVERITY</name></member>
+    <member refid="modinfo_8php_1a3d41d56081915a1ed0dd7bd49adce726" kind="variable"><name>_XOR_MI_PHP_SEVERITYLEVEL</name></member>
+    <member refid="modinfo_8php_1a86944b5aafe37d155755d5fd8ae41a43" kind="variable"><name>_XOR_MI_PHP_SEVERITYLEVEL_DESC</name></member>
+    <member refid="modinfo_8php_1aba17fab2284d0dd9d12bb9d2bbb383d2" kind="variable"><name>_XOR_MI_PHP_SCANMODE</name></member>
+    <member refid="modinfo_8php_1aa9fc91146a5f1152f227ae299b7f4418" kind="variable"><name>_XOR_MI_PHP_SCANMODE_DESC</name></member>
+    <member refid="modinfo_8php_1ab9945cc47aff199e5fb5d3105becb980" kind="variable"><name>_XOR_MI_PHP_SCANMODE_SUSPICIOUS</name></member>
+    <member refid="modinfo_8php_1a8446539f2588eda57742708ac5a1f8b5" kind="variable"><name>_XOR_MI_PHP_SCANMODE_HARVESTER</name></member>
+    <member refid="modinfo_8php_1a36ce485a01b755742ab14d62fb420d55" kind="variable"><name>_XOR_MI_PHP_SCANMODE_SUSICIOUSHARVESTER</name></member>
+    <member refid="modinfo_8php_1a3f7c8f9e3c9e45dc6ca5c661cabd877d" kind="variable"><name>_XOR_MI_PHP_SCANMODE_SPAMMER</name></member>
+    <member refid="modinfo_8php_1a0c2e0198ff25d69d21ec6636a9408f70" kind="variable"><name>_XOR_MI_PHP_SCANMODE_SUSPICIOUSSPAMMER</name></member>
+    <member refid="modinfo_8php_1ae8eee85b24a863b29cb10793639ec1c6" kind="variable"><name>_XOR_MI_PHP_SCANMODE_HARVESTERSPAMMER</name></member>
+    <member refid="modinfo_8php_1a58fb30b31fb4cb361e408446ba0052a6" kind="variable"><name>_XOR_MI_PHP_SCANMODE_SUSPICIOUSHARVESTERSPAMMER</name></member>
+    <member refid="modinfo_8php_1a4cc21ed8d2462d0f4d9ebd171cdde202" kind="variable"><name>_XOR_MI_SFS_EMAIILFREQ</name></member>
+    <member refid="modinfo_8php_1a708f714f3f00d78e70da8df12c1be238" kind="variable"><name>_XOR_MI_SFS_EMAILFREQUENCY</name></member>
+    <member refid="modinfo_8php_1a609f268d883596b432779e888c7603e7" kind="variable"><name>_XOR_MI_SFS_EMAILFREQUENCY_DESC</name></member>
+    <member refid="modinfo_8php_1a5edd3ff52446a77778b61f0b477cb0bd" kind="variable"><name>_XOR_MI_SFS_UNAMEFREQ</name></member>
+    <member refid="modinfo_8php_1a1bc6f89369952c38016e180822c0da9e" kind="variable"><name>_XOR_MI_SFS_UNAMEFREQUENCY</name></member>
+    <member refid="modinfo_8php_1aa92f589f21c14d210d36dd3a045d776f" kind="variable"><name>_XOR_MI_SFS_UNAMEFREQUENCY_DESC</name></member>
+    <member refid="modinfo_8php_1ad71c26d7383b9800253d86cdf7450915" kind="variable"><name>_XOR_MI_SFS_IPFREQ</name></member>
+    <member refid="modinfo_8php_1a7b950487fdd42b698158c887f4e1fce0" kind="variable"><name>_XOR_MI_SFS_IPFREQUENCY</name></member>
+    <member refid="modinfo_8php_1afe32bc1979a42ad896a9130e41a5c627" kind="variable"><name>_XOR_MI_SFS_IPFREQUENCY_DESC</name></member>
+    <member refid="modinfo_8php_1aedbee79d07d36d47d6f7f3e1558ddf3b" kind="variable"><name>_XOR_MI_SFS_EMAILLASTSEEN</name></member>
+    <member refid="modinfo_8php_1a01efb6c5d7aa33c1e27be0b84b3804d6" kind="variable"><name>_XOR_MI_SFS_EMAILLASTSEEN_DESC</name></member>
+    <member refid="modinfo_8php_1affcdb9e4c0f91e615fbc66a91a189f1e" kind="variable"><name>_XOR_MI_SFS_UNAMELASTSEEN</name></member>
+    <member refid="modinfo_8php_1a9a6cd9074635362220d79fc27d50d628" kind="variable"><name>_XOR_MI_SFS_UNAMELASTSEEN_DESC</name></member>
+    <member refid="modinfo_8php_1a7229c6a407c62408a02336790b6d0305" kind="variable"><name>_XOR_MI_SFS_IPLASTSEEN</name></member>
+    <member refid="modinfo_8php_1a135df2739ef0e96e7eb4e9e9a8c14871" kind="variable"><name>_XOR_MI_SFS_IPLASTSEEN_DESC</name></member>
+    <member refid="modinfo_8php_1a3ca5fd8f5009f6c8b59e6618694aead0" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_24HOURS</name></member>
+    <member refid="modinfo_8php_1a4e813687e165ca15f72583a6d365194b" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_1WEEK</name></member>
+    <member refid="modinfo_8php_1a56e819d6c88489749d2000b3023f075c" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_FORTNIGHT</name></member>
+    <member refid="modinfo_8php_1ab60273bcf9153077fc9497d325af142e" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_1MONTH</name></member>
+    <member refid="modinfo_8php_1a70d8b6cc5dfb4bb57227b2923df98be4" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_2MONTHS</name></member>
+    <member refid="modinfo_8php_1ac950e95b20407785be4889230e28da4e" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_3MONTHS</name></member>
+    <member refid="modinfo_8php_1aa17fad42a55f6decfeca86238a999017" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_4MONTHS</name></member>
+    <member refid="modinfo_8php_1abde3ef0709a6e008edabf9c20becaf7c" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_5MONTHS</name></member>
+    <member refid="modinfo_8php_1aabc029b485628f497b25733a5ed516ff" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_6MONTHS</name></member>
+    <member refid="modinfo_8php_1a12a1c37bba3a24046d1474ab741bf8c0" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_12MONTHS</name></member>
+    <member refid="modinfo_8php_1adcb8a30a7389313462db805337aa8d49" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_24MONTHS</name></member>
+    <member refid="modinfo_8php_1a574a52aadc8d56c90313ba59f7a15f19" kind="variable"><name>_XOR_MI_SFS_LASTSEEN_36MONTHS</name></member>
+    <member refid="modinfo_8php_1aff72574edebf995e4e84f44a0200dc78" kind="variable"><name>_XOR_MI_LOG_BANNED</name></member>
+    <member refid="modinfo_8php_1a92544f895fea549ad23c92027eba307f" kind="variable"><name>_XOR_MI_LOG_BANNED_DESC</name></member>
+    <member refid="modinfo_8php_1ae4131bf8c72a26261b34a48b1cd8e8c2" kind="variable"><name>_XOR_MI_LOG_BLOCKED</name></member>
+    <member refid="modinfo_8php_1a2af4a7c90dcb3ed12f8e426866fccc93" kind="variable"><name>_XOR_MI_LOG_BLOCKED_DESC</name></member>
+    <member refid="modinfo_8php_1ad004d5299d7081663c1f6ac5ee7b5d01" kind="variable"><name>_XOR_MI_LOG_MONITORED</name></member>
+    <member refid="modinfo_8php_1a8f2bdc7847c3f4a25191c8f5e7751b55" kind="variable"><name>_XOR_MI_LOG_MONITORED_DESC</name></member>
+    <member refid="modinfo_8php_1a8310f7c14e10e825f058c6859942ae6f" kind="variable"><name>_XOR_MI_LOGDROPS</name></member>
+    <member refid="modinfo_8php_1a6bbbed1935d495806dbbcb26a7822821" kind="variable"><name>_XOR_MI_LOGDROPS_DESC</name></member>
+    <member refid="modinfo_8php_1a37d9f36c4c851d5f01e8d21ebef8116b" kind="variable"><name>_XOR_MI_URISERIAL</name></member>
+    <member refid="modinfo_8php_1aac202f7c966294fef69304106e6fafb6" kind="variable"><name>_XOR_MI_URISERIAL_DESC</name></member>
+    <member refid="modinfo_8php_1a00931117ca16e5ec939d338c20a9e2f2" kind="variable"><name>_XOR_MI_URIXML</name></member>
+    <member refid="modinfo_8php_1a1ec2a38b299770209ea3ac68a27effcf" kind="variable"><name>_XOR_MI_URIXML_DESC</name></member>
+    <member refid="modinfo_8php_1a3e5c59e27297f37c7ef3e17982a6dc8b" kind="variable"><name>_XOR_MI_IPCACHE</name></member>
+    <member refid="modinfo_8php_1a46761410860d919f0f6e60b1bbafcac1" kind="variable"><name>_XOR_MI_IPCACHE_DESC</name></member>
+    <member refid="modinfo_8php_1a4911cd84956c373c428fd2a95419ce53" kind="variable"><name>_XOR_MI_SECONDS_29030400</name></member>
+    <member refid="modinfo_8php_1aaf6fe4f1722d812cdf0dd13c777dc47f" kind="variable"><name>_XOR_MI_SECONDS_14515200</name></member>
+    <member refid="modinfo_8php_1a9ec03699806546b36c236764485cfd58" kind="variable"><name>_XOR_MI_SECONDS_7257600</name></member>
+    <member refid="modinfo_8php_1ac845a363c334e2ac47cf12aff2012e09" kind="variable"><name>_XOR_MI_SECONDS_2419200</name></member>
+    <member refid="modinfo_8php_1ab9d90081f39893801c4e742e9d04e4e4" kind="variable"><name>_XOR_MI_SECONDS_1209600</name></member>
+    <member refid="modinfo_8php_1a66282a57bfafe027ae10bec342e9e975" kind="variable"><name>_XOR_MI_SECONDS_604800</name></member>
+    <member refid="modinfo_8php_1ad0c43393c1f3dbfdd5a65e97cb1854eb" kind="variable"><name>_XOR_MI_SECONDS_86400</name></member>
+    <member refid="modinfo_8php_1a4e26473626814117f12f357b8a2259b5" kind="variable"><name>_XOR_MI_SECONDS_43200</name></member>
+    <member refid="modinfo_8php_1a0c1c0594ace5cd965539101572e510ae" kind="variable"><name>_XOR_MI_CRONTYPE</name></member>
+    <member refid="modinfo_8php_1a1acb0a13d9b2a5f80ec4b2882071433d" kind="variable"><name>_XOR_MI_CRONTYPE_DESC</name></member>
+    <member refid="modinfo_8php_1a0e1059a71e0bddaee7692410806cd3d4" kind="variable"><name>_XOR_MI_CRONTYPE_PRELOADER</name></member>
+    <member refid="modinfo_8php_1a45035d7d4889f1d0d85d216475c48df1" kind="variable"><name>_XOR_MI_CRONTYPE_CRONTAB</name></member>
+    <member refid="modinfo_8php_1a644d2a1b05a049b6a4a7926cf1a334be" kind="variable"><name>_XOR_MI_CRONTYPE_SCHEDULER</name></member>
+    <member refid="modinfo_8php_1a44499fda87605e3f8d025f63f4766b11" kind="variable"><name>_XOR_MI_CRONINTERVAL</name></member>
+    <member refid="modinfo_8php_1a00a373a20b0bfe51d018b0ce1862ed65" kind="variable"><name>_XOR_MI_CRONINTERVAL_DESC</name></member>
+    <member refid="modinfo_8php_1a2ba5306e6b6e5aebe055cd9805ee87a1" kind="variable"><name>_XOR_ADMENU4</name></member>
+    <member refid="modinfo_8php_1affba63ea40fb251b4aa22a524aa36121" kind="variable"><name>_XOR_ADMENU5</name></member>
+    <member refid="modinfo_8php_1a2a67200d62e1e2c2620289428effc2fd" kind="variable"><name>_XOR_MI_FAULT_DELAY</name></member>
+    <member refid="modinfo_8php_1a89547293df76b89513fc58562205c526" kind="variable"><name>_XOR_MI_FAULT_DELAY_DESC</name></member>
+    <member refid="modinfo_8php_1a8e356fce7c5309a16ba2978db563ee9a" kind="variable"><name>_XOR_MI_CURL_TIMOUT</name></member>
+    <member refid="modinfo_8php_1a016b1f46e842f9ce8ea5087a5489bdbf" kind="variable"><name>_XOR_MI_CURL_TIMOUT_DESC</name></member>
+    <member refid="modinfo_8php_1aa37e0e4fdf9f92109d18227efe756963" kind="variable"><name>_XOR_MI_CURL_CONNECTTIMOUT</name></member>
+    <member refid="modinfo_8php_1a7b42cc3552371e825d1aaa466db6a544" kind="variable"><name>_XOR_MI_CURL_CONNECTTIMOUT_DESC</name></member>
+    <member refid="modinfo_8php_1ad6f47c5487ec21b74c1460bb37f7f612" kind="variable"><name>_XOR_MI_XOOPS_GOOGLE_ANALYTICS_ACCOUNTID_FAILEDTOPASS</name></member>
+    <member refid="modinfo_8php_1a798d2cc4fd5957601208045f5d2dee7b" kind="variable"><name>_XOR_MI_XOOPS_GOOGLE_ANALYTICS_ACCOUNTID_USERPASSED</name></member>
+    <member refid="modinfo_8php_1a378129f96a1346aadf7e077ee06cd961" kind="variable"><name>_XOR_MI_CLIENT_GOOGLE_ANALYTICS_ACCOUNTID_FAILEDTOPASS</name></member>
+    <member refid="modinfo_8php_1ae46b31d9fb074f89d9374d4cece7e7fd" kind="variable"><name>_XOR_MI_CLIENT_GOOGLE_ANALYTICS_ACCOUNTID_USERPASSED</name></member>
+    <member refid="modinfo_8php_1afe39b9c3642badcfa14b81da4dc0bae0" kind="variable"><name>_MI_XOR_NAME</name></member>
+    <member refid="modinfo_8php_1add6d8e7c954748f79afe91685be8f333" kind="variable"><name>_MI_XOR_VERSION</name></member>
+    <member refid="modinfo_8php_1ae2e4851558a725efe9e725964fa0a10c" kind="variable"><name>_MI_XOR_MODE_CLIENT</name></member>
+    <member refid="modinfo_8php_1acdfe55e567647661aa7db336676eb874" kind="variable"><name>_MI_XOR_MODE_SERVER</name></member>
+    <member refid="modinfo_8php_1a5828e263e114f240be3b86216d584ced" kind="variable"><name>_MI_XOR_USER_AGENT</name></member>
+    <member refid="modinfo_8php_1a29c23eb8967a326f1f8f717e1e9caa43" kind="variable"><name>_MI_XOR_RUNTIME</name></member>
+    <member refid="modinfo_8php_1ada91650a1bf1391dfa04a3a0c4ae9025" kind="variable"><name>_XOR_MI_URIREST</name></member>
+    <member refid="modinfo_8php_1ad5f418183200f41fef81b2c96b101a3f" kind="variable"><name>_XOR_MI_URIREST_DESC</name></member>
+    <member refid="modinfo_8php_1ab67511a2cf16e7dd4ed19b7fe506c783" kind="variable"><name>_XOR_MI_PROTOCOL_CURLSERIAL</name></member>
+    <member refid="modinfo_8php_1a9aedbc559a32f4031542d8a3e738ac44" kind="variable"><name>_XOR_MI_PROTOCOL_WGETSERIAL</name></member>
+    <member refid="modinfo_8php_1a12d8aa865f8f7c0eeee02b4f1d290dc3" kind="variable"><name>_XOR_MI_PROTOCOL_CURLXML</name></member>
+    <member refid="modinfo_8php_1a3fb7d09b2d626714300ea1265ad4584b" kind="variable"><name>_XOR_MI_PROTOCOL_WGETXML</name></member>
+    <member refid="modinfo_8php_1ab5c8d546ffc58a36b3c4fdb37e87c8b3" kind="variable"><name>_XOR_MI_PROTOCOL_LEGACY_CURLSERIAL</name></member>
+    <member refid="modinfo_8php_1a1ef9e469ac7593508add644d00f3d2cb" kind="variable"><name>_XOR_MI_PROTOCOL_LEGACY_WGETSERIAL</name></member>
+    <member refid="modinfo_8php_1a0f04e925d20709a088d540dcbc224d3e" kind="variable"><name>_XOR_MI_PROTOCOL_LEGACY_CURLXML</name></member>
+    <member refid="modinfo_8php_1abb0a9ae2170673a71f99bb97e4d7115e" kind="variable"><name>_XOR_MI_PROTOCOL_LEGACY_WGETXML</name></member>
+    <member refid="modinfo_8php_1a8102ac8fd2492e8c9937639c312fc50a" kind="variable"><name>_XOR_MI_PROTOCOL_LEGACY_CURL</name></member>
+    <member refid="modinfo_8php_1ad541fc8e8bd74baca0985d06b1e27f64" kind="variable"><name>_XOR_MI_PROTOCOL_LEGACY_JSON</name></member>
+    <member refid="modinfo_8php_1acdf5634104861bad26ccd75f98fd1b7c" kind="variable"><name>_MI_XOR_NOT_MODE_CLIENT</name></member>
+    <member refid="modinfo_8php_1a5d589e4ba8c289536f7d9d358076599b" kind="variable"><name>_MI_XOR_NOT_MODE_SERVER</name></member>
+    <member refid="modinfo_8php_1abd0feb1c709d673666b6208f247eb9fa" kind="variable"><name>_XOR_MI_BOUNCE</name></member>
+    <member refid="modinfo_8php_1a341221e2b120a6faca3946d0c9fca412" kind="variable"><name>_XOR_MI_BOUNCE_DESC</name></member>
+    <member refid="modinfo_8php_1a3b714e9c1097baa1c8c54361e45b0650" kind="variable"><name>_XOR_MI_SERVERCACHE</name></member>
+    <member refid="modinfo_8php_1a4132f226ccc1d296b017633d84dd800d" kind="variable"><name>_XOR_MI_SERVERCACHE_DESC</name></member>
+    <member refid="modinfo_8php_1ad94d6b700c323cb5cff7d3590674e3b3" kind="variable"><name>_XOR_MI_GOOGLE_ANALYTICS</name></member>
+    <member refid="modinfo_8php_1a7c6d9951b925d841b13c477da3433bea" kind="variable"><name>_XOR_MI_GOOGLE_ANALYTICS_DESC</name></member>
+    <member refid="modinfo_8php_1a05e7b61f7da15db93067edf3832a8833" kind="variable"><name>_XOR_MI_XORTIFY_INSTANCE_KEY_WASNOTWRITTEN</name></member>
+    <member refid="modinfo_8php_1a85e9934f544e4c1ba3db5d113361d642" kind="variable"><name>_XOR_MI_DISABLED</name></member>
+    <member refid="modinfo_8php_1aca9210bfbd57c7f0f5da79499f1e6a22" kind="variable"><name>_XOR_MI_USERSTOCHECK</name></member>
+    <member refid="modinfo_8php_1a0c4bcf33cd068dd316e8f4e436de4d79" kind="variable"><name>_XOR_MI_USERSTOCHECK_DESC</name></member>
+    <member refid="modinfo_8php_1a1c3322382f1a45b1be1128226b475b97" kind="variable"><name>_XOR_MI_ALLOWEDSPAMS</name></member>
+    <member refid="modinfo_8php_1a6d1dbe7515e924c332dffa391b0a3a7e" kind="variable"><name>_XOR_MI_ALLOWEDSPAMS_DESC</name></member>
+    <member refid="modinfo_8php_1ae4662f31cdc4492c3501df96f6e56cea" kind="variable"><name>_XOR_MI_CHECKSPAMS</name></member>
+    <member refid="modinfo_8php_1a59592aa6d90f7072f3f11b12b94a6059" kind="variable"><name>_XOR_MI_CHECKSPAMS_DESC</name></member>
+    <member refid="modinfo_8php_1a0175ff42e0dff9845382f02bdfe6533c" kind="variable"><name>_XOR_MI_MINIMUMWORDS</name></member>
+    <member refid="modinfo_8php_1a7a3454d91485ce0fde4407bbb07fdbcc" kind="variable"><name>_XOR_MI_MINIMUMWORDS_DESC</name></member>
+    <member refid="modinfo_8php_1a88d72f522eefbe2e4635b481404bbac5" kind="variable"><name>_XOR_MI_MINIMUMWORDSGROUPS</name></member>
+    <member refid="modinfo_8php_1a40e7deffce39f64b6db7a940efa0de09" kind="variable"><name>_XOR_MI_MINIMUMWORDSGROUPS_DESC</name></member>
+    <member refid="modinfo_8php_1a6bac218a39b26a99469340b141fa7558" kind="variable"><name>_XOR_MI_ALLOWEDADULT</name></member>
+    <member refid="modinfo_8php_1a532236ece799b703bf86905842515d6c" kind="variable"><name>_XOR_MI_ALLOWEDADULT_DESC</name></member>
+    <member refid="modinfo_8php_1a2d1976b007886b44f6e56125888f8677" kind="variable"><name>_XOR_MI_PROTOCOL_MINIMUMCLOUD</name></member>
+    <member refid="modinfo_8php_1a702e5022427ab468379466c3c2502975" kind="variable"><name>_XOR_MI_MC_REQUIRED</name></member>
+    <member refid="modinfo_8php_1a3db27aa1cca7121a18a3ae76759dc482" kind="variable"><name>_XOR_MI_MC_SPAMC</name></member>
+    <member refid="modinfo_8php_1a2402cb9d913d00bde296074b1c8ef371" kind="variable"><name>_XOR_MI_MC_SPAMC_DESC</name></member>
+    <member refid="modinfo_8php_1a2ccb1426bf4243c66c78ea8b415ed50c" kind="variable"><name>_XOR_MI_MC_SFS_API</name></member>
+    <member refid="modinfo_8php_1ac4d75b0b87a7234e484e0a5c61a8810d" kind="variable"><name>_XOR_MI_MC_SFS_API_DESC</name></member>
+    <member refid="modinfo_8php_1adb527c39e0b473233f90d761338a2fd4" kind="variable"><name>_XOR_MI_MC_SFS_KEY</name></member>
+    <member refid="modinfo_8php_1ae69a66d6df9794b87e16d860560f57a0" kind="variable"><name>_XOR_MI_MC_SFS_KEY_DESC</name></member>
+    <member refid="modinfo_8php_1ac9dc7324382b040c3653fa64f400daae" kind="variable"><name>_XOR_MI_MC_PHP_API</name></member>
+    <member refid="modinfo_8php_1a0e0d70bf61971414c033beaa0d7c6c62" kind="variable"><name>_XOR_MI_MC_PHP_API_DESC</name></member>
+    <member refid="modinfo_8php_1ab2889878e2be57d3b59d8ce22d5aca62" kind="variable"><name>_XOR_MI_MC_PHP_KEY</name></member>
+    <member refid="modinfo_8php_1abacd6f6a1f002e9ba7250f44e02b4f54" kind="variable"><name>_XOR_MI_MC_PHP_KEY_DESC</name></member>
+    <member refid="modinfo_8php_1a1bb8f67ec25c264d7749c5189f85d046" kind="variable"><name>_XOR_MI_SPOOF_COMMENT</name></member>
+    <member refid="modinfo_8php_1ad367a868ea8fe7970fea82c356369c02" kind="variable"><name>_XOR_MI_SPOOF_REGISTRATION</name></member>
+    <member refid="modinfo_8php_1a1f95a3273f03ebd3a44c47cb9d22e043" kind="variable"><name>_XOR_MI_SPOOF_THREAD</name></member>
+    <member refid="modinfo_8php_1aac1f3cacc93cb5311e57b62ffa47f067" kind="variable"><name>_XOR_MI_SPOOF_COMMENT_DESC</name></member>
+    <member refid="modinfo_8php_1ab118ef7252500a0aff4b7deeec6332dd" kind="variable"><name>_XOR_MI_SPOOF_REGISTRATION_DESC</name></member>
+    <member refid="modinfo_8php_1ae29b1ed03d2a15f8b7a5a5df392dc0de" kind="variable"><name>_XOR_MI_SPOOF_THREAD_DESC</name></member>
+  </compound>
+  <compound refid="projecthoneypot_8org_8php" kind="file"><name>projecthoneypot.org.php</name>
+  </compound>
+  <compound refid="protector_8php" kind="file"><name>protector.php</name>
+  </compound>
+  <compound refid="spiders_8php" kind="file"><name>spiders.php</name>
+  </compound>
+  <compound refid="stopforumspam_8com_8php" kind="file"><name>stopforumspam.com.php</name>
+  </compound>
+  <compound refid="bans_8php" kind="file"><name>bans.php</name>
+  </compound>
+  <compound refid="core_8php" kind="file"><name>core.php</name>
+  </compound>
+  <compound refid="markonline_8php" kind="file"><name>markonline.php</name>
+  </compound>
+  <compound refid="php_8php" kind="file"><name>php.php</name>
+  </compound>
+  <compound refid="sfs_8php" kind="file"><name>sfs.php</name>
+  </compound>
+  <compound refid="unbans_8php" kind="file"><name>unbans.php</name>
+  </compound>
+  <compound refid="usercrawl_8php" kind="file"><name>usercrawl.php</name>
+  </compound>
+  <compound refid="users_8php" kind="file"><name>users.php</name>
+  </compound>
+  <compound refid="projecthoneypot_8org_2post_8loader_8php" kind="file"><name>post.loader.php</name>
+    <member refid="projecthoneypot_8org_2post_8loader_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="projecthoneypot_8org_2post_8loader_8php_1a05d5dfb2e997e7b1230ef56d742eb6c1" kind="variable"><name>else</name></member>
+    <member refid="projecthoneypot_8org_2post_8loader_8php_1a227a9443cabbe5e23cfc10c4371e09d1" kind="variable"><name>$uname</name></member>
+    <member refid="projecthoneypot_8org_2post_8loader_8php_1ad634f418b20382e2802f80532d76d3cd" kind="variable"><name>$email</name></member>
+  </compound>
+  <compound refid="spiders_2post_8loader_8php" kind="file"><name>post.loader.php</name>
+    <member refid="spiders_2post_8loader_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="stopforumspam_8com_2post_8loader_8php" kind="file"><name>post.loader.php</name>
+    <member refid="stopforumspam_8com_2post_8loader_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="stopforumspam_8com_2post_8loader_8php_1abace3cecef5a8bb6ab0a2f103c592f88" kind="variable"><name>$ipdata</name></member>
+  </compound>
+  <compound refid="xortify_2post_8loader_8php" kind="file"><name>post.loader.php</name>
+    <member refid="xortify_2post_8loader_8php_1adaeadb8f91232ad6dbd52f394104cd19" kind="variable"><name>$GLOBALS</name></member>
+    <member refid="xortify_2post_8loader_8php_1afaeb0aa23d13e417fcfa6b008f397c71" kind="variable"><name>$checkfields</name></member>
+    <member refid="xortify_2post_8loader_8php_1aacfa30e81347998f3a6fd1903c2c05d3" kind="variable"><name>$func</name></member>
+    <member refid="xortify_2post_8loader_8php_1a566274d031ba42e22bf2b4fda50d0cf0" kind="variable"><name>$soapExchg</name></member>
+    <member refid="xortify_2post_8loader_8php_1a4e486549b335a8e8fe6eeb9c4aa0a17c" kind="variable"><name>$bans</name></member>
+    <member refid="xortify_2post_8loader_8php_1a05d5dfb2e997e7b1230ef56d742eb6c1" kind="variable"><name>else</name></member>
+    <member refid="xortify_2post_8loader_8php_1a227a9443cabbe5e23cfc10c4371e09d1" kind="variable"><name>$uname</name></member>
+    <member refid="xortify_2post_8loader_8php_1ad634f418b20382e2802f80532d76d3cd" kind="variable"><name>$email</name></member>
+  </compound>
+  <compound refid="protector_2footer_8post_8loader_8php" kind="file"><name>footer.post.loader.php</name>
+    <member refid="protector_2footer_8post_8loader_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="xortify_2footer_8post_8loader_8php" kind="file"><name>footer.post.loader.php</name>
+    <member refid="xortify_2footer_8post_8loader_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="protector_2header_8post_8loader_8php" kind="file"><name>header.post.loader.php</name>
+    <member refid="protector_2header_8post_8loader_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="xortify_2header_8post_8loader_8php" kind="file"><name>header.post.loader.php</name>
+    <member refid="xortify_2header_8post_8loader_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="providers_8php" kind="file"><name>providers.php</name>
+    <member refid="providers_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="pre_8loader_8php" kind="file"><name>pre.loader.php</name>
+    <member refid="pre_8loader_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kind="variable"><name>$GLOBALS</name></member>
+  </compound>
+  <compound refid="xoops__version_8php" kind="file"><name>xoops_version.php</name>
+    <member refid="xoops__version_8php_1a9075115f6fe06eab2978b952478e2bfd" kind="variable"><name>_MI_XOR_MODE_CLIENT</name></member>
+    <member refid="xoops__version_8php_1a39d2d4621e3065109051fa95e5ea69d9" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a5cdbd2ac9e212ff077aaa59101b3b867" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1acca90d0d682b0eb029fdaad38ff16570" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a0155196723a439a1c9c63166d75e1aa9" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a9a8b63ec3546bbd06789015d8d641444" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a3e2ba4037e62f8dd1790bdbde525315a" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a959303c9b36209d115fdef00ee85b476" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a71cc638deee036400821a7fbe821c9c0" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1ab024cf3ad0ca97d54e30a29c04a00d21" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1ac01b0a110a2b2471b022408cc144ba6a" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a67cc0580683a24bde7fb2a93a6b0b8b3" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a2372fb2a0d0c8276a91ee60be1ba845b" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a71a5da9d3a0c17c57f174d20d27f3be3" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a123c91e534177f17f2f74d6f0608ba7a" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1ad5a8e1dbbf9b0a009bf8cf4479d02278" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1acb3338b35e8702eeb9add71947190f39" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a563f37b735830ef4c581ad9e434be79d" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a084df2399d3cc8c26eb02e88e08b622c" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1af0bc7d0c4fe87fc42a2f15409ed68875" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a138065f75446a11b4d48364b1f17e788" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a1c2efd68629d51e54fb27c265f7805c9" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a42cbe75464ce49a2d4b4021d2723d138" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1aa4e12581579c2367973edde1bb88501b" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a46166b6a7758f2db961ddfc222c7cee7" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1ab54848746dffc89a9586849773c37117" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1ac4ba86acfbe5315b02336ae5b1bfda08" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a791eeaa88e332857d66106842bea8dbe" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a641a463ee220e6308d212336ac3fc5d3" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1abf96815bce17f25c7e7536bc71495ae1" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1af3e5bbed6b430087f78267070c0ac644" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1af10a40e06ffacd8c9887aa19248962ea" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a1d2b2a5769eed42798472aa6383b4138" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a9817ed669ea459a38ad8246e621165da" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a8be69d7d0067839ed0cd81d6f111d055" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a000d0d88cf59a126590d556801104982" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a6ae62ef6c07aedb85c0b8bf322d0f7e8" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1aa0600b3f3df5403c2b15717e099226dc" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a28296a9c643048f6555da1e126a29bc6" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a5836e107844ac303be9f58f51a8a4fd4" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a890ca3f221b00adef5ce8b87a4356816" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a94b725b908acb5b9c52aaf824ee08ce4" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a434fdfe156f54f0edcc90301816a25c4" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a29fb3292cffa7f059ff569297785761c" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1abfb3e6806088c7dc1915d6306d0d4d15" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a31e14c91e594cf1f3d23df166027f58c" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1acbce95e76b8d940e8d770b88e1bebe35" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1af411d21e51da7d68a9c87ce5f42238c8" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a32e1c2084cd61fd8eed6ea4e1aa48f42" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a768e74a968bcadb55351611867c017b7" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a677e42dae338738010a78548909bf2f5" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a83018d9153d17d91fbcf3bc10158d34f" kind="variable"><name>$i</name></member>
+    <member refid="xoops__version_8php_1af819a0cd7a3333fb95204d77af465df7" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a5951d3c081f73a382c5d953f6ab6f946" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a9a130deea7652d35c9c40af2597342ad" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1acfb54266647964e7122b4b97d18a7ef2" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a109ef2781ee64346f869b02fe538d208" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a97bde72eb399d36cae8b92f0fe643e4c" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a2f084d4cbd766a0a77a22c3a0569d00a" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a5e9eb73a3e95f753e596d6a407eaa7e2" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a3a99fbd85eb007c5a24976ed7a746dc5" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a565f7b70c886b13fc870233f5bfcbeec" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a8015bb547bd75a72113a2b7f832e0bf2" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a2d446acc674eb0afef1c17e4237333c1" kind="variable"><name>$modversion</name></member>
+    <member refid="xoops__version_8php_1a011800c63ece4cbbfa77136a20607023" kind="variable"><name>$options</name></member>
+    <member refid="xoops__version_8php_1a795feb91f53abe1674955a391b25baac" kind="variable"><name>$days</name></member>
+    <member refid="xoops__version_8php_1a263e9411b798d19e344eb909462d41b7" kind="variable"><name>$num</name></member>
+  </compound>
+  <compound refid="dir_f366f9d24e090a379e21c74d274f7a94" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11</name>
+  </compound>
+  <compound refid="dir_7dda158251f02e1138fb7b34f4b06844" kind="dir"><name>E:/== SVN ==</name>
+  </compound>
+  <compound refid="dir_a0e7e26759812353e1ad91a1328ecb0b" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/admin</name>
+  </compound>
+  <compound refid="dir_22bc29c42c7e1ab0eaaec60e3879c46f" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/auth</name>
+  </compound>
+  <compound refid="dir_d0f73f73d3ce0fc52832666486f8a106" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/blocks</name>
+  </compound>
+  <compound refid="dir_c232e4a5436e54337a9bc359f809adc3" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class</name>
+  </compound>
+  <compound refid="dir_71b71f50a601cc99350d730db91bdb73" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class</name>
+  </compound>
+  <compound refid="dir_4d352d53c4a1006020667066c0aa674b" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron</name>
+  </compound>
+  <compound refid="dir_885cc87fac2d91e269af0a5a959fa5f6" kind="dir"><name>E:</name>
+  </compound>
+  <compound refid="dir_cd8faf1ac11fff0aa9d0d94f24b04556" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english</name>
+  </compound>
+  <compound refid="dir_ec7dfc4462d562b462383dd6e3206cdc" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs</name>
+  </compound>
+  <compound refid="dir_cc1d9dd0e7b08738f745b1f787995207" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include</name>
+  </compound>
+  <compound refid="dir_21c6980f6d5b66de9425b7108358e3af" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/include</name>
+  </compound>
+  <compound refid="dir_88c0d0b2b230fd82d94e1e7decb5cf51" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language</name>
+  </compound>
+  <compound refid="dir_e637394a4d50909d4f85c9440a7bab59" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules</name>
+  </compound>
+  <compound refid="dir_04ba66ae200c7e62b223475be2c741e7" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin</name>
+  </compound>
+  <compound refid="dir_b89a217e361e1e11d18d7ad279f2b22c" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/poll</name>
+  </compound>
+  <compound refid="dir_2fbee0353946830c3be23ba4243e00f2" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads</name>
+  </compound>
+  <compound refid="dir_cb3f94a68160d46ce21ebe8bd23fbdc6" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/system/preloads</name>
+  </compound>
+  <compound refid="dir_c13f0abd21d92b9dd5a667895cf1ef60" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/projecthoneypot.org</name>
+  </compound>
+  <compound refid="dir_e6ad5575d07cd8db5c4c198be3be7f75" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/protector</name>
+  </compound>
+  <compound refid="dir_c4b6924dd254aab3a74da38f1be1fccd" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector</name>
+  </compound>
+  <compound refid="dir_489cb51b9c6dca65fb5079bc75788711" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers</name>
+  </compound>
+  <compound refid="dir_d7d5e2ada734eec00eb19a2a81731f8a" kind="dir"><name>E:/== SVN ==/Xortify/releases</name>
+  </compound>
+  <compound refid="dir_2b2c28dcb5ceaed20d9befa85eec4836" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/spiders</name>
+  </compound>
+  <compound refid="dir_0ad6d77e9a2c64a8b549dfe651781e82" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/stopforumspam.com</name>
+  </compound>
+  <compound refid="dir_4f8d3c1561531c66b4b98c7292c7e8fe" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/system</name>
+  </compound>
+  <compound refid="dir_2e12dd1cb746676dcf4578f5ed63382d" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6</name>
+  </compound>
+  <compound refid="dir_18a8e405d7dfb30e10b3b3b01d56d55a" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform</name>
+  </compound>
+  <compound refid="dir_a6441437022e6d014e9c86b1fa198397" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/xortify</name>
+  </compound>
+  <compound refid="dir_f3ab56d43d50ffc3a0ad689cb1fc62fe" kind="dir"><name>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify</name>
+  </compound>
+  <compound refid="dir_c44dd3c1f9c0400df8292d313e38ccfe" kind="dir"><name>E:/== SVN ==/Xortify</name>
+  </compound>
+</doxygenindex>

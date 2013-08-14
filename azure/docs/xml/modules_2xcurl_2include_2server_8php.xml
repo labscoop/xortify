@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="modules_2xcurl_2include_2server_8php" kind="file">
+    <compoundname>server.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1a3aaf40baac36e278c7d7c9139df1750c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mode</definition>
+        <argsstring></argsstring>
+        <name>$mode</name>
+        <initializer>= (isset($_REQUEST[&apos;outputmode&apos;])?(string)$_REQUEST[&apos;outputmode&apos;]:&apos;json&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1a147a766daa03d52576c7345fea31c945" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$parser</definition>
+        <argsstring></argsstring>
+        <name>$parser</name>
+        <initializer>= (isset($_REQUEST[&apos;parser&apos;])?(string)$_REQUEST[&apos;parser&apos;]:&apos;http&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1ada8a7130088351710bb02ed622d6bf65" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$plugin</definition>
+        <argsstring></argsstring>
+        <name>$plugin</name>
+        <initializer>= $_REQUEST[&apos;xrestplugin&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1a3a14292722020f5076fa1465350a8e68" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xrestPlugin&apos;]</definition>
+        <argsstring>[&apos;xrestPlugin&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= $plugin</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1a0a4baf0b22973c07685c3981f0d17fc4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$path</definition>
+        <argsstring></argsstring>
+        <name>$path</name>
+        <initializer>= parse_url(XOOPS_URL.$_SERVER[&apos;REQUEST_URI&apos;], PHP_URL_PATH)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1abb35c8495a232b510389fa6d7b15d38a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$request</definition>
+        <argsstring></argsstring>
+        <name>$request</name>
+        <initializer>= parse_url(XOOPS_URL.$_SERVER[&apos;REQUEST_URI&apos;], PHP_URL_QUERY)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1affc45c6ace2eeb3f300b054dbf9592b6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$values</definition>
+        <argsstring></argsstring>
+        <name>$values</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1a42eec151d60db44f976e7c3112aa59c7" prot="public" static="no" mutable="no">
+        <type>if(isset($_POST)) if(isset($_GET))</type>
+        <definition>$xoopsPreload</definition>
+        <argsstring></argsstring>
+        <name>$xoopsPreload</name>
+        <initializer>=&amp; XoopsPreload::getInstance()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="52" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1a8d746571063b5fd6ec78b0632e57b0bd" prot="public" static="no" mutable="no">
+        <type>global</type>
+        <definition>global $xoopsModuleConfig</definition>
+        <argsstring></argsstring>
+        <name>$xoopsModuleConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="69" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1ab3ab98606b7a592c3804f643b2d2cd9d" prot="public" static="no" mutable="no">
+        <type>global</type>
+        <definition>global $xoopsModule</definition>
+        <argsstring></argsstring>
+        <name>$xoopsModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="69" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1ab43edfdb9338a9071e689ea64f0dc975" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ttlresult</definition>
+        <argsstring></argsstring>
+        <name>$ttlresult</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="70" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1a8ae136bdd20606bb319ae4cc3e0f449f" prot="public" static="no" mutable="no">
+        <type>if(!function_exists(&apos;json_encode&apos;))</type>
+        <definition>if (!function_exists(&apos;json_encode&apos;)) $funct</definition>
+        <argsstring></argsstring>
+        <name>$funct</name>
+        <initializer>= new <ref refid="class_functions_handler" kindref="compound">FunctionsHandler</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="81" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1a3386223949f1e798ea1a5dd31c63cea5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>foreach ($funct-&gt;GetServerExtensions() as $extension) $FunctionDefine</definition>
+        <argsstring></argsstring>
+        <name>$FunctionDefine</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="83" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xcurl_2include_2server_8php_1ae1e87140824f02fde27bf2ab7e56f380" prot="public" static="no" mutable="no">
+        <type>foreach($FunctionDefine as $id=&gt; $func) if(!function_exists(&apos;json_encode&apos;))</type>
+        <definition>foreach ($FunctionDefine as $id=&gt; $func) if (!function_exists(&apos;json_encode&apos;)) else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{
+	echo json_encode($ttlresult)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="212" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="modules_2xcurl_2include_2server_8php_1aabc52e4f78557f0e0b360a8aaba6e11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>obj2array</definition>
+        <argsstring>($objects)</argsstring>
+        <name>obj2array</name>
+        <param>
+          <declname>$objects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php" bodystart="55" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">//<sp/>Gets<sp/>Execution<sp/>Mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">$mode<sp/>=<sp/>(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;outputmode&apos;</highlight><highlight class="normal">])?(string)$_REQUEST[</highlight><highlight class="stringliteral">&apos;outputmode&apos;</highlight><highlight class="normal">]:</highlight><highlight class="stringliteral">&apos;json&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">$parser<sp/>=<sp/>(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;parser&apos;</highlight><highlight class="normal">])?(string)$_REQUEST[</highlight><highlight class="stringliteral">&apos;parser&apos;</highlight><highlight class="normal">]:</highlight><highlight class="stringliteral">&apos;http&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">$plugin<sp/>=<sp/>$_REQUEST[</highlight><highlight class="stringliteral">&apos;xrestplugin&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestPlugin&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$plugin;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Gets<sp/>URI<sp/>Values<sp/>and<sp/>POST<sp/>and<sp/>GET<sp/>Values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">$path<sp/>=<sp/>parse_url(XOOPS_URL.$_SERVER[</highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal">],<sp/>PHP_URL_PATH);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(substr($path,0,1)!=</highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>$path<sp/>.=<sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal"><sp/>.$path;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(substr($path,strlen($path)-1,1)!=</highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>$path<sp/>.=<sp/>$path<sp/>.<sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">$request<sp/>=<sp/>parse_url(XOOPS_URL.$_SERVER[</highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal">],<sp/>PHP_URL_QUERY);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">$values<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">parse_str($request,<sp/>$values);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($_POST))<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($_POST<sp/>as<sp/>$field<sp/>=&gt;<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($field==$plugin)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$values[$field]<sp/>=<sp/>obj2array(json_decode(str_replace(</highlight><highlight class="stringliteral">&apos;\\&quot;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">,<sp/>$value)));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$values[$field]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($_GET))<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($_GET<sp/>as<sp/>$field<sp/>=&gt;<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($field==$plugin)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$values[$field]<sp/>=<sp/>obj2array(json_decode(str_replace(</highlight><highlight class="stringliteral">&apos;\\&quot;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">,<sp/>$value)));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$values[$field]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">$xoopsPreload<sp/>=&amp;<sp/>XoopsPreload::getInstance();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">$xoopsPreload-&gt;triggerEvent(</highlight><highlight class="stringliteral">&apos;api.server.start&apos;</highlight><highlight class="normal">,<sp/>array($mode,<sp/>$plugin,<sp/>$path,<sp/>$request,<sp/>$values));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>obj2array($objects)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($objects<sp/>as<sp/>$key<sp/>=&gt;<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_a($value,<sp/></highlight><highlight class="stringliteral">&apos;stdClass&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[$key]<sp/>=<sp/>(array)obj2array($value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>elseif<sp/>(is_array($value))<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[$key]<sp/>=<sp/>obj2array($value);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[$key]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">global<sp/>$xoopsModuleConfig,$xoopsModule;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">$ttlresult<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">xoops_load(</highlight><highlight class="stringliteral">&apos;xoopscache&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">require_once(XOOPS_ROOT_PATH.</highlight><highlight class="stringliteral">&apos;/modules/&apos;</highlight><highlight class="normal">.$xoopsModule-&gt;dirname().</highlight><highlight class="stringliteral">&apos;/class/class.functions.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">require_once(</highlight><highlight class="stringliteral">&apos;common.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!function_exists(</highlight><highlight class="stringliteral">&apos;json_encode&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>require_once(</highlight><highlight class="stringliteral">&apos;JSON.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>$json<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_services___j_s_o_n" kindref="compound">Services_JSON</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">$funct<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_functions_handler" kindref="compound">FunctionsHandler</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">$FunctionDefine<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($funct-&gt;GetServerExtensions()<sp/>as<sp/>$extension){</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>global<sp/>$xoopsDB;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>$sql<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;SELECT<sp/>count(*)<sp/>rc<sp/>FROM<sp/>&quot;</highlight><highlight class="normal">.$xoopsDB-&gt;prefix(</highlight><highlight class="stringliteral">&apos;json_plugins&apos;</highlight><highlight class="normal">).<sp/></highlight><highlight class="stringliteral">&quot;<sp/>where<sp/>active<sp/>=<sp/>1<sp/>and<sp/>plugin_file<sp/>=<sp/>&apos;&quot;</highlight><highlight class="normal">.$extension.</highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>$xoopsDB-&gt;query($sql);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>$row<sp/>=<sp/>$xoopsDB-&gt;fetchArray($ret);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($row[</highlight><highlight class="stringliteral">&apos;rc&apos;</highlight><highlight class="normal">]==1){</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>require_once(XOOPS_ROOT_PATH.</highlight><highlight class="stringliteral">&apos;/modules/xjson/plugins/&apos;</highlight><highlight class="normal">.<sp/>$extension);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$FunctionDefine[]<sp/>=<sp/>substr(<sp/>$extension,0,strlen(<sp/>$extension)-4);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">$FunctionDefine<sp/>=<sp/>array_unique($FunctionDefine);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($FunctionDefine<sp/>as<sp/>$id<sp/>=&gt;<sp/>$func)<sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!empty($_REQUEST[$func]))<sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$opfunc<sp/>=<sp/>$func;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd<sp/>=<sp/>$func.</highlight><highlight class="stringliteral">&apos;_xsd&apos;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$opxsd<sp/>=<sp/>$xsd();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!function_exists(</highlight><highlight class="stringliteral">&apos;json_decode&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$opdata<sp/>=<sp/>obj2array(json_decode(str_replace(</highlight><highlight class="stringliteral">&apos;\\&quot;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">,<sp/>$_REQUEST[$func])));</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$opdata<sp/>=<sp/>obj2array(json_decode(str_replace(</highlight><highlight class="stringliteral">&apos;\\&quot;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">,<sp/>$_REQUEST[$func])));</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$result<sp/>=<sp/>XoopsCache::read(</highlight><highlight class="stringliteral">&apos;xcurl_&apos;</highlight><highlight class="normal">.$opfunc.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.sha1(implode(</highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">,<sp/>$opdata))))<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tmp=array();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!empty($opfunc))<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields=0;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($opxsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">]<sp/>as<sp/>$ii<sp/>=&gt;<sp/>$request)<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($request[</highlight><highlight class="stringliteral">&apos;items&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">]<sp/>as<sp/>$iu<sp/>=&gt;<sp/>$field)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!empty($field[</highlight><highlight class="stringliteral">&apos;items&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tmp[$fields]<sp/>=<sp/>$opdata[$field[</highlight><highlight class="stringliteral">&apos;items&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;objname&apos;</highlight><highlight class="normal">]]<sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields++;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>elseif<sp/>(!empty($field[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">])&amp;&amp;!empty($field[</highlight><highlight class="stringliteral">&apos;type&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">($field[</highlight><highlight class="stringliteral">&apos;type&apos;</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tmp[$fields]<sp/>=<sp/>(string)$opdata[$field[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]];</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tmp[$fields]<sp/>=<sp/>(integer)$opdata[$field[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tmp[$fields]<sp/>=<sp/>$opdata[$field[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$fields++;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">($fields)<sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($ttlresult);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>7:</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>8:</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>10:</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>11:</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>12:</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>13:</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$tmp[12],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>14:</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$tmp[12],<sp/>$tmp[13],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>15:</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$tmp[12],<sp/>$tmp[13],<sp/>$tmp[14],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>16:</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$tmp[12],<sp/>$tmp[13],<sp/>$tmp[14],<sp/>$tmp[15],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>17:</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$tmp[12],<sp/>$tmp[13],<sp/>$tmp[14],<sp/>$tmp[15],<sp/>$tmp[16],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>18:</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$tmp[12],<sp/>$tmp[13],<sp/>$tmp[14],<sp/>$tmp[15],<sp/>$tmp[16],<sp/>$tmp[17],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>19:</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$tmp[12],<sp/>$tmp[13],<sp/>$tmp[14],<sp/>$tmp[15],<sp/>$tmp[16],<sp/>$tmp[17],<sp/>$tmp[18],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>20:</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$opfunc($tmp[0],<sp/>$tmp[1],<sp/>$tmp[2],<sp/>$tmp[3],<sp/>$tmp[4],<sp/>$tmp[5],<sp/>$tmp[6],<sp/>$tmp[7],<sp/>$tmp[8],<sp/>$tmp[9],<sp/>$tmp[10],<sp/>$tmp[11],<sp/>$tmp[12],<sp/>$tmp[13],<sp/>$tmp[14],<sp/>$tmp[15],<sp/>$tmp[16],<sp/>$tmp[17],<sp/>$tmp[18],<sp/>$tmp[19],<sp/>$ttlresult);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsCache::write(</highlight><highlight class="stringliteral">&apos;xcurl_&apos;</highlight><highlight class="normal">.$opfunc.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.sha1(implode(</highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">,<sp/>$opdata)),<sp/>$result,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;function_cache&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ttlresult<sp/>=<sp/>array_merge($ttlresult,<sp/>$result);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ttlresult<sp/>=<sp/>array_merge($ttlresult,<sp/>$result);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!function_exists(</highlight><highlight class="stringliteral">&apos;json_encode&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>$json-&gt;encode($ttlresult);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>json_encode($ttlresult);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">$xoopsPreload<sp/>=&amp;<sp/>XoopsPreload::getInstance();</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">$xoopsPreload-&gt;triggerEvent(</highlight><highlight class="stringliteral">&apos;api.server.end&apos;</highlight><highlight class="normal">,<sp/>array($mode,<sp/>$plugin,<sp/>$path,<sp/>$request,<sp/>$values,<sp/>$result));</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal">exit(0);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xcurl/include/server.php"/>
+  </compounddef>
+</doxygen>

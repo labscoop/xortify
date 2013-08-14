@@ -1,0 +1,128 @@
+\hypertarget{class_googlosity_translator}{\section{Googlosity\-Translator Class Reference}
+\label{class_googlosity_translator}\index{Googlosity\-Translator@{Googlosity\-Translator}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_googlosity_translator_a41b639225f0835540c87d74be2018c0f}{\-\_\-\-\_\-construct} (\$api\-Key)
+\item 
+\hyperlink{class_googlosity_translator_ada2ef7bac2979b90332fe9a527c60667}{get\-Languages} ()
+\item 
+\hyperlink{class_googlosity_translator_ac1a85a75769194de8af24fa19d5efd17}{translate} (\$src, \$target, \$source= '')
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_googlosity_translator_a4729b97f6facb95dd5c1be71c2d9a914}{\-\_\-languages} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_googlosity_translator_ae34d152a2aef158ef4191f7d114ba2f5}{const {\bfseries E\-N\-D\-P\-O\-I\-N\-T} = 'https\-://www.\-googleapis.\-com/language/\hyperlink{class_googlosity_translator_ac1a85a75769194de8af24fa19d5efd17}{translate}/v2'}\label{class_googlosity_translator_ae34d152a2aef158ef4191f7d114ba2f5}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_googlosity_translator_a30d859488ed1921f08a7e8191363d9a4}{{\bfseries \$\-\_\-api\-Key}}\label{class_googlosity_translator_a30d859488ed1921f08a7e8191363d9a4}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Google Translator v2.\-0 A\-P\-I Class
+
+Allows for Translation of Language by the Google Translator A\-P\-I
+
+google 
+
+Definition at line 25 of file translator.\-php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_googlosity_translator_a41b639225f0835540c87d74be2018c0f}{\index{Googlosity\-Translator@{Googlosity\-Translator}!\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}}
+\index{\-\_\-\-\_\-construct@{\-\_\-\-\_\-construct}!GooglosityTranslator@{Googlosity\-Translator}}
+\subsubsection[{\-\_\-\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\-Key}
+\end{DoxyParamCaption}
+)}}\label{class_googlosity_translator_a41b639225f0835540c87d74be2018c0f}
+\hyperlink{class_googlosity_translator_a41b639225f0835540c87d74be2018c0f}{\-\_\-\-\_\-construct()} Class constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$api\-Key} & Google A\-P\-I V2 Key (see\-: \href{https://code.google.com/apis/console/}{\tt https\-://code.\-google.\-com/apis/console/}) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 40 of file translator.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_googlosity_translator_a4729b97f6facb95dd5c1be71c2d9a914}{\index{Googlosity\-Translator@{Googlosity\-Translator}!\-\_\-languages@{\-\_\-languages}}
+\index{\-\_\-languages@{\-\_\-languages}!GooglosityTranslator@{Googlosity\-Translator}}
+\subsubsection[{\-\_\-languages}]{\setlength{\rightskip}{0pt plus 5cm}static \-\_\-languages (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_googlosity_translator_a4729b97f6facb95dd5c1be71c2d9a914}
+\hyperlink{class_googlosity_translator_a4729b97f6facb95dd5c1be71c2d9a914}{\-\_\-languages()} returns language I\-S\-O Codes and X\-O\-O\-P\-S folder name for Google Translator
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 51 of file translator.\-php.
+
+\hypertarget{class_googlosity_translator_ada2ef7bac2979b90332fe9a527c60667}{\index{Googlosity\-Translator@{Googlosity\-Translator}!get\-Languages@{get\-Languages}}
+\index{get\-Languages@{get\-Languages}!GooglosityTranslator@{Googlosity\-Translator}}
+\subsubsection[{get\-Languages}]{\setlength{\rightskip}{0pt plus 5cm}get\-Languages (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_googlosity_translator_ada2ef7bac2979b90332fe9a527c60667}
+\hyperlink{class_googlosity_translator_ada2ef7bac2979b90332fe9a527c60667}{get\-Languages()} returns language I\-S\-O Codes for Google Translator
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 61 of file translator.\-php.
+
+\hypertarget{class_googlosity_translator_ac1a85a75769194de8af24fa19d5efd17}{\index{Googlosity\-Translator@{Googlosity\-Translator}!translate@{translate}}
+\index{translate@{translate}!GooglosityTranslator@{Googlosity\-Translator}}
+\subsubsection[{translate}]{\setlength{\rightskip}{0pt plus 5cm}translate (
+\begin{DoxyParamCaption}
+\item[{}]{\$src, }
+\item[{}]{\$target, }
+\item[{}]{\$source = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_googlosity_translator_ac1a85a75769194de8af24fa19d5efd17}
+\hyperlink{class_googlosity_translator_ac1a85a75769194de8af24fa19d5efd17}{translate()} translate the text/html in \$data. Translates to the language in \$target. Can optionally specify the source language
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$src} & Data to be translated. \\
+\hline
+string & {\em \$target} & Language I\-S\-O Code to translate To. \\
+\hline
+string & {\em \$source} & Language I\-S\-O Code to translate From. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 75 of file translator.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/xortify server/htdocs/include/cloud/inc/translator.\-php\end{DoxyCompactItemize}

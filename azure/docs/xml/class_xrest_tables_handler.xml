@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xrest_tables_handler" kind="class" prot="public">
+    <compoundname>XrestTablesHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xrest_tables_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" line="89" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" bodystart="89" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_tables_handler_1a215b6093ef0417b605eceaafe1809466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getTablesInDatabase</definition>
+        <argsstring>($database, $prefix= &apos;&apos;)</argsstring>
+        <name>getTablesInDatabase</name>
+        <param>
+          <declname>$database</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" line="95" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" bodystart="95" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_tables_handler_1a79d4ecbdbc251e0403205a449e54e17a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getViewsInDatabase</definition>
+        <argsstring>($database)</argsstring>
+        <name>getViewsInDatabase</name>
+        <param>
+          <declname>$database</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" line="114" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" bodystart="114" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_tables_handler_1ac8593d6077b590e06962f37de42b57bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getTableWithName</definition>
+        <argsstring>($tablename, $view=false)</argsstring>
+        <name>getTableWithName</name>
+        <param>
+          <declname>$tablename</declname>
+        </param>
+        <param>
+          <declname>$view</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" line="129" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" bodystart="129" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_tables_handler_1a08661c64a716c14a81115f74949699cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getViewWithName</definition>
+        <argsstring>($viewname)</argsstring>
+        <name>getViewWithName</name>
+        <param>
+          <declname>$viewname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" line="143" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" bodystart="143" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="802">
+        <label>XrestTablesHandler</label>
+        <link refid="class_xrest_tables_handler"/>
+        <childnode refid="803" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="803">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="804">
+        <label>XrestTablesHandler</label>
+        <link refid="class_xrest_tables_handler"/>
+        <childnode refid="805" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="805">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" line="88" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" bodystart="87" bodyend="146"/>
+    <listofallmembers>
+      <member refid="class_xrest_tables_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>XrestTablesHandler</scope><name>__construct</name></member>
+      <member refid="class_xrest_tables_handler_1a215b6093ef0417b605eceaafe1809466" prot="public" virt="non-virtual"><scope>XrestTablesHandler</scope><name>getTablesInDatabase</name></member>
+      <member refid="class_xrest_tables_handler_1ac8593d6077b590e06962f37de42b57bf" prot="public" virt="non-virtual"><scope>XrestTablesHandler</scope><name>getTableWithName</name></member>
+      <member refid="class_xrest_tables_handler_1a79d4ecbdbc251e0403205a449e54e17a" prot="public" virt="non-virtual"><scope>XrestTablesHandler</scope><name>getViewsInDatabase</name></member>
+      <member refid="class_xrest_tables_handler_1a08661c64a716c14a81115f74949699cd" prot="public" virt="non-virtual"><scope>XrestTablesHandler</scope><name>getViewWithName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

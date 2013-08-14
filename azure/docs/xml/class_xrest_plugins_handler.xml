@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xrest_plugins_handler" kind="class" prot="public">
+    <compoundname>XrestPluginsHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xrest_plugins_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_plugins_handler_1a7a36f619f5d8e09c7cfdb7c221f93f26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getServerExtensions</definition>
+        <argsstring>()</argsstring>
+        <name>getServerExtensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" line="61" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_plugins_handler_1a3e0a6993690077018c8998c527e49a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPluginWithName</definition>
+        <argsstring>($plugin_name)</argsstring>
+        <name>getPluginWithName</name>
+        <param>
+          <declname>$plugin_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" line="112" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" bodystart="112" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_plugins_handler_1a381c3bea8bb3289c9a26226257bad677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPluginWithFile</definition>
+        <argsstring>($plugin_file)</argsstring>
+        <name>getPluginWithFile</name>
+        <param>
+          <declname>$plugin_file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" line="125" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" bodystart="125" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_xrest_plugins_handler_1a7a976c031e5562502b91e587839da05a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDirListAsArray</definition>
+        <argsstring>($dirname)</argsstring>
+        <name>getDirListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" line="65" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" bodystart="65" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_plugins_handler_1a43d5fdc4bcf8699818f9ee27215ea772" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;&quot;, $extension= &apos;.php&apos;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$extension</declname>
+          <defval>&apos;.php&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" line="87" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" bodystart="87" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="795">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="794">
+        <label>XrestPluginsHandler</label>
+        <link refid="class_xrest_plugins_handler"/>
+        <childnode refid="795" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="797">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="796">
+        <label>XrestPluginsHandler</label>
+        <link refid="class_xrest_plugins_handler"/>
+        <childnode refid="797" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/plugins.php" bodystart="53" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_xrest_plugins_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>XrestPluginsHandler</scope><name>__construct</name></member>
+      <member refid="class_xrest_plugins_handler_1a7a976c031e5562502b91e587839da05a" prot="private" virt="non-virtual"><scope>XrestPluginsHandler</scope><name>getDirListAsArray</name></member>
+      <member refid="class_xrest_plugins_handler_1a43d5fdc4bcf8699818f9ee27215ea772" prot="private" virt="non-virtual"><scope>XrestPluginsHandler</scope><name>getFileListAsArray</name></member>
+      <member refid="class_xrest_plugins_handler_1a381c3bea8bb3289c9a26226257bad677" prot="public" virt="non-virtual"><scope>XrestPluginsHandler</scope><name>getPluginWithFile</name></member>
+      <member refid="class_xrest_plugins_handler_1a3e0a6993690077018c8998c527e49a4e" prot="public" virt="non-virtual"><scope>XrestPluginsHandler</scope><name>getPluginWithName</name></member>
+      <member refid="class_xrest_plugins_handler_1a7a36f619f5d8e09c7cfdb7c221f93f26" prot="public" virt="non-virtual"><scope>XrestPluginsHandler</scope><name>getServerExtensions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xoops_media_uploader" kind="class" prot="public">
+    <compoundname>XoopsMediaUploader</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a190ea9c5a0e561199137df037322ec1c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mediaName</definition>
+        <argsstring></argsstring>
+        <name>$mediaName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="73" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a4ea7945441b21cf825fc53bc5e4403f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mediaType</definition>
+        <argsstring></argsstring>
+        <name>$mediaType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a2f74d9155a60c5199056f538cda33009" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mediaSize</definition>
+        <argsstring></argsstring>
+        <name>$mediaSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="75" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a9cf13f3d90a1f6c172c3068ea10dcb0f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mediaTmpName</definition>
+        <argsstring></argsstring>
+        <name>$mediaTmpName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="76" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1ac7856389fd16ce1f9cba5b2bbc264020" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mediaError</definition>
+        <argsstring></argsstring>
+        <name>$mediaError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="77" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a76101de3df453e22e2df687ad2e74a13" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$uploadDir</definition>
+        <argsstring></argsstring>
+        <name>$uploadDir</name>
+        <initializer>=&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="78" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1ab0e2aa2f7d036dfe04da26141eddf50b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$allowedMimeTypes</definition>
+        <argsstring></argsstring>
+        <name>$allowedMimeTypes</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="79" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a780508f3eed8cbf1268b3717f4581c1b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$maxFileSize</definition>
+        <argsstring></argsstring>
+        <name>$maxFileSize</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="80" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a6a21a7597854c50500d9f9fcf467b7b4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$maxWidth</definition>
+        <argsstring></argsstring>
+        <name>$maxWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="81" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a51d0340c9b1667b56c371dd3b2a8e461" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$maxHeight</definition>
+        <argsstring></argsstring>
+        <name>$maxHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="82" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a1d1c024dae3b732f752c751b4b34b765" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$targetFileName</definition>
+        <argsstring></argsstring>
+        <name>$targetFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="83" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a09e8cf95b9d29955a0bfabca9b420edc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$prefix</definition>
+        <argsstring></argsstring>
+        <name>$prefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="84" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1ade30ae71930839daaf6f83bd19081493" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ext</definition>
+        <argsstring></argsstring>
+        <name>$ext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="85" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a763474b73f8036c19e7d429a99a899d6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dimension</definition>
+        <argsstring></argsstring>
+        <name>$dimension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="86" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1ab24faf4aa647cdcee494fc48524ad4ff" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$errors</definition>
+        <argsstring></argsstring>
+        <name>$errors</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="87" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1aef4113061d8485d20bbd51b55351b91f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$savedDestination</definition>
+        <argsstring></argsstring>
+        <name>$savedDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="88" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1a31bf9b236d86ec6d2af5ae7aef248747" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$savedFileName</definition>
+        <argsstring></argsstring>
+        <name>$savedFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="89" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_media_uploader_1aa84937e3a0b235dafe88d4b9bbb7ebe8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$noadmin_sizecheck</definition>
+        <argsstring></argsstring>
+        <name>$noadmin_sizecheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>No admin check for uploads </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="93" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xoops_media_uploader_1a95f70e2c523540c11f111e079847612a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XoopsMediaUploader</definition>
+        <argsstring>($uploadDir, $allowedMimeTypes=0, $maxFileSize, $maxWidth=0, $maxHeight=0)</argsstring>
+        <name>XoopsMediaUploader</name>
+        <param>
+          <declname>$uploadDir</declname>
+        </param>
+        <param>
+          <declname>$allowedMimeTypes</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$maxFileSize</declname>
+        </param>
+        <param>
+          <declname>$maxWidth</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$maxHeight</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uploadDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$allowedMimeTypes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxFileSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cmodvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="104" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="104" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a15fda181c4a9c00b0b47b2a2af5b4907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>noAdminSizeCheck</definition>
+        <argsstring>($value)</argsstring>
+        <name>noAdminSizeCheck</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="122" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1ad1dbaec1a315a6029fede8734dd24b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fetchMedia</definition>
+        <argsstring>($media_name, $index=null)</argsstring>
+        <name>fetchMedia</name>
+        <param>
+          <declname>$media_name</declname>
+        </param>
+        <param>
+          <declname>$index</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch the uploaded file</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$media_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the file field </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the file (if more than one uploaded under that name)  $HTTP_POST_FILES </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="135" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="135" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a8c8b456303f7a25f6a8c6a0b90c66a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setTargetFileName</definition>
+        <argsstring>($value)</argsstring>
+        <name>setTargetFileName</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the target filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="220" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a5ebb5eee91e4d2d671cd1657c92373e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setPrefix</definition>
+        <argsstring>($value)</argsstring>
+        <name>setPrefix</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the prefix</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="230" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="230" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1adbee91ac0dbb9f0aa122e91575a05327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaName</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the uploaded filename</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="240" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="240" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1ae415e4abfc18ab4178c49953159e1233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaType</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the type of the uploaded file</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="250" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a35c2eb91d973a6aeef9d5d9911ae8bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaSize</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the size of the uploaded file</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="260" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a8cbf73083852cdf8af7b869b7609cf0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaTmpName</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaTmpName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the temporary name that the uploaded file was stored under</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="270" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="270" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1aadb0a65175d99f96b73d8e1df8875682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSavedFileName</definition>
+        <argsstring>()</argsstring>
+        <name>getSavedFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the saved filename</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="280" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="280" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a34505b2d173498c2ecd774b750de7605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSavedDestination</definition>
+        <argsstring>()</argsstring>
+        <name>getSavedDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the destination the file is saved to</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="290" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="290" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a6ade22bee6de9b13551d3e0b0d7c51e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>upload</definition>
+        <argsstring>($chmod=0644)</argsstring>
+        <name>upload</name>
+        <param>
+          <declname>$chmod</declname>
+          <defval>0644</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check the file and copy it to the destination</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="300" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="300" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a78d56207e3942c1ca1bf7fec2cec6d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_copyFile</definition>
+        <argsstring>($chmod)</argsstring>
+        <name>_copyFile</name>
+        <param>
+          <declname>$chmod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy the file to its destination</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="357" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="357" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a8984ff0beb438b73dfdc7ea035213aed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkMaxFileSize</definition>
+        <argsstring>()</argsstring>
+        <name>checkMaxFileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the file the right size?</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="394" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="394" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a981f6f84efb69a23a93ea27278c6913f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkMaxWidth</definition>
+        <argsstring>($dimension)</argsstring>
+        <name>checkMaxWidth</name>
+        <param>
+          <declname>$dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the picture the right width?</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="412" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="412" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1ab49dc954cbf9cf119b64f5628d15d42d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkMaxHeight</definition>
+        <argsstring>($dimension)</argsstring>
+        <name>checkMaxHeight</name>
+        <param>
+          <declname>$dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the picture the right height?</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="430" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="430" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1aceaef1e1bd2475a8ff3c79f6236f1a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkMimeType</definition>
+        <argsstring>()</argsstring>
+        <name>checkMimeType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the file the right Mime type</para><para>(is there a right type of mime? ;-)</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="450" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="450" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1af4480e301c23de87249e79abc3676147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setErrors</definition>
+        <argsstring>($error)</argsstring>
+        <name>setErrors</name>
+        <param>
+          <declname>$error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add an error</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="467" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="467" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1aefb77c7229e1a4bf89b7c9e68b14cd1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>&amp;</type>
+        <definition>&amp; getErrors</definition>
+        <argsstring>($ashtml=true)</argsstring>
+        <name>getErrors</name>
+        <param>
+          <declname>$ashtml</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get generated errors</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$ashtml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Format using HTML? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array |string Array of array messages OR HTML string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="478" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="478" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a95f70e2c523540c11f111e079847612a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XoopsMediaUploader</definition>
+        <argsstring>($uploadDir, $allowedMimeTypes=0, $maxFileSize, $maxWidth=0, $maxHeight=0)</argsstring>
+        <name>XoopsMediaUploader</name>
+        <param>
+          <declname>$uploadDir</declname>
+        </param>
+        <param>
+          <declname>$allowedMimeTypes</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$maxFileSize</declname>
+        </param>
+        <param>
+          <declname>$maxWidth</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$maxHeight</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uploadDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$allowedMimeTypes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxFileSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$maxHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cmodvalue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="97" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="97" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a15fda181c4a9c00b0b47b2a2af5b4907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>noAdminSizeCheck</definition>
+        <argsstring>($value)</argsstring>
+        <name>noAdminSizeCheck</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="115" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1ad1dbaec1a315a6029fede8734dd24b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fetchMedia</definition>
+        <argsstring>($media_name, $index=null)</argsstring>
+        <name>fetchMedia</name>
+        <param>
+          <declname>$media_name</declname>
+        </param>
+        <param>
+          <declname>$index</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fetch the uploaded file</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$media_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the file field </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the file (if more than one uploaded under that name)  $HTTP_POST_FILES </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="128" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="128" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a8c8b456303f7a25f6a8c6a0b90c66a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setTargetFileName</definition>
+        <argsstring>($value)</argsstring>
+        <name>setTargetFileName</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the target filename</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="213" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="213" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a5ebb5eee91e4d2d671cd1657c92373e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setPrefix</definition>
+        <argsstring>($value)</argsstring>
+        <name>setPrefix</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the prefix</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="223" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1adbee91ac0dbb9f0aa122e91575a05327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaName</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the uploaded filename</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="233" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="233" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1ae415e4abfc18ab4178c49953159e1233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaType</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the type of the uploaded file</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="243" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="243" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a35c2eb91d973a6aeef9d5d9911ae8bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaSize</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the size of the uploaded file</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="253" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="253" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a8cbf73083852cdf8af7b869b7609cf0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMediaTmpName</definition>
+        <argsstring>()</argsstring>
+        <name>getMediaTmpName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the temporary name that the uploaded file was stored under</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="263" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1aadb0a65175d99f96b73d8e1df8875682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSavedFileName</definition>
+        <argsstring>()</argsstring>
+        <name>getSavedFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the saved filename</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="273" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="273" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a34505b2d173498c2ecd774b750de7605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSavedDestination</definition>
+        <argsstring>()</argsstring>
+        <name>getSavedDestination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the destination the file is saved to</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="283" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a6ade22bee6de9b13551d3e0b0d7c51e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>upload</definition>
+        <argsstring>($chmod=0644)</argsstring>
+        <name>upload</name>
+        <param>
+          <declname>$chmod</declname>
+          <defval>0644</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check the file and copy it to the destination</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="293" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="293" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a78d56207e3942c1ca1bf7fec2cec6d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_copyFile</definition>
+        <argsstring>($chmod)</argsstring>
+        <name>_copyFile</name>
+        <param>
+          <declname>$chmod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy the file to its destination</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="350" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="350" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a8984ff0beb438b73dfdc7ea035213aed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkMaxFileSize</definition>
+        <argsstring>()</argsstring>
+        <name>checkMaxFileSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the file the right size?</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="387" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="387" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1a981f6f84efb69a23a93ea27278c6913f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkMaxWidth</definition>
+        <argsstring>($dimension)</argsstring>
+        <name>checkMaxWidth</name>
+        <param>
+          <declname>$dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the picture the right width?</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="405" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="405" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1ab49dc954cbf9cf119b64f5628d15d42d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkMaxHeight</definition>
+        <argsstring>($dimension)</argsstring>
+        <name>checkMaxHeight</name>
+        <param>
+          <declname>$dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the picture the right height?</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="423" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="423" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1aceaef1e1bd2475a8ff3c79f6236f1a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkMimeType</definition>
+        <argsstring>()</argsstring>
+        <name>checkMimeType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the file the right Mime type</para><para>(is there a right type of mime? ;-)</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="443" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="443" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1af4480e301c23de87249e79abc3676147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setErrors</definition>
+        <argsstring>($error)</argsstring>
+        <name>setErrors</name>
+        <param>
+          <declname>$error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add an error</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="460" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="460" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_media_uploader_1aefb77c7229e1a4bf89b7c9e68b14cd1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>&amp;</type>
+        <definition>&amp; getErrors</definition>
+        <argsstring>($ashtml=true)</argsstring>
+        <name>getErrors</name>
+        <param>
+          <declname>$ashtml</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get generated errors</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$ashtml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Format using HTML? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array |string Array of array messages OR HTML string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" line="471" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/uploader.php" bodystart="471" bodyend="490"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" line="72" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/uploader.php" bodystart="71" bodyend="498"/>
+    <listofallmembers>
+      <member refid="class_xoops_media_uploader_1ab0e2aa2f7d036dfe04da26141eddf50b" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$allowedMimeTypes</name></member>
+      <member refid="class_xoops_media_uploader_1a763474b73f8036c19e7d429a99a899d6" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$dimension</name></member>
+      <member refid="class_xoops_media_uploader_1ab24faf4aa647cdcee494fc48524ad4ff" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$errors</name></member>
+      <member refid="class_xoops_media_uploader_1ade30ae71930839daaf6f83bd19081493" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$ext</name></member>
+      <member refid="class_xoops_media_uploader_1a780508f3eed8cbf1268b3717f4581c1b" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$maxFileSize</name></member>
+      <member refid="class_xoops_media_uploader_1a51d0340c9b1667b56c371dd3b2a8e461" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$maxHeight</name></member>
+      <member refid="class_xoops_media_uploader_1a6a21a7597854c50500d9f9fcf467b7b4" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$maxWidth</name></member>
+      <member refid="class_xoops_media_uploader_1ac7856389fd16ce1f9cba5b2bbc264020" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$mediaError</name></member>
+      <member refid="class_xoops_media_uploader_1a190ea9c5a0e561199137df037322ec1c" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$mediaName</name></member>
+      <member refid="class_xoops_media_uploader_1a2f74d9155a60c5199056f538cda33009" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$mediaSize</name></member>
+      <member refid="class_xoops_media_uploader_1a9cf13f3d90a1f6c172c3068ea10dcb0f" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$mediaTmpName</name></member>
+      <member refid="class_xoops_media_uploader_1a4ea7945441b21cf825fc53bc5e4403f9" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$mediaType</name></member>
+      <member refid="class_xoops_media_uploader_1aa84937e3a0b235dafe88d4b9bbb7ebe8" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$noadmin_sizecheck</name></member>
+      <member refid="class_xoops_media_uploader_1a09e8cf95b9d29955a0bfabca9b420edc" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$prefix</name></member>
+      <member refid="class_xoops_media_uploader_1aef4113061d8485d20bbd51b55351b91f" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$savedDestination</name></member>
+      <member refid="class_xoops_media_uploader_1a31bf9b236d86ec6d2af5ae7aef248747" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$savedFileName</name></member>
+      <member refid="class_xoops_media_uploader_1a1d1c024dae3b732f752c751b4b34b765" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$targetFileName</name></member>
+      <member refid="class_xoops_media_uploader_1a76101de3df453e22e2df687ad2e74a13" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>$uploadDir</name></member>
+      <member refid="class_xoops_media_uploader_1a78d56207e3942c1ca1bf7fec2cec6d00" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>_copyFile</name></member>
+      <member refid="class_xoops_media_uploader_1a78d56207e3942c1ca1bf7fec2cec6d00" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>_copyFile</name></member>
+      <member refid="class_xoops_media_uploader_1a8984ff0beb438b73dfdc7ea035213aed" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>checkMaxFileSize</name></member>
+      <member refid="class_xoops_media_uploader_1a8984ff0beb438b73dfdc7ea035213aed" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>checkMaxFileSize</name></member>
+      <member refid="class_xoops_media_uploader_1ab49dc954cbf9cf119b64f5628d15d42d" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>checkMaxHeight</name></member>
+      <member refid="class_xoops_media_uploader_1ab49dc954cbf9cf119b64f5628d15d42d" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>checkMaxHeight</name></member>
+      <member refid="class_xoops_media_uploader_1a981f6f84efb69a23a93ea27278c6913f" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>checkMaxWidth</name></member>
+      <member refid="class_xoops_media_uploader_1a981f6f84efb69a23a93ea27278c6913f" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>checkMaxWidth</name></member>
+      <member refid="class_xoops_media_uploader_1aceaef1e1bd2475a8ff3c79f6236f1a10" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>checkMimeType</name></member>
+      <member refid="class_xoops_media_uploader_1aceaef1e1bd2475a8ff3c79f6236f1a10" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>checkMimeType</name></member>
+      <member refid="class_xoops_media_uploader_1ad1dbaec1a315a6029fede8734dd24b70" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>fetchMedia</name></member>
+      <member refid="class_xoops_media_uploader_1ad1dbaec1a315a6029fede8734dd24b70" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>fetchMedia</name></member>
+      <member refid="class_xoops_media_uploader_1aefb77c7229e1a4bf89b7c9e68b14cd1d" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getErrors</name></member>
+      <member refid="class_xoops_media_uploader_1aefb77c7229e1a4bf89b7c9e68b14cd1d" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getErrors</name></member>
+      <member refid="class_xoops_media_uploader_1adbee91ac0dbb9f0aa122e91575a05327" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getMediaName</name></member>
+      <member refid="class_xoops_media_uploader_1adbee91ac0dbb9f0aa122e91575a05327" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getMediaName</name></member>
+      <member refid="class_xoops_media_uploader_1a35c2eb91d973a6aeef9d5d9911ae8bef" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getMediaSize</name></member>
+      <member refid="class_xoops_media_uploader_1a35c2eb91d973a6aeef9d5d9911ae8bef" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getMediaSize</name></member>
+      <member refid="class_xoops_media_uploader_1a8cbf73083852cdf8af7b869b7609cf0a" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getMediaTmpName</name></member>
+      <member refid="class_xoops_media_uploader_1a8cbf73083852cdf8af7b869b7609cf0a" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getMediaTmpName</name></member>
+      <member refid="class_xoops_media_uploader_1ae415e4abfc18ab4178c49953159e1233" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getMediaType</name></member>
+      <member refid="class_xoops_media_uploader_1ae415e4abfc18ab4178c49953159e1233" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getMediaType</name></member>
+      <member refid="class_xoops_media_uploader_1a34505b2d173498c2ecd774b750de7605" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getSavedDestination</name></member>
+      <member refid="class_xoops_media_uploader_1a34505b2d173498c2ecd774b750de7605" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getSavedDestination</name></member>
+      <member refid="class_xoops_media_uploader_1aadb0a65175d99f96b73d8e1df8875682" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getSavedFileName</name></member>
+      <member refid="class_xoops_media_uploader_1aadb0a65175d99f96b73d8e1df8875682" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>getSavedFileName</name></member>
+      <member refid="class_xoops_media_uploader_1a15fda181c4a9c00b0b47b2a2af5b4907" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>noAdminSizeCheck</name></member>
+      <member refid="class_xoops_media_uploader_1a15fda181c4a9c00b0b47b2a2af5b4907" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>noAdminSizeCheck</name></member>
+      <member refid="class_xoops_media_uploader_1af4480e301c23de87249e79abc3676147" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>setErrors</name></member>
+      <member refid="class_xoops_media_uploader_1af4480e301c23de87249e79abc3676147" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>setErrors</name></member>
+      <member refid="class_xoops_media_uploader_1a5ebb5eee91e4d2d671cd1657c92373e9" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>setPrefix</name></member>
+      <member refid="class_xoops_media_uploader_1a5ebb5eee91e4d2d671cd1657c92373e9" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>setPrefix</name></member>
+      <member refid="class_xoops_media_uploader_1a8c8b456303f7a25f6a8c6a0b90c66a33" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>setTargetFileName</name></member>
+      <member refid="class_xoops_media_uploader_1a8c8b456303f7a25f6a8c6a0b90c66a33" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>setTargetFileName</name></member>
+      <member refid="class_xoops_media_uploader_1a6ade22bee6de9b13551d3e0b0d7c51e3" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>upload</name></member>
+      <member refid="class_xoops_media_uploader_1a6ade22bee6de9b13551d3e0b0d7c51e3" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>upload</name></member>
+      <member refid="class_xoops_media_uploader_1a95f70e2c523540c11f111e079847612a" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>XoopsMediaUploader</name></member>
+      <member refid="class_xoops_media_uploader_1a95f70e2c523540c11f111e079847612a" prot="public" virt="non-virtual"><scope>XoopsMediaUploader</scope><name>XoopsMediaUploader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

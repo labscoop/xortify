@@ -1,0 +1,2747 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classwsdl" kind="class" prot="public">
+    <compoundname>wsdl</compoundname>
+    <basecompoundref refid="classnusoap__base" prot="public" virt="non-virtual">nusoap_base</basecompoundref>
+    <basecompoundref refid="classnusoap__base" prot="public" virt="non-virtual">nusoap_base</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwsdl_1a8b3fb8293ad64e3dc0b814fedf24c5dd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$wsdl</definition>
+        <argsstring></argsstring>
+        <name>$wsdl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="15" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a99067204780ca14c213a3e15987b7cc1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$schemas</definition>
+        <argsstring></argsstring>
+        <name>$schemas</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="17" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1af4af684ea50a30d657aeb9682ff0caeb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$currentSchema</definition>
+        <argsstring></argsstring>
+        <name>$currentSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="18" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$message</definition>
+        <argsstring></argsstring>
+        <name>$message</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1acf1dbaf5ad35f659428a61193928b78d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$complexTypes</definition>
+        <argsstring></argsstring>
+        <name>$complexTypes</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a21a183f927a6d243fe6b4ba3a6c4d4c8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$messages</definition>
+        <argsstring></argsstring>
+        <name>$messages</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a04d4e6f80c471063bb6b64c6090c59a2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$currentMessage</definition>
+        <argsstring></argsstring>
+        <name>$currentMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a44b02f3838b36b3aad2401f0f02d3b76" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$currentOperation</definition>
+        <argsstring></argsstring>
+        <name>$currentOperation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1aa0affbd30e12dfe2e3d61b716f38cbeb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$portTypes</definition>
+        <argsstring></argsstring>
+        <name>$portTypes</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a87aea97635203239413d2a45c66037e4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$currentPortType</definition>
+        <argsstring></argsstring>
+        <name>$currentPortType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1adacdcea57647569304169243ff32cd10" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$bindings</definition>
+        <argsstring></argsstring>
+        <name>$bindings</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a473fc9ff0b89502bb265577b54a973c3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$currentBinding</definition>
+        <argsstring></argsstring>
+        <name>$currentBinding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1ae5d9eb7d80081176e92db51fbecf2448" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ports</definition>
+        <argsstring></argsstring>
+        <name>$ports</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a43463e704b29e9e592607bfe91a11bd6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$currentPort</definition>
+        <argsstring></argsstring>
+        <name>$currentPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1ae44d696522c0c90798bbfe652bc67f0c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$opData</definition>
+        <argsstring></argsstring>
+        <name>$opData</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a58391ea75f2d29d5d708d7050b641c33" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$status</definition>
+        <argsstring></argsstring>
+        <name>$status</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a2c75122f8f6ee14d52c3504f74ab3be9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$documentation</definition>
+        <argsstring></argsstring>
+        <name>$documentation</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1afb5204f7604df2f50a0058cb0e024875" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$endpoint</definition>
+        <argsstring></argsstring>
+        <name>$endpoint</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a268adb9a1f963c9f862f1158e9cfbffd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$import</definition>
+        <argsstring></argsstring>
+        <name>$import</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a147a766daa03d52576c7345fea31c945" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$parser</definition>
+        <argsstring></argsstring>
+        <name>$parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a6e88dcb746884d18f6c89eb9b9c14a42" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$position</definition>
+        <argsstring></argsstring>
+        <name>$position</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a0abb04e6a8a04e161eb4657f54848b18" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$depth</definition>
+        <argsstring></argsstring>
+        <name>$depth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1aaaa53c3e91636edd41a46e767abb3347" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$depth_array</definition>
+        <argsstring></argsstring>
+        <name>$depth_array</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a54407bcc777ac313a172561a8ff976c6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$proxyhost</definition>
+        <argsstring></argsstring>
+        <name>$proxyhost</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1ac396538deee1152f84f9ddabac2c2366" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$proxyport</definition>
+        <argsstring></argsstring>
+        <name>$proxyport</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1aaa30711a40f8f7bae4cd7060414e0fe1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$proxyusername</definition>
+        <argsstring></argsstring>
+        <name>$proxyusername</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a98c0d3b74811ee643f7d1fce47f1b281" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$proxypassword</definition>
+        <argsstring></argsstring>
+        <name>$proxypassword</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a84320a9bf3e591d7ae20dfcb0dfe6a0d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$timeout</definition>
+        <argsstring></argsstring>
+        <name>$timeout</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdl_1a17a3280264a8b9bb5ed32729d654739c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$response_timeout</definition>
+        <argsstring></argsstring>
+        <name>$response_timeout</name>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwsdl_1a4afbbf2bb8e2267a6387b17eb41597aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wsdl</definition>
+        <argsstring>($wsdl= &apos;&apos;, $proxyhost=false, $proxyport=false, $proxyusername=false, $proxypassword=false, $timeout=0, $response_timeout=30)</argsstring>
+        <name>wsdl</name>
+        <param>
+          <declname>$wsdl</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$proxyhost</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$proxyport</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$proxyusername</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$proxypassword</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$response_timeout</declname>
+          <defval>30</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$wsdl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>WSDL document URL </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyhost</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyusername</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxypassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set the connection timeout </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$response_timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set the response timeout  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="61" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="61" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1aef0643f32c7dca703065cc3eb3fd1dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseWSDL</definition>
+        <argsstring>($wsdl= &apos;&apos;)</argsstring>
+        <name>parseWSDL</name>
+        <param>
+          <declname>$wsdl</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parses the wsdl document</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$wsdl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path or URL  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="171" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="171" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1abf9dc4b028eeac08eeca4c7309a950e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>start_element</definition>
+        <argsstring>($parser, $name, $attrs)</argsstring>
+        <name>start_element</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start-element handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$attrs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>associative array of attributes  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="271" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="271" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1ad45367c512cbc2d4679d1a49db3802f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>end_element</definition>
+        <argsstring>($parser, $name)</argsstring>
+        <name>end_element</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>end-element handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element name  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="484" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="484" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a592a4f9b601cc33f15de0ad7a9c49ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>character_data</definition>
+        <argsstring>($parser, $data)</argsstring>
+        <name>character_data</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>element content handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element content  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="514" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="514" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1ae6385888eeb57e98ef81323b05842341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBindingData</definition>
+        <argsstring>($binding)</argsstring>
+        <name>getBindingData</name>
+        <param>
+          <declname>$binding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="525" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="525" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a1d50941291502c26831b28681dddeb94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOperations</definition>
+        <argsstring>($bindingType= &apos;soap&apos;)</argsstring>
+        <name>getOperations</name>
+        <param>
+          <declname>$bindingType</declname>
+          <defval>&apos;soap&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an assoc array of operation names =&gt; operation data</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$bindingType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>eg: soap, smtp, dime (only soap is currently supported) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="539" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="539" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a38f29f3212405560a4bcf188ad632e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOperationData</definition>
+        <argsstring>($operation, $bindingType= &apos;soap&apos;)</argsstring>
+        <name>getOperationData</name>
+        <param>
+          <declname>$operation</declname>
+        </param>
+        <param>
+          <declname>$bindingType</declname>
+          <defval>&apos;soap&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an associative array of data necessary for calling an operation</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$operation</parametername>
+<parametertype>string</parametertype>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$bindingType</parametername>
+<parametertype>string</parametertype>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of binding eg: soap </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="569" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="569" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a5a538dc2c7da9f6f6d6880751318762b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOperationDataForSoapAction</definition>
+        <argsstring>($soapAction, $bindingType= &apos;soap&apos;)</argsstring>
+        <name>getOperationDataForSoapAction</name>
+        <param>
+          <declname>$soapAction</declname>
+        </param>
+        <param>
+          <declname>$bindingType</declname>
+          <defval>&apos;soap&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an associative array of data necessary for calling an operation</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$soapAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>soapAction for operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$bindingType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of binding eg: soap </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="599" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="599" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a327b3186f4e3c8b71431ce4a9db77e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getTypeDef</definition>
+        <argsstring>($type, $ns)</argsstring>
+        <name>getTypeDef</name>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an array of information about a given type returns false if no type exists by the given name</para><para>typeDef = array( &apos;elements&apos; =&gt; array(), // refs to elements array &apos;restrictionBase&apos; =&gt; &apos;&apos;, &apos;phpType&apos; =&gt; &apos;&apos;, &apos;order&apos; =&gt; &apos;(sequence|all)&apos;, &apos;attrs&apos; =&gt; array() // refs to attributes array )</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string the type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$ns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string namespace (not prefix) of the type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed  public </para></simplesect>
+<simplesect kind="see"><para>xmlschema </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="635" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="635" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a43ffc8c82e99905b889fbeb93d4ca6eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>webDescription</definition>
+        <argsstring>()</argsstring>
+        <name>webDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prints html description of services</para><para>private </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="682" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="682" bodyend="806"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a25fcce1ac19624739857406748ba332a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serialize</definition>
+        <argsstring>($debug=0)</argsstring>
+        <name>serialize</name>
+        <param>
+          <declname>$debug</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serialize the parsed wsdl</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$debug</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to put debug=1 in endpoint URL </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string serialization of WSDL  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="815" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="815" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1aba212dea327156517e32e7a3cd67d88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeRPCParameters</definition>
+        <argsstring>($operation, $direction, $parameters)</argsstring>
+        <name>serializeRPCParameters</name>
+        <param>
+          <declname>$operation</declname>
+        </param>
+        <param>
+          <declname>$direction</declname>
+        </param>
+        <param>
+          <declname>$parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serialize PHP values according to a WSDL message definition</para><para>TODO<itemizedlist>
+<listitem><para>multi-ref serialization</para></listitem><listitem><para>validate PHP values against type definitions, return errors if invalid</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>operation name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(input|output) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameter value(s) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed parameters serialized as XML or false on error (e.g. operation not found)  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="954" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="954" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1afed507a7c4d2b216e27515ca9181361c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeParameters</definition>
+        <argsstring>($operation, $direction, $parameters)</argsstring>
+        <name>serializeParameters</name>
+        <param>
+          <declname>$operation</declname>
+        </param>
+        <param>
+          <declname>$direction</declname>
+        </param>
+        <param>
+          <declname>$parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serialize a PHP value according to a WSDL message definition</para><para>TODO<itemizedlist>
+<listitem><para>multi-ref serialization</para></listitem><listitem><para>validate PHP values against type definitions, return errors if invalid</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>$ type name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>$ param value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed new param or false if initial value didn&apos;t validate  public </para></simplesect>
+<xrefsect id="deprecated_1_deprecated000008"><xreftitle>Deprecated</xreftitle><xrefdescription></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="1033" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="1033" bodyend="1098"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a06a97e7bc4c0fe43b1193177d3266c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeType</definition>
+        <argsstring>($name, $type, $value, $use=&apos;encoded&apos;, $encodingStyle=false, $unqualified=false)</argsstring>
+        <name>serializeType</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$use</declname>
+          <defval>&apos;encoded&apos;</defval>
+        </param>
+        <param>
+          <declname>$encodingStyle</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$unqualified</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serializes a PHP value according a given type definition</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of value (part or element) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML schema type of value (type or element) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a native PHP value (parameter value) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$use</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>use for part (encoded|literal) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$encodingStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SOAP encoding style for the value (if different than the enclosing style) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>boolean</parametertype>
+<parametername>$unqualified</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a kludge for what should be XML namespace form handling </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string value serialized as an XML string  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="1112" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="1112" bodyend="1397"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a1bebf04c625f86d2c65c6a2fc4c69f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeComplexTypeAttributes</definition>
+        <argsstring>($typeDef, $value, $ns, $uqType)</argsstring>
+        <name>serializeComplexTypeAttributes</name>
+        <param>
+          <declname>$typeDef</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$ns</declname>
+        </param>
+        <param>
+          <declname>$uqType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serializes the attributes for a complexType</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$typeDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>our internal representation of an XML schema type (or element) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a native PHP value (parameter value) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$ns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the namespace of the type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uqType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the local part of the type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string value serialized as an XML string  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="1409" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="1409" bodyend="1457"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a9abd63b860271a2010c4d35b5c607b45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeComplexTypeElements</definition>
+        <argsstring>($typeDef, $value, $ns, $uqType, $use=&apos;encoded&apos;, $encodingStyle=false)</argsstring>
+        <name>serializeComplexTypeElements</name>
+        <param>
+          <declname>$typeDef</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$ns</declname>
+        </param>
+        <param>
+          <declname>$uqType</declname>
+        </param>
+        <param>
+          <declname>$use</declname>
+          <defval>&apos;encoded&apos;</defval>
+        </param>
+        <param>
+          <declname>$encodingStyle</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serializes the elements for a complexType</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$typeDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>our internal representation of an XML schema type (or element) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a native PHP value (parameter value) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$ns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the namespace of the type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uqType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the local part of the type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$use</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>use for part (encoded|literal) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$encodingStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SOAP encoding style for the value (if different than the enclosing style) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string value serialized as an XML string  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="1471" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="1471" bodyend="1557"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a8086789ccd44f879ab77ba98dfa08aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addComplexType</definition>
+        <argsstring>($name, $typeClass=&apos;complexType&apos;, $phpType=&apos;array&apos;, $compositor=&apos;&apos;, $restrictionBase=&apos;&apos;, $elements=array(), $attrs=array(), $arrayType=&apos;&apos;)</argsstring>
+        <name>addComplexType</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$typeClass</declname>
+          <defval>&apos;complexType&apos;</defval>
+        </param>
+        <param>
+          <declname>$phpType</declname>
+          <defval>&apos;array&apos;</defval>
+        </param>
+        <param>
+          <declname>$compositor</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$restrictionBase</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$elements</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$attrs</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$arrayType</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds an XML Schema complex type to the WSDL types</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>typeClass (complexType|simpleType|attribute) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>phpType: currently supported are array and struct (php assoc array) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>compositor (all|sequence|choice) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>restrictionBase namespace:name (<ulink url="http://schemas.xmlsoap.org/soap/encoding/:Array">http://schemas.xmlsoap.org/soap/encoding/:Array</ulink>) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>elements = array ( name =&gt; array(name=&gt;&apos;&apos;,type=&gt;&apos;&apos;) ) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>attrs = array(array(&apos;ref&apos;=&gt;&apos;SOAP-ENC:arrayType&apos;,&apos;wsdl:arrayType&apos;=&gt;&apos;xsd:string[]&apos;)) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>arrayType: namespace:name (xsd:string) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>xmlschema  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="1573" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="1573" bodyend="1605"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a31228a55d8cdb602e32f481406e7455c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addSimpleType</definition>
+        <argsstring>($name, $restrictionBase=&apos;&apos;, $typeClass=&apos;simpleType&apos;, $phpType=&apos;scalar&apos;, $enumeration=array())</argsstring>
+        <name>addSimpleType</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$restrictionBase</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$typeClass</declname>
+          <defval>&apos;simpleType&apos;</defval>
+        </param>
+        <param>
+          <declname>$phpType</declname>
+          <defval>&apos;scalar&apos;</defval>
+        </param>
+        <param>
+          <declname>$enumeration</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds an XML Schema simple type to the WSDL types</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$restrictionBase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>namespace:name (<ulink url="http://schemas.xmlsoap.org/soap/encoding/:Array">http://schemas.xmlsoap.org/soap/encoding/:Array</ulink>) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$typeClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(should always be simpleType) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$phpType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(should always be scalar) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$enumeration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>xmlschema  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="1618" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="1618" bodyend="1623"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a7341d393047f63fdcb50dd44d2eff448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addElement</definition>
+        <argsstring>($attrs)</argsstring>
+        <name>addElement</name>
+        <param>
+          <declname>$attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds an element to the WSDL types</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$attrs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>attributes that must include name and type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>xmlschema  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="1632" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="1632" bodyend="1635"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a629076bad717a1ef68261afe210001fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addOperation</definition>
+        <argsstring>($name, $in=false, $out=false, $namespace=false, $soapaction=false, $style= &apos;rpc&apos;, $use= &apos;encoded&apos;, $documentation= &apos;&apos;, $encodingStyle= &apos;&apos;)</argsstring>
+        <name>addOperation</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$in</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$out</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$namespace</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$soapaction</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$style</declname>
+          <defval>&apos;rpc&apos;</defval>
+        </param>
+        <param>
+          <declname>$use</declname>
+          <defval>&apos;encoded&apos;</defval>
+        </param>
+        <param>
+          <declname>$documentation</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$encodingStyle</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>register an operation with the server</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>operation (method) name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>assoc array of input values: key = param name, value = param type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>assoc array of output values: key = param name, value = param type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$namespace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional The namespace for the operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$soapaction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional The soapaction for the operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(rpc|document) optional The style for the operation Note: when &apos;document&apos; is specified, parameter and return wrappers are created for you automatically </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$use</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(encoded|literal) optional The use for the parameters (cannot mix right now) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$documentation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional The description to include in the WSDL </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$encodingStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional (usually &apos;<ulink url="http://schemas.xmlsoap.org/soap/encoding/&apos;">http://schemas.xmlsoap.org/soap/encoding/&apos;</ulink> for encoded)  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="1651" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="1651" bodyend="1724"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a4afbbf2bb8e2267a6387b17eb41597aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wsdl</definition>
+        <argsstring>($wsdl= &apos;&apos;, $proxyhost=false, $proxyport=false, $proxyusername=false, $proxypassword=false, $timeout=0, $response_timeout=30)</argsstring>
+        <name>wsdl</name>
+        <param>
+          <declname>$wsdl</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$proxyhost</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$proxyport</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$proxyusername</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$proxypassword</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$response_timeout</declname>
+          <defval>30</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$wsdl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>WSDL document URL </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyhost</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyusername</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxypassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set the connection timeout </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$response_timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set the response timeout  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4123" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4123" bodyend="4225"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1aef0643f32c7dca703065cc3eb3fd1dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseWSDL</definition>
+        <argsstring>($wsdl= &apos;&apos;)</argsstring>
+        <name>parseWSDL</name>
+        <param>
+          <declname>$wsdl</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parses the wsdl document</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$wsdl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path or URL  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4233" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4233" bodyend="4323"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1abf9dc4b028eeac08eeca4c7309a950e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>start_element</definition>
+        <argsstring>($parser, $name, $attrs)</argsstring>
+        <name>start_element</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start-element handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$attrs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>associative array of attributes  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4333" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4333" bodyend="4537"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1ad45367c512cbc2d4679d1a49db3802f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>end_element</definition>
+        <argsstring>($parser, $name)</argsstring>
+        <name>end_element</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>end-element handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element name  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4546" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4546" bodyend="4567"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a592a4f9b601cc33f15de0ad7a9c49ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>character_data</definition>
+        <argsstring>($parser, $data)</argsstring>
+        <name>character_data</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>element content handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element content  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4576" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4576" bodyend="4585"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1ae6385888eeb57e98ef81323b05842341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBindingData</definition>
+        <argsstring>($binding)</argsstring>
+        <name>getBindingData</name>
+        <param>
+          <declname>$binding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4587" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4587" bodyend="4592"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a1d50941291502c26831b28681dddeb94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOperations</definition>
+        <argsstring>($bindingType= &apos;soap&apos;)</argsstring>
+        <name>getOperations</name>
+        <param>
+          <declname>$bindingType</declname>
+          <defval>&apos;soap&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an assoc array of operation names =&gt; operation data</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$bindingType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>eg: soap, smtp, dime (only soap is currently supported) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4601" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4601" bodyend="4621"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a38f29f3212405560a4bcf188ad632e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOperationData</definition>
+        <argsstring>($operation, $bindingType= &apos;soap&apos;)</argsstring>
+        <name>getOperationData</name>
+        <param>
+          <declname>$operation</declname>
+        </param>
+        <param>
+          <declname>$bindingType</declname>
+          <defval>&apos;soap&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an associative array of data necessary for calling an operation</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$operation</parametername>
+<parametertype>string</parametertype>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$bindingType</parametername>
+<parametertype>string</parametertype>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of binding eg: soap </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4631" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4631" bodyend="4651"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a5a538dc2c7da9f6f6d6880751318762b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOperationDataForSoapAction</definition>
+        <argsstring>($soapAction, $bindingType= &apos;soap&apos;)</argsstring>
+        <name>getOperationDataForSoapAction</name>
+        <param>
+          <declname>$soapAction</declname>
+        </param>
+        <param>
+          <declname>$bindingType</declname>
+          <defval>&apos;soap&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an associative array of data necessary for calling an operation</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$soapAction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>soapAction for operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$bindingType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of binding eg: soap </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4661" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4661" bodyend="4677"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a327b3186f4e3c8b71431ce4a9db77e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getTypeDef</definition>
+        <argsstring>($type, $ns)</argsstring>
+        <name>getTypeDef</name>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an array of information about a given type returns false if no type exists by the given name</para><para>typeDef = array( &apos;elements&apos; =&gt; array(), // refs to elements array &apos;restrictionBase&apos; =&gt; &apos;&apos;, &apos;phpType&apos; =&gt; &apos;&apos;, &apos;order&apos; =&gt; &apos;(sequence|all)&apos;, &apos;attrs&apos; =&gt; array() // refs to attributes array )</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string the type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$ns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string namespace (not prefix) of the type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed  public </para></simplesect>
+<simplesect kind="see"><para>xmlschema </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4697" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4697" bodyend="4737"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a43ffc8c82e99905b889fbeb93d4ca6eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>webDescription</definition>
+        <argsstring>()</argsstring>
+        <name>webDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prints html description of services</para><para>private </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4744" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4744" bodyend="4868"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a25fcce1ac19624739857406748ba332a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serialize</definition>
+        <argsstring>($debug=0)</argsstring>
+        <name>serialize</name>
+        <param>
+          <declname>$debug</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serialize the parsed wsdl</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$debug</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to put debug=1 in endpoint URL </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string serialization of WSDL  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="4877" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="4877" bodyend="5001"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1aba212dea327156517e32e7a3cd67d88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeRPCParameters</definition>
+        <argsstring>($operation, $direction, $parameters)</argsstring>
+        <name>serializeRPCParameters</name>
+        <param>
+          <declname>$operation</declname>
+        </param>
+        <param>
+          <declname>$direction</declname>
+        </param>
+        <param>
+          <declname>$parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serialize PHP values according to a WSDL message definition</para><para>TODO<itemizedlist>
+<listitem><para>multi-ref serialization</para></listitem><listitem><para>validate PHP values against type definitions, return errors if invalid</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>operation name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(input|output) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameter value(s) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed parameters serialized as XML or false on error (e.g. operation not found)  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5016" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5016" bodyend="5080"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1afed507a7c4d2b216e27515ca9181361c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeParameters</definition>
+        <argsstring>($operation, $direction, $parameters)</argsstring>
+        <name>serializeParameters</name>
+        <param>
+          <declname>$operation</declname>
+        </param>
+        <param>
+          <declname>$direction</declname>
+        </param>
+        <param>
+          <declname>$parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serialize a PHP value according to a WSDL message definition</para><para>TODO<itemizedlist>
+<listitem><para>multi-ref serialization</para></listitem><listitem><para>validate PHP values against type definitions, return errors if invalid</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>$ type name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mixed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>$ param value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed new param or false if initial value didn&apos;t validate  public </para></simplesect>
+<xrefsect id="deprecated_1_deprecated000020"><xreftitle>Deprecated</xreftitle><xrefdescription></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5095" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5095" bodyend="5160"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a06a97e7bc4c0fe43b1193177d3266c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeType</definition>
+        <argsstring>($name, $type, $value, $use=&apos;encoded&apos;, $encodingStyle=false, $unqualified=false)</argsstring>
+        <name>serializeType</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$use</declname>
+          <defval>&apos;encoded&apos;</defval>
+        </param>
+        <param>
+          <declname>$encodingStyle</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$unqualified</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serializes a PHP value according a given type definition</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of value (part or element) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML schema type of value (type or element) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a native PHP value (parameter value) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$use</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>use for part (encoded|literal) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$encodingStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SOAP encoding style for the value (if different than the enclosing style) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>boolean</parametertype>
+<parametername>$unqualified</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a kludge for what should be XML namespace form handling </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string value serialized as an XML string  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5174" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5174" bodyend="5459"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a1bebf04c625f86d2c65c6a2fc4c69f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeComplexTypeAttributes</definition>
+        <argsstring>($typeDef, $value, $ns, $uqType)</argsstring>
+        <name>serializeComplexTypeAttributes</name>
+        <param>
+          <declname>$typeDef</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$ns</declname>
+        </param>
+        <param>
+          <declname>$uqType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serializes the attributes for a complexType</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$typeDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>our internal representation of an XML schema type (or element) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a native PHP value (parameter value) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$ns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the namespace of the type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uqType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the local part of the type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string value serialized as an XML string  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5471" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5471" bodyend="5519"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a9abd63b860271a2010c4d35b5c607b45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serializeComplexTypeElements</definition>
+        <argsstring>($typeDef, $value, $ns, $uqType, $use=&apos;encoded&apos;, $encodingStyle=false)</argsstring>
+        <name>serializeComplexTypeElements</name>
+        <param>
+          <declname>$typeDef</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$ns</declname>
+        </param>
+        <param>
+          <declname>$uqType</declname>
+        </param>
+        <param>
+          <declname>$use</declname>
+          <defval>&apos;encoded&apos;</defval>
+        </param>
+        <param>
+          <declname>$encodingStyle</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serializes the elements for a complexType</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$typeDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>our internal representation of an XML schema type (or element) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a native PHP value (parameter value) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$ns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the namespace of the type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uqType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the local part of the type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$use</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>use for part (encoded|literal) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$encodingStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SOAP encoding style for the value (if different than the enclosing style) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string value serialized as an XML string  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5533" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5533" bodyend="5619"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a8086789ccd44f879ab77ba98dfa08aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addComplexType</definition>
+        <argsstring>($name, $typeClass=&apos;complexType&apos;, $phpType=&apos;array&apos;, $compositor=&apos;&apos;, $restrictionBase=&apos;&apos;, $elements=array(), $attrs=array(), $arrayType=&apos;&apos;)</argsstring>
+        <name>addComplexType</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$typeClass</declname>
+          <defval>&apos;complexType&apos;</defval>
+        </param>
+        <param>
+          <declname>$phpType</declname>
+          <defval>&apos;array&apos;</defval>
+        </param>
+        <param>
+          <declname>$compositor</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$restrictionBase</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$elements</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$attrs</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$arrayType</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds an XML Schema complex type to the WSDL types</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>typeClass (complexType|simpleType|attribute) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>phpType: currently supported are array and struct (php assoc array) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>compositor (all|sequence|choice) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>restrictionBase namespace:name (<ulink url="http://schemas.xmlsoap.org/soap/encoding/:Array">http://schemas.xmlsoap.org/soap/encoding/:Array</ulink>) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>elements = array ( name =&gt; array(name=&gt;&apos;&apos;,type=&gt;&apos;&apos;) ) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>attrs = array(array(&apos;ref&apos;=&gt;&apos;SOAP-ENC:arrayType&apos;,&apos;wsdl:arrayType&apos;=&gt;&apos;xsd:string[]&apos;)) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>arrayType: namespace:name (xsd:string) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>xmlschema  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5635" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5635" bodyend="5667"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a31228a55d8cdb602e32f481406e7455c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addSimpleType</definition>
+        <argsstring>($name, $restrictionBase=&apos;&apos;, $typeClass=&apos;simpleType&apos;, $phpType=&apos;scalar&apos;, $enumeration=array())</argsstring>
+        <name>addSimpleType</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$restrictionBase</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$typeClass</declname>
+          <defval>&apos;simpleType&apos;</defval>
+        </param>
+        <param>
+          <declname>$phpType</declname>
+          <defval>&apos;scalar&apos;</defval>
+        </param>
+        <param>
+          <declname>$enumeration</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds an XML Schema simple type to the WSDL types</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$restrictionBase</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>namespace:name (<ulink url="http://schemas.xmlsoap.org/soap/encoding/:Array">http://schemas.xmlsoap.org/soap/encoding/:Array</ulink>) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$typeClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(should always be simpleType) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$phpType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(should always be scalar) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$enumeration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>xmlschema  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5680" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5680" bodyend="5685"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a7341d393047f63fdcb50dd44d2eff448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addElement</definition>
+        <argsstring>($attrs)</argsstring>
+        <name>addElement</name>
+        <param>
+          <declname>$attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds an element to the WSDL types</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$attrs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>attributes that must include name and type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>xmlschema  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5694" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5694" bodyend="5697"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdl_1a629076bad717a1ef68261afe210001fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addOperation</definition>
+        <argsstring>($name, $in=false, $out=false, $namespace=false, $soapaction=false, $style= &apos;rpc&apos;, $use= &apos;encoded&apos;, $documentation= &apos;&apos;, $encodingStyle= &apos;&apos;)</argsstring>
+        <name>addOperation</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$in</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$out</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$namespace</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$soapaction</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$style</declname>
+          <defval>&apos;rpc&apos;</defval>
+        </param>
+        <param>
+          <declname>$use</declname>
+          <defval>&apos;encoded&apos;</defval>
+        </param>
+        <param>
+          <declname>$documentation</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$encodingStyle</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>register an operation with the server</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>operation (method) name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>assoc array of input values: key = param name, value = param type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>assoc array of output values: key = param name, value = param type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$namespace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional The namespace for the operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$soapaction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional The soapaction for the operation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(rpc|document) optional The style for the operation Note: when &apos;document&apos; is specified, parameter and return wrappers are created for you automatically </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$use</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(encoded|literal) optional The use for the parameters (cannot mix right now) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$documentation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional The description to include in the WSDL </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$encodingStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional (usually &apos;<ulink url="http://schemas.xmlsoap.org/soap/encoding/&apos;">http://schemas.xmlsoap.org/soap/encoding/&apos;</ulink> for encoded)  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5713" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5713" bodyend="5786"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>parses a WSDL file, allows access to it&apos;s data, other utility methods</para><para><simplesect kind="author"><para>Dietrich Ayala <ulink url="mailto:dietrich@ganx4.com">dietrich@ganx4.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="class_8wsdl_8php_source" kindref="compound">class.wsdl.php</ref>,v 1.56 2005/08/04 01:27:42 snichol Exp </para></simplesect>
+public</para><para>parses a WSDL file, allows access to it&apos;s data, other utility methods</para><para><simplesect kind="author"><para>Dietrich Ayala <ulink url="mailto:dietrich@ganx4.com">dietrich@ganx4.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="nusoap_8php_source" kindref="compound">nusoap.php</ref>,v 1.94 2005/08/04 01:27:42 snichol Exp </para></simplesect>
+public </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="592">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+      <node id="591">
+        <label>wsdl</label>
+        <link refid="classwsdl"/>
+        <childnode refid="592" relation="public-inheritance">
+        </childnode>
+        <childnode refid="592" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="594">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+      <node id="593">
+        <label>wsdl</label>
+        <link refid="classwsdl"/>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" line="13" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdl.php" bodystart="13" bodyend="1725"/>
+    <listofallmembers>
+      <member refid="classwsdl_1adacdcea57647569304169243ff32cd10" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$bindings</name></member>
+      <member refid="classnusoap__base_1a6a4d8a570a9e0a89ef63b192fa3942f2" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$charencoding</name></member>
+      <member refid="classwsdl_1acf1dbaf5ad35f659428a61193928b78d" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$complexTypes</name></member>
+      <member refid="classwsdl_1a473fc9ff0b89502bb265577b54a973c3" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$currentBinding</name></member>
+      <member refid="classwsdl_1a04d4e6f80c471063bb6b64c6090c59a2" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$currentMessage</name></member>
+      <member refid="classwsdl_1a44b02f3838b36b3aad2401f0f02d3b76" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$currentOperation</name></member>
+      <member refid="classwsdl_1a43463e704b29e9e592607bfe91a11bd6" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$currentPort</name></member>
+      <member refid="classwsdl_1a87aea97635203239413d2a45c66037e4" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$currentPortType</name></member>
+      <member refid="classwsdl_1af4af684ea50a30d657aeb9682ff0caeb" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$currentSchema</name></member>
+      <member refid="classnusoap__base_1ad04cbe402f400eb4b0b40f2c03985452" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$debug_str</name></member>
+      <member refid="classnusoap__base_1a8907cc6f1fc6ed47ef25190cb8310f41" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$debugLevel</name></member>
+      <member refid="classwsdl_1a0abb04e6a8a04e161eb4657f54848b18" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$depth</name></member>
+      <member refid="classwsdl_1aaaa53c3e91636edd41a46e767abb3347" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$depth_array</name></member>
+      <member refid="classwsdl_1a2c75122f8f6ee14d52c3504f74ab3be9" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$documentation</name></member>
+      <member refid="classwsdl_1afb5204f7604df2f50a0058cb0e024875" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$endpoint</name></member>
+      <member refid="classnusoap__base_1ab9c9e44dc77820490ded7d8bf085cd7e" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$error_str</name></member>
+      <member refid="classwsdl_1a268adb9a1f963c9f862f1158e9cfbffd" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$import</name></member>
+      <member refid="classwsdl_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$message</name></member>
+      <member refid="classwsdl_1a21a183f927a6d243fe6b4ba3a6c4d4c8" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$messages</name></member>
+      <member refid="classnusoap__base_1a5a7d9500de9f7c938443d65cef9a074e" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$namespaces</name></member>
+      <member refid="classwsdl_1ae44d696522c0c90798bbfe652bc67f0c" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$opData</name></member>
+      <member refid="classwsdl_1a147a766daa03d52576c7345fea31c945" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$parser</name></member>
+      <member refid="classwsdl_1ae5d9eb7d80081176e92db51fbecf2448" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$ports</name></member>
+      <member refid="classwsdl_1aa0affbd30e12dfe2e3d61b716f38cbeb" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$portTypes</name></member>
+      <member refid="classwsdl_1a6e88dcb746884d18f6c89eb9b9c14a42" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$position</name></member>
+      <member refid="classwsdl_1a54407bcc777ac313a172561a8ff976c6" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$proxyhost</name></member>
+      <member refid="classwsdl_1a98c0d3b74811ee643f7d1fce47f1b281" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$proxypassword</name></member>
+      <member refid="classwsdl_1ac396538deee1152f84f9ddabac2c2366" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$proxyport</name></member>
+      <member refid="classwsdl_1aaa30711a40f8f7bae4cd7060414e0fe1" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$proxyusername</name></member>
+      <member refid="classwsdl_1a17a3280264a8b9bb5ed32729d654739c" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$response_timeout</name></member>
+      <member refid="classnusoap__base_1a4ff96b89e7ea5fa55acb086ecb6d0c03" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$revision</name></member>
+      <member refid="classwsdl_1a99067204780ca14c213a3e15987b7cc1" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$schemas</name></member>
+      <member refid="classnusoap__base_1a54cf9ddad3b51e54af1bfad78efad09a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$soap_defencoding</name></member>
+      <member refid="classwsdl_1a58391ea75f2d29d5d708d7050b641c33" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$status</name></member>
+      <member refid="classwsdl_1a84320a9bf3e591d7ae20dfcb0dfe6a0d" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$timeout</name></member>
+      <member refid="classnusoap__base_1ada57e7bb7c152edad18fe2f166188691" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$title</name></member>
+      <member refid="classnusoap__base_1abc776370d77b6fe463a62fa2faf26c2e" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$typemap</name></member>
+      <member refid="classnusoap__base_1a2bd7e321e4132fe338d8502a5594aebc" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$usedNamespaces</name></member>
+      <member refid="classnusoap__base_1a17c8948c68aa44fa9961ae169b6a8961" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$version</name></member>
+      <member refid="classwsdl_1a8b3fb8293ad64e3dc0b814fedf24c5dd" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$wsdl</name></member>
+      <member refid="classnusoap__base_1a912a5d3348012e245bb16e2cab11d4cc" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$xmlEntities</name></member>
+      <member refid="classnusoap__base_1a170fda624f458ce4f4b29e496ebfce4c" prot="public" virt="non-virtual"><scope>wsdl</scope><name>$XMLSchemaVersion</name></member>
+      <member refid="classwsdl_1a8086789ccd44f879ab77ba98dfa08aa2" prot="public" virt="non-virtual"><scope>wsdl</scope><name>addComplexType</name></member>
+      <member refid="classwsdl_1a8086789ccd44f879ab77ba98dfa08aa2" prot="public" virt="non-virtual"><scope>wsdl</scope><name>addComplexType</name></member>
+      <member refid="classwsdl_1a7341d393047f63fdcb50dd44d2eff448" prot="public" virt="non-virtual"><scope>wsdl</scope><name>addElement</name></member>
+      <member refid="classwsdl_1a7341d393047f63fdcb50dd44d2eff448" prot="public" virt="non-virtual"><scope>wsdl</scope><name>addElement</name></member>
+      <member refid="classwsdl_1a629076bad717a1ef68261afe210001fc" prot="public" virt="non-virtual"><scope>wsdl</scope><name>addOperation</name></member>
+      <member refid="classwsdl_1a629076bad717a1ef68261afe210001fc" prot="public" virt="non-virtual"><scope>wsdl</scope><name>addOperation</name></member>
+      <member refid="classwsdl_1a31228a55d8cdb602e32f481406e7455c" prot="public" virt="non-virtual"><scope>wsdl</scope><name>addSimpleType</name></member>
+      <member refid="classwsdl_1a31228a55d8cdb602e32f481406e7455c" prot="public" virt="non-virtual"><scope>wsdl</scope><name>addSimpleType</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>wsdl</scope><name>appendDebug</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>wsdl</scope><name>appendDebug</name></member>
+      <member refid="classwsdl_1a592a4f9b601cc33f15de0ad7a9c49ae5" prot="public" virt="non-virtual"><scope>wsdl</scope><name>character_data</name></member>
+      <member refid="classwsdl_1a592a4f9b601cc33f15de0ad7a9c49ae5" prot="public" virt="non-virtual"><scope>wsdl</scope><name>character_data</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>wsdl</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>wsdl</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>wsdl</scope><name>debug</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>wsdl</scope><name>debug</name></member>
+      <member refid="classwsdl_1ad45367c512cbc2d4679d1a49db3802f2" prot="public" virt="non-virtual"><scope>wsdl</scope><name>end_element</name></member>
+      <member refid="classwsdl_1ad45367c512cbc2d4679d1a49db3802f2" prot="public" virt="non-virtual"><scope>wsdl</scope><name>end_element</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>wsdl</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>wsdl</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>wsdl</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>wsdl</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>wsdl</scope><name>formatDump</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>wsdl</scope><name>formatDump</name></member>
+      <member refid="classwsdl_1ae6385888eeb57e98ef81323b05842341" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getBindingData</name></member>
+      <member refid="classwsdl_1ae6385888eeb57e98ef81323b05842341" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getBindingData</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classwsdl_1a38f29f3212405560a4bcf188ad632e1f" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getOperationData</name></member>
+      <member refid="classwsdl_1a38f29f3212405560a4bcf188ad632e1f" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getOperationData</name></member>
+      <member refid="classwsdl_1a5a538dc2c7da9f6f6d6880751318762b" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getOperationDataForSoapAction</name></member>
+      <member refid="classwsdl_1a5a538dc2c7da9f6f6d6880751318762b" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getOperationDataForSoapAction</name></member>
+      <member refid="classwsdl_1a1d50941291502c26831b28681dddeb94" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getOperations</name></member>
+      <member refid="classwsdl_1a1d50941291502c26831b28681dddeb94" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getOperations</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classwsdl_1a327b3186f4e3c8b71431ce4a9db77e5a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getTypeDef</name></member>
+      <member refid="classwsdl_1a327b3186f4e3c8b71431ce4a9db77e5a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>getTypeDef</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>wsdl</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>wsdl</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>wsdl</scope><name>nusoap_base</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>wsdl</scope><name>nusoap_base</name></member>
+      <member refid="classwsdl_1aef0643f32c7dca703065cc3eb3fd1dba" prot="public" virt="non-virtual"><scope>wsdl</scope><name>parseWSDL</name></member>
+      <member refid="classwsdl_1aef0643f32c7dca703065cc3eb3fd1dba" prot="public" virt="non-virtual"><scope>wsdl</scope><name>parseWSDL</name></member>
+      <member refid="classwsdl_1a25fcce1ac19624739857406748ba332a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serialize</name></member>
+      <member refid="classwsdl_1a25fcce1ac19624739857406748ba332a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serialize</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serialize_val</name></member>
+      <member refid="classwsdl_1a1bebf04c625f86d2c65c6a2fc4c69f52" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeComplexTypeAttributes</name></member>
+      <member refid="classwsdl_1a1bebf04c625f86d2c65c6a2fc4c69f52" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeComplexTypeAttributes</name></member>
+      <member refid="classwsdl_1a9abd63b860271a2010c4d35b5c607b45" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeComplexTypeElements</name></member>
+      <member refid="classwsdl_1a9abd63b860271a2010c4d35b5c607b45" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeComplexTypeElements</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeEnvelope</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeEnvelope</name></member>
+      <member refid="classwsdl_1afed507a7c4d2b216e27515ca9181361c" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeParameters</name></member>
+      <member refid="classwsdl_1afed507a7c4d2b216e27515ca9181361c" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeParameters</name></member>
+      <member refid="classwsdl_1aba212dea327156517e32e7a3cd67d88a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeRPCParameters</name></member>
+      <member refid="classwsdl_1aba212dea327156517e32e7a3cd67d88a" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeRPCParameters</name></member>
+      <member refid="classwsdl_1a06a97e7bc4c0fe43b1193177d3266c30" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeType</name></member>
+      <member refid="classwsdl_1a06a97e7bc4c0fe43b1193177d3266c30" prot="public" virt="non-virtual"><scope>wsdl</scope><name>serializeType</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>wsdl</scope><name>setDebugLevel</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>wsdl</scope><name>setDebugLevel</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>wsdl</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>wsdl</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>wsdl</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>wsdl</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classwsdl_1abf9dc4b028eeac08eeca4c7309a950e2" prot="public" virt="non-virtual"><scope>wsdl</scope><name>start_element</name></member>
+      <member refid="classwsdl_1abf9dc4b028eeac08eeca4c7309a950e2" prot="public" virt="non-virtual"><scope>wsdl</scope><name>start_element</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>wsdl</scope><name>varDump</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>wsdl</scope><name>varDump</name></member>
+      <member refid="classwsdl_1a43ffc8c82e99905b889fbeb93d4ca6eb" prot="public" virt="non-virtual"><scope>wsdl</scope><name>webDescription</name></member>
+      <member refid="classwsdl_1a43ffc8c82e99905b889fbeb93d4ca6eb" prot="public" virt="non-virtual"><scope>wsdl</scope><name>webDescription</name></member>
+      <member refid="classwsdl_1a4afbbf2bb8e2267a6387b17eb41597aa" prot="public" virt="non-virtual"><scope>wsdl</scope><name>wsdl</name></member>
+      <member refid="classwsdl_1a4afbbf2bb8e2267a6387b17eb41597aa" prot="public" virt="non-virtual"><scope>wsdl</scope><name>wsdl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<map id="nusoap_base" name="nusoap_base">
+<area shape="rect" id="node2" href="$classsoap__fault.html" title="soap_fault" alt="" coords="181,5,262,32"/>
+<area shape="rect" id="node3" href="$classsoap__parser.html" title="soap_parser" alt="" coords="175,56,268,83"/>
+<area shape="rect" id="node4" href="$classsoap__server.html" title="soap_server" alt="" coords="176,107,267,133"/>
+<area shape="rect" id="node6" href="$classsoap__transport__http.html" title="soap_transport_http" alt="" coords="153,157,290,184"/>
+<area shape="rect" id="node7" href="$classsoapclient.html" title="soapclient" alt="" coords="181,208,262,235"/>
+<area shape="rect" id="node9" href="$classsoapval.html" title="soapval" alt="" coords="189,259,254,285"/>
+<area shape="rect" id="node10" href="$classwsdl.html" title="wsdl" alt="" coords="197,309,245,336"/>
+<area shape="rect" id="node11" href="$class_x_m_l_schema.html" title="XMLSchema" alt="" coords="174,360,269,387"/>
+<area shape="rect" id="node5" href="$classnusoapservermime.html" title="nusoapservermime" alt="" coords="339,107,469,133"/>
+<area shape="rect" id="node8" href="$classsoapclientmime.html" title="soapclientmime" alt="" coords="347,208,461,235"/>
+</map>

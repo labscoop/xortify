@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="precheck_8inc_8php" kind="file">
+    <compoundname>precheck.inc.php</compoundname>
+    <innernamespace refid="namespaceprotector">protector</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="precheck_8inc_8php_1afa319326ba67c00cadcdc82ac772a5d2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PROTECTOR_PRECHECK_INCLUDED</definition>
+        <argsstring></argsstring>
+        <name>PROTECTOR_PRECHECK_INCLUDED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/include/precheck.inc.php" line="33" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/include/precheck.inc.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="precheck_8inc_8php_1a7e97813f6f2bef74ab21ee200405c773" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PROTECTOR_VERSION</definition>
+        <argsstring></argsstring>
+        <name>PROTECTOR_VERSION</name>
+        <initializer>file_get_contents(dirname(__FILE__) . &apos;/version.txt&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/include/precheck.inc.php" line="34" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/include/precheck.inc.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>You<sp/>may<sp/>not<sp/>change<sp/>or<sp/>alter<sp/>any<sp/>portion<sp/>of<sp/>this<sp/>comment<sp/>or<sp/>credits</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>of<sp/>supporting<sp/>developers<sp/>from<sp/>this<sp/>source<sp/>code<sp/>or<sp/>any<sp/>supporting<sp/>source<sp/>code</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>which<sp/>is<sp/>considered<sp/>copyrighted<sp/>(c)<sp/>material<sp/>of<sp/>the<sp/>original<sp/>comment<sp/>or<sp/>credit<sp/>authors.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">defined(</highlight><highlight class="stringliteral">&apos;XOOPS_ROOT_PATH&apos;</highlight><highlight class="normal">)<sp/>or<sp/>die(&apos;Restricted<sp/>access&apos;);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">require_once<sp/>dirname(__FILE__)<sp/>.<sp/>&apos;/precheck_functions.php&apos;;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>if<sp/>(class_exists(&apos;XoopsDatabase&apos;,<sp/>false))<sp/>{<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>require<sp/>dirname(__FILE__)<sp/>.<sp/>&apos;/postcheck.inc.php&apos;;<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>return;<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>}<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">define(&apos;<ref refid="precheck_8inc_8php_1afa319326ba67c00cadcdc82ac772a5d2" kindref="member">PROTECTOR_PRECHECK_INCLUDED</ref>&apos;,<sp/>1);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">define(&apos;<ref refid="precheck_8inc_8php_1a7e97813f6f2bef74ab21ee200405c773" kindref="member">PROTECTOR_VERSION</ref>&apos;,<sp/>file_get_contents(dirname(__FILE__)<sp/>.<sp/>&apos;/version.txt&apos;));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>set<sp/>$_SERVER[&apos;REQUEST_URI&apos;]<sp/>for<sp/>IIS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="auth__minimumcloud_8php_1ad3f5451abb22c5d78bd5abeac2cf7cfd" kindref="member">if</ref><sp/>(empty($_SERVER[&apos;REQUEST_URI&apos;]))<sp/>{<sp/></highlight><highlight class="comment">//<sp/>Not<sp/>defined<sp/>by<sp/>IIS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Under<sp/>some<sp/>configs,<sp/>IIS<sp/>makes<sp/>SCRIPT_NAME<sp/>point<sp/>to<sp/>php.exe<sp/>:-(</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!($_SERVER[</highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal">]<sp/>=<sp/>@$_SERVER[</highlight><highlight class="stringliteral">&apos;PHP_SELF&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_SERVER[</highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$_SERVER[</highlight><highlight class="stringliteral">&apos;SCRIPT_NAME&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($_SERVER[</highlight><highlight class="stringliteral">&apos;QUERY_STRING&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_SERVER[</highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal">]<sp/>.=<sp/></highlight><highlight class="charliteral">&apos;?&apos;</highlight><highlight class="normal"><sp/>.<sp/>$_SERVER[</highlight><highlight class="stringliteral">&apos;QUERY_STRING&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">protector_precheck();</highlight></codeline>
+    </programlisting>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/include/precheck.inc.php"/>
+  </compounddef>
+</doxygen>

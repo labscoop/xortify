@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xserial_2admin_2admin__header_8php" kind="file">
+    <compoundname>admin_header.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xserial_2admin_2admin__header_8php_1af69db59daf542a880e372aff3689e85f" prot="public" static="no" mutable="no">
+        <type>if(is_object($xoopsUser))</type>
+        <definition>if (is_object($xoopsUser)) else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{
+    redirect_header(XOOPS_URL . &quot;/&quot;, 1, _NOPERM)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/admin/admin_header.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/admin/admin_header.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2admin_2admin__header_8php_1a12466d9a3f1c87076ded6bfe0cf0c9e5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$myts</definition>
+        <argsstring></argsstring>
+        <name>$myts</name>
+        <initializer>= &amp;MyTextSanitizer::getInstance()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/admin/admin_header.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/admin/admin_header.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">include<sp/>dirname(dirname(dirname(dirname(__FILE__))))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;mainfile.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">include<sp/>dirname(dirname(dirname(dirname(__FILE__))))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;include/cp_header.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">include<sp/></highlight><highlight class="stringliteral">&apos;../include/functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/class/xoopstree.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/class/xoopslists.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/class/xoopsformloader.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_object($xoopsUser))<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>$xoopsModule<sp/>=<sp/>XoopsModule::getByDirname(</highlight><highlight class="stringliteral">&quot;xserial&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$xoopsUser-&gt;isAdmin($xoopsModule-&gt;mid()))<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>redirect_header(XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>_NOPERM);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>redirect_header(XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>_NOPERM);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>exit();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">$myts<sp/>=<sp/>&amp;MyTextSanitizer::getInstance();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xserial/admin/admin_header.php"/>
+  </compounddef>
+</doxygen>

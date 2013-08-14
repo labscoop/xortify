@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_11e84e471504a885ad7660bd439c5373" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xortify/include</compoundname>
+    <innerfile refid="forms_8objects_8php">forms.objects.php</innerfile>
+    <innerfile refid="forms_8xortify_8php">forms.xortify.php</innerfile>
+    <innerfile refid="xortify_2include_2functions_8php">functions.php</innerfile>
+    <innerfile refid="xortify_2include_2install_8php">install.php</innerfile>
+    <innerfile refid="instance_8php">instance.php</innerfile>
+    <innerfile refid="modules_2xortify_2include_2_j_s_o_n_8php">JSON.php</innerfile>
+    <innerfile refid="post_8footer_8end_8php">post.footer.end.php</innerfile>
+    <innerfile refid="post_8header_8addmeta_8php">post.header.addmeta.php</innerfile>
+    <innerfile refid="post_8header_8endcache_8php">post.header.endcache.php</innerfile>
+    <innerfile refid="post_8loader_8mainfile_8php">post.loader.mainfile.php</innerfile>
+    <innerfile refid="pre_8loader_8mainfile_8php">pre.loader.mainfile.php</innerfile>
+    <innerfile refid="xortify_2include_2update_8php">update.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/include/"/>
+  </compounddef>
+</doxygen>

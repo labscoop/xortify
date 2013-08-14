@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_1bbed270536b6684c594145068f6f228" kind="dir">
+    <compoundname>Q:/@websites@/coop/labs/dev2</compoundname>
+    <innerdir refid="dir_4e1460ab54f4ac7b2053043bc274abe9">Q:/@websites@/coop/labs/dev2/class</innerdir>
+    <innerdir refid="dir_7e8a1780f4f93a391d59f25044d0ae4b">Q:/@websites@/coop/labs/dev2/include</innerdir>
+    <innerdir refid="dir_778c438d766721a840f9858115f24b80">Q:/@websites@/coop/labs/dev2/poll</innerdir>
+    <innerdir refid="dir_269aea34127a9b0919a4cf2ad7cd9204">Q:/@websites@/coop/labs/dev2/providers</innerdir>
+    <innerfile refid="banned_8php">banned.php</innerfile>
+    <innerfile refid="config_8php">config.php</innerfile>
+    <innerfile refid="spam_8php">spam.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Q:/@websites@/coop/labs/dev2/"/>
+  </compounddef>
+</doxygen>

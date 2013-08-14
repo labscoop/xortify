@@ -1,0 +1,57 @@
+.TH "Q:/@websites@/coop/labs/dev2/providers/xortify/post.loader.php" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Q:/@websites@/coop/labs/dev2/providers/xortify/post.loader.php \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$checkfields\fP = array('uname', 'email', 'ip4', 'ip6', 'network-addy')"
+.br
+.ti -1c
+.RI "\fB$func\fP = strtoupper(\fB_RUN_XORTIFY_PROTOCOL\fP)\&.'XortifyExchange'"
+.br
+.ti -1c
+.RI "\fB$apiExchange\fP = new $func"
+.br
+.ti -1c
+.RI "\fB$bans\fP = $apiExchange->getBans()"
+.br
+.ti -1c
+.RI "\fBif\fP(isset($_SESSION['xortify']['uname'])&&isset($_SESSION['xortify']['uid'])&&isset($_SESSION['xortify']['email'])) \fBelse\fP"
+.br
+.ti -1c
+.RI "\fB$uname\fP = (isset($_REQUEST['uname'])?$_REQUEST['uname']:'')"
+.br
+.ti -1c
+.RI "\fB$email\fP = (isset($_REQUEST['email'])?$_REQUEST['email']:'')"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "$apiExchange = new $func"
+
+.SS "$bans = $apiExchange->getBans()"
+
+.SS "$checkfields = array('uname', 'email', 'ip4', 'ip6', 'network-addy')"
+
+.SS "$email = (isset($_REQUEST['email'])?$_REQUEST['email']:'')"
+
+.SS "$func = strtoupper(\fB_RUN_XORTIFY_PROTOCOL\fP)\&.'XortifyExchange'"
+
+.SS "$uname = (isset($_REQUEST['uname'])?$_REQUEST['uname']:'')"
+
+.SS "\fBif\fP (isset($_SESSION['xortify']['uname'])&&isset($_SESSION['xortify']['uid'])&&isset($_SESSION['xortify']['email'])) else"
+\fBInitial value:\fP
+.PP
+.nf
+{
+        $uid = 0
+.fi
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

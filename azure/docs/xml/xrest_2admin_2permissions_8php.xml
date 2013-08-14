@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xrest_2admin_2permissions_8php" kind="file">
+    <compoundname>permissions.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xrest_2admin_2permissions_8php_1a7c93a81c9b28ec2f78f33cdabda28c76" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$op</definition>
+        <argsstring></argsstring>
+        <name>$op</name>
+        <initializer>= (isset($_REQUEST[&apos;op&apos;])?$_REQUEST[&apos;op&apos;]:&apos;default&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/permissions.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/permissions.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2permissions_8php_1aaf0c2c53b00fcd2f7ecb2c3672080ed3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$indexAdmin</definition>
+        <argsstring></argsstring>
+        <name>$indexAdmin</name>
+        <initializer>= new ModuleAdmin()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/permissions.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/permissions.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&quot;admin_header.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/class/xoopsform/grouppermform.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">xoops_loadLanguage(</highlight><highlight class="stringliteral">&apos;forms&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xrest&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">$op<sp/>=<sp/>(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;op&apos;</highlight><highlight class="normal">])?$_REQUEST[</highlight><highlight class="stringliteral">&apos;op&apos;</highlight><highlight class="normal">]:</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">xoops_cp_header();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">loadModuleAdminMenu(5);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">$indexAdmin<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ModuleAdmin();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">echo<sp/>$indexAdmin-&gt;addNavigation(</highlight><highlight class="stringliteral">&apos;permissions.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>($op)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;default&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$module_handler<sp/>=<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;xrest&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>View<sp/>Categories<sp/>permissions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$plugins_handler<sp/>=<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;plugins&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xrest&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$plugins<sp/>=<sp/>$plugins_handler-&gt;getObjects(NULL,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count($plugins))<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$form_view<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsGroupPermForm(_XREST_FRM_VIEW_FUNCTION,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&quot;plugin_call&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&lt;img<sp/>id=&apos;toptableicon&apos;<sp/>src=&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/&quot;</highlight><highlight class="normal"><sp/>.<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;dirname()<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/images/close12.gif<sp/>alt=&apos;&apos;<sp/>/&gt;&lt;/a&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_XREST_FRM_PERMISSIONSVIEWMAN<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/h3&gt;&lt;div<sp/>id=&apos;toptable&apos;&gt;&lt;span<sp/>style=\&quot;color:<sp/>#567;<sp/>margin:<sp/>3px<sp/>0<sp/>0<sp/>0;<sp/>font-size:<sp/>small;<sp/>display:<sp/>block;<sp/>\&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_XREST_FRM_VIEW_FUNCTION<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/span&gt;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;admin/permissions.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($plugins<sp/>as<sp/>$plugin_id<sp/>=&gt;<sp/>$plugin)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$form_view-&gt;addItem($plugin_id,<sp/>$plugin-&gt;getVar(</highlight><highlight class="stringliteral">&apos;plugin_name&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>$form_view-&gt;render();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;img<sp/>id=&apos;toptableicon&apos;<sp/>src=&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/&quot;</highlight><highlight class="normal"><sp/>.<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;dirname()<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/images/close12.gif<sp/>alt=&apos;&apos;<sp/>/&gt;&lt;/a&gt;&amp;nbsp;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_XREST_FRM_PERMISSIONSVIEWMAN<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/h3&gt;&lt;div<sp/>id=&apos;toptable&apos;&gt;&lt;span<sp/>style=\&quot;color:<sp/>#567;<sp/>margin:<sp/>3px<sp/>0<sp/>0<sp/>0;<sp/>font-size:<sp/>small;<sp/>display:<sp/>block;<sp/>\&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_XREST_FRM_NOPERMSSET<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/span&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/div&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;br<sp/>/&gt;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">xoops_cp_footer();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/permissions.php"/>
+  </compounddef>
+</doxygen>

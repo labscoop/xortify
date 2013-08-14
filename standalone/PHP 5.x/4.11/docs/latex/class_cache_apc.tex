@@ -1,0 +1,150 @@
+\hypertarget{class_cache_apc}{\section{Cache\-Apc Class Reference}
+\label{class_cache_apc}\index{Cache\-Apc@{Cache\-Apc}}
+}
+
+
+Inheritance diagram for Cache\-Apc\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_cache_apc__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cache\-Apc\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_cache_apc__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_apc_add47463221d657541f10f2ca5ec218d8}{init} (\$\hyperlink{class_cache_engine_ad7354383714c6ae99d6ee1bfb95ab49f}{settings}=array())
+\item 
+\hyperlink{class_cache_apc_a0e72b4e1d3c5ff461155883cad18358d}{write} (\$key, \&\$value, \$duration)
+\item 
+\hyperlink{class_cache_apc_a4c50c958c469c08bba0c0ccb710ca8af}{read} (\$key)
+\item 
+\hyperlink{class_cache_apc_aa74a2edd6f3cbb5c5353f7faa97b6d70}{delete} (\$key)
+\item 
+\hyperlink{class_cache_apc_aa821bec12eaa7e0f649397c9675ff505}{clear} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A\-P\-C storage engine for cache.
+
+P\-H\-P versions 4 and 5
+
+Cake\-P\-H\-P(tm) \-: Rapid Development Framework \href{http://www.cakephp.org/}{\tt http\-://www.\-cakephp.\-org/} Copyright 2005-\/2008, Cake Software Foundation, Inc. 1785 E. Sahara Avenue, Suite 490-\/204 Las Vegas, Nevada 89104
+
+Licensed under The M\-I\-T License Redistributions of files must retain the above copyright notice.
+
+\begin{DoxyCopyright}{Copyright}
+Copyright 2005-\/2008, Cake Software Foundation, Inc. \hyperlink{}{Cake\-P\-H\-P(tm) Project  Cake\-P\-H\-P(tm) v 1.\-2.\-0.\-4933        \href{http://www.opensource.org/licenses/mit-license.php}{\tt http\-://www.\-opensource.\-org/licenses/mit-\/license.\-php} The M\-I\-T License A\-P\-C storage engine for cache }
+\end{DoxyCopyright}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_cache_apc_aa821bec12eaa7e0f649397c9675ff505}{\index{Cache\-Apc@{Cache\-Apc}!clear@{clear}}
+\index{clear@{clear}!CacheApc@{Cache\-Apc}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cache_apc_aa821bec12eaa7e0f649397c9675ff505}
+Delete all keys from the cache
+
+\begin{DoxyReturn}{Returns}
+boolean True if the cache was succesfully cleared, false otherwise  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_apc_aa74a2edd6f3cbb5c5353f7faa97b6d70}{\index{Cache\-Apc@{Cache\-Apc}!delete@{delete}}
+\index{delete@{delete}!CacheApc@{Cache\-Apc}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_apc_aa74a2edd6f3cbb5c5353f7faa97b6d70}
+Delete a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_apc_add47463221d657541f10f2ca5ec218d8}{\index{Cache\-Apc@{Cache\-Apc}!init@{init}}
+\index{init@{init}!CacheApc@{Cache\-Apc}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}init (
+\begin{DoxyParamCaption}
+\item[{}]{\$settings = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_cache_apc_add47463221d657541f10f2ca5ec218d8}
+Initialize the \hyperlink{class_cache}{Cache} Engine
+
+Called automatically by the cache frontend To reinitialize the settings call \hyperlink{class_cache_a227d1ab3c57640a1692c8d090eb4ef22}{Cache\-::engine}('Engine\-Name', \mbox{[}optional\mbox{]} settings = array());
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$setting} & array of setting for the engine \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the engine has been successfully initialized, false if not 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+Cache\-Engine\-::\-\_\-\-\_\-defaults  public 
+\end{DoxySeeAlso}
+\hypertarget{class_cache_apc_a4c50c958c469c08bba0c0ccb710ca8af}{\index{Cache\-Apc@{Cache\-Apc}!read@{read}}
+\index{read@{read}!CacheApc@{Cache\-Apc}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}read (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_apc_a4c50c958c469c08bba0c0ccb710ca8af}
+Read a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_apc_a0e72b4e1d3c5ff461155883cad18358d}{\index{Cache\-Apc@{Cache\-Apc}!write@{write}}
+\index{write@{write}!CacheApc@{Cache\-Apc}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}write (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{\&}]{\$value, }
+\item[{}]{\$duration}
+\end{DoxyParamCaption}
+)}}\label{class_cache_apc_a0e72b4e1d3c5ff461155883cad18358d}
+Write data for key into cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+mixed & {\em \$value} & Data to be cached \\
+\hline
+integer & {\em \$duration} & How long to cache the data, in seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the data was succesfully cached, false on failure  public 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Q\-:/@websites@/coop/labs/dev2/class/cache/\hyperlink{apc_8php}{apc.\-php}\end{DoxyCompactItemize}

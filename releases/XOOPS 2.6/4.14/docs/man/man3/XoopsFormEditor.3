@@ -1,0 +1,80 @@
+.TH "XoopsFormEditor" 3 "Fri Jul 26 2013" "Version 4.11" "Xortify Client for XOOPS 2.6" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+XoopsFormEditor \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBXoopsFormTextArea\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($caption, $name, $configs=null, $nohtml=false, $OnFailure= '')"
+.br
+.ti -1c
+.RI "\fBrenderValidationJS\fP ()"
+.br
+.ti -1c
+.RI "\fBrender\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$editor\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+XOOPS Form Editor 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($caption, $name, $configs = \fCnull\fP, $nohtml = \fCfalse\fP, $OnFailure = \fC''\fP)"
+Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$caption\fP Caption 
+.br
+\fI$name\fP Name for textarea field 
+.br
+\fI$configs\fP configures: editor - editor identifier; name - textarea field name; width, height - dimensions for textarea; value - text content 
+.br
+\fI$nohtml\fP use non-WYSIWYG eitor onfailure 
+.br
+\fI$OnFailure\fP editor to be used if current one failed 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "render ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.SS "renderValidationJS ()"
+renderValidationJS TEMPORARY SOLUTION to 'override' original renderValidationJS method with custom XoopsEditor's renderValidationJS method
+.PP
+\fBReturns:\fP
+.RS 4
+bool|string 
+.RE
+.PP
+
+.SH "Field Documentation"
+.PP 
+.SS "$editor"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Client for XOOPS 2\&.6 from the source code\&.

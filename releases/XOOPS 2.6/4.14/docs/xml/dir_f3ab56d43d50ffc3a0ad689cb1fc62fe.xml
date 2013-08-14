@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_f3ab56d43d50ffc3a0ad689cb1fc62fe" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify</compoundname>
+    <innerdir refid="dir_a0e7e26759812353e1ad91a1328ecb0b">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/admin</innerdir>
+    <innerdir refid="dir_d0f73f73d3ce0fc52832666486f8a106">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/blocks</innerdir>
+    <innerdir refid="dir_c232e4a5436e54337a9bc359f809adc3">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class</innerdir>
+    <innerdir refid="dir_4d352d53c4a1006020667066c0aa674b">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron</innerdir>
+    <innerdir refid="dir_cc1d9dd0e7b08738f745b1f787995207">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include</innerdir>
+    <innerdir refid="dir_88c0d0b2b230fd82d94e1e7decb5cf51">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language</innerdir>
+    <innerdir refid="dir_04ba66ae200c7e62b223475be2c741e7">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/plugin</innerdir>
+    <innerdir refid="dir_b89a217e361e1e11d18d7ad279f2b22c">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/poll</innerdir>
+    <innerdir refid="dir_2fbee0353946830c3be23ba4243e00f2">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads</innerdir>
+    <innerdir refid="dir_489cb51b9c6dca65fb5079bc75788711">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers</innerdir>
+    <innerfile refid="xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+.TH "Q:/@websites@/coop/labs/dev2/include/functions.php" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Q:/@websites@/coop/labs/dev2/include/functions.php \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBxortify_createToken\fP ($timeout=0, $name= 'XORTIFY_TOKEN')"
+.br
+.ti -1c
+.RI "\fBxortify_validateToken\fP ($token=false, $clearIfValid=true, $name= 'XORTIFY_TOKEN')"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "xortify_createToken ($timeout = \fC0\fP, $name = \fC'XORTIFY_TOKEN'\fP)"
+Create a token in the user's session
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$timeout\fP time in seconds the token should be valid 
+.br
+\fI$name\fP session name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string token value 
+.RE
+.PP
+
+.SS "xortify_validateToken ($token = \fCfalse\fP, $clearIfValid = \fCtrue\fP, $name = \fC'XORTIFY_TOKEN'\fP)"
+Check if a token is valid\&. If no token is specified, $_REQUEST[$name \&. '_REQUEST'] is checked
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$token\fP token to validate 
+.br
+\fI$clearIfValid\fP whether to clear the token value if valid 
+.br
+\fI$name\fP session name to validate
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classunban_members" kind="class" prot="public">
+    <compoundname>unbanMembers</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classunban_members_1a3c5b5792499578afbc7f2bb53df0bbed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>unbanMembers</definition>
+        <argsstring>($fid=null)</argsstring>
+        <name>unbanMembers</name>
+        <param>
+          <declname>$fid</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" bodystart="14" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_members_1a658defb34762c8f40085aec87e16ba1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" bodystart="40" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_members_1a9806a032ce31e96ccd75cd6d61a8e656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ipaddy</definition>
+        <argsstring>()</argsstring>
+        <name>ipaddy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_members_1abd3045226e27a02dff5dbdcbfc8b5b7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>story</definition>
+        <argsstring>()</argsstring>
+        <name>story</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" line="67" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" bodystart="67" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="580">
+        <label>XoopsObject</label>
+      </node>
+      <node id="579">
+        <label>unbanMembers</label>
+        <link refid="classunban_members"/>
+        <childnode refid="580" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="582">
+        <label>XoopsObject</label>
+      </node>
+      <node id="581">
+        <label>unbanMembers</label>
+        <link refid="classunban_members"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" line="12" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/members.php" bodystart="11" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classunban_members_1a9806a032ce31e96ccd75cd6d61a8e656" prot="public" virt="non-virtual"><scope>unbanMembers</scope><name>ipaddy</name></member>
+      <member refid="classunban_members_1abd3045226e27a02dff5dbdcbfc8b5b7c" prot="public" virt="non-virtual"><scope>unbanMembers</scope><name>story</name></member>
+      <member refid="classunban_members_1a658defb34762c8f40085aec87e16ba1a" prot="public" virt="non-virtual"><scope>unbanMembers</scope><name>toArray</name></member>
+      <member refid="classunban_members_1a3c5b5792499578afbc7f2bb53df0bbed" prot="public" virt="non-virtual"><scope>unbanMembers</scope><name>unbanMembers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

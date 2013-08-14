@@ -1,0 +1,1049 @@
+.TH "soapclient" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+soapclient \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBnusoap_base\fP, and \fBnusoap_base\fP\&.
+.PP
+Inherited by \fBsoapclientmime\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsoapclient\fP ($endpoint, $\fBwsdl\fP=false, $proxyhost=false, $proxyport=false, $proxyusername=false, $proxypassword=false, $timeout=0, $response_timeout=30)"
+.br
+.ti -1c
+.RI "\fBcall\fP ($operation, $params=array(), $namespace='http://tempuri\&.org', $soapAction='', $headers=false, $rpcParams=null, $style='rpc', $use='encoded')"
+.br
+.ti -1c
+.RI "\fBgetOperationData\fP ($operation)"
+.br
+.ti -1c
+.RI "\fBsend\fP ($msg, $soapaction= '', $timeout=0, $response_timeout=30)"
+.br
+.ti -1c
+.RI "\fBparseResponse\fP ($headers, $data)"
+.br
+.ti -1c
+.RI "\fBsetEndpoint\fP ($endpoint)"
+.br
+.ti -1c
+.RI "\fBsetHeaders\fP ($headers)"
+.br
+.ti -1c
+.RI "\fBgetHeaders\fP ()"
+.br
+.ti -1c
+.RI "\fBsetHTTPProxy\fP ($proxyhost, $proxyport, $proxyusername= '', $proxypassword= '')"
+.br
+.ti -1c
+.RI "\fBsetCredentials\fP ($username, $password, $authtype= 'basic', $certRequest=array())"
+.br
+.ti -1c
+.RI "\fBsetHTTPEncoding\fP ($enc='gzip, deflate')"
+.br
+.ti -1c
+.RI "\fBuseHTTPPersistentConnection\fP ()"
+.br
+.ti -1c
+.RI "\fBgetDefaultRpcParams\fP ()"
+.br
+.ti -1c
+.RI "\fBsetDefaultRpcParams\fP ($rpcParams)"
+.br
+.ti -1c
+.RI "\fBgetProxy\fP ()"
+.br
+.ti -1c
+.RI "\fB_getProxyClassCode\fP ($r)"
+.br
+.ti -1c
+.RI "\fBgetProxyClassCode\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHTTPBody\fP ($soapmsg)"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentType\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentTypeCharset\fP ()"
+.br
+.ti -1c
+.RI "\fBdecodeUTF8\fP ($bool)"
+.br
+.ti -1c
+.RI "\fBsetCookie\fP ($name, $value)"
+.br
+.ti -1c
+.RI "\fBgetCookies\fP ()"
+.br
+.ti -1c
+.RI "\fBcheckCookies\fP ()"
+.br
+.ti -1c
+.RI "\fBUpdateCookies\fP ($cookies)"
+.br
+.ti -1c
+.RI "\fBsoapclient\fP ($endpoint, $\fBwsdl\fP=false, $proxyhost=false, $proxyport=false, $proxyusername=false, $proxypassword=false, $timeout=0, $response_timeout=30)"
+.br
+.ti -1c
+.RI "\fBcall\fP ($operation, $params=array(), $namespace='http://tempuri\&.org', $soapAction='', $headers=false, $rpcParams=null, $style='rpc', $use='encoded')"
+.br
+.ti -1c
+.RI "\fBgetOperationData\fP ($operation)"
+.br
+.ti -1c
+.RI "\fBsend\fP ($msg, $soapaction= '', $timeout=0, $response_timeout=30)"
+.br
+.ti -1c
+.RI "\fBparseResponse\fP ($headers, $data)"
+.br
+.ti -1c
+.RI "\fBsetEndpoint\fP ($endpoint)"
+.br
+.ti -1c
+.RI "\fBsetHeaders\fP ($headers)"
+.br
+.ti -1c
+.RI "\fBgetHeaders\fP ()"
+.br
+.ti -1c
+.RI "\fBsetHTTPProxy\fP ($proxyhost, $proxyport, $proxyusername= '', $proxypassword= '')"
+.br
+.ti -1c
+.RI "\fBsetCredentials\fP ($username, $password, $authtype= 'basic', $certRequest=array())"
+.br
+.ti -1c
+.RI "\fBsetHTTPEncoding\fP ($enc='gzip, deflate')"
+.br
+.ti -1c
+.RI "\fBuseHTTPPersistentConnection\fP ()"
+.br
+.ti -1c
+.RI "\fBgetDefaultRpcParams\fP ()"
+.br
+.ti -1c
+.RI "\fBsetDefaultRpcParams\fP ($rpcParams)"
+.br
+.ti -1c
+.RI "\fBgetProxy\fP ()"
+.br
+.ti -1c
+.RI "\fB_getProxyClassCode\fP ($r)"
+.br
+.ti -1c
+.RI "\fBgetProxyClassCode\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHTTPBody\fP ($soapmsg)"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentType\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentTypeCharset\fP ()"
+.br
+.ti -1c
+.RI "\fBdecodeUTF8\fP ($bool)"
+.br
+.ti -1c
+.RI "\fBsetCookie\fP ($name, $value)"
+.br
+.ti -1c
+.RI "\fBgetCookies\fP ()"
+.br
+.ti -1c
+.RI "\fBcheckCookies\fP ()"
+.br
+.ti -1c
+.RI "\fBUpdateCookies\fP ($cookies)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$username\fP = ''"
+.br
+.ti -1c
+.RI "\fB$password\fP = ''"
+.br
+.ti -1c
+.RI "\fB$authtype\fP = ''"
+.br
+.ti -1c
+.RI "\fB$certRequest\fP = array()"
+.br
+.ti -1c
+.RI "\fB$requestHeaders\fP = false"
+.br
+.ti -1c
+.RI "\fB$responseHeaders\fP = ''"
+.br
+.ti -1c
+.RI "\fB$document\fP = ''"
+.br
+.ti -1c
+.RI "\fB$endpoint\fP"
+.br
+.ti -1c
+.RI "\fB$forceEndpoint\fP = ''"
+.br
+.ti -1c
+.RI "\fB$proxyhost\fP = ''"
+.br
+.ti -1c
+.RI "\fB$proxyport\fP = ''"
+.br
+.ti -1c
+.RI "\fB$proxyusername\fP = ''"
+.br
+.ti -1c
+.RI "\fB$proxypassword\fP = ''"
+.br
+.ti -1c
+.RI "\fB$xml_encoding\fP = ''"
+.br
+.ti -1c
+.RI "\fB$http_encoding\fP = false"
+.br
+.ti -1c
+.RI "\fB$timeout\fP = 0"
+.br
+.ti -1c
+.RI "\fB$response_timeout\fP = 30"
+.br
+.ti -1c
+.RI "\fB$endpointType\fP = ''"
+.br
+.ti -1c
+.RI "\fB$persistentConnection\fP = false"
+.br
+.ti -1c
+.RI "\fB$defaultRpcParams\fP = false"
+.br
+.ti -1c
+.RI "\fB$request\fP = ''"
+.br
+.ti -1c
+.RI "\fB$response\fP = ''"
+.br
+.ti -1c
+.RI "\fB$responseData\fP = ''"
+.br
+.ti -1c
+.RI "\fB$cookies\fP = array()"
+.br
+.ti -1c
+.RI "\fB$decode_utf8\fP = true"
+.br
+.ti -1c
+.RI "\fB$operations\fP = array()"
+.br
+.ti -1c
+.RI "\fB$fault\fP"
+.br
+.ti -1c
+.RI "\fB$faultcode\fP"
+.br
+.ti -1c
+.RI "\fB$faultstring\fP"
+.br
+.ti -1c
+.RI "\fB$faultdetail\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+soapclient higher level class for easy usage\&.
+.PP
+usage:
+.PP
+// instantiate client with server info $soapclient = new soapclient( string path [ ,boolean wsdl] );
+.PP
+// call method, get results echo $soapclient->call( string methodname [ ,array parameters] );
+.PP
+// bye bye client unset($soapclient);
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.soapclient\&.php\fP,v 1\&.52 2005/07/27 19:24:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+soapclient higher level class for easy usage\&.
+.PP
+usage:
+.PP
+// instantiate client with server info $soapclient = new soapclient( string path [ ,boolean wsdl] );
+.PP
+// call method, get results echo $soapclient->call( string methodname [ ,array parameters] );
+.PP
+// bye bye client unset($soapclient);
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 25 of file class\&.soapclient\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "_getProxyClassCode ($r)"
+dynamically creates proxy class code
+.PP
+\fBReturns:\fP
+.RS 4
+string PHP/NuSOAP code for the proxy class  private 
+.RE
+.PP
+
+.PP
+Definition at line 635 of file class\&.soapclient\&.php\&.
+.SS "_getProxyClassCode ($r)"
+dynamically creates proxy class code
+.PP
+\fBReturns:\fP
+.RS 4
+string PHP/NuSOAP code for the proxy class  private 
+.RE
+.PP
+
+.PP
+Definition at line 7017 of file nusoap\&.php\&.
+.SS "call ($operation, $params = \fCarray()\fP, $namespace = \fC'http://tempuri\&.org'\fP, $soapAction = \fC''\fP, $headers = \fCfalse\fP, $rpcParams = \fCnull\fP, $style = \fC'rpc'\fP, $use = \fC'encoded'\fP)"
+calls method, returns PHP native type
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$method\fP SOAP server URL or path 
+.br
+\fI$params\fP An array, associative or simple, of the parameters for the method call, or a string that is the XML for the call\&. For rpc style, this call will wrap the XML in a tag named after the method, as well as the SOAP Envelope and Body\&. For document style, this will only wrap with the Envelope and Body\&. IMPORTANT: when using an array with document style, in which case there is really one parameter, the root of the fragment used in the call, which encloses what programmers normally think of parameters\&. A parameter array \fImust\fP include the wrapper\&. 
+.br
+\fI$namespace\fP optional method namespace (WSDL can override) 
+.br
+\fI$soapAction\fP optional SOAPAction value (WSDL can override) 
+.br
+\fI$headers\fP optional string of XML with SOAP header content, or array of soapval objects for SOAP headers 
+.br
+\fI$rpcParams\fP optional (no longer used) 
+.br
+\fI$style\fP optional (rpc|document) the style to use when serializing parameters (WSDL can override) 
+.br
+\fI$use\fP optional (encoded|literal) the use when serializing parameters (WSDL can override) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed response from SOAP call  public 
+.RE
+.PP
+
+.PP
+Definition at line 160 of file class\&.soapclient\&.php\&.
+.SS "call ($operation, $params = \fCarray()\fP, $namespace = \fC'http://tempuri\&.org'\fP, $soapAction = \fC''\fP, $headers = \fCfalse\fP, $rpcParams = \fCnull\fP, $style = \fC'rpc'\fP, $use = \fC'encoded'\fP)"
+calls method, returns PHP native type
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$method\fP SOAP server URL or path 
+.br
+\fI$params\fP An array, associative or simple, of the parameters for the method call, or a string that is the XML for the call\&. For rpc style, this call will wrap the XML in a tag named after the method, as well as the SOAP Envelope and Body\&. For document style, this will only wrap with the Envelope and Body\&. IMPORTANT: when using an array with document style, in which case there is really one parameter, the root of the fragment used in the call, which encloses what programmers normally think of parameters\&. A parameter array \fImust\fP include the wrapper\&. 
+.br
+\fI$namespace\fP optional method namespace (WSDL can override) 
+.br
+\fI$soapAction\fP optional SOAPAction value (WSDL can override) 
+.br
+\fI$headers\fP optional string of XML with SOAP header content, or array of soapval objects for SOAP headers 
+.br
+\fI$rpcParams\fP optional (no longer used) 
+.br
+\fI$style\fP optional (rpc|document) the style to use when serializing parameters (WSDL can override) 
+.br
+\fI$use\fP optional (encoded|literal) the use when serializing parameters (WSDL can override) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed response from SOAP call  public 
+.RE
+.PP
+
+.PP
+Definition at line 6542 of file nusoap\&.php\&.
+.SS "checkCookies ()"
+checks all Cookies and delete those which are expired
+.PP
+\fBReturns:\fP
+.RS 4
+always return true  private 
+.RE
+.PP
+
+.PP
+Definition at line 768 of file class\&.soapclient\&.php\&.
+.SS "checkCookies ()"
+checks all Cookies and delete those which are expired
+.PP
+\fBReturns:\fP
+.RS 4
+always return true  private 
+.RE
+.PP
+
+.PP
+Definition at line 7150 of file nusoap\&.php\&.
+.SS "getCookies ()"
+gets all Cookies
+.PP
+\fBReturns:\fP
+.RS 4
+array with all internal cookies  public 
+.RE
+.PP
+
+.PP
+Definition at line 758 of file class\&.soapclient\&.php\&.
+.SS "getCookies ()"
+gets all Cookies
+.PP
+\fBReturns:\fP
+.RS 4
+array with all internal cookies  public 
+.RE
+.PP
+
+.PP
+Definition at line 7140 of file nusoap\&.php\&.
+.SS "getDefaultRpcParams ()"
+gets the default RPC parameter setting\&. If true, default is that call params are like RPC even for document style\&. Each \fBcall()\fP can override this value\&.
+.PP
+This is no longer used\&.
+.PP
+\fBReturns:\fP
+.RS 4
+boolean  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 570 of file class\&.soapclient\&.php\&.
+.SS "getDefaultRpcParams ()"
+gets the default RPC parameter setting\&. If true, default is that call params are like RPC even for document style\&. Each \fBcall()\fP can override this value\&.
+.PP
+This is no longer used\&.
+.PP
+\fBReturns:\fP
+.RS 4
+boolean  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 6952 of file nusoap\&.php\&.
+.SS "getHeaders ()"
+get the SOAP response headers (namespace resolution incomplete)
+.PP
+\fBReturns:\fP
+.RS 4
+string  public 
+.RE
+.PP
+
+.PP
+Definition at line 504 of file class\&.soapclient\&.php\&.
+.SS "getHeaders ()"
+get the SOAP response headers (namespace resolution incomplete)
+.PP
+\fBReturns:\fP
+.RS 4
+string  public 
+.RE
+.PP
+
+.PP
+Definition at line 6886 of file nusoap\&.php\&.
+.SS "getHTTPBody ($soapmsg)"
+gets the HTTP body for the current request\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapmsg\fP The SOAP payload 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The HTTP body, which includes the SOAP payload  private 
+.RE
+.PP
+
+.PP
+Definition at line 696 of file class\&.soapclient\&.php\&.
+.SS "getHTTPBody ($soapmsg)"
+gets the HTTP body for the current request\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapmsg\fP The SOAP payload 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The HTTP body, which includes the SOAP payload  private 
+.RE
+.PP
+
+.PP
+Definition at line 7078 of file nusoap\&.php\&.
+.SS "getHTTPContentType ()"
+gets the HTTP content type for the current request\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type for the current request\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 708 of file class\&.soapclient\&.php\&.
+.SS "getHTTPContentType ()"
+gets the HTTP content type for the current request\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type for the current request\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 7090 of file nusoap\&.php\&.
+.SS "getHTTPContentTypeCharset ()"
+gets the HTTP content type charset for the current request\&. returns false for non-text content types\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type charset for the current request\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 721 of file class\&.soapclient\&.php\&.
+.SS "getHTTPContentTypeCharset ()"
+gets the HTTP content type charset for the current request\&. returns false for non-text content types\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type charset for the current request\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 7103 of file nusoap\&.php\&.
+.SS "getOperationData ($operation)"
+get available data pertaining to an operation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$operation\fP operation name 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array array of data pertaining to the operation  public 
+.RE
+.PP
+
+.PP
+Definition at line 336 of file class\&.soapclient\&.php\&.
+.SS "getOperationData ($operation)"
+get available data pertaining to an operation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$operation\fP operation name 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array array of data pertaining to the operation  public 
+.RE
+.PP
+
+.PP
+Definition at line 6718 of file nusoap\&.php\&.
+.SS "getProxy ()"
+dynamically creates an instance of a proxy class, allowing user to directly call methods from wsdl
+.PP
+\fBReturns:\fP
+.RS 4
+object soap_proxy object  public 
+.RE
+.PP
+
+.PP
+Definition at line 596 of file class\&.soapclient\&.php\&.
+.SS "getProxy ()"
+dynamically creates an instance of a proxy class, allowing user to directly call methods from wsdl
+.PP
+\fBReturns:\fP
+.RS 4
+object soap_proxy object  public 
+.RE
+.PP
+
+.PP
+Definition at line 6978 of file nusoap\&.php\&.
+.SS "getProxyClassCode ()"
+dynamically creates proxy class code
+.PP
+\fBReturns:\fP
+.RS 4
+string PHP/NuSOAP code for the proxy class  public 
+.RE
+.PP
+
+.PP
+Definition at line 684 of file class\&.soapclient\&.php\&.
+.SS "getProxyClassCode ()"
+dynamically creates proxy class code
+.PP
+\fBReturns:\fP
+.RS 4
+string PHP/NuSOAP code for the proxy class  public 
+.RE
+.PP
+
+.PP
+Definition at line 7066 of file nusoap\&.php\&.
+.SS "parseResponse ($headers, $data)"
+processes SOAP message returned from server
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$headers\fP The HTTP headers 
+.br
+\fI$data\fP unprocessed response data from server 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed value of the message, decoded into a PHP type  private 
+.RE
+.PP
+
+.PP
+Definition at line 436 of file class\&.soapclient\&.php\&.
+.SS "parseResponse ($headers, $data)"
+processes SOAP message returned from server
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$headers\fP The HTTP headers 
+.br
+\fI$data\fP unprocessed response data from server 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed value of the message, decoded into a PHP type  private 
+.RE
+.PP
+
+.PP
+Definition at line 6818 of file nusoap\&.php\&.
+.SS "send ($msg, $soapaction = \fC''\fP, $timeout = \fC0\fP, $response_timeout = \fC30\fP)"
+send the SOAP message
+.PP
+Note: if the operation has multiple return values the return value of this method will be an array of those values\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$msg\fP a SOAPx4 soapmsg object 
+.br
+\fI$soapaction\fP SOAPAction value 
+.br
+\fI$timeout\fP set connection timeout in seconds 
+.br
+\fI$response_timeout\fP set response timeout in seconds 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed native PHP types\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 357 of file class\&.soapclient\&.php\&.
+.SS "send ($msg, $soapaction = \fC''\fP, $timeout = \fC0\fP, $response_timeout = \fC30\fP)"
+send the SOAP message
+.PP
+Note: if the operation has multiple return values the return value of this method will be an array of those values\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$msg\fP a SOAPx4 soapmsg object 
+.br
+\fI$soapaction\fP SOAPAction value 
+.br
+\fI$timeout\fP set connection timeout in seconds 
+.br
+\fI$response_timeout\fP set response timeout in seconds 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed native PHP types\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 6739 of file nusoap\&.php\&.
+.SS "setCookie ($name, $value)"
+adds a new Cookie into $this->cookies array
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP Cookie Name 
+.br
+\fI$value\fP Cookie Value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+if cookie-set was successful returns true, else false  public 
+.RE
+.PP
+
+.PP
+Definition at line 744 of file class\&.soapclient\&.php\&.
+.SS "setCookie ($name, $value)"
+adds a new Cookie into $this->cookies array
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP Cookie Name 
+.br
+\fI$value\fP Cookie Value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+if cookie-set was successful returns true, else false  public 
+.RE
+.PP
+
+.PP
+Definition at line 7126 of file nusoap\&.php\&.
+.SS "setCredentials ($username, $password, $authtype = \fC'basic'\fP, $certRequest = \fCarray()\fP)"
+if authenticating, set user credentials here
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$username\fP 
+.br
+\fI$password\fP 
+.br
+\fI$authtype\fP (basic|digest|certificate) 
+.br
+\fI$certRequest\fP (keys must be cainfofile (optional), sslcertfile, sslkeyfile, passphrase, verifypeer (optional), verifyhost (optional): see corresponding options in cURL docs)  public 
+.RE
+.PP
+
+.PP
+Definition at line 533 of file class\&.soapclient\&.php\&.
+.SS "setCredentials ($username, $password, $authtype = \fC'basic'\fP, $certRequest = \fCarray()\fP)"
+if authenticating, set user credentials here
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$username\fP 
+.br
+\fI$password\fP 
+.br
+\fI$authtype\fP (basic|digest|certificate) 
+.br
+\fI$certRequest\fP (keys must be cainfofile (optional), sslcertfile, sslkeyfile, passphrase, verifypeer (optional), verifyhost (optional): see corresponding options in cURL docs)  public 
+.RE
+.PP
+
+.PP
+Definition at line 6915 of file nusoap\&.php\&.
+.SS "setDefaultRpcParams ($rpcParams)"
+sets the default RPC parameter setting\&. If true, default is that call params are like RPC even for document style Each \fBcall()\fP can override this value\&.
+.PP
+This is no longer used\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$rpcParams\fP public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 585 of file class\&.soapclient\&.php\&.
+.SS "setDefaultRpcParams ($rpcParams)"
+sets the default RPC parameter setting\&. If true, default is that call params are like RPC even for document style Each \fBcall()\fP can override this value\&.
+.PP
+This is no longer used\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$rpcParams\fP public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 6967 of file nusoap\&.php\&.
+.SS "setEndpoint ($endpoint)"
+sets the SOAP endpoint, which can override WSDL
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$endpoint\fP string The endpoint URL to use, or empty string or false to prevent override  public 
+.RE
+.PP
+
+.PP
+Definition at line 484 of file class\&.soapclient\&.php\&.
+.SS "setEndpoint ($endpoint)"
+sets the SOAP endpoint, which can override WSDL
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$endpoint\fP string The endpoint URL to use, or empty string or false to prevent override  public 
+.RE
+.PP
+
+.PP
+Definition at line 6866 of file nusoap\&.php\&.
+.SS "setHeaders ($headers)"
+set the SOAP headers
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$headers\fP mixed String of XML with SOAP header content, or array of soapval objects for SOAP headers  public 
+.RE
+.PP
+
+.PP
+Definition at line 494 of file class\&.soapclient\&.php\&.
+.SS "setHeaders ($headers)"
+set the SOAP headers
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$headers\fP mixed String of XML with SOAP header content, or array of soapval objects for SOAP headers  public 
+.RE
+.PP
+
+.PP
+Definition at line 6876 of file nusoap\&.php\&.
+.SS "setHTTPEncoding ($enc = \fC'gzip\fP, deflate')"
+use HTTP encoding
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$enc\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 546 of file class\&.soapclient\&.php\&.
+.SS "setHTTPEncoding ($enc = \fC'gzip\fP, deflate')"
+use HTTP encoding
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$enc\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 6928 of file nusoap\&.php\&.
+.SS "setHTTPProxy ($proxyhost, $proxyport, $proxyusername = \fC''\fP, $proxypassword = \fC''\fP)"
+set proxy info here
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$proxyhost\fP 
+.br
+\fI$proxyport\fP 
+.br
+\fI$proxyusername\fP 
+.br
+\fI$proxypassword\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 517 of file class\&.soapclient\&.php\&.
+.SS "setHTTPProxy ($proxyhost, $proxyport, $proxyusername = \fC''\fP, $proxypassword = \fC''\fP)"
+set proxy info here
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$proxyhost\fP 
+.br
+\fI$proxyport\fP 
+.br
+\fI$proxyusername\fP 
+.br
+\fI$proxypassword\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 6899 of file nusoap\&.php\&.
+.SS "\fBsoapclient\fP ($endpoint, $wsdl = \fCfalse\fP, $proxyhost = \fCfalse\fP, $proxyport = \fCfalse\fP, $proxyusername = \fCfalse\fP, $proxypassword = \fCfalse\fP, $timeout = \fC0\fP, $response_timeout = \fC30\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$endpoint\fP SOAP server or WSDL URL (string), or wsdl instance (object) 
+.br
+\fI$wsdl\fP optional, set to true if using WSDL 
+.br
+\fI$portName\fP optional portName in WSDL document 
+.br
+\fI$proxyhost\fP 
+.br
+\fI$proxyport\fP 
+.br
+\fI$proxyusername\fP 
+.br
+\fI$proxypassword\fP 
+.br
+\fI$timeout\fP set the connection timeout 
+.br
+\fI$response_timeout\fP set the response timeout  public 
+.RE
+.PP
+
+.PP
+Definition at line 92 of file class\&.soapclient\&.php\&.
+.SS "\fBsoapclient\fP ($endpoint, $wsdl = \fCfalse\fP, $proxyhost = \fCfalse\fP, $proxyport = \fCfalse\fP, $proxyusername = \fCfalse\fP, $proxypassword = \fCfalse\fP, $timeout = \fC0\fP, $response_timeout = \fC30\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$endpoint\fP SOAP server or WSDL URL (string), or wsdl instance (object) 
+.br
+\fI$wsdl\fP optional, set to true if using WSDL 
+.br
+\fI$portName\fP optional portName in WSDL document 
+.br
+\fI$proxyhost\fP 
+.br
+\fI$proxyport\fP 
+.br
+\fI$proxyusername\fP 
+.br
+\fI$proxypassword\fP 
+.br
+\fI$timeout\fP set the connection timeout 
+.br
+\fI$response_timeout\fP set the response timeout  public 
+.RE
+.PP
+
+.PP
+Definition at line 6474 of file nusoap\&.php\&.
+.SS "UpdateCookies ($cookies)"
+updates the current cookies with a new set
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cookies\fP new cookies with which to update current ones 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+always return true  private 
+.RE
+.PP
+
+.PP
+Definition at line 801 of file class\&.soapclient\&.php\&.
+.SS "UpdateCookies ($cookies)"
+updates the current cookies with a new set
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cookies\fP new cookies with which to update current ones 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+always return true  private 
+.RE
+.PP
+
+.PP
+Definition at line 7183 of file nusoap\&.php\&.
+.SS "useHTTPPersistentConnection ()"
+use HTTP persistent connections if possible
+.PP
+public 
+.PP
+Definition at line 555 of file class\&.soapclient\&.php\&.
+.SS "useHTTPPersistentConnection ()"
+use HTTP persistent connections if possible
+.PP
+public 
+.PP
+Definition at line 6937 of file nusoap\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

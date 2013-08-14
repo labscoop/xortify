@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_4e1460ab54f4ac7b2053043bc274abe9" kind="dir">
+    <compoundname>Q:/@websites@/coop/labs/dev2/class</compoundname>
+    <innerdir refid="dir_9d7769a8d8c0cff86040910d45d242da">Q:/@websites@/coop/labs/dev2/class/auth</innerdir>
+    <innerdir refid="dir_718f64e04ca2d2d47a53df4816a0abd4">Q:/@websites@/coop/labs/dev2/class/cache</innerdir>
+    <innerfile refid="curl_8php">curl.php</innerfile>
+    <innerfile refid="curlserialised_8php">curlserialised.php</innerfile>
+    <innerfile refid="curlxml_8php">curlxml.php</innerfile>
+    <innerfile refid="class_2json_8php">json.php</innerfile>
+    <innerfile refid="lists_8php">lists.php</innerfile>
+    <innerfile refid="rest__curl_8php">rest_curl.php</innerfile>
+    <innerfile refid="rest__curlserialised_8php">rest_curlserialised.php</innerfile>
+    <innerfile refid="rest__curlxml_8php">rest_curlxml.php</innerfile>
+    <innerfile refid="rest__json_8php">rest_json.php</innerfile>
+    <innerfile refid="rest__wgetserialised_8php">rest_wgetserialised.php</innerfile>
+    <innerfile refid="rest__wgetxml_8php">rest_wgetxml.php</innerfile>
+    <innerfile refid="soap_8php">soap.php</innerfile>
+    <innerfile refid="wgetserialised_8php">wgetserialised.php</innerfile>
+    <innerfile refid="wgetxml_8php">wgetxml.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Q:/@websites@/coop/labs/dev2/class/"/>
+  </compounddef>
+</doxygen>

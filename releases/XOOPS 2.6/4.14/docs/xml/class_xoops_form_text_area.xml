@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xoops_form_text_area" kind="class" prot="public">
+    <compoundname>XoopsFormTextArea</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsFormElement</basecompoundref>
+    <derivedcompoundref refid="class_xoops_form_dhtml_text_area" prot="public" virt="non-virtual">XoopsFormDhtmlTextArea</derivedcompoundref>
+    <derivedcompoundref refid="class_xoops_form_editor" prot="public" virt="non-virtual">XoopsFormEditor</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_xoops_form_text_area_1a45b0a071e35bf0181b186d04bb6f9cfc" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$_cols</definition>
+        <argsstring></argsstring>
+        <name>$_cols</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="37" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_form_text_area_1ac21ae64e8b036936d486d74649b72b68" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$_rows</definition>
+        <argsstring></argsstring>
+        <name>$_rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="45" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_form_text_area_1a032af8ab4b0ac0551d13a6fc2fb67836" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$_placeholder</definition>
+        <argsstring></argsstring>
+        <name>$_placeholder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="53" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xoops_form_text_area_1a74181343558bddc9598d682718a9b018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($caption, $name, $value=&quot;&quot;, $rows=5, $cols=50, $placeholder= &apos;&apos;)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$caption</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$rows</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <declname>$cols</declname>
+          <defval>50</defval>
+        </param>
+        <param>
+          <declname>$placeholder</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>caption </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial content </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$rows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of rows </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cols</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of columns </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$placeholder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>placeholder for this element. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="66" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="66" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_text_area_1ad93a3a7b26a8578a36b6e8f6d05ca5ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getRows</definition>
+        <argsstring>()</argsstring>
+        <name>getRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get number of rows</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="81" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_text_area_1afc020a5052f695efa2e9e8d9ce6e6029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCols</definition>
+        <argsstring>()</argsstring>
+        <name>getCols</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get number of columns</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="91" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_text_area_1a4afcccec5ceaedaa747a38d2459d82a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPlaceholder</definition>
+        <argsstring>()</argsstring>
+        <name>getPlaceholder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get placeholder for this element</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="101" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="101" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_text_area_1afde88292c44dc59faf017738dae6dffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepare HTML for output</para><para><simplesect kind="return"><para>string HTML </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="114" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="114" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A textarea </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="285">
+        <label>XoopsFormElement</label>
+      </node>
+      <node id="286">
+        <label>XoopsFormDhtmlTextArea</label>
+        <link refid="class_xoops_form_dhtml_text_area"/>
+        <childnode refid="284" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="287">
+        <label>XoopsFormEditor</label>
+        <link refid="class_xoops_form_editor"/>
+        <childnode refid="284" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="284">
+        <label>XoopsFormTextArea</label>
+        <link refid="class_xoops_form_text_area"/>
+        <childnode refid="285" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="289">
+        <label>XoopsFormElement</label>
+      </node>
+      <node id="288">
+        <label>XoopsFormTextArea</label>
+        <link refid="class_xoops_form_text_area"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" line="30" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formtextarea.php" bodystart="29" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_xoops_form_text_area_1a45b0a071e35bf0181b186d04bb6f9cfc" prot="private" virt="non-virtual"><scope>XoopsFormTextArea</scope><name>$_cols</name></member>
+      <member refid="class_xoops_form_text_area_1a032af8ab4b0ac0551d13a6fc2fb67836" prot="private" virt="non-virtual"><scope>XoopsFormTextArea</scope><name>$_placeholder</name></member>
+      <member refid="class_xoops_form_text_area_1ac21ae64e8b036936d486d74649b72b68" prot="private" virt="non-virtual"><scope>XoopsFormTextArea</scope><name>$_rows</name></member>
+      <member refid="class_xoops_form_text_area_1a74181343558bddc9598d682718a9b018" prot="public" virt="non-virtual"><scope>XoopsFormTextArea</scope><name>__construct</name></member>
+      <member refid="class_xoops_form_text_area_1afc020a5052f695efa2e9e8d9ce6e6029" prot="public" virt="non-virtual"><scope>XoopsFormTextArea</scope><name>getCols</name></member>
+      <member refid="class_xoops_form_text_area_1a4afcccec5ceaedaa747a38d2459d82a5" prot="public" virt="non-virtual"><scope>XoopsFormTextArea</scope><name>getPlaceholder</name></member>
+      <member refid="class_xoops_form_text_area_1ad93a3a7b26a8578a36b6e8f6d05ca5ba" prot="public" virt="non-virtual"><scope>XoopsFormTextArea</scope><name>getRows</name></member>
+      <member refid="class_xoops_form_text_area_1afde88292c44dc59faf017738dae6dffb" prot="public" virt="non-virtual"><scope>XoopsFormTextArea</scope><name>render</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

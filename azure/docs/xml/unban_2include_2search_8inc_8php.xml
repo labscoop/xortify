@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="unban_2include_2search_8inc_8php" kind="file">
+    <compoundname>search.inc.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="unban_2include_2search_8inc_8php_1a93576a84c85703d89a22cceec777388a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>unban_search</definition>
+        <argsstring>($queryarray, $andor, $limit, $offset, $userid)</argsstring>
+        <name>unban_search</name>
+        <param>
+          <declname>$queryarray</declname>
+        </param>
+        <param>
+          <declname>$andor</declname>
+        </param>
+        <param>
+          <declname>$limit</declname>
+        </param>
+        <param>
+          <declname>$offset</declname>
+        </param>
+        <param>
+          <declname>$userid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/include/search.inc.php" line="3" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/include/search.inc.php" bodystart="3" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>unban_search($queryarray,<sp/>$andor,<sp/>$limit,<sp/>$offset,<sp/>$userid)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>$ban_handler<sp/>=<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;members&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;unban&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($queryarray<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">||$userid&gt;0){</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$keywords=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$hightlight_key<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria_final<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;suid&apos;</highlight><highlight class="normal">,<sp/>$userid),<sp/></highlight><highlight class="stringliteral">&quot;AND&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria_final<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($queryarray<sp/>as<sp/>$id<sp/>=&gt;<sp/>$keyword)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria[$id]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`ip4`&apos;</highlight><highlight class="normal">,<sp/>$keyword),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria[$id]-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`ip6`&apos;</highlight><highlight class="normal">,<sp/>$keyword),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria[$id]-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`proxy-ip4`&apos;</highlight><highlight class="normal">,<sp/>$keyword),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria[$id]-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`proxy-ip6`&apos;</highlight><highlight class="normal">,<sp/>$keyword),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria[$id]-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`network-addy`&apos;</highlight><highlight class="normal">,<sp/>$keyword),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria[$id]-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`uname`&apos;</highlight><highlight class="normal">,<sp/>$keyword),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria[$id]-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`email`&apos;</highlight><highlight class="normal">,<sp/>$keyword),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria[$id]-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`mac-addy`&apos;</highlight><highlight class="normal">,<sp/>$keyword),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($criteria<sp/>as<sp/>$id<sp/>=&gt;<sp/>$crit)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria_final-&gt;add($criteria[$id],<sp/>$andor);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria_final-&gt;setLimit($limit);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria_final-&gt;setStart($offset);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria_final-&gt;setSort(</highlight><highlight class="stringliteral">&apos;`made`&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria_final-&gt;setOrder(</highlight><highlight class="stringliteral">&apos;DESC&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>$bansObj<sp/>=&amp;<sp/>$ban_handler-&gt;getObjects($criteria_final,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($bansObj<sp/>as<sp/>$member_id<sp/>=&gt;<sp/>$result)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item[</highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;images/unban.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item[</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;index.php?op=member&amp;id=&quot;</highlight><highlight class="normal"><sp/>.<sp/>$member_id;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item[</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Unban:<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>$result-&gt;ipaddy()<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;<sp/>:<sp/>&apos;</highlight><highlight class="normal">.$result-&gt;getVar(</highlight><highlight class="stringliteral">&apos;network-addy&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item[</highlight><highlight class="stringliteral">&apos;time&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$result-&gt;getVar(</highlight><highlight class="stringliteral">&apos;made&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item[</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$result-&gt;getVar(</highlight><highlight class="stringliteral">&apos;suid&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[]<sp/>=<sp/>$item;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unset($item);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/include/search.inc.php"/>
+  </compounddef>
+</doxygen>

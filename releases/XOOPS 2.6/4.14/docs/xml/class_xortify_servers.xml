@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_servers" kind="class" prot="public">
+    <compoundname>XortifyServers</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_servers_1ab20b47ee40f09c78cbddcd47b1495de6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XortifyServers</definition>
+        <argsstring>($id=null)</argsstring>
+        <name>XortifyServers</name>
+        <param>
+          <declname>$id</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/servers.php" line="48" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/servers.php" bodystart="48" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_servers_1a658defb34762c8f40085aec87e16ba1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/servers.php" line="60" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/servers.php" bodystart="60" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="441">
+        <label>XoopsObject</label>
+      </node>
+      <node id="440">
+        <label>XortifyServers</label>
+        <link refid="class_xortify_servers"/>
+        <childnode refid="441" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="443">
+        <label>XoopsObject</label>
+      </node>
+      <node id="442">
+        <label>XortifyServers</label>
+        <link refid="class_xortify_servers"/>
+        <childnode refid="443" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/servers.php" line="46" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/servers.php" bodystart="45" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_xortify_servers_1a658defb34762c8f40085aec87e16ba1a" prot="public" virt="non-virtual"><scope>XortifyServers</scope><name>toArray</name></member>
+      <member refid="class_xortify_servers_1ab20b47ee40f09c78cbddcd47b1495de6" prot="public" virt="non-virtual"><scope>XortifyServers</scope><name>XortifyServers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

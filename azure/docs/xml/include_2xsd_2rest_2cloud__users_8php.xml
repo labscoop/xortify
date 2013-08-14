@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="include_2xsd_2rest_2cloud__users_8php" kind="file">
+    <compoundname>cloud_users.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="include_2xsd_2rest_2cloud__users_8php_1a84495636b2ad7264883bd69443fecaea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cloud_users_xsd</definition>
+        <argsstring>()</argsstring>
+        <name>cloud_users_xsd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/cloud_users.php" line="2" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/cloud_users.php" bodystart="2" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="include_2xsd_2rest_2cloud__users_8php_1a5284369102cbf82e3b99509b4a304e5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cloud_users_wsdl</definition>
+        <argsstring>()</argsstring>
+        <name>cloud_users_wsdl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/cloud_users.php" line="12" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/cloud_users.php" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="include_2xsd_2rest_2cloud__users_8php_1a88e5b306aad9247ab7f6c77e9ecfdc55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cloud_users_wsdl_service</definition>
+        <argsstring>()</argsstring>
+        <name>cloud_users_wsdl_service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/cloud_users.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/cloud_users.php" bodystart="16" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>cloud_users_xsd(){</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;var&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;count&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$xsd;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>cloud_users_wsdl(){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>cloud_users_wsdl_service(){</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/cloud_users.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,160 @@
+\hypertarget{class_xortify_auth_minimum_cloud}{\section{Xortify\-Auth\-Minimum\-Cloud Class Reference}
+\label{class_xortify_auth_minimum_cloud}\index{Xortify\-Auth\-Minimum\-Cloud@{Xortify\-Auth\-Minimum\-Cloud}}
+}
+Inheritance diagram for Xortify\-Auth\-Minimum\-Cloud\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_xortify_auth_minimum_cloud}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_xortify_auth_minimum_cloud_a8c0f101b350bdaf235649ff1074fa409}{Xortify\-Auth\-Minimum\-Cloud} (\&\$dao)
+\item 
+\hyperlink{class_xortify_auth_minimum_cloud_a2381e4f8147a481221882c5ae9c8ff6a}{authenticate} (\$uname, \$pwd=null)
+\item 
+\hyperlink{class_xortify_auth_minimum_cloud_a439c75891aa72a080e69c7715b879b65}{validate} (\$uname, \$email, \$pass, \$vpass)
+\item 
+\hypertarget{class_xortify_auth_minimum_cloud_a9d75ac1a90e1a97bdb96c43fb8ca500a}{{\bfseries reduce\-\_\-string} (\$str)}\label{class_xortify_auth_minimum_cloud_a9d75ac1a90e1a97bdb96c43fb8ca500a}
+
+\item 
+\hyperlink{class_xortify_auth_minimum_cloud_a24f655562ffe65c2f82be0aa979a40dd}{network\-\_\-disclaimer} ()
+\item 
+\hyperlink{class_xortify_auth_minimum_cloud_a0634b61de417df79d507f80c676b162d}{create\-\_\-user} (\$user\-\_\-viewemail, \$uname, \$email, \$url, \$actkey, \$pass, \$timezone\-\_\-offset, \$user\-\_\-mailok, \$siteinfo)
+\item 
+\hypertarget{class_xortify_auth_minimum_cloud_aa8a93d2514105135420ce2fb810fc4f5}{{\bfseries obj2array} (\$objects)}\label{class_xortify_auth_minimum_cloud_aa8a93d2514105135420ce2fb810fc4f5}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_xortify_auth_minimum_cloud_af74b77b8ee0ab5b5b0dc1ba866e32be7}{{\bfseries \$curl\-\_\-client}}\label{class_xortify_auth_minimum_cloud_af74b77b8ee0ab5b5b0dc1ba866e32be7}
+
+\item 
+\hypertarget{class_xortify_auth_minimum_cloud_abca59b88600a01759e884b6accf68176}{{\bfseries \$minimumcloud\-\_\-xoops\-\_\-username} = ''}\label{class_xortify_auth_minimum_cloud_abca59b88600a01759e884b6accf68176}
+
+\item 
+\hypertarget{class_xortify_auth_minimum_cloud_a7384a83efd2cd938a2aba201776cdfca}{{\bfseries \$minimumcloud\-\_\-xoops\-\_\-password} = ''}\label{class_xortify_auth_minimum_cloud_a7384a83efd2cd938a2aba201776cdfca}
+
+\item 
+\hypertarget{class_xortify_auth_minimum_cloud_a2f5ecfe6d287031ed7f94ec256f511a3}{{\bfseries \$\-\_\-dao}}\label{class_xortify_auth_minimum_cloud_a2f5ecfe6d287031ed7f94ec256f511a3}
+
+\item 
+\hypertarget{class_xortify_auth_minimum_cloud_a741c09e421ccfb1c13a788d38d534d5f}{{\bfseries \$\-\_\-json} = ''}\label{class_xortify_auth_minimum_cloud_a741c09e421ccfb1c13a788d38d534d5f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_xortify_auth_minimum_cloud_a2381e4f8147a481221882c5ae9c8ff6a}{\index{Xortify\-Auth\-Minimum\-Cloud@{Xortify\-Auth\-Minimum\-Cloud}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!XortifyAuthMinimumCloud@{Xortify\-Auth\-Minimum\-Cloud}}
+\subsubsection[{authenticate}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Minimum\-Cloud\-::authenticate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$pwd = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_minimum_cloud_a2381e4f8147a481221882c5ae9c8ff6a}
+Authenticate user again json directory (Bind)
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & Username \\
+\hline
+string & {\em \$pwd} & Password\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_minimum_cloud_a0634b61de417df79d507f80c676b162d}{\index{Xortify\-Auth\-Minimum\-Cloud@{Xortify\-Auth\-Minimum\-Cloud}!create\-\_\-user@{create\-\_\-user}}
+\index{create\-\_\-user@{create\-\_\-user}!XortifyAuthMinimumCloud@{Xortify\-Auth\-Minimum\-Cloud}}
+\subsubsection[{create\-\_\-user}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Minimum\-Cloud\-::create\-\_\-user (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\-\_\-viewemail, }
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$url, }
+\item[{}]{\$actkey, }
+\item[{}]{\$pass, }
+\item[{}]{\$timezone\-\_\-offset, }
+\item[{}]{\$user\-\_\-mailok, }
+\item[{}]{\$siteinfo}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_minimum_cloud_a0634b61de417df79d507f80c676b162d}
+create a user
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$user\-\_\-viewemail} & \\
+\hline
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$url} & \\
+\hline
+string & {\em \$actkey} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+integer & {\em \$timezone\-\_\-offset} & \\
+\hline
+bool & {\em \$user\-\_\-mailok} & \\
+\hline
+array & {\em \$siteinfo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_minimum_cloud_a24f655562ffe65c2f82be0aa979a40dd}{\index{Xortify\-Auth\-Minimum\-Cloud@{Xortify\-Auth\-Minimum\-Cloud}!network\-\_\-disclaimer@{network\-\_\-disclaimer}}
+\index{network\-\_\-disclaimer@{network\-\_\-disclaimer}!XortifyAuthMinimumCloud@{Xortify\-Auth\-Minimum\-Cloud}}
+\subsubsection[{network\-\_\-disclaimer}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Minimum\-Cloud\-::network\-\_\-disclaimer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_minimum_cloud_a24f655562ffe65c2f82be0aa979a40dd}
+get the xoops site disclaimer via json
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_minimum_cloud_a439c75891aa72a080e69c7715b879b65}{\index{Xortify\-Auth\-Minimum\-Cloud@{Xortify\-Auth\-Minimum\-Cloud}!validate@{validate}}
+\index{validate@{validate}!XortifyAuthMinimumCloud@{Xortify\-Auth\-Minimum\-Cloud}}
+\subsubsection[{validate}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Minimum\-Cloud\-::validate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$pass, }
+\item[{}]{\$vpass}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_minimum_cloud_a439c75891aa72a080e69c7715b879b65}
+validate a user via json
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+string & {\em \$vpass} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_minimum_cloud_a8c0f101b350bdaf235649ff1074fa409}{\index{Xortify\-Auth\-Minimum\-Cloud@{Xortify\-Auth\-Minimum\-Cloud}!Xortify\-Auth\-Minimum\-Cloud@{Xortify\-Auth\-Minimum\-Cloud}}
+\index{Xortify\-Auth\-Minimum\-Cloud@{Xortify\-Auth\-Minimum\-Cloud}!XortifyAuthMinimumCloud@{Xortify\-Auth\-Minimum\-Cloud}}
+\subsubsection[{Xortify\-Auth\-Minimum\-Cloud}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Minimum\-Cloud\-::\-Xortify\-Auth\-Minimum\-Cloud (
+\begin{DoxyParamCaption}
+\item[{\&}]{\$dao}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_minimum_cloud_a8c0f101b350bdaf235649ff1074fa409}
+Authentication Service constructor 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/xortify 2.\-6/htdocs/modules/xortify/class/auth/auth\-\_\-minimumcloud.\-php\end{DoxyCompactItemize}

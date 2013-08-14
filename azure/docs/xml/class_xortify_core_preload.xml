@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_core_preload" kind="class" prot="public">
+    <compoundname>XortifyCorePreload</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPreloadItem</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_core_preload_1adc0c01862c2e4d5cacf6f2b07b20d9ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eventCoreIncludeCommonStart</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreIncludeCommonStart</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" bodystart="43" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1af8c197de09add249b14503f6a03434d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eventCoreIncludeCommonEnd</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreIncludeCommonEnd</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" line="64" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" bodystart="64" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a9aed269ae1d4073ed977a0847005f6eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eventCoreHeaderCacheEnd</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreHeaderCacheEnd</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" line="128" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" bodystart="128" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a87b15888767bafa70ea17f96bf176c87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eventCoreFooterEnd</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreFooterEnd</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" line="152" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" bodystart="152" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a020c42b297e4e9c45e29abdefa79880e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eventCoreHeaderAddmeta</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreHeaderAddmeta</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" line="175" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" bodystart="175" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a2ed534bf0ce75f3f5ea332fa6b373549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>hasAPIUserPass</definition>
+        <argsstring>()</argsstring>
+        <name>hasAPIUserPass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" line="201" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" bodystart="201" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a5cfc1f473e16b0e23c573e888e374670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;xortify&quot;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;xortify&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" line="211" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" bodystart="211" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="702">
+        <label>XortifyCorePreload</label>
+        <link refid="class_xortify_core_preload"/>
+        <childnode refid="703" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="703">
+        <label>XoopsPreloadItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="704">
+        <label>XortifyCorePreload</label>
+        <link refid="class_xortify_core_preload"/>
+        <childnode refid="705" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="705">
+        <label>XoopsPreloadItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/preloads/core.php" bodystart="40" bodyend="237"/>
+    <listofallmembers>
+      <member refid="class_xortify_core_preload_1a87b15888767bafa70ea17f96bf176c87" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreFooterEnd</name></member>
+      <member refid="class_xortify_core_preload_1a020c42b297e4e9c45e29abdefa79880e" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreHeaderAddmeta</name></member>
+      <member refid="class_xortify_core_preload_1a9aed269ae1d4073ed977a0847005f6eb" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreHeaderCacheEnd</name></member>
+      <member refid="class_xortify_core_preload_1af8c197de09add249b14503f6a03434d1" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreIncludeCommonEnd</name></member>
+      <member refid="class_xortify_core_preload_1adc0c01862c2e4d5cacf6f2b07b20d9ba" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreIncludeCommonStart</name></member>
+      <member refid="class_xortify_core_preload_1a5cfc1f473e16b0e23c573e888e374670" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>getFileListAsArray</name></member>
+      <member refid="class_xortify_core_preload_1a2ed534bf0ce75f3f5ea332fa6b373549" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>hasAPIUserPass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

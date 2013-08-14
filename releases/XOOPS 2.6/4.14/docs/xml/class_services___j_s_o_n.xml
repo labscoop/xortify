@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_services___j_s_o_n" kind="class" prot="public">
+    <compoundname>Services_JSON</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_services___j_s_o_n_1abc84bd855fe129a4c68bcb68b4d17108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Services_JSON</definition>
+        <argsstring>($use=0)</argsstring>
+        <name>Services_JSON</name>
+        <param>
+          <declname>$use</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructs a new JSON instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$use</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object behavior flags; cOBMine with boolean-OR <verbatim>                      possible values:
+                      - SERVICES_JSON_LOOSE_TYPd:  loose typing.
+                              &quot;{...}&quot; syntax creates associative arrays
+                              instead of objects in decode().
+                      - SERVICES_JSON_SUPPRESS_ERRORS:  error suppression.
+                              Values which can&apos;t be encoded (e.g. resources)
+                              appear as NULL instead of throwing errors.
+                              By default, a deeply-nested resource will
+                              bubble up with an error, so all return values
+                              from encode() should be checked with isError()</verbatim> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="169" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_services___j_s_o_n_1aa7b1b36cd3a4995bbb60f5def6a216e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>utf162utf8</definition>
+        <argsstring>($utf16)</argsstring>
+        <name>utf162utf8</name>
+        <param>
+          <declname>$utf16</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert a string from one UTF-16 char to one UTF-8 char</para><para>Normally should be handled by mb_convert_encoding, but provides a slower PHP-only method for installations that lack the multibye string extension.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$utf16</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>UTF-16 character </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string UTF-8 character  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="185" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="185" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_services___j_s_o_n_1af9687bbf6bcddc9c847d608f9a1fa4c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>utf82utf16</definition>
+        <argsstring>($utf8)</argsstring>
+        <name>utf82utf16</name>
+        <param>
+          <declname>$utf8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert a string from one UTF-8 char to one UTF-16 char</para><para>Normally should be handled by mb_convert_encoding, but provides a slower PHP-only method for installations that lack the multibye string extension.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$utf8</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>UTF-8 character </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string UTF-16 character  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="229" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="229" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_services___j_s_o_n_1acdf1c85111e34b3048d436228bf39819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>encode</definition>
+        <argsstring>($var)</argsstring>
+        <name>encode</name>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>encodes an arbitrary variable into JSON format</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$var</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>any number, boolean, string, array, or object to be encoded. see argument 1 to <ref refid="class_services___j_s_o_n_1abc84bd855fe129a4c68bcb68b4d17108" kindref="member">Services_JSON()</ref> above for array-parsing behavior. if var is a strng, note that <ref refid="class_services___j_s_o_n_1acdf1c85111e34b3048d436228bf39819" kindref="member">encode()</ref> always expects it to be in ASCII or UTF-8 format!</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed JSON string representation of input var or an error if a problem occurs  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="273" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="273" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="class_services___j_s_o_n_1aa7f3e18209717e584f01f53a0325e9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>name_value</definition>
+        <argsstring>($name, $value)</argsstring>
+        <name>name_value</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>array-walking function for use in generating JSON-formatted name-value pairs</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of key to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference to an array element to be encoded</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string JSON-formatted name-value pair, like &apos;&quot;name&quot;:value&apos;  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="470" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="470" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_services___j_s_o_n_1ae463a3baa44e95fa5b5151ab2334df1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>reduce_string</definition>
+        <argsstring>($str)</argsstring>
+        <name>reduce_string</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reduce a string by removing leading and trailing comments and whitespace</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string string value to strip of comments and whitespace</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string string value stripped of comments and whitespace  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="489" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="489" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="class_services___j_s_o_n_1a4afbb486f4a5ff5a8170c832f5997986" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decode</definition>
+        <argsstring>($str)</argsstring>
+        <name>decode</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>decodes a JSON string into appropriate variable</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON-formatted string</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed number, boolean, string, array, or object corresponding to given JSON input string. See argument 1 to <ref refid="class_services___j_s_o_n_1abc84bd855fe129a4c68bcb68b4d17108" kindref="member">Services_JSON()</ref> above for object-output behavior. Note that <ref refid="class_services___j_s_o_n_1a4afbb486f4a5ff5a8170c832f5997986" kindref="member">decode()</ref> always returns strings in ASCII or UTF-8 format!  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="520" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="520" bodyend="797"/>
+      </memberdef>
+      <memberdef kind="function" id="class_services___j_s_o_n_1a55ae0955466c3970507b122f3f5d1b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isError</definition>
+        <argsstring>($data, $code=null)</argsstring>
+        <name>isError</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$code</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ultimately, this should just call PEAR::isError() </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="802" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="802" bodyend="812"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Converts to and from JSON format.</para><para>Brief example of use:</para><para><computeroutput> // create a new instance of <ref refid="class_services___j_s_o_n" kindref="compound">Services_JSON</ref> $json = new <ref refid="class_services___j_s_o_n_1abc84bd855fe129a4c68bcb68b4d17108" kindref="member">Services_JSON()</ref>;</computeroutput></para><para><computeroutput>// convert a complexe value to JSON notation, and send it to the browser $value = array(&apos;foo&apos;, &apos;bar&apos;, array(1, 2, &apos;baz&apos;), array(3, array(4))); $output = $json-&gt;encode($value);</computeroutput></para><para><computeroutput>print($output); // prints: [&quot;foo&quot;,&quot;bar&quot;,[1,2,&quot;baz&quot;],[3,[4]]]</computeroutput></para><para><computeroutput>// accept incoming POST data, assumed to be in JSON notation $input = file_get_contents(&apos;php://input&apos;, 1000000); $value = $json-&gt;decode($input); </computeroutput> </para>    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="152" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" bodystart="151" bodyend="813"/>
+    <listofallmembers>
+      <member refid="class_services___j_s_o_n_1a4afbb486f4a5ff5a8170c832f5997986" prot="public" virt="non-virtual"><scope>Services_JSON</scope><name>decode</name></member>
+      <member refid="class_services___j_s_o_n_1acdf1c85111e34b3048d436228bf39819" prot="public" virt="non-virtual"><scope>Services_JSON</scope><name>encode</name></member>
+      <member refid="class_services___j_s_o_n_1a55ae0955466c3970507b122f3f5d1b38" prot="public" virt="non-virtual"><scope>Services_JSON</scope><name>isError</name></member>
+      <member refid="class_services___j_s_o_n_1aa7f3e18209717e584f01f53a0325e9ff" prot="public" virt="non-virtual"><scope>Services_JSON</scope><name>name_value</name></member>
+      <member refid="class_services___j_s_o_n_1ae463a3baa44e95fa5b5151ab2334df1c" prot="public" virt="non-virtual"><scope>Services_JSON</scope><name>reduce_string</name></member>
+      <member refid="class_services___j_s_o_n_1abc84bd855fe129a4c68bcb68b4d17108" prot="public" virt="non-virtual"><scope>Services_JSON</scope><name>Services_JSON</name></member>
+      <member refid="class_services___j_s_o_n_1aa7b1b36cd3a4995bbb60f5def6a216e2" prot="public" virt="non-virtual"><scope>Services_JSON</scope><name>utf162utf8</name></member>
+      <member refid="class_services___j_s_o_n_1af9687bbf6bcddc9c847d608f9a1fa4c0" prot="public" virt="non-virtual"><scope>Services_JSON</scope><name>utf82utf16</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

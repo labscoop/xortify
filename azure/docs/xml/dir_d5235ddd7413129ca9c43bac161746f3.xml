@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_d5235ddd7413129ca9c43bac161746f3" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xortify/preloads</compoundname>
+    <innerfile refid="modules_2xortify_2preloads_2bans_8php">bans.php</innerfile>
+    <innerfile refid="xortify_2preloads_2core_8php">core.php</innerfile>
+    <innerfile refid="markonline_8php">markonline.php</innerfile>
+    <innerfile refid="php_8php">php.php</innerfile>
+    <innerfile refid="modules_2xortify_2preloads_2servers_8php">servers.php</innerfile>
+    <innerfile refid="sfs_8php">sfs.php</innerfile>
+    <innerfile refid="modules_2xortify_2preloads_2unbanner_8php">unbanner.php</innerfile>
+    <innerfile refid="modules_2xortify_2preloads_2unbans_8php">unbans.php</innerfile>
+    <innerfile refid="usercrawl_8php">usercrawl.php</innerfile>
+    <innerfile refid="users_8php">users.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/preloads/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_4e0912a4f3d6c1e9ddec10c9f6d39306" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/xoops_lib/modules</compoundname>
+    <innerdir refid="dir_4319cf668359f08d515e173f0c458af3">E:/Packages/xortify server/htdocs/xoops_lib/modules/protector</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/xoops_lib/modules/"/>
+  </compounddef>
+</doxygen>

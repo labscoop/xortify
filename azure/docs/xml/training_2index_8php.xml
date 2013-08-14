@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="training_2index_8php" kind="file">
+    <compoundname>index.php</compoundname>
+    <innernamespace refid="namespacespam">spam</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="training_2index_8php_1a7c93a81c9b28ec2f78f33cdabda28c76" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$op</definition>
+        <argsstring></argsstring>
+        <name>$op</name>
+        <initializer>= (isset($_REQUEST[&apos;op&apos;])?(string)$_REQUEST[&apos;op&apos;]:&apos;default&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/training/index.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/training/index.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="training_2index_8php_1a9a08c84edd46f257c94cdf8d443cc77d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ip</definition>
+        <argsstring></argsstring>
+        <name>$ip</name>
+        <initializer>= xortify_getIPData(trim(isset($_REQUEST[&apos;ip&apos;])?(string)$_REQUEST[&apos;ip&apos;]:xortify_getIP()))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/training/index.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/training/index.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>dirname(dirname(__FILE__))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;mainfile.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>dirname(dirname(__FILE__))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;modules&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;include&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>dirname(dirname(__FILE__))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;include&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;cloud&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;ban.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>$op<sp/>=<sp/>(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;op&apos;</highlight><highlight class="normal">])?(string)$_REQUEST[</highlight><highlight class="stringliteral">&apos;op&apos;</highlight><highlight class="normal">]:</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>$ip<sp/>=<sp/>xortify_getIPData(trim(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;ip&apos;</highlight><highlight class="normal">])?(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)$_REQUEST[</highlight><highlight class="stringliteral">&apos;ip&apos;</highlight><highlight class="normal">]:xortify_getIP()));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>($op)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;spam&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">])&amp;&amp;!empty($_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$filename<sp/>=<sp/>dirname(dirname(__FILE__))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;uploads&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;spoof&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;spam&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/>md5($_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">])<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;.txt&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$file<sp/>=<sp/>fopen($filename,<sp/></highlight><highlight class="charliteral">&apos;w&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite($file,<sp/>$_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">],<sp/>strlen($_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose($file);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;ham&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">])&amp;&amp;!empty($_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$filename<sp/>=<sp/>dirname(dirname(__FILE__))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;uploads&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;spoof&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;ham&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/>md5($_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">])<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;.txt&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$file<sp/>=<sp/>fopen($filename,<sp/></highlight><highlight class="charliteral">&apos;w&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite($file,<sp/>$_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">],<sp/>strlen($_REQUEST[</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose($file);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/training/index.php"/>
+  </compounddef>
+</doxygen>

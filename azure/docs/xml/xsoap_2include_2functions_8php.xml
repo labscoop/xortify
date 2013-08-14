@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xsoap_2include_2functions_8php" kind="file">
+    <compoundname>functions.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="xsoap_2include_2functions_8php_1a3ea37674f372750988a16e9d728b4055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>object2array</definition>
+        <argsstring>($object)</argsstring>
+        <name>object2array</name>
+        <param>
+          <declname>$object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/functions.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/functions.php" bodystart="24" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">/*<sp/><sp/>Converts<sp/>an<sp/>Object<sp/>to<sp/>and<sp/>Array</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/><sp/>object2array($object)</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/><sp/>@return<sp/>array</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>object2array($object)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_object($object))<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($object<sp/>as<sp/>$key<sp/>=&gt;<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_object($value))<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$array[$key]<sp/>=<sp/>object2array($value);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$array[$key]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>$array<sp/>=<sp/>$object;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$array;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!function_exists(</highlight><highlight class="stringliteral">&quot;adminMenu&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/>Provides<sp/>Admin<sp/>Menu</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>adminMenu<sp/>($currentoption<sp/>=<sp/>0)</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@return<sp/>boolean</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>adminMenu<sp/>($currentoption<sp/>=<sp/>0)<sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Nice<sp/>buttons<sp/>styles<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>global<sp/>$xoopsConfig,$xoopsModule;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$module_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoModule<sp/>=<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;xxml&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dirname=$xoModule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;dirname&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;</highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;style<sp/>type=&apos;text/css&apos;&gt;</highlight></codeline>
+<codeline lineno="56"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#form<sp/>{float:left;<sp/>width:100%;<sp/>background:<sp/>#e7e7e7<sp/>url(&apos;&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/$dirname/images/bg.gif&apos;)<sp/>repeat-x<sp/>left<sp/>bottom;<sp/>font-size:93%;<sp/>line-height:normal;<sp/>border-bottom:<sp/>1px<sp/>solid<sp/>black;<sp/>border-top:<sp/>1px<sp/>solid<sp/>black;<sp/>border-left:<sp/>1px<sp/>solid<sp/>black;<sp/>border-right:<sp/>1px<sp/>solid<sp/>black;}</highlight></codeline>
+<codeline lineno="57"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttontop<sp/>{<sp/>float:left;<sp/>width:100%;<sp/>background:<sp/>#e7e7e7;<sp/>font-size:93%;<sp/>line-height:normal;<sp/>border-top:<sp/>1px<sp/>solid<sp/>black;<sp/>border-left:<sp/>1px<sp/>solid<sp/>black;<sp/>border-right:<sp/>1px<sp/>solid<sp/>black;<sp/>margin:<sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>{<sp/>float:left;<sp/>width:100%;<sp/>background:<sp/>#e7e7e7<sp/>url(&apos;&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/$dirname/images/bg.gif&apos;)<sp/>repeat-x<sp/>left<sp/>bottom;<sp/>font-size:93%;<sp/>line-height:normal;<sp/>border-left:<sp/>1px<sp/>solid<sp/>black;<sp/>border-right:<sp/>1px<sp/>solid<sp/>black;<sp/>margin-bottom:<sp/>0px;<sp/>border-bottom:<sp/>1px<sp/>solid<sp/>black;<sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>ul<sp/>{<sp/>margin:0;<sp/>margin-top:<sp/>15px;<sp/>padding:10px<sp/>10px<sp/>0;<sp/>list-style:none;<sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>li<sp/>{<sp/>display:inline;<sp/>margin:0;<sp/>padding:0;<sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>a<sp/>{<sp/>float:left;<sp/>background:url(&apos;&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/$dirname/images/left_both.gif&apos;)<sp/>no-repeat<sp/>left<sp/>top;<sp/>margin:0;<sp/>padding:0<sp/>0<sp/>0<sp/>9px;<sp/><sp/>text-decoration:none;<sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>a<sp/>span<sp/>{<sp/>float:left;<sp/>display:block;<sp/>background:url(&apos;&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/$dirname/images/right_both.gif&apos;)<sp/>no-repeat<sp/>right<sp/>top;<sp/>padding:5px<sp/>15px<sp/>4px<sp/>6px;<sp/>font-weight:bold;<sp/>color:#765;<sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>/*<sp/>Commented<sp/>Backslash<sp/>Hack<sp/>hides<sp/>rule<sp/>from<sp/>IE5-Mac<sp/>\*/</highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>a<sp/>span<sp/>{float:none;}</highlight></codeline>
+<codeline lineno="65"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>/*<sp/>End<sp/>IE5-Mac<sp/>hack<sp/>*/</highlight></codeline>
+<codeline lineno="66"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>a:hover<sp/>span<sp/>{<sp/>color:#333;<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>#current<sp/>a<sp/>{<sp/>background-position:0<sp/>-150px;<sp/>border-width:0;<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>#current<sp/>a<sp/>span<sp/>{<sp/>background-position:100%<sp/>-150px;<sp/>padding-bottom:5px;<sp/>color:#333;<sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>a:hover<sp/>{<sp/>background-position:0%<sp/>-150px;<sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#buttonbar<sp/>a:hover<sp/>span<sp/>{<sp/>background-position:100%<sp/>-150px;<sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/style&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>global<sp/>$xoopsDB,<sp/>$xoopsModule,<sp/>$xoopsConfig,<sp/>$xoopsModuleConfig;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$myts<sp/>=<sp/>&amp;MyTextSanitizer::getInstance();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tblColors<sp/>=<sp/>Array();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>$adminmenu=array();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(file_exists(XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/modules/&apos;</highlight><highlight class="normal"><sp/>.<sp/>$xoopsModule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;dirname&apos;</highlight><highlight class="normal">)<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/language/&apos;</highlight><highlight class="normal"><sp/>.<sp/>$xoopsConfig[</highlight><highlight class="stringliteral">&apos;language&apos;</highlight><highlight class="normal">]<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/modinfo.php&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/modules/xcurl/language/&apos;</highlight><highlight class="normal"><sp/>.<sp/>$xoopsConfig[</highlight><highlight class="stringliteral">&apos;language&apos;</highlight><highlight class="normal">]<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/modinfo.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/modules/xcurl/language/english/modinfo.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;table<sp/>width=\&quot;100%\&quot;<sp/>border=&apos;0&apos;&gt;&lt;tr&gt;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;div<sp/>id=&apos;buttontop&apos;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;table<sp/>style=\&quot;width:<sp/>100%;<sp/>padding:<sp/>0;<sp/>\&quot;<sp/>cellspacing=\&quot;0\&quot;&gt;&lt;tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td<sp/>style=\&quot;width:<sp/>45%;<sp/>font-size:<sp/>10px;<sp/>text-align:<sp/>left;<sp/>color:<sp/>#2F5376;<sp/>padding:<sp/>0<sp/>6px;<sp/>line-height:<sp/>18px;\&quot;&gt;&lt;a<sp/>class=\&quot;nobutton\&quot;<sp/>href=\&quot;&quot;</highlight><highlight class="normal">.XOOPS_URL.</highlight><highlight class="stringliteral">&quot;/modules/system/admin.php?fct=preferences&amp;amp;op=showmod&amp;amp;mod=&quot;</highlight><highlight class="normal"><sp/>.<sp/>$xoopsModule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_PREFERENCES<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/a&gt;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td<sp/>style=&apos;font-size:<sp/>10px;<sp/>text-align:<sp/>right;<sp/>color:<sp/>#2F5376;<sp/>padding:<sp/>0<sp/>6px;<sp/>line-height:<sp/>18px;&apos;&gt;&lt;b&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>$myts-&gt;displayTarea($xoopsModule-&gt;name())<sp/>.</highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tr&gt;&lt;/table&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/div&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;div<sp/>id=&apos;buttonbar&apos;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;ul&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($xoopsModule-&gt;getAdminMenu()<sp/>as<sp/>$key<sp/>=&gt;<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tblColors[$key]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tblColors[$currentoption]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;current&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;li<sp/>id=&apos;&quot;</highlight><highlight class="normal"><sp/>.<sp/>$tblColors[$key]<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&apos;&gt;&lt;a<sp/>href=\&quot;&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/&quot;</highlight><highlight class="normal">.$xoopsModule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;dirname&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">.$value[</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&quot;\&quot;&gt;&lt;span&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>$value[</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/ul&gt;&lt;/div&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&lt;/tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;tr&apos;&gt;&lt;td&gt;&lt;div<sp/>id=&apos;form&apos;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/>Provides<sp/>Admin<sp/>Footyer</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/><sp/>*<sp/><sp/>footer_adminMenu()</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/>*<sp/><sp/>@return<sp/>boolean</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>footer_adminMenu()</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/table&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/functions.php"/>
+  </compounddef>
+</doxygen>

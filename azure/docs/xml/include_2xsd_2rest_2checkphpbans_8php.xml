@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="include_2xsd_2rest_2checkphpbans_8php" kind="file">
+    <compoundname>checkphpbans.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="include_2xsd_2rest_2checkphpbans_8php_1aaabc0bb7282cf33070c6e5fca17f74d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkphpbans_xsd</definition>
+        <argsstring>()</argsstring>
+        <name>checkphpbans_xsd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/checkphpbans.php" line="3" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/checkphpbans.php" bodystart="3" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="include_2xsd_2rest_2checkphpbans_8php_1a9456b5182fe18cc54ba41ded6547ca23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkphpbans_wsdl</definition>
+        <argsstring>()</argsstring>
+        <name>checkphpbans_wsdl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/checkphpbans.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/checkphpbans.php" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="include_2xsd_2rest_2checkphpbans_8php_1aa04937405dfb1cc39da99fdd19fc3e39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkphpbans_wsdl_service</definition>
+        <argsstring>()</argsstring>
+        <name>checkphpbans_wsdl_service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/checkphpbans.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/checkphpbans.php" bodystart="24" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>checkphpbans_xsd(){</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;username&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;ipdata&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;start&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;success&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;octeta&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;octetb&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;octetc&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$xsd;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>checkphpbans_wsdl(){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>checkphpbans_wsdl_service(){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/checkphpbans.php"/>
+  </compounddef>
+</doxygen>

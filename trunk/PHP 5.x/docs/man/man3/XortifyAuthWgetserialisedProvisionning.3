@@ -1,0 +1,142 @@
+.TH "XortifyAuthWgetserialisedProvisionning" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+XortifyAuthWgetserialisedProvisionning \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "& \fBgetInstance\fP (&$auth_instance)"
+.br
+.ti -1c
+.RI "\fB__construct\fP (&$auth_instance)"
+.br
+.ti -1c
+.RI "\fBgetXortifyUser\fP ($uname)"
+.br
+.ti -1c
+.RI "\fBsync\fP ($datas, $uname, $pwd=null)"
+.br
+.ti -1c
+.RI "\fBadd\fP ($datas, $uname, $pwd=null)"
+.br
+.ti -1c
+.RI "\fBchange\fP (&$xoopsUser, $datas, $uname, $pwd=null)"
+.br
+.ti -1c
+.RI "\fBchange_json\fP (&$xoopsUser, $datas, $uname, $pwd=null)"
+.br
+.ti -1c
+.RI "\fBdelete\fP ()"
+.br
+.ti -1c
+.RI "\fBsuspend\fP ()"
+.br
+.ti -1c
+.RI "\fBrestore\fP ()"
+.br
+.ti -1c
+.RI "\fBresetpwd\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$_auth_instance\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (&$auth_instance)"
+Authentication Service constructor Syronise User to Database/Storage Mechanism
+.SH "Member Function Documentation"
+.PP 
+.SS "add ($datas, $uname, $pwd = \fCnull\fP)"
+Add a new user to the system
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+Add User to Database/Storage Mechanism
+.SS "change (&$xoopsUser, $datas, $uname, $pwd = \fCnull\fP)"
+Modify user information
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+Update & Change User to Database/Storage Mechanism
+.SS "change_json (&$xoopsUser, $datas, $uname, $pwd = \fCnull\fP)"
+Update & Change User to Database/Storage Mechanism
+.SS "delete ()"
+Modify a user
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.SS "& getInstance (&$auth_instance)"
+
+.SS "getXortifyUser ($uname)"
+Return a Xortify User Object
+.PP
+\fBReturns:\fP
+.RS 4
+XortifyUser or false 
+.RE
+.PP
+Get a USer Object based on $uname
+.SS "resetpwd ()"
+Add a new user to the system
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.SS "restore ()"
+Restore a user
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.SS "suspend ()"
+Suspend a user
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.SS "sync ($datas, $uname, $pwd = \fCnull\fP)"
+Launch the synchronisation process
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+Syronise User to Database/Storage Mechanism
+.SH "Field Documentation"
+.PP 
+.SS "$_auth_instance"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

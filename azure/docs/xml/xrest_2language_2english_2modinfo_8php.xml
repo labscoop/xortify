@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xrest_2language_2english_2modinfo_8php" kind="file">
+    <compoundname>modinfo.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1afbec261a7064009b65dee5b1984df2f0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_USERAUTH</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_USERAUTH</name>
+        <initializer>&apos;Requires Username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a1a4d35e8ae877951b10a78dff2a0acf0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_USERAUTHDESC</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_USERAUTHDESC</name>
+        <initializer>&apos;Only Allows Site Users to use services&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1ae3ae3e37106aa5cca8f863c25665a20a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_ADMINMENU_0</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_ADMINMENU_0</name>
+        <initializer>&apos;Dashboard&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1afb0e4f229f719a6c12ac7e9be3bdcc41" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_ADMINMENU_1</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_ADMINMENU_1</name>
+        <initializer>&apos;Configure Tables&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a506ba443de0cb6dcbe9cf60741f7f7f5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_ADMINMENU_2</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_ADMINMENU_2</name>
+        <initializer>&apos;Configure Fields&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a93f1c7334b7af6d2279e615a7a40c319" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_ADMINMENU_3</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_ADMINMENU_3</name>
+        <initializer>&apos;Configure Views&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1aac60ee1db97963c3f3ef41a19155482d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_ADMINMENU_4</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_ADMINMENU_4</name>
+        <initializer>&apos;Configure Plugins&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a8e06bde805b3db171835e7529e0b343b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_ADMINMENU_5</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_ADMINMENU_5</name>
+        <initializer>&apos;Permissions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1ad182069f7ff3f0879b3a09e267dbdcbf" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_ADMINMENU_6</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_ADMINMENU_6</name>
+        <initializer>&apos;About&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1ae1ea6218c87c655ce555ea087cf66885" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS</name>
+        <initializer>&apos;Function lock out time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a67451490ffb803d66c85c8aa4615b9d5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_DESC</name>
+        <initializer>&apos;Period of time for locked function to be invocated on incorrect username and password details!!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a10a58d9ee17be9c59709fb6fcf308ad9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDSCACHE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDSCACHE</name>
+        <initializer>&apos;Lockout cache stored for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1aeb6c199d48b61bb6ebcf444b395f3d78" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDSCACHE_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDSCACHE_DESC</name>
+        <initializer>&apos;Period of time for cache function to be invocated!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a802e15aa983d345e55fdb1ec8482d711" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_3600</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_3600</name>
+        <initializer>&apos;1 Hour&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1aa74d1da1792cbb2f9228224ecaef1134" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_1800</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_1800</name>
+        <initializer>&apos;30 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1af3127781a2d9c543ecf980b6a006f014" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_1200</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_1200</name>
+        <initializer>&apos;20 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a86f6ef84cd916e706fa0a1b63940ff12" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_600</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_600</name>
+        <initializer>&apos;10 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a45637a3808a2b47671ca036037dee423" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_300</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_300</name>
+        <initializer>&apos;5 Minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a9aec182e2d7dee8b07c3d2593dd467ae" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_180</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_180</name>
+        <initializer>&apos;3 Minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a84709d69cdcebeec13bbe6874332f310" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_60</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_60</name>
+        <initializer>&apos;1 Minute&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a47bfd4a784453393a50802dfe2b8275a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_30</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_30</name>
+        <initializer>&apos;30 Seconds&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a02ca370aea7354850b0ea5adb059d5c2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_USERANDOMLOCK</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_USERANDOMLOCK</name>
+        <initializer>&apos;Random seconds seed (maximum value)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a467d653462ba84c0e11963d75d1381ee" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_USERANDOMLOCK_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_USERANDOMLOCK_DESC</name>
+        <initializer>&apos;You should not set this above the maximum function lockout time!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a945b237dcd69b522e191827dd164cc72" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_LIST_CACHE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_LIST_CACHE</name>
+        <initializer>&apos;Plugin Function cache stored for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1ad2a764a24c125edce0508f77fdf06aea" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_LIST_CACHE_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_LIST_CACHE_DESC</name>
+        <initializer>&apos;Period of time for Plugin function cache is to be stored for!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a3467d14aad1560cebed412572491e844" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_TO_CLEANUP</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_TO_CLEANUP</name>
+        <initializer>&apos;Number of seconds between cache cleanup?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="52" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a8a536bec21465e22fbbd1e5889a48f3e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_TO_CLEANUP_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_TO_CLEANUP_DESC</name>
+        <initializer>&apos;Period of time for cleanup of cache function to wait before dropping relevant cache files!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="53" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1abe2c5d3e283644c2c1688309951e5c02" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_38707200</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_38707200</name>
+        <initializer>&apos;1 Year&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a138faaa2ed53c74e50254d741a51b46c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_19353600</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_19353600</name>
+        <initializer>&apos;6 Months&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="56" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a1516bf162b7547c7f8609ccbab0ee8cb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_9676800</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_9676800</name>
+        <initializer>&apos;1 Quarter&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1adbbfa6da3e89c70765e2a61393c429ab" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_2419200</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_2419200</name>
+        <initializer>&apos;1 Month&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a6df99025e1b099c2a684cc31dde28d40" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_1209600</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_1209600</name>
+        <initializer>&apos;1 Fortnight&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a41c8bc0e22219c5a4cfa5c078d0c8750" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_604800</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_604800</name>
+        <initializer>&apos;1 Week&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1ac183d55d0ef4c7b3ef67cf97246ce4e8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_86400</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_86400</name>
+        <initializer>&apos;24 Hours&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="61" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1afe80f7d0734db83d5391e02660ef1a5b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_SECONDS_43200</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_SECONDS_43200</name>
+        <initializer>&apos;12 hours&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2modinfo_8php_1a470329cfe1be33a7fa8141c2c128a7c4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_MI_NOPERMFORPLUGIN</definition>
+        <argsstring></argsstring>
+        <name>_XREST_MI_NOPERMFORPLUGIN</name>
+        <initializer>&apos;No Permission for plug-in&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" line="64" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_USERAUTH&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Requires<sp/>Username&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_USERAUTHDESC&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Only<sp/>Allows<sp/>Site<sp/>Users<sp/>to<sp/>use<sp/>services&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_ADMINMENU_0&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Dashboard&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_ADMINMENU_1&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Tables&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_ADMINMENU_2&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Fields&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_ADMINMENU_3&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Views&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_ADMINMENU_4&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Plugins&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_ADMINMENU_5&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Permissions&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_ADMINMENU_6&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;About&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Function<sp/>lock<sp/>out<sp/>time&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>locked<sp/>function<sp/>to<sp/>be<sp/>invocated<sp/>on<sp/>incorrect<sp/>username<sp/>and<sp/>password<sp/>details!!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDSCACHE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Lockout<sp/>cache<sp/>stored<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDSCACHE_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>cache<sp/>function<sp/>to<sp/>be<sp/>invocated!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_3600&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Hour&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_1800&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;30<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_1200&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;20<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_600&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;10<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_300&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;5<sp/>Minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_180&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;3<sp/>Minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_60&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Minute&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_30&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;30<sp/>Seconds&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_USERANDOMLOCK&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Random<sp/>seconds<sp/>seed<sp/>(maximum<sp/>value)&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_USERANDOMLOCK_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>should<sp/>not<sp/>set<sp/>this<sp/>above<sp/>the<sp/>maximum<sp/>function<sp/>lockout<sp/>time!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Version<sp/>1.52</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_LIST_CACHE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Plugin<sp/>Function<sp/>cache<sp/>stored<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_LIST_CACHE_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>Plugin<sp/>function<sp/>cache<sp/>is<sp/>to<sp/>be<sp/>stored<sp/>for!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_TO_CLEANUP&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Number<sp/>of<sp/>seconds<sp/>between<sp/>cache<sp/>cleanup?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_TO_CLEANUP_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>cleanup<sp/>of<sp/>cache<sp/>function<sp/>to<sp/>wait<sp/>before<sp/>dropping<sp/>relevant<sp/>cache<sp/>files!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_38707200&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Year&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_19353600&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;6<sp/>Months&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_9676800&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Quarter&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_2419200&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Month&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_1209600&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Fortnight&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_604800&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Week&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_86400&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;24<sp/>Hours&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_SECONDS_43200&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;12<sp/>hours&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_MI_NOPERMFORPLUGIN&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;No<sp/>Permission<sp/>for<sp/>plug-in&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/modinfo.php"/>
+  </compounddef>
+</doxygen>

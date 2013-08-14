@@ -1,0 +1,99 @@
+.TH "XortifyAuth" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+XortifyAuth \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBXortifyAuthCurl\fP, \fBXortifyAuthCurlserialised\fP, \fBXortifyAuthCurlxml\fP, \fBXortifyAuthJson\fP, \fBXortifyAuthRest_Curl\fP, \fBXortifyAuthRest_Curlserialised\fP, \fBXortifyAuthRest_Curlxml\fP, \fBXortifyAuthRest_Json\fP, \fBXortifyAuthRest_Wgetserialised\fP, \fBXortifyAuthRest_Wgetxml\fP, \fBXortifyAuthSoap\fP, \fBXortifyAuthWgetserialised\fP, and \fBXortifyAuthWgetxml\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBXortifyAuth\fP (&$dao)"
+.br
+.ti -1c
+.RI "\fBauthenticate\fP ()"
+.br
+.ti -1c
+.RI "\fBsetErrors\fP ($err_no, $err_str)"
+.br
+.ti -1c
+.RI "\fBgetErrors\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHtmlErrors\fP ()"
+.br
+.ti -1c
+.RI "\fBcheck_siteinfo\fP ($siteinfo)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$_dao\fP"
+.br
+.ti -1c
+.RI "\fB$_errors\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "authenticate ()"
+need to be write in the dervied class 
+.SS "check_siteinfo ($siteinfo)"
+checks for variables require in siteinfo package in the auth library
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$siteinfo\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array $siteinfo  public 
+.RE
+.PP
+
+.SS "getErrors ()"
+return the errors for this object as an array
+.PP
+\fBReturns:\fP
+.RS 4
+array an array of errors  public 
+.RE
+.PP
+
+.SS "getHtmlErrors ()"
+return the errors for this object as html
+.PP
+\fBReturns:\fP
+.RS 4
+string html listing the errors  public 
+.RE
+.PP
+
+.SS "setErrors ($err_no, $err_str)"
+add an error
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP error to add  public 
+.RE
+.PP
+
+.SS "\fBXortifyAuth\fP (&$dao)"
+Authentication Service constructor 
+.SH "Field Documentation"
+.PP 
+.SS "$_dao"
+
+.SS "$_errors"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

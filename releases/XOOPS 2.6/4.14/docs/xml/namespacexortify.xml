@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespacexortify" kind="namespace">
+    <compoundname>xortify</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class for Blue Room Xortify Email <simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink></para></simplesect>
+XOOPS Xortify Email handler class. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects.</para><para><simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@chronolabs.coop">simon@chronolabs.coop</ulink></para></simplesect>
+Class for Blue Room Xortify Emails Linking <simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink></para></simplesect>
+XOOPS Xortify Emails Linking handler class. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects.</para><para><simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@chronolabs.coop">simon@chronolabs.coop</ulink> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/emails.php" line="58" column="1"/>
+  </compounddef>
+</doxygen>

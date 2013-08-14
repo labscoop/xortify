@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classban_categories_handler" kind="class" prot="public">
+    <compoundname>banCategoriesHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classban_categories_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/categories.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/categories.php" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="410">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="409">
+        <label>banCategoriesHandler</label>
+        <link refid="classban_categories_handler"/>
+        <childnode refid="410" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="412">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="411">
+        <label>banCategoriesHandler</label>
+        <link refid="classban_categories_handler"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/class/categories.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/categories.php" bodystart="49" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classban_categories_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>banCategoriesHandler</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

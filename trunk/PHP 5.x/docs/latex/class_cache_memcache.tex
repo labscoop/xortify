@@ -1,0 +1,184 @@
+\hypertarget{class_cache_memcache}{\section{Cache\-Memcache Class Reference}
+\label{class_cache_memcache}\index{Cache\-Memcache@{Cache\-Memcache}}
+}
+
+
+Inheritance diagram for Cache\-Memcache\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{class_cache_memcache__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cache\-Memcache\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{class_cache_memcache__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_memcache_add47463221d657541f10f2ca5ec218d8}{init} (\$\hyperlink{class_cache_engine_ad7354383714c6ae99d6ee1bfb95ab49f}{settings}=array())
+\item 
+\hyperlink{class_cache_memcache_a0e72b4e1d3c5ff461155883cad18358d}{write} (\$key, \&\$value, \$duration)
+\item 
+\hyperlink{class_cache_memcache_a4c50c958c469c08bba0c0ccb710ca8af}{read} (\$key)
+\item 
+\hyperlink{class_cache_memcache_aa74a2edd6f3cbb5c5353f7faa97b6d70}{delete} (\$key)
+\item 
+\hyperlink{class_cache_memcache_aa821bec12eaa7e0f649397c9675ff505}{clear} ()
+\item 
+\hyperlink{class_cache_memcache_addde359a43219d7665c8d7677fbbab31}{connect} (\$host, \$port=11211)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_memcache_ae7b98d2059d138bf69a5b67c3426d01a}{\$memcache} = null
+\item 
+\hyperlink{class_cache_memcache_ac7c3353107070daa85f641882931b358}{\$settings} = array()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Memcache storage engine for cache
+
+P\-H\-P versions 4 and 5
+
+Cake\-P\-H\-P(tm) \-: Rapid Development Framework \href{http://www.cakephp.org/}{\tt http\-://www.\-cakephp.\-org/} Copyright 2005-\/2008, Cake Software Foundation, Inc. 1785 E. Sahara Avenue, Suite 490-\/204 Las Vegas, Nevada 89104
+
+Licensed under The M\-I\-T License Redistributions of files must retain the above copyright notice.
+
+\begin{DoxyCopyright}{Copyright}
+Copyright 2005-\/2008, Cake Software Foundation, Inc. \hyperlink{}{Cake\-P\-H\-P(tm) Project  Cake\-P\-H\-P(tm) v 1.\-2.\-0.\-4933        \href{http://www.opensource.org/licenses/mit-license.php}{\tt http\-://www.\-opensource.\-org/licenses/mit-\/license.\-php} The M\-I\-T License Memcache storage engine for cache }
+\end{DoxyCopyright}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_cache_memcache_aa821bec12eaa7e0f649397c9675ff505}{\index{Cache\-Memcache@{Cache\-Memcache}!clear@{clear}}
+\index{clear@{clear}!CacheMemcache@{Cache\-Memcache}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cache_memcache_aa821bec12eaa7e0f649397c9675ff505}
+Delete all keys from the cache
+
+\begin{DoxyReturn}{Returns}
+boolean True if the cache was succesfully cleared, false otherwise  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_memcache_addde359a43219d7665c8d7677fbbab31}{\index{Cache\-Memcache@{Cache\-Memcache}!connect@{connect}}
+\index{connect@{connect}!CacheMemcache@{Cache\-Memcache}}
+\subsubsection[{connect}]{\setlength{\rightskip}{0pt plus 5cm}connect (
+\begin{DoxyParamCaption}
+\item[{}]{\$host, }
+\item[{}]{\$port = {\ttfamily 11211}}
+\end{DoxyParamCaption}
+)}}\label{class_cache_memcache_addde359a43219d7665c8d7677fbbab31}
+Connects to a server in connection pool
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$host} & host ip address or name \\
+\hline
+integer & {\em \$port} & Server port \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if memcache server was connected  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_memcache_aa74a2edd6f3cbb5c5353f7faa97b6d70}{\index{Cache\-Memcache@{Cache\-Memcache}!delete@{delete}}
+\index{delete@{delete}!CacheMemcache@{Cache\-Memcache}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_memcache_aa74a2edd6f3cbb5c5353f7faa97b6d70}
+Delete a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_memcache_add47463221d657541f10f2ca5ec218d8}{\index{Cache\-Memcache@{Cache\-Memcache}!init@{init}}
+\index{init@{init}!CacheMemcache@{Cache\-Memcache}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}init (
+\begin{DoxyParamCaption}
+\item[{}]{\$settings = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_cache_memcache_add47463221d657541f10f2ca5ec218d8}
+Initialize the \hyperlink{class_cache}{Cache} Engine
+
+Called automatically by the cache frontend To reinitialize the settings call \hyperlink{class_cache_a227d1ab3c57640a1692c8d090eb4ef22}{Cache\-::engine}('Engine\-Name', \mbox{[}optional\mbox{]} settings = array());
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$setting} & array of setting for the engine \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the engine has been successfully initialized, false if not  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_memcache_a4c50c958c469c08bba0c0ccb710ca8af}{\index{Cache\-Memcache@{Cache\-Memcache}!read@{read}}
+\index{read@{read}!CacheMemcache@{Cache\-Memcache}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}read (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_memcache_a4c50c958c469c08bba0c0ccb710ca8af}
+Read a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_memcache_a0e72b4e1d3c5ff461155883cad18358d}{\index{Cache\-Memcache@{Cache\-Memcache}!write@{write}}
+\index{write@{write}!CacheMemcache@{Cache\-Memcache}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}write (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{\&}]{\$value, }
+\item[{}]{\$duration}
+\end{DoxyParamCaption}
+)}}\label{class_cache_memcache_a0e72b4e1d3c5ff461155883cad18358d}
+Write data for key into cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+mixed & {\em \$value} & Data to be cached \\
+\hline
+integer & {\em \$duration} & How long to cache the data, in seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the data was succesfully cached, false on failure  public 
+\end{DoxyReturn}
+
+
+\subsection{Field Documentation}
+\hypertarget{class_cache_memcache_ae7b98d2059d138bf69a5b67c3426d01a}{\index{Cache\-Memcache@{Cache\-Memcache}!\$memcache@{\$memcache}}
+\index{\$memcache@{\$memcache}!CacheMemcache@{Cache\-Memcache}}
+\subsubsection[{\$memcache}]{\setlength{\rightskip}{0pt plus 5cm}\$memcache = null}}\label{class_cache_memcache_ae7b98d2059d138bf69a5b67c3426d01a}
+\hypertarget{class_cache_memcache_ac7c3353107070daa85f641882931b358}{\index{Cache\-Memcache@{Cache\-Memcache}!\$settings@{\$settings}}
+\index{\$settings@{\$settings}!CacheMemcache@{Cache\-Memcache}}
+\subsubsection[{\$settings}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf settings} = array()}}\label{class_cache_memcache_ac7c3353107070daa85f641882931b358}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Q\-:/@websites@/coop/labs/dev2/class/cache/\hyperlink{memcache_8php}{memcache.\-php}\end{DoxyCompactItemize}

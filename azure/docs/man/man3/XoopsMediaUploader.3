@@ -1,0 +1,643 @@
+.TH "XoopsMediaUploader" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+XoopsMediaUploader \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBXoopsMediaUploader\fP ($uploadDir, $allowedMimeTypes=0, $maxFileSize, $maxWidth=0, $maxHeight=0)"
+.br
+.ti -1c
+.RI "\fBnoAdminSizeCheck\fP ($value)"
+.br
+.ti -1c
+.RI "\fBfetchMedia\fP ($media_name, $index=null)"
+.br
+.ti -1c
+.RI "\fBsetTargetFileName\fP ($value)"
+.br
+.ti -1c
+.RI "\fBsetPrefix\fP ($value)"
+.br
+.ti -1c
+.RI "\fBgetMediaName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMediaType\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMediaSize\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMediaTmpName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetSavedFileName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetSavedDestination\fP ()"
+.br
+.ti -1c
+.RI "\fBupload\fP ($chmod=0644)"
+.br
+.ti -1c
+.RI "\fB_copyFile\fP ($chmod)"
+.br
+.ti -1c
+.RI "\fBcheckMaxFileSize\fP ()"
+.br
+.ti -1c
+.RI "\fBcheckMaxWidth\fP ($dimension)"
+.br
+.ti -1c
+.RI "\fBcheckMaxHeight\fP ($dimension)"
+.br
+.ti -1c
+.RI "\fBcheckMimeType\fP ()"
+.br
+.ti -1c
+.RI "\fBsetErrors\fP ($error)"
+.br
+.ti -1c
+.RI "& \fBgetErrors\fP ($ashtml=true)"
+.br
+.ti -1c
+.RI "\fBXoopsMediaUploader\fP ($uploadDir, $allowedMimeTypes=0, $maxFileSize, $maxWidth=0, $maxHeight=0)"
+.br
+.ti -1c
+.RI "\fBnoAdminSizeCheck\fP ($value)"
+.br
+.ti -1c
+.RI "\fBfetchMedia\fP ($media_name, $index=null)"
+.br
+.ti -1c
+.RI "\fBsetTargetFileName\fP ($value)"
+.br
+.ti -1c
+.RI "\fBsetPrefix\fP ($value)"
+.br
+.ti -1c
+.RI "\fBgetMediaName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMediaType\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMediaSize\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMediaTmpName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetSavedFileName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetSavedDestination\fP ()"
+.br
+.ti -1c
+.RI "\fBupload\fP ($chmod=0644)"
+.br
+.ti -1c
+.RI "\fB_copyFile\fP ($chmod)"
+.br
+.ti -1c
+.RI "\fBcheckMaxFileSize\fP ()"
+.br
+.ti -1c
+.RI "\fBcheckMaxWidth\fP ($dimension)"
+.br
+.ti -1c
+.RI "\fBcheckMaxHeight\fP ($dimension)"
+.br
+.ti -1c
+.RI "\fBcheckMimeType\fP ()"
+.br
+.ti -1c
+.RI "\fBsetErrors\fP ($error)"
+.br
+.ti -1c
+.RI "& \fBgetErrors\fP ($ashtml=true)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$mediaName\fP"
+.br
+.ti -1c
+.RI "\fB$mediaType\fP"
+.br
+.ti -1c
+.RI "\fB$mediaSize\fP"
+.br
+.ti -1c
+.RI "\fB$mediaTmpName\fP"
+.br
+.ti -1c
+.RI "\fB$mediaError\fP"
+.br
+.ti -1c
+.RI "\fB$uploadDir\fP =''"
+.br
+.ti -1c
+.RI "\fB$allowedMimeTypes\fP = array()"
+.br
+.ti -1c
+.RI "\fB$maxFileSize\fP = 0"
+.br
+.ti -1c
+.RI "\fB$maxWidth\fP"
+.br
+.ti -1c
+.RI "\fB$maxHeight\fP"
+.br
+.ti -1c
+.RI "\fB$targetFileName\fP"
+.br
+.ti -1c
+.RI "\fB$prefix\fP"
+.br
+.ti -1c
+.RI "\fB$ext\fP"
+.br
+.ti -1c
+.RI "\fB$dimension\fP"
+.br
+.ti -1c
+.RI "\fB$errors\fP = array()"
+.br
+.ti -1c
+.RI "\fB$savedDestination\fP"
+.br
+.ti -1c
+.RI "\fB$savedFileName\fP"
+.br
+.ti -1c
+.RI "\fB$noadmin_sizecheck\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 71 of file uploader\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "_copyFile ($chmod)"
+Copy the file to its destination
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 350 of file uploader\&.php\&.
+.SS "_copyFile ($chmod)"
+Copy the file to its destination
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 357 of file uploader\&.php\&.
+.SS "checkMaxFileSize ()"
+Is the file the right size?
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 387 of file uploader\&.php\&.
+.SS "checkMaxFileSize ()"
+Is the file the right size?
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 394 of file uploader\&.php\&.
+.SS "checkMaxHeight ($dimension)"
+Is the picture the right height?
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 423 of file uploader\&.php\&.
+.SS "checkMaxHeight ($dimension)"
+Is the picture the right height?
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 430 of file uploader\&.php\&.
+.SS "checkMaxWidth ($dimension)"
+Is the picture the right width?
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 405 of file uploader\&.php\&.
+.SS "checkMaxWidth ($dimension)"
+Is the picture the right width?
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 412 of file uploader\&.php\&.
+.SS "checkMimeType ()"
+Is the file the right Mime type
+.PP
+(is there a right type of mime? ;-)
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 443 of file uploader\&.php\&.
+.SS "checkMimeType ()"
+Is the file the right Mime type
+.PP
+(is there a right type of mime? ;-)
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 450 of file uploader\&.php\&.
+.SS "fetchMedia ($media_name, $index = \fCnull\fP)"
+Fetch the uploaded file
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$media_name\fP Name of the file field 
+.br
+\fI$index\fP Index of the file (if more than one uploaded under that name)  $HTTP_POST_FILES 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 128 of file uploader\&.php\&.
+.SS "fetchMedia ($media_name, $index = \fCnull\fP)"
+Fetch the uploaded file
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$media_name\fP Name of the file field 
+.br
+\fI$index\fP Index of the file (if more than one uploaded under that name)  $HTTP_POST_FILES 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 135 of file uploader\&.php\&.
+.SS "& getErrors ($ashtml = \fCtrue\fP)"
+Get generated errors
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$ashtml\fP Format using HTML? 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array |string Array of array messages OR HTML string 
+.RE
+.PP
+
+.PP
+Definition at line 471 of file uploader\&.php\&.
+.SS "& getErrors ($ashtml = \fCtrue\fP)"
+Get generated errors
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$ashtml\fP Format using HTML? 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array |string Array of array messages OR HTML string 
+.RE
+.PP
+
+.PP
+Definition at line 478 of file uploader\&.php\&.
+.SS "getMediaName ()"
+Get the uploaded filename
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 233 of file uploader\&.php\&.
+.SS "getMediaName ()"
+Get the uploaded filename
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 240 of file uploader\&.php\&.
+.SS "getMediaSize ()"
+Get the size of the uploaded file
+.PP
+\fBReturns:\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 253 of file uploader\&.php\&.
+.SS "getMediaSize ()"
+Get the size of the uploaded file
+.PP
+\fBReturns:\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 260 of file uploader\&.php\&.
+.SS "getMediaTmpName ()"
+Get the temporary name that the uploaded file was stored under
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 263 of file uploader\&.php\&.
+.SS "getMediaTmpName ()"
+Get the temporary name that the uploaded file was stored under
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 270 of file uploader\&.php\&.
+.SS "getMediaType ()"
+Get the type of the uploaded file
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 243 of file uploader\&.php\&.
+.SS "getMediaType ()"
+Get the type of the uploaded file
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 250 of file uploader\&.php\&.
+.SS "getSavedDestination ()"
+Get the destination the file is saved to
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 283 of file uploader\&.php\&.
+.SS "getSavedDestination ()"
+Get the destination the file is saved to
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 290 of file uploader\&.php\&.
+.SS "getSavedFileName ()"
+Get the saved filename
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 273 of file uploader\&.php\&.
+.SS "getSavedFileName ()"
+Get the saved filename
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 280 of file uploader\&.php\&.
+.SS "setErrors ($error)"
+Add an error
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$error\fP 
+.RE
+.PP
+
+.PP
+Definition at line 460 of file uploader\&.php\&.
+.SS "setErrors ($error)"
+Add an error
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$error\fP 
+.RE
+.PP
+
+.PP
+Definition at line 467 of file uploader\&.php\&.
+.SS "setPrefix ($value)"
+Set the prefix
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP 
+.RE
+.PP
+
+.PP
+Definition at line 223 of file uploader\&.php\&.
+.SS "setPrefix ($value)"
+Set the prefix
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP 
+.RE
+.PP
+
+.PP
+Definition at line 230 of file uploader\&.php\&.
+.SS "setTargetFileName ($value)"
+Set the target filename
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP 
+.RE
+.PP
+
+.PP
+Definition at line 213 of file uploader\&.php\&.
+.SS "setTargetFileName ($value)"
+Set the target filename
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP 
+.RE
+.PP
+
+.PP
+Definition at line 220 of file uploader\&.php\&.
+.SS "upload ($chmod = \fC0644\fP)"
+Check the file and copy it to the destination
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 293 of file uploader\&.php\&.
+.SS "upload ($chmod = \fC0644\fP)"
+Check the file and copy it to the destination
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 300 of file uploader\&.php\&.
+.SS "\fBXoopsMediaUploader\fP ($uploadDir, $allowedMimeTypes = \fC0\fP, $maxFileSize, $maxWidth = \fC0\fP, $maxHeight = \fC0\fP)"
+Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$uploadDir\fP 
+.br
+\fI$allowedMimeTypes\fP 
+.br
+\fI$maxFileSize\fP 
+.br
+\fI$maxWidth\fP 
+.br
+\fI$maxHeight\fP 
+.br
+\fI$cmodvalue\fP 
+.RE
+.PP
+
+.PP
+Definition at line 97 of file uploader\&.php\&.
+.SS "\fBXoopsMediaUploader\fP ($uploadDir, $allowedMimeTypes = \fC0\fP, $maxFileSize, $maxWidth = \fC0\fP, $maxHeight = \fC0\fP)"
+Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$uploadDir\fP 
+.br
+\fI$allowedMimeTypes\fP 
+.br
+\fI$maxFileSize\fP 
+.br
+\fI$maxWidth\fP 
+.br
+\fI$maxHeight\fP 
+.br
+\fI$cmodvalue\fP 
+.RE
+.PP
+
+.PP
+Definition at line 104 of file uploader\&.php\&.
+.SH "Field Documentation"
+.PP 
+.SS "$noadmin_sizecheck"
+No admin check for uploads 
+.PP
+Definition at line 93 of file uploader\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

@@ -1,0 +1,424 @@
+.TH "soap_parser" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+soap_parser \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBnusoap_base\fP, and \fBnusoap_base\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsoap_parser\fP ($xml, $encoding='UTF-8', $method='', $decode_utf8=true)"
+.br
+.ti -1c
+.RI "\fBstart_element\fP ($parser, $name, $attrs)"
+.br
+.ti -1c
+.RI "\fBend_element\fP ($parser, $name)"
+.br
+.ti -1c
+.RI "\fBcharacter_data\fP ($parser, $data)"
+.br
+.ti -1c
+.RI "\fBget_response\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHeaders\fP ()"
+.br
+.ti -1c
+.RI "\fBdecodeSimple\fP ($value, $type, $typens)"
+.br
+.ti -1c
+.RI "\fBbuildVal\fP ($pos)"
+.br
+.ti -1c
+.RI "\fBsoap_parser\fP ($xml, $encoding='UTF-8', $method='', $decode_utf8=true)"
+.br
+.ti -1c
+.RI "\fBstart_element\fP ($parser, $name, $attrs)"
+.br
+.ti -1c
+.RI "\fBend_element\fP ($parser, $name)"
+.br
+.ti -1c
+.RI "\fBcharacter_data\fP ($parser, $data)"
+.br
+.ti -1c
+.RI "\fBget_response\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHeaders\fP ()"
+.br
+.ti -1c
+.RI "\fBdecodeSimple\fP ($value, $type, $typens)"
+.br
+.ti -1c
+.RI "\fBbuildVal\fP ($pos)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$xml\fP = ''"
+.br
+.ti -1c
+.RI "\fB$xml_encoding\fP = ''"
+.br
+.ti -1c
+.RI "\fB$method\fP = ''"
+.br
+.ti -1c
+.RI "\fB$root_struct\fP = ''"
+.br
+.ti -1c
+.RI "\fB$root_struct_name\fP = ''"
+.br
+.ti -1c
+.RI "\fB$root_struct_namespace\fP = ''"
+.br
+.ti -1c
+.RI "\fB$root_header\fP = ''"
+.br
+.ti -1c
+.RI "\fB$document\fP = ''"
+.br
+.ti -1c
+.RI "\fB$status\fP = ''"
+.br
+.ti -1c
+.RI "\fB$position\fP = 0"
+.br
+.ti -1c
+.RI "\fB$depth\fP = 0"
+.br
+.ti -1c
+.RI "\fB$default_namespace\fP = ''"
+.br
+.ti -1c
+.RI "\fB$namespaces\fP = array()"
+.br
+.ti -1c
+.RI "\fB$message\fP = array()"
+.br
+.ti -1c
+.RI "\fB$parent\fP = ''"
+.br
+.ti -1c
+.RI "\fB$fault\fP = false"
+.br
+.ti -1c
+.RI "\fB$fault_code\fP = ''"
+.br
+.ti -1c
+.RI "\fB$fault_str\fP = ''"
+.br
+.ti -1c
+.RI "\fB$fault_detail\fP = ''"
+.br
+.ti -1c
+.RI "\fB$depth_array\fP = array()"
+.br
+.ti -1c
+.RI "\fB$debug_flag\fP = true"
+.br
+.ti -1c
+.RI "\fB$soapresponse\fP = NULL"
+.br
+.ti -1c
+.RI "\fB$responseHeaders\fP = ''"
+.br
+.ti -1c
+.RI "\fB$body_position\fP = 0"
+.br
+.ti -1c
+.RI "\fB$ids\fP = array()"
+.br
+.ti -1c
+.RI "\fB$multirefs\fP = array()"
+.br
+.ti -1c
+.RI "\fB$decode_utf8\fP = true"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBsoap_parser\fP class parses SOAP XML messages into native PHP values
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.soap_parser\&.php\fP,v 1\&.36 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+\fBsoap_parser\fP class parses SOAP XML messages into native PHP values
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 14 of file class\&.soap_parser\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "buildVal ($pos)"
+builds response structures for compound values (arrays/structs) and scalars
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$pos\fP position in node tree 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed PHP value  private 
+.RE
+.PP
+
+.PP
+Definition at line 497 of file class\&.soap_parser\&.php\&.
+.SS "buildVal ($pos)"
+builds response structures for compound values (arrays/structs) and scalars
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$pos\fP position in node tree 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed PHP value  private 
+.RE
+.PP
+
+.PP
+Definition at line 6283 of file nusoap\&.php\&.
+.SS "character_data ($parser, $data)"
+element content handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$data\fP element content  private 
+.RE
+.PP
+
+.PP
+Definition at line 405 of file class\&.soap_parser\&.php\&.
+.SS "character_data ($parser, $data)"
+element content handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$data\fP element content  private 
+.RE
+.PP
+
+.PP
+Definition at line 6191 of file nusoap\&.php\&.
+.SS "decodeSimple ($value, $type, $typens)"
+decodes simple types into PHP variables
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP value to decode 
+.br
+\fI$type\fP XML type to decode 
+.br
+\fI$typens\fP XML type namespace to decode 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed PHP value  private 
+.RE
+.PP
+
+.PP
+Definition at line 453 of file class\&.soap_parser\&.php\&.
+.SS "decodeSimple ($value, $type, $typens)"
+decodes simple types into PHP variables
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP value to decode 
+.br
+\fI$type\fP XML type to decode 
+.br
+\fI$typens\fP XML type namespace to decode 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed PHP value  private 
+.RE
+.PP
+
+.PP
+Definition at line 6239 of file nusoap\&.php\&.
+.SS "end_element ($parser, $name)"
+end-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name  private 
+.RE
+.PP
+
+.PP
+Definition at line 301 of file class\&.soap_parser\&.php\&.
+.SS "end_element ($parser, $name)"
+end-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name  private 
+.RE
+.PP
+
+.PP
+Definition at line 6087 of file nusoap\&.php\&.
+.SS "get_response ()"
+get the parsed message
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+
+.PP
+Definition at line 430 of file class\&.soap_parser\&.php\&.
+.SS "get_response ()"
+get the parsed message
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+
+.PP
+Definition at line 6216 of file nusoap\&.php\&.
+.SS "getHeaders ()"
+get the parsed headers
+.PP
+\fBReturns:\fP
+.RS 4
+string XML or empty if no headers  public 
+.RE
+.PP
+
+.PP
+Definition at line 440 of file class\&.soap_parser\&.php\&.
+.SS "getHeaders ()"
+get the parsed headers
+.PP
+\fBReturns:\fP
+.RS 4
+string XML or empty if no headers  public 
+.RE
+.PP
+
+.PP
+Definition at line 6226 of file nusoap\&.php\&.
+.SS "\fBsoap_parser\fP ($xml, $encoding = \fC'UTF-8'\fP, $method = \fC''\fP, $decode_utf8 = \fCtrue\fP)"
+constructor that actually does the parsing
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$xml\fP SOAP message 
+.br
+\fI$encoding\fP character encoding scheme of message 
+.br
+\fI$method\fP method for which XML is parsed (unused?) 
+.br
+\fI$decode_utf8\fP whether to decode UTF-8 to ISO-8859-1  public 
+.RE
+.PP
+
+.PP
+Definition at line 58 of file class\&.soap_parser\&.php\&.
+.SS "\fBsoap_parser\fP ($xml, $encoding = \fC'UTF-8'\fP, $method = \fC''\fP, $decode_utf8 = \fCtrue\fP)"
+constructor that actually does the parsing
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$xml\fP SOAP message 
+.br
+\fI$encoding\fP character encoding scheme of message 
+.br
+\fI$method\fP method for which XML is parsed (unused?) 
+.br
+\fI$decode_utf8\fP whether to decode UTF-8 to ISO-8859-1  public 
+.RE
+.PP
+
+.PP
+Definition at line 5844 of file nusoap\&.php\&.
+.SS "start_element ($parser, $name, $attrs)"
+start-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name 
+.br
+\fI$attrs\fP associative array of attributes  private 
+.RE
+.PP
+
+.PP
+Definition at line 150 of file class\&.soap_parser\&.php\&.
+.SS "start_element ($parser, $name, $attrs)"
+start-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name 
+.br
+\fI$attrs\fP associative array of attributes  private 
+.RE
+.PP
+
+.PP
+Definition at line 5936 of file nusoap\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

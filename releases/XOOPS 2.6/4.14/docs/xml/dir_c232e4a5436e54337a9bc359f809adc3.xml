@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_c232e4a5436e54337a9bc359f809adc3" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class</compoundname>
+    <innerdir refid="dir_22bc29c42c7e1ab0eaaec60e3879c46f">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/auth</innerdir>
+    <innerfile refid="curl_8php">curl.php</innerfile>
+    <innerfile refid="curlserialised_8php">curlserialised.php</innerfile>
+    <innerfile refid="curlxml_8php">curlxml.php</innerfile>
+    <innerfile refid="emails_8php">emails.php</innerfile>
+    <innerfile refid="emails__links_8php">emails_links.php</innerfile>
+    <innerfile refid="class_2json_8php">json.php</innerfile>
+    <innerfile refid="log_8php">log.php</innerfile>
+    <innerfile refid="minimumcloud_8php">minimumcloud.php</innerfile>
+    <innerfile refid="rest__curl_8php">rest_curl.php</innerfile>
+    <innerfile refid="rest__curlserialised_8php">rest_curlserialised.php</innerfile>
+    <innerfile refid="rest__curlxml_8php">rest_curlxml.php</innerfile>
+    <innerfile refid="rest__json_8php">rest_json.php</innerfile>
+    <innerfile refid="rest__wgetserialised_8php">rest_wgetserialised.php</innerfile>
+    <innerfile refid="rest__wgetxml_8php">rest_wgetxml.php</innerfile>
+    <innerfile refid="class_2servers_8php">servers.php</innerfile>
+    <innerfile refid="soap_8php">soap.php</innerfile>
+    <innerfile refid="wgetserialised_8php">wgetserialised.php</innerfile>
+    <innerfile refid="wgetxml_8php">wgetxml.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="unban_2include_2forms_8php" kind="file">
+    <compoundname>forms.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="unban_2include_2forms_8php_1afe9169534dbc3935c0823c21cfbf68bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$module_handler</definition>
+        <argsstring></argsstring>
+        <name>$module_handler</name>
+        <initializer>=&amp; xoops_gethandler( &apos;module&apos; )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php" line="13" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2include_2forms_8php_1a3906023967379550e215cdec8f56ae20" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config_handler</definition>
+        <argsstring></argsstring>
+        <name>$config_handler</name>
+        <initializer>=&amp; xoops_gethandler( &apos;config&apos; )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2include_2forms_8php_1afdc36dd9c85ac1e819ccc0a80595aa00" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xoModule</definition>
+        <argsstring></argsstring>
+        <name>$xoModule</name>
+        <initializer>=&amp; $module_handler-&gt;getByDirname(&apos;unban&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php" line="15" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2include_2forms_8php_1a13d14b7bb8295f53c1736f897674ea12" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xoopsModuleConfig&apos;]</definition>
+        <argsstring>[&apos;xoopsModuleConfig&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= $config_handler-&gt;getConfigList( $xoModule-&gt;getVar( &apos;mid&apos; ) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&quot;/class/xoopsformloader.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Include<sp/>Internal<sp/>Form<sp/>Objects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&quot;/modules/unban/class/formselectcategory.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&quot;/modules/unban/class/formselectmember.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&quot;/modules/unban/class/formrecaptcha.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Include<sp/>Forms</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&quot;/modules/unban/include/members.forms.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&quot;/modules/unban/include/categories.forms.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>$module_handler<sp/>=&amp;<sp/>xoops_gethandler(<sp/></highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>$config_handler<sp/>=&amp;<sp/>xoops_gethandler(<sp/></highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>$xoModule<sp/>=&amp;<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;unban&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsModuleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$config_handler-&gt;getConfigList(<sp/>$xoModule-&gt;getVar(<sp/></highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/include/forms.php"/>
+  </compounddef>
+</doxygen>

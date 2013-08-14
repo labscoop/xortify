@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespaceclass" kind="namespace">
+    <compoundname>class</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>XOOPS form element of dhtmltextarea</para><para><simplesect kind="copyright"><para>The XOOPS Project <ulink url="http://sourceforge.net/projects/xoops/">http://sourceforge.net/projects/xoops/</ulink>  GNU GPL 2 (<ulink url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</ulink>)</para></simplesect>
+xoopsform <simplesect kind="since"><para>2.0.0 </para></simplesect>
+<simplesect kind="author"><para>Kazumi Ono (AKA onokazu) <ulink url="http://www.myweb.ne.jp/,">http://www.myweb.ne.jp/,</ulink> <ulink url="http://jp.xoops.org/">http://jp.xoops.org/</ulink> </para><simplesectsep/><para>Taiwen Jiang <ulink url="mailto:phppp@users.sourceforge.net">phppp@users.sourceforge.net</ulink> </para><simplesectsep/><para>Vinod <ulink url="mailto:smartvinu@gmail.com">smartvinu@gmail.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="formdhtmltextarea_8php" kindref="compound">formdhtmltextarea.php</ref> 9392 2012-04-27 21:49:29Z mageg </para></simplesect>
+</para><para>XOOPS Form element of editor</para><para><simplesect kind="copyright"><para>The XOOPS Project <ulink url="http://sourceforge.net/projects/xoops/">http://sourceforge.net/projects/xoops/</ulink>  GNU GPL 2 (<ulink url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</ulink>)</para></simplesect>
+xoopsform <simplesect kind="since"><para>2.0.0 </para></simplesect>
+<simplesect kind="author"><para>Taiwen Jiang <ulink url="mailto:phppp@users.sourceforge.net">phppp@users.sourceforge.net</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="formeditor_8php" kindref="compound">formeditor.php</ref> 8271 2011-11-11 19:46:00Z trabis </para></simplesect>
+</para><para>XOOPS form element of text area</para><para><simplesect kind="copyright"><para>The XOOPS Project <ulink url="http://sourceforge.net/projects/xoops/">http://sourceforge.net/projects/xoops/</ulink>  GNU GPL 2 (<ulink url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</ulink>)</para></simplesect>
+xoopsform <simplesect kind="since"><para>2.0.0 </para></simplesect>
+<simplesect kind="author"><para>Kazumi Ono (AKA onokazu) <ulink url="http://www.myweb.ne.jp/,">http://www.myweb.ne.jp/,</ulink> <ulink url="http://jp.xoops.org/">http://jp.xoops.org/</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="formtextarea_8php" kindref="compound">formtextarea.php</ref> 9392 2012-04-27 21:49:29Z mageg </para></simplesect>
+</para>    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="17" column="1"/>
+  </compounddef>
+</doxygen>

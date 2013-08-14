@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xrest_2admin_2admin__header_8php" kind="file">
+    <compoundname>admin_header.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1a68a3115a9d21b3451b1b631ea0aa45a8" prot="public" static="no" mutable="no">
+        <type>if(!defined(&apos;_CHARSET&apos;)) define(&quot;_CHARSET&quot;</type>
+        <definition>if (!defined(&apos;_CHARSET&apos;)) define(&quot;_CHARSET&quot; UTF</definition>
+        <argsstring></argsstring>
+        <name>UTF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1a925a4f82eb4a8af51868be3473dd6cb3" prot="public" static="no" mutable="no">
+        <type>if(!defined(&apos;_CHARSET_ISO&apos;)) define(&quot;_CHARSET_ISO&quot;</type>
+        <definition>if (!defined(&apos;_CHARSET_ISO&apos;)) define(&quot;_CHARSET_ISO&quot; ISO</definition>
+        <argsstring></argsstring>
+        <name>ISO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1aea741b6e2c7fbb6439b8cdb3091591a4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;myts&apos;]</definition>
+        <argsstring>[&apos;myts&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= MyTextSanitizer::getInstance()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1afe9169534dbc3935c0823c21cfbf68bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$module_handler</definition>
+        <argsstring></argsstring>
+        <name>$module_handler</name>
+        <initializer>= xoops_gethandler(&apos;module&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1a3906023967379550e215cdec8f56ae20" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config_handler</definition>
+        <argsstring></argsstring>
+        <name>$config_handler</name>
+        <initializer>= xoops_gethandler(&apos;config&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1acd4ef9bfa880632da64d490efbbb91a3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xrestModule&apos;]</definition>
+        <argsstring>[&apos;xrestModule&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= $module_handler-&gt;getByDirname(&apos;xrest&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1a0b5fde6db1f60e00d9e377a7a3663fa8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xrestModuleConfig&apos;]</definition>
+        <argsstring>[&apos;xrestModuleConfig&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= $config_handler-&gt;getConfigList($GLOBALS[&apos;xrestModule&apos;]-&gt;getVar(&apos;mid&apos;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1abeec3bb8da31e2d7ea01403e08a70401" prot="public" static="no" mutable="no">
+        <type>if(file_exists($GLOBALS[&apos;xoops&apos;]-&gt;path(&apos;/Frameworks/moduleclasses/moduleadmin/moduleadmin.php&apos;)))</type>
+        <definition>if ($GLOBALS[&apos;xoopsUser&apos;]) else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{
+        echo xoops_error(&quot;Error: You don&apos;t use the Frameworks \&quot;admin module\&quot;. Please install this Frameworks&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1a2828a574e3fda4525aba7a7b9397dd95" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xrestImageIcon&apos;]</definition>
+        <argsstring>[&apos;xrestImageIcon&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= XOOPS_URL .&apos;/&apos;. $GLOBALS[&apos;xrestModule&apos;]-&gt;getInfo(&apos;icons16&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1a10e2c07b726811bafb7022d26eacbcc2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xrestImageAdmin&apos;]</definition>
+        <argsstring>[&apos;xrestImageAdmin&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= XOOPS_URL .&apos;/&apos;. $GLOBALS[&apos;xrestModule&apos;]-&gt;getInfo(&apos;icons32&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2admin_2admin__header_8php_1a1bb61e47c8a69382c4ce3d9cbbb22f20" prot="public" static="no" mutable="no">
+        <type>IF(!@include_once XOOPS_ROOT_PATH.&quot;/Frameworks/art/functions.admin.php&quot;)($currentoption, $breadcrumb=&quot;&quot;)</type>
+        <definition>IF (!@ include_once XOOPS_ROOT_PATH.&quot;/Frameworks/art/functions.admin.php&quot;) ($currentoption, $breadcrumb=&quot;&quot;) ENDIF</definition>
+        <argsstring></argsstring>
+        <name>ENDIF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" line="132" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">include(dirname(dirname(dirname(dirname(__FILE__)))).<sp/></highlight><highlight class="stringliteral">&apos;include&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;cp_header.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!defined(</highlight><highlight class="stringliteral">&apos;_CHARSET&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>define<sp/>(</highlight><highlight class="stringliteral">&quot;_CHARSET&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;UTF-8&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!defined(</highlight><highlight class="stringliteral">&apos;_CHARSET_ISO&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>define<sp/>(</highlight><highlight class="stringliteral">&quot;_CHARSET_ISO&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;ISO-8859-1&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;myts&apos;</highlight><highlight class="normal">]<sp/>=<sp/>MyTextSanitizer::getInstance();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">$module_handler<sp/>=<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">$config_handler<sp/>=<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;xrest&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$config_handler-&gt;getConfigList($GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">));<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">xoops_load(</highlight><highlight class="stringliteral">&apos;pagenav&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">xoops_load(</highlight><highlight class="stringliteral">&apos;xoopslists&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">xoops_load(</highlight><highlight class="stringliteral">&apos;xoopsformloader&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;class&apos;</highlight><highlight class="normal">.DS.</highlight><highlight class="stringliteral">&apos;xoopsmailer.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;class&apos;</highlight><highlight class="normal">.DS.</highlight><highlight class="stringliteral">&apos;xoopstree.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>file_exists($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;/Frameworks/moduleclasses/moduleadmin/moduleadmin.php&apos;</highlight><highlight class="normal">))){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;/Frameworks/moduleclasses/moduleadmin/moduleadmin.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//return<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>xoops_error(</highlight><highlight class="stringliteral">&quot;Error:<sp/>You<sp/>don&apos;t<sp/>use<sp/>the<sp/>Frameworks<sp/>\&quot;admin<sp/>module\&quot;.<sp/>Please<sp/>install<sp/>this<sp/>Frameworks&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//return<sp/>false;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestImageIcon&apos;</highlight><highlight class="normal">]<sp/>=<sp/>XOOPS_URL<sp/>.</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">.<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getInfo(</highlight><highlight class="stringliteral">&apos;icons16&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestImageAdmin&apos;</highlight><highlight class="normal">]<sp/>=<sp/>XOOPS_URL<sp/>.</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">.<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getInfo(</highlight><highlight class="stringliteral">&apos;icons32&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>$moduleperm_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;groupperm&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$moduleperm_handler-&gt;checkRight(</highlight><highlight class="stringliteral">&apos;module_admin&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(<sp/></highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal"><sp/>),<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;getGroups()))<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>redirect_header(XOOPS_URL,<sp/>1,<sp/>_NOPERM);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>redirect_header(XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/user.php&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>_NOPERM);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>exit();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">])<sp/>||<sp/>!is_object($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once(XOOPS_ROOT_PATH.</highlight><highlight class="stringliteral">&quot;/class/template.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsTpl();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;pathImageIcon&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestImageIcon&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;/modules/xrest/include/common.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;/modules/xrest/include/functions.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;/modules/xrest/include/forms.xrest.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">xoops_load(</highlight><highlight class="stringliteral">&apos;pagenav&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">xoops_load(</highlight><highlight class="stringliteral">&apos;xoopsmultimailer&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">IF<sp/>(!@<sp/>include_once<sp/>XOOPS_ROOT_PATH.</highlight><highlight class="stringliteral">&quot;/Frameworks/art/functions.admin.php&quot;</highlight><highlight class="normal">):<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">function<sp/>loadModuleAdminMenu($currentoption,<sp/>$breadcrumb<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$adminmenu<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getAdminMenu())<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>$breadcrumb<sp/>=<sp/>empty($breadcrumb)<sp/>?<sp/>$adminmenu[$currentoption][</highlight><highlight class="stringliteral">&quot;title&quot;</highlight><highlight class="normal">]<sp/>:<sp/>$breadcrumb;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>$module_link<sp/>=<sp/>XOOPS_URL.</highlight><highlight class="stringliteral">&quot;/modules/&quot;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&quot;dirname&quot;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>$image_link<sp/>=<sp/>XOOPS_URL.</highlight><highlight class="stringliteral">&quot;/modules/&quot;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&quot;dirname&quot;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&quot;/images&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>$adminmenu_text<sp/>=</highlight><highlight class="stringliteral">&apos;</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;style<sp/>type=&quot;text/css&quot;&gt;</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;!--</highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttontop<sp/>{<sp/>float:left;<sp/>width:100%;<sp/>background:<sp/>#e7e7e7;<sp/>font-size:93%;<sp/>line-height:normal;<sp/>border-top:<sp/>1px<sp/>solid<sp/>black;<sp/>border-left:<sp/>1px<sp/>solid<sp/>black;<sp/>border-right:<sp/>1px<sp/>solid<sp/>black;<sp/>margin:<sp/>0;}</highlight></codeline>
+<codeline lineno="90"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>{<sp/>float:left;<sp/>width:100%;<sp/>background:<sp/>#e7e7e7<sp/>url(&quot;&apos;</highlight><highlight class="normal">.$image_link.</highlight><highlight class="stringliteral">&apos;/modadminbg.gif&quot;)<sp/>repeat-x<sp/>left<sp/>bottom;<sp/>font-size:93%;<sp/>line-height:normal;<sp/>border-left:<sp/>1px<sp/>solid<sp/>black;<sp/>border-right:<sp/>1px<sp/>solid<sp/>black;<sp/>margin-bottom:<sp/>12px;}</highlight></codeline>
+<codeline lineno="91"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>ul<sp/>{<sp/>margin:0;<sp/>margin-top:<sp/>15px;<sp/>padding:10px<sp/>10px<sp/>0;<sp/>list-style:none;<sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>li<sp/>{<sp/>display:inline;<sp/>margin:0;<sp/>padding:0;<sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>a<sp/>{<sp/>float:left;<sp/>background:url(&quot;&apos;</highlight><highlight class="normal">.$image_link.</highlight><highlight class="stringliteral">&apos;/left_both.gif&quot;)<sp/>no-repeat<sp/>left<sp/>top;<sp/>margin:0;<sp/>padding:0<sp/>0<sp/>0<sp/>9px;<sp/>border-bottom:1px<sp/>solid<sp/>#000;<sp/>text-decoration:none;<sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>a<sp/>span<sp/>{<sp/>float:left;<sp/>display:block;<sp/>background:url(&quot;&apos;</highlight><highlight class="normal">.$image_link.</highlight><highlight class="stringliteral">&apos;/right_both.gif&quot;)<sp/>no-repeat<sp/>right<sp/>top;<sp/>padding:5px<sp/>15px<sp/>4px<sp/>6px;<sp/>font-weight:bold;<sp/>color:#765;<sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>/*<sp/>Commented<sp/>Backslash<sp/>Hack<sp/>hides<sp/>rule<sp/>from<sp/>IE5-Mac<sp/>\*/</highlight></codeline>
+<codeline lineno="96"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>a<sp/>span<sp/>{float:none;}</highlight></codeline>
+<codeline lineno="97"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>/*<sp/>End<sp/>IE5-Mac<sp/>hack<sp/>*/</highlight></codeline>
+<codeline lineno="98"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>a:hover<sp/>span<sp/>{<sp/>color:#333;<sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>.current<sp/>a<sp/>{<sp/>background-position:0<sp/>-150px;<sp/>border-width:0;<sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>.current<sp/>a<sp/>span<sp/>{<sp/>background-position:100%<sp/>-150px;<sp/>padding-bottom:5px;<sp/>color:#333;<sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>a:hover<sp/>{<sp/>background-position:0%<sp/>-150px;<sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>#buttonbar<sp/>a:hover<sp/>span<sp/>{<sp/>background-position:100%<sp/>-150px;<sp/>}<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>//--&gt;</highlight></codeline>
+<codeline lineno="104"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;/style&gt;</highlight></codeline>
+<codeline lineno="105"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;div<sp/>id=&quot;buttontop&quot;&gt;</highlight></codeline>
+<codeline lineno="106"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/>&lt;table<sp/>style=&quot;width:<sp/>100%;<sp/>padding:<sp/>0;<sp/>&quot;<sp/>cellspacing=&quot;0&quot;&gt;</highlight></codeline>
+<codeline lineno="107"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;tr&gt;</highlight></codeline>
+<codeline lineno="108"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td<sp/>style=&quot;width:<sp/>70%;<sp/>font-size:<sp/>10px;<sp/>text-align:<sp/>left;<sp/>color:<sp/>#2F5376;<sp/>padding:<sp/>0<sp/>6px;<sp/>line-height:<sp/>18px;&quot;&gt;</highlight></codeline>
+<codeline lineno="109"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;../index.php&quot;&gt;&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;/a&gt;</highlight></codeline>
+<codeline lineno="110"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline lineno="111"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;td<sp/>style=&quot;width:<sp/>30%;<sp/>font-size:<sp/>10px;<sp/>text-align:<sp/>right;<sp/>color:<sp/>#2F5376;<sp/>padding:<sp/>0<sp/>6px;<sp/>line-height:<sp/>18px;&quot;&gt;</highlight></codeline>
+<codeline lineno="112"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;strong&gt;&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;/strong&gt;&amp;nbsp;&apos;</highlight><highlight class="normal">.$breadcrumb.</highlight><highlight class="stringliteral">&apos;</highlight></codeline>
+<codeline lineno="113"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/td&gt;</highlight></codeline>
+<codeline lineno="114"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/tr&gt;</highlight></codeline>
+<codeline lineno="115"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/>&lt;/table&gt;</highlight></codeline>
+<codeline lineno="116"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="117"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;div<sp/>id=&quot;buttonbar&quot;&gt;</highlight></codeline>
+<codeline lineno="118"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/>&lt;ul&gt;</highlight></codeline>
+<codeline lineno="119"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(array_keys($adminmenu)<sp/>as<sp/>$key)<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$adminmenu_text<sp/>.=<sp/>(($currentoption<sp/>==<sp/>$key)<sp/>?<sp/></highlight><highlight class="stringliteral">&apos;&lt;li<sp/>class=&quot;current&quot;&gt;&apos;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&apos;&lt;li&gt;&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;a<sp/>href=&quot;&apos;</highlight><highlight class="normal">.$module_link.$adminmenu[$key][</highlight><highlight class="stringliteral">&quot;link&quot;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;&quot;&gt;&lt;span&gt;&apos;</highlight><highlight class="normal">.$adminmenu[$key][</highlight><highlight class="stringliteral">&quot;title&quot;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>$adminmenu_text<sp/>.=<sp/></highlight><highlight class="stringliteral">&apos;&lt;li&gt;&lt;a<sp/>href=&quot;&apos;</highlight><highlight class="normal">.XOOPS_URL.</highlight><highlight class="stringliteral">&apos;/modules/system/admin.php?fct=preferences&amp;op=showmod&amp;mod=&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&quot;mid&quot;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&quot;&gt;&lt;span&gt;&apos;</highlight><highlight class="normal">._PREFERENCES.</highlight><highlight class="stringliteral">&apos;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>$adminmenu_text<sp/>.=<sp/></highlight><highlight class="stringliteral">&apos;</highlight></codeline>
+<codeline lineno="125"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/>&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="126"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="127"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;br<sp/>style=&quot;clear:both;&quot;<sp/>/&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>$adminmenu_text;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">ENDIF;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/admin/admin_header.php"/>
+  </compounddef>
+</doxygen>

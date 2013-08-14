@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xxml_2language_2english_2admin_8php" kind="file">
+    <compoundname>admin.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xxml_2language_2english_2admin_8php_1a5f1769aa1db3172e5a168e16dd6a5abd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XXMLC_PLUGINAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XXMLC_PLUGINAVAILABLE</name>
+        <initializer>&apos;xml Plugins Available&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xxml_2language_2english_2admin_8php_1ab4efad8ca7aa5e42a4f64bd7598a3b76" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XXMLC_SELECTTABLE</definition>
+        <argsstring></argsstring>
+        <name>_XXMLC_SELECTTABLE</name>
+        <initializer>&apos;Please Select Table to Work with&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xxml_2language_2english_2admin_8php_1a6f889656b4e3d01927799f6dbd0093d4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XXMLC_TABLESAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XXMLC_TABLESAVAILABLE</name>
+        <initializer>&apos;Tables available in database&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xxml_2language_2english_2admin_8php_1a56f7d014cc74e5426027e7b1d7c93d85" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XXMLC_FIELDOPTIONSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XXMLC_FIELDOPTIONSFOR</name>
+        <initializer>&apos;Field options within the table selected&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xxml_2language_2english_2admin_8php_1a428f6f2e2ff88bd978ba24f70db95362" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XXMLC_VIEWSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XXMLC_VIEWSFOR</name>
+        <initializer>&apos;Views available in database&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xxml_2language_2english_2admin_8php_1af39a35380a2e3cc9caca342a0c7acb74" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XXMLC_WSDLSUCCESSFUL</definition>
+        <argsstring></argsstring>
+        <name>_XXMLC_WSDLSUCCESSFUL</name>
+        <initializer>&apos;Writting WDSL Successful&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xxml_2language_2english_2admin_8php_1a223b003cedbd306a6622f3d5da31b0b3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XXMLC_WSDLUNSUCCESSFUL</definition>
+        <argsstring></argsstring>
+        <name>_XXMLC_WSDLUNSUCCESSFUL</name>
+        <initializer>&apos;Writting WDSL was Unsuccessful&lt;br/&gt;Please check the permissioning of the xxml folder and make sure it is writable&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XXMLC_PLUGINAVAILABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xml<sp/>Plugins<sp/>Available&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XXMLC_PLUGINAVAILABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xml<sp/>Plugins<sp/>Available&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XXMLC_SELECTTABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Please<sp/>Select<sp/>Table<sp/>to<sp/>Work<sp/>with&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XXMLC_TABLESAVAILABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Tables<sp/>available<sp/>in<sp/>database&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XXMLC_FIELDOPTIONSFOR&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Field<sp/>options<sp/>within<sp/>the<sp/>table<sp/>selected&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XXMLC_VIEWSFOR&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Views<sp/>available<sp/>in<sp/>database&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XXMLC_WSDLSUCCESSFUL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Writting<sp/>WDSL<sp/>Successful&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XXMLC_WSDLUNSUCCESSFUL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Writting<sp/>WDSL<sp/>was<sp/>Unsuccessful&lt;br/&gt;Please<sp/>check<sp/>the<sp/>permissioning<sp/>of<sp/>the<sp/>xxml<sp/>folder<sp/>and<sp/>make<sp/>sure<sp/>it<sp/>is<sp/>writable&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xxml/language/english/admin.php"/>
+  </compounddef>
+</doxygen>

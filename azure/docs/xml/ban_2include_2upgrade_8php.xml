@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2include_2upgrade_8php" kind="file">
+    <compoundname>upgrade.php</compoundname>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ban_2include_2upgrade_8php_1a0e17fbd1d8457e1d97e5792dd1bee018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>xoops_module_update_ban</definition>
+        <argsstring>(&amp;$module)</argsstring>
+        <name>xoops_module_update_ban</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$module</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/include/upgrade.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/include/upgrade.php" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">/*<sp/><sp/>Updates<sp/>the<sp/>module</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/><sp/>xoops_module_update_ban(&amp;$module)</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*<sp/><sp/>@param<sp/>object<sp/>XoopsModule|$module<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Module<sp/>being<sp/>upgraded<sp/>(Old<sp/>Instance)</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*<sp/><sp/>@return<sp/>boolean</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>xoops_module_update_ban(&amp;$module)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/include/upgrade.php"/>
+  </compounddef>
+</doxygen>

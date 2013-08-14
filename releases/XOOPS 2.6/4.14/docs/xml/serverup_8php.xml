@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="serverup_8php" kind="file">
+    <compoundname>serverup.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="serverup_8php_1a58e794bee7ddf93b7733e35ac71cf8ed" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SERVER1(PHP- &apos;.PHP_VERSION.&apos;) &apos;.(defined(&apos;XOOPS_VERSION&apos;)?constant(&apos;XOOPS_VERSION&apos;).&apos; &apos;</definition>
+        <argsstring>(PHP- &apos;.PHP_VERSION.&apos;) &apos;.(defined(&apos;XOOPS_VERSION&apos;)?constant(&apos;XOOPS_VERSION&apos;).&apos; &apos;</argsstring>
+        <name>SERVER1</name>
+        <initializer>&apos;http://xortify.com/unban/?op=unban&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="108" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a8a17ba733d7bbbe191983c1998184298" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SERVER2</definition>
+        <argsstring></argsstring>
+        <name>SERVER2</name>
+        <initializer>&apos;http://xortify.xoops.org/unban/?op=unban&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="109" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a4bec4584771b978c7de363db5d597cd2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SERVER3</definition>
+        <argsstring></argsstring>
+        <name>SERVER3</name>
+        <initializer>&apos;http://xortify.chronolabs.coop/unban/?op=unban&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="110" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a4223a719e1c916bf302beb9b827fc632" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const REPLACE</definition>
+        <argsstring></argsstring>
+        <name>REPLACE</name>
+        <initializer>&apos;unban/?op=unban&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="111" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a9be718298ebd995eb6a5145cf8857de4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SEARCHFOR</definition>
+        <argsstring></argsstring>
+        <name>SEARCHFOR</name>
+        <initializer>&apos;Solve Puzzel:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="112" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1abd77e417d95ee59b739e54a62fe97fbc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SOAP</definition>
+        <argsstring></argsstring>
+        <name>SOAP</name>
+        <initializer>&apos;soap/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="113" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1ad0bd3808c083915191b2eb89901e57c0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const CURL</definition>
+        <argsstring></argsstring>
+        <name>CURL</name>
+        <initializer>&apos;curl/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="114" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1addb3dc7c4a57b9cee800f894e6dc2b4d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const JSON</definition>
+        <argsstring></argsstring>
+        <name>JSON</name>
+        <initializer>&apos;json/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="115" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a2f015ddb4cf5e19b82bf7191a2a3e9fa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SERIAL</definition>
+        <argsstring></argsstring>
+        <name>SERIAL</name>
+        <initializer>&apos;serial/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="116" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a5f33028773b1db8e11fcd34516dacb28" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const XML</definition>
+        <argsstring></argsstring>
+        <name>XML</name>
+        <initializer>&apos;xml/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="117" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a1273e4f6dfecad5cc711360770b7d784" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const REST</definition>
+        <argsstring></argsstring>
+        <name>REST</name>
+        <initializer>&apos;rest/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="118" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1afe9169534dbc3935c0823c21cfbf68bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$module_handler</definition>
+        <argsstring></argsstring>
+        <name>$module_handler</name>
+        <initializer>= $GLOBALS[&apos;xoops&apos;]-&gt;getHandler(&apos;module&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="122" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a3906023967379550e215cdec8f56ae20" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config_handler</definition>
+        <argsstring></argsstring>
+        <name>$config_handler</name>
+        <initializer>= $GLOBALS[&apos;xoops&apos;]-&gt;getHandler(&apos;config&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="123" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$configitem_handler</definition>
+        <argsstring></argsstring>
+        <name>$configitem_handler</name>
+        <initializer>= $GLOBALS[&apos;xoops&apos;]-&gt;getHandler(&apos;configitem&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="124" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a45a3b595731ee647ebed75a62561beeb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$serverup</definition>
+        <argsstring></argsstring>
+        <name>$serverup</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="131" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="serverup_8php_1ab3bee0b0adc9956c66ef9b6bf2d54213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>xortify_getURLData</definition>
+        <argsstring>($URI, $curl=false)</argsstring>
+        <name>xortify_getURLData</name>
+        <param>
+          <declname>$URI</declname>
+        </param>
+        <param>
+          <declname>$curl</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" line="46" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php" bodystart="46" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Prevents<sp/>Spam,<sp/>Harvesting,<sp/>Human<sp/>Rights<sp/>Abuse,<sp/>Captcha<sp/>Abuse<sp/>etc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>basic<sp/>statistic<sp/>of<sp/>them<sp/>in<sp/>XOOPS<sp/>Copyright<sp/>(C)<sp/>2012<sp/>Simon<sp/>Roberts<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Contact:<sp/>wishcraft<sp/>-<sp/>simon@labs.coop</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>See<sp/>/docs/license.pdf<sp/>for<sp/>full<sp/>license.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Shouts:-<sp/><sp/><sp/><sp/><sp/>Mamba<sp/>(www.xoops.org),<sp/>flipse<sp/>(www.nlxoops.nl)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Many<sp/>thanks<sp/>for<sp/>your<sp/>additional<sp/>work<sp/>with<sp/>version<sp/>1.01</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>@Version:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4.11<sp/>Final<sp/>(Stable)</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>@copyright:<sp/><sp/><sp/><sp/><sp/><sp/>Chronolabs<sp/>Cooperative<sp/>2013<sp/>© Simon<sp/>Roberts<sp/>(www.simonaroberts.com)</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>@download:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>http://sourceforge.net/projects/xortify</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>@file:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serverup.php<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>@description:<sp/><sp/><sp/><sp/>Tests<sp/>to<sp/>see<sp/>if<sp/>a<sp/>service<sp/>is<sp/>available,<sp/>otherwise<sp/>disables<sp/>module.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>@date:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>26/07/2013<sp/>19:40<sp/>AEST</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>@license:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GNU3<sp/>(http://web.labs.coop/public/legal/general-public-licence/13,3.html)</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>@package<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xortify</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>@subpackage<sp/><sp/><sp/><sp/><sp/><sp/>xortify</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>@author<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Simon<sp/>A.<sp/>Roberts<sp/>-<sp/>wishcraft<sp/>(simon@labs.coop)</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>dirname(dirname(dirname(dirname(__FILE__)))).</highlight><highlight class="stringliteral">&apos;/mainfile.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>dirname(dirname(__FILE__)).</highlight><highlight class="stringliteral">&apos;/include/functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Retrieve<sp/>URL<sp/>Source<sp/>for<sp/>Data<sp/>and<sp/>analysis</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="serverup_8php_1ab3bee0b0adc9956c66ef9b6bf2d54213" kindref="member">xortify_getURLData</ref>($URI,<sp/>$curl=</highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>($curl)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$ch<sp/>=<sp/>curl_init($URI))<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>trigger_error(</highlight><highlight class="stringliteral">&apos;Could<sp/>not<sp/>intialise<sp/>CURL<sp/>file:<sp/>&apos;</highlight><highlight class="normal">.$url);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$cookies<sp/>=<sp/>XOOPS_VAR_PATH.</highlight><highlight class="stringliteral">&apos;/cache/xoops_cache/croncurl_&apos;</highlight><highlight class="normal">.md5($URI).</highlight><highlight class="stringliteral">&apos;.cookie&apos;</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_HEADER,<sp/>0);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_COOKIEJAR,<sp/>$cookies);<sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_RETURNTRANSFER,<sp/>1);<sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_CONNECTTIMEOUT,<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;getModuleConfig(</highlight><highlight class="stringliteral">&apos;curl_connecttimeout&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_TIMEOUT,<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;getModuleConfig(</highlight><highlight class="stringliteral">&apos;curl_timeout&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_USERAGENT,<sp/>XORTIFY_USER_AGENT);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>curl_exec($ch);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_close($ch);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>file_get_contents($uri);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(Exception<sp/>$e)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;Exception:<sp/>&quot;&apos;</highlight><highlight class="normal">.$e.</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;_preloader&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;Cloud<sp/>Service<sp/>Availablity<sp/>Cron<sp/>Started:<sp/>&apos;</highlight><highlight class="normal">.date(</highlight><highlight class="stringliteral">&apos;Y/m/d<sp/>H:i:s&apos;</highlight><highlight class="normal">).(isset($_SERVER[</highlight><highlight class="stringliteral">&apos;HTTP_HOST&apos;</highlight><highlight class="normal">])?</highlight><highlight class="stringliteral">&apos;&lt;br/&gt;&apos;</highlight><highlight class="normal">:</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;_preloader&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="poll_2index_8php_1a454e5028e8a41bf6b2225d72bc767379" kindref="member">$xoopsOption</ref>[</highlight><highlight class="stringliteral">&quot;nocommon&quot;</highlight><highlight class="normal">]=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>require_once(dirname(dirname(dirname(dirname(__FILE__)))).</highlight><highlight class="stringliteral">&apos;/mainfile.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defined(</highlight><highlight class="stringliteral">&apos;XOOPS_MAINFILE_INCLUDED&apos;</highlight><highlight class="normal">)<sp/>or<sp/>die(&apos;Restricted<sp/>access&apos;);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="auth__minimumcloud_8php_1ad3f5451abb22c5d78bd5abeac2cf7cfd" kindref="member">if</ref><sp/>(version_compare(PHP_VERSION,<sp/>&apos;5.3.0&apos;,<sp/>&apos;&lt;&apos;))<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set_magic_quotes_runtime(0);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>date_default_timezone_set(</highlight><highlight class="stringliteral">&apos;Europe/London&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>global<sp/><ref refid="poll_2index_8php_1a878554a49a15a826fbba2adeedfc5b75" kindref="member">$xoops</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="poll_2index_8php_1a878554a49a15a826fbba2adeedfc5b75" kindref="member">$xoops</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defined(</highlight><highlight class="stringliteral">&apos;DS&apos;</highlight><highlight class="normal">)<sp/>or<sp/>define(&apos;DS&apos;,<sp/>DIRECTORY_SEPARATOR);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defined(&apos;NWLINE&apos;)or<sp/>define(&apos;NWLINE&apos;,<sp/>&quot;\n&quot;);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/>DS<sp/>.<sp/>&apos;include&apos;<sp/>.<sp/>DS<sp/>.<sp/>&apos;defines.php&apos;;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/>DS<sp/>.<sp/>&apos;include&apos;<sp/>.<sp/>DS<sp/>.<sp/>&apos;version.php&apos;;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&apos;XORTIFY_USER_AGENT&apos;,<sp/>&apos;Mozilla/5.0<sp/>(PHP<sp/>-<sp/>&apos;.PHP_VERSION.&apos;)<sp/>&apos;.(defined(&apos;XOOPS_VERSION&apos;)?constant(&apos;XOOPS_VERSION&apos;).&apos;<sp/>&apos;:&apos;&apos;).&apos;-<sp/>Xortify<sp/>4.02&apos;);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1a58e794bee7ddf93b7733e35ac71cf8ed" kindref="member">SERVER1</ref>&quot;,<sp/>&apos;http:</highlight><highlight class="comment">//xortify.com/unban/?op=unban&apos;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1a8a17ba733d7bbbe191983c1998184298" kindref="member">SERVER2</ref>&quot;,<sp/>&apos;http:</highlight><highlight class="comment">//xortify.xoops.org/unban/?op=unban&apos;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1a4bec4584771b978c7de363db5d597cd2" kindref="member">SERVER3</ref>&quot;,<sp/>&apos;http:</highlight><highlight class="comment">//xortify.chronolabs.coop/unban/?op=unban&apos;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1a4223a719e1c916bf302beb9b827fc632" kindref="member">REPLACE</ref>&quot;,<sp/>&apos;unban/?op=unban&apos;);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1a9be718298ebd995eb6a5145cf8857de4" kindref="member">SEARCHFOR</ref>&quot;,<sp/>&apos;Solve<sp/>Puzzel:&apos;);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1abd77e417d95ee59b739e54a62fe97fbc" kindref="member">SOAP</ref>&quot;,<sp/>&apos;soap/&apos;);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1ad0bd3808c083915191b2eb89901e57c0" kindref="member">CURL</ref>&quot;,<sp/>&apos;curl/&apos;);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1addb3dc7c4a57b9cee800f894e6dc2b4d" kindref="member">JSON</ref>&quot;,<sp/>&apos;json/&apos;);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1a2f015ddb4cf5e19b82bf7191a2a3e9fa" kindref="member">SERIAL</ref>&quot;,<sp/>&apos;serial/&apos;);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1a5f33028773b1db8e11fcd34516dacb28" kindref="member">XML</ref>&quot;,<sp/>&apos;xml/&apos;);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;<ref refid="serverup_8php_1a1273e4f6dfecad5cc711360770b7d784" kindref="member">REST</ref>&quot;,<sp/>&apos;rest/&apos;);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>$xoops-&gt;path(&apos;class/cache/xoopscache.php&apos;);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="banned_8php_1afe9169534dbc3935c0823c21cfbf68bb" kindref="member">$module_handler</ref><sp/>=<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[&apos;xoops&apos;]-&gt;getHandler(&apos;module&apos;);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="admin_2index_8php_1a3906023967379550e215cdec8f56ae20" kindref="member">$config_handler</ref><sp/>=<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[&apos;xoops&apos;]-&gt;getHandler(&apos;config&apos;);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref><sp/>=<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[&apos;xoops&apos;]-&gt;getHandler(&apos;configitem&apos;);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="auth__minimumcloud_8php_1ad3f5451abb22c5d78bd5abeac2cf7cfd" kindref="member">if</ref><sp/>(!is_object(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]))</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]<sp/>=<sp/><ref refid="banned_8php_1afe9169534dbc3935c0823c21cfbf68bb" kindref="member">$module_handler</ref>-&gt;getByDirname(&apos;xortify&apos;);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="auth__minimumcloud_8php_1ad3f5451abb22c5d78bd5abeac2cf7cfd" kindref="member">if</ref><sp/>(!defined(&apos;XORTIFY_USER_AGENT&apos;))</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>define(&apos;XORTIFY_USER_AGENT&apos;,<sp/>&apos;Mozilla/5.0<sp/>(&apos;.XOOPS_VERSION.&apos;;<sp/>PHP<sp/>&apos;.PHP_VERSION.&apos;)<sp/>Xortify<sp/>&apos;<sp/>.<sp/>(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]-&gt;getVar(&apos;version&apos;)/100));</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a45a3b595731ee647ebed75a62561beeb" kindref="member">$serverup</ref>=false;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="auth__minimumcloud_8php_1ad3f5451abb22c5d78bd5abeac2cf7cfd" kindref="member">if</ref><sp/>(isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]))<sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="admin_2index_8php_1a3906023967379550e215cdec8f56ae20" kindref="member">$config_handler</ref>-&gt;getConfigList(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($servers<sp/>=<sp/>XoopsCache::read(</highlight><highlight class="stringliteral">&apos;server_list_xortify&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($servers<sp/>as<sp/>$sid<sp/>=&gt;<sp/>$server)<sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$source<sp/>=<sp/><ref refid="serverup_8php_1ab3bee0b0adc9956c66ef9b6bf2d54213" kindref="member">xortify_getURLData</ref>($server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">],<sp/>$nativecurl);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strpos(strtolower($source),<sp/>strtolower($server[</highlight><highlight class="stringliteral">&apos;search&apos;</highlight><highlight class="normal">]))&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a45a3b595731ee647ebed75a62561beeb" kindref="member">$serverup</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;Server<sp/>&apos;</highlight><highlight class="normal">.$sid.</highlight><highlight class="stringliteral">&apos;<sp/>is<sp/>UP<sp/>-<sp/>check<sp/>@<sp/>&apos;</highlight><highlight class="normal">.$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_urisoap&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;getObjects(<ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>SOAP,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;insert(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_uricurl&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;getObjects(<ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>CURL,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;insert(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_urijson&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;getObjects(<ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>JSON,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;insert(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_uriserial&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;getObjects(<ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>SERIAL,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;insert(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_urixml&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;getObjects(<ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>XML,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;insert(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_urirest&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;getObjects(<ref refid="cron_2unbanner_8php_1a095f2061791cf4be58c4b41a5790dc85" kindref="member">$criteria</ref>);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>REST,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" kindref="member">$configitem_handler</ref>-&gt;insert(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][<ref refid="instance_8php_1ad4a865d4289ea8a5a0454b65e7ea47c7" kindref="member">XORTIFY_INSTANCE_KEY</ref>][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;isactive&apos;</highlight><highlight class="normal">,<sp/><ref refid="serverup_8php_1a45a3b595731ee647ebed75a62561beeb" kindref="member">$serverup</ref>);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="banned_8php_1afe9169534dbc3935c0823c21cfbf68bb" kindref="member">$module_handler</ref>-&gt;insert(<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>unlinkOldCachefiles(</highlight><highlight class="stringliteral">&apos;xortify_&apos;</highlight><highlight class="normal">,<ref refid="banned_8php_1ad10934112c0d18cf6b358d47afa6fcf1" kindref="member">$GLOBALS</ref>[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;getModuleConfig(</highlight><highlight class="stringliteral">&apos;xortify_ip_cache&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/cron/serverup.php"/>
+  </compounddef>
+</doxygen>

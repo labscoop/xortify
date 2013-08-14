@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2include_2comment__functions_8php" kind="file">
+    <compoundname>comment_functions.php</compoundname>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ban_2include_2comment__functions_8php_1a38f38bc6276703e6dec4d40b759c0962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>repository_com_update</definition>
+        <argsstring>($download_id, $total_num)</argsstring>
+        <name>repository_com_update</name>
+        <param>
+          <declname>$download_id</declname>
+        </param>
+        <param>
+          <declname>$total_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/include/comment_functions.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/include/comment_functions.php" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="ban_2include_2comment__functions_8php_1a2556fadd39d06637f80494471984eaa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>repository_com_approve</definition>
+        <argsstring>(&amp;$comment)</argsstring>
+        <name>repository_com_approve</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$comment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/include/comment_functions.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/include/comment_functions.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="20"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>repository_com_update($download_id,<sp/>$total_num){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>$db<sp/>=&amp;<sp/>Database::getInstance();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>$sql<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;UPDATE<sp/>&apos;</highlight><highlight class="normal">.$db-&gt;prefix(</highlight><highlight class="stringliteral">&apos;repository_downloads&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;<sp/>SET<sp/>comments<sp/>=<sp/>&apos;</highlight><highlight class="normal">.$total_num.</highlight><highlight class="stringliteral">&apos;<sp/>WHERE<sp/>lid<sp/>=<sp/>&apos;</highlight><highlight class="normal">.$download_id;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>$db-&gt;query($sql);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>repository_com_approve(&amp;$comment){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>notification<sp/>mail<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/include/comment_functions.php"/>
+  </compounddef>
+</doxygen>

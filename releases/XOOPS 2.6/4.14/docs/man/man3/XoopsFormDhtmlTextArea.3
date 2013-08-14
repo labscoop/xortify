@@ -1,0 +1,154 @@
+.TH "XoopsFormDhtmlTextArea" 3 "Fri Jul 26 2013" "Version 4.11" "Xortify Client for XOOPS 2.6" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+XoopsFormDhtmlTextArea \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBXoopsFormTextArea\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($caption, $name, $value='', $rows=5, $cols=50, $hiddentext='xoopsHiddenText', $options=array())"
+.br
+.ti -1c
+.RI "\fBrender\fP ()"
+.br
+.ti -1c
+.RI "\fBcodeIcon\fP ()"
+.br
+.ti -1c
+.RI "\fBfontArray\fP ()"
+.br
+.ti -1c
+.RI "\fBrenderValidationJS\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$htmlEditor\fP = array()"
+.br
+.ti -1c
+.RI "\fB$skipPreview\fP = false"
+.br
+.ti -1c
+.RI "\fB$doHtml\fP = false"
+.br
+.ti -1c
+.RI "\fB$js\fP = ''"
+.br
+.ti -1c
+.RI "\fB$configs\fP = array()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A textarea with xoopsish formatting and smilie buttons 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($caption, $name, $value = \fC''\fP, $rows = \fC5\fP, $cols = \fC50\fP, $hiddentext = \fC'xoopsHiddenText'\fP, $options = \fCarray()\fP)"
+Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$caption\fP Caption 
+.br
+\fI$name\fP 'name' attribute 
+.br
+\fI$value\fP Initial text 
+.br
+\fI$rows\fP Number of rows 
+.br
+\fI$cols\fP Number of columns 
+.br
+\fI$hiddentext\fP Identifier for hidden Text 
+.br
+\fI$options\fP Extra options 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "codeIcon ()"
+\fBXoopsFormDhtmlTextArea::codeIcon()\fP
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.SS "fontArray ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.SS "render ()"
+Prepare HTML for output
+.PP
+\fBReturns:\fP
+.RS 4
+string HTML 
+.RE
+.PP
+
+.SS "renderValidationJS ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+bool|string 
+.RE
+.PP
+
+.SH "Field Documentation"
+.PP 
+.SS "$configs = array()"
+
+.SS "$doHtml = false"
+
+.SS "$htmlEditor = array()"
+Extended HTML editor
+.PP
+If an extended HTML editor is set, the renderer will be replaced by the specified editor, usually a visual or WYSIWYG editor\&.
+.PP
+.PD 0
+.IP "\(bu" 2
+
+.PP
+and user guide:  
+.PD 0
+
+.IP "\(bu" 2
+
+.PP
+run-time settings per call To use an editor pre-configured by \fBXoopsEditor\fP, e\&.g\&. 'fckeditor': \fC$options['editor'] = 'fckeditor';\fP To use a custom editor, e\&.g\&. 'MyEditor' class located in '/modules/myeditor/myeditor\&.php': \fC$options['editor'] = array('MyEditor', XOOPS_ROOT_PATH \&. '/modules/myeditor/myeditor\&.php');\fP    
+.PD 0
+
+.IP "\(bu" 2
+
+.PP
+pre-configured settings, which will force to use a editor if no specific editor is set for call  
+.PD 0
+
+.IP "\(bu" 2
+
+.PP
+up custom configs: in XOOPS_VAR_PATH \&. '/configs/xoopsconfig\&.php' set a editor as default, e\&.g\&. a pre-configured editor 'fckeditor': \fCreturn array('editor' => 'fckeditor');\fP a custom editor 'MyEditor' class located in '/modules/myeditor/myeditor\&.php': \fCreturn array('editor' => array('MyEditor', XOOPS_ROOT_PATH \&. '/modules/myeditor/myeditor\&.php');\fP   To disable the default editor, in XOOPS_VAR_PATH \&. '/configs/xoopsconfig\&.php': \fCreturn array();\fP To disable the default editor for a specific call: \fC$options['editor'] = 'dhtmltextarea';\fP    
+.SS "$js = ''"
+
+.SS "$skipPreview = false"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Client for XOOPS 2\&.6 from the source code\&.

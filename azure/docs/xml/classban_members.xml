@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classban_members" kind="class" prot="public">
+    <compoundname>banMembers</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classban_members_1aaa3a9523dd2f6a3e73052c799a1dbcdb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_whois_url</definition>
+        <argsstring></argsstring>
+        <name>$_whois_url</name>
+        <initializer>= &apos;http://whois.labs.coop/v1/%s/html.api&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classban_members_1a7ad0fb77b7955e1717722dad5f453135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>banMembers</definition>
+        <argsstring>($fid=null)</argsstring>
+        <name>banMembers</name>
+        <param>
+          <declname>$fid</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="38" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1a658defb34762c8f40085aec87e16ba1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="64" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1a9806a032ce31e96ccd75cd6d61a8e656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ipaddy</definition>
+        <argsstring>()</argsstring>
+        <name>ipaddy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1abd3045226e27a02dff5dbdcbfc8b5b7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>story</definition>
+        <argsstring>()</argsstring>
+        <name>story</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="81" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="81" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1aa77ff496620f810daf64f6b937238054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDomains</definition>
+        <argsstring>()</argsstring>
+        <name>getDomains</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="133" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="133" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1a9c9e47c6789f8e5d0e1ffd8377e42cf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getEmailAddresses</definition>
+        <argsstring>()</argsstring>
+        <name>getEmailAddresses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="158" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="158" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1a24e849aa7212d560be04d7ed4d710dd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendBanNotice</definition>
+        <argsstring>()</argsstring>
+        <name>sendBanNotice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="174" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="174" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1ac0cf4fe074df6ef434dfb94eb13093a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lookupDomain</definition>
+        <argsstring>($domain= &apos;&apos;)</argsstring>
+        <name>lookupDomain</name>
+        <param>
+          <declname>$domain</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="206" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="206" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1ada9fe044fff09870f37a877c78ffdb3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lookupIP</definition>
+        <argsstring>()</argsstring>
+        <name>lookupIP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="231" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="231" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1a7dd20da0d428d94fa4dad40bf7e90887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>validateEmail</definition>
+        <argsstring>($email)</argsstring>
+        <name>validateEmail</name>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="241" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="241" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1a3ef26d87b4a2dad61ca59b61929f09c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>validateDomain</definition>
+        <argsstring>($domain)</argsstring>
+        <name>validateDomain</name>
+        <param>
+          <declname>$domain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="249" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="249" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classban_members_1ab299ded1c570d761b2659c318af92320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBaseDomain</definition>
+        <argsstring>($url, $debug=0)</argsstring>
+        <name>getBaseDomain</name>
+        <param>
+          <declname>$url</declname>
+        </param>
+        <param>
+          <declname>$debug</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="253" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="253" bodyend="278"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class for Ban Profiler <simplesect kind="author"><para>Simon Roberts (<ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink>) </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2010-2013 labs.coop </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="426">
+        <label>XoopsObject</label>
+      </node>
+      <node id="425">
+        <label>banMembers</label>
+        <link refid="classban_members"/>
+        <childnode refid="426" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="428">
+        <label>XoopsObject</label>
+      </node>
+      <node id="427">
+        <label>banMembers</label>
+        <link refid="classban_members"/>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/class/members.php" bodystart="33" bodyend="280"/>
+    <listofallmembers>
+      <member refid="classban_members_1aaa3a9523dd2f6a3e73052c799a1dbcdb" prot="public" virt="non-virtual"><scope>banMembers</scope><name>$_whois_url</name></member>
+      <member refid="classban_members_1a7ad0fb77b7955e1717722dad5f453135" prot="public" virt="non-virtual"><scope>banMembers</scope><name>banMembers</name></member>
+      <member refid="classban_members_1ab299ded1c570d761b2659c318af92320" prot="public" virt="non-virtual"><scope>banMembers</scope><name>getBaseDomain</name></member>
+      <member refid="classban_members_1aa77ff496620f810daf64f6b937238054" prot="public" virt="non-virtual"><scope>banMembers</scope><name>getDomains</name></member>
+      <member refid="classban_members_1a9c9e47c6789f8e5d0e1ffd8377e42cf5" prot="public" virt="non-virtual"><scope>banMembers</scope><name>getEmailAddresses</name></member>
+      <member refid="classban_members_1a9806a032ce31e96ccd75cd6d61a8e656" prot="public" virt="non-virtual"><scope>banMembers</scope><name>ipaddy</name></member>
+      <member refid="classban_members_1ac0cf4fe074df6ef434dfb94eb13093a6" prot="public" virt="non-virtual"><scope>banMembers</scope><name>lookupDomain</name></member>
+      <member refid="classban_members_1ada9fe044fff09870f37a877c78ffdb3f" prot="public" virt="non-virtual"><scope>banMembers</scope><name>lookupIP</name></member>
+      <member refid="classban_members_1a24e849aa7212d560be04d7ed4d710dd4" prot="public" virt="non-virtual"><scope>banMembers</scope><name>sendBanNotice</name></member>
+      <member refid="classban_members_1abd3045226e27a02dff5dbdcbfc8b5b7c" prot="public" virt="non-virtual"><scope>banMembers</scope><name>story</name></member>
+      <member refid="classban_members_1a658defb34762c8f40085aec87e16ba1a" prot="public" virt="non-virtual"><scope>banMembers</scope><name>toArray</name></member>
+      <member refid="classban_members_1a3ef26d87b4a2dad61ca59b61929f09c5" prot="public" virt="non-virtual"><scope>banMembers</scope><name>validateDomain</name></member>
+      <member refid="classban_members_1a7dd20da0d428d94fa4dad40bf7e90887" prot="public" virt="non-virtual"><scope>banMembers</scope><name>validateEmail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

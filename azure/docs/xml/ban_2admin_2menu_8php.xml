@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2admin_2menu_8php" kind="file">
+    <compoundname>menu.php</compoundname>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1a9e95e7fdb7ca106c9d44e97430edef59" prot="public" static="no" mutable="no">
+        <type>global</type>
+        <definition>$adminmenu</definition>
+        <argsstring></argsstring>
+        <name>$adminmenu</name>
+        <initializer>=array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1aa4d95e2b8402adb7aac22031a76bf8ac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;title&apos;]</definition>
+        <argsstring>[1][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _BAN_ADMENU1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1a8b18a24b489369490446d45ac2b617f7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;link&apos;]</definition>
+        <argsstring>[1][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1a0786c93d1375203e0020cc121fe02068" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;title&apos;]</definition>
+        <argsstring>[2][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _BAN_ADMENU2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1a5f30f443311414593df5a4ae2c7501c8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;link&apos;]</definition>
+        <argsstring>[2][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=members&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1ad27660fd5d267f334743070c732b1286" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;title&apos;]</definition>
+        <argsstring>[3][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _BAN_ADMENU3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1ac8c8ccf89ea2c8889dd64b08737d6dd9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;link&apos;]</definition>
+        <argsstring>[3][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=members&amp;fct=new&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1ac3c70c66723d68528e5e9c8a4383c126" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;title&apos;]</definition>
+        <argsstring>[4][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _BAN_ADMENU4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1a076adc5338eb254a63b2e2d679087482" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;link&apos;]</definition>
+        <argsstring>[4][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=categories&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1a014e06ed36a394774cc2f03aa232a072" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;title&apos;]</definition>
+        <argsstring>[5][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _BAN_ADMENU5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2admin_2menu_8php_1a86c31a48d4510b1076e6fbfb731ba1d8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;link&apos;]</definition>
+        <argsstring>[5][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=categories&amp;fct=new&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">global<sp/>$adminmenu;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">$adminmenu=array();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_BAN_ADMENU1;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_BAN_ADMENU2;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=members&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_BAN_ADMENU3;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=members&amp;fct=new&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_BAN_ADMENU4;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=categories&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_BAN_ADMENU5;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=categories&amp;fct=new&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/admin/menu.php"/>
+  </compounddef>
+</doxygen>

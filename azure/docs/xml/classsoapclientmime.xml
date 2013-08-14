@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classsoapclientmime" kind="class" prot="public">
+    <compoundname>soapclientmime</compoundname>
+    <basecompoundref refid="classsoapclient" prot="public" virt="non-virtual">soapclient</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsoapclientmime_1ac58af5d0476b202790c63410360c4696" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$requestAttachments</definition>
+        <argsstring></argsstring>
+        <name>$requestAttachments</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoapclientmime_1a065527a5618c8bb7597a79b33b410a6e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$responseAttachments</definition>
+        <argsstring></argsstring>
+        <name>$responseAttachments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoapclientmime_1afca41a43fc6c89107faf7c34a5dedb32" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$mimeContentType</definition>
+        <argsstring></argsstring>
+        <name>$mimeContentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="65" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsoapclientmime_1a05ac1d60ed38ac1db78295337c99eb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addAttachment</definition>
+        <argsstring>($data, $filename= &apos;&apos;, $contenttype= &apos;application/octet-stream&apos;, $cid=false)</argsstring>
+        <name>addAttachment</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$filename</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$contenttype</declname>
+          <defval>&apos;application/octet-stream&apos;</defval>
+        </param>
+        <param>
+          <declname>$cid</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds a MIME attachment to the current request.</para><para>If the $data parameter contains an empty string, this method will read the contents of the file named by the $filename parameter.</para><para>If the $cid parameter is false, this method will generate the cid.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data of the attachment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The filename of the attachment (default is empty string) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$contenttype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The MIME Content-Type of the attachment (default is application/octet-stream) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The content-id (cid) of the attachment (default is false) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string The content-id (cid) of the attachment  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="82" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="82" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoapclientmime_1a2b4d4199414b58bc4db009cb17ad8e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clearAttachments</definition>
+        <argsstring>()</argsstring>
+        <name>clearAttachments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clears the MIME attachments for the current request.</para><para>public </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="102" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoapclientmime_1aa91862c4e237ee5b53083f41633babb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getAttachments</definition>
+        <argsstring>()</argsstring>
+        <name>getAttachments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets the MIME attachments from the current response.</para><para>Each array element in the return is an associative array with keys data, filename, contenttype, cid. These keys correspond to the parameters for addAttachment.</para><para><simplesect kind="return"><para>array The attachments.  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="116" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoapclientmime_1ab1e22b0858bdbe61d2d711ff442c0e78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getHTTPBody</definition>
+        <argsstring>($soapmsg)</argsstring>
+        <name>getHTTPBody</name>
+        <param>
+          <declname>$soapmsg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets the HTTP body for the current request.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$soapmsg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SOAP payload </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string The HTTP body, which includes the SOAP payload  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="127" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="127" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoapclientmime_1a2bed19ef2d537dee244535339cd6026a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getHTTPContentType</definition>
+        <argsstring>()</argsstring>
+        <name>getHTTPContentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets the HTTP content type for the current request.</para><para>Note: getHTTPBody must be called before this.</para><para><simplesect kind="return"><para>string the HTTP content type for the current request.  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="186" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="186" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoapclientmime_1a9051db33a9b7e50315d9222ef1c52ce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getHTTPContentTypeCharset</definition>
+        <argsstring>()</argsstring>
+        <name>getHTTPContentTypeCharset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets the HTTP content type charset for the current request. returns false for non-text content types.</para><para>Note: getHTTPBody must be called before this.</para><para><simplesect kind="return"><para>string the HTTP content type charset for the current request.  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="202" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="202" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoapclientmime_1aca1ed2155629bfc242ddea3636ac24c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseResponse</definition>
+        <argsstring>($headers, $data)</argsstring>
+        <name>parseResponse</name>
+        <param>
+          <declname>$headers</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>processes SOAP message returned from server</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$headers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The HTTP headers </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unprocessed response data from server </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed value of the message, decoded into a PHP type  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="217" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="217" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>soapclientmime client supporting MIME attachments defined at <ulink url="http://www.w3.org/TR/SOAP-attachments">http://www.w3.org/TR/SOAP-attachments</ulink>. It depends on the PEAR Mail_MIME library.</para><para><simplesect kind="author"><para>Scott Nichol <ulink url="mailto:snichol@sourceforge.net">snichol@sourceforge.net</ulink> </para><simplesectsep/><para>Thanks to Guillaume and Henning Reich for posting great attachment code to the mail list </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="nusoapmime_8php_source" kindref="compound">nusoapmime.php</ref>,v 1.7 2005/07/27 19:24:42 snichol Exp </para></simplesect>
+public </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="511">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+      <node id="509">
+        <label>soapclientmime</label>
+        <link refid="classsoapclientmime"/>
+        <childnode refid="510" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>soapclient</label>
+        <link refid="classsoapclient"/>
+        <childnode refid="511" relation="public-inheritance">
+        </childnode>
+        <childnode refid="511" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="514">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+      <node id="512">
+        <label>soapclientmime</label>
+        <link refid="classsoapclientmime"/>
+        <childnode refid="513" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="513">
+        <label>soapclient</label>
+        <link refid="classsoapclient"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.php" bodystart="48" bodyend="257"/>
+    <listofallmembers>
+      <member refid="classsoapclient_1ae81871b02c5845eb3a1071eb24e1f29c" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$authtype</name></member>
+      <member refid="classsoapclient_1adcbe9a77644bad97ed599d1651bd2719" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$certRequest</name></member>
+      <member refid="classnusoap__base_1a6a4d8a570a9e0a89ef63b192fa3942f2" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$charencoding</name></member>
+      <member refid="classsoapclient_1aef9f7eafd54f6e36423347bed723c67e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$cookies</name></member>
+      <member refid="classnusoap__base_1ad04cbe402f400eb4b0b40f2c03985452" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$debug_str</name></member>
+      <member refid="classnusoap__base_1a8907cc6f1fc6ed47ef25190cb8310f41" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$debugLevel</name></member>
+      <member refid="classsoapclient_1a15fe586a802bc22337e3fe874d6da038" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$decode_utf8</name></member>
+      <member refid="classsoapclient_1ac78680bfe85d7e93ebe0d9260e104602" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$defaultRpcParams</name></member>
+      <member refid="classsoapclient_1ac5a31edb787609a3143dec9bfa8063ea" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$document</name></member>
+      <member refid="classsoapclient_1afb5204f7604df2f50a0058cb0e024875" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$endpoint</name></member>
+      <member refid="classsoapclient_1a579908f25c2a105b23afaa84730b0a63" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$endpointType</name></member>
+      <member refid="classnusoap__base_1ab9c9e44dc77820490ded7d8bf085cd7e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$error_str</name></member>
+      <member refid="classsoapclient_1a365691ed834f59a9a513180136e7a847" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$fault</name></member>
+      <member refid="classsoapclient_1a07e7ee58f39f98cdd8b2bd2b40ff72d7" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$faultcode</name></member>
+      <member refid="classsoapclient_1a7683364ae0ad0e22863a0f20f0626453" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$faultdetail</name></member>
+      <member refid="classsoapclient_1acc1a7d86f9bd39e5717add56fbcdfaaa" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$faultstring</name></member>
+      <member refid="classsoapclient_1afdcf6cf88adc9e9f3cf412605b74ce47" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$forceEndpoint</name></member>
+      <member refid="classsoapclient_1a85ab29df53fb1ff64e0aecd9698b51fe" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$http_encoding</name></member>
+      <member refid="classsoapclientmime_1afca41a43fc6c89107faf7c34a5dedb32" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$mimeContentType</name></member>
+      <member refid="classnusoap__base_1a5a7d9500de9f7c938443d65cef9a074e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$namespaces</name></member>
+      <member refid="classsoapclient_1a3f662373ff81db09eed5649d07f1931c" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$operations</name></member>
+      <member refid="classsoapclient_1a607686ef9f99ea7c42f4f3dd3dbb2b0d" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$password</name></member>
+      <member refid="classsoapclient_1a638b1c5f7dc55a3d0286136de6d56eab" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$persistentConnection</name></member>
+      <member refid="classsoapclient_1a54407bcc777ac313a172561a8ff976c6" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$proxyhost</name></member>
+      <member refid="classsoapclient_1a98c0d3b74811ee643f7d1fce47f1b281" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$proxypassword</name></member>
+      <member refid="classsoapclient_1ac396538deee1152f84f9ddabac2c2366" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$proxyport</name></member>
+      <member refid="classsoapclient_1aaa30711a40f8f7bae4cd7060414e0fe1" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$proxyusername</name></member>
+      <member refid="classsoapclient_1abb35c8495a232b510389fa6d7b15d38a" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$request</name></member>
+      <member refid="classsoapclientmime_1ac58af5d0476b202790c63410360c4696" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$requestAttachments</name></member>
+      <member refid="classsoapclient_1a245d2deb868c1cc1a23b10c48c6d0754" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$requestHeaders</name></member>
+      <member refid="classsoapclient_1af4b6fb1bbc77ccc05f10da3b16935b99" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$response</name></member>
+      <member refid="classsoapclient_1a17a3280264a8b9bb5ed32729d654739c" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$response_timeout</name></member>
+      <member refid="classsoapclientmime_1a065527a5618c8bb7597a79b33b410a6e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$responseAttachments</name></member>
+      <member refid="classsoapclient_1ab1e953a498fa4370be7a8806cea56031" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$responseData</name></member>
+      <member refid="classsoapclient_1a02f80cf3a7fe7cf42c97b821c167b934" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$responseHeaders</name></member>
+      <member refid="classnusoap__base_1a4ff96b89e7ea5fa55acb086ecb6d0c03" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$revision</name></member>
+      <member refid="classnusoap__base_1a54cf9ddad3b51e54af1bfad78efad09a" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$soap_defencoding</name></member>
+      <member refid="classsoapclient_1a84320a9bf3e591d7ae20dfcb0dfe6a0d" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$timeout</name></member>
+      <member refid="classnusoap__base_1ada57e7bb7c152edad18fe2f166188691" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$title</name></member>
+      <member refid="classnusoap__base_1abc776370d77b6fe463a62fa2faf26c2e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$typemap</name></member>
+      <member refid="classnusoap__base_1a2bd7e321e4132fe338d8502a5594aebc" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$usedNamespaces</name></member>
+      <member refid="classsoapclient_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$username</name></member>
+      <member refid="classnusoap__base_1a17c8948c68aa44fa9961ae169b6a8961" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$version</name></member>
+      <member refid="classsoapclient_1a1e2ee3fea6dbb8374da999a9df7d024d" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$xml_encoding</name></member>
+      <member refid="classnusoap__base_1a912a5d3348012e245bb16e2cab11d4cc" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$xmlEntities</name></member>
+      <member refid="classnusoap__base_1a170fda624f458ce4f4b29e496ebfce4c" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>$XMLSchemaVersion</name></member>
+      <member refid="classsoapclient_1a2b49882c792a4deb80ec35ca75f1fee6" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>_getProxyClassCode</name></member>
+      <member refid="classsoapclient_1a2b49882c792a4deb80ec35ca75f1fee6" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>_getProxyClassCode</name></member>
+      <member refid="classsoapclientmime_1a05ac1d60ed38ac1db78295337c99eb86" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>addAttachment</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>appendDebug</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>appendDebug</name></member>
+      <member refid="classsoapclient_1a806d1d83f45454caf9c6c361c0a4b0ad" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>call</name></member>
+      <member refid="classsoapclient_1a806d1d83f45454caf9c6c361c0a4b0ad" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>call</name></member>
+      <member refid="classsoapclient_1a6a8794beffec4a05daa7559ab233875e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>checkCookies</name></member>
+      <member refid="classsoapclient_1a6a8794beffec4a05daa7559ab233875e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>checkCookies</name></member>
+      <member refid="classsoapclientmime_1a2b4d4199414b58bc4db009cb17ad8e3b" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>clearAttachments</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>debug</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>debug</name></member>
+      <member refid="classsoapclient_1a8ebcfd008049181e64a5046eb8c168b9" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>decodeUTF8</name></member>
+      <member refid="classsoapclient_1a8ebcfd008049181e64a5046eb8c168b9" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>decodeUTF8</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>formatDump</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>formatDump</name></member>
+      <member refid="classsoapclientmime_1aa91862c4e237ee5b53083f41633babb6" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getAttachments</name></member>
+      <member refid="classsoapclient_1a374b645410526cbbb498b140242a00ba" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getCookies</name></member>
+      <member refid="classsoapclient_1a374b645410526cbbb498b140242a00ba" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getCookies</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getDebugLevel</name></member>
+      <member refid="classsoapclient_1a95ae30619429aa7d1c93f21e33300419" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getDefaultRpcParams</name></member>
+      <member refid="classsoapclient_1a95ae30619429aa7d1c93f21e33300419" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getDefaultRpcParams</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classsoapclient_1a157e0005d82edaa21cbea07fdc5c62da" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getHeaders</name></member>
+      <member refid="classsoapclient_1a157e0005d82edaa21cbea07fdc5c62da" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getHeaders</name></member>
+      <member refid="classsoapclientmime_1ab1e22b0858bdbe61d2d711ff442c0e78" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getHTTPBody</name></member>
+      <member refid="classsoapclientmime_1a2bed19ef2d537dee244535339cd6026a" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getHTTPContentType</name></member>
+      <member refid="classsoapclientmime_1a9051db33a9b7e50315d9222ef1c52ce9" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getHTTPContentTypeCharset</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classsoapclient_1ad66fb2de1dae9b9597bed83de4f343a7" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getOperationData</name></member>
+      <member refid="classsoapclient_1ad66fb2de1dae9b9597bed83de4f343a7" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getOperationData</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classsoapclient_1a839ac5be1fce2af15c73aef02a49a8af" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getProxy</name></member>
+      <member refid="classsoapclient_1a839ac5be1fce2af15c73aef02a49a8af" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getProxy</name></member>
+      <member refid="classsoapclient_1a5fbf58b6ba27a02544885d4fc801d328" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getProxyClassCode</name></member>
+      <member refid="classsoapclient_1a5fbf58b6ba27a02544885d4fc801d328" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>getProxyClassCode</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>nusoap_base</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>nusoap_base</name></member>
+      <member refid="classsoapclientmime_1aca1ed2155629bfc242ddea3636ac24c1" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>parseResponse</name></member>
+      <member refid="classsoapclient_1aece60a5a6bd359481071516aa7024b56" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>send</name></member>
+      <member refid="classsoapclient_1aece60a5a6bd359481071516aa7024b56" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>send</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>serializeEnvelope</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>serializeEnvelope</name></member>
+      <member refid="classsoapclient_1a3f05f631ff936a033cae038052d9e7f9" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setCookie</name></member>
+      <member refid="classsoapclient_1a3f05f631ff936a033cae038052d9e7f9" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setCookie</name></member>
+      <member refid="classsoapclient_1ada213133d177c1c9c07435d65e89e735" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setCredentials</name></member>
+      <member refid="classsoapclient_1ada213133d177c1c9c07435d65e89e735" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setCredentials</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setDebugLevel</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setDebugLevel</name></member>
+      <member refid="classsoapclient_1a9d7b3609d1db3eb5f2d3cf92510e4e6b" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setDefaultRpcParams</name></member>
+      <member refid="classsoapclient_1a9d7b3609d1db3eb5f2d3cf92510e4e6b" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setDefaultRpcParams</name></member>
+      <member refid="classsoapclient_1abab265adeddb116a65a24dc0fa1eafb2" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setEndpoint</name></member>
+      <member refid="classsoapclient_1abab265adeddb116a65a24dc0fa1eafb2" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setEndpoint</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classsoapclient_1ac1f59fefc1b33175a734321e13b42253" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setHeaders</name></member>
+      <member refid="classsoapclient_1ac1f59fefc1b33175a734321e13b42253" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setHeaders</name></member>
+      <member refid="classsoapclient_1a9528927202777242800c394fadc03191" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setHTTPEncoding</name></member>
+      <member refid="classsoapclient_1a9528927202777242800c394fadc03191" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setHTTPEncoding</name></member>
+      <member refid="classsoapclient_1a52152e7ae9c46863424bbafacf6a7f71" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setHTTPProxy</name></member>
+      <member refid="classsoapclient_1a52152e7ae9c46863424bbafacf6a7f71" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>setHTTPProxy</name></member>
+      <member refid="classsoapclient_1a59db1a21560241cf6aa51c813cd22e29" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>soapclient</name></member>
+      <member refid="classsoapclient_1a59db1a21560241cf6aa51c813cd22e29" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>soapclient</name></member>
+      <member refid="classsoapclient_1ad71447ce0ee50309eea6ce0e12a88e02" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>UpdateCookies</name></member>
+      <member refid="classsoapclient_1ad71447ce0ee50309eea6ce0e12a88e02" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>UpdateCookies</name></member>
+      <member refid="classsoapclient_1a6558d144faf99ccc9ef4621ffd56bd75" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>useHTTPPersistentConnection</name></member>
+      <member refid="classsoapclient_1a6558d144faf99ccc9ef4621ffd56bd75" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>useHTTPPersistentConnection</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>varDump</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>soapclientmime</scope><name>varDump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

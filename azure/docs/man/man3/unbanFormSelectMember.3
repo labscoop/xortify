@@ -1,0 +1,196 @@
+.TH "unbanFormSelectMember" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+unbanFormSelectMember \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits XoopsFormElement\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBunbanFormSelectMember\fP ($caption, $name, $value=null, $size=1, $multiple=false)"
+.br
+.ti -1c
+.RI "\fBisMultiple\fP ()"
+.br
+.ti -1c
+.RI "\fBgetSize\fP ()"
+.br
+.ti -1c
+.RI "\fBgetValue\fP ($encode=false)"
+.br
+.ti -1c
+.RI "\fBsetValue\fP ($value)"
+.br
+.ti -1c
+.RI "\fBaddOption\fP ($value, $name= '')"
+.br
+.ti -1c
+.RI "\fBaddOptionArray\fP ($options)"
+.br
+.ti -1c
+.RI "\fBgetOptions\fP ($encode=false)"
+.br
+.ti -1c
+.RI "\fBrender\fP ()"
+.br
+.ti -1c
+.RI "\fBrenderValidationJS\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$_options\fP = array()"
+.br
+.ti -1c
+.RI "\fB$_multiple\fP = false"
+.br
+.ti -1c
+.RI "\fB$_size\fP"
+.br
+.ti -1c
+.RI "\fB$_value\fP = array()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 41 of file formselectmember\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "addOption ($value, $name = \fC''\fP)"
+Add an option
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP 'value' attribute 
+.br
+\fI$name\fP 'name' attribute 
+.RE
+.PP
+
+.PP
+Definition at line 162 of file formselectmember\&.php\&.
+.SS "addOptionArray ($options)"
+Add multiple options
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$options\fP Associative array of value->name pairs 
+.RE
+.PP
+
+.PP
+Definition at line 176 of file formselectmember\&.php\&.
+.SS "getOptions ($encode = \fCfalse\fP)"
+Get an array with all the options
+.PP
+Note: both name and value should be sanitized\&. However for backward compatibility, only value is sanitized for now\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$encode\fP To sanitizer the text? potential values: 0 - skip; 1 - only for value; 2 - for both value and name 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array Associative array of value->name pairs 
+.RE
+.PP
+
+.PP
+Definition at line 193 of file formselectmember\&.php\&.
+.SS "getSize ()"
+Get the size
+.PP
+\fBReturns:\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 117 of file formselectmember\&.php\&.
+.SS "getValue ($encode = \fCfalse\fP)"
+Get an array of pre-selected values
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$encode\fP To sanitizer the text? 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 128 of file formselectmember\&.php\&.
+.SS "isMultiple ()"
+Are multiple selections allowed?
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 107 of file formselectmember\&.php\&.
+.SS "render ()"
+Prepare HTML for output
+.PP
+\fBReturns:\fP
+.RS 4
+string HTML 
+.RE
+.PP
+
+.PP
+Definition at line 210 of file formselectmember\&.php\&.
+.SS "renderValidationJS ()"
+Render custom javascript validation code
+.PP
+XoopsForm::renderValidationJS 
+.PP
+Definition at line 238 of file formselectmember\&.php\&.
+.SS "setValue ($value)"
+Set pre-selected values
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP mixed 
+.RE
+.PP
+
+.PP
+Definition at line 145 of file formselectmember\&.php\&.
+.SS "\fBunbanFormSelectMember\fP ($caption, $name, $value = \fCnull\fP, $size = \fC1\fP, $multiple = \fCfalse\fP)"
+Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$caption\fP Caption 
+.br
+\fI$name\fP 'name' attribute 
+.br
+\fI$value\fP Pre-selected value (or array of them)\&. 
+.br
+\fI$size\fP Number or rows\&. '1' makes a drop-down-list 
+.br
+\fI$multiple\fP Allow multiple selections? 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file formselectmember\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

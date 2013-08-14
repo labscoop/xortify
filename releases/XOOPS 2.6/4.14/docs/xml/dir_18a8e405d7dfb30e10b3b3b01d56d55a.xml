@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_18a8e405d7dfb30e10b3b3b01d56d55a" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform</compoundname>
+    <innerfile refid="formdhtmltextarea_8php">formdhtmltextarea.php</innerfile>
+    <innerfile refid="formeditor_8php">formeditor.php</innerfile>
+    <innerfile refid="formtextarea_8php">formtextarea.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,256 @@
+.TH "Cache" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Cache \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ()"
+.br
+.ti -1c
+.RI "& \fBgetInstance\fP ()"
+.br
+.ti -1c
+.RI "\fBloadEngine\fP ($name)"
+.br
+.ti -1c
+.RI "\fBconfig\fP ($name= 'default', $\fBsettings\fP=array())"
+.br
+.ti -1c
+.RI "\fBengine\fP ($name= 'file', $\fBsettings\fP=array())"
+.br
+.ti -1c
+.RI "\fBgc\fP ()"
+.br
+.ti -1c
+.RI "\fBwrite\fP ($\fBkey\fP, $value, $duration=null)"
+.br
+.ti -1c
+.RI "\fBread\fP ($\fBkey\fP, $\fBconfig\fP=null)"
+.br
+.ti -1c
+.RI "\fBdelete\fP ($\fBkey\fP, $\fBconfig\fP=null)"
+.br
+.ti -1c
+.RI "\fBclear\fP ($check=false, $\fBconfig\fP=null)"
+.br
+.ti -1c
+.RI "\fBisInitialized\fP ($\fBengine\fP=null)"
+.br
+.ti -1c
+.RI "\fBsettings\fP ($\fBengine\fP=null)"
+.br
+.ti -1c
+.RI "\fBkey\fP ($key)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$engine\fP = null"
+.br
+.ti -1c
+.RI "\fB$configs\fP = array()"
+.br
+.ti -1c
+.RI "\fB$name\fP = null"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Caching for CakePHP\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ()"
+\fBCache::__construct()\fP 
+.SH "Member Function Documentation"
+.PP 
+.SS "clear ($check = \fCfalse\fP, $config = \fCnull\fP)"
+Delete all keys from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$check\fP if true will check expiration, otherwise delete all 
+.br
+\fI$config\fP name of the configuration to use 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the cache was succesfully cleared, false otherwise  public 
+.RE
+.PP
+
+.SS "config ($name = \fC'default'\fP, $settings = \fCarray()\fP)"
+Set the cache configuration to use
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP Name of the configuration 
+.br
+\fI$settings\fP Optional associative array of settings passed to the engine 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array (engine, settings) on success, false on failure  public 
+.RE
+.PP
+
+.SS "delete ($key, $config = \fCnull\fP)"
+Delete a key from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.br
+\fI$config\fP name of the configuration to use 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+.RE
+.PP
+
+.SS "engine ($name = \fC'file'\fP, $settings = \fCarray()\fP)"
+Set the cache engine to use or modify settings for one instance
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP Name of the engine (without 'Engine') 
+.br
+\fI$settings\fP Optional associative array of settings passed to the engine 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True on success, false on failure  public 
+.RE
+.PP
+
+.SS "gc ()"
+Garbage collection
+.PP
+Permanently remove all expired and deleted data
+.PP
+public 
+.SS "& getInstance ()"
+Returns a singleton instance
+.PP
+\fBReturns:\fP
+.RS 4
+object  public 
+.RE
+.PP
+
+.SS "isInitialized ($engine = \fCnull\fP)"
+Check if \fBCache\fP has initialized a working storage engine
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$engine\fP Name of the engine 
+.br
+\fI$config\fP Name of the configuration setting 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool  public 
+.RE
+.PP
+
+.SS "key ($key)"
+generates a safe key
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP the key passed over 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed string $key or false  private 
+.RE
+.PP
+
+.SS "loadEngine ($name)"
+Tries to find and include a file for a cache engine and returns object instance
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP Name of the engine 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed $engine object or null  private 
+.RE
+.PP
+
+.SS "read ($key, $config = \fCnull\fP)"
+Read a key from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.br
+\fI$config\fP name of the configuration to use 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+.RE
+.PP
+
+.SS "settings ($engine = \fCnull\fP)"
+Return the settings for current cache engine
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$engine\fP Name of the engine 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array list of settings for this engine  public 
+.RE
+.PP
+
+.SS "write ($key, $value, $duration = \fCnull\fP)"
+Write data for key into cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.br
+\fI$value\fP Data to be cached - anything except a resource 
+.br
+\fI$duration\fP Optional - string configuration name OR how long to cache the data, either in seconds or a string that can be parsed by the strtotime() function OR array('config' => 'default', 'duration' => '3600') 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the data was successfully cached, false on failure  public 
+.RE
+.PP
+
+.SH "Field Documentation"
+.PP 
+.SS "$configs = array()"
+
+.SS "$\fBengine\fP = null"
+
+.SS "$name = null"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

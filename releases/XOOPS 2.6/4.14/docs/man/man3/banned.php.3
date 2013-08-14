@@ -1,0 +1,42 @@
+.TH "E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/banned.php" 3 "Fri Jul 26 2013" "Version 4.11" "Xortify Client for XOOPS 2.6" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/banned.php \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$GLOBALS\fP ['xoops'] = Xoops::getInstance()"
+.br
+.ti -1c
+.RI "\fB$module_handler\fP = $GLOBALS['xoops']->getHandler('module')"
+.br
+.ti -1c
+.RI "\fB$_SESSION\fP ['xortify'][\fBXORTIFY_INSTANCE_KEY\fP]['module'] = $module_handler->getByDirname('xortify')"
+.br
+.ti -1c
+.RI "\fB$log_handler\fP = $GLOBALS['xoops']->getModuleHandler('log', 'xortify')"
+.br
+.ti -1c
+.RI "\fB$log\fP = $log_handler->get($lid)"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "$_SESSION['xortify'][\fBXORTIFY_INSTANCE_KEY\fP]['module'] = $module_handler->getByDirname('xortify')"
+
+.SS "$GLOBALS['xoops'] = Xoops::getInstance()"
+
+.SS "$log = $log_handler->get($lid)"
+
+.SS "$log_handler = $GLOBALS['xoops']->getModuleHandler('log', 'xortify')"
+
+.SS "$module_handler = $GLOBALS['xoops']->getHandler('module')"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Client for XOOPS 2\&.6 from the source code\&.

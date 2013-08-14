@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_ff730fd920908e5d87170031d49ab679" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xjson/plugins</compoundname>
+    <innerfile refid="modules_2xjson_2plugins_2ban_8php">ban.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2ban__diff_8php">ban_diff.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2banned_8php">banned.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2bans_8php">bans.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2checkphpbans_8php">checkphpbans.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2checksfsbans_8php">checksfsbans.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2cloud__users_8php">cloud_users.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2cloud__users__count_8php">cloud_users_count.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2comments_8php">comments.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2languages_8php">languages.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2newusers_8php">newusers.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2rep__spider_8php">rep_spider.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2rep__spiderstat_8php">rep_spiderstat.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2seolinks_8php">seolinks.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2server_8php">server.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2server__create__user_8php">server_create_user.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2servers_8php">servers.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2sfsban_8php">sfsban.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2spamcheck_8php">spamcheck.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2spider_8php">spider.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2spiders_8php">spiders.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2spiderstat_8php">spiderstat.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2spoofcomment_8php">spoofcomment.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2spoofregistration_8php">spoofregistration.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2spoofthread_8php">spoofthread.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2training_8php">training.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2unbanned_8php">unbanned.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2unbans_8php">unbans.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2xoops__authentication_8php">xoops_authentication.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2xoops__check__activation_8php">xoops_check_activation.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2xoops__create__user_8php">xoops_create_user.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2xoops__network__disclaimer_8php">xoops_network_disclaimer.php</innerfile>
+    <innerfile refid="modules_2xjson_2plugins_2xoops__user__validate_8php">xoops_user_validate.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xjson/plugins/"/>
+  </compounddef>
+</doxygen>

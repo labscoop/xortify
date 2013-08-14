@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_c4b6924dd254aab3a74da38f1be1fccd" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector</compoundname>
+    <innerdir refid="dir_21c6980f6d5b66de9425b7108358e3af">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/include</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/"/>
+  </compounddef>
+</doxygen>

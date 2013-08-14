@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_2b40a2f098d7f3e7a43b4b65d97f0107" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/unban/admin</compoundname>
+    <innerfile refid="modules_2unban_2admin_2index_8php">index.php</innerfile>
+    <innerfile refid="unban_2admin_2menu_8php">menu.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/"/>
+  </compounddef>
+</doxygen>

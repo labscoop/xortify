@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="unban_2class_2categories_8php" kind="file">
+    <compoundname>categories.php</compoundname>
+    <innerclass refid="classunban_categories" prot="public">unbanCategories</innerclass>
+    <innerclass refid="classunban_categories_handler" prot="public">unbanCategoriesHandler</innerclass>
+    <innernamespace refid="namespacekernel">kernel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!defined(</highlight><highlight class="stringliteral">&apos;XOOPS_ROOT_PATH&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>exit();</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11" refid="classunban_categories" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classunban_categories" kindref="compound">unbanCategories</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>XoopsObject</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_categories" kindref="compound">unbanCategories</ref>($fid<sp/>=<sp/>null)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;initVar(</highlight><highlight class="stringliteral">&apos;category_id&apos;</highlight><highlight class="normal">,<sp/>XOBJ_DTYPE_INT,<sp/>null,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;initVar(</highlight><highlight class="stringliteral">&apos;category_name&apos;</highlight><highlight class="normal">,<sp/>XOBJ_DTYPE_TXTBOX,<sp/>null,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>128);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classunban_categories_handler" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classunban_categories_handler" kindref="compound">unbanCategoriesHandler</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>XoopsPersistableObjectHandler</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct(&amp;$db)<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::__construct($db,<sp/></highlight><highlight class="stringliteral">&quot;ban_categories&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;unbanCategories&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;category_id&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;category_name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/class/categories.php"/>
+  </compounddef>
+</doxygen>

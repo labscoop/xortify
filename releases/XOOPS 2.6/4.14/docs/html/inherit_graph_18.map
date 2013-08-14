@@ -1,0 +1,17 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_xortify_auth.html" title="XortifyAuth" alt="" coords="6,335,90,361"/>
+<area shape="rect" id="node2" href="$class_xortify_auth_curl.html" title="XortifyAuthCurl" alt="" coords="188,5,295,32"/>
+<area shape="rect" id="node3" href="$class_xortify_auth_curlserialised.html" title="XortifyAuthCurlserialised" alt="" coords="160,56,323,83"/>
+<area shape="rect" id="node4" href="$class_xortify_auth_curlxml.html" title="XortifyAuthCurlxml" alt="" coords="177,107,305,133"/>
+<area shape="rect" id="node5" href="$class_xortify_auth_json.html" title="XortifyAuthJson" alt="" coords="186,157,297,184"/>
+<area shape="rect" id="node6" href="$class_xortify_auth_minimum_cloud.html" title="XortifyAuthMinimumCloud" alt="" coords="156,208,327,235"/>
+<area shape="rect" id="node7" href="$class_xortify_auth_rest___curl.html" title="XortifyAuthRest_Curl" alt="" coords="171,259,312,285"/>
+<area shape="rect" id="node8" href="$class_xortify_auth_rest___curlserialised.html" title="XortifyAuthRest_Curlserialised" alt="" coords="143,309,339,336"/>
+<area shape="rect" id="node9" href="$class_xortify_auth_rest___curlxml.html" title="XortifyAuthRest_Curlxml" alt="" coords="160,360,323,387"/>
+<area shape="rect" id="node10" href="$class_xortify_auth_rest___json.html" title="XortifyAuthRest_Json" alt="" coords="169,411,314,437"/>
+<area shape="rect" id="node11" href="$class_xortify_auth_rest___wgetserialised.html" title="XortifyAuthRest_Wgetserialised" alt="" coords="139,461,343,488"/>
+<area shape="rect" id="node12" href="$class_xortify_auth_rest___wgetxml.html" title="XortifyAuthRest_Wgetxml" alt="" coords="156,512,327,539"/>
+<area shape="rect" id="node13" href="$class_xortify_auth_soap.html" title="XortifyAuthSoap" alt="" coords="184,563,299,589"/>
+<area shape="rect" id="node14" href="$class_xortify_auth_wgetserialised.html" title="XortifyAuthWgetserialised" alt="" coords="156,613,327,640"/>
+<area shape="rect" id="node15" href="$class_xortify_auth_wgetxml.html" title="XortifyAuthWgetxml" alt="" coords="173,664,309,691"/>
+</map>

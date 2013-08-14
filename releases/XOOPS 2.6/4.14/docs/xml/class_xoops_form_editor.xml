@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xoops_form_editor" kind="class" prot="public">
+    <compoundname>XoopsFormEditor</compoundname>
+    <basecompoundref refid="class_xoops_form_text_area" prot="public" virt="non-virtual">XoopsFormTextArea</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xoops_form_editor_1ae693002b1a41abcb7deb80901cd9aedb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$editor</definition>
+        <argsstring></argsstring>
+        <name>$editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" line="35" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xoops_form_editor_1aeed189812b5f5ff43110a59d2c563f66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($caption, $name, $configs=null, $nohtml=false, $OnFailure= &apos;&apos;)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$caption</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$configs</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$nohtml</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$OnFailure</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caption </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name for textarea field </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$configs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>configures: editor - editor identifier; name - textarea field name; width, height - dimensions for textarea; value - text content </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$nohtml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>use non-WYSIWYG eitor onfailure </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$OnFailure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>editor to be used if current one failed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" line="46" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" bodystart="46" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_editor_1a2747262e7fc6aba84bfc52bcf38407df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>renderValidationJS</definition>
+        <argsstring>()</argsstring>
+        <name>renderValidationJS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>renderValidationJS TEMPORARY SOLUTION to &apos;override&apos; original renderValidationJS method with custom XoopsEditor&apos;s renderValidationJS method</para><para><simplesect kind="return"><para>bool|string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" line="68" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" bodystart="68" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_editor_1afde88292c44dc59faf017738dae6dffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" line="87" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" bodystart="87" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>XOOPS Form Editor </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="280">
+        <label>XoopsFormElement</label>
+      </node>
+      <node id="278">
+        <label>XoopsFormEditor</label>
+        <link refid="class_xoops_form_editor"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>XoopsFormTextArea</label>
+        <link refid="class_xoops_form_text_area"/>
+        <childnode refid="280" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="283">
+        <label>XoopsFormElement</label>
+      </node>
+      <node id="281">
+        <label>XoopsFormEditor</label>
+        <link refid="class_xoops_form_editor"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>XoopsFormTextArea</label>
+        <link refid="class_xoops_form_text_area"/>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" line="31" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formeditor.php" bodystart="30" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_xoops_form_editor_1ae693002b1a41abcb7deb80901cd9aedb" prot="public" virt="non-virtual"><scope>XoopsFormEditor</scope><name>$editor</name></member>
+      <member refid="class_xoops_form_editor_1aeed189812b5f5ff43110a59d2c563f66" prot="public" virt="non-virtual"><scope>XoopsFormEditor</scope><name>__construct</name></member>
+      <member refid="class_xoops_form_text_area_1a74181343558bddc9598d682718a9b018" prot="public" virt="non-virtual" ambiguityscope="XoopsFormTextArea::"><scope>XoopsFormEditor</scope><name>__construct</name></member>
+      <member refid="class_xoops_form_text_area_1afc020a5052f695efa2e9e8d9ce6e6029" prot="public" virt="non-virtual"><scope>XoopsFormEditor</scope><name>getCols</name></member>
+      <member refid="class_xoops_form_text_area_1a4afcccec5ceaedaa747a38d2459d82a5" prot="public" virt="non-virtual"><scope>XoopsFormEditor</scope><name>getPlaceholder</name></member>
+      <member refid="class_xoops_form_text_area_1ad93a3a7b26a8578a36b6e8f6d05ca5ba" prot="public" virt="non-virtual"><scope>XoopsFormEditor</scope><name>getRows</name></member>
+      <member refid="class_xoops_form_editor_1afde88292c44dc59faf017738dae6dffb" prot="public" virt="non-virtual"><scope>XoopsFormEditor</scope><name>render</name></member>
+      <member refid="class_xoops_form_editor_1a2747262e7fc6aba84bfc52bcf38407df" prot="public" virt="non-virtual"><scope>XoopsFormEditor</scope><name>renderValidationJS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

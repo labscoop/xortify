@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_spiders_spiders" kind="class" prot="public">
+    <compoundname>SpidersSpiders</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spiders_spiders_1a93ac2051078a8e8f6ff1b4ea1dc143b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SpidersSpiders</definition>
+        <argsstring>($fid=null)</argsstring>
+        <name>SpidersSpiders</name>
+        <param>
+          <declname>$fid</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="14" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="536">
+        <label>XoopsObject</label>
+      </node>
+      <node id="535">
+        <label>SpidersSpiders</label>
+        <link refid="class_spiders_spiders"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="538">
+        <label>XoopsObject</label>
+      </node>
+      <node id="537">
+        <label>SpidersSpiders</label>
+        <link refid="class_spiders_spiders"/>
+        <childnode refid="538" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="12" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="11" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_spiders_spiders_1a93ac2051078a8e8f6ff1b4ea1dc143b4" prot="public" virt="non-virtual"><scope>SpidersSpiders</scope><name>SpidersSpiders</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

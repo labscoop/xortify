@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_cache_model_handler" kind="class" prot="public">
+    <compoundname>CacheModelHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_cache_model_handler_1adf62e2b172196282218b1ece3d200fa1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const TABLE</definition>
+        <argsstring></argsstring>
+        <name>TABLE</name>
+        <initializer>= &apos;cache_model&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/model.php" line="211" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/model.php" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cache_model_handler_1af8eef153e1171aa600855d5dff3cb3b7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const CLASSNAME</definition>
+        <argsstring></argsstring>
+        <name>CLASSNAME</name>
+        <initializer>= &apos;<ref refid="class_cache_model_object" kindref="compound">CacheModelObject</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/model.php" line="212" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/model.php" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cache_model_handler_1aadb8b621c723279823aea9639ceee67e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const KEYNAME</definition>
+        <argsstring></argsstring>
+        <name>KEYNAME</name>
+        <initializer>= &apos;key&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/model.php" line="213" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/model.php" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="185">
+        <label>CacheModelHandler</label>
+        <link refid="class_cache_model_handler"/>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>PersistableObjectHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="187">
+        <label>CacheModelHandler</label>
+        <link refid="class_cache_model_handler"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>PersistableObjectHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="Q:/@websites@/coop/labs/dev2/class/cache/model.php" line="210" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/model.php" bodystart="209" bodyend="214"/>
+    <listofallmembers>
+      <member refid="class_cache_model_handler_1af8eef153e1171aa600855d5dff3cb3b7" prot="public" virt="non-virtual"><scope>CacheModelHandler</scope><name>CLASSNAME</name></member>
+      <member refid="class_cache_model_handler_1aadb8b621c723279823aea9639ceee67e" prot="public" virt="non-virtual"><scope>CacheModelHandler</scope><name>KEYNAME</name></member>
+      <member refid="class_cache_model_handler_1adf62e2b172196282218b1ece3d200fa1" prot="public" virt="non-virtual"><scope>CacheModelHandler</scope><name>TABLE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

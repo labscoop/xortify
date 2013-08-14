@@ -1,0 +1,21 @@
+CREATE TABLE `ban_categories` (                         
+	`category_id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,  
+	`category_name` VARCHAR(128) DEFAULT NULL,               
+	PRIMARY KEY (`category_id`)                              
+) ENGINE=MYISAM ;
+
+CREATE TABLE `ban_member` (                           
+	 `member_id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,  
+	 `category_id` INT(10) UNSIGNED DEFAULT NULL,           
+	 `uid` INT(12) DEFAULT '0',    
+	 `uname` VARCHAR(64) DEFAULT NULL, 
+	 `ip4` VARCHAR(255) DEFAULT NULL,
+	 `ip6` VARCHAR(255) DEFAULT NULL,
+	 `long` VARCHAR(120) DEFAULT NULL,
+	 `proxy-ip4` VARCHAR(255) DEFAULT NULL,
+	 `proxy-ip6` VARCHAR(255) DEFAULT NULL,
+	 `network-addy` VARCHAR(255) DEFAULT NULL,                
+	 `mac-addy` VARCHAR(255) DEFAULT NULL,
+	 `made` INT(12) DEFAULT 0,
+	 PRIMARY KEY (`member_id`)                              
+) ENGINE=MYISAM ;

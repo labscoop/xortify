@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_2a3f9b40595ffb5f9bac077686611675" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xrest</compoundname>
+    <innerdir refid="dir_41fb6545e94dff0014ab4bcb324bd187">E:/Packages/xortify server/htdocs/modules/xrest/admin</innerdir>
+    <innerdir refid="dir_dac90b097a1e518fea3c153a6cb46bc9">E:/Packages/xortify server/htdocs/modules/xrest/class</innerdir>
+    <innerdir refid="dir_92b6a90a717f5db84cb86d2505533350">E:/Packages/xortify server/htdocs/modules/xrest/include</innerdir>
+    <innerdir refid="dir_640ed485df15e59d21478000bfee1085">E:/Packages/xortify server/htdocs/modules/xrest/language</innerdir>
+    <innerdir refid="dir_e390e78031352b668b2848f9346e5d0b">E:/Packages/xortify server/htdocs/modules/xrest/plugins</innerdir>
+    <innerdir refid="dir_bd13a096207c83869a1f07b9bd0a6274">E:/Packages/xortify server/htdocs/modules/xrest/preloads</innerdir>
+    <innerfile refid="modules_2xrest_2index_8php">index.php</innerfile>
+    <innerfile refid="xrest_2xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/"/>
+  </compounddef>
+</doxygen>

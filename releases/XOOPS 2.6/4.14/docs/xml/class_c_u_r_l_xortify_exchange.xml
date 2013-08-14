@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_c_u_r_l_xortify_exchange" kind="class" prot="public">
+    <compoundname>CURLXortifyExchange</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_u_r_l_xortify_exchange_1a402f2112991f3227835af80e9df33e38" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$curl_client</definition>
+        <argsstring></argsstring>
+        <name>$curl_client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="83" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_u_r_l_xortify_exchange_1aab7480ba9f878a02b2c9fd43922fa070" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$curl_xoops_username</definition>
+        <argsstring></argsstring>
+        <name>$curl_xoops_username</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="88" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_u_r_l_xortify_exchange_1a6c9851541ed3826c67cfe7224c38f0b8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$curl_xoops_password</definition>
+        <argsstring></argsstring>
+        <name>$curl_xoops_password</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="93" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_u_r_l_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$refresh</definition>
+        <argsstring></argsstring>
+        <name>$refresh</name>
+        <initializer>= 600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="98" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="103" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1a3e47d53032637da1adeb1e4c5b1d4483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CURLXortifyExchange</definition>
+        <argsstring>()</argsstring>
+        <name>CURLXortifyExchange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="111" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="111" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>training</definition>
+        <argsstring>($content, $ham=false)</argsstring>
+        <name>training</name>
+        <param>
+          <declname>$content</declname>
+        </param>
+        <param>
+          <declname>$ham</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="140" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="140" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkForSpam</definition>
+        <argsstring>($content)</argsstring>
+        <name>checkForSpam</name>
+        <param>
+          <declname>$content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="167" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="167" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1ae7926cba79660f77479306100f492c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSpoof</definition>
+        <argsstring>($type= &apos;comment&apos;)</argsstring>
+        <name>getSpoof</name>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;comment&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="200" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="200" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getServers</definition>
+        <argsstring>()</argsstring>
+        <name>getServers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="229" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="229" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendBan</definition>
+        <argsstring>($comment, $category_id=2, $ip=false)</argsstring>
+        <name>sendBan</name>
+        <param>
+          <declname>$comment</declname>
+        </param>
+        <param>
+          <declname>$category_id</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <declname>$ip</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="259" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="259" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkSFSBans</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkSFSBans</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="292" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="292" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkPHPBans</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkPHPBans</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="317" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="317" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBans</definition>
+        <argsstring>()</argsstring>
+        <name>getBans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="341" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="341" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>retrieveBans</definition>
+        <argsstring>()</argsstring>
+        <name>retrieveBans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="362" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="362" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_u_r_l_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkBanned</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkBanned</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="383" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="383" bodyend="396"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" line="78" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/curl.php" bodystart="78" bodyend="399"/>
+    <listofallmembers>
+      <member refid="class_c_u_r_l_xortify_exchange_1a402f2112991f3227835af80e9df33e38" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>$curl_client</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a6c9851541ed3826c67cfe7224c38f0b8" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>$curl_xoops_password</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1aab7480ba9f878a02b2c9fd43922fa070" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>$curl_xoops_username</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>$refresh</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>__construct</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>checkBanned</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>checkForSpam</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>checkPHPBans</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>checkSFSBans</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a3e47d53032637da1adeb1e4c5b1d4483" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>CURLXortifyExchange</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>getBans</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>getServers</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1ae7926cba79660f77479306100f492c03" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>getSpoof</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>retrieveBans</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>sendBan</name></member>
+      <member refid="class_c_u_r_l_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" prot="public" virt="non-virtual"><scope>CURLXortifyExchange</scope><name>training</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

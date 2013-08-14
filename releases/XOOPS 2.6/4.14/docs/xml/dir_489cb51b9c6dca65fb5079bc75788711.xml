@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_489cb51b9c6dca65fb5079bc75788711" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers</compoundname>
+    <innerdir refid="dir_c13f0abd21d92b9dd5a667895cf1ef60">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/projecthoneypot.org</innerdir>
+    <innerdir refid="dir_e6ad5575d07cd8db5c4c198be3be7f75">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/protector</innerdir>
+    <innerdir refid="dir_2b2c28dcb5ceaed20d9befa85eec4836">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/spiders</innerdir>
+    <innerdir refid="dir_0ad6d77e9a2c64a8b549dfe651781e82">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/stopforumspam.com</innerdir>
+    <innerdir refid="dir_a6441437022e6d014e9c86b1fa198397">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/xortify</innerdir>
+    <innerfile refid="providers_8php">providers.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/"/>
+  </compounddef>
+</doxygen>

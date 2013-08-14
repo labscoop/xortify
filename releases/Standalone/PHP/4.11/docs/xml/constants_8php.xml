@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="constants_8php" kind="file">
+    <compoundname>constants.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="constants_8php_1a704650773637cd5d8c0b8e5394260ece" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_RUN_XORTIFY_NAME</definition>
+        <argsstring></argsstring>
+        <name>_MI_RUN_XORTIFY_NAME</name>
+        <initializer>&apos;Xortify&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="34" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a31e07a7bc0b259b3ea2a324bad098566" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_RUN_XORTIFY_VERSION</definition>
+        <argsstring></argsstring>
+        <name>_MI_RUN_XORTIFY_VERSION</name>
+        <initializer>&apos;4.11&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="35" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1af2899512f82eb55009832a37ad85a376" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_RUN_XORTIFY_USER_AGENT</definition>
+        <argsstring></argsstring>
+        <name>_MI_RUN_XORTIFY_USER_AGENT</name>
+        <initializer>&apos;%s/%s %s Sector Network Security (%s)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="36" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a88274efaf5cf689c9e9f9d4b15690102" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_RUN_XORTIFY_RUNTIME</definition>
+        <argsstring></argsstring>
+        <name>_MI_RUN_XORTIFY_RUNTIME</name>
+        <initializer>&apos;PHP &apos; . PHP_VERSION. &apos; [&apos;.PHP_VERSION_ID . &apos;], XORTIFY &apos;.<ref refid="constants_8php_1a31e07a7bc0b259b3ea2a324bad098566" kindref="member">_MI_RUN_XORTIFY_VERSION</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="37" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a1b6cbcbccf9c0755b2e9ea2729f5a485" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_PHP_TYPE</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_PHP_TYPE</name>
+        <initializer>&apos;Project Honey Pot Ban - Details:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="39" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1adbae3f10112888ca7913fd12cf77f9aa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETA</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETA</name>
+        <initializer>&apos;Number of Days&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="40" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a97582a7b9a3c5af0e14f825fb652f2e3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETB</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETB</name>
+        <initializer>&apos;Severity&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="41" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a3a5e11c34b7b615250752239c86a91b4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETC</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETC</name>
+        <initializer>&apos;Scan Mode&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="42" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a40531df557fe325213d999f4008e4853" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_SPIDER_TYPE</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_SPIDER_TYPE</name>
+        <initializer>&apos;Spider Block - $_POST Variables are:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="43" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a35b6aceb1089d6c47683bf8fb8664430" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_SFS_TYPE</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_SFS_TYPE</name>
+        <initializer>&apos;Stop Forum Spam Ban - Details:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="44" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a569cbf4736b90e7cc7354d9dbd190639" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_SFS_EMAIL_FREQ</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_SFS_EMAIL_FREQ</name>
+        <initializer>&apos;Email Frequency&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="45" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1aee1aac0ae0321b9d930a6f706ca25add" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_SFS_EMAIL_LASTSEEN</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_SFS_EMAIL_LASTSEEN</name>
+        <initializer>&apos;Email Last Seen&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="46" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a5f3f317cea92211f3da142bcfcbaad8c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_SFS_USERNAME_FREQ</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_SFS_USERNAME_FREQ</name>
+        <initializer>&apos;Usename Frequency&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="47" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a26748d7e6587717921ca73ee251eed2a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_SFS_USERNAME_LASTSEEN</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_SFS_USERNAME_LASTSEEN</name>
+        <initializer>&apos;Username Last Seen&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="48" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1aba9ca546e6430465b003b1efba9aa2f3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_SFS_IP_FREQ</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_SFS_IP_FREQ</name>
+        <initializer>&apos;IP Frequency&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="49" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1a3172780ba6ee1f4bf033dbe8940626e6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_RUN_XORTIFYTIFY_BAN_SFS_IP_LASTSEEN</definition>
+        <argsstring></argsstring>
+        <name>_RUN_RUN_XORTIFYTIFY_BAN_SFS_IP_LASTSEEN</name>
+        <initializer>&apos;IP Last Seen&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="50" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1ac9e326eff0f95feb5bc23e911000ad87" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_XORTIFY_SPAM</definition>
+        <argsstring></argsstring>
+        <name>_RUN_XORTIFY_SPAM</name>
+        <initializer>&apos;SPAM&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="52" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1aaa5ef22232e5b7391ffb884c2465cbf2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_XORTIFY_SPAM_CONTENTS</definition>
+        <argsstring></argsstring>
+        <name>_RUN_XORTIFY_SPAM_CONTENTS</name>
+        <initializer>&apos;Spam Contents&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="53" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1aac15bb1f0d2c1c197625f079781d7a3f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_XORTIFY_SPAM_PAGETITLE</definition>
+        <argsstring></argsstring>
+        <name>_RUN_XORTIFY_SPAM_PAGETITLE</name>
+        <initializer>&apos;You have been blocked for trying to submit Spam!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="54" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8php_1ade85f11916906db345935caa6bfc5e70" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _RUN_XORTIFY_SPAM_DESCRIPTION</definition>
+        <argsstring></argsstring>
+        <name>_RUN_XORTIFY_SPAM_DESCRIPTION</name>
+        <initializer>&apos;&lt;p align=&quot;center&quot;&gt;&lt;img align=&quot;middle&quot; src=&quot;&apos;._RUN_XORTIFY_URL.&apos;/images/accessdenied.png&quot;&gt;&lt;/p&gt;&lt;p align=&quot;center&quot; style=&quot;font-size:18px&quot;&gt;You have been blocked from our site for submitting spam by Xortify, this is possibly done by one of our third parties! You will have %s attempts left then you will be banned!&lt;/p&gt;&lt;div style=&quot;clear:both; height: 25px;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;p align=&quot;center&quot; style=&quot;font-size:14px&quot;&gt;IP Bans that is a ban that is based on the provider &quot;Xortify&quot; are with your IP Can be removed by going to &lt;a href=&quot;http://xortify.com/modules/unban/&quot;&gt;XORTIFY DOT COM&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;This ban is not permenant and will drop in 3 months!&lt;/p&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/include/constants.php" line="55" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/include/constants.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Prevents<sp/>Spam,<sp/>Harvesting,<sp/>Human<sp/>Rights<sp/>Abuse,<sp/>Captcha<sp/>Abuse<sp/>etc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/>basic<sp/>statistic<sp/>of<sp/>them<sp/>in<sp/>XOOPS<sp/>Copyright<sp/>(C)<sp/>2012<sp/>Simon<sp/>Roberts</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/>Contact:<sp/>wishcraft<sp/>-<sp/>simon@chronolabs.com.au</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*<sp/>See<sp/>/docs/license.pdf<sp/>for<sp/>full<sp/>license.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*<sp/>Shouts:-<sp/><sp/>Mamba<sp/>(www.xoops.org),<sp/>flipse<sp/>(www.nlxoops.nl)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Many<sp/>thanks<sp/>for<sp/>your<sp/>additional<sp/>work<sp/>with<sp/>version<sp/>1.01</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*<sp/>Version:<sp/><sp/><sp/><sp/><sp/><sp/>3.10<sp/>Final<sp/>(Stable)</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*<sp/>Published:<sp/><sp/><sp/><sp/>Chronolabs</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/>Download:<sp/>http://code.google.com/p/chronolabs</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*<sp/>This<sp/>File:<sp/><sp/><sp/><sp/>post.header.endcache.php</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/>Description:<sp/><sp/>Post<sp/>loader<sp/>for<sp/>end<sp/>of<sp/>cache<sp/>before<sp/>exit();<sp/>in<sp/>/header.php</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*<sp/>Date:<sp/><sp/><sp/><sp/><sp/>09/09/2012<sp/>19:34<sp/>AEST</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*<sp/>License:<sp/><sp/><sp/><sp/><sp/><sp/>GNU3</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*/</highlight><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_RUN_XORTIFY_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Xortify&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_RUN_XORTIFY_VERSION&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;4.11&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_RUN_XORTIFY_USER_AGENT&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;%s/%s<sp/>%s<sp/>Sector<sp/>Network<sp/>Security<sp/>(%s)&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_RUN_XORTIFY_RUNTIME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;PHP<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/>PHP_VERSION.<sp/></highlight><highlight class="stringliteral">&apos;<sp/>[&apos;</highlight><highlight class="normal">.PHP_VERSION_ID<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;],<sp/>XORTIFY<sp/>&apos;</highlight><highlight class="normal">._MI_RUN_XORTIFY_VERSION);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_PHP_TYPE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Project<sp/>Honey<sp/>Pot<sp/>Ban<sp/>-<sp/>Details:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETA&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Number<sp/>of<sp/>Days&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETB&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Severity&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_PHP_OCTETC&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Scan<sp/>Mode&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_SPIDER_TYPE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Spider<sp/>Block<sp/>-<sp/>$_POST<sp/>Variables<sp/>are:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_SFS_TYPE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Stop<sp/>Forum<sp/>Spam<sp/>Ban<sp/>-<sp/>Details:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_SFS_EMAIL_FREQ&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Email<sp/>Frequency&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_SFS_EMAIL_LASTSEEN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Email<sp/>Last<sp/>Seen&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_SFS_USERNAME_FREQ&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Usename<sp/>Frequency&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_SFS_USERNAME_LASTSEEN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Username<sp/>Last<sp/>Seen&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_SFS_IP_FREQ&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IP<sp/>Frequency&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_RUN_XORTIFYTIFY_BAN_SFS_IP_LASTSEEN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IP<sp/>Last<sp/>Seen&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_XORTIFY_SPAM&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;SPAM&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_XORTIFY_SPAM_CONTENTS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Spam<sp/>Contents&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_XORTIFY_SPAM_PAGETITLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>have<sp/>been<sp/>blocked<sp/>for<sp/>trying<sp/>to<sp/>submit<sp/>Spam!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_RUN_XORTIFY_SPAM_DESCRIPTION&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&lt;p<sp/>align=&quot;center&quot;&gt;&lt;img<sp/>align=&quot;middle&quot;<sp/>src=&quot;&apos;</highlight><highlight class="normal">.<ref refid="config_8php_1a5447f78366103b7f936ad66b5ad699bc" kindref="member">_RUN_XORTIFY_URL</ref>.</highlight><highlight class="stringliteral">&apos;/images/accessdenied.png&quot;&gt;&lt;/p&gt;&lt;p<sp/>align=&quot;center&quot;<sp/>style=&quot;font-size:18px&quot;&gt;You<sp/>have<sp/>been<sp/>blocked<sp/>from<sp/>our<sp/>site<sp/>for<sp/>submitting<sp/>spam<sp/>by<sp/>Xortify,<sp/>this<sp/>is<sp/>possibly<sp/>done<sp/>by<sp/>one<sp/>of<sp/>our<sp/>third<sp/>parties!<sp/>You<sp/>will<sp/>have<sp/>%s<sp/>attempts<sp/>left<sp/>then<sp/>you<sp/>will<sp/>be<sp/>banned!&lt;/p&gt;&lt;div<sp/>style=&quot;clear:both;<sp/>height:<sp/>25px;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;p<sp/>align=&quot;center&quot;<sp/>style=&quot;font-size:14px&quot;&gt;IP<sp/>Bans<sp/>that<sp/>is<sp/>a<sp/>ban<sp/>that<sp/>is<sp/>based<sp/>on<sp/>the<sp/>provider<sp/>&quot;Xortify&quot;<sp/>are<sp/>with<sp/>your<sp/>IP<sp/>Can<sp/>be<sp/>removed<sp/>by<sp/>going<sp/>to<sp/>&lt;a<sp/>href=&quot;http://xortify.com/modules/unban/&quot;&gt;XORTIFY<sp/>DOT<sp/>COM&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;This<sp/>ban<sp/>is<sp/>not<sp/>permenant<sp/>and<sp/>will<sp/>drop<sp/>in<sp/>3<sp/>months!&lt;/p&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="Q:/@websites@/coop/labs/dev2/include/constants.php"/>
+  </compounddef>
+</doxygen>

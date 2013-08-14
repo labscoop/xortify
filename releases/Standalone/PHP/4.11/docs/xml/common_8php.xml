@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="common_8php" kind="file">
+    <compoundname>common.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Prevents<sp/>Spam,<sp/>Harvesting,<sp/>Human<sp/>Rights<sp/>Abuse,<sp/>Captcha<sp/>Abuse<sp/>etc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/>basic<sp/>statistic<sp/>of<sp/>them<sp/>in<sp/>XOOPS<sp/>Copyright<sp/>(C)<sp/>2012<sp/>Simon<sp/>Roberts</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/>Contact:<sp/>wishcraft<sp/>-<sp/>simon@chronolabs.com.au</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*<sp/>See<sp/>/docs/license.pdf<sp/>for<sp/>full<sp/>license.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*<sp/>Shouts:-<sp/><sp/>Mamba<sp/>(www.xoops.org),<sp/>flipse<sp/>(www.nlxoops.nl)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Many<sp/>thanks<sp/>for<sp/>your<sp/>additional<sp/>work<sp/>with<sp/>version<sp/>1.01</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*<sp/>Version:<sp/><sp/><sp/><sp/><sp/><sp/>3.10<sp/>Final<sp/>(Stable)</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*<sp/>Published:<sp/><sp/><sp/><sp/>Chronolabs</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/>Download:<sp/><sp/><sp/><sp/><sp/>http://code.google.com/p/chronolabs</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*<sp/>This<sp/>File:<sp/><sp/><sp/><sp/>index.php</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/>Description:<sp/><sp/>Data<sp/>Push<sp/>recieving<sp/>service<sp/>from<sp/>Xortify<sp/>Cloud.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*<sp/>Date:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>09/09/2012<sp/>19:34<sp/>AEST</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*<sp/>License:<sp/><sp/><sp/><sp/><sp/><sp/>GNU3</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>session_start();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>require_once<sp/>dirname(dirname(__FILE__))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;config.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>require_once<sp/>dirname(__FILE__)<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;constants.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>require_once<sp/>dirname(__FILE__)<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="Q:/@websites@/coop/labs/dev2/include/common.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xrest_fields_handler" kind="class" prot="public">
+    <compoundname>XrestFieldsHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xrest_fields_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" line="83" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_fields_handler_1a91c3b19d403199d1e254a82e97f76c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFieldFromTable</definition>
+        <argsstring>($table)</argsstring>
+        <name>getFieldFromTable</name>
+        <param>
+          <declname>$table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" line="89" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" bodystart="89" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_fields_handler_1a1b0f3b42fb06802aa19e78a5c2d1c61f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFieldWithNameAndTableID</definition>
+        <argsstring>($fieldname, $tbl_id)</argsstring>
+        <name>getFieldWithNameAndTableID</name>
+        <param>
+          <declname>$fieldname</declname>
+        </param>
+        <param>
+          <declname>$tbl_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" line="102" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" bodystart="102" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="779">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="778">
+        <label>XrestFieldsHandler</label>
+        <link refid="class_xrest_fields_handler"/>
+        <childnode refid="779" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="781">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="780">
+        <label>XrestFieldsHandler</label>
+        <link refid="class_xrest_fields_handler"/>
+        <childnode refid="781" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" line="82" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" bodystart="81" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_xrest_fields_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>XrestFieldsHandler</scope><name>__construct</name></member>
+      <member refid="class_xrest_fields_handler_1a91c3b19d403199d1e254a82e97f76c63" prot="public" virt="non-virtual"><scope>XrestFieldsHandler</scope><name>getFieldFromTable</name></member>
+      <member refid="class_xrest_fields_handler_1a1b0f3b42fb06802aa19e78a5c2d1c61f" prot="public" virt="non-virtual"><scope>XrestFieldsHandler</scope><name>getFieldWithNameAndTableID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

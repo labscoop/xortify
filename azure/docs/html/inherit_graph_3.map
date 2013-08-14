@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classban_form_recaptcha.html" title="banFormRecaptcha" alt="" coords="210,5,345,32"/>
+<area shape="rect" id="node3" href="$classban_form_select_category.html" title="banFormSelectCategory" alt="" coords="196,56,359,83"/>
+<area shape="rect" id="node4" href="$classban_form_select_member.html" title="banFormSelectMember" alt="" coords="199,107,356,133"/>
+<area shape="rect" id="node5" href="$classunban_form_recaptcha.html" title="unbanFormRecaptcha" alt="" coords="203,157,352,184"/>
+<area shape="rect" id="node6" href="$classunban_form_select_category.html" title="unbanFormSelectCategory" alt="" coords="189,208,365,235"/>
+<area shape="rect" id="node7" href="$classunban_form_select_member.html" title="unbanFormSelectMember" alt="" coords="192,259,363,285"/>
+</map>

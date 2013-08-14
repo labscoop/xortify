@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="keys_8php" kind="file">
+    <compoundname>keys.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="keys_8php_1a2c2b969672e21c20b92a19ddb584789e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SERVER_PROJECTHONEYPOT_BL_KEY</definition>
+        <argsstring></argsstring>
+        <name>_MI_SERVER_PROJECTHONEYPOT_BL_KEY</name>
+        <initializer>&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/language/english/keys.php" line="4" column="1" bodyfile="E:/Packages/xortify server/htdocs/language/english/keys.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keys_8php_1a67acbbeb25c78fe2f60531c260c516da" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SERVER_STOPFORUMSPAM_KEY</definition>
+        <argsstring></argsstring>
+        <name>_MI_SERVER_STOPFORUMSPAM_KEY</name>
+        <initializer>&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/language/english/keys.php" line="7" column="1" bodyfile="E:/Packages/xortify server/htdocs/language/english/keys.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keys_8php_1a492ac130058523f394450d5d84eae906" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SERVER_IPINFODB_KEY</definition>
+        <argsstring></argsstring>
+        <name>_MI_SERVER_IPINFODB_KEY</name>
+        <initializer>&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/language/english/keys.php" line="10" column="1" bodyfile="E:/Packages/xortify server/htdocs/language/english/keys.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keys_8php_1adeee80f1f983ea0ba5a1535a096574db" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SERVER_GOOGLE_TRANSLATOR_KEY</definition>
+        <argsstring></argsstring>
+        <name>_MI_SERVER_GOOGLE_TRANSLATOR_KEY</name>
+        <initializer>&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/language/english/keys.php" line="13" column="1" bodyfile="E:/Packages/xortify server/htdocs/language/english/keys.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keys_8php_1a276ba7f95ec85abe6eeb74ae400874e3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SERVER_BING_TRANSLATOR_CLIENTID</definition>
+        <argsstring></argsstring>
+        <name>_MI_SERVER_BING_TRANSLATOR_CLIENTID</name>
+        <initializer>&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/language/english/keys.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/language/english/keys.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="keys_8php_1abfad07e1f5adcccd2ead335bd2d43af5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SERVER_BING_TRANSLATOR_CLIENTSECRET</definition>
+        <argsstring></argsstring>
+        <name>_MI_SERVER_BING_TRANSLATOR_CLIENTSECRET</name>
+        <initializer>&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/language/english/keys.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/language/english/keys.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>ProjectHoneypot.org<sp/>API<sp/>Key<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SERVER_PROJECTHONEYPOT_BL_KEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>StopForumSpam.com<sp/>API<sp/>Key<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SERVER_STOPFORUMSPAM_KEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>IPInfoDB.Com<sp/>API<sp/>Key<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SERVER_IPINFODB_KEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Google<sp/>Translator<sp/>Key<sp/>-<sp/>see:<sp/>https://code.google.com/apis/console<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SERVER_GOOGLE_TRANSLATOR_KEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Bing<sp/>Translator<sp/>Client<sp/>ID<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SERVER_BING_TRANSLATOR_CLIENTID&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Bing<sp/>Translator<sp/>Client<sp/>Secret<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SERVER_BING_TRANSLATOR_CLIENTSECRET&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/language/english/keys.php"/>
+  </compounddef>
+</doxygen>

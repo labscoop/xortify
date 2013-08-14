@@ -1,0 +1,128 @@
+.TH "CacheApc" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CacheApc \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBCacheEngine\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBinit\fP ($\fBsettings\fP=array())"
+.br
+.ti -1c
+.RI "\fBwrite\fP ($key, &$value, $duration)"
+.br
+.ti -1c
+.RI "\fBread\fP ($key)"
+.br
+.ti -1c
+.RI "\fBdelete\fP ($key)"
+.br
+.ti -1c
+.RI "\fBclear\fP ()"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+APC storage engine for cache\&.
+.PP
+PHP versions 4 and 5
+.PP
+CakePHP(tm) : Rapid Development Framework http://www.cakephp.org/ Copyright 2005-2008, Cake Software Foundation, Inc\&. 1785 E\&. Sahara Avenue, Suite 490-204 Las Vegas, Nevada 89104
+.PP
+Licensed under The MIT License Redistributions of files must retain the above copyright notice\&.
+.PP
+\fBCopyright:\fP
+.RS 4
+Copyright 2005-2008, Cake Software Foundation, Inc\&. \fBCakePHP(tm) Project  CakePHP(tm) v 1\&.2\&.0\&.4933        http://www.opensource.org/licenses/mit-license.php The MIT License APC storage engine for cache \fP
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "clear ()"
+Delete all keys from the cache
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the cache was succesfully cleared, false otherwise  public 
+.RE
+.PP
+
+.SS "delete ($key)"
+Delete a key from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+.RE
+.PP
+
+.SS "init ($settings = \fCarray()\fP)"
+Initialize the \fBCache\fP Engine
+.PP
+Called automatically by the cache frontend To reinitialize the settings call \fBCache::engine\fP('EngineName', [optional] settings = array());
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$setting\fP array of setting for the engine 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the engine has been successfully initialized, false if not 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+CacheEngine::__defaults  public 
+.RE
+.PP
+
+.SS "read ($key)"
+Read a key from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+.RE
+.PP
+
+.SS "write ($key, &$value, $duration)"
+Write data for key into cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.br
+\fI$value\fP Data to be cached 
+.br
+\fI$duration\fP How long to cache the data, in seconds 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the data was succesfully cached, false on failure  public 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

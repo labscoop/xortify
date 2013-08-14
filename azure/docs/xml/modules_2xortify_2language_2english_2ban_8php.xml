@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="modules_2xortify_2language_2english_2ban_8php" kind="file">
+    <compoundname>ban.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1aa879fc3c50b0de0ec937a511dc798057" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_PAGETITLE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_PAGETITLE</name>
+        <initializer>&apos;You are Banned!!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1aff93f77f179e77eefb0099807ed2605a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_DESCRIPTION</definition>
+        <argsstring></argsstring>
+        <name>_XOR_DESCRIPTION</name>
+        <initializer>&apos;&lt;p align=&quot;center&quot;&gt;&lt;img align=&quot;middle&quot; src=&quot;&apos;.XOOPS_URL.&apos;/modules/xortify/images/accessdenied.png&quot;&gt;&lt;/p&gt;&lt;p align=&quot;center&quot; style=&quot;font-size:18px&quot;&gt;You have been Banned from our site by Xortify, this is possibly done by one of our third parties like Stop Forum Spam or Project Honeypot, you will have to check the provider of the ban!&lt;/p&gt;&lt;div style=&quot;clear:both; height: 25px;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;p align=&quot;center&quot; style=&quot;font-size:14px&quot;&gt;IP Bans that is a ban that is based on the provider &quot;Xortify&quot; are with your IP Can be removed by going to &lt;a href=&quot;http://xortify.com/modules/unban/&quot;&gt;XORTIFY DOT COM&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;This ban is not permenant and will drop in 3 months!&lt;/p&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a04a63bef6c79e037e83950390ff8cf5a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_PHP_TYPE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_PHP_TYPE</name>
+        <initializer>&apos;Project Honey Pot Ban - Details:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a6127ff3e04b1a2c621962aeef2aa26e9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_PHP_OCTETA</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_PHP_OCTETA</name>
+        <initializer>&apos;Number of Days&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a1018fe45867767415d72eba181c4c456" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_PHP_OCTETB</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_PHP_OCTETB</name>
+        <initializer>&apos;Severity&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a4262423ef1ed9d8d2a7e5232522a8bc0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_PHP_OCTETC</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_PHP_OCTETC</name>
+        <initializer>&apos;Scan Mode&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1ad9a5e60057936e55be5e2f44b17e56ba" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_SPIDER_TYPE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_SPIDER_TYPE</name>
+        <initializer>&apos;Spider Block - $_POST Variables are:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a03245804099af3e1a39a62be99f8c859" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_SFS_TYPE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_SFS_TYPE</name>
+        <initializer>&apos;Stop Forum Spam Ban - Details:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1af24660519d4578cbcd90a35a3b93b5aa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_SFS_EMAIL_FREQ</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_SFS_EMAIL_FREQ</name>
+        <initializer>&apos;Email Frequency&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a35d3988576a066dcd968a0ea47561b4f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_SFS_EMAIL_LASTSEEN</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_SFS_EMAIL_LASTSEEN</name>
+        <initializer>&apos;Email Last Seen&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a710bb7a3321312bea8566396504acf3e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_SFS_USERNAME_FREQ</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_SFS_USERNAME_FREQ</name>
+        <initializer>&apos;Usename Frequency&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1aa4c47edb99cc5c736a03a6568fc363c5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_SFS_USERNAME_LASTSEEN</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_SFS_USERNAME_LASTSEEN</name>
+        <initializer>&apos;Username Last Seen&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1af711d2efbe4db74f1d4a699dbcdb1807" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_SFS_IP_FREQ</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_SFS_IP_FREQ</name>
+        <initializer>&apos;IP Frequency&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a83d4e783ae9a0d18ce06125d8c0c7f9a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_SFS_IP_LASTSEEN</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_SFS_IP_LASTSEEN</name>
+        <initializer>&apos;IP Last Seen&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a887237b8219acad416b3af82162c0f66" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_XORT_KEY</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_XORT_KEY</name>
+        <initializer>&apos;Field&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="52" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1ac8a9d9a3f65057b420ac8066a78d894d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_XORT_MATCH</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_XORT_MATCH</name>
+        <initializer>&apos;Match&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="53" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a25f8dc1dd9b52929acb53de55de6b69c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_BAN_XORT_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>_XOR_BAN_XORT_LENGTH</name>
+        <initializer>&apos;Length&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a5e2ba7d14d9e4b46ebbdae6ef0f62e7d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_SPAM</definition>
+        <argsstring></argsstring>
+        <name>_XOR_SPAM</name>
+        <initializer>&apos;SPAM&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a3f19adfa5b590c9a0fa4a704bd85f4d2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_SPAM_CONTENTS</definition>
+        <argsstring></argsstring>
+        <name>_XOR_SPAM_CONTENTS</name>
+        <initializer>&apos;Spam Contents&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1aeef3756f11e3ee4fedde08147263640d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_SPAM_PAGETITLE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_SPAM_PAGETITLE</name>
+        <initializer>&apos;You have been blocked for trying to submit Spam!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="modules_2xortify_2language_2english_2ban_8php_1a8a623b5761ef811e78d8269b3c36f56c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_SPAM_DESCRIPTION</definition>
+        <argsstring></argsstring>
+        <name>_XOR_SPAM_DESCRIPTION</name>
+        <initializer>&apos;&lt;p align=&quot;center&quot;&gt;&lt;img align=&quot;middle&quot; src=&quot;&apos;.XOOPS_URL.&apos;/modules/xortify/images/accessdenied.png&quot;&gt;&lt;/p&gt;&lt;p align=&quot;center&quot; style=&quot;font-size:18px&quot;&gt;You have been blocked from our site for submitting spam by Xortify, this is possibly done by one of our third parties! You will have &apos;.($GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;moduleConfig&apos;][&apos;spams_allowed&apos;]-$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;spams&apos;]) .&apos; attempts left then you will be banned!&lt;/p&gt;&lt;div style=&quot;clear:both; height: 25px;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;p align=&quot;center&quot; style=&quot;font-size:14px&quot;&gt;IP Bans that is a ban that is based on the provider &quot;Xortify&quot; are with your IP Can be removed by going to &lt;a href=&quot;http://xortify.com/modules/unban/&quot;&gt;XORTIFY DOT COM&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;This ban is not permenant and will drop in 3 months!&lt;/p&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Prevents<sp/>Spam,<sp/>Harvesting,<sp/>Human<sp/>Rights<sp/>Abuse,<sp/>Captcha<sp/>Abuse<sp/>etc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>basic<sp/>statistic<sp/>of<sp/>them<sp/>in<sp/>XOOPS<sp/>Copyright<sp/>(C)<sp/>2012<sp/>Simon<sp/>Roberts<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Contact:<sp/>wishcraft<sp/>-<sp/>simon@labs.coop</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>See<sp/>/docs/license.pdf<sp/>for<sp/>full<sp/>license.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Shouts:-<sp/><sp/><sp/><sp/><sp/>Mamba<sp/>(www.xoops.org),<sp/>flipse<sp/>(www.nlxoops.nl)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Many<sp/>thanks<sp/>for<sp/>your<sp/>additional<sp/>work<sp/>with<sp/>version<sp/>1.01</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Version:<sp/><sp/><sp/><sp/><sp/>3.10<sp/>Final<sp/>(Stable)</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>Published:<sp/><sp/><sp/>Chronolabs</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>Download:<sp/><sp/><sp/><sp/>http://code.google.com/p/chronolabs</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>This<sp/>File:<sp/><sp/><sp/>ban.php<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>Description:<sp/>Ban<sp/>language<sp/>defines</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>Date:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>09/09/2012<sp/>19:34<sp/>AEST</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>License:<sp/><sp/><sp/><sp/><sp/>GNU3</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_PAGETITLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>are<sp/>Banned!!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_DESCRIPTION&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&lt;p<sp/>align=&quot;center&quot;&gt;&lt;img<sp/>align=&quot;middle&quot;<sp/>src=&quot;&apos;</highlight><highlight class="normal">.XOOPS_URL.</highlight><highlight class="stringliteral">&apos;/modules/xortify/images/accessdenied.png&quot;&gt;&lt;/p&gt;&lt;p<sp/>align=&quot;center&quot;<sp/>style=&quot;font-size:18px&quot;&gt;You<sp/>have<sp/>been<sp/>Banned<sp/>from<sp/>our<sp/>site<sp/>by<sp/>Xortify,<sp/>this<sp/>is<sp/>possibly<sp/>done<sp/>by<sp/>one<sp/>of<sp/>our<sp/>third<sp/>parties<sp/>like<sp/>Stop<sp/>Forum<sp/>Spam<sp/>or<sp/>Project<sp/>Honeypot,<sp/>you<sp/>will<sp/>have<sp/>to<sp/>check<sp/>the<sp/>provider<sp/>of<sp/>the<sp/>ban!&lt;/p&gt;&lt;div<sp/>style=&quot;clear:both;<sp/>height:<sp/>25px;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;p<sp/>align=&quot;center&quot;<sp/>style=&quot;font-size:14px&quot;&gt;IP<sp/>Bans<sp/>that<sp/>is<sp/>a<sp/>ban<sp/>that<sp/>is<sp/>based<sp/>on<sp/>the<sp/>provider<sp/>&quot;Xortify&quot;<sp/>are<sp/>with<sp/>your<sp/>IP<sp/>Can<sp/>be<sp/>removed<sp/>by<sp/>going<sp/>to<sp/>&lt;a<sp/>href=&quot;http://xortify.com/modules/unban/&quot;&gt;XORTIFY<sp/>DOT<sp/>COM&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;This<sp/>ban<sp/>is<sp/>not<sp/>permenant<sp/>and<sp/>will<sp/>drop<sp/>in<sp/>3<sp/>months!&lt;/p&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Version<sp/>2.40</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_PHP_TYPE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Project<sp/>Honey<sp/>Pot<sp/>Ban<sp/>-<sp/>Details:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_PHP_OCTETA&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Number<sp/>of<sp/>Days&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_PHP_OCTETB&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Severity&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_PHP_OCTETC&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Scan<sp/>Mode&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_SPIDER_TYPE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Spider<sp/>Block<sp/>-<sp/>$_POST<sp/>Variables<sp/>are:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_SFS_TYPE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Stop<sp/>Forum<sp/>Spam<sp/>Ban<sp/>-<sp/>Details:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_SFS_EMAIL_FREQ&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Email<sp/>Frequency&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_SFS_EMAIL_LASTSEEN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Email<sp/>Last<sp/>Seen&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_SFS_USERNAME_FREQ&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Usename<sp/>Frequency&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_SFS_USERNAME_LASTSEEN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Username<sp/>Last<sp/>Seen&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_SFS_IP_FREQ&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IP<sp/>Frequency&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_SFS_IP_LASTSEEN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IP<sp/>Last<sp/>Seen&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Version<sp/>2.44</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_XORT_KEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Field&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_XORT_MATCH&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Match&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_BAN_XORT_LENGTH&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Length&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Version<sp/>4.03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_SPAM&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;SPAM&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_SPAM_CONTENTS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Spam<sp/>Contents&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_SPAM_PAGETITLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>have<sp/>been<sp/>blocked<sp/>for<sp/>trying<sp/>to<sp/>submit<sp/>Spam!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_SPAM_DESCRIPTION&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&lt;p<sp/>align=&quot;center&quot;&gt;&lt;img<sp/>align=&quot;middle&quot;<sp/>src=&quot;&apos;</highlight><highlight class="normal">.XOOPS_URL.</highlight><highlight class="stringliteral">&apos;/modules/xortify/images/accessdenied.png&quot;&gt;&lt;/p&gt;&lt;p<sp/>align=&quot;center&quot;<sp/>style=&quot;font-size:18px&quot;&gt;You<sp/>have<sp/>been<sp/>blocked<sp/>from<sp/>our<sp/>site<sp/>for<sp/>submitting<sp/>spam<sp/>by<sp/>Xortify,<sp/>this<sp/>is<sp/>possibly<sp/>done<sp/>by<sp/>one<sp/>of<sp/>our<sp/>third<sp/>parties!<sp/>You<sp/>will<sp/>have<sp/>&apos;</highlight><highlight class="normal">.($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;spams_allowed&apos;</highlight><highlight class="normal">]-$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;spams&apos;</highlight><highlight class="normal">])<sp/>.</highlight><highlight class="stringliteral">&apos;<sp/>attempts<sp/>left<sp/>then<sp/>you<sp/>will<sp/>be<sp/>banned!&lt;/p&gt;&lt;div<sp/>style=&quot;clear:both;<sp/>height:<sp/>25px;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;p<sp/>align=&quot;center&quot;<sp/>style=&quot;font-size:14px&quot;&gt;IP<sp/>Bans<sp/>that<sp/>is<sp/>a<sp/>ban<sp/>that<sp/>is<sp/>based<sp/>on<sp/>the<sp/>provider<sp/>&quot;Xortify&quot;<sp/>are<sp/>with<sp/>your<sp/>IP<sp/>Can<sp/>be<sp/>removed<sp/>by<sp/>going<sp/>to<sp/>&lt;a<sp/>href=&quot;http://xortify.com/modules/unban/&quot;&gt;XORTIFY<sp/>DOT<sp/>COM&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;This<sp/>ban<sp/>is<sp/>not<sp/>permenant<sp/>and<sp/>will<sp/>drop<sp/>in<sp/>3<sp/>months!&lt;/p&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/language/english/ban.php"/>
+  </compounddef>
+</doxygen>

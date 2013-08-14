@@ -1,0 +1,64 @@
+.TH "E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/xortify/post.loader.php" 3 "Fri Jul 26 2013" "Version 4.11" "Xortify Client for XOOPS 2.6" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/xortify/post.loader.php \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$GLOBALS\fP ['xoops'] = Xoops::getInstance()"
+.br
+.ti -1c
+.RI "\fB$checkfields\fP = array('uname', 'email', 'ip4', 'ip6', 'network-addy')"
+.br
+.ti -1c
+.RI "\fB$func\fP = strtoupper($GLOBALS['xoops']->getModuleConfig('protocol', 'xortify'))\&.'XortifyExchange'"
+.br
+.ti -1c
+.RI "\fB$soapExchg\fP = new $func"
+.br
+.ti -1c
+.RI "\fB$bans\fP = $soapExchg->getBans()"
+.br
+.ti -1c
+.RI "\fBif\fP(is_object($GLOBALS['xoops']->
+.br
+user)) \fBelse\fP"
+.br
+.ti -1c
+.RI "\fB$uname\fP = (isset($_REQUEST['uname'])?$_REQUEST['uname']:'')"
+.br
+.ti -1c
+.RI "\fB$email\fP = (isset($_REQUEST['email'])?$_REQUEST['email']:'')"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "$bans = $soapExchg->getBans()"
+
+.SS "$checkfields = array('uname', 'email', 'ip4', 'ip6', 'network-addy')"
+
+.SS "$email = (isset($_REQUEST['email'])?$_REQUEST['email']:'')"
+
+.SS "$func = strtoupper($GLOBALS['xoops']->getModuleConfig('protocol', 'xortify'))\&.'XortifyExchange'"
+
+.SS "\fBif\fP (!class_exists('XoopsCache')) \fBif\fP (!$ipdata=XoopsCache::read('xortify_php_'\&.sha1($_SERVER['REMOTE_ADDR']\&.(isset($_SERVER['HTTP_X_FORWARDED_FOR'])?$_SERVER['HTTP_X_FORWARDED_FOR']:'')\&.$\fBuid\&.$uname\&.$email\fP))) \fBif\fP (is_array($bans['data'])&&count($bans['data'])>0) \fBif\fP (!$checked=XoopsCache::read('xortify_xrt_'\&.sha1($ipdata['uname']\&.$ipdata['email']\&.(isset($ipdata['ip4'])?$ipdata['ip4']:'')\&.(isset($ipdata['ip6'])?$ipdata['ip6']:'')\&.(isset($ipdata['proxy-ip4'])?$ipdata['proxy-ip4']:'')\&.(isset($ipdata['proxy-ip4'])?$ipdata['proxy-ip6']:'')\&.$ipdata['network-addy']))) \fBif\fP (isset($checked['count'])) $GLOBALS['xoops'] = Xoops::getInstance()"
+
+.SS "$soapExchg = new $func"
+
+.SS "$uname = (isset($_REQUEST['uname'])?$_REQUEST['uname']:'')"
+
+.SS "\fBif\fP (is_object($GLOBALS['xoops']->user)) else"
+\fBInitial value:\fP
+.PP
+.nf
+{
+        $uid = 0
+.fi
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Client for XOOPS 2\&.6 from the source code\&.

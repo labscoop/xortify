@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2xoops__version_8php" kind="file">
+    <compoundname>xoops_version.php</compoundname>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a5800bede0228e8061044e071c2afdf79" prot="public" static="no" mutable="no">
+        <type>if(!defined(&apos;XOOPS_ROOT_PATH&apos;))</type>
+        <definition>if (!defined(&apos;XOOPS_ROOT_PATH&apos;)) $modversion</definition>
+        <argsstring></argsstring>
+        <name>$modversion</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a39d2d4621e3065109051fa95e5ea69d9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;dirname&apos;]</definition>
+        <argsstring>[&apos;dirname&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= basename(dirname(__FILE__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a5cdbd2ac9e212ff077aaa59101b3b867" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;name&apos;]</definition>
+        <argsstring>[&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= ucfirst(basename(dirname(__FILE__)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1acca90d0d682b0eb029fdaad38ff16570" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;version&apos;]</definition>
+        <argsstring>[&apos;version&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;1.22&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a0155196723a439a1c9c63166d75e1aa9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;releasedate&apos;]</definition>
+        <argsstring>[&apos;releasedate&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;2013-03-03&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1adb1e35b60288f0d3e9b98e948054ad62" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;status&apos;]</definition>
+        <argsstring>[&apos;status&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Stable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a3e2ba4037e62f8dd1790bdbde525315a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;description&apos;]</definition>
+        <argsstring>[&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _MI_BAN_DESC</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a959303c9b36209d115fdef00ee85b476" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;credits&apos;]</definition>
+        <argsstring>[&apos;credits&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Banner Profile&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a71cc638deee036400821a7fbe821c9c0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;author&apos;]</definition>
+        <argsstring>[&apos;author&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;Wishcraft&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1ab024cf3ad0ca97d54e30a29c04a00d21" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;help&apos;]</definition>
+        <argsstring>[&apos;help&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1ac01b0a110a2b2471b022408cc144ba6a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;license&apos;]</definition>
+        <argsstring>[&apos;license&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;This banning profiler.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a67cc0580683a24bde7fb2a93a6b0b8b3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;official&apos;]</definition>
+        <argsstring>[&apos;official&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a2372fb2a0d0c8276a91ee60be1ba845b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;image&apos;]</definition>
+        <argsstring>[&apos;image&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;images/ban_slogo.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1af10ceeab19e022bc0076d9a57b22f827" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;hasSearch&apos;]</definition>
+        <argsstring>[&apos;hasSearch&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1ac411a19717edeffbbd48c4637e04c807" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;search&apos;][&apos;file&apos;]</definition>
+        <argsstring>[&apos;search&apos;][&apos;file&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;include/search.inc.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1aa857618186c4df86c03c3641a121d11f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;search&apos;][&apos;func&apos;]</definition>
+        <argsstring>[&apos;search&apos;][&apos;func&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;ban_search&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1abfb3e6806088c7dc1915d6306d0d4d15" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;hasMain&apos;]</definition>
+        <argsstring>[&apos;hasMain&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a00f87cb02a0a95bc81e52fd801c6bc48" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][1][&apos;name&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][1][&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _BAN_MI_LATESTBANS</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a52f71d8a82001e4a979bca40c97bfa01" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][1][&apos;url&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][1][&apos;url&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;index.php?op=latest&amp;num=35&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1afaf5b722c65e0c1683274fdc7d63724c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][2][&apos;name&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][2][&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= _BAN_MI_CREATEBAN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a7049a8dc5bdbbdfe736f65e5e3a95873" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sub&apos;][2][&apos;url&apos;]</definition>
+        <argsstring>[&apos;sub&apos;][2][&apos;url&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;index.php?op=create&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a32e1c2084cd61fd8eed6ea4e1aa48f42" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;hasAdmin&apos;]</definition>
+        <argsstring>[&apos;hasAdmin&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="53" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a768e74a968bcadb55351611867c017b7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;adminindex&apos;]</definition>
+        <argsstring>[&apos;adminindex&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;admin/index.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a677e42dae338738010a78548909bf2f5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;adminmenu&apos;]</definition>
+        <argsstring>[&apos;adminmenu&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;admin/menu.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a5836e107844ac303be9f58f51a8a4fd4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;sqlfile&apos;][&apos;mysql&apos;]</definition>
+        <argsstring>[&apos;sqlfile&apos;][&apos;mysql&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;sql/mysql.sql&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a890ca3f221b00adef5ce8b87a4356816" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;tables&apos;][0]</definition>
+        <argsstring>[&apos;tables&apos;][0]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;ban_member&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="61" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a94b725b908acb5b9c52aaf824ee08ce4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;tables&apos;][1]</definition>
+        <argsstring>[&apos;tables&apos;][1]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &quot;ban_categories&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a83018d9153d17d91fbcf3bc10158d34f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$i</definition>
+        <argsstring></argsstring>
+        <name>$i</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="64" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a97bde72eb399d36cae8b92f0fe643e4c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;name&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;name&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;display_name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="68" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a2f084d4cbd766a0a77a22c3a0569d00a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;title&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;title&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;_BAN_MI_DISPLAYNAME&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="69" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a5e9eb73a3e95f753e596d6a407eaa7e2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;description&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;_UNBAN_MI_DISPLAYNAME_DESC&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="70" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a3a99fbd85eb007c5a24976ed7a746dc5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;formtype&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;formtype&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;textarea&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="71" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a565f7b70c886b13fc870233f5bfcbeec" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;valuetype&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;valuetype&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;text&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="72" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a8015bb547bd75a72113a2b7f832e0bf2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;config&apos;][$i][&apos;default&apos;]</definition>
+        <argsstring>[&apos;config&apos;][$i][&apos;default&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;Currently Latest Banned IP &amp; Network names&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="73" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1af117dc1c0f577db4464b99c7e2b41b81" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][$i][&apos;file&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][$i][&apos;file&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;ban_index.html&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="96" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a35030ba25635588df06beea5b9bf6707" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;templates&apos;][$i][&apos;description&apos;]</definition>
+        <argsstring>[&apos;templates&apos;][$i][&apos;description&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;Picture Profile Screen&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="97" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a799eb354e13d860364f12973f5663b50" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;hasComments&apos;]</definition>
+        <argsstring>[&apos;hasComments&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="107" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a5288c076bdcbf1c8e85dc4f03b4a2181" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;comments&apos;][&apos;itemName&apos;]</definition>
+        <argsstring>[&apos;comments&apos;][&apos;itemName&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;id&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="108" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1aa77e5af64e3414083c3b204c8ae83e90" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;comments&apos;][&apos;pageName&apos;]</definition>
+        <argsstring>[&apos;comments&apos;][&apos;pageName&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= &apos;index.php&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="109" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2xoops__version_8php_1a06e4e0338675dd346fae68371c805b0d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modversion[&apos;comments&apos;][&apos;extraParams&apos;]</definition>
+        <argsstring>[&apos;comments&apos;][&apos;extraParams&apos;]</argsstring>
+        <name>$modversion</name>
+        <initializer>= array(&apos;op&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" line="110" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="20"><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!defined(</highlight><highlight class="stringliteral">&apos;XOOPS_ROOT_PATH&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>die(</highlight><highlight class="stringliteral">&apos;XOOPS<sp/>root<sp/>path<sp/>not<sp/>defined&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">$modversion<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;dirname&apos;</highlight><highlight class="normal">]<sp/>=<sp/>basename(dirname(__FILE__));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/>ucfirst(basename(dirname(__FILE__)));</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;version&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1.22&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;releasedate&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;2013-03-03&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Stable&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_MI_BAN_DESC;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;credits&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Banner<sp/>Profile&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;author&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Wishcraft&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;help&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;license&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>banning<sp/>profiler.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;official&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">]<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;images/ban_slogo.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//Search</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;hasSearch&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;search&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;include/search.inc.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;search&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;func&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ban_search&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Main</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;hasMain&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Main<sp/>Menu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][1][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_BAN_MI_LATESTBANS;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][1][</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;index.php?op=latest&amp;num=35&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][2][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_BAN_MI_CREATEBAN;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sub&apos;</highlight><highlight class="normal">][2][</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;index.php?op=create&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Admin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;hasAdmin&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;adminindex&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;adminmenu&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/menu.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Mysql<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;sqlfile&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;mysql&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;sql/mysql.sql&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Tables<sp/>created<sp/>by<sp/>sql<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;tables&apos;</highlight><highlight class="normal">][0]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ban_member&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;tables&apos;</highlight><highlight class="normal">][1]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ban_categories&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">$i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Config<sp/>items</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;display_name&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_BAN_MI_DISPLAYNAME&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_UNBAN_MI_DISPLAYNAME_DESC&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;textarea&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Currently<sp/>Latest<sp/>Banned<sp/>IP<sp/>&amp;<sp/>Network<sp/>names&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;display_text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_BAN_MI_DISPLAYTEXT&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_UNBAN_MI_DISPLAYTEXT_DESC&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;textarea&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;This<sp/>is<sp/>the<sp/>top<sp/>list<sp/>of<sp/>banned<sp/>IP\&apos;s<sp/>they<sp/>are<sp/>the<sp/>latest<sp/>on<sp/>the<sp/>network<sp/>and<sp/>are<sp/>available<sp/>with<sp/>the<sp/>unbanned<sp/>option<sp/>to<sp/>remove<sp/>from<sp/>the<sp/>network<sp/>banned<sp/>list!&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;htaccess&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_BAN_MI_HTACCESS&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;_BAN_MI_HTACCESS_DESC&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;formtype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;yesno&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;valuetype&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;int&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Templates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Templates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">$i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ban_index.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Picture<sp/>Profile<sp/>Screen&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ban_member.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Member<sp/>Picture<sp/>Profile<sp/>Screen&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">$i++;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;file&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ban_member_display.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;templates&apos;</highlight><highlight class="normal">][$i][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Member<sp/>Ban<sp/>Display<sp/>Profile<sp/>Screen&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;hasComments&apos;</highlight><highlight class="normal">]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;comments&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;itemName&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;comments&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;pageName&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;index.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">$modversion[</highlight><highlight class="stringliteral">&apos;comments&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;extraParams&apos;</highlight><highlight class="normal">]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;op&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/xoops_version.php"/>
+  </compounddef>
+</doxygen>

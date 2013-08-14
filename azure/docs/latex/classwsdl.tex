@@ -1,0 +1,1358 @@
+\hypertarget{classwsdl}{\section{wsdl Class Reference}
+\label{classwsdl}\index{wsdl@{wsdl}}
+}
+
+
+Inheritance diagram for wsdl\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classwsdl__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for wsdl\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classwsdl__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classwsdl_a4afbbf2bb8e2267a6387b17eb41597aa}{wsdl} (\$\hyperlink{classwsdl}{wsdl}= '', \$proxyhost=false, \$proxyport=false, \$proxyusername=false, \$proxypassword=false, \$timeout=0, \$response\-\_\-timeout=30)
+\item 
+\hyperlink{classwsdl_aef0643f32c7dca703065cc3eb3fd1dba}{parse\-W\-S\-D\-L} (\$\hyperlink{classwsdl}{wsdl}= '')
+\item 
+\hyperlink{classwsdl_abf9dc4b028eeac08eeca4c7309a950e2}{start\-\_\-element} (\$parser, \$name, \$attrs)
+\item 
+\hyperlink{classwsdl_ad45367c512cbc2d4679d1a49db3802f2}{end\-\_\-element} (\$parser, \$name)
+\item 
+\hyperlink{classwsdl_a592a4f9b601cc33f15de0ad7a9c49ae5}{character\-\_\-data} (\$parser, \$data)
+\item 
+\hypertarget{classwsdl_ae6385888eeb57e98ef81323b05842341}{{\bfseries get\-Binding\-Data} (\$binding)}\label{classwsdl_ae6385888eeb57e98ef81323b05842341}
+
+\item 
+\hyperlink{classwsdl_a1d50941291502c26831b28681dddeb94}{get\-Operations} (\$binding\-Type= 'soap')
+\item 
+\hyperlink{classwsdl_a38f29f3212405560a4bcf188ad632e1f}{get\-Operation\-Data} (\$operation, \$binding\-Type= 'soap')
+\item 
+\hyperlink{classwsdl_a5a538dc2c7da9f6f6d6880751318762b}{get\-Operation\-Data\-For\-Soap\-Action} (\$soap\-Action, \$binding\-Type= 'soap')
+\item 
+\hyperlink{classwsdl_a327b3186f4e3c8b71431ce4a9db77e5a}{get\-Type\-Def} (\$type, \$ns)
+\item 
+\hyperlink{classwsdl_a43ffc8c82e99905b889fbeb93d4ca6eb}{web\-Description} ()
+\item 
+\hyperlink{classwsdl_a25fcce1ac19624739857406748ba332a}{serialize} (\$\hyperlink{classnusoap__base_ac652bd9010bd39b0f2854f7ded3f6f33}{debug}=0)
+\item 
+\hyperlink{classwsdl_aba212dea327156517e32e7a3cd67d88a}{serialize\-R\-P\-C\-Parameters} (\$operation, \$direction, \$parameters)
+\item 
+\hyperlink{classwsdl_afed507a7c4d2b216e27515ca9181361c}{serialize\-Parameters} (\$operation, \$direction, \$parameters)
+\item 
+\hyperlink{classwsdl_a06a97e7bc4c0fe43b1193177d3266c30}{serialize\-Type} (\$name, \$type, \$value, \$use='encoded', \$encoding\-Style=false, \$unqualified=false)
+\item 
+\hyperlink{classwsdl_a1bebf04c625f86d2c65c6a2fc4c69f52}{serialize\-Complex\-Type\-Attributes} (\$type\-Def, \$value, \$ns, \$uq\-Type)
+\item 
+\hyperlink{classwsdl_a9abd63b860271a2010c4d35b5c607b45}{serialize\-Complex\-Type\-Elements} (\$type\-Def, \$value, \$ns, \$uq\-Type, \$use='encoded', \$encoding\-Style=false)
+\item 
+\hyperlink{classwsdl_a8086789ccd44f879ab77ba98dfa08aa2}{add\-Complex\-Type} (\$name, \$type\-Class='complex\-Type', \$php\-Type='array', \$compositor='', \$restriction\-Base='', \$elements=array(), \$attrs=array(), \$array\-Type='')
+\item 
+\hyperlink{classwsdl_a31228a55d8cdb602e32f481406e7455c}{add\-Simple\-Type} (\$name, \$restriction\-Base='', \$type\-Class='simple\-Type', \$php\-Type='scalar', \$enumeration=array())
+\item 
+\hyperlink{classwsdl_a7341d393047f63fdcb50dd44d2eff448}{add\-Element} (\$attrs)
+\item 
+\hyperlink{classwsdl_a629076bad717a1ef68261afe210001fc}{add\-Operation} (\$name, \$in=false, \$out=false, \$namespace=false, \$soapaction=false, \$style= 'rpc', \$use= 'encoded', \$documentation= '', \$encoding\-Style= '')
+\item 
+\hyperlink{classwsdl_a4afbbf2bb8e2267a6387b17eb41597aa}{wsdl} (\$\hyperlink{classwsdl}{wsdl}= '', \$proxyhost=false, \$proxyport=false, \$proxyusername=false, \$proxypassword=false, \$timeout=0, \$response\-\_\-timeout=30)
+\item 
+\hyperlink{classwsdl_aef0643f32c7dca703065cc3eb3fd1dba}{parse\-W\-S\-D\-L} (\$\hyperlink{classwsdl}{wsdl}= '')
+\item 
+\hyperlink{classwsdl_abf9dc4b028eeac08eeca4c7309a950e2}{start\-\_\-element} (\$parser, \$name, \$attrs)
+\item 
+\hyperlink{classwsdl_ad45367c512cbc2d4679d1a49db3802f2}{end\-\_\-element} (\$parser, \$name)
+\item 
+\hyperlink{classwsdl_a592a4f9b601cc33f15de0ad7a9c49ae5}{character\-\_\-data} (\$parser, \$data)
+\item 
+\hypertarget{classwsdl_ae6385888eeb57e98ef81323b05842341}{{\bfseries get\-Binding\-Data} (\$binding)}\label{classwsdl_ae6385888eeb57e98ef81323b05842341}
+
+\item 
+\hyperlink{classwsdl_a1d50941291502c26831b28681dddeb94}{get\-Operations} (\$binding\-Type= 'soap')
+\item 
+\hyperlink{classwsdl_a38f29f3212405560a4bcf188ad632e1f}{get\-Operation\-Data} (\$operation, \$binding\-Type= 'soap')
+\item 
+\hyperlink{classwsdl_a5a538dc2c7da9f6f6d6880751318762b}{get\-Operation\-Data\-For\-Soap\-Action} (\$soap\-Action, \$binding\-Type= 'soap')
+\item 
+\hyperlink{classwsdl_a327b3186f4e3c8b71431ce4a9db77e5a}{get\-Type\-Def} (\$type, \$ns)
+\item 
+\hyperlink{classwsdl_a43ffc8c82e99905b889fbeb93d4ca6eb}{web\-Description} ()
+\item 
+\hyperlink{classwsdl_a25fcce1ac19624739857406748ba332a}{serialize} (\$\hyperlink{classnusoap__base_ac652bd9010bd39b0f2854f7ded3f6f33}{debug}=0)
+\item 
+\hyperlink{classwsdl_aba212dea327156517e32e7a3cd67d88a}{serialize\-R\-P\-C\-Parameters} (\$operation, \$direction, \$parameters)
+\item 
+\hyperlink{classwsdl_afed507a7c4d2b216e27515ca9181361c}{serialize\-Parameters} (\$operation, \$direction, \$parameters)
+\item 
+\hyperlink{classwsdl_a06a97e7bc4c0fe43b1193177d3266c30}{serialize\-Type} (\$name, \$type, \$value, \$use='encoded', \$encoding\-Style=false, \$unqualified=false)
+\item 
+\hyperlink{classwsdl_a1bebf04c625f86d2c65c6a2fc4c69f52}{serialize\-Complex\-Type\-Attributes} (\$type\-Def, \$value, \$ns, \$uq\-Type)
+\item 
+\hyperlink{classwsdl_a9abd63b860271a2010c4d35b5c607b45}{serialize\-Complex\-Type\-Elements} (\$type\-Def, \$value, \$ns, \$uq\-Type, \$use='encoded', \$encoding\-Style=false)
+\item 
+\hyperlink{classwsdl_a8086789ccd44f879ab77ba98dfa08aa2}{add\-Complex\-Type} (\$name, \$type\-Class='complex\-Type', \$php\-Type='array', \$compositor='', \$restriction\-Base='', \$elements=array(), \$attrs=array(), \$array\-Type='')
+\item 
+\hyperlink{classwsdl_a31228a55d8cdb602e32f481406e7455c}{add\-Simple\-Type} (\$name, \$restriction\-Base='', \$type\-Class='simple\-Type', \$php\-Type='scalar', \$enumeration=array())
+\item 
+\hyperlink{classwsdl_a7341d393047f63fdcb50dd44d2eff448}{add\-Element} (\$attrs)
+\item 
+\hyperlink{classwsdl_a629076bad717a1ef68261afe210001fc}{add\-Operation} (\$name, \$in=false, \$out=false, \$namespace=false, \$soapaction=false, \$style= 'rpc', \$use= 'encoded', \$documentation= '', \$encoding\-Style= '')
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classwsdl_a8b3fb8293ad64e3dc0b814fedf24c5dd}{{\bfseries \$wsdl}}\label{classwsdl_a8b3fb8293ad64e3dc0b814fedf24c5dd}
+
+\item 
+\hypertarget{classwsdl_a99067204780ca14c213a3e15987b7cc1}{{\bfseries \$schemas} = array()}\label{classwsdl_a99067204780ca14c213a3e15987b7cc1}
+
+\item 
+\hypertarget{classwsdl_af4af684ea50a30d657aeb9682ff0caeb}{{\bfseries \$current\-Schema}}\label{classwsdl_af4af684ea50a30d657aeb9682ff0caeb}
+
+\item 
+\hypertarget{classwsdl_abf17cb2dba2ed17cb28aa5f37deb5293}{{\bfseries \$message} = array()}\label{classwsdl_abf17cb2dba2ed17cb28aa5f37deb5293}
+
+\item 
+\hypertarget{classwsdl_acf1dbaf5ad35f659428a61193928b78d}{{\bfseries \$complex\-Types} = array()}\label{classwsdl_acf1dbaf5ad35f659428a61193928b78d}
+
+\item 
+\hypertarget{classwsdl_a21a183f927a6d243fe6b4ba3a6c4d4c8}{{\bfseries \$messages} = array()}\label{classwsdl_a21a183f927a6d243fe6b4ba3a6c4d4c8}
+
+\item 
+\hypertarget{classwsdl_a04d4e6f80c471063bb6b64c6090c59a2}{{\bfseries \$current\-Message}}\label{classwsdl_a04d4e6f80c471063bb6b64c6090c59a2}
+
+\item 
+\hypertarget{classwsdl_a44b02f3838b36b3aad2401f0f02d3b76}{{\bfseries \$current\-Operation}}\label{classwsdl_a44b02f3838b36b3aad2401f0f02d3b76}
+
+\item 
+\hypertarget{classwsdl_aa0affbd30e12dfe2e3d61b716f38cbeb}{{\bfseries \$port\-Types} = array()}\label{classwsdl_aa0affbd30e12dfe2e3d61b716f38cbeb}
+
+\item 
+\hypertarget{classwsdl_a87aea97635203239413d2a45c66037e4}{{\bfseries \$current\-Port\-Type}}\label{classwsdl_a87aea97635203239413d2a45c66037e4}
+
+\item 
+\hypertarget{classwsdl_adacdcea57647569304169243ff32cd10}{{\bfseries \$bindings} = array()}\label{classwsdl_adacdcea57647569304169243ff32cd10}
+
+\item 
+\hypertarget{classwsdl_a473fc9ff0b89502bb265577b54a973c3}{{\bfseries \$current\-Binding}}\label{classwsdl_a473fc9ff0b89502bb265577b54a973c3}
+
+\item 
+\hypertarget{classwsdl_ae5d9eb7d80081176e92db51fbecf2448}{{\bfseries \$ports} = array()}\label{classwsdl_ae5d9eb7d80081176e92db51fbecf2448}
+
+\item 
+\hypertarget{classwsdl_a43463e704b29e9e592607bfe91a11bd6}{{\bfseries \$current\-Port}}\label{classwsdl_a43463e704b29e9e592607bfe91a11bd6}
+
+\item 
+\hypertarget{classwsdl_ae44d696522c0c90798bbfe652bc67f0c}{{\bfseries \$op\-Data} = array()}\label{classwsdl_ae44d696522c0c90798bbfe652bc67f0c}
+
+\item 
+\hypertarget{classwsdl_a58391ea75f2d29d5d708d7050b641c33}{{\bfseries \$status} = ''}\label{classwsdl_a58391ea75f2d29d5d708d7050b641c33}
+
+\item 
+\hypertarget{classwsdl_a2c75122f8f6ee14d52c3504f74ab3be9}{{\bfseries \$documentation} = false}\label{classwsdl_a2c75122f8f6ee14d52c3504f74ab3be9}
+
+\item 
+\hypertarget{classwsdl_afb5204f7604df2f50a0058cb0e024875}{{\bfseries \$endpoint} = ''}\label{classwsdl_afb5204f7604df2f50a0058cb0e024875}
+
+\item 
+\hypertarget{classwsdl_a268adb9a1f963c9f862f1158e9cfbffd}{{\bfseries \$import} = array()}\label{classwsdl_a268adb9a1f963c9f862f1158e9cfbffd}
+
+\item 
+\hypertarget{classwsdl_a147a766daa03d52576c7345fea31c945}{{\bfseries \$parser}}\label{classwsdl_a147a766daa03d52576c7345fea31c945}
+
+\item 
+\hypertarget{classwsdl_a6e88dcb746884d18f6c89eb9b9c14a42}{{\bfseries \$position} = 0}\label{classwsdl_a6e88dcb746884d18f6c89eb9b9c14a42}
+
+\item 
+\hypertarget{classwsdl_a0abb04e6a8a04e161eb4657f54848b18}{{\bfseries \$depth} = 0}\label{classwsdl_a0abb04e6a8a04e161eb4657f54848b18}
+
+\item 
+\hypertarget{classwsdl_aaaa53c3e91636edd41a46e767abb3347}{{\bfseries \$depth\-\_\-array} = array()}\label{classwsdl_aaaa53c3e91636edd41a46e767abb3347}
+
+\item 
+\hypertarget{classwsdl_a54407bcc777ac313a172561a8ff976c6}{{\bfseries \$proxyhost} = ''}\label{classwsdl_a54407bcc777ac313a172561a8ff976c6}
+
+\item 
+\hypertarget{classwsdl_ac396538deee1152f84f9ddabac2c2366}{{\bfseries \$proxyport} = ''}\label{classwsdl_ac396538deee1152f84f9ddabac2c2366}
+
+\item 
+\hypertarget{classwsdl_aaa30711a40f8f7bae4cd7060414e0fe1}{{\bfseries \$proxyusername} = ''}\label{classwsdl_aaa30711a40f8f7bae4cd7060414e0fe1}
+
+\item 
+\hypertarget{classwsdl_a98c0d3b74811ee643f7d1fce47f1b281}{{\bfseries \$proxypassword} = ''}\label{classwsdl_a98c0d3b74811ee643f7d1fce47f1b281}
+
+\item 
+\hypertarget{classwsdl_a84320a9bf3e591d7ae20dfcb0dfe6a0d}{{\bfseries \$timeout} = 0}\label{classwsdl_a84320a9bf3e591d7ae20dfcb0dfe6a0d}
+
+\item 
+\hypertarget{classwsdl_a17a3280264a8b9bb5ed32729d654739c}{{\bfseries \$response\-\_\-timeout} = 30}\label{classwsdl_a17a3280264a8b9bb5ed32729d654739c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+parses a W\-S\-D\-L file, allows access to it's data, other utility methods
+
+\begin{DoxyAuthor}{Author}
+Dietrich Ayala \href{mailto:dietrich@ganx4.com}{\tt dietrich@ganx4.\-com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id\-:}
+\hyperlink{class_8wsdl_8php_source}{class.\-wsdl.\-php},v 1.\-56 2005/08/04 01\-:27\-:42 snichol Exp 
+\end{DoxyParagraph}
+public
+
+parses a W\-S\-D\-L file, allows access to it's data, other utility methods
+
+\begin{DoxyAuthor}{Author}
+Dietrich Ayala \href{mailto:dietrich@ganx4.com}{\tt dietrich@ganx4.\-com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id\-:}
+\hyperlink{nusoap_8php_source}{nusoap.\-php},v 1.\-94 2005/08/04 01\-:27\-:42 snichol Exp 
+\end{DoxyParagraph}
+public 
+
+Definition at line 13 of file class.\-wsdl.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classwsdl_a8086789ccd44f879ab77ba98dfa08aa2}{\index{wsdl@{wsdl}!add\-Complex\-Type@{add\-Complex\-Type}}
+\index{add\-Complex\-Type@{add\-Complex\-Type}!wsdl@{wsdl}}
+\subsubsection[{add\-Complex\-Type}]{\setlength{\rightskip}{0pt plus 5cm}add\-Complex\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type\-Class = {\ttfamily 'complexType'}, }
+\item[{}]{\$php\-Type = {\ttfamily 'array'}, }
+\item[{}]{\$compositor = {\ttfamily ''}, }
+\item[{}]{\$restriction\-Base = {\ttfamily ''}, }
+\item[{}]{\$elements = {\ttfamily array()}, }
+\item[{}]{\$attrs = {\ttfamily array()}, }
+\item[{}]{\$array\-Type = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a8086789ccd44f879ab77ba98dfa08aa2}
+adds an X\-M\-L Schema complex type to the W\-S\-D\-L types
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & name \\
+\hline
+{\em string} & type\-Class (complex\-Type$|$simple\-Type$|$attribute) \\
+\hline
+{\em string} & php\-Type\-: currently supported are array and struct (php assoc array) \\
+\hline
+{\em string} & compositor (all$|$sequence$|$choice) \\
+\hline
+{\em string} & restriction\-Base namespace\-:name (\href{http://schemas.xmlsoap.org/soap/encoding/:Array}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:\-Array}) \\
+\hline
+{\em array} & elements = array ( name =$>$ array(name=$>$'',type=$>$'') ) \\
+\hline
+{\em array} & attrs = array(array('ref'=$>$'S\-O\-A\-P-\/\-E\-N\-C\-:array\-Type','wsdl\-:array\-Type'=$>$'xsd\-:string\mbox{[}\mbox{]}')) \\
+\hline
+{\em string} & array\-Type\-: namespace\-:name (xsd\-:string) \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema  public 
+\end{DoxySeeAlso}
+
+
+Definition at line 1573 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a8086789ccd44f879ab77ba98dfa08aa2}{\index{wsdl@{wsdl}!add\-Complex\-Type@{add\-Complex\-Type}}
+\index{add\-Complex\-Type@{add\-Complex\-Type}!wsdl@{wsdl}}
+\subsubsection[{add\-Complex\-Type}]{\setlength{\rightskip}{0pt plus 5cm}add\-Complex\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type\-Class = {\ttfamily 'complexType'}, }
+\item[{}]{\$php\-Type = {\ttfamily 'array'}, }
+\item[{}]{\$compositor = {\ttfamily ''}, }
+\item[{}]{\$restriction\-Base = {\ttfamily ''}, }
+\item[{}]{\$elements = {\ttfamily array()}, }
+\item[{}]{\$attrs = {\ttfamily array()}, }
+\item[{}]{\$array\-Type = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a8086789ccd44f879ab77ba98dfa08aa2}
+adds an X\-M\-L Schema complex type to the W\-S\-D\-L types
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & name \\
+\hline
+{\em string} & type\-Class (complex\-Type$|$simple\-Type$|$attribute) \\
+\hline
+{\em string} & php\-Type\-: currently supported are array and struct (php assoc array) \\
+\hline
+{\em string} & compositor (all$|$sequence$|$choice) \\
+\hline
+{\em string} & restriction\-Base namespace\-:name (\href{http://schemas.xmlsoap.org/soap/encoding/:Array}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:\-Array}) \\
+\hline
+{\em array} & elements = array ( name =$>$ array(name=$>$'',type=$>$'') ) \\
+\hline
+{\em array} & attrs = array(array('ref'=$>$'S\-O\-A\-P-\/\-E\-N\-C\-:array\-Type','wsdl\-:array\-Type'=$>$'xsd\-:string\mbox{[}\mbox{]}')) \\
+\hline
+{\em string} & array\-Type\-: namespace\-:name (xsd\-:string) \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema  public 
+\end{DoxySeeAlso}
+
+
+Definition at line 5635 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a7341d393047f63fdcb50dd44d2eff448}{\index{wsdl@{wsdl}!add\-Element@{add\-Element}}
+\index{add\-Element@{add\-Element}!wsdl@{wsdl}}
+\subsubsection[{add\-Element}]{\setlength{\rightskip}{0pt plus 5cm}add\-Element (
+\begin{DoxyParamCaption}
+\item[{}]{\$attrs}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a7341d393047f63fdcb50dd44d2eff448}
+adds an element to the W\-S\-D\-L types
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attrs} & attributes that must include name and type \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema  public 
+\end{DoxySeeAlso}
+
+
+Definition at line 1632 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a7341d393047f63fdcb50dd44d2eff448}{\index{wsdl@{wsdl}!add\-Element@{add\-Element}}
+\index{add\-Element@{add\-Element}!wsdl@{wsdl}}
+\subsubsection[{add\-Element}]{\setlength{\rightskip}{0pt plus 5cm}add\-Element (
+\begin{DoxyParamCaption}
+\item[{}]{\$attrs}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a7341d393047f63fdcb50dd44d2eff448}
+adds an element to the W\-S\-D\-L types
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attrs} & attributes that must include name and type \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema  public 
+\end{DoxySeeAlso}
+
+
+Definition at line 5694 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a629076bad717a1ef68261afe210001fc}{\index{wsdl@{wsdl}!add\-Operation@{add\-Operation}}
+\index{add\-Operation@{add\-Operation}!wsdl@{wsdl}}
+\subsubsection[{add\-Operation}]{\setlength{\rightskip}{0pt plus 5cm}add\-Operation (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$in = {\ttfamily false}, }
+\item[{}]{\$out = {\ttfamily false}, }
+\item[{}]{\$namespace = {\ttfamily false}, }
+\item[{}]{\$soapaction = {\ttfamily false}, }
+\item[{}]{\$style = {\ttfamily 'rpc'}, }
+\item[{}]{\$use = {\ttfamily 'encoded'}, }
+\item[{}]{\$documentation = {\ttfamily ''}, }
+\item[{}]{\$encoding\-Style = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a629076bad717a1ef68261afe210001fc}
+register an operation with the server
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & operation (method) name \\
+\hline
+array & {\em \$in} & assoc array of input values\-: key = param name, value = param type \\
+\hline
+array & {\em \$out} & assoc array of output values\-: key = param name, value = param type \\
+\hline
+string & {\em \$namespace} & optional The namespace for the operation \\
+\hline
+string & {\em \$soapaction} & optional The soapaction for the operation \\
+\hline
+string & {\em \$style} & (rpc$|$document) optional The style for the operation Note\-: when 'document' is specified, parameter and return wrappers are created for you automatically \\
+\hline
+string & {\em \$use} & (encoded$|$literal) optional The use for the parameters (cannot mix right now) \\
+\hline
+string & {\em \$documentation} & optional The description to include in the W\-S\-D\-L \\
+\hline
+string & {\em \$encoding\-Style} & optional (usually '\href{http://schemas.xmlsoap.org/soap/encoding/'}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/'} for encoded)  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1651 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a629076bad717a1ef68261afe210001fc}{\index{wsdl@{wsdl}!add\-Operation@{add\-Operation}}
+\index{add\-Operation@{add\-Operation}!wsdl@{wsdl}}
+\subsubsection[{add\-Operation}]{\setlength{\rightskip}{0pt plus 5cm}add\-Operation (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$in = {\ttfamily false}, }
+\item[{}]{\$out = {\ttfamily false}, }
+\item[{}]{\$namespace = {\ttfamily false}, }
+\item[{}]{\$soapaction = {\ttfamily false}, }
+\item[{}]{\$style = {\ttfamily 'rpc'}, }
+\item[{}]{\$use = {\ttfamily 'encoded'}, }
+\item[{}]{\$documentation = {\ttfamily ''}, }
+\item[{}]{\$encoding\-Style = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a629076bad717a1ef68261afe210001fc}
+register an operation with the server
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & operation (method) name \\
+\hline
+array & {\em \$in} & assoc array of input values\-: key = param name, value = param type \\
+\hline
+array & {\em \$out} & assoc array of output values\-: key = param name, value = param type \\
+\hline
+string & {\em \$namespace} & optional The namespace for the operation \\
+\hline
+string & {\em \$soapaction} & optional The soapaction for the operation \\
+\hline
+string & {\em \$style} & (rpc$|$document) optional The style for the operation Note\-: when 'document' is specified, parameter and return wrappers are created for you automatically \\
+\hline
+string & {\em \$use} & (encoded$|$literal) optional The use for the parameters (cannot mix right now) \\
+\hline
+string & {\em \$documentation} & optional The description to include in the W\-S\-D\-L \\
+\hline
+string & {\em \$encoding\-Style} & optional (usually '\href{http://schemas.xmlsoap.org/soap/encoding/'}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/'} for encoded)  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 5713 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a31228a55d8cdb602e32f481406e7455c}{\index{wsdl@{wsdl}!add\-Simple\-Type@{add\-Simple\-Type}}
+\index{add\-Simple\-Type@{add\-Simple\-Type}!wsdl@{wsdl}}
+\subsubsection[{add\-Simple\-Type}]{\setlength{\rightskip}{0pt plus 5cm}add\-Simple\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$restriction\-Base = {\ttfamily ''}, }
+\item[{}]{\$type\-Class = {\ttfamily 'simpleType'}, }
+\item[{}]{\$php\-Type = {\ttfamily 'scalar'}, }
+\item[{}]{\$enumeration = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a31228a55d8cdb602e32f481406e7455c}
+adds an X\-M\-L Schema simple type to the W\-S\-D\-L types
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$restriction\-Base} & namespace\-:name (\href{http://schemas.xmlsoap.org/soap/encoding/:Array}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:\-Array}) \\
+\hline
+string & {\em \$type\-Class} & (should always be simple\-Type) \\
+\hline
+string & {\em \$php\-Type} & (should always be scalar) \\
+\hline
+array & {\em \$enumeration} & array of values \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema  public 
+\end{DoxySeeAlso}
+
+
+Definition at line 1618 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a31228a55d8cdb602e32f481406e7455c}{\index{wsdl@{wsdl}!add\-Simple\-Type@{add\-Simple\-Type}}
+\index{add\-Simple\-Type@{add\-Simple\-Type}!wsdl@{wsdl}}
+\subsubsection[{add\-Simple\-Type}]{\setlength{\rightskip}{0pt plus 5cm}add\-Simple\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$restriction\-Base = {\ttfamily ''}, }
+\item[{}]{\$type\-Class = {\ttfamily 'simpleType'}, }
+\item[{}]{\$php\-Type = {\ttfamily 'scalar'}, }
+\item[{}]{\$enumeration = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a31228a55d8cdb602e32f481406e7455c}
+adds an X\-M\-L Schema simple type to the W\-S\-D\-L types
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$restriction\-Base} & namespace\-:name (\href{http://schemas.xmlsoap.org/soap/encoding/:Array}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:\-Array}) \\
+\hline
+string & {\em \$type\-Class} & (should always be simple\-Type) \\
+\hline
+string & {\em \$php\-Type} & (should always be scalar) \\
+\hline
+array & {\em \$enumeration} & array of values \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema  public 
+\end{DoxySeeAlso}
+
+
+Definition at line 5680 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a592a4f9b601cc33f15de0ad7a9c49ae5}{\index{wsdl@{wsdl}!character\-\_\-data@{character\-\_\-data}}
+\index{character\-\_\-data@{character\-\_\-data}!wsdl@{wsdl}}
+\subsubsection[{character\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}character\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a592a4f9b601cc33f15de0ad7a9c49ae5}
+element content handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$data} & element content  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 514 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a592a4f9b601cc33f15de0ad7a9c49ae5}{\index{wsdl@{wsdl}!character\-\_\-data@{character\-\_\-data}}
+\index{character\-\_\-data@{character\-\_\-data}!wsdl@{wsdl}}
+\subsubsection[{character\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}character\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a592a4f9b601cc33f15de0ad7a9c49ae5}
+element content handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$data} & element content  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 4576 of file nusoap.\-php.
+
+\hypertarget{classwsdl_ad45367c512cbc2d4679d1a49db3802f2}{\index{wsdl@{wsdl}!end\-\_\-element@{end\-\_\-element}}
+\index{end\-\_\-element@{end\-\_\-element}!wsdl@{wsdl}}
+\subsubsection[{end\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}end\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$name}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_ad45367c512cbc2d4679d1a49db3802f2}
+end-\/element handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$name} & element name  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 484 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_ad45367c512cbc2d4679d1a49db3802f2}{\index{wsdl@{wsdl}!end\-\_\-element@{end\-\_\-element}}
+\index{end\-\_\-element@{end\-\_\-element}!wsdl@{wsdl}}
+\subsubsection[{end\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}end\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$name}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_ad45367c512cbc2d4679d1a49db3802f2}
+end-\/element handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$name} & element name  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 4546 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a38f29f3212405560a4bcf188ad632e1f}{\index{wsdl@{wsdl}!get\-Operation\-Data@{get\-Operation\-Data}}
+\index{get\-Operation\-Data@{get\-Operation\-Data}!wsdl@{wsdl}}
+\subsubsection[{get\-Operation\-Data}]{\setlength{\rightskip}{0pt plus 5cm}get\-Operation\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation, }
+\item[{}]{\$binding\-Type = {\ttfamily 'soap'}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a38f29f3212405560a4bcf188ad632e1f}
+returns an associative array of data necessary for calling an operation
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$operation,name} & of operation \\
+\hline
+string & {\em \$binding\-Type,type} & of binding eg\-: soap \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array  public 
+\end{DoxyReturn}
+
+
+Definition at line 569 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a38f29f3212405560a4bcf188ad632e1f}{\index{wsdl@{wsdl}!get\-Operation\-Data@{get\-Operation\-Data}}
+\index{get\-Operation\-Data@{get\-Operation\-Data}!wsdl@{wsdl}}
+\subsubsection[{get\-Operation\-Data}]{\setlength{\rightskip}{0pt plus 5cm}get\-Operation\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation, }
+\item[{}]{\$binding\-Type = {\ttfamily 'soap'}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a38f29f3212405560a4bcf188ad632e1f}
+returns an associative array of data necessary for calling an operation
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$operation,name} & of operation \\
+\hline
+string & {\em \$binding\-Type,type} & of binding eg\-: soap \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array  public 
+\end{DoxyReturn}
+
+
+Definition at line 4631 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a5a538dc2c7da9f6f6d6880751318762b}{\index{wsdl@{wsdl}!get\-Operation\-Data\-For\-Soap\-Action@{get\-Operation\-Data\-For\-Soap\-Action}}
+\index{get\-Operation\-Data\-For\-Soap\-Action@{get\-Operation\-Data\-For\-Soap\-Action}!wsdl@{wsdl}}
+\subsubsection[{get\-Operation\-Data\-For\-Soap\-Action}]{\setlength{\rightskip}{0pt plus 5cm}get\-Operation\-Data\-For\-Soap\-Action (
+\begin{DoxyParamCaption}
+\item[{}]{\$soap\-Action, }
+\item[{}]{\$binding\-Type = {\ttfamily 'soap'}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a5a538dc2c7da9f6f6d6880751318762b}
+returns an associative array of data necessary for calling an operation
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$soap\-Action} & soap\-Action for operation \\
+\hline
+string & {\em \$binding\-Type} & type of binding eg\-: soap \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array  public 
+\end{DoxyReturn}
+
+
+Definition at line 599 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a5a538dc2c7da9f6f6d6880751318762b}{\index{wsdl@{wsdl}!get\-Operation\-Data\-For\-Soap\-Action@{get\-Operation\-Data\-For\-Soap\-Action}}
+\index{get\-Operation\-Data\-For\-Soap\-Action@{get\-Operation\-Data\-For\-Soap\-Action}!wsdl@{wsdl}}
+\subsubsection[{get\-Operation\-Data\-For\-Soap\-Action}]{\setlength{\rightskip}{0pt plus 5cm}get\-Operation\-Data\-For\-Soap\-Action (
+\begin{DoxyParamCaption}
+\item[{}]{\$soap\-Action, }
+\item[{}]{\$binding\-Type = {\ttfamily 'soap'}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a5a538dc2c7da9f6f6d6880751318762b}
+returns an associative array of data necessary for calling an operation
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$soap\-Action} & soap\-Action for operation \\
+\hline
+string & {\em \$binding\-Type} & type of binding eg\-: soap \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array  public 
+\end{DoxyReturn}
+
+
+Definition at line 4661 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a1d50941291502c26831b28681dddeb94}{\index{wsdl@{wsdl}!get\-Operations@{get\-Operations}}
+\index{get\-Operations@{get\-Operations}!wsdl@{wsdl}}
+\subsubsection[{get\-Operations}]{\setlength{\rightskip}{0pt plus 5cm}get\-Operations (
+\begin{DoxyParamCaption}
+\item[{}]{\$binding\-Type = {\ttfamily 'soap'}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a1d50941291502c26831b28681dddeb94}
+returns an assoc array of operation names =$>$ operation data
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$binding\-Type} & eg\-: soap, smtp, dime (only soap is currently supported) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array  public 
+\end{DoxyReturn}
+
+
+Definition at line 539 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a1d50941291502c26831b28681dddeb94}{\index{wsdl@{wsdl}!get\-Operations@{get\-Operations}}
+\index{get\-Operations@{get\-Operations}!wsdl@{wsdl}}
+\subsubsection[{get\-Operations}]{\setlength{\rightskip}{0pt plus 5cm}get\-Operations (
+\begin{DoxyParamCaption}
+\item[{}]{\$binding\-Type = {\ttfamily 'soap'}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a1d50941291502c26831b28681dddeb94}
+returns an assoc array of operation names =$>$ operation data
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$binding\-Type} & eg\-: soap, smtp, dime (only soap is currently supported) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array  public 
+\end{DoxyReturn}
+
+
+Definition at line 4601 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a327b3186f4e3c8b71431ce4a9db77e5a}{\index{wsdl@{wsdl}!get\-Type\-Def@{get\-Type\-Def}}
+\index{get\-Type\-Def@{get\-Type\-Def}!wsdl@{wsdl}}
+\subsubsection[{get\-Type\-Def}]{\setlength{\rightskip}{0pt plus 5cm}get\-Type\-Def (
+\begin{DoxyParamCaption}
+\item[{}]{\$type, }
+\item[{}]{\$ns}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a327b3186f4e3c8b71431ce4a9db77e5a}
+returns an array of information about a given type returns false if no type exists by the given name
+
+type\-Def = array( 'elements' =$>$ array(), // refs to elements array 'restriction\-Base' =$>$ '', 'php\-Type' =$>$ '', 'order' =$>$ '(sequence$|$all)', 'attrs' =$>$ array() // refs to attributes array )
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$type} & string the type \\
+\hline
+{\em \$ns} & string namespace (not prefix) of the type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed  public 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+xmlschema 
+\end{DoxySeeAlso}
+
+
+Definition at line 635 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a327b3186f4e3c8b71431ce4a9db77e5a}{\index{wsdl@{wsdl}!get\-Type\-Def@{get\-Type\-Def}}
+\index{get\-Type\-Def@{get\-Type\-Def}!wsdl@{wsdl}}
+\subsubsection[{get\-Type\-Def}]{\setlength{\rightskip}{0pt plus 5cm}get\-Type\-Def (
+\begin{DoxyParamCaption}
+\item[{}]{\$type, }
+\item[{}]{\$ns}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a327b3186f4e3c8b71431ce4a9db77e5a}
+returns an array of information about a given type returns false if no type exists by the given name
+
+type\-Def = array( 'elements' =$>$ array(), // refs to elements array 'restriction\-Base' =$>$ '', 'php\-Type' =$>$ '', 'order' =$>$ '(sequence$|$all)', 'attrs' =$>$ array() // refs to attributes array )
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$type} & string the type \\
+\hline
+{\em \$ns} & string namespace (not prefix) of the type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed  public 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+xmlschema 
+\end{DoxySeeAlso}
+
+
+Definition at line 4697 of file nusoap.\-php.
+
+\hypertarget{classwsdl_aef0643f32c7dca703065cc3eb3fd1dba}{\index{wsdl@{wsdl}!parse\-W\-S\-D\-L@{parse\-W\-S\-D\-L}}
+\index{parse\-W\-S\-D\-L@{parse\-W\-S\-D\-L}!wsdl@{wsdl}}
+\subsubsection[{parse\-W\-S\-D\-L}]{\setlength{\rightskip}{0pt plus 5cm}parse\-W\-S\-D\-L (
+\begin{DoxyParamCaption}
+\item[{}]{\$wsdl = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_aef0643f32c7dca703065cc3eb3fd1dba}
+parses the wsdl document
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$wsdl} & path or U\-R\-L  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 171 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_aef0643f32c7dca703065cc3eb3fd1dba}{\index{wsdl@{wsdl}!parse\-W\-S\-D\-L@{parse\-W\-S\-D\-L}}
+\index{parse\-W\-S\-D\-L@{parse\-W\-S\-D\-L}!wsdl@{wsdl}}
+\subsubsection[{parse\-W\-S\-D\-L}]{\setlength{\rightskip}{0pt plus 5cm}parse\-W\-S\-D\-L (
+\begin{DoxyParamCaption}
+\item[{}]{\$wsdl = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_aef0643f32c7dca703065cc3eb3fd1dba}
+parses the wsdl document
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$wsdl} & path or U\-R\-L  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 4233 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a25fcce1ac19624739857406748ba332a}{\index{wsdl@{wsdl}!serialize@{serialize}}
+\index{serialize@{serialize}!wsdl@{wsdl}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}serialize (
+\begin{DoxyParamCaption}
+\item[{}]{\$debug = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a25fcce1ac19624739857406748ba332a}
+serialize the parsed wsdl
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$debug} & whether to put debug=1 in endpoint U\-R\-L \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string serialization of W\-S\-D\-L  public 
+\end{DoxyReturn}
+
+
+Definition at line 815 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a25fcce1ac19624739857406748ba332a}{\index{wsdl@{wsdl}!serialize@{serialize}}
+\index{serialize@{serialize}!wsdl@{wsdl}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}serialize (
+\begin{DoxyParamCaption}
+\item[{}]{\$debug = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a25fcce1ac19624739857406748ba332a}
+serialize the parsed wsdl
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$debug} & whether to put debug=1 in endpoint U\-R\-L \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string serialization of W\-S\-D\-L  public 
+\end{DoxyReturn}
+
+
+Definition at line 4877 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a1bebf04c625f86d2c65c6a2fc4c69f52}{\index{wsdl@{wsdl}!serialize\-Complex\-Type\-Attributes@{serialize\-Complex\-Type\-Attributes}}
+\index{serialize\-Complex\-Type\-Attributes@{serialize\-Complex\-Type\-Attributes}!wsdl@{wsdl}}
+\subsubsection[{serialize\-Complex\-Type\-Attributes}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Complex\-Type\-Attributes (
+\begin{DoxyParamCaption}
+\item[{}]{\$type\-Def, }
+\item[{}]{\$value, }
+\item[{}]{\$ns, }
+\item[{}]{\$uq\-Type}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a1bebf04c625f86d2c65c6a2fc4c69f52}
+serializes the attributes for a complex\-Type
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$type\-Def} & our internal representation of an X\-M\-L schema type (or element) \\
+\hline
+mixed & {\em \$value} & a native P\-H\-P value (parameter value) \\
+\hline
+string & {\em \$ns} & the namespace of the type \\
+\hline
+string & {\em \$uq\-Type} & the local part of the type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string value serialized as an X\-M\-L string  private 
+\end{DoxyReturn}
+
+
+Definition at line 1409 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a1bebf04c625f86d2c65c6a2fc4c69f52}{\index{wsdl@{wsdl}!serialize\-Complex\-Type\-Attributes@{serialize\-Complex\-Type\-Attributes}}
+\index{serialize\-Complex\-Type\-Attributes@{serialize\-Complex\-Type\-Attributes}!wsdl@{wsdl}}
+\subsubsection[{serialize\-Complex\-Type\-Attributes}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Complex\-Type\-Attributes (
+\begin{DoxyParamCaption}
+\item[{}]{\$type\-Def, }
+\item[{}]{\$value, }
+\item[{}]{\$ns, }
+\item[{}]{\$uq\-Type}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a1bebf04c625f86d2c65c6a2fc4c69f52}
+serializes the attributes for a complex\-Type
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$type\-Def} & our internal representation of an X\-M\-L schema type (or element) \\
+\hline
+mixed & {\em \$value} & a native P\-H\-P value (parameter value) \\
+\hline
+string & {\em \$ns} & the namespace of the type \\
+\hline
+string & {\em \$uq\-Type} & the local part of the type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string value serialized as an X\-M\-L string  private 
+\end{DoxyReturn}
+
+
+Definition at line 5471 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a9abd63b860271a2010c4d35b5c607b45}{\index{wsdl@{wsdl}!serialize\-Complex\-Type\-Elements@{serialize\-Complex\-Type\-Elements}}
+\index{serialize\-Complex\-Type\-Elements@{serialize\-Complex\-Type\-Elements}!wsdl@{wsdl}}
+\subsubsection[{serialize\-Complex\-Type\-Elements}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Complex\-Type\-Elements (
+\begin{DoxyParamCaption}
+\item[{}]{\$type\-Def, }
+\item[{}]{\$value, }
+\item[{}]{\$ns, }
+\item[{}]{\$uq\-Type, }
+\item[{}]{\$use = {\ttfamily 'encoded'}, }
+\item[{}]{\$encoding\-Style = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a9abd63b860271a2010c4d35b5c607b45}
+serializes the elements for a complex\-Type
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$type\-Def} & our internal representation of an X\-M\-L schema type (or element) \\
+\hline
+mixed & {\em \$value} & a native P\-H\-P value (parameter value) \\
+\hline
+string & {\em \$ns} & the namespace of the type \\
+\hline
+string & {\em \$uq\-Type} & the local part of the type \\
+\hline
+string & {\em \$use} & use for part (encoded$|$literal) \\
+\hline
+string & {\em \$encoding\-Style} & S\-O\-A\-P encoding style for the value (if different than the enclosing style) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string value serialized as an X\-M\-L string  private 
+\end{DoxyReturn}
+
+
+Definition at line 1471 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a9abd63b860271a2010c4d35b5c607b45}{\index{wsdl@{wsdl}!serialize\-Complex\-Type\-Elements@{serialize\-Complex\-Type\-Elements}}
+\index{serialize\-Complex\-Type\-Elements@{serialize\-Complex\-Type\-Elements}!wsdl@{wsdl}}
+\subsubsection[{serialize\-Complex\-Type\-Elements}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Complex\-Type\-Elements (
+\begin{DoxyParamCaption}
+\item[{}]{\$type\-Def, }
+\item[{}]{\$value, }
+\item[{}]{\$ns, }
+\item[{}]{\$uq\-Type, }
+\item[{}]{\$use = {\ttfamily 'encoded'}, }
+\item[{}]{\$encoding\-Style = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a9abd63b860271a2010c4d35b5c607b45}
+serializes the elements for a complex\-Type
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$type\-Def} & our internal representation of an X\-M\-L schema type (or element) \\
+\hline
+mixed & {\em \$value} & a native P\-H\-P value (parameter value) \\
+\hline
+string & {\em \$ns} & the namespace of the type \\
+\hline
+string & {\em \$uq\-Type} & the local part of the type \\
+\hline
+string & {\em \$use} & use for part (encoded$|$literal) \\
+\hline
+string & {\em \$encoding\-Style} & S\-O\-A\-P encoding style for the value (if different than the enclosing style) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string value serialized as an X\-M\-L string  private 
+\end{DoxyReturn}
+
+
+Definition at line 5533 of file nusoap.\-php.
+
+\hypertarget{classwsdl_afed507a7c4d2b216e27515ca9181361c}{\index{wsdl@{wsdl}!serialize\-Parameters@{serialize\-Parameters}}
+\index{serialize\-Parameters@{serialize\-Parameters}!wsdl@{wsdl}}
+\subsubsection[{serialize\-Parameters}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Parameters (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation, }
+\item[{}]{\$direction, }
+\item[{}]{\$parameters}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_afed507a7c4d2b216e27515ca9181361c}
+serialize a P\-H\-P value according to a W\-S\-D\-L message definition
+
+T\-O\-D\-O
+\begin{DoxyItemize}
+\item multi-\/ref serialization
+\item validate P\-H\-P values against type definitions, return errors if invalid
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \$ type name \\
+\hline
+{\em mixed} & \$ param value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed new param or false if initial value didn't validate  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000008}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 1033 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_afed507a7c4d2b216e27515ca9181361c}{\index{wsdl@{wsdl}!serialize\-Parameters@{serialize\-Parameters}}
+\index{serialize\-Parameters@{serialize\-Parameters}!wsdl@{wsdl}}
+\subsubsection[{serialize\-Parameters}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Parameters (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation, }
+\item[{}]{\$direction, }
+\item[{}]{\$parameters}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_afed507a7c4d2b216e27515ca9181361c}
+serialize a P\-H\-P value according to a W\-S\-D\-L message definition
+
+T\-O\-D\-O
+\begin{DoxyItemize}
+\item multi-\/ref serialization
+\item validate P\-H\-P values against type definitions, return errors if invalid
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \$ type name \\
+\hline
+{\em mixed} & \$ param value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed new param or false if initial value didn't validate  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000020}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 5095 of file nusoap.\-php.
+
+\hypertarget{classwsdl_aba212dea327156517e32e7a3cd67d88a}{\index{wsdl@{wsdl}!serialize\-R\-P\-C\-Parameters@{serialize\-R\-P\-C\-Parameters}}
+\index{serialize\-R\-P\-C\-Parameters@{serialize\-R\-P\-C\-Parameters}!wsdl@{wsdl}}
+\subsubsection[{serialize\-R\-P\-C\-Parameters}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-R\-P\-C\-Parameters (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation, }
+\item[{}]{\$direction, }
+\item[{}]{\$parameters}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_aba212dea327156517e32e7a3cd67d88a}
+serialize P\-H\-P values according to a W\-S\-D\-L message definition
+
+T\-O\-D\-O
+\begin{DoxyItemize}
+\item multi-\/ref serialization
+\item validate P\-H\-P values against type definitions, return errors if invalid
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$operation} & operation name \\
+\hline
+string & {\em \$direction} & (input$|$output) \\
+\hline
+mixed & {\em \$parameters} & parameter value(s) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed parameters serialized as X\-M\-L or false on error (e.\-g. operation not found)  public 
+\end{DoxyReturn}
+
+
+Definition at line 954 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_aba212dea327156517e32e7a3cd67d88a}{\index{wsdl@{wsdl}!serialize\-R\-P\-C\-Parameters@{serialize\-R\-P\-C\-Parameters}}
+\index{serialize\-R\-P\-C\-Parameters@{serialize\-R\-P\-C\-Parameters}!wsdl@{wsdl}}
+\subsubsection[{serialize\-R\-P\-C\-Parameters}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-R\-P\-C\-Parameters (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation, }
+\item[{}]{\$direction, }
+\item[{}]{\$parameters}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_aba212dea327156517e32e7a3cd67d88a}
+serialize P\-H\-P values according to a W\-S\-D\-L message definition
+
+T\-O\-D\-O
+\begin{DoxyItemize}
+\item multi-\/ref serialization
+\item validate P\-H\-P values against type definitions, return errors if invalid
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$operation} & operation name \\
+\hline
+string & {\em \$direction} & (input$|$output) \\
+\hline
+mixed & {\em \$parameters} & parameter value(s) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed parameters serialized as X\-M\-L or false on error (e.\-g. operation not found)  public 
+\end{DoxyReturn}
+
+
+Definition at line 5016 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a06a97e7bc4c0fe43b1193177d3266c30}{\index{wsdl@{wsdl}!serialize\-Type@{serialize\-Type}}
+\index{serialize\-Type@{serialize\-Type}!wsdl@{wsdl}}
+\subsubsection[{serialize\-Type}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type, }
+\item[{}]{\$value, }
+\item[{}]{\$use = {\ttfamily 'encoded'}, }
+\item[{}]{\$encoding\-Style = {\ttfamily false}, }
+\item[{}]{\$unqualified = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a06a97e7bc4c0fe43b1193177d3266c30}
+serializes a P\-H\-P value according a given type definition
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & name of value (part or element) \\
+\hline
+string & {\em \$type} & X\-M\-L schema type of value (type or element) \\
+\hline
+mixed & {\em \$value} & a native P\-H\-P value (parameter value) \\
+\hline
+string & {\em \$use} & use for part (encoded$|$literal) \\
+\hline
+string & {\em \$encoding\-Style} & S\-O\-A\-P encoding style for the value (if different than the enclosing style) \\
+\hline
+boolean & {\em \$unqualified} & a kludge for what should be X\-M\-L namespace form handling \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string value serialized as an X\-M\-L string  private 
+\end{DoxyReturn}
+
+
+Definition at line 1112 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a06a97e7bc4c0fe43b1193177d3266c30}{\index{wsdl@{wsdl}!serialize\-Type@{serialize\-Type}}
+\index{serialize\-Type@{serialize\-Type}!wsdl@{wsdl}}
+\subsubsection[{serialize\-Type}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type, }
+\item[{}]{\$value, }
+\item[{}]{\$use = {\ttfamily 'encoded'}, }
+\item[{}]{\$encoding\-Style = {\ttfamily false}, }
+\item[{}]{\$unqualified = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a06a97e7bc4c0fe43b1193177d3266c30}
+serializes a P\-H\-P value according a given type definition
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & name of value (part or element) \\
+\hline
+string & {\em \$type} & X\-M\-L schema type of value (type or element) \\
+\hline
+mixed & {\em \$value} & a native P\-H\-P value (parameter value) \\
+\hline
+string & {\em \$use} & use for part (encoded$|$literal) \\
+\hline
+string & {\em \$encoding\-Style} & S\-O\-A\-P encoding style for the value (if different than the enclosing style) \\
+\hline
+boolean & {\em \$unqualified} & a kludge for what should be X\-M\-L namespace form handling \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string value serialized as an X\-M\-L string  private 
+\end{DoxyReturn}
+
+
+Definition at line 5174 of file nusoap.\-php.
+
+\hypertarget{classwsdl_abf9dc4b028eeac08eeca4c7309a950e2}{\index{wsdl@{wsdl}!start\-\_\-element@{start\-\_\-element}}
+\index{start\-\_\-element@{start\-\_\-element}!wsdl@{wsdl}}
+\subsubsection[{start\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}start\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$name, }
+\item[{}]{\$attrs}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_abf9dc4b028eeac08eeca4c7309a950e2}
+start-\/element handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$name} & element name \\
+\hline
+string & {\em \$attrs} & associative array of attributes  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 271 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_abf9dc4b028eeac08eeca4c7309a950e2}{\index{wsdl@{wsdl}!start\-\_\-element@{start\-\_\-element}}
+\index{start\-\_\-element@{start\-\_\-element}!wsdl@{wsdl}}
+\subsubsection[{start\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}start\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$name, }
+\item[{}]{\$attrs}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_abf9dc4b028eeac08eeca4c7309a950e2}
+start-\/element handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$name} & element name \\
+\hline
+string & {\em \$attrs} & associative array of attributes  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 4333 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a43ffc8c82e99905b889fbeb93d4ca6eb}{\index{wsdl@{wsdl}!web\-Description@{web\-Description}}
+\index{web\-Description@{web\-Description}!wsdl@{wsdl}}
+\subsubsection[{web\-Description}]{\setlength{\rightskip}{0pt plus 5cm}web\-Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a43ffc8c82e99905b889fbeb93d4ca6eb}
+prints html description of services
+
+private 
+
+Definition at line 682 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a43ffc8c82e99905b889fbeb93d4ca6eb}{\index{wsdl@{wsdl}!web\-Description@{web\-Description}}
+\index{web\-Description@{web\-Description}!wsdl@{wsdl}}
+\subsubsection[{web\-Description}]{\setlength{\rightskip}{0pt plus 5cm}web\-Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a43ffc8c82e99905b889fbeb93d4ca6eb}
+prints html description of services
+
+private 
+
+Definition at line 4744 of file nusoap.\-php.
+
+\hypertarget{classwsdl_a4afbbf2bb8e2267a6387b17eb41597aa}{\index{wsdl@{wsdl}!wsdl@{wsdl}}
+\index{wsdl@{wsdl}!wsdl@{wsdl}}
+\subsubsection[{wsdl}]{\setlength{\rightskip}{0pt plus 5cm}{\bf wsdl} (
+\begin{DoxyParamCaption}
+\item[{}]{\$wsdl = {\ttfamily ''}, }
+\item[{}]{\$proxyhost = {\ttfamily false}, }
+\item[{}]{\$proxyport = {\ttfamily false}, }
+\item[{}]{\$proxyusername = {\ttfamily false}, }
+\item[{}]{\$proxypassword = {\ttfamily false}, }
+\item[{}]{\$timeout = {\ttfamily 0}, }
+\item[{}]{\$response\-\_\-timeout = {\ttfamily 30}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a4afbbf2bb8e2267a6387b17eb41597aa}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$wsdl} & W\-S\-D\-L document U\-R\-L \\
+\hline
+string & {\em \$proxyhost} & \\
+\hline
+string & {\em \$proxyport} & \\
+\hline
+string & {\em \$proxyusername} & \\
+\hline
+string & {\em \$proxypassword} & \\
+\hline
+integer & {\em \$timeout} & set the connection timeout \\
+\hline
+integer & {\em \$response\-\_\-timeout} & set the response timeout  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 61 of file class.\-wsdl.\-php.
+
+\hypertarget{classwsdl_a4afbbf2bb8e2267a6387b17eb41597aa}{\index{wsdl@{wsdl}!wsdl@{wsdl}}
+\index{wsdl@{wsdl}!wsdl@{wsdl}}
+\subsubsection[{wsdl}]{\setlength{\rightskip}{0pt plus 5cm}{\bf wsdl} (
+\begin{DoxyParamCaption}
+\item[{}]{\$wsdl = {\ttfamily ''}, }
+\item[{}]{\$proxyhost = {\ttfamily false}, }
+\item[{}]{\$proxyport = {\ttfamily false}, }
+\item[{}]{\$proxyusername = {\ttfamily false}, }
+\item[{}]{\$proxypassword = {\ttfamily false}, }
+\item[{}]{\$timeout = {\ttfamily 0}, }
+\item[{}]{\$response\-\_\-timeout = {\ttfamily 30}}
+\end{DoxyParamCaption}
+)}}\label{classwsdl_a4afbbf2bb8e2267a6387b17eb41597aa}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$wsdl} & W\-S\-D\-L document U\-R\-L \\
+\hline
+string & {\em \$proxyhost} & \\
+\hline
+string & {\em \$proxyport} & \\
+\hline
+string & {\em \$proxyusername} & \\
+\hline
+string & {\em \$proxypassword} & \\
+\hline
+integer & {\em \$timeout} & set the connection timeout \\
+\hline
+integer & {\em \$response\-\_\-timeout} & set the response timeout  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 4123 of file nusoap.\-php.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.\-wsdl.\-php\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.\-php\end{DoxyCompactItemize}

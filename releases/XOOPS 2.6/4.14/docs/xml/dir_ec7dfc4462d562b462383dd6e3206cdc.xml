@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_ec7dfc4462d562b462383dd6e3206cdc" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs</compoundname>
+    <innerdir refid="dir_71b71f50a601cc99350d730db91bdb73">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class</innerdir>
+    <innerdir refid="dir_e637394a4d50909d4f85c9440a7bab59">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules</innerdir>
+    <innerfile refid="banned_8php">banned.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classwsdlcache" kind="class" prot="public">
+    <compoundname>wsdlcache</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwsdlcache_1ae9b06e44c182e3d33c7393dd8f925c15" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$fplock</definition>
+        <argsstring></argsstring>
+        <name>$fplock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="18" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdlcache_1a5aaab753f75170fa670cbb602aa97119" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_lifetime</definition>
+        <argsstring></argsstring>
+        <name>$cache_lifetime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdlcache_1a22a35efc9ca709527d49ff8bfe76db78" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_dir</definition>
+        <argsstring></argsstring>
+        <name>$cache_dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwsdlcache_1ad04cbe402f400eb4b0b40f2c03985452" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$debug_str</definition>
+        <argsstring></argsstring>
+        <name>$debug_str</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwsdlcache_1a79f1d857b43ad05cccead7d6c276b799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wsdlcache</definition>
+        <argsstring>($cache_dir=&apos;.&apos;, $cache_lifetime=0)</argsstring>
+        <name>wsdlcache</name>
+        <param>
+          <declname>$cache_dir</declname>
+          <defval>&apos;.&apos;</defval>
+        </param>
+        <param>
+          <declname>$cache_lifetime</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cache_dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>directory for cache-files </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$cache_lifetime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lifetime for caching-files in seconds or 0 for unlimited  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdlcache_1a6251fc73486e49b3ad8452c3cff4f4df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>createFilename</definition>
+        <argsstring>($wsdl)</argsstring>
+        <name>createFilename</name>
+        <param>
+          <declname>$wsdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates the filename used to cache a wsdl instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$wsdl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL of the wsdl instance </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string The filename used to cache the instance  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdlcache_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>debug</definition>
+        <argsstring>($string)</argsstring>
+        <name>debug</name>
+        <param>
+          <declname>$string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds debug data to the class level debug string</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>debug data  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="65" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdlcache_1a95483fbc06ab50e4e5720ec16065b4f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get</definition>
+        <argsstring>($wsdl)</argsstring>
+        <name>get</name>
+        <param>
+          <declname>$wsdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets a wsdl instance from the cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$wsdl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL of the wsdl instance </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>object wsdl The cached wsdl instance, null if the instance is not in the cache  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="76" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="76" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdlcache_1a0ad0130e7028ed6b671ecdf4491dc7a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>obtainMutex</definition>
+        <argsstring>($filename, $mode)</argsstring>
+        <name>obtainMutex</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <param>
+          <declname>$mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>obtains the local mutex</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Filename of the Cache to lock </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The open-mode (&quot;r&quot; or &quot;w&quot;) or the file - affects lock-mode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean Lock successfully obtained ?!  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="114" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="114" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdlcache_1a797ff61a54a3f50e9cb8c974cacc1bb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>put</definition>
+        <argsstring>($wsdl_instance)</argsstring>
+        <name>put</name>
+        <param>
+          <declname>$wsdl_instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds a wsdl instance to the cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>wsdl $wsdl_instance The wsdl instance to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean WSDL successfully cached  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="134" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="134" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdlcache_1a424545075e6a286d26453c500ecaa26d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>releaseMutex</definition>
+        <argsstring>($filename)</argsstring>
+        <name>releaseMutex</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>releases the local mutex</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Filename of the Cache to lock </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean Lock successfully released  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="157" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="157" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classwsdlcache_1ad6672e5263a78393605bc28e80d25902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>remove</definition>
+        <argsstring>($wsdl)</argsstring>
+        <name>remove</name>
+        <param>
+          <declname>$wsdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removes a wsdl instance from the cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$wsdl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL of the wsdl instance </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean Whether there was an instance to remove  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="174" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="174" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>caches instances of the wsdl class</para><para><simplesect kind="author"><para>Scott Nichol <ulink url="mailto:snichol@computer.org">snichol@computer.org</ulink> </para><simplesectsep/><para>Ingo Fischer <ulink url="mailto:ingo@apollon.de">ingo@apollon.de</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="class_8wsdlcache_8php_source" kindref="compound">class.wsdlcache.php</ref>,v 1.5 2005/05/20 17:58:17 snichol Exp </para></simplesect>
+public </para>    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" line="13" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.wsdlcache.php" bodystart="13" bodyend="183"/>
+    <listofallmembers>
+      <member refid="classwsdlcache_1a22a35efc9ca709527d49ff8bfe76db78" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>$cache_dir</name></member>
+      <member refid="classwsdlcache_1a5aaab753f75170fa670cbb602aa97119" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>$cache_lifetime</name></member>
+      <member refid="classwsdlcache_1ad04cbe402f400eb4b0b40f2c03985452" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>$debug_str</name></member>
+      <member refid="classwsdlcache_1ae9b06e44c182e3d33c7393dd8f925c15" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>$fplock</name></member>
+      <member refid="classwsdlcache_1a6251fc73486e49b3ad8452c3cff4f4df" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>createFilename</name></member>
+      <member refid="classwsdlcache_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>debug</name></member>
+      <member refid="classwsdlcache_1a95483fbc06ab50e4e5720ec16065b4f5" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>get</name></member>
+      <member refid="classwsdlcache_1a0ad0130e7028ed6b671ecdf4491dc7a2" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>obtainMutex</name></member>
+      <member refid="classwsdlcache_1a797ff61a54a3f50e9cb8c974cacc1bb8" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>put</name></member>
+      <member refid="classwsdlcache_1a424545075e6a286d26453c500ecaa26d" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>releaseMutex</name></member>
+      <member refid="classwsdlcache_1ad6672e5263a78393605bc28e80d25902" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>remove</name></member>
+      <member refid="classwsdlcache_1a79f1d857b43ad05cccead7d6c276b799" prot="public" virt="non-virtual"><scope>wsdlcache</scope><name>wsdlcache</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

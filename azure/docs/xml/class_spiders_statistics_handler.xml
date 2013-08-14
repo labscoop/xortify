@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_spiders_statistics_handler" kind="class" prot="public">
+    <compoundname>SpidersStatisticsHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spiders_statistics_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" line="86" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_statistics_handler_1a0e4d9fe24385734582ac6c5b582bf361" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>apimethod</definition>
+        <argsstring>()</argsstring>
+        <name>apimethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" line="91" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" bodystart="91" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_statistics_handler_1acb0b5c3bb58794228e1fd2b4f888323f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert</definition>
+        <argsstring>($obj, $force=true)</argsstring>
+        <name>insert</name>
+        <param>
+          <declname>$obj</declname>
+        </param>
+        <param>
+          <declname>$force</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" line="103" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" bodystart="103" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="556">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="555">
+        <label>SpidersStatisticsHandler</label>
+        <link refid="class_spiders_statistics_handler"/>
+        <childnode refid="556" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="558">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="557">
+        <label>SpidersStatisticsHandler</label>
+        <link refid="class_spiders_statistics_handler"/>
+        <childnode refid="558" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" line="85" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" bodystart="84" bodyend="118"/>
+    <listofallmembers>
+      <member refid="class_spiders_statistics_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>SpidersStatisticsHandler</scope><name>__construct</name></member>
+      <member refid="class_spiders_statistics_handler_1a0e4d9fe24385734582ac6c5b582bf361" prot="public" virt="non-virtual"><scope>SpidersStatisticsHandler</scope><name>apimethod</name></member>
+      <member refid="class_spiders_statistics_handler_1acb0b5c3bb58794228e1fd2b4f888323f" prot="public" virt="non-virtual"><scope>SpidersStatisticsHandler</scope><name>insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

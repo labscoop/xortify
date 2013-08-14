@@ -1,0 +1,1321 @@
+\hypertarget{classsoapclient}{\section{soapclient Class Reference}
+\label{classsoapclient}\index{soapclient@{soapclient}}
+}
+
+
+Inheritance diagram for soapclient\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classsoapclient__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for soapclient\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classsoapclient__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsoapclient_a59db1a21560241cf6aa51c813cd22e29}{soapclient} (\$endpoint, \$\hyperlink{classwsdl}{wsdl}=false, \$proxyhost=false, \$proxyport=false, \$proxyusername=false, \$proxypassword=false, \$timeout=0, \$response\-\_\-timeout=30)
+\item 
+\hyperlink{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}{call} (\$operation, \$params=array(), \$namespace='http\-://tempuri.\-org', \$soap\-Action='', \$headers=false, \$rpc\-Params=null, \$style='rpc', \$use='encoded')
+\item 
+\hyperlink{classsoapclient_ad66fb2de1dae9b9597bed83de4f343a7}{get\-Operation\-Data} (\$operation)
+\item 
+\hyperlink{classsoapclient_aece60a5a6bd359481071516aa7024b56}{send} (\$msg, \$soapaction= '', \$timeout=0, \$response\-\_\-timeout=30)
+\item 
+\hyperlink{classsoapclient_aca1ed2155629bfc242ddea3636ac24c1}{parse\-Response} (\$headers, \$data)
+\item 
+\hyperlink{classsoapclient_abab265adeddb116a65a24dc0fa1eafb2}{set\-Endpoint} (\$endpoint)
+\item 
+\hyperlink{classsoapclient_ac1f59fefc1b33175a734321e13b42253}{set\-Headers} (\$headers)
+\item 
+\hyperlink{classsoapclient_a157e0005d82edaa21cbea07fdc5c62da}{get\-Headers} ()
+\item 
+\hyperlink{classsoapclient_a52152e7ae9c46863424bbafacf6a7f71}{set\-H\-T\-T\-P\-Proxy} (\$proxyhost, \$proxyport, \$proxyusername= '', \$proxypassword= '')
+\item 
+\hyperlink{classsoapclient_ada213133d177c1c9c07435d65e89e735}{set\-Credentials} (\$username, \$password, \$authtype= 'basic', \$cert\-Request=array())
+\item 
+\hyperlink{classsoapclient_a9528927202777242800c394fadc03191}{set\-H\-T\-T\-P\-Encoding} (\$enc='gzip, deflate')
+\item 
+\hyperlink{classsoapclient_a6558d144faf99ccc9ef4621ffd56bd75}{use\-H\-T\-T\-P\-Persistent\-Connection} ()
+\item 
+\hyperlink{classsoapclient_a95ae30619429aa7d1c93f21e33300419}{get\-Default\-Rpc\-Params} ()
+\item 
+\hyperlink{classsoapclient_a9d7b3609d1db3eb5f2d3cf92510e4e6b}{set\-Default\-Rpc\-Params} (\$rpc\-Params)
+\item 
+\hyperlink{classsoapclient_a839ac5be1fce2af15c73aef02a49a8af}{get\-Proxy} ()
+\item 
+\hyperlink{classsoapclient_a2b49882c792a4deb80ec35ca75f1fee6}{\-\_\-get\-Proxy\-Class\-Code} (\$r)
+\item 
+\hyperlink{classsoapclient_a5fbf58b6ba27a02544885d4fc801d328}{get\-Proxy\-Class\-Code} ()
+\item 
+\hyperlink{classsoapclient_ab1e22b0858bdbe61d2d711ff442c0e78}{get\-H\-T\-T\-P\-Body} (\$soapmsg)
+\item 
+\hyperlink{classsoapclient_a2bed19ef2d537dee244535339cd6026a}{get\-H\-T\-T\-P\-Content\-Type} ()
+\item 
+\hyperlink{classsoapclient_a9051db33a9b7e50315d9222ef1c52ce9}{get\-H\-T\-T\-P\-Content\-Type\-Charset} ()
+\item 
+\hypertarget{classsoapclient_a8ebcfd008049181e64a5046eb8c168b9}{{\bfseries decode\-U\-T\-F8} (\$bool)}\label{classsoapclient_a8ebcfd008049181e64a5046eb8c168b9}
+
+\item 
+\hyperlink{classsoapclient_a3f05f631ff936a033cae038052d9e7f9}{set\-Cookie} (\$name, \$value)
+\item 
+\hyperlink{classsoapclient_a374b645410526cbbb498b140242a00ba}{get\-Cookies} ()
+\item 
+\hyperlink{classsoapclient_a6a8794beffec4a05daa7559ab233875e}{check\-Cookies} ()
+\item 
+\hyperlink{classsoapclient_ad71447ce0ee50309eea6ce0e12a88e02}{Update\-Cookies} (\$cookies)
+\item 
+\hyperlink{classsoapclient_a59db1a21560241cf6aa51c813cd22e29}{soapclient} (\$endpoint, \$\hyperlink{classwsdl}{wsdl}=false, \$proxyhost=false, \$proxyport=false, \$proxyusername=false, \$proxypassword=false, \$timeout=0, \$response\-\_\-timeout=30)
+\item 
+\hyperlink{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}{call} (\$operation, \$params=array(), \$namespace='http\-://tempuri.\-org', \$soap\-Action='', \$headers=false, \$rpc\-Params=null, \$style='rpc', \$use='encoded')
+\item 
+\hyperlink{classsoapclient_ad66fb2de1dae9b9597bed83de4f343a7}{get\-Operation\-Data} (\$operation)
+\item 
+\hyperlink{classsoapclient_aece60a5a6bd359481071516aa7024b56}{send} (\$msg, \$soapaction= '', \$timeout=0, \$response\-\_\-timeout=30)
+\item 
+\hyperlink{classsoapclient_aca1ed2155629bfc242ddea3636ac24c1}{parse\-Response} (\$headers, \$data)
+\item 
+\hyperlink{classsoapclient_abab265adeddb116a65a24dc0fa1eafb2}{set\-Endpoint} (\$endpoint)
+\item 
+\hyperlink{classsoapclient_ac1f59fefc1b33175a734321e13b42253}{set\-Headers} (\$headers)
+\item 
+\hyperlink{classsoapclient_a157e0005d82edaa21cbea07fdc5c62da}{get\-Headers} ()
+\item 
+\hyperlink{classsoapclient_a52152e7ae9c46863424bbafacf6a7f71}{set\-H\-T\-T\-P\-Proxy} (\$proxyhost, \$proxyport, \$proxyusername= '', \$proxypassword= '')
+\item 
+\hyperlink{classsoapclient_ada213133d177c1c9c07435d65e89e735}{set\-Credentials} (\$username, \$password, \$authtype= 'basic', \$cert\-Request=array())
+\item 
+\hyperlink{classsoapclient_a9528927202777242800c394fadc03191}{set\-H\-T\-T\-P\-Encoding} (\$enc='gzip, deflate')
+\item 
+\hyperlink{classsoapclient_a6558d144faf99ccc9ef4621ffd56bd75}{use\-H\-T\-T\-P\-Persistent\-Connection} ()
+\item 
+\hyperlink{classsoapclient_a95ae30619429aa7d1c93f21e33300419}{get\-Default\-Rpc\-Params} ()
+\item 
+\hyperlink{classsoapclient_a9d7b3609d1db3eb5f2d3cf92510e4e6b}{set\-Default\-Rpc\-Params} (\$rpc\-Params)
+\item 
+\hyperlink{classsoapclient_a839ac5be1fce2af15c73aef02a49a8af}{get\-Proxy} ()
+\item 
+\hyperlink{classsoapclient_a2b49882c792a4deb80ec35ca75f1fee6}{\-\_\-get\-Proxy\-Class\-Code} (\$r)
+\item 
+\hyperlink{classsoapclient_a5fbf58b6ba27a02544885d4fc801d328}{get\-Proxy\-Class\-Code} ()
+\item 
+\hyperlink{classsoapclient_ab1e22b0858bdbe61d2d711ff442c0e78}{get\-H\-T\-T\-P\-Body} (\$soapmsg)
+\item 
+\hyperlink{classsoapclient_a2bed19ef2d537dee244535339cd6026a}{get\-H\-T\-T\-P\-Content\-Type} ()
+\item 
+\hyperlink{classsoapclient_a9051db33a9b7e50315d9222ef1c52ce9}{get\-H\-T\-T\-P\-Content\-Type\-Charset} ()
+\item 
+\hypertarget{classsoapclient_a8ebcfd008049181e64a5046eb8c168b9}{{\bfseries decode\-U\-T\-F8} (\$bool)}\label{classsoapclient_a8ebcfd008049181e64a5046eb8c168b9}
+
+\item 
+\hyperlink{classsoapclient_a3f05f631ff936a033cae038052d9e7f9}{set\-Cookie} (\$name, \$value)
+\item 
+\hyperlink{classsoapclient_a374b645410526cbbb498b140242a00ba}{get\-Cookies} ()
+\item 
+\hyperlink{classsoapclient_a6a8794beffec4a05daa7559ab233875e}{check\-Cookies} ()
+\item 
+\hyperlink{classsoapclient_ad71447ce0ee50309eea6ce0e12a88e02}{Update\-Cookies} (\$cookies)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsoapclient_a0eb82aa5f81cf845de4b36cd653c42cf}{{\bfseries \$username} = ''}\label{classsoapclient_a0eb82aa5f81cf845de4b36cd653c42cf}
+
+\item 
+\hypertarget{classsoapclient_a607686ef9f99ea7c42f4f3dd3dbb2b0d}{{\bfseries \$password} = ''}\label{classsoapclient_a607686ef9f99ea7c42f4f3dd3dbb2b0d}
+
+\item 
+\hypertarget{classsoapclient_ae81871b02c5845eb3a1071eb24e1f29c}{{\bfseries \$authtype} = ''}\label{classsoapclient_ae81871b02c5845eb3a1071eb24e1f29c}
+
+\item 
+\hypertarget{classsoapclient_adcbe9a77644bad97ed599d1651bd2719}{{\bfseries \$cert\-Request} = array()}\label{classsoapclient_adcbe9a77644bad97ed599d1651bd2719}
+
+\item 
+\hypertarget{classsoapclient_a245d2deb868c1cc1a23b10c48c6d0754}{{\bfseries \$request\-Headers} = false}\label{classsoapclient_a245d2deb868c1cc1a23b10c48c6d0754}
+
+\item 
+\hypertarget{classsoapclient_a02f80cf3a7fe7cf42c97b821c167b934}{{\bfseries \$response\-Headers} = ''}\label{classsoapclient_a02f80cf3a7fe7cf42c97b821c167b934}
+
+\item 
+\hypertarget{classsoapclient_ac5a31edb787609a3143dec9bfa8063ea}{{\bfseries \$document} = ''}\label{classsoapclient_ac5a31edb787609a3143dec9bfa8063ea}
+
+\item 
+\hypertarget{classsoapclient_afb5204f7604df2f50a0058cb0e024875}{{\bfseries \$endpoint}}\label{classsoapclient_afb5204f7604df2f50a0058cb0e024875}
+
+\item 
+\hypertarget{classsoapclient_afdcf6cf88adc9e9f3cf412605b74ce47}{{\bfseries \$force\-Endpoint} = ''}\label{classsoapclient_afdcf6cf88adc9e9f3cf412605b74ce47}
+
+\item 
+\hypertarget{classsoapclient_a54407bcc777ac313a172561a8ff976c6}{{\bfseries \$proxyhost} = ''}\label{classsoapclient_a54407bcc777ac313a172561a8ff976c6}
+
+\item 
+\hypertarget{classsoapclient_ac396538deee1152f84f9ddabac2c2366}{{\bfseries \$proxyport} = ''}\label{classsoapclient_ac396538deee1152f84f9ddabac2c2366}
+
+\item 
+\hypertarget{classsoapclient_aaa30711a40f8f7bae4cd7060414e0fe1}{{\bfseries \$proxyusername} = ''}\label{classsoapclient_aaa30711a40f8f7bae4cd7060414e0fe1}
+
+\item 
+\hypertarget{classsoapclient_a98c0d3b74811ee643f7d1fce47f1b281}{{\bfseries \$proxypassword} = ''}\label{classsoapclient_a98c0d3b74811ee643f7d1fce47f1b281}
+
+\item 
+\hypertarget{classsoapclient_a1e2ee3fea6dbb8374da999a9df7d024d}{{\bfseries \$xml\-\_\-encoding} = ''}\label{classsoapclient_a1e2ee3fea6dbb8374da999a9df7d024d}
+
+\item 
+\hypertarget{classsoapclient_a85ab29df53fb1ff64e0aecd9698b51fe}{{\bfseries \$http\-\_\-encoding} = false}\label{classsoapclient_a85ab29df53fb1ff64e0aecd9698b51fe}
+
+\item 
+\hypertarget{classsoapclient_a84320a9bf3e591d7ae20dfcb0dfe6a0d}{{\bfseries \$timeout} = 0}\label{classsoapclient_a84320a9bf3e591d7ae20dfcb0dfe6a0d}
+
+\item 
+\hypertarget{classsoapclient_a17a3280264a8b9bb5ed32729d654739c}{{\bfseries \$response\-\_\-timeout} = 30}\label{classsoapclient_a17a3280264a8b9bb5ed32729d654739c}
+
+\item 
+\hypertarget{classsoapclient_a579908f25c2a105b23afaa84730b0a63}{{\bfseries \$endpoint\-Type} = ''}\label{classsoapclient_a579908f25c2a105b23afaa84730b0a63}
+
+\item 
+\hypertarget{classsoapclient_a638b1c5f7dc55a3d0286136de6d56eab}{{\bfseries \$persistent\-Connection} = false}\label{classsoapclient_a638b1c5f7dc55a3d0286136de6d56eab}
+
+\item 
+\hypertarget{classsoapclient_ac78680bfe85d7e93ebe0d9260e104602}{{\bfseries \$default\-Rpc\-Params} = false}\label{classsoapclient_ac78680bfe85d7e93ebe0d9260e104602}
+
+\item 
+\hypertarget{classsoapclient_abb35c8495a232b510389fa6d7b15d38a}{{\bfseries \$request} = ''}\label{classsoapclient_abb35c8495a232b510389fa6d7b15d38a}
+
+\item 
+\hypertarget{classsoapclient_af4b6fb1bbc77ccc05f10da3b16935b99}{{\bfseries \$response} = ''}\label{classsoapclient_af4b6fb1bbc77ccc05f10da3b16935b99}
+
+\item 
+\hypertarget{classsoapclient_ab1e953a498fa4370be7a8806cea56031}{{\bfseries \$response\-Data} = ''}\label{classsoapclient_ab1e953a498fa4370be7a8806cea56031}
+
+\item 
+\hypertarget{classsoapclient_aef9f7eafd54f6e36423347bed723c67e}{{\bfseries \$cookies} = array()}\label{classsoapclient_aef9f7eafd54f6e36423347bed723c67e}
+
+\item 
+\hypertarget{classsoapclient_a15fe586a802bc22337e3fe874d6da038}{{\bfseries \$decode\-\_\-utf8} = true}\label{classsoapclient_a15fe586a802bc22337e3fe874d6da038}
+
+\item 
+\hypertarget{classsoapclient_a3f662373ff81db09eed5649d07f1931c}{{\bfseries \$operations} = array()}\label{classsoapclient_a3f662373ff81db09eed5649d07f1931c}
+
+\item 
+\hypertarget{classsoapclient_a365691ed834f59a9a513180136e7a847}{{\bfseries \$fault}}\label{classsoapclient_a365691ed834f59a9a513180136e7a847}
+
+\item 
+\hypertarget{classsoapclient_a07e7ee58f39f98cdd8b2bd2b40ff72d7}{{\bfseries \$faultcode}}\label{classsoapclient_a07e7ee58f39f98cdd8b2bd2b40ff72d7}
+
+\item 
+\hypertarget{classsoapclient_acc1a7d86f9bd39e5717add56fbcdfaaa}{{\bfseries \$faultstring}}\label{classsoapclient_acc1a7d86f9bd39e5717add56fbcdfaaa}
+
+\item 
+\hypertarget{classsoapclient_a7683364ae0ad0e22863a0f20f0626453}{{\bfseries \$faultdetail}}\label{classsoapclient_a7683364ae0ad0e22863a0f20f0626453}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+soapclient higher level class for easy usage.
+
+usage\-:
+
+// instantiate client with server info \$soapclient = new soapclient( string path \mbox{[} ,boolean wsdl\mbox{]} );
+
+// call method, get results echo \$soapclient-\/$>$call( string methodname \mbox{[} ,array parameters\mbox{]} );
+
+// bye bye client unset(\$soapclient);
+
+\begin{DoxyAuthor}{Author}
+Dietrich Ayala \href{mailto:dietrich@ganx4.com}{\tt dietrich@ganx4.\-com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id\-:}
+\hyperlink{class_8soapclient_8php_source}{class.\-soapclient.\-php},v 1.\-52 2005/07/27 19\-:24\-:42 snichol Exp 
+\end{DoxyParagraph}
+public
+
+soapclient higher level class for easy usage.
+
+usage\-:
+
+// instantiate client with server info \$soapclient = new soapclient( string path \mbox{[} ,boolean wsdl\mbox{]} );
+
+// call method, get results echo \$soapclient-\/$>$call( string methodname \mbox{[} ,array parameters\mbox{]} );
+
+// bye bye client unset(\$soapclient);
+
+\begin{DoxyAuthor}{Author}
+Dietrich Ayala \href{mailto:dietrich@ganx4.com}{\tt dietrich@ganx4.\-com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id\-:}
+\hyperlink{nusoap_8php_source}{nusoap.\-php},v 1.\-94 2005/08/04 01\-:27\-:42 snichol Exp 
+\end{DoxyParagraph}
+public 
+
+Definition at line 25 of file class.\-soapclient.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsoapclient_a2b49882c792a4deb80ec35ca75f1fee6}{\index{soapclient@{soapclient}!\-\_\-get\-Proxy\-Class\-Code@{\-\_\-get\-Proxy\-Class\-Code}}
+\index{\-\_\-get\-Proxy\-Class\-Code@{\-\_\-get\-Proxy\-Class\-Code}!soapclient@{soapclient}}
+\subsubsection[{\-\_\-get\-Proxy\-Class\-Code}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-get\-Proxy\-Class\-Code (
+\begin{DoxyParamCaption}
+\item[{}]{\$r}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a2b49882c792a4deb80ec35ca75f1fee6}
+dynamically creates proxy class code
+
+\begin{DoxyReturn}{Returns}
+string P\-H\-P/\-Nu\-S\-O\-A\-P code for the proxy class  private 
+\end{DoxyReturn}
+
+
+Definition at line 635 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a2b49882c792a4deb80ec35ca75f1fee6}{\index{soapclient@{soapclient}!\-\_\-get\-Proxy\-Class\-Code@{\-\_\-get\-Proxy\-Class\-Code}}
+\index{\-\_\-get\-Proxy\-Class\-Code@{\-\_\-get\-Proxy\-Class\-Code}!soapclient@{soapclient}}
+\subsubsection[{\-\_\-get\-Proxy\-Class\-Code}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-get\-Proxy\-Class\-Code (
+\begin{DoxyParamCaption}
+\item[{}]{\$r}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a2b49882c792a4deb80ec35ca75f1fee6}
+dynamically creates proxy class code
+
+\begin{DoxyReturn}{Returns}
+string P\-H\-P/\-Nu\-S\-O\-A\-P code for the proxy class  private 
+\end{DoxyReturn}
+
+
+Definition at line 7017 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}{\index{soapclient@{soapclient}!call@{call}}
+\index{call@{call}!soapclient@{soapclient}}
+\subsubsection[{call}]{\setlength{\rightskip}{0pt plus 5cm}call (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation, }
+\item[{}]{\$params = {\ttfamily array()}, }
+\item[{}]{\$namespace = {\ttfamily 'http\-://tempuri.org'}, }
+\item[{}]{\$soap\-Action = {\ttfamily ''}, }
+\item[{}]{\$headers = {\ttfamily false}, }
+\item[{}]{\$rpc\-Params = {\ttfamily null}, }
+\item[{}]{\$style = {\ttfamily 'rpc'}, }
+\item[{}]{\$use = {\ttfamily 'encoded'}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}
+calls method, returns P\-H\-P native type
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & S\-O\-A\-P server U\-R\-L or path \\
+\hline
+mixed & {\em \$params} & An array, associative or simple, of the parameters for the method call, or a string that is the X\-M\-L for the call. For rpc style, this call will wrap the X\-M\-L in a tag named after the method, as well as the S\-O\-A\-P Envelope and Body. For document style, this will only wrap with the Envelope and Body. I\-M\-P\-O\-R\-T\-A\-N\-T\-: when using an array with document style, in which case there is really one parameter, the root of the fragment used in the call, which encloses what programmers normally think of parameters. A parameter array {\itshape must} include the wrapper. \\
+\hline
+string & {\em \$namespace} & optional method namespace (W\-S\-D\-L can override) \\
+\hline
+string & {\em \$soap\-Action} & optional S\-O\-A\-P\-Action value (W\-S\-D\-L can override) \\
+\hline
+mixed & {\em \$headers} & optional string of X\-M\-L with S\-O\-A\-P header content, or array of soapval objects for S\-O\-A\-P headers \\
+\hline
+boolean & {\em \$rpc\-Params} & optional (no longer used) \\
+\hline
+string & {\em \$style} & optional (rpc$|$document) the style to use when serializing parameters (W\-S\-D\-L can override) \\
+\hline
+string & {\em \$use} & optional (encoded$|$literal) the use when serializing parameters (W\-S\-D\-L can override) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed response from S\-O\-A\-P call  public 
+\end{DoxyReturn}
+
+
+Definition at line 160 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}{\index{soapclient@{soapclient}!call@{call}}
+\index{call@{call}!soapclient@{soapclient}}
+\subsubsection[{call}]{\setlength{\rightskip}{0pt plus 5cm}call (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation, }
+\item[{}]{\$params = {\ttfamily array()}, }
+\item[{}]{\$namespace = {\ttfamily 'http\-://tempuri.org'}, }
+\item[{}]{\$soap\-Action = {\ttfamily ''}, }
+\item[{}]{\$headers = {\ttfamily false}, }
+\item[{}]{\$rpc\-Params = {\ttfamily null}, }
+\item[{}]{\$style = {\ttfamily 'rpc'}, }
+\item[{}]{\$use = {\ttfamily 'encoded'}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}
+calls method, returns P\-H\-P native type
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & S\-O\-A\-P server U\-R\-L or path \\
+\hline
+mixed & {\em \$params} & An array, associative or simple, of the parameters for the method call, or a string that is the X\-M\-L for the call. For rpc style, this call will wrap the X\-M\-L in a tag named after the method, as well as the S\-O\-A\-P Envelope and Body. For document style, this will only wrap with the Envelope and Body. I\-M\-P\-O\-R\-T\-A\-N\-T\-: when using an array with document style, in which case there is really one parameter, the root of the fragment used in the call, which encloses what programmers normally think of parameters. A parameter array {\itshape must} include the wrapper. \\
+\hline
+string & {\em \$namespace} & optional method namespace (W\-S\-D\-L can override) \\
+\hline
+string & {\em \$soap\-Action} & optional S\-O\-A\-P\-Action value (W\-S\-D\-L can override) \\
+\hline
+mixed & {\em \$headers} & optional string of X\-M\-L with S\-O\-A\-P header content, or array of soapval objects for S\-O\-A\-P headers \\
+\hline
+boolean & {\em \$rpc\-Params} & optional (no longer used) \\
+\hline
+string & {\em \$style} & optional (rpc$|$document) the style to use when serializing parameters (W\-S\-D\-L can override) \\
+\hline
+string & {\em \$use} & optional (encoded$|$literal) the use when serializing parameters (W\-S\-D\-L can override) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed response from S\-O\-A\-P call  public 
+\end{DoxyReturn}
+
+
+Definition at line 6542 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a6a8794beffec4a05daa7559ab233875e}{\index{soapclient@{soapclient}!check\-Cookies@{check\-Cookies}}
+\index{check\-Cookies@{check\-Cookies}!soapclient@{soapclient}}
+\subsubsection[{check\-Cookies}]{\setlength{\rightskip}{0pt plus 5cm}check\-Cookies (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a6a8794beffec4a05daa7559ab233875e}
+checks all Cookies and delete those which are expired
+
+\begin{DoxyReturn}{Returns}
+always return true  private 
+\end{DoxyReturn}
+
+
+Definition at line 768 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a6a8794beffec4a05daa7559ab233875e}{\index{soapclient@{soapclient}!check\-Cookies@{check\-Cookies}}
+\index{check\-Cookies@{check\-Cookies}!soapclient@{soapclient}}
+\subsubsection[{check\-Cookies}]{\setlength{\rightskip}{0pt plus 5cm}check\-Cookies (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a6a8794beffec4a05daa7559ab233875e}
+checks all Cookies and delete those which are expired
+
+\begin{DoxyReturn}{Returns}
+always return true  private 
+\end{DoxyReturn}
+
+
+Definition at line 7150 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a374b645410526cbbb498b140242a00ba}{\index{soapclient@{soapclient}!get\-Cookies@{get\-Cookies}}
+\index{get\-Cookies@{get\-Cookies}!soapclient@{soapclient}}
+\subsubsection[{get\-Cookies}]{\setlength{\rightskip}{0pt plus 5cm}get\-Cookies (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a374b645410526cbbb498b140242a00ba}
+gets all Cookies
+
+\begin{DoxyReturn}{Returns}
+array with all internal cookies  public 
+\end{DoxyReturn}
+
+
+Definition at line 758 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a374b645410526cbbb498b140242a00ba}{\index{soapclient@{soapclient}!get\-Cookies@{get\-Cookies}}
+\index{get\-Cookies@{get\-Cookies}!soapclient@{soapclient}}
+\subsubsection[{get\-Cookies}]{\setlength{\rightskip}{0pt plus 5cm}get\-Cookies (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a374b645410526cbbb498b140242a00ba}
+gets all Cookies
+
+\begin{DoxyReturn}{Returns}
+array with all internal cookies  public 
+\end{DoxyReturn}
+
+
+Definition at line 7140 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a95ae30619429aa7d1c93f21e33300419}{\index{soapclient@{soapclient}!get\-Default\-Rpc\-Params@{get\-Default\-Rpc\-Params}}
+\index{get\-Default\-Rpc\-Params@{get\-Default\-Rpc\-Params}!soapclient@{soapclient}}
+\subsubsection[{get\-Default\-Rpc\-Params}]{\setlength{\rightskip}{0pt plus 5cm}get\-Default\-Rpc\-Params (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a95ae30619429aa7d1c93f21e33300419}
+gets the default R\-P\-C parameter setting. If true, default is that call params are like R\-P\-C even for document style. Each \hyperlink{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}{call()} can override this value.
+
+This is no longer used.
+
+\begin{DoxyReturn}{Returns}
+boolean  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000006}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 570 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a95ae30619429aa7d1c93f21e33300419}{\index{soapclient@{soapclient}!get\-Default\-Rpc\-Params@{get\-Default\-Rpc\-Params}}
+\index{get\-Default\-Rpc\-Params@{get\-Default\-Rpc\-Params}!soapclient@{soapclient}}
+\subsubsection[{get\-Default\-Rpc\-Params}]{\setlength{\rightskip}{0pt plus 5cm}get\-Default\-Rpc\-Params (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a95ae30619429aa7d1c93f21e33300419}
+gets the default R\-P\-C parameter setting. If true, default is that call params are like R\-P\-C even for document style. Each \hyperlink{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}{call()} can override this value.
+
+This is no longer used.
+
+\begin{DoxyReturn}{Returns}
+boolean  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000021}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 6952 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a157e0005d82edaa21cbea07fdc5c62da}{\index{soapclient@{soapclient}!get\-Headers@{get\-Headers}}
+\index{get\-Headers@{get\-Headers}!soapclient@{soapclient}}
+\subsubsection[{get\-Headers}]{\setlength{\rightskip}{0pt plus 5cm}get\-Headers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a157e0005d82edaa21cbea07fdc5c62da}
+get the S\-O\-A\-P response headers (namespace resolution incomplete)
+
+\begin{DoxyReturn}{Returns}
+string  public 
+\end{DoxyReturn}
+
+
+Definition at line 504 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a157e0005d82edaa21cbea07fdc5c62da}{\index{soapclient@{soapclient}!get\-Headers@{get\-Headers}}
+\index{get\-Headers@{get\-Headers}!soapclient@{soapclient}}
+\subsubsection[{get\-Headers}]{\setlength{\rightskip}{0pt plus 5cm}get\-Headers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a157e0005d82edaa21cbea07fdc5c62da}
+get the S\-O\-A\-P response headers (namespace resolution incomplete)
+
+\begin{DoxyReturn}{Returns}
+string  public 
+\end{DoxyReturn}
+
+
+Definition at line 6886 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_ab1e22b0858bdbe61d2d711ff442c0e78}{\index{soapclient@{soapclient}!get\-H\-T\-T\-P\-Body@{get\-H\-T\-T\-P\-Body}}
+\index{get\-H\-T\-T\-P\-Body@{get\-H\-T\-T\-P\-Body}!soapclient@{soapclient}}
+\subsubsection[{get\-H\-T\-T\-P\-Body}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Body (
+\begin{DoxyParamCaption}
+\item[{}]{\$soapmsg}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ab1e22b0858bdbe61d2d711ff442c0e78}
+gets the H\-T\-T\-P body for the current request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$soapmsg} & The S\-O\-A\-P payload \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The H\-T\-T\-P body, which includes the S\-O\-A\-P payload  private 
+\end{DoxyReturn}
+
+
+Definition at line 696 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_ab1e22b0858bdbe61d2d711ff442c0e78}{\index{soapclient@{soapclient}!get\-H\-T\-T\-P\-Body@{get\-H\-T\-T\-P\-Body}}
+\index{get\-H\-T\-T\-P\-Body@{get\-H\-T\-T\-P\-Body}!soapclient@{soapclient}}
+\subsubsection[{get\-H\-T\-T\-P\-Body}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Body (
+\begin{DoxyParamCaption}
+\item[{}]{\$soapmsg}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ab1e22b0858bdbe61d2d711ff442c0e78}
+gets the H\-T\-T\-P body for the current request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$soapmsg} & The S\-O\-A\-P payload \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The H\-T\-T\-P body, which includes the S\-O\-A\-P payload  private 
+\end{DoxyReturn}
+
+
+Definition at line 7078 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a2bed19ef2d537dee244535339cd6026a}{\index{soapclient@{soapclient}!get\-H\-T\-T\-P\-Content\-Type@{get\-H\-T\-T\-P\-Content\-Type}}
+\index{get\-H\-T\-T\-P\-Content\-Type@{get\-H\-T\-T\-P\-Content\-Type}!soapclient@{soapclient}}
+\subsubsection[{get\-H\-T\-T\-P\-Content\-Type}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Content\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a2bed19ef2d537dee244535339cd6026a}
+gets the H\-T\-T\-P content type for the current request.
+
+Note\-: get\-H\-T\-T\-P\-Body must be called before this.
+
+\begin{DoxyReturn}{Returns}
+string the H\-T\-T\-P content type for the current request.  private 
+\end{DoxyReturn}
+
+
+Definition at line 708 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a2bed19ef2d537dee244535339cd6026a}{\index{soapclient@{soapclient}!get\-H\-T\-T\-P\-Content\-Type@{get\-H\-T\-T\-P\-Content\-Type}}
+\index{get\-H\-T\-T\-P\-Content\-Type@{get\-H\-T\-T\-P\-Content\-Type}!soapclient@{soapclient}}
+\subsubsection[{get\-H\-T\-T\-P\-Content\-Type}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Content\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a2bed19ef2d537dee244535339cd6026a}
+gets the H\-T\-T\-P content type for the current request.
+
+Note\-: get\-H\-T\-T\-P\-Body must be called before this.
+
+\begin{DoxyReturn}{Returns}
+string the H\-T\-T\-P content type for the current request.  private 
+\end{DoxyReturn}
+
+
+Definition at line 7090 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a9051db33a9b7e50315d9222ef1c52ce9}{\index{soapclient@{soapclient}!get\-H\-T\-T\-P\-Content\-Type\-Charset@{get\-H\-T\-T\-P\-Content\-Type\-Charset}}
+\index{get\-H\-T\-T\-P\-Content\-Type\-Charset@{get\-H\-T\-T\-P\-Content\-Type\-Charset}!soapclient@{soapclient}}
+\subsubsection[{get\-H\-T\-T\-P\-Content\-Type\-Charset}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Content\-Type\-Charset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a9051db33a9b7e50315d9222ef1c52ce9}
+gets the H\-T\-T\-P content type charset for the current request. returns false for non-\/text content types.
+
+Note\-: get\-H\-T\-T\-P\-Body must be called before this.
+
+\begin{DoxyReturn}{Returns}
+string the H\-T\-T\-P content type charset for the current request.  private 
+\end{DoxyReturn}
+
+
+Definition at line 721 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a9051db33a9b7e50315d9222ef1c52ce9}{\index{soapclient@{soapclient}!get\-H\-T\-T\-P\-Content\-Type\-Charset@{get\-H\-T\-T\-P\-Content\-Type\-Charset}}
+\index{get\-H\-T\-T\-P\-Content\-Type\-Charset@{get\-H\-T\-T\-P\-Content\-Type\-Charset}!soapclient@{soapclient}}
+\subsubsection[{get\-H\-T\-T\-P\-Content\-Type\-Charset}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Content\-Type\-Charset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a9051db33a9b7e50315d9222ef1c52ce9}
+gets the H\-T\-T\-P content type charset for the current request. returns false for non-\/text content types.
+
+Note\-: get\-H\-T\-T\-P\-Body must be called before this.
+
+\begin{DoxyReturn}{Returns}
+string the H\-T\-T\-P content type charset for the current request.  private 
+\end{DoxyReturn}
+
+
+Definition at line 7103 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_ad66fb2de1dae9b9597bed83de4f343a7}{\index{soapclient@{soapclient}!get\-Operation\-Data@{get\-Operation\-Data}}
+\index{get\-Operation\-Data@{get\-Operation\-Data}!soapclient@{soapclient}}
+\subsubsection[{get\-Operation\-Data}]{\setlength{\rightskip}{0pt plus 5cm}get\-Operation\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ad66fb2de1dae9b9597bed83de4f343a7}
+get available data pertaining to an operation
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$operation} & operation name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array array of data pertaining to the operation  public 
+\end{DoxyReturn}
+
+
+Definition at line 336 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_ad66fb2de1dae9b9597bed83de4f343a7}{\index{soapclient@{soapclient}!get\-Operation\-Data@{get\-Operation\-Data}}
+\index{get\-Operation\-Data@{get\-Operation\-Data}!soapclient@{soapclient}}
+\subsubsection[{get\-Operation\-Data}]{\setlength{\rightskip}{0pt plus 5cm}get\-Operation\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{\$operation}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ad66fb2de1dae9b9597bed83de4f343a7}
+get available data pertaining to an operation
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$operation} & operation name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array array of data pertaining to the operation  public 
+\end{DoxyReturn}
+
+
+Definition at line 6718 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a839ac5be1fce2af15c73aef02a49a8af}{\index{soapclient@{soapclient}!get\-Proxy@{get\-Proxy}}
+\index{get\-Proxy@{get\-Proxy}!soapclient@{soapclient}}
+\subsubsection[{get\-Proxy}]{\setlength{\rightskip}{0pt plus 5cm}get\-Proxy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a839ac5be1fce2af15c73aef02a49a8af}
+dynamically creates an instance of a proxy class, allowing user to directly call methods from wsdl
+
+\begin{DoxyReturn}{Returns}
+object soap\-\_\-proxy object  public 
+\end{DoxyReturn}
+
+
+Definition at line 596 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a839ac5be1fce2af15c73aef02a49a8af}{\index{soapclient@{soapclient}!get\-Proxy@{get\-Proxy}}
+\index{get\-Proxy@{get\-Proxy}!soapclient@{soapclient}}
+\subsubsection[{get\-Proxy}]{\setlength{\rightskip}{0pt plus 5cm}get\-Proxy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a839ac5be1fce2af15c73aef02a49a8af}
+dynamically creates an instance of a proxy class, allowing user to directly call methods from wsdl
+
+\begin{DoxyReturn}{Returns}
+object soap\-\_\-proxy object  public 
+\end{DoxyReturn}
+
+
+Definition at line 6978 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a5fbf58b6ba27a02544885d4fc801d328}{\index{soapclient@{soapclient}!get\-Proxy\-Class\-Code@{get\-Proxy\-Class\-Code}}
+\index{get\-Proxy\-Class\-Code@{get\-Proxy\-Class\-Code}!soapclient@{soapclient}}
+\subsubsection[{get\-Proxy\-Class\-Code}]{\setlength{\rightskip}{0pt plus 5cm}get\-Proxy\-Class\-Code (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a5fbf58b6ba27a02544885d4fc801d328}
+dynamically creates proxy class code
+
+\begin{DoxyReturn}{Returns}
+string P\-H\-P/\-Nu\-S\-O\-A\-P code for the proxy class  public 
+\end{DoxyReturn}
+
+
+Definition at line 684 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a5fbf58b6ba27a02544885d4fc801d328}{\index{soapclient@{soapclient}!get\-Proxy\-Class\-Code@{get\-Proxy\-Class\-Code}}
+\index{get\-Proxy\-Class\-Code@{get\-Proxy\-Class\-Code}!soapclient@{soapclient}}
+\subsubsection[{get\-Proxy\-Class\-Code}]{\setlength{\rightskip}{0pt plus 5cm}get\-Proxy\-Class\-Code (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a5fbf58b6ba27a02544885d4fc801d328}
+dynamically creates proxy class code
+
+\begin{DoxyReturn}{Returns}
+string P\-H\-P/\-Nu\-S\-O\-A\-P code for the proxy class  public 
+\end{DoxyReturn}
+
+
+Definition at line 7066 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_aca1ed2155629bfc242ddea3636ac24c1}{\index{soapclient@{soapclient}!parse\-Response@{parse\-Response}}
+\index{parse\-Response@{parse\-Response}!soapclient@{soapclient}}
+\subsubsection[{parse\-Response}]{\setlength{\rightskip}{0pt plus 5cm}parse\-Response (
+\begin{DoxyParamCaption}
+\item[{}]{\$headers, }
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_aca1ed2155629bfc242ddea3636ac24c1}
+processes S\-O\-A\-P message returned from server
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$headers} & The H\-T\-T\-P headers \\
+\hline
+string & {\em \$data} & unprocessed response data from server \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed value of the message, decoded into a P\-H\-P type  private 
+\end{DoxyReturn}
+
+
+Definition at line 436 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_aca1ed2155629bfc242ddea3636ac24c1}{\index{soapclient@{soapclient}!parse\-Response@{parse\-Response}}
+\index{parse\-Response@{parse\-Response}!soapclient@{soapclient}}
+\subsubsection[{parse\-Response}]{\setlength{\rightskip}{0pt plus 5cm}parse\-Response (
+\begin{DoxyParamCaption}
+\item[{}]{\$headers, }
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_aca1ed2155629bfc242ddea3636ac24c1}
+processes S\-O\-A\-P message returned from server
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$headers} & The H\-T\-T\-P headers \\
+\hline
+string & {\em \$data} & unprocessed response data from server \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed value of the message, decoded into a P\-H\-P type  private 
+\end{DoxyReturn}
+
+
+Definition at line 6818 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_aece60a5a6bd359481071516aa7024b56}{\index{soapclient@{soapclient}!send@{send}}
+\index{send@{send}!soapclient@{soapclient}}
+\subsubsection[{send}]{\setlength{\rightskip}{0pt plus 5cm}send (
+\begin{DoxyParamCaption}
+\item[{}]{\$msg, }
+\item[{}]{\$soapaction = {\ttfamily ''}, }
+\item[{}]{\$timeout = {\ttfamily 0}, }
+\item[{}]{\$response\-\_\-timeout = {\ttfamily 30}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_aece60a5a6bd359481071516aa7024b56}
+send the S\-O\-A\-P message
+
+Note\-: if the operation has multiple return values the return value of this method will be an array of those values.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$msg} & a S\-O\-A\-Px4 soapmsg object \\
+\hline
+string & {\em \$soapaction} & S\-O\-A\-P\-Action value \\
+\hline
+integer & {\em \$timeout} & set connection timeout in seconds \\
+\hline
+integer & {\em \$response\-\_\-timeout} & set response timeout in seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed native P\-H\-P types.  private 
+\end{DoxyReturn}
+
+
+Definition at line 357 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_aece60a5a6bd359481071516aa7024b56}{\index{soapclient@{soapclient}!send@{send}}
+\index{send@{send}!soapclient@{soapclient}}
+\subsubsection[{send}]{\setlength{\rightskip}{0pt plus 5cm}send (
+\begin{DoxyParamCaption}
+\item[{}]{\$msg, }
+\item[{}]{\$soapaction = {\ttfamily ''}, }
+\item[{}]{\$timeout = {\ttfamily 0}, }
+\item[{}]{\$response\-\_\-timeout = {\ttfamily 30}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_aece60a5a6bd359481071516aa7024b56}
+send the S\-O\-A\-P message
+
+Note\-: if the operation has multiple return values the return value of this method will be an array of those values.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$msg} & a S\-O\-A\-Px4 soapmsg object \\
+\hline
+string & {\em \$soapaction} & S\-O\-A\-P\-Action value \\
+\hline
+integer & {\em \$timeout} & set connection timeout in seconds \\
+\hline
+integer & {\em \$response\-\_\-timeout} & set response timeout in seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed native P\-H\-P types.  private 
+\end{DoxyReturn}
+
+
+Definition at line 6739 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a3f05f631ff936a033cae038052d9e7f9}{\index{soapclient@{soapclient}!set\-Cookie@{set\-Cookie}}
+\index{set\-Cookie@{set\-Cookie}!soapclient@{soapclient}}
+\subsubsection[{set\-Cookie}]{\setlength{\rightskip}{0pt plus 5cm}set\-Cookie (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$value}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a3f05f631ff936a033cae038052d9e7f9}
+adds a new Cookie into \$this-\/$>$cookies array
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & Cookie Name \\
+\hline
+string & {\em \$value} & Cookie Value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+if cookie-\/set was successful returns true, else false  public 
+\end{DoxyReturn}
+
+
+Definition at line 744 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a3f05f631ff936a033cae038052d9e7f9}{\index{soapclient@{soapclient}!set\-Cookie@{set\-Cookie}}
+\index{set\-Cookie@{set\-Cookie}!soapclient@{soapclient}}
+\subsubsection[{set\-Cookie}]{\setlength{\rightskip}{0pt plus 5cm}set\-Cookie (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$value}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a3f05f631ff936a033cae038052d9e7f9}
+adds a new Cookie into \$this-\/$>$cookies array
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & Cookie Name \\
+\hline
+string & {\em \$value} & Cookie Value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+if cookie-\/set was successful returns true, else false  public 
+\end{DoxyReturn}
+
+
+Definition at line 7126 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_ada213133d177c1c9c07435d65e89e735}{\index{soapclient@{soapclient}!set\-Credentials@{set\-Credentials}}
+\index{set\-Credentials@{set\-Credentials}!soapclient@{soapclient}}
+\subsubsection[{set\-Credentials}]{\setlength{\rightskip}{0pt plus 5cm}set\-Credentials (
+\begin{DoxyParamCaption}
+\item[{}]{\$username, }
+\item[{}]{\$password, }
+\item[{}]{\$authtype = {\ttfamily 'basic'}, }
+\item[{}]{\$cert\-Request = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ada213133d177c1c9c07435d65e89e735}
+if authenticating, set user credentials here
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$username} & \\
+\hline
+string & {\em \$password} & \\
+\hline
+string & {\em \$authtype} & (basic$|$digest$|$certificate) \\
+\hline
+array & {\em \$cert\-Request} & (keys must be cainfofile (optional), sslcertfile, sslkeyfile, passphrase, verifypeer (optional), verifyhost (optional)\-: see corresponding options in c\-U\-R\-L docs)  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 533 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_ada213133d177c1c9c07435d65e89e735}{\index{soapclient@{soapclient}!set\-Credentials@{set\-Credentials}}
+\index{set\-Credentials@{set\-Credentials}!soapclient@{soapclient}}
+\subsubsection[{set\-Credentials}]{\setlength{\rightskip}{0pt plus 5cm}set\-Credentials (
+\begin{DoxyParamCaption}
+\item[{}]{\$username, }
+\item[{}]{\$password, }
+\item[{}]{\$authtype = {\ttfamily 'basic'}, }
+\item[{}]{\$cert\-Request = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ada213133d177c1c9c07435d65e89e735}
+if authenticating, set user credentials here
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$username} & \\
+\hline
+string & {\em \$password} & \\
+\hline
+string & {\em \$authtype} & (basic$|$digest$|$certificate) \\
+\hline
+array & {\em \$cert\-Request} & (keys must be cainfofile (optional), sslcertfile, sslkeyfile, passphrase, verifypeer (optional), verifyhost (optional)\-: see corresponding options in c\-U\-R\-L docs)  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 6915 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a9d7b3609d1db3eb5f2d3cf92510e4e6b}{\index{soapclient@{soapclient}!set\-Default\-Rpc\-Params@{set\-Default\-Rpc\-Params}}
+\index{set\-Default\-Rpc\-Params@{set\-Default\-Rpc\-Params}!soapclient@{soapclient}}
+\subsubsection[{set\-Default\-Rpc\-Params}]{\setlength{\rightskip}{0pt plus 5cm}set\-Default\-Rpc\-Params (
+\begin{DoxyParamCaption}
+\item[{}]{\$rpc\-Params}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a9d7b3609d1db3eb5f2d3cf92510e4e6b}
+sets the default R\-P\-C parameter setting. If true, default is that call params are like R\-P\-C even for document style Each \hyperlink{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}{call()} can override this value.
+
+This is no longer used.
+
+
+\begin{DoxyParams}[1]{Parameters}
+boolean & {\em \$rpc\-Params} & public \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000007}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 585 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a9d7b3609d1db3eb5f2d3cf92510e4e6b}{\index{soapclient@{soapclient}!set\-Default\-Rpc\-Params@{set\-Default\-Rpc\-Params}}
+\index{set\-Default\-Rpc\-Params@{set\-Default\-Rpc\-Params}!soapclient@{soapclient}}
+\subsubsection[{set\-Default\-Rpc\-Params}]{\setlength{\rightskip}{0pt plus 5cm}set\-Default\-Rpc\-Params (
+\begin{DoxyParamCaption}
+\item[{}]{\$rpc\-Params}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a9d7b3609d1db3eb5f2d3cf92510e4e6b}
+sets the default R\-P\-C parameter setting. If true, default is that call params are like R\-P\-C even for document style Each \hyperlink{classsoapclient_a806d1d83f45454caf9c6c361c0a4b0ad}{call()} can override this value.
+
+This is no longer used.
+
+
+\begin{DoxyParams}[1]{Parameters}
+boolean & {\em \$rpc\-Params} & public \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000022}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 6967 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_abab265adeddb116a65a24dc0fa1eafb2}{\index{soapclient@{soapclient}!set\-Endpoint@{set\-Endpoint}}
+\index{set\-Endpoint@{set\-Endpoint}!soapclient@{soapclient}}
+\subsubsection[{set\-Endpoint}]{\setlength{\rightskip}{0pt plus 5cm}set\-Endpoint (
+\begin{DoxyParamCaption}
+\item[{}]{\$endpoint}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_abab265adeddb116a65a24dc0fa1eafb2}
+sets the S\-O\-A\-P endpoint, which can override W\-S\-D\-L
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$endpoint} & string The endpoint U\-R\-L to use, or empty string or false to prevent override  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 484 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_abab265adeddb116a65a24dc0fa1eafb2}{\index{soapclient@{soapclient}!set\-Endpoint@{set\-Endpoint}}
+\index{set\-Endpoint@{set\-Endpoint}!soapclient@{soapclient}}
+\subsubsection[{set\-Endpoint}]{\setlength{\rightskip}{0pt plus 5cm}set\-Endpoint (
+\begin{DoxyParamCaption}
+\item[{}]{\$endpoint}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_abab265adeddb116a65a24dc0fa1eafb2}
+sets the S\-O\-A\-P endpoint, which can override W\-S\-D\-L
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$endpoint} & string The endpoint U\-R\-L to use, or empty string or false to prevent override  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 6866 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_ac1f59fefc1b33175a734321e13b42253}{\index{soapclient@{soapclient}!set\-Headers@{set\-Headers}}
+\index{set\-Headers@{set\-Headers}!soapclient@{soapclient}}
+\subsubsection[{set\-Headers}]{\setlength{\rightskip}{0pt plus 5cm}set\-Headers (
+\begin{DoxyParamCaption}
+\item[{}]{\$headers}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ac1f59fefc1b33175a734321e13b42253}
+set the S\-O\-A\-P headers
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$headers} & mixed String of X\-M\-L with S\-O\-A\-P header content, or array of soapval objects for S\-O\-A\-P headers  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 494 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_ac1f59fefc1b33175a734321e13b42253}{\index{soapclient@{soapclient}!set\-Headers@{set\-Headers}}
+\index{set\-Headers@{set\-Headers}!soapclient@{soapclient}}
+\subsubsection[{set\-Headers}]{\setlength{\rightskip}{0pt plus 5cm}set\-Headers (
+\begin{DoxyParamCaption}
+\item[{}]{\$headers}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ac1f59fefc1b33175a734321e13b42253}
+set the S\-O\-A\-P headers
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$headers} & mixed String of X\-M\-L with S\-O\-A\-P header content, or array of soapval objects for S\-O\-A\-P headers  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 6876 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a9528927202777242800c394fadc03191}{\index{soapclient@{soapclient}!set\-H\-T\-T\-P\-Encoding@{set\-H\-T\-T\-P\-Encoding}}
+\index{set\-H\-T\-T\-P\-Encoding@{set\-H\-T\-T\-P\-Encoding}!soapclient@{soapclient}}
+\subsubsection[{set\-H\-T\-T\-P\-Encoding}]{\setlength{\rightskip}{0pt plus 5cm}set\-H\-T\-T\-P\-Encoding (
+\begin{DoxyParamCaption}
+\item[{}]{\$enc = {\ttfamily 'gzip}, }
+\item[{deflate'}]{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a9528927202777242800c394fadc03191}
+use H\-T\-T\-P encoding
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$enc} & public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 546 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a9528927202777242800c394fadc03191}{\index{soapclient@{soapclient}!set\-H\-T\-T\-P\-Encoding@{set\-H\-T\-T\-P\-Encoding}}
+\index{set\-H\-T\-T\-P\-Encoding@{set\-H\-T\-T\-P\-Encoding}!soapclient@{soapclient}}
+\subsubsection[{set\-H\-T\-T\-P\-Encoding}]{\setlength{\rightskip}{0pt plus 5cm}set\-H\-T\-T\-P\-Encoding (
+\begin{DoxyParamCaption}
+\item[{}]{\$enc = {\ttfamily 'gzip}, }
+\item[{deflate'}]{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a9528927202777242800c394fadc03191}
+use H\-T\-T\-P encoding
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$enc} & public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 6928 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a52152e7ae9c46863424bbafacf6a7f71}{\index{soapclient@{soapclient}!set\-H\-T\-T\-P\-Proxy@{set\-H\-T\-T\-P\-Proxy}}
+\index{set\-H\-T\-T\-P\-Proxy@{set\-H\-T\-T\-P\-Proxy}!soapclient@{soapclient}}
+\subsubsection[{set\-H\-T\-T\-P\-Proxy}]{\setlength{\rightskip}{0pt plus 5cm}set\-H\-T\-T\-P\-Proxy (
+\begin{DoxyParamCaption}
+\item[{}]{\$proxyhost, }
+\item[{}]{\$proxyport, }
+\item[{}]{\$proxyusername = {\ttfamily ''}, }
+\item[{}]{\$proxypassword = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a52152e7ae9c46863424bbafacf6a7f71}
+set proxy info here
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$proxyhost} & \\
+\hline
+string & {\em \$proxyport} & \\
+\hline
+string & {\em \$proxyusername} & \\
+\hline
+string & {\em \$proxypassword} & public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 517 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a52152e7ae9c46863424bbafacf6a7f71}{\index{soapclient@{soapclient}!set\-H\-T\-T\-P\-Proxy@{set\-H\-T\-T\-P\-Proxy}}
+\index{set\-H\-T\-T\-P\-Proxy@{set\-H\-T\-T\-P\-Proxy}!soapclient@{soapclient}}
+\subsubsection[{set\-H\-T\-T\-P\-Proxy}]{\setlength{\rightskip}{0pt plus 5cm}set\-H\-T\-T\-P\-Proxy (
+\begin{DoxyParamCaption}
+\item[{}]{\$proxyhost, }
+\item[{}]{\$proxyport, }
+\item[{}]{\$proxyusername = {\ttfamily ''}, }
+\item[{}]{\$proxypassword = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a52152e7ae9c46863424bbafacf6a7f71}
+set proxy info here
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$proxyhost} & \\
+\hline
+string & {\em \$proxyport} & \\
+\hline
+string & {\em \$proxyusername} & \\
+\hline
+string & {\em \$proxypassword} & public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 6899 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a59db1a21560241cf6aa51c813cd22e29}{\index{soapclient@{soapclient}!soapclient@{soapclient}}
+\index{soapclient@{soapclient}!soapclient@{soapclient}}
+\subsubsection[{soapclient}]{\setlength{\rightskip}{0pt plus 5cm}{\bf soapclient} (
+\begin{DoxyParamCaption}
+\item[{}]{\$endpoint, }
+\item[{}]{\$wsdl = {\ttfamily false}, }
+\item[{}]{\$proxyhost = {\ttfamily false}, }
+\item[{}]{\$proxyport = {\ttfamily false}, }
+\item[{}]{\$proxyusername = {\ttfamily false}, }
+\item[{}]{\$proxypassword = {\ttfamily false}, }
+\item[{}]{\$timeout = {\ttfamily 0}, }
+\item[{}]{\$response\-\_\-timeout = {\ttfamily 30}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a59db1a21560241cf6aa51c813cd22e29}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$endpoint} & S\-O\-A\-P server or W\-S\-D\-L U\-R\-L (string), or wsdl instance (object) \\
+\hline
+bool & {\em \$wsdl} & optional, set to true if using W\-S\-D\-L \\
+\hline
+int & {\em \$port\-Name} & optional port\-Name in W\-S\-D\-L document \\
+\hline
+string & {\em \$proxyhost} & \\
+\hline
+string & {\em \$proxyport} & \\
+\hline
+string & {\em \$proxyusername} & \\
+\hline
+string & {\em \$proxypassword} & \\
+\hline
+integer & {\em \$timeout} & set the connection timeout \\
+\hline
+integer & {\em \$response\-\_\-timeout} & set the response timeout  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 92 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a59db1a21560241cf6aa51c813cd22e29}{\index{soapclient@{soapclient}!soapclient@{soapclient}}
+\index{soapclient@{soapclient}!soapclient@{soapclient}}
+\subsubsection[{soapclient}]{\setlength{\rightskip}{0pt plus 5cm}{\bf soapclient} (
+\begin{DoxyParamCaption}
+\item[{}]{\$endpoint, }
+\item[{}]{\$wsdl = {\ttfamily false}, }
+\item[{}]{\$proxyhost = {\ttfamily false}, }
+\item[{}]{\$proxyport = {\ttfamily false}, }
+\item[{}]{\$proxyusername = {\ttfamily false}, }
+\item[{}]{\$proxypassword = {\ttfamily false}, }
+\item[{}]{\$timeout = {\ttfamily 0}, }
+\item[{}]{\$response\-\_\-timeout = {\ttfamily 30}}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a59db1a21560241cf6aa51c813cd22e29}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$endpoint} & S\-O\-A\-P server or W\-S\-D\-L U\-R\-L (string), or wsdl instance (object) \\
+\hline
+bool & {\em \$wsdl} & optional, set to true if using W\-S\-D\-L \\
+\hline
+int & {\em \$port\-Name} & optional port\-Name in W\-S\-D\-L document \\
+\hline
+string & {\em \$proxyhost} & \\
+\hline
+string & {\em \$proxyport} & \\
+\hline
+string & {\em \$proxyusername} & \\
+\hline
+string & {\em \$proxypassword} & \\
+\hline
+integer & {\em \$timeout} & set the connection timeout \\
+\hline
+integer & {\em \$response\-\_\-timeout} & set the response timeout  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 6474 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_ad71447ce0ee50309eea6ce0e12a88e02}{\index{soapclient@{soapclient}!Update\-Cookies@{Update\-Cookies}}
+\index{Update\-Cookies@{Update\-Cookies}!soapclient@{soapclient}}
+\subsubsection[{Update\-Cookies}]{\setlength{\rightskip}{0pt plus 5cm}Update\-Cookies (
+\begin{DoxyParamCaption}
+\item[{}]{\$cookies}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ad71447ce0ee50309eea6ce0e12a88e02}
+updates the current cookies with a new set
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$cookies} & new cookies with which to update current ones \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+always return true  private 
+\end{DoxyReturn}
+
+
+Definition at line 801 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_ad71447ce0ee50309eea6ce0e12a88e02}{\index{soapclient@{soapclient}!Update\-Cookies@{Update\-Cookies}}
+\index{Update\-Cookies@{Update\-Cookies}!soapclient@{soapclient}}
+\subsubsection[{Update\-Cookies}]{\setlength{\rightskip}{0pt plus 5cm}Update\-Cookies (
+\begin{DoxyParamCaption}
+\item[{}]{\$cookies}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_ad71447ce0ee50309eea6ce0e12a88e02}
+updates the current cookies with a new set
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$cookies} & new cookies with which to update current ones \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+always return true  private 
+\end{DoxyReturn}
+
+
+Definition at line 7183 of file nusoap.\-php.
+
+\hypertarget{classsoapclient_a6558d144faf99ccc9ef4621ffd56bd75}{\index{soapclient@{soapclient}!use\-H\-T\-T\-P\-Persistent\-Connection@{use\-H\-T\-T\-P\-Persistent\-Connection}}
+\index{use\-H\-T\-T\-P\-Persistent\-Connection@{use\-H\-T\-T\-P\-Persistent\-Connection}!soapclient@{soapclient}}
+\subsubsection[{use\-H\-T\-T\-P\-Persistent\-Connection}]{\setlength{\rightskip}{0pt plus 5cm}use\-H\-T\-T\-P\-Persistent\-Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a6558d144faf99ccc9ef4621ffd56bd75}
+use H\-T\-T\-P persistent connections if possible
+
+public 
+
+Definition at line 555 of file class.\-soapclient.\-php.
+
+\hypertarget{classsoapclient_a6558d144faf99ccc9ef4621ffd56bd75}{\index{soapclient@{soapclient}!use\-H\-T\-T\-P\-Persistent\-Connection@{use\-H\-T\-T\-P\-Persistent\-Connection}}
+\index{use\-H\-T\-T\-P\-Persistent\-Connection@{use\-H\-T\-T\-P\-Persistent\-Connection}!soapclient@{soapclient}}
+\subsubsection[{use\-H\-T\-T\-P\-Persistent\-Connection}]{\setlength{\rightskip}{0pt plus 5cm}use\-H\-T\-T\-P\-Persistent\-Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsoapclient_a6558d144faf99ccc9ef4621ffd56bd75}
+use H\-T\-T\-P persistent connections if possible
+
+public 
+
+Definition at line 6937 of file nusoap.\-php.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.\-soapclient.\-php\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.\-php\end{DoxyCompactItemize}

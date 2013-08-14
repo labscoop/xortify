@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_functions_handler" kind="class" prot="public">
+    <compoundname>FunctionsHandler</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_functions_handler_1aa75daea491817f3b64daa2f51128bcdf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$functions</definition>
+        <argsstring></argsstring>
+        <name>$functions</name>
+        <initializer>=array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($wsdl)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$wsdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GetServerExtensions</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerExtensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" bodystart="35" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDirListAsArray</definition>
+        <argsstring>($dirname)</argsstring>
+        <name>getDirListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" bodystart="62" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;&quot;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" line="90" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" bodystart="90" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" line="113" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($wsdl)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$wsdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GetServerExtensions</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerExtensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" bodystart="35" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDirListAsArray</definition>
+        <argsstring>($dirname)</argsstring>
+        <name>getDirListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" bodystart="62" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;&quot;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" line="90" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" bodystart="90" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" line="113" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xjson/class/class.functions.php" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($wsdl)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$wsdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GetServerExtensions</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerExtensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" bodystart="35" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDirListAsArray</definition>
+        <argsstring>($dirname)</argsstring>
+        <name>getDirListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" bodystart="62" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;&quot;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" line="90" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" bodystart="90" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" line="113" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/class/class.functions.php" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($wsdl)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$wsdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GetServerExtensions</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerExtensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" bodystart="35" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDirListAsArray</definition>
+        <argsstring>($dirname)</argsstring>
+        <name>getDirListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" bodystart="62" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;&quot;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" line="90" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" bodystart="90" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" line="113" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/class/class.functions.php" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($wsdl)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$wsdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GetServerExtensions</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerExtensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" bodystart="35" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDirListAsArray</definition>
+        <argsstring>($dirname)</argsstring>
+        <name>getDirListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" bodystart="62" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;&quot;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" line="90" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" bodystart="90" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" line="113" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xxml/class/class.functions.php" bodystart="113" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xcurl/class/class.functions.php" bodystart="19" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_functions_handler_1aa75daea491817f3b64daa2f51128bcdf" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>$functions</name></member>
+      <member refid="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__construct</name></member>
+      <member refid="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__construct</name></member>
+      <member refid="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__construct</name></member>
+      <member refid="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__construct</name></member>
+      <member refid="class_functions_handler_1ad7c254ba12ffd0ac70e51f02d01d2d0d" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__construct</name></member>
+      <member refid="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__destruct</name></member>
+      <member refid="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__destruct</name></member>
+      <member refid="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__destruct</name></member>
+      <member refid="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__destruct</name></member>
+      <member refid="class_functions_handler_1a421831a265621325e1fdd19aace0c758" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>__destruct</name></member>
+      <member refid="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getDirListAsArray</name></member>
+      <member refid="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getDirListAsArray</name></member>
+      <member refid="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getDirListAsArray</name></member>
+      <member refid="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getDirListAsArray</name></member>
+      <member refid="class_functions_handler_1a7a976c031e5562502b91e587839da05a" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getDirListAsArray</name></member>
+      <member refid="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getFileListAsArray</name></member>
+      <member refid="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getFileListAsArray</name></member>
+      <member refid="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getFileListAsArray</name></member>
+      <member refid="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getFileListAsArray</name></member>
+      <member refid="class_functions_handler_1a2587d6022abcec11c4dd150b341da93f" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>getFileListAsArray</name></member>
+      <member refid="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>GetServerExtensions</name></member>
+      <member refid="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>GetServerExtensions</name></member>
+      <member refid="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>GetServerExtensions</name></member>
+      <member refid="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>GetServerExtensions</name></member>
+      <member refid="class_functions_handler_1a3b2741d080118933fb9d53d2ea9fe48c" prot="public" virt="non-virtual"><scope>FunctionsHandler</scope><name>GetServerExtensions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

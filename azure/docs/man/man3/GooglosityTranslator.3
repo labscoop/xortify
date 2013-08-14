@@ -1,0 +1,112 @@
+.TH "GooglosityTranslator" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GooglosityTranslator \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($apiKey)"
+.br
+.ti -1c
+.RI "\fBgetLanguages\fP ()"
+.br
+.ti -1c
+.RI "\fBtranslate\fP ($src, $target, $source= '')"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fB_languages\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBENDPOINT\fP = 'https://www\&.googleapis\&.com/language/\fBtranslate\fP/v2'"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$_apiKey\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Google Translator v2\&.0 API Class
+.PP
+Allows for Translation of Language by the Google Translator API
+.PP
+google 
+.PP
+Definition at line 25 of file translator\&.php\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($apiKey)"
+\fB__construct()\fP Class constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$apiKey\fP Google API V2 Key (see: https://code.google.com/apis/console/) 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file translator\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static _languages ()\fC [static]\fP"
+\fB_languages()\fP returns language ISO Codes and XOOPS folder name for Google Translator
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 51 of file translator\&.php\&.
+.SS "getLanguages ()"
+\fBgetLanguages()\fP returns language ISO Codes for Google Translator
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 61 of file translator\&.php\&.
+.SS "translate ($src, $target, $source = \fC''\fP)"
+\fBtranslate()\fP translate the text/html in $data\&. Translates to the language in $target\&. Can optionally specify the source language
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$src\fP Data to be translated\&. 
+.br
+\fI$target\fP Language ISO Code to translate To\&. 
+.br
+\fI$source\fP Language ISO Code to translate From\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 75 of file translator\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

@@ -1,0 +1,55 @@
+\hypertarget{xortify_2post_8loader_8php}{\section{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.6/4.11/htdocs/modules/xortify/providers/xortify/post.loader.\-php File Reference}
+\label{xortify_2post_8loader_8php}\index{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.\-6/4.\-11/htdocs/modules/xortify/providers/xortify/post.\-loader.\-php@{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.\-6/4.\-11/htdocs/modules/xortify/providers/xortify/post.\-loader.\-php}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{xortify_2post_8loader_8php_adaeadb8f91232ad6dbd52f394104cd19}{\$\-G\-L\-O\-B\-A\-L\-S} \mbox{[}'xoops'\mbox{]} = Xoops\-::get\-Instance()
+\item 
+\hyperlink{xortify_2post_8loader_8php_afaeb0aa23d13e417fcfa6b008f397c71}{\$checkfields} = array('uname', 'email', 'ip4', 'ip6', 'network-\/addy')
+\item 
+\hyperlink{xortify_2post_8loader_8php_aacfa30e81347998f3a6fd1903c2c05d3}{\$func} = strtoupper(\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Module\-Config('protocol', 'xortify')).'Xortify\-Exchange'
+\item 
+\hyperlink{xortify_2post_8loader_8php_a566274d031ba42e22bf2b4fda50d0cf0}{\$soap\-Exchg} = new \$func
+\item 
+\hyperlink{xortify_2post_8loader_8php_a4e486549b335a8e8fe6eeb9c4aa0a17c}{\$bans} = \$soap\-Exchg-\/$>$get\-Bans()
+\item 
+\hyperlink{poll_2index_8php_ae404acbb304be6b6ac443de921697faf}{if}(is\-\_\-object(\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$\\*
+user)) \hyperlink{xortify_2post_8loader_8php_a05d5dfb2e997e7b1230ef56d742eb6c1}{else}
+\item 
+\hyperlink{xortify_2post_8loader_8php_a227a9443cabbe5e23cfc10c4371e09d1}{\$uname} = (isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'uname'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'uname'\mbox{]}\-:'')
+\item 
+\hyperlink{xortify_2post_8loader_8php_ad634f418b20382e2802f80532d76d3cd}{\$email} = (isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'email'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'email'\mbox{]}\-:'')
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{xortify_2post_8loader_8php_a4e486549b335a8e8fe6eeb9c4aa0a17c}{\index{xortify/post.\-loader.\-php@{xortify/post.\-loader.\-php}!\$bans@{\$bans}}
+\index{\$bans@{\$bans}!xortify/post.loader.php@{xortify/post.\-loader.\-php}}
+\subsubsection[{\$bans}]{\setlength{\rightskip}{0pt plus 5cm}\$bans = \$soap\-Exchg-\/$>$get\-Bans()}}\label{xortify_2post_8loader_8php_a4e486549b335a8e8fe6eeb9c4aa0a17c}
+\hypertarget{xortify_2post_8loader_8php_afaeb0aa23d13e417fcfa6b008f397c71}{\index{xortify/post.\-loader.\-php@{xortify/post.\-loader.\-php}!\$checkfields@{\$checkfields}}
+\index{\$checkfields@{\$checkfields}!xortify/post.loader.php@{xortify/post.\-loader.\-php}}
+\subsubsection[{\$checkfields}]{\setlength{\rightskip}{0pt plus 5cm}\$checkfields = array('uname', 'email', 'ip4', 'ip6', 'network-\/addy')}}\label{xortify_2post_8loader_8php_afaeb0aa23d13e417fcfa6b008f397c71}
+\hypertarget{xortify_2post_8loader_8php_ad634f418b20382e2802f80532d76d3cd}{\index{xortify/post.\-loader.\-php@{xortify/post.\-loader.\-php}!\$email@{\$email}}
+\index{\$email@{\$email}!xortify/post.loader.php@{xortify/post.\-loader.\-php}}
+\subsubsection[{\$email}]{\setlength{\rightskip}{0pt plus 5cm}\$email = (isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'email'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'email'\mbox{]}\-:'')}}\label{xortify_2post_8loader_8php_ad634f418b20382e2802f80532d76d3cd}
+\hypertarget{xortify_2post_8loader_8php_aacfa30e81347998f3a6fd1903c2c05d3}{\index{xortify/post.\-loader.\-php@{xortify/post.\-loader.\-php}!\$func@{\$func}}
+\index{\$func@{\$func}!xortify/post.loader.php@{xortify/post.\-loader.\-php}}
+\subsubsection[{\$func}]{\setlength{\rightskip}{0pt plus 5cm}\$func = strtoupper(\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Module\-Config('protocol', 'xortify')).'Xortify\-Exchange'}}\label{xortify_2post_8loader_8php_aacfa30e81347998f3a6fd1903c2c05d3}
+\hypertarget{xortify_2post_8loader_8php_adaeadb8f91232ad6dbd52f394104cd19}{\index{xortify/post.\-loader.\-php@{xortify/post.\-loader.\-php}!\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}}
+\index{\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}!xortify/post.loader.php@{xortify/post.\-loader.\-php}}
+\subsubsection[{\$\-G\-L\-O\-B\-A\-L\-S}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (!class\-\_\-exists('Xoops\-Cache')) {\bf if} (!\$ipdata=Xoops\-Cache\-::read('xortify\-\_\-php\-\_\-'.sha1(\$\-\_\-\-S\-E\-R\-V\-E\-R\mbox{[}'R\-E\-M\-O\-T\-E\-\_\-\-A\-D\-D\-R'\mbox{]}.(isset(\$\-\_\-\-S\-E\-R\-V\-E\-R\mbox{[}'H\-T\-T\-P\-\_\-\-X\-\_\-\-F\-O\-R\-W\-A\-R\-D\-E\-D\-\_\-\-F\-O\-R'\mbox{]})?\$\-\_\-\-S\-E\-R\-V\-E\-R\mbox{[}'H\-T\-T\-P\-\_\-\-X\-\_\-\-F\-O\-R\-W\-A\-R\-D\-E\-D\-\_\-\-F\-O\-R'\mbox{]}\-:'').\${\bf uid.\$uname.\$email}))) {\bf if} (is\-\_\-array(\$bans\mbox{[}'data'\mbox{]})\&\&count(\$bans\mbox{[}'data'\mbox{]})$>$0) {\bf if} (!\$checked=Xoops\-Cache\-::read('xortify\-\_\-xrt\-\_\-'.sha1(\$ipdata\mbox{[}'uname'\mbox{]}.\$ipdata\mbox{[}'email'\mbox{]}.(isset(\$ipdata\mbox{[}'ip4'\mbox{]})?\$ipdata\mbox{[}'ip4'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'ip6'\mbox{]})?\$ipdata\mbox{[}'ip6'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]})?\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]})?\$ipdata\mbox{[}'proxy-\/ip6'\mbox{]}\-:\char`\"{}\char`\"{}).\$ipdata\mbox{[}'network-\/addy'\mbox{]}))) {\bf if} (isset(\$checked\mbox{[}'count'\mbox{]})) \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]} = Xoops\-::get\-Instance()}}\label{xortify_2post_8loader_8php_adaeadb8f91232ad6dbd52f394104cd19}
+\hypertarget{xortify_2post_8loader_8php_a566274d031ba42e22bf2b4fda50d0cf0}{\index{xortify/post.\-loader.\-php@{xortify/post.\-loader.\-php}!\$soap\-Exchg@{\$soap\-Exchg}}
+\index{\$soap\-Exchg@{\$soap\-Exchg}!xortify/post.loader.php@{xortify/post.\-loader.\-php}}
+\subsubsection[{\$soap\-Exchg}]{\setlength{\rightskip}{0pt plus 5cm}\$soap\-Exchg = new \$func}}\label{xortify_2post_8loader_8php_a566274d031ba42e22bf2b4fda50d0cf0}
+\hypertarget{xortify_2post_8loader_8php_a227a9443cabbe5e23cfc10c4371e09d1}{\index{xortify/post.\-loader.\-php@{xortify/post.\-loader.\-php}!\$uname@{\$uname}}
+\index{\$uname@{\$uname}!xortify/post.loader.php@{xortify/post.\-loader.\-php}}
+\subsubsection[{\$uname}]{\setlength{\rightskip}{0pt plus 5cm}\$uname = (isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'uname'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'uname'\mbox{]}\-:'')}}\label{xortify_2post_8loader_8php_a227a9443cabbe5e23cfc10c4371e09d1}
+\hypertarget{xortify_2post_8loader_8php_a05d5dfb2e997e7b1230ef56d742eb6c1}{\index{xortify/post.\-loader.\-php@{xortify/post.\-loader.\-php}!else@{else}}
+\index{else@{else}!xortify/post.loader.php@{xortify/post.\-loader.\-php}}
+\subsubsection[{else}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (is\-\_\-object(\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$user)) else}}\label{xortify_2post_8loader_8php_a05d5dfb2e997e7b1230ef56d742eb6c1}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+        $uid = 0
+\end{DoxyCode}

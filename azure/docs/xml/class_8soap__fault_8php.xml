@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_8soap__fault_8php" kind="file">
+    <compoundname>class.soap_fault.php</compoundname>
+    <innerclass refid="classsoap__fault" prot="public">soap_fault</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classsoap__fault" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsoap__fault" kindref="compound">soap_fault</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classnusoap__base" kindref="compound">nusoap_base</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$faultcode;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$faultactor;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$faultstring;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$faultdetail;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classsoap__fault_1a5ff5d34258399b8240be578db7def943" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classsoap__fault_1a5ff5d34258399b8240be578db7def943" kindref="member">soap_fault</ref>($faultcode,$faultactor=</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,$faultstring=</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,$faultdetail=</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::nusoap_base();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;faultcode<sp/>=<sp/>$faultcode;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;faultactor<sp/>=<sp/>$faultactor;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;faultstring<sp/>=<sp/>$faultstring;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;faultdetail<sp/>=<sp/>$faultdetail;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="classsoap__fault_1a4d9813fea8525b19a1d370eeb8fe41d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classsoap__fault_1a4d9813fea8525b19a1d370eeb8fe41d6" kindref="member">serialize</ref>(){</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ns_string<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($this-&gt;namespaces<sp/>as<sp/>$k<sp/>=&gt;<sp/>$v){</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ns_string<sp/>.=<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/><sp/>xmlns:$k=\&quot;$v\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$return_msg<sp/>=</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&lt;?xml<sp/>version=&quot;1.0&quot;<sp/>encoding=&quot;&apos;</highlight><highlight class="normal">.$this-&gt;soap_defencoding.</highlight><highlight class="stringliteral">&apos;&quot;?&gt;&apos;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&lt;SOAP-ENV:Envelope<sp/>SOAP-ENV:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&apos;</highlight><highlight class="normal">.$ns_string.</highlight><highlight class="stringliteral">&quot;&gt;\n&quot;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&lt;SOAP-ENV:Body&gt;&apos;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&lt;SOAP-ENV:Fault&gt;&apos;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" kindref="member">serialize_val</ref>($this-&gt;faultcode,<sp/></highlight><highlight class="stringliteral">&apos;faultcode&apos;</highlight><highlight class="normal">).</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" kindref="member">serialize_val</ref>($this-&gt;faultactor,<sp/></highlight><highlight class="stringliteral">&apos;faultactor&apos;</highlight><highlight class="normal">).</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" kindref="member">serialize_val</ref>($this-&gt;faultstring,<sp/></highlight><highlight class="stringliteral">&apos;faultstring&apos;</highlight><highlight class="normal">).</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" kindref="member">serialize_val</ref>($this-&gt;faultdetail,<sp/></highlight><highlight class="stringliteral">&apos;detail&apos;</highlight><highlight class="normal">).</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&lt;/SOAP-ENV:Fault&gt;&apos;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&lt;/SOAP-ENV:Body&gt;&apos;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&lt;/SOAP-ENV:Envelope&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$return_msg;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php"/>
+  </compounddef>
+</doxygen>

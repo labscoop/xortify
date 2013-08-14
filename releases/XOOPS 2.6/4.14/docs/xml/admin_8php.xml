@@ -1,0 +1,909 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="admin_8php" kind="file">
+    <compoundname>admin.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="admin_8php_1abc1ff29169a949be307aee2df3aaed2d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_IPTYPE_IP4</definition>
+        <argsstring></argsstring>
+        <name>_XS_IPTYPE_IP4</name>
+        <initializer>&apos;IPv4&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="40" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a9c7e9d9f83dbd4bc0ff65ca5aed3b89a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_IPTYPE_IP6</definition>
+        <argsstring></argsstring>
+        <name>_XS_IPTYPE_IP6</name>
+        <initializer>&apos;IPv6&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="41" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a307ce2dd126665a03dadf72004635d2b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_IPTYPE_EMPTY</definition>
+        <argsstring></argsstring>
+        <name>_XS_IPTYPE_EMPTY</name>
+        <initializer>&apos;No IP&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="42" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1aa1beda4a2cf402e94dd56feb627a3ac9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_IPTYPE</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_IPTYPE</name>
+        <initializer>&apos;IP Type&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="43" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a4cbc5b28dd9e2a27eed730b8e78466f9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_IPADDRESS</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_IPADDRESS</name>
+        <initializer>&apos;IP Address&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="44" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a38a035a36a30fc40a6be44ac576a030e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_NETADDRESS</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_NETADDRESS</name>
+        <initializer>&apos;Network Address&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="45" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a4a82d909aa5d43e1d73aca4e25c9d1f5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_PROXYIP</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_PROXYIP</name>
+        <initializer>&apos;Proxy IP&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="46" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1afcbe4d825abea3eb73f739aabe6e3ffe" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_MACADDRESS</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_MACADDRESS</name>
+        <initializer>&apos;Mac Address&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="47" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ad7def70ea1a456f44a6cee82016ba442" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_LONG</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_LONG</name>
+        <initializer>&apos;Network Pointer&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="48" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1abed901e3f7de30e94bdd70dee96812e1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_BANS</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_BANS</name>
+        <initializer>&apos;Current Network Bans&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="50" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a33ce28aaaf6456650d822a7f1ea85390" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_NOCACHEMSG</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_NOCACHEMSG</name>
+        <initializer>&apos;&lt;center&gt;&lt;font size=&quot;+2&quot;&gt;EMPTY BAN CACHE!! NOTHING TO DISPLAY!!&lt;/font&gt;&lt;/center&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="52" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a29897cd4b39b78ac6876ecaa5ba5d963" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_LOG_H1</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_LOG_H1</name>
+        <initializer>&apos;Xortify Usage Log&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="55" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a2fbd3538c912bb2da9080e494d8988bf" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_LOG_P</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_LOG_P</name>
+        <initializer>&apos;This is the actions that have occured on your system in the last period up unto the log drop date!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="56" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1af580055456a051476465043a8a20e8c2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_ACTION</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_ACTION</name>
+        <initializer>&apos;Action&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="57" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ab7d4977dc739734b4f4ff4ee6511cccb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_PROVIDER</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_PROVIDER</name>
+        <initializer>&apos;Provider&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="58" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a72fd968013399607191154b89403308c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_DATE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_DATE</name>
+        <initializer>&apos;Date&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="59" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a3a9ff5904b2128321cb29d47d840f44b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_UNAME</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_UNAME</name>
+        <initializer>&apos;Username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="60" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a276072da8be36a1bb0bbb0cc167679e1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_EMAIL</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_EMAIL</name>
+        <initializer>&apos;Email&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="61" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a1d2afdea31c70077f9e845c33e81e748" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_IP4</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_IP4</name>
+        <initializer>&apos;Ip4&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="62" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ae41a2fb1e269947bdba43d31430b13bc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_IP6</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_IP6</name>
+        <initializer>&apos;IP6&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="63" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1af6d9c5c52e8332b1dac37d25c742209d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_PROXY_IP4</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_PROXY_IP4</name>
+        <initializer>&apos;Proxy IP4&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="64" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a5c52d492ee99a1a05f5d41813475cb7d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_PROXY_IP6</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_PROXY_IP6</name>
+        <initializer>&apos;Proxy IP6&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="65" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1adaa4be947d47b71f232f8cc28a7bc721" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_NETWORK_ADDY</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_NETWORK_ADDY</name>
+        <initializer>&apos;Netbios Address&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="66" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a558fca7a89d9fef674ad44fbc3f0ffdc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_AM_TH_AGENT</definition>
+        <argsstring></argsstring>
+        <name>_XOR_AM_TH_AGENT</name>
+        <initializer>&apos;User Agent&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="67" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a50dfb93eafeab6f8c92bd87c54a4e3a3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_COUNTS</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_COUNTS</name>
+        <initializer>&apos;Log Action and Counts&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="70" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a834918998aca006f698e20c388cf89e5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_BANNED</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_BANNED</name>
+        <initializer>&apos;Banned Individuals:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="71" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ae91edf969356174ec66dc2592084b91f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_BLOCKED</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_BLOCKED</name>
+        <initializer>&apos;Blocked Individuals:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="72" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a04c16d37c64d208172b86684f1bc311f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_MONITORED</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_MONITORED</name>
+        <initializer>&apos;Monitored Individuals:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="73" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a912087e6835ed6dc88251691d27a02ab" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_PROJECTHONEYPOTORG</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_PROJECTHONEYPOTORG</name>
+        <initializer>&apos;Individuals or bots picked up by ProjectHoneypot.org:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="74" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ab53ea620611ab351f4a9acf2c47db63e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_PROTECTOR</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_PROTECTOR</name>
+        <initializer>&apos;Individuals or bots picked up by Protector Module:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="75" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1adc22fe7fc7d8e65bcb8799ed2f002fe1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_SPIDERS</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_SPIDERS</name>
+        <initializer>&apos;Individuals or bots picked up by Spiders Module:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="76" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ab3cfb616ea50c853d840ae592cecbf61" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_STOPFORUMSPAMCOM</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_STOPFORUMSPAMCOM</name>
+        <initializer>&apos;Individuals or bots picked up by StopForumSpam.com:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="77" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a839ff2c39ee9ff8f0d93da6c0f0626dc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_XORTIFY</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_XORTIFY</name>
+        <initializer>&apos;Individuals or bots picked up by Xortify Cloud:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="78" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a7c17f435033a48b5c83f6d93a06a667d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_CLOUDEDBANS</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_CLOUDEDBANS</name>
+        <initializer>&apos;Clouded Bans Loaded from Xortify Cloud:&amp;nbsp;%s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="79" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1af82fe39e33f488420d749c6e47e9b9cd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_MAKEDONATE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_MAKEDONATE</name>
+        <initializer>&apos;Make Donation to Further Xortify!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="82" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a748f2b5592be47602cd0faae99c6c736" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_NONETWORKCOMM_DISCLAIMER</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_NONETWORKCOMM_DISCLAIMER</name>
+        <initializer>&apos;The current URI is unaccessable on the selected protocol. This could mean you are either missing a required PHP Extension or have a firewall blocking port 80 to the Xortify Cloud.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;You can try changing the protocol selected in preferences to see <ref refid="poll_2index_8php_1ae404acbb304be6b6ac443de921697faf" kindref="member">if</ref> this may elivate the communication fawl of your hosting services.&lt;/strong&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="83" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a6f58bf05661814570409cd98573bc0b2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ERROR_OCCURED</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ERROR_OCCURED</name>
+        <initializer>&apos;Error Occured Communicating with cloud&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="84" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a99fced20eb19ef6a0024af039f2b8626" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ERROR_URL</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ERROR_URL</name>
+        <initializer>&apos;URL/URI Being Contacted&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="85" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a1acbc7d653af2300ac96112c38115d4e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ERROR_PROTOCOL</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ERROR_PROTOCOL</name>
+        <initializer>&apos;Protocol Being Used&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="86" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a05e9065d35734850f0062843a86364b4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_SIGNUP_XORTIFY_H2</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_SIGNUP_XORTIFY_H2</name>
+        <initializer>&apos;Signup to the XOOPS fortification cloud&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="87" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a5d647b6b983396b3837a2c6327c0c5d8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_SIGNUP_XORTIFY_P</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_SIGNUP_XORTIFY_P</name>
+        <initializer>&apos;Here you can signup to the XOOPS fortification cloud called Xortify, the main node for this cloud is featured at http://xortify.com but there can be other nodes, this will prevent spam signup, website harvesting, and general hacking of your site.&lt;br/&gt;&lt;br/&gt;It will also share the IP\&apos;s of Bad IP Highlighted by Protector with other people running Xortify.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="88" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a3d01c528ec2a398e228faa3a212291e6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_SIGNUP_XORTIFY_FORM_TD2</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_SIGNUP_XORTIFY_FORM_TD2</name>
+        <initializer>&apos;Sign-up this Website\&apos;s User Account on the Xortify Cloud.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="89" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1afae007156879341ae852ea2a072f6573" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_WHENCLEANED</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_WHENCLEANED</name>
+        <initializer>&apos;Xortify File Cache Cleaned Last: %s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="92" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a8b6262b7d13c7fa83c5d50f1dec7ac5a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_CLEANINGTOOK</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_CLEANINGTOOK</name>
+        <initializer>&apos;Xortify File Cache Cleaning Took: %s seconds&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="93" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ad3cc152f725c9a18bf2ee09448d7203b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_FILESDELETED</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_FILESDELETED</name>
+        <initializer>&apos;Xortify Cache Files Deleted: %s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="94" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ac4586fb8fcffface0612692b5d8259cd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_THEREARE_BYTESSAVED</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_THEREARE_BYTESSAVED</name>
+        <initializer>&apos;Xortify Cache Cleaning Saved: %s bytes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="95" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a85b6051b1853dd7323a316a0a7be10fd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_CATEGORY</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_CATEGORY</name>
+        <initializer>&apos;Ban Category&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="96" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1abd1dbb1388e056d25293fdc206f6ee92" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_AM_BANID</definition>
+        <argsstring></argsstring>
+        <name>_XS_AM_BANID</name>
+        <initializer>&apos;Ban Id:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="97" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1afa25ff7c50ae2b3fd766e59f4a375e95" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ABOUT_CHANGELOG</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ABOUT_CHANGELOG</name>
+        <initializer>&apos;Change log&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="100" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a3d015b333671cf464dd6ef55ca897bf1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ABOUT_DESCRIPTION</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ABOUT_DESCRIPTION</name>
+        <initializer>&apos;Description&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="101" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ad508ca7cdcc22950a35c5dc032cb0b07" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ABOUT_MODULEINFO</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ABOUT_MODULEINFO</name>
+        <initializer>&apos;Module Info&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="102" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a99aae1a62e59e926e039093886ff9290" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ABOUT_MODULESTATUS</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ABOUT_MODULESTATUS</name>
+        <initializer>&apos;Status:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="103" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a1bf19049af979a44f07e388459118f05" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ABOUT_UPDATEDATE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ABOUT_UPDATEDATE</name>
+        <initializer>&apos;Update date:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="104" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1a7e5249444e39a7b104452f7cae4b9d74" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_ABOUT_WEBSITE</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_ABOUT_WEBSITE</name>
+        <initializer>&quot;Website:&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="105" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1abf4f547c45ab804d5a4262e77be36527" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_KEYS</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_KEYS</name>
+        <initializer>&apos;System Keys&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="108" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="admin_8php_1ac038d8fcb468ed8c2fa318b04d9a575e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XOR_ADMIN_INSTANCE_KEY</definition>
+        <argsstring></argsstring>
+        <name>_XOR_ADMIN_INSTANCE_KEY</name>
+        <initializer>&apos;Xortify Local Instance Key: %s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" line="109" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Prevents<sp/>Spam,<sp/>Harvesting,<sp/>Human<sp/>Rights<sp/>Abuse,<sp/>Captcha<sp/>Abuse<sp/>etc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>basic<sp/>statistic<sp/>of<sp/>them<sp/>in<sp/>XOOPS<sp/>Copyright<sp/>(C)<sp/>2012<sp/>Simon<sp/>Roberts<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Contact:<sp/>wishcraft<sp/>-<sp/>simon@labs.coop</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>See<sp/>/docs/license.pdf<sp/>for<sp/>full<sp/>license.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Shouts:-<sp/><sp/><sp/><sp/><sp/>Mamba<sp/>(www.xoops.org),<sp/>flipse<sp/>(www.nlxoops.nl)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Many<sp/>thanks<sp/>for<sp/>your<sp/>additional<sp/>work<sp/>with<sp/>version<sp/>1.01</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>@Version:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4.11<sp/>Final<sp/>(Stable)</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>@copyright:<sp/><sp/><sp/><sp/><sp/><sp/>Chronolabs<sp/>Cooperative<sp/>2013<sp/>© Simon<sp/>Roberts<sp/>(www.simonaroberts.com)</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>@download:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>http://sourceforge.net/projects/xortify</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>@file:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>admin.php<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>@description:<sp/><sp/><sp/><sp/>Language<sp/>defines<sp/>for<sp/>admin.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>@date:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>26/07/2013<sp/>19:40<sp/>AEST</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>@license:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GNU3<sp/>(http://web.labs.coop/public/legal/general-public-licence/13,3.html)</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>@package<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xortify</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>@subpackage<sp/><sp/><sp/><sp/><sp/><sp/>language</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>@author<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Simon<sp/>A.<sp/>Roberts<sp/>-<sp/>wishcraft<sp/>(simon@labs.coop)</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Version<sp/>1.17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_IPTYPE_IP4&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IPv4&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_IPTYPE_IP6&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IPv6&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_IPTYPE_EMPTY&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;No<sp/>IP&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_IPTYPE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IP<sp/>Type&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_IPADDRESS&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IP<sp/>Address&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_NETADDRESS&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Network<sp/>Address&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_PROXYIP&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Proxy<sp/>IP&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_MACADDRESS&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Mac<sp/>Address&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_LONG&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Network<sp/>Pointer&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_BANS&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Current<sp/>Network<sp/>Bans&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_NOCACHEMSG&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;&lt;center&gt;&lt;font<sp/>size=&quot;+2&quot;&gt;EMPTY<sp/>BAN<sp/>CACHE!!<sp/>NOTHING<sp/>TO<sp/>DISPLAY!!&lt;/font&gt;&lt;/center&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Version<sp/>2.40</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_LOG_H1&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Xortify<sp/>Usage<sp/>Log&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_LOG_P&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;This<sp/>is<sp/>the<sp/>actions<sp/>that<sp/>have<sp/>occured<sp/>on<sp/>your<sp/>system<sp/>in<sp/>the<sp/>last<sp/>period<sp/>up<sp/>unto<sp/>the<sp/>log<sp/>drop<sp/>date!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_ACTION&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Action&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_PROVIDER&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Provider&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_DATE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Date&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_UNAME&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Username&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_EMAIL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Email&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_IP4&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Ip4&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_IP6&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;IP6&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_PROXY_IP4&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Proxy<sp/>IP4&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_PROXY_IP6&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Proxy<sp/>IP6&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_NETWORK_ADDY&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Netbios<sp/>Address&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_AM_TH_AGENT&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;User<sp/>Agent&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Version<sp/>2.56</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_COUNTS&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Log<sp/>Action<sp/>and<sp/>Counts&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_BANNED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Banned<sp/>Individuals:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_BLOCKED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Blocked<sp/>Individuals:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_MONITORED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Monitored<sp/>Individuals:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_PROJECTHONEYPOTORG&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Individuals<sp/>or<sp/>bots<sp/>picked<sp/>up<sp/>by<sp/>ProjectHoneypot.org:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_PROTECTOR&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Individuals<sp/>or<sp/>bots<sp/>picked<sp/>up<sp/>by<sp/>Protector<sp/>Module:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_SPIDERS&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Individuals<sp/>or<sp/>bots<sp/>picked<sp/>up<sp/>by<sp/>Spiders<sp/>Module:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_STOPFORUMSPAMCOM&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Individuals<sp/>or<sp/>bots<sp/>picked<sp/>up<sp/>by<sp/>StopForumSpam.com:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_XORTIFY&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Individuals<sp/>or<sp/>bots<sp/>picked<sp/>up<sp/>by<sp/>Xortify<sp/>Cloud:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_CLOUDEDBANS&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Clouded<sp/>Bans<sp/>Loaded<sp/>from<sp/>Xortify<sp/>Cloud:&amp;nbsp;%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Version<sp/>3.02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_MAKEDONATE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Make<sp/>Donation<sp/>to<sp/>Further<sp/>Xortify!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_NONETWORKCOMM_DISCLAIMER&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;The<sp/>current<sp/>URI<sp/>is<sp/>unaccessable<sp/>on<sp/>the<sp/>selected<sp/>protocol.<sp/>This<sp/>could<sp/>mean<sp/>you<sp/>are<sp/>either<sp/>missing<sp/>a<sp/>required<sp/>PHP<sp/>Extension<sp/>or<sp/>have<sp/>a<sp/>firewall<sp/>blocking<sp/>port<sp/>80<sp/>to<sp/>the<sp/>Xortify<sp/>Cloud.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;You<sp/>can<sp/>try<sp/>changing<sp/>the<sp/>protocol<sp/>selected<sp/>in<sp/>preferences<sp/>to<sp/>see<sp/>if<sp/>this<sp/>may<sp/>elivate<sp/>the<sp/>communication<sp/>fawl<sp/>of<sp/>your<sp/>hosting<sp/>services.&lt;/strong&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ERROR_OCCURED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Error<sp/>Occured<sp/>Communicating<sp/>with<sp/>cloud&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ERROR_URL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;URL/URI<sp/>Being<sp/>Contacted&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ERROR_PROTOCOL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Protocol<sp/>Being<sp/>Used&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_SIGNUP_XORTIFY_H2&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Signup<sp/>to<sp/>the<sp/>XOOPS<sp/>fortification<sp/>cloud&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_SIGNUP_XORTIFY_P&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Here<sp/>you<sp/>can<sp/>signup<sp/>to<sp/>the<sp/>XOOPS<sp/>fortification<sp/>cloud<sp/>called<sp/>Xortify,<sp/>the<sp/>main<sp/>node<sp/>for<sp/>this<sp/>cloud<sp/>is<sp/>featured<sp/>at<sp/>http://xortify.com<sp/>but<sp/>there<sp/>can<sp/>be<sp/>other<sp/>nodes,<sp/>this<sp/>will<sp/>prevent<sp/>spam<sp/>signup,<sp/>website<sp/>harvesting,<sp/>and<sp/>general<sp/>hacking<sp/>of<sp/>your<sp/>site.&lt;br/&gt;&lt;br/&gt;It<sp/>will<sp/>also<sp/>share<sp/>the<sp/>IP\&apos;s<sp/>of<sp/>Bad<sp/>IP<sp/>Highlighted<sp/>by<sp/>Protector<sp/>with<sp/>other<sp/>people<sp/>running<sp/>Xortify.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_SIGNUP_XORTIFY_FORM_TD2&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Sign-up<sp/>this<sp/>Website\&apos;s<sp/>User<sp/>Account<sp/>on<sp/>the<sp/>Xortify<sp/>Cloud.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Version<sp/>3.05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_WHENCLEANED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Xortify<sp/>File<sp/>Cache<sp/>Cleaned<sp/>Last:<sp/>%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_CLEANINGTOOK&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Xortify<sp/>File<sp/>Cache<sp/>Cleaning<sp/>Took:<sp/>%s<sp/>seconds&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_FILESDELETED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Xortify<sp/>Cache<sp/>Files<sp/>Deleted:<sp/>%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_THEREARE_BYTESSAVED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Xortify<sp/>Cache<sp/>Cleaning<sp/>Saved:<sp/>%s<sp/>bytes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_CATEGORY&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Ban<sp/>Category&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XS_AM_BANID&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Ban<sp/>Id:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>About</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ABOUT_CHANGELOG&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Change<sp/>log&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ABOUT_DESCRIPTION&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Description&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ABOUT_MODULEINFO&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Module<sp/>Info&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ABOUT_MODULESTATUS&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Status:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ABOUT_UPDATEDATE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Update<sp/>date:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_ABOUT_WEBSITE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Website:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Version<sp/>4.02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_KEYS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;System<sp/>Keys&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_XOR_ADMIN_INSTANCE_KEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Xortify<sp/>Local<sp/>Instance<sp/>Key:<sp/>%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/language/english/admin.php"/>
+  </compounddef>
+</doxygen>

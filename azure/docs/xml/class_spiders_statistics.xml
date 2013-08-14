@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_spiders_statistics" kind="class" prot="public">
+    <compoundname>SpidersStatistics</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spiders_statistics_1a6028006aae77710609f0ca5b5ffbd5a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SpidersStatistics</definition>
+        <argsstring>($fid=null)</argsstring>
+        <name>SpidersStatistics</name>
+        <param>
+          <declname>$fid</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_statistics_1aecaffaaeb59f5db07c1c9df5d9ddf1dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getStory</definition>
+        <argsstring>()</argsstring>
+        <name>getStory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" bodystart="26" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_statistics_1a72291e7960ce877710837e184100e8ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>xoopsTweetString</definition>
+        <argsstring>($title, $doit=false, $wordlen=4)</argsstring>
+        <name>xoopsTweetString</name>
+        <param>
+          <declname>$title</declname>
+        </param>
+        <param>
+          <declname>$doit</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$wordlen</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" bodystart="60" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="552">
+        <label>XoopsObject</label>
+      </node>
+      <node id="551">
+        <label>SpidersStatistics</label>
+        <link refid="class_spiders_statistics"/>
+        <childnode refid="552" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="554">
+        <label>XoopsObject</label>
+      </node>
+      <node id="553">
+        <label>SpidersStatistics</label>
+        <link refid="class_spiders_statistics"/>
+        <childnode refid="554" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" line="12" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/statistics.php" bodystart="11" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_spiders_statistics_1aecaffaaeb59f5db07c1c9df5d9ddf1dc" prot="public" virt="non-virtual"><scope>SpidersStatistics</scope><name>getStory</name></member>
+      <member refid="class_spiders_statistics_1a6028006aae77710609f0ca5b5ffbd5a1" prot="public" virt="non-virtual"><scope>SpidersStatistics</scope><name>SpidersStatistics</name></member>
+      <member refid="class_spiders_statistics_1a72291e7960ce877710837e184100e8ba" prot="public" virt="non-virtual"><scope>SpidersStatistics</scope><name>xoopsTweetString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

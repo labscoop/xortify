@@ -1,0 +1,273 @@
+.TH "kernel" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+kernel \- 
+.SH SYNOPSIS
+.br
+.PP
+.SH "Detailed Description"
+.PP 
+A text Recaptcha
+.PP
+\fBAuthor:\fP
+.RS 4
+Kazumi Ono onokazu@xoops.org 
+.PP
+John Neill catzwolf@xoops.org 
+.PP
+Simon Roberts simon@xoops.org 
+.RE
+.PP
+\fBCopyright:\fP
+.RS 4
+The XOOPS Project http://sourceforge.net/projects/xoops/
+.RE
+.PP
+form  public
+.PP
+Xoops Backend
+.PP
+\fBCopyright:\fP
+.RS 4
+Chronolabs Coopertive (Australia) http://web.labs.coop  http://www.fsf.org/copyleft/gpl.html GNU public license
+.RE
+.PP
+\fBSince:\fP
+.RS 4
+2\&.0\&.0 
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Kazumi Ono onokazu@xoops.org 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+backend\&.php 3538 2009-08-31 14:16:34Z trabis 
+.RE
+.PP
+.PP
+Class for Spiders 
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts (simon@xoops.org) 
+.RE
+.PP
+\fBCopyright:\fP
+.RS 4
+copyright (c) 2010-2013 labs\&.coop
+.RE
+.PP
+XOOPS Spider handler class\&. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts simon@xoops.org
+.RE
+.PP
+Xoops Backend
+.PP
+\fBCopyright:\fP
+.RS 4
+The XOOPS Project http://sourceforge.net/projects/xoops/  http://www.fsf.org/copyleft/gpl.html GNU public license
+.RE
+.PP
+\fBSince:\fP
+.RS 4
+2\&.0\&.0 
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Kazumi Ono onokazu@xoops.org 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+backend\&.php 3538 2009-08-31 14:16:34Z trabis 
+.RE
+.PP
+.PP
+Class for unban Profiler 
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts (simon@chronolabs.org.au) 
+.RE
+.PP
+\fBCopyright:\fP
+.RS 4
+copyright (c) 2000-2009 XOOPS\&.org
+.RE
+.PP
+XOOPS unban Profiler handler class\&. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts simon@chronolabs.org.au
+.RE
+.PP
+Xoops Form Class Elements
+.PP
+\fBCopyright:\fP
+.RS 4
+The XOOPS Project http://sourceforge.net/projects/xoops/  http://www.fsf.org/copyleft/gpl.html GNU public license
+.RE
+.PP
+form 
+.PP
+\fBSince:\fP
+.RS 4
+2\&.0\&.0 
+.RE
+.PP
+\fBAuthor:\fP
+.RS 4
+Kazumi Ono onokazu@xoops.org 
+.PP
+John Neill catzwolf@xoops.org 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+formRecaptcha\&.php 3295 2009-07-01 02:26:05Z beckmi 
+.RE
+.PP
+.PP
+Xoop Forms class 
+.PP
+\fBAuthor:\fP
+.RS 4
+Kazumi Ono onokazu@xoops.org 
+.PP
+Taiwen Jiang phppp@users.sourceforge.net 
+.PP
+John Neill catzwolf@xoops.org 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+formselect\&.php 3174 2009-04-18 15:00:48Z catzwolf 
+.RE
+.PP
+.PP
+A select field
+.PP
+\fBAuthor:\fP
+.RS 4
+Kazumi Ono onokazu@xoops.org 
+.PP
+Taiwen Jiang phppp@users.sourceforge.net 
+.PP
+John Neill catzwolf@xoops.org 
+.RE
+.PP
+\fBCopyright:\fP
+.RS 4
+copyright (c) XOOPS\&.org
+.RE
+.PP
+form
+.PP
+! Example
+.PP
+include_once 'uploader\&.php'; $allowed_mimetypes = array('image/gif', 'image/jpeg', 'image/pjpeg', 'image/x-png'); $maxfilesize = 50000; $maxfilewidth = 120; $maxfileheight = 120; $uploader = new \fBXoopsMediaUploader\fP('/home/xoops/uploads', $allowed_mimetypes, $maxfilesize, $maxfilewidth, $maxfileheight); if ($uploader->fetchMedia($HTTP_POST_VARS['uploade_file_name'])) { if (!$uploader->upload()) { echo $uploader->getErrors(); } else { echo '
+.SS "File uploaded successfully!"
+.PP
+' echo 'Saved as: ' \&. $uploader->getSavedFileName() \&. '
+.br
+'; echo 'Full path: ' \&. $uploader->getSavedDestination(); } } else { echo $uploader->getErrors(); } Upload Media files
+.PP
+Example of usage: \fC include_once 'uploader\&.php'; $allowed_mimetypes = array('image/gif', 'image/jpeg', 'image/pjpeg', 'image/x-png'); $maxfilesize = 50000; $maxfilewidth = 120; $maxfileheight = 120; $uploader = new \fBXoopsMediaUploader\fP('/home/xoops/uploads', $allowed_mimetypes, $maxfilesize, $maxfilewidth, $maxfileheight); if ($uploader->fetchMedia($HTTP_POST_VARS['uploade_file_name'])) { if (!$uploader->upload()) { echo $uploader->getErrors(); } else { echo '
+.SS "File uploaded successfully!"
+\fP
+.PP
+\fC' echo 'Saved as: ' \&. $uploader->getSavedFileName() \&. '
+.br
+'; echo 'Full path: ' \&. $uploader->getSavedDestination(); } } else { echo $uploader->getErrors(); } \fP
+.PP
+core 
+.PP
+\fBAuthor:\fP
+.RS 4
+Kazumi Ono onokazu@xoops.org 
+.RE
+.PP
+\fBCopyright:\fP
+.RS 4
+(c) 2000-2003 The Xoops Project - www\&.xoops\&.org
+.RE
+.PP
+Class for Blue Room Xortify Log 
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts simon@xoops.org 
+.RE
+.PP
+\fBCopyright:\fP
+.RS 4
+copyright (c) 2009-2003 XOOPS\&.org
+.RE
+.PP
+XOOPS Xortify Log handler class\&. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts simon@labs.coop
+.RE
+.PP
+Class for Blue Room XRest 1\&.52 
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts simon@labs.coop 
+.RE
+.PP
+\fBCopyright:\fP
+.RS 4
+copyright (c) 2012-2011 chronolabs\&.coop
+.RE
+.PP
+XOOPS policies handler class\&. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts simon@labs.coop
+.RE
+.PP
+Class for Blue Room Xrest 1\&.52 
+.PP
+\fBAuthor:\fP
+.RS 4
+Simon Roberts simon@labs.coop 
+.RE
+.PP
+\fBCopyright:\fP
+.RS 4
+copyright (c) 2012-2011 chronolabs\&.coop 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

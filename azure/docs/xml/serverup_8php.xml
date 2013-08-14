@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="serverup_8php" kind="file">
+    <compoundname>serverup.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="serverup_8php_1ac1dcdeb75d41354495da56fabdc30926" prot="public" static="no" mutable="no">
+        <type>foreach(get_loaded_extensions() as $ext) global</type>
+        <definition>foreach (get_loaded_extensions() as $ext) global $xoops</definition>
+        <argsstring></argsstring>
+        <name>$xoops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a1d0e4f182a67c385e8fd1db32204f9b2" prot="public" static="no" mutable="no">
+        <type>foreach(get_loaded_extensions() as $ext) global</type>
+        <definition>foreach (get_loaded_extensions() as $ext) global $xoopsPreload</definition>
+        <argsstring></argsstring>
+        <name>$xoopsPreload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1ab1828cbbbb3a50668b5c86202f24ddc1" prot="public" static="no" mutable="no">
+        <type>foreach(get_loaded_extensions() as $ext) global</type>
+        <definition>foreach (get_loaded_extensions() as $ext) global $xoopsLogger</definition>
+        <argsstring></argsstring>
+        <name>$xoopsLogger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a11295158864ef6dfd9df1100434f8753" prot="public" static="no" mutable="no">
+        <type>foreach(get_loaded_extensions() as $ext) global</type>
+        <definition>foreach (get_loaded_extensions() as $ext) global $xoopsErrorHandler</definition>
+        <argsstring></argsstring>
+        <name>$xoopsErrorHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a43163b6cdc3bcbac7510daea46962909" prot="public" static="no" mutable="no">
+        <type>foreach(get_loaded_extensions() as $ext) global</type>
+        <definition>foreach (get_loaded_extensions() as $ext) global $xoopsSecurity</definition>
+        <argsstring></argsstring>
+        <name>$xoopsSecurity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1aebc7c345a66a87ebaf13d864fc7519de" prot="public" static="no" mutable="no">
+        <type>foreach(get_loaded_extensions() as $ext) global</type>
+        <definition>foreach (get_loaded_extensions() as $ext) global $sess_handler</definition>
+        <argsstring></argsstring>
+        <name>$sess_handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1ac132572d1bed7235f426ac44a68c425f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SOAP(!isset($GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;_preloader&apos;]))</definition>
+        <argsstring>(!isset($GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;_preloader&apos;]))</argsstring>
+        <name>SOAP</name>
+        <initializer>&apos;soap/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="116" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1ad0bd3808c083915191b2eb89901e57c0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const CURL</definition>
+        <argsstring></argsstring>
+        <name>CURL</name>
+        <initializer>&apos;curl/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="117" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1addb3dc7c4a57b9cee800f894e6dc2b4d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const JSON</definition>
+        <argsstring></argsstring>
+        <name>JSON</name>
+        <initializer>&apos;json/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="118" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a2f015ddb4cf5e19b82bf7191a2a3e9fa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const SERIAL</definition>
+        <argsstring></argsstring>
+        <name>SERIAL</name>
+        <initializer>&apos;serial/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="119" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a5f33028773b1db8e11fcd34516dacb28" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const XML</definition>
+        <argsstring></argsstring>
+        <name>XML</name>
+        <initializer>&apos;xml/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="120" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a1273e4f6dfecad5cc711360770b7d784" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const REST</definition>
+        <argsstring></argsstring>
+        <name>REST</name>
+        <initializer>&apos;rest/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="121" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1afe9169534dbc3935c0823c21cfbf68bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$module_handler</definition>
+        <argsstring></argsstring>
+        <name>$module_handler</name>
+        <initializer>=&amp; xoops_gethandler(&apos;module&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="125" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a3906023967379550e215cdec8f56ae20" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$config_handler</definition>
+        <argsstring></argsstring>
+        <name>$config_handler</name>
+        <initializer>=&amp; xoops_gethandler(&apos;config&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="126" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a36e83a99f91f67ee7c165be5f9e3ca93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$configitem_handler</definition>
+        <argsstring></argsstring>
+        <name>$configitem_handler</name>
+        <initializer>=&amp; xoops_gethandler(&apos;configitem&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="127" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="serverup_8php_1a45a3b595731ee647ebed75a62561beeb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$serverup</definition>
+        <argsstring></argsstring>
+        <name>$serverup</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="134" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="serverup_8php_1ab3bee0b0adc9956c66ef9b6bf2d54213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>xortify_getURLData</definition>
+        <argsstring>($URI, $curl=false)</argsstring>
+        <name>xortify_getURLData</name>
+        <param>
+          <declname>$URI</declname>
+        </param>
+        <param>
+          <declname>$curl</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php" bodystart="37" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Prevents<sp/>Spam,<sp/>Harvesting,<sp/>Human<sp/>Rights<sp/>Abuse,<sp/>Captcha<sp/>Abuse<sp/>etc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>basic<sp/>statistic<sp/>of<sp/>them<sp/>in<sp/>XOOPS<sp/>Copyright<sp/>(C)<sp/>2012<sp/>Simon<sp/>Roberts<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Contact:<sp/>wishcraft<sp/>-<sp/>simon@labs.coop</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>See<sp/>/docs/license.pdf<sp/>for<sp/>full<sp/>license.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Shouts:-<sp/><sp/><sp/><sp/><sp/>Mamba<sp/>(www.xoops.org),<sp/>flipse<sp/>(www.nlxoops.nl)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Many<sp/>thanks<sp/>for<sp/>your<sp/>additional<sp/>work<sp/>with<sp/>version<sp/>1.01</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Version:<sp/><sp/><sp/><sp/><sp/>3.10<sp/>Final<sp/>(Stable)</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>Published:<sp/><sp/><sp/>Chronolabs</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>Download:<sp/><sp/><sp/><sp/>http://code.google.com/p/chronolabs</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>This<sp/>File:<sp/><sp/><sp/>serverup.php<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>Description:<sp/>Cron<sp/>job<sp/>for<sp/>Xortify<sp/>Module</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>Date:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>09/09/2012<sp/>19:34<sp/>AEST</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>License:<sp/><sp/><sp/><sp/><sp/>GNU3</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>dirname(dirname(dirname(dirname(__FILE__)))).</highlight><highlight class="stringliteral">&apos;/mainfile.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>dirname(dirname(__FILE__)).</highlight><highlight class="stringliteral">&apos;/include/functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>xortify_getURLData($URI,<sp/>$curl=</highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>($curl)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$ch<sp/>=<sp/>curl_init($URI))<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>trigger_error(</highlight><highlight class="stringliteral">&apos;Could<sp/>not<sp/>intialise<sp/>CURL<sp/>file:<sp/>&apos;</highlight><highlight class="normal">.$url);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$cookies<sp/>=<sp/>XOOPS_VAR_PATH.</highlight><highlight class="stringliteral">&apos;/cache/xoops_cache/croncurl_&apos;</highlight><highlight class="normal">.md5($URI).</highlight><highlight class="stringliteral">&apos;.cookie&apos;</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_HEADER,<sp/>0);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_COOKIEJAR,<sp/>$cookies);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_CONNECTTIMEOUT,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;curl_connecttimeout&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_TIMEOUT,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;curl_timeout&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_RETURNTRANSFER,<sp/>1);<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_setopt($ch,<sp/>CURLOPT_USERAGENT,<sp/>XORTIFY_USER_AGENT);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>curl_exec($ch);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curl_close($ch);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>file_get_contents($uri);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(Exception<sp/>$e)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;Exception:<sp/>&quot;&apos;</highlight><highlight class="normal">.$e.</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(get_loaded_extensions()<sp/>as<sp/>$ext){</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($ext==</highlight><highlight class="stringliteral">&quot;curl&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$nativecurl=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>global<sp/>$xoops,<sp/>$xoopsPreload,<sp/>$xoopsLogger,<sp/>$xoopsErrorHandler,<sp/>$xoopsSecurity,<sp/>$sess_handler;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;_preloader&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsOption[</highlight><highlight class="stringliteral">&quot;nocommon&quot;</highlight><highlight class="normal">]=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>require_once(dirname(dirname(dirname(dirname(__FILE__)))).</highlight><highlight class="stringliteral">&apos;/mainfile.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defined(</highlight><highlight class="stringliteral">&apos;DS&apos;</highlight><highlight class="normal">)<sp/>or<sp/>define(&apos;DS&apos;,<sp/>DIRECTORY_SEPARATOR);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defined(&apos;NWLINE&apos;)or<sp/>define(&apos;NWLINE&apos;,<sp/>&quot;\n&quot;);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/>DS<sp/>.<sp/>&apos;include&apos;<sp/>.<sp/>DS<sp/>.<sp/>&apos;defines.php&apos;;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/>DS<sp/>.<sp/>&apos;include&apos;<sp/>.<sp/>DS<sp/>.<sp/>&apos;version.php&apos;;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/>DS<sp/>.<sp/>&apos;include&apos;<sp/>.<sp/>DS<sp/>.<sp/>&apos;license.php&apos;;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>require_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/>DS<sp/>.<sp/>&apos;class&apos;<sp/>.<sp/>DS<sp/>.<sp/>&apos;xoopsload.php&apos;;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsLoad::load(&apos;preload&apos;);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsPreload<sp/>=&amp;<sp/>XoopsPreload::getInstance();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsLoad::load(&apos;xoopskernel&apos;);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoops<sp/>=<sp/>new<sp/>xos_kernel_Xoops2();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoops-&gt;pathTranslation();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsRequestUri<sp/>=&amp;<sp/>$_SERVER[&apos;REQUEST_URI&apos;];</highlight><highlight class="comment">//<sp/>Deprecated<sp/>(use<sp/>the<sp/>corrected<sp/>$_SERVER<sp/>variable<sp/>now)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsLoad::load(&apos;xoopssecurity&apos;);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsSecurity<sp/>=<sp/>new<sp/>XoopsSecurity();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsSecurity-&gt;checkSuperglobals();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsLoad::load(&apos;xoopslogger&apos;);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsLogger<sp/>=&amp;<sp/>XoopsLogger::getInstance();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsErrorHandler<sp/>=&amp;<sp/>XoopsLogger::getInstance();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsLogger-&gt;startTime();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsLogger-&gt;startTime(&apos;XOOPS<sp/>Boot&apos;);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>$xoops-&gt;path(&apos;kernel/</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">.php&apos;);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>$xoops-&gt;path(&apos;class/criteria.php&apos;);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>$xoops-&gt;path(&apos;class/module.textsanitizer.php&apos;);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>$xoops-&gt;path(&apos;include/functions.php&apos;);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>$xoops-&gt;path(&apos;class/database/databasefactory.php&apos;);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[&apos;xoopsDB&apos;]<sp/>=&amp;<sp/>XoopsDatabaseFactory::getDatabaseConnection();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;SOAP&quot;,<sp/>&apos;soap/&apos;);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;CURL&quot;,<sp/>&apos;curl/&apos;);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;JSON&quot;,<sp/>&apos;json/&apos;);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;SERIAL&quot;,<sp/>&apos;serial/&apos;);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;XML&quot;,<sp/>&apos;xml/&apos;);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>define(&quot;REST&quot;,<sp/>&apos;rest/&apos;);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>$xoops-&gt;path(&apos;class/cache/xoopscache.php&apos;);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>$module_handler<sp/>=&amp;<sp/>xoops_gethandler(&apos;module&apos;);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>$config_handler<sp/>=&amp;<sp/>xoops_gethandler(&apos;config&apos;);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>$configitem_handler<sp/>=&amp;<sp/>xoops_gethandler(&apos;configitem&apos;);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(!is_object($GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]))</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]<sp/>=<sp/>$module_handler-&gt;getByDirname(&apos;xortify&apos;);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(!defined(&apos;XORTIFY_USER_AGENT&apos;))</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>define(&apos;XORTIFY_USER_AGENT&apos;,<sp/>&apos;Mozilla/5.0<sp/>(&apos;.XOOPS_VERSION.&apos;;<sp/>PHP<sp/>&apos;.PHP_VERSION.&apos;)<sp/>Xortify<sp/>&apos;<sp/>.<sp/>($GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]-&gt;getVar(&apos;version&apos;)/100));</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>$serverup=false;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(isset($GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]))<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$config_handler-&gt;getConfigList($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($servers<sp/>=<sp/>XoopsCache::read(</highlight><highlight class="stringliteral">&apos;server_list_xortify&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($servers<sp/>as<sp/>$sid<sp/>=&gt;<sp/>$server)<sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$source<sp/>=<sp/>xortify_getURLData($server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">],<sp/>$nativecurl);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strpos(strtolower($source),<sp/>strtolower($server[</highlight><highlight class="stringliteral">&apos;search&apos;</highlight><highlight class="normal">]))&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$serverup=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;Server<sp/>&apos;</highlight><highlight class="normal">.$sid.</highlight><highlight class="stringliteral">&apos;<sp/>is<sp/>UP<sp/>-<sp/>check<sp/>@<sp/>&apos;</highlight><highlight class="normal">.$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_urisoap&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$configitem_handler-&gt;getObjects($criteria);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>SOAP,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configitem_handler-&gt;insert($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_uricurl&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$configitem_handler-&gt;getObjects($criteria);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>CURL,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configitem_handler-&gt;insert($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_urijson&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$configitem_handler-&gt;getObjects($criteria);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>JSON,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configitem_handler-&gt;insert($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_uriserial&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$configitem_handler-&gt;getObjects($criteria);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>SERIAL,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configitem_handler-&gt;insert($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_urixml&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$configitem_handler-&gt;getObjects($criteria);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>XML,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configitem_handler-&gt;insert($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify_urirest&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$configitem_handler-&gt;getObjects($criteria);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]))<sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>str_replace($server[</highlight><highlight class="stringliteral">&apos;replace&apos;</highlight><highlight class="normal">],<sp/>REST,<sp/>$server[</highlight><highlight class="stringliteral">&apos;server&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configitem_handler-&gt;insert($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][0],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;isactive&apos;</highlight><highlight class="normal">,<sp/>$serverup);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$module_handler-&gt;insert($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>unlinkOldCachefiles(</highlight><highlight class="stringliteral">&apos;xortify_&apos;</highlight><highlight class="normal">,$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;moduleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;xortify_ip_cache&apos;</highlight><highlight class="normal">]);<sp/><sp/></highlight></codeline>
+<codeline lineno="194"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/serverup.php"/>
+  </compounddef>
+</doxygen>

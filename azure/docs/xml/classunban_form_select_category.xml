@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classunban_form_select_category" kind="class" prot="public">
+    <compoundname>unbanFormSelectCategory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsFormElement</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classunban_form_select_category_1a1bebdc689c84eee59ad24c77e5531762" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_options</definition>
+        <argsstring></argsstring>
+        <name>$_options</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classunban_form_select_category_1acae132bb5063b7d542ea6a0be0ae22f2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_multiple</definition>
+        <argsstring></argsstring>
+        <name>$_multiple</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classunban_form_select_category_1a3f3a27f0a14f4760227dbc5ae3288681" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_size</definition>
+        <argsstring></argsstring>
+        <name>$_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="65" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classunban_form_select_category_1a599c02a4727030b8ecc632f7c8adafeb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_value</definition>
+        <argsstring></argsstring>
+        <name>$_value</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="73" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classunban_form_select_category_1a74d83de33fd46dcff08a1496951e977a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>unbanFormSelectCategory</definition>
+        <argsstring>($caption, $name, $value=null, $size=1, $multiple=false)</argsstring>
+        <name>unbanFormSelectCategory</name>
+        <param>
+          <declname>$caption</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$size</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <declname>$multiple</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caption </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&quot;name&quot; attribute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pre-selected value (or array of them). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number or rows. &quot;1&quot; makes a drop-down-list </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$multiple</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Allow multiple selections? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="84" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="84" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1ac5d76ccb2e931e4abb4456d6ad492ac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isMultiple</definition>
+        <argsstring>()</argsstring>
+        <name>isMultiple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Are multiple selections allowed?</para><para><simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="106" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1a75cce10cdf81be6dc84881c28b3379b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the size</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="116" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1ab3c79e314dfd09da4de90fb2ce5eaa9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getValue</definition>
+        <argsstring>($encode=false)</argsstring>
+        <name>getValue</name>
+        <param>
+          <declname>$encode</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get an array of pre-selected values</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$encode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>To sanitizer the text? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="127" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="127" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1a7494441b6ed08a391704971873f31432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setValue</definition>
+        <argsstring>($value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set pre-selected values</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mixed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="144" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="144" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1ac485d7f4f2160de8fb47aa29aeed7080" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addOption</definition>
+        <argsstring>($value, $name= &apos;&apos;)</argsstring>
+        <name>addOption</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add an option</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&quot;value&quot; attribute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&quot;name&quot; attribute </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="161" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="161" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1a673ec8d6dc3cc0ee2f62fbe1c824ccc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>addOptionArray</definition>
+        <argsstring>($options)</argsstring>
+        <name>addOptionArray</name>
+        <param>
+          <declname>$options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add multiple options</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Associative array of value-&gt;name pairs </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="175" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="175" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1ac15eda2814c8ff0477244b28a315fb5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getOptions</definition>
+        <argsstring>($encode=false)</argsstring>
+        <name>getOptions</name>
+        <param>
+          <declname>$encode</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get an array with all the options</para><para>Note: both name and value should be sanitized. However for backward compatibility, only value is sanitized for now.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$encode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>To sanitizer the text? potential values: 0 - skip; 1 - only for value; 2 - for both value and name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array Associative array of value-&gt;name pairs </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="192" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="192" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1afde88292c44dc59faf017738dae6dffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepare HTML for output</para><para><simplesect kind="return"><para>string HTML </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="209" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="209" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_select_category_1a2747262e7fc6aba84bfc52bcf38407df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>renderValidationJS</definition>
+        <argsstring>()</argsstring>
+        <name>renderValidationJS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Render custom javascript validation code</para><para>XoopsForm::renderValidationJS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="237" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="237" bodyend="251"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="571">
+        <label>unbanFormSelectCategory</label>
+        <link refid="classunban_form_select_category"/>
+        <childnode refid="572" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="572">
+        <label>XoopsFormElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="573">
+        <label>unbanFormSelectCategory</label>
+        <link refid="classunban_form_select_category"/>
+        <childnode refid="574" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="574">
+        <label>XoopsFormElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formselectcategory.php" bodystart="41" bodyend="252"/>
+    <listofallmembers>
+      <member refid="classunban_form_select_category_1acae132bb5063b7d542ea6a0be0ae22f2" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>$_multiple</name></member>
+      <member refid="classunban_form_select_category_1a1bebdc689c84eee59ad24c77e5531762" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>$_options</name></member>
+      <member refid="classunban_form_select_category_1a3f3a27f0a14f4760227dbc5ae3288681" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>$_size</name></member>
+      <member refid="classunban_form_select_category_1a599c02a4727030b8ecc632f7c8adafeb" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>$_value</name></member>
+      <member refid="classunban_form_select_category_1ac485d7f4f2160de8fb47aa29aeed7080" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>addOption</name></member>
+      <member refid="classunban_form_select_category_1a673ec8d6dc3cc0ee2f62fbe1c824ccc5" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>addOptionArray</name></member>
+      <member refid="classunban_form_select_category_1ac15eda2814c8ff0477244b28a315fb5a" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>getOptions</name></member>
+      <member refid="classunban_form_select_category_1a75cce10cdf81be6dc84881c28b3379b7" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>getSize</name></member>
+      <member refid="classunban_form_select_category_1ab3c79e314dfd09da4de90fb2ce5eaa9d" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>getValue</name></member>
+      <member refid="classunban_form_select_category_1ac5d76ccb2e931e4abb4456d6ad492ac1" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>isMultiple</name></member>
+      <member refid="classunban_form_select_category_1afde88292c44dc59faf017738dae6dffb" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>render</name></member>
+      <member refid="classunban_form_select_category_1a2747262e7fc6aba84bfc52bcf38407df" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>renderValidationJS</name></member>
+      <member refid="classunban_form_select_category_1a7494441b6ed08a391704971873f31432" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>setValue</name></member>
+      <member refid="classunban_form_select_category_1a74d83de33fd46dcff08a1496951e977a" prot="public" virt="non-virtual"><scope>unbanFormSelectCategory</scope><name>unbanFormSelectCategory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

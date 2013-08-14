@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_spiders_modifications_handler" kind="class" prot="public">
+    <compoundname>SpidersModificationsHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spiders_modifications_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/modifications.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/modifications.php" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_modifications_handler_1a8d10e56d5b0ef0ef60b3c084826f2362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>safeAgent</definition>
+        <argsstring>($useragent)</argsstring>
+        <name>safeAgent</name>
+        <param>
+          <declname>$useragent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/modifications.php" line="65" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/modifications.php" bodystart="65" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="532">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="531">
+        <label>SpidersModificationsHandler</label>
+        <link refid="class_spiders_modifications_handler"/>
+        <childnode refid="532" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="534">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="533">
+        <label>SpidersModificationsHandler</label>
+        <link refid="class_spiders_modifications_handler"/>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/modifications.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/modifications.php" bodystart="58" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_spiders_modifications_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>SpidersModificationsHandler</scope><name>__construct</name></member>
+      <member refid="class_spiders_modifications_handler_1a8d10e56d5b0ef0ef60b3c084826f2362" prot="public" virt="non-virtual"><scope>SpidersModificationsHandler</scope><name>safeAgent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

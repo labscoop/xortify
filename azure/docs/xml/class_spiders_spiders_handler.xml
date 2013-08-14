@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_spiders_spiders_handler" kind="class" prot="public">
+    <compoundname>SpidersSpidersHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spiders_spiders_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1a0ed032c0680ed8786bf32c5c14ae2a55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>banDetails</definition>
+        <argsstring>($details_url)</argsstring>
+        <name>banDetails</name>
+        <param>
+          <declname>$details_url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="64" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="64" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1ad8437521c79f5004a200097e2b1ddb1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getReverseNetaddyIPData</definition>
+        <argsstring>($addr=false)</argsstring>
+        <name>getReverseNetaddyIPData</name>
+        <param>
+          <declname>$addr</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="76" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1a8830e27fd903837cd05567251c5b8657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getIPData</definition>
+        <argsstring>($ip=false)</argsstring>
+        <name>getIPData</name>
+        <param>
+          <declname>$ip</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="80" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="80" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1abc3573e1a83ce17d321fdf53d7941b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>is_ipv6</definition>
+        <argsstring>($ip=&quot;&quot;)</argsstring>
+        <name>is_ipv6</name>
+        <param>
+          <declname>$ip</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="129" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="129" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1a8d10e56d5b0ef0ef60b3c084826f2362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>safeAgent</definition>
+        <argsstring>($useragent)</argsstring>
+        <name>safeAgent</name>
+        <param>
+          <declname>$useragent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="143" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="143" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1a6dd75260e0dc56a749d8fb08f7f7663b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>import_insert</definition>
+        <argsstring>($spider)</argsstring>
+        <name>import_insert</name>
+        <param>
+          <declname>$spider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="168" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="168" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1afbbbae383cd1c79cf0dc8565bec18e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getRobotHostandIP</definition>
+        <argsstring>()</argsstring>
+        <name>getRobotHostandIP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="234" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="234" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1aa412595f20e526560a3fc7092bee1acd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isSpiderHost</definition>
+        <argsstring>($ip)</argsstring>
+        <name>isSpiderHost</name>
+        <param>
+          <declname>$ip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="292" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="292" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spiders_spiders_handler_1aa576eb34e93bf91194debad2ff9764c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isSpiderAgent</definition>
+        <argsstring>($useragent, $return_object=false)</argsstring>
+        <name>isSpiderAgent</name>
+        <param>
+          <declname>$useragent</declname>
+        </param>
+        <param>
+          <declname>$return_object</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="308" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="308" bodyend="350"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="548">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="547">
+        <label>SpidersSpidersHandler</label>
+        <link refid="class_spiders_spiders_handler"/>
+        <childnode refid="548" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="550">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="549">
+        <label>SpidersSpidersHandler</label>
+        <link refid="class_spiders_spiders_handler"/>
+        <childnode refid="550" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/spiders.php" bodystart="57" bodyend="352"/>
+    <listofallmembers>
+      <member refid="class_spiders_spiders_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>__construct</name></member>
+      <member refid="class_spiders_spiders_handler_1a0ed032c0680ed8786bf32c5c14ae2a55" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>banDetails</name></member>
+      <member refid="class_spiders_spiders_handler_1a8830e27fd903837cd05567251c5b8657" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>getIPData</name></member>
+      <member refid="class_spiders_spiders_handler_1ad8437521c79f5004a200097e2b1ddb1b" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>getReverseNetaddyIPData</name></member>
+      <member refid="class_spiders_spiders_handler_1afbbbae383cd1c79cf0dc8565bec18e86" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>getRobotHostandIP</name></member>
+      <member refid="class_spiders_spiders_handler_1a6dd75260e0dc56a749d8fb08f7f7663b" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>import_insert</name></member>
+      <member refid="class_spiders_spiders_handler_1abc3573e1a83ce17d321fdf53d7941b53" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>is_ipv6</name></member>
+      <member refid="class_spiders_spiders_handler_1aa576eb34e93bf91194debad2ff9764c7" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>isSpiderAgent</name></member>
+      <member refid="class_spiders_spiders_handler_1aa412595f20e526560a3fc7092bee1acd" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>isSpiderHost</name></member>
+      <member refid="class_spiders_spiders_handler_1a8d10e56d5b0ef0ef60b3c084826f2362" prot="public" virt="non-virtual"><scope>SpidersSpidersHandler</scope><name>safeAgent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

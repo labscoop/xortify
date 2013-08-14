@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_9579f422827afac85ebb16d5b4f086c8" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/unban</compoundname>
+    <innerdir refid="dir_2b40a2f098d7f3e7a43b4b65d97f0107">E:/Packages/xortify server/htdocs/modules/unban/admin</innerdir>
+    <innerdir refid="dir_b63299e2091ba4fabceefac7343b71a3">E:/Packages/xortify server/htdocs/modules/unban/class</innerdir>
+    <innerdir refid="dir_ca70f9f1e135701a050b8b9bd097ecb7">E:/Packages/xortify server/htdocs/modules/unban/include</innerdir>
+    <innerdir refid="dir_cb00e4a6b894a238db19b7d5bdff9e3b">E:/Packages/xortify server/htdocs/modules/unban/language</innerdir>
+    <innerfile refid="unban_2backend_8php">backend.php</innerfile>
+    <innerfile refid="unban_2comment__delete_8php">comment_delete.php</innerfile>
+    <innerfile refid="unban_2comment__edit_8php">comment_edit.php</innerfile>
+    <innerfile refid="unban_2comment__new_8php">comment_new.php</innerfile>
+    <innerfile refid="unban_2comment__post_8php">comment_post.php</innerfile>
+    <innerfile refid="unban_2comment__reply_8php">comment_reply.php</innerfile>
+    <innerfile refid="modules_2unban_2index_8php">index.php</innerfile>
+    <innerfile refid="unban_2xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespace_services___j_s_o_n" kind="namespace">
+    <compoundname>Services_JSON</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Michal Migurski <ulink url="mailto:mike-json@teczno.com">mike-json@teczno.com</ulink> </para><simplesectsep/><para>Matt Knapp &lt;mdknapp[at]gmail[dot]com&gt; </para><simplesectsep/><para>Brett Stimmerman &lt;brettstimmerman[at]gmail[dot]com&gt; </para></simplesect>
+<simplesect kind="copyright"><para>2005 Michal Migurski </para></simplesect>
+<simplesect kind="version"><para>CVS: </para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para>JSON.php,v 1.31 2006/06/28 05:54:17 migurski Exp </para></simplesect>
+<ulink url="http://www.opensource.org/licenses/bsd-license.php">http://www.opensource.org/licenses/bsd-license.php</ulink> <ref refid="" kindref="compound">http://pear.php.net/pepr/pepr-proposal-show.php?id=198</ref></para>    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/include/JSON.php" line="85" column="1"/>
+  </compounddef>
+</doxygen>

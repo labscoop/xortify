@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="precheck_8inc_8php" kind="file">
+    <compoundname>precheck.inc.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="precheck_8inc_8php_1afa319326ba67c00cadcdc82ac772a5d2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PROTECTOR_PRECHECK_INCLUDED</definition>
+        <argsstring></argsstring>
+        <name>PROTECTOR_PRECHECK_INCLUDED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/xoops_lib/modules/protector/include/precheck.inc.php" line="5" column="1" bodyfile="E:/Packages/xortify server/htdocs/xoops_lib/modules/protector/include/precheck.inc.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="precheck_8inc_8php_1a7e97813f6f2bef74ab21ee200405c773" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const PROTECTOR_VERSION</definition>
+        <argsstring></argsstring>
+        <name>PROTECTOR_VERSION</name>
+        <initializer>file_get_contents( dirname(__FILE__).&apos;/version.txt&apos; )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/xoops_lib/modules/protector/include/precheck.inc.php" line="6" column="1" bodyfile="E:/Packages/xortify server/htdocs/xoops_lib/modules/protector/include/precheck.inc.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">require_once<sp/>dirname(__FILE__).</highlight><highlight class="stringliteral">&apos;/precheck_functions.php&apos;</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">define(<sp/></highlight><highlight class="stringliteral">&apos;PROTECTOR_PRECHECK_INCLUDED&apos;</highlight><highlight class="normal"><sp/>,<sp/>1<sp/>)<sp/>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">define(<sp/></highlight><highlight class="stringliteral">&apos;PROTECTOR_VERSION&apos;</highlight><highlight class="normal"><sp/>,<sp/>file_get_contents(<sp/>dirname(__FILE__).</highlight><highlight class="stringliteral">&apos;/version.txt&apos;</highlight><highlight class="normal"><sp/>)<sp/>)<sp/>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>set<sp/>$_SERVER[&apos;REQUEST_URI&apos;]<sp/>for<sp/>IIS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>empty(<sp/>$_SERVER[<sp/></highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal"><sp/>]<sp/>)<sp/>)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Not<sp/>defined<sp/>by<sp/>IIS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Under<sp/>some<sp/>configs,<sp/>IIS<sp/>makes<sp/>SCRIPT_NAME<sp/>point<sp/>to<sp/>php.exe<sp/>:-(</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!(<sp/>$_SERVER[<sp/></highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal"><sp/>]<sp/>=<sp/>@$_SERVER[</highlight><highlight class="stringliteral">&apos;PHP_SELF&apos;</highlight><highlight class="normal">]<sp/>)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_SERVER[<sp/></highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal"><sp/>]<sp/>=<sp/>$_SERVER[</highlight><highlight class="stringliteral">&apos;SCRIPT_NAME&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>isset(<sp/>$_SERVER[<sp/></highlight><highlight class="stringliteral">&apos;QUERY_STRING&apos;</highlight><highlight class="normal"><sp/>]<sp/>)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_SERVER[<sp/></highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal"><sp/>]<sp/>.=<sp/></highlight><highlight class="charliteral">&apos;?&apos;</highlight><highlight class="normal"><sp/>.<sp/>$_SERVER[<sp/></highlight><highlight class="stringliteral">&apos;QUERY_STRING&apos;</highlight><highlight class="normal"><sp/>];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">protector_prepare()<sp/>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/xoops_lib/modules/protector/include/precheck.inc.php"/>
+  </compounddef>
+</doxygen>

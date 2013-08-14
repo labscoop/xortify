@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_j_s_o_n_spiders_exchange" kind="class" prot="public">
+    <compoundname>JSONSpidersExchange</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_j_s_o_n_spiders_exchange_1a2d091f9d959cab9ac28ad2cc96149447" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$json_client</definition>
+        <argsstring></argsstring>
+        <name>$json_client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_j_s_o_n_spiders_exchange_1ac058687d82a56fb93513e7e58c4ec391" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$json_xoops_username</definition>
+        <argsstring></argsstring>
+        <name>$json_xoops_username</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="15" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_j_s_o_n_spiders_exchange_1a7af311f07c1c09254920e6ac0cefe9a9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$json_xoops_password</definition>
+        <argsstring></argsstring>
+        <name>$json_xoops_password</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_j_s_o_n_spiders_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$refresh</definition>
+        <argsstring></argsstring>
+        <name>$refresh</name>
+        <initializer>= 600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="17" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_j_s_o_n_spiders_exchange_1a94148fba0c7fa7341b018c962ef791f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JSONSpidersExchange</definition>
+        <argsstring>()</argsstring>
+        <name>JSONSpidersExchange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="19" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_spiders_exchange_1acccb4227ead49e99ee69acf3e07f7d5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendSpider</definition>
+        <argsstring>($spider)</argsstring>
+        <name>sendSpider</name>
+        <param>
+          <declname>$spider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_spiders_exchange_1a249fef51c925deaf1d5052e8b695567b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendStatistic</definition>
+        <argsstring>($statistic)</argsstring>
+        <name>sendStatistic</name>
+        <param>
+          <declname>$statistic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="45" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_spiders_exchange_1a009bf5de24af5a103b4aa34544657cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSpiders</definition>
+        <argsstring>()</argsstring>
+        <name>getSpiders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="58" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_spiders_exchange_1ad89ff84a2b29b0e4143d55a2f7b4d070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSEOLinks</definition>
+        <argsstring>()</argsstring>
+        <name>getSEOLinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="70" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="70" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" line="12" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/json.php" bodystart="12" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_j_s_o_n_spiders_exchange_1a2d091f9d959cab9ac28ad2cc96149447" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>$json_client</name></member>
+      <member refid="class_j_s_o_n_spiders_exchange_1a7af311f07c1c09254920e6ac0cefe9a9" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>$json_xoops_password</name></member>
+      <member refid="class_j_s_o_n_spiders_exchange_1ac058687d82a56fb93513e7e58c4ec391" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>$json_xoops_username</name></member>
+      <member refid="class_j_s_o_n_spiders_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>$refresh</name></member>
+      <member refid="class_j_s_o_n_spiders_exchange_1ad89ff84a2b29b0e4143d55a2f7b4d070" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>getSEOLinks</name></member>
+      <member refid="class_j_s_o_n_spiders_exchange_1a009bf5de24af5a103b4aa34544657cac" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>getSpiders</name></member>
+      <member refid="class_j_s_o_n_spiders_exchange_1a94148fba0c7fa7341b018c962ef791f9" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>JSONSpidersExchange</name></member>
+      <member refid="class_j_s_o_n_spiders_exchange_1acccb4227ead49e99ee69acf3e07f7d5a" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>sendSpider</name></member>
+      <member refid="class_j_s_o_n_spiders_exchange_1a249fef51c925deaf1d5052e8b695567b" prot="public" virt="non-virtual"><scope>JSONSpidersExchange</scope><name>sendStatistic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

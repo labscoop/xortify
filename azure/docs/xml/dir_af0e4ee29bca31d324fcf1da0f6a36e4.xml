@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_af0e4ee29bca31d324fcf1da0f6a36e4" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/spiders/language/english</compoundname>
+    <innerfile refid="spiders_2language_2english_2admin_8php">admin.php</innerfile>
+    <innerfile refid="spiders_2language_2english_2main_8php">main.php</innerfile>
+    <innerfile refid="spiders_2language_2english_2modinfo_8php">modinfo.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/"/>
+  </compounddef>
+</doxygen>

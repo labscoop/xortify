@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_051b4fba984bd30e274e6f69508881cb" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/spiders/include</compoundname>
+    <innerfile refid="spiders_2include_2forms_8php">forms.php</innerfile>
+    <innerfile refid="spiders_2include_2functions_8php">functions.php</innerfile>
+    <innerfile refid="spiders_2include_2install_8php">install.php</innerfile>
+    <innerfile refid="modules_2spiders_2include_2_j_s_o_n_8php">JSON.php</innerfile>
+    <innerfile refid="spiders_2include_2search_8inc_8php">search.inc.php</innerfile>
+    <innerfile refid="uninstall_8php">uninstall.php</innerfile>
+    <innerfile refid="spiders_2include_2update_8php">update.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/include/"/>
+  </compounddef>
+</doxygen>

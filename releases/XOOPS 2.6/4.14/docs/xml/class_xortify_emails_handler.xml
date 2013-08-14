@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_emails_handler" kind="class" prot="public">
+    <compoundname>XortifyEmailsHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_emails_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/emails.php" line="107" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/emails.php" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_emails_handler_1adf61da246e18ae0d9f332c8aa463596a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert</definition>
+        <argsstring>(XortifyEmails $object, $force=true)</argsstring>
+        <name>insert</name>
+        <param>
+          <type><ref refid="class_xortify_emails" kindref="compound">XortifyEmails</ref></type>
+          <declname>$object</declname>
+        </param>
+        <param>
+          <declname>$force</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/emails.php" line="120" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/emails.php" bodystart="120" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="411">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="410">
+        <label>XortifyEmailsHandler</label>
+        <link refid="class_xortify_emails_handler"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="413">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="412">
+        <label>XortifyEmailsHandler</label>
+        <link refid="class_xortify_emails_handler"/>
+        <childnode refid="413" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/emails.php" line="103" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/emails.php" bodystart="102" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_xortify_emails_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>XortifyEmailsHandler</scope><name>__construct</name></member>
+      <member refid="class_xortify_emails_handler_1adf61da246e18ae0d9f332c8aa463596a" prot="public" virt="non-virtual"><scope>XortifyEmailsHandler</scope><name>insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

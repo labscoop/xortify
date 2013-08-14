@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespacekernel" kind="namespace">
+    <compoundname>kernel</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A text Recaptcha</para><para><simplesect kind="author"><para>Kazumi Ono <ulink url="mailto:onokazu@xoops.org">onokazu@xoops.org</ulink> </para><simplesectsep/><para>John Neill <ulink url="mailto:catzwolf@xoops.org">catzwolf@xoops.org</ulink> </para><simplesectsep/><para>Simon Roberts <ulink url="mailto:simon@xoops.org">simon@xoops.org</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>The XOOPS Project <ulink url="http://sourceforge.net/projects/xoops/">http://sourceforge.net/projects/xoops/</ulink></para></simplesect>
+form  public</para><para>Xoops Backend</para><para><simplesect kind="copyright"><para>Chronolabs Coopertive (Australia) <ulink url="http://web.labs.coop">http://web.labs.coop</ulink>  <ulink url="http://www.fsf.org/copyleft/gpl.html">http://www.fsf.org/copyleft/gpl.html</ulink> GNU public license</para></simplesect>
+<simplesect kind="since"><para>2.0.0 </para></simplesect>
+<simplesect kind="author"><para>Kazumi Ono <ulink url="mailto:onokazu@xoops.org">onokazu@xoops.org</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para>backend.php 3538 2009-08-31 14:16:34Z trabis </para></simplesect>
+</para><para>Class for Spiders <simplesect kind="author"><para>Simon Roberts (<ulink url="mailto:simon@xoops.org">simon@xoops.org</ulink>) </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2010-2013 labs.coop</para></simplesect>
+XOOPS Spider handler class. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects.</para><para><simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@xoops.org">simon@xoops.org</ulink></para></simplesect>
+Xoops Backend</para><para><simplesect kind="copyright"><para>The XOOPS Project <ulink url="http://sourceforge.net/projects/xoops/">http://sourceforge.net/projects/xoops/</ulink>  <ulink url="http://www.fsf.org/copyleft/gpl.html">http://www.fsf.org/copyleft/gpl.html</ulink> GNU public license</para></simplesect>
+<simplesect kind="since"><para>2.0.0 </para></simplesect>
+<simplesect kind="author"><para>Kazumi Ono <ulink url="mailto:onokazu@xoops.org">onokazu@xoops.org</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para>backend.php 3538 2009-08-31 14:16:34Z trabis </para></simplesect>
+</para><para>Class for unban Profiler <simplesect kind="author"><para>Simon Roberts (<ulink url="mailto:simon@chronolabs.org.au">simon@chronolabs.org.au</ulink>) </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2000-2009 XOOPS.org</para></simplesect>
+XOOPS unban Profiler handler class. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects.</para><para><simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@chronolabs.org.au">simon@chronolabs.org.au</ulink></para></simplesect>
+Xoops Form Class Elements</para><para><simplesect kind="copyright"><para>The XOOPS Project <ulink url="http://sourceforge.net/projects/xoops/">http://sourceforge.net/projects/xoops/</ulink>  <ulink url="http://www.fsf.org/copyleft/gpl.html">http://www.fsf.org/copyleft/gpl.html</ulink> GNU public license</para></simplesect>
+form <simplesect kind="since"><para>2.0.0 </para></simplesect>
+<simplesect kind="author"><para>Kazumi Ono <ulink url="mailto:onokazu@xoops.org">onokazu@xoops.org</ulink> </para><simplesectsep/><para>John Neill <ulink url="mailto:catzwolf@xoops.org">catzwolf@xoops.org</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para>formRecaptcha.php 3295 2009-07-01 02:26:05Z beckmi </para></simplesect>
+</para><para>Xoop Forms class <simplesect kind="author"><para>Kazumi Ono <ulink url="mailto:onokazu@xoops.org">onokazu@xoops.org</ulink> </para><simplesectsep/><para>Taiwen Jiang <ulink url="mailto:phppp@users.sourceforge.net">phppp@users.sourceforge.net</ulink> </para><simplesectsep/><para>John Neill <ulink url="mailto:catzwolf@xoops.org">catzwolf@xoops.org</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para>formselect.php 3174 2009-04-18 15:00:48Z catzwolf </para></simplesect>
+</para><para>A select field</para><para><simplesect kind="author"><para>Kazumi Ono <ulink url="mailto:onokazu@xoops.org">onokazu@xoops.org</ulink> </para><simplesectsep/><para>Taiwen Jiang <ulink url="mailto:phppp@users.sourceforge.net">phppp@users.sourceforge.net</ulink> </para><simplesectsep/><para>John Neill <ulink url="mailto:catzwolf@xoops.org">catzwolf@xoops.org</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) XOOPS.org</para></simplesect>
+form</para><para>! Example</para><para>include_once &apos;uploader.php&apos;; $allowed_mimetypes = array(&apos;image/gif&apos;, &apos;image/jpeg&apos;, &apos;image/pjpeg&apos;, &apos;image/x-png&apos;); $maxfilesize = 50000; $maxfilewidth = 120; $maxfileheight = 120; $uploader = new <ref refid="class_xoops_media_uploader" kindref="compound">XoopsMediaUploader</ref>(&apos;/home/xoops/uploads&apos;, $allowed_mimetypes, $maxfilesize, $maxfilewidth, $maxfileheight); if ($uploader-&gt;fetchMedia($HTTP_POST_VARS[&apos;uploade_file_name&apos;])) { if (!$uploader-&gt;upload()) { echo $uploader-&gt;getErrors(); } else { echo &apos;<heading level="4">File uploaded successfully!</heading>
+</para><para>&apos; echo &apos;Saved as: &apos; . $uploader-&gt;getSavedFileName() . &apos;<linebreak/>
+&apos;; echo &apos;Full path: &apos; . $uploader-&gt;getSavedDestination(); } } else { echo $uploader-&gt;getErrors(); } Upload Media files</para><para>Example of usage: <computeroutput> include_once &apos;uploader.php&apos;; $allowed_mimetypes = array(&apos;image/gif&apos;, &apos;image/jpeg&apos;, &apos;image/pjpeg&apos;, &apos;image/x-png&apos;); $maxfilesize = 50000; $maxfilewidth = 120; $maxfileheight = 120; $uploader = new <ref refid="class_xoops_media_uploader" kindref="compound">XoopsMediaUploader</ref>(&apos;/home/xoops/uploads&apos;, $allowed_mimetypes, $maxfilesize, $maxfilewidth, $maxfileheight); if ($uploader-&gt;fetchMedia($HTTP_POST_VARS[&apos;uploade_file_name&apos;])) { if (!$uploader-&gt;upload()) { echo $uploader-&gt;getErrors(); } else { echo &apos;<heading level="4">File uploaded successfully!</heading>
+</computeroutput></para><para><computeroutput>&apos; echo &apos;Saved as: &apos; . $uploader-&gt;getSavedFileName() . &apos;<linebreak/>
+&apos;; echo &apos;Full path: &apos; . $uploader-&gt;getSavedDestination(); } } else { echo $uploader-&gt;getErrors(); } </computeroutput></para><para>core <simplesect kind="author"><para>Kazumi Ono <ulink url="mailto:onokazu@xoops.org">onokazu@xoops.org</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>(c) 2000-2003 The Xoops Project - www.xoops.org</para></simplesect>
+Class for Blue Room Xortify Log <simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@xoops.org">simon@xoops.org</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2009-2003 XOOPS.org</para></simplesect>
+XOOPS Xortify Log handler class. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects.</para><para><simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink></para></simplesect>
+Class for Blue Room XRest 1.52 <simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2012-2011 chronolabs.coop</para></simplesect>
+XOOPS policies handler class. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects.</para><para><simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink></para></simplesect>
+Class for Blue Room Xrest 1.52 <simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2012-2011 chronolabs.coop </para></simplesect>
+</para>    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/class/formrecaptcha.php" line="31" column="1"/>
+  </compounddef>
+</doxygen>

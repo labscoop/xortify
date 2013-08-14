@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_672dca0ec13e861eea9c9cc5a710edf7" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xsoap</compoundname>
+    <innerdir refid="dir_3b3af7363dfb3ad796785a58c905b9b0">E:/Packages/xortify server/htdocs/modules/xsoap/admin</innerdir>
+    <innerdir refid="dir_c74fcd6468fa1b7e410b5ae9c4abe363">E:/Packages/xortify server/htdocs/modules/xsoap/class</innerdir>
+    <innerdir refid="dir_d8f1f3352018219a5f8bede0ce589b93">E:/Packages/xortify server/htdocs/modules/xsoap/include</innerdir>
+    <innerdir refid="dir_8d63db804c7f13a2dc6889f7a45ac816">E:/Packages/xortify server/htdocs/modules/xsoap/language</innerdir>
+    <innerdir refid="dir_996241d4733d72b78ecaff84334ff11b">E:/Packages/xortify server/htdocs/modules/xsoap/plugins</innerdir>
+    <innerfile refid="modules_2xsoap_2index_8php">index.php</innerfile>
+    <innerfile refid="xsoap_2xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/"/>
+  </compounddef>
+</doxygen>

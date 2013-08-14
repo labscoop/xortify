@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="recaptchalib_8php" kind="file">
+    <compoundname>recaptchalib.php</compoundname>
+    <innerclass refid="class_re_captcha_response" prot="public">ReCaptchaResponse</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="recaptchalib_8php_1a938a359c9dabc1c4764f1ae089767e68" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RECAPTCHA_API_SERVER</definition>
+        <argsstring></argsstring>
+        <name>RECAPTCHA_API_SERVER</name>
+        <initializer>&quot;http://api.recaptcha.net&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The reCAPTCHA server URL&apos;s </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="recaptchalib_8php_1a3551aaabe3cb97f711d8b756e8a9d56c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RECAPTCHA_API_SECURE_SERVER</definition>
+        <argsstring></argsstring>
+        <name>RECAPTCHA_API_SECURE_SERVER</name>
+        <initializer>&quot;https://api-secure.recaptcha.net&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="recaptchalib_8php_1a32b0fceb04409af8a70275dd91626de7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const RECAPTCHA_VERIFY_SERVER</definition>
+        <argsstring></argsstring>
+        <name>RECAPTCHA_VERIFY_SERVER</name>
+        <initializer>&quot;api-verify.recaptcha.net&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="recaptchalib_8php_1a362949d44a3d37ad7b4ee7bf5bc7b2a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_recaptcha_qsencode</definition>
+        <argsstring>($data)</argsstring>
+        <name>_recaptcha_qsencode</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Encodes the given data into a query string format <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- array of string elements to be encoded </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string - encoded request </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1aec2264880f1141f39783998198679f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_recaptcha_http_post</definition>
+        <argsstring>($host, $path, $data, $port=80)</argsstring>
+        <name>_recaptcha_http_post</name>
+        <param>
+          <declname>$host</declname>
+        </param>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$port</declname>
+          <defval>80</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Submits an HTTP POST to a reCAPTCHA server <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>port </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array response </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="67" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="67" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1a129f3aa8e558ce61eb546d5828ca27ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>recaptcha_get_html</definition>
+        <argsstring>($pubkey, $error=null, $use_ssl=false)</argsstring>
+        <name>recaptcha_get_html</name>
+        <param>
+          <declname>$pubkey</declname>
+        </param>
+        <param>
+          <declname>$error</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$use_ssl</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the challenge HTML (javascript and non-javascript version). This is called from the browser, and the resulting reCAPTCHA HTML widget is embedded within the HTML form it was called from. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$pubkey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A public key for reCAPTCHA </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error given by reCAPTCHA (optional, default is null) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>boolean</parametertype>
+<parametername>$use_ssl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should the request be made over ssl? (optional, default is false)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string - The HTML to be embedded in the user&apos;s form. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="106" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="106" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1a4b4ec6609e7bf952ff3087cc95800a25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>recaptcha_check_answer</definition>
+        <argsstring>($privkey, $remoteip, $challenge, $response, $extra_params=array())</argsstring>
+        <name>recaptcha_check_answer</name>
+        <param>
+          <declname>$privkey</declname>
+        </param>
+        <param>
+          <declname>$remoteip</declname>
+        </param>
+        <param>
+          <declname>$challenge</declname>
+        </param>
+        <param>
+          <declname>$response</declname>
+        </param>
+        <param>
+          <declname>$extra_params</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls an HTTP POST function to verify if the user&apos;s guess was correct <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$privkey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$remoteip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$challenge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$extra_params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an array of extra variables to post to the server </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_re_captcha_response" kindref="compound">ReCaptchaResponse</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="152" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="152" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1aedad64350148463bbf6b1848bd7ce7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>recaptcha_get_signup_url</definition>
+        <argsstring>($domain=null, $appname=null)</argsstring>
+        <name>recaptcha_get_signup_url</name>
+        <param>
+          <declname>$domain</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$appname</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets a URL where the user can sign up for reCAPTCHA. If your application has a configuration page where you enter a key, you should provide a link using this function. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The domain where the page is hosted </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$appname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of your application </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="202" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="202" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1af00e05cae2eb088223a485dd5b166bdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_recaptcha_aes_pad</definition>
+        <argsstring>($val)</argsstring>
+        <name>_recaptcha_aes_pad</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="206" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="206" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1a79951bb43d22923fa7fb67dda824c2b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_recaptcha_aes_encrypt</definition>
+        <argsstring>($val, $ky)</argsstring>
+        <name>_recaptcha_aes_encrypt</name>
+        <param>
+          <declname>$val</declname>
+        </param>
+        <param>
+          <declname>$ky</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="214" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="214" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1aedd4e1d6c86d023b74207ee0dea8030a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_recaptcha_mailhide_urlbase64</definition>
+        <argsstring>($x)</argsstring>
+        <name>_recaptcha_mailhide_urlbase64</name>
+        <param>
+          <declname>$x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="225" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="225" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1af619391e37fbd5f102041e772946cad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>recaptcha_mailhide_url</definition>
+        <argsstring>($pubkey, $privkey, $email)</argsstring>
+        <name>recaptcha_mailhide_url</name>
+        <param>
+          <declname>$pubkey</declname>
+        </param>
+        <param>
+          <declname>$privkey</declname>
+        </param>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="230" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="230" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1a79b02a957384addcd6a739322ddd7550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_recaptcha_mailhide_email_parts</definition>
+        <argsstring>($email)</argsstring>
+        <name>_recaptcha_mailhide_email_parts</name>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="248" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="248" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="recaptchalib_8php_1abe2b75d3369b40574d78db8972585542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>recaptcha_mailhide_html</definition>
+        <argsstring>($pubkey, $privkey, $email)</argsstring>
+        <name>recaptcha_mailhide_html</name>
+        <param>
+          <declname>$pubkey</declname>
+        </param>
+        <param>
+          <declname>$privkey</declname>
+        </param>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets html to display an email address given a public an private key. to get a key, go to:</para><para><ulink url="http://mailhide.recaptcha.net/apikey">http://mailhide.recaptcha.net/apikey</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" line="267" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php" bodystart="267" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>a<sp/>PHP<sp/>library<sp/>that<sp/>handles<sp/>calling<sp/>reCAPTCHA.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>-<sp/>Documentation<sp/>and<sp/>latest<sp/>version</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>http://recaptcha.net/plugins/php/</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>-<sp/>Get<sp/>a<sp/>reCAPTCHA<sp/>API<sp/>Key</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>http://recaptcha.net/api/getkey</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>-<sp/>Discussion<sp/>group</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>http://groups.google.com/group/recaptcha</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2007<sp/>reCAPTCHA<sp/>--<sp/>http://recaptcha.net</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>AUTHORS:</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Mike<sp/>Crawford</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Ben<sp/>Maurer</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">define(</highlight><highlight class="stringliteral">&quot;RECAPTCHA_API_SERVER&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;http://api.recaptcha.net&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">define(</highlight><highlight class="stringliteral">&quot;RECAPTCHA_API_SECURE_SERVER&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;https://api-secure.recaptcha.net&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">define(</highlight><highlight class="stringliteral">&quot;RECAPTCHA_VERIFY_SERVER&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;api-verify.recaptcha.net&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>_recaptcha_qsencode<sp/>($data)<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$req<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<sp/>$data<sp/>as<sp/>$key<sp/>=&gt;<sp/>$value<sp/>)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$req<sp/>.=<sp/>$key<sp/>.<sp/></highlight><highlight class="charliteral">&apos;=&apos;</highlight><highlight class="normal"><sp/>.<sp/>urlencode(<sp/>stripslashes($value)<sp/>)<sp/>.<sp/></highlight><highlight class="charliteral">&apos;&amp;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Cut<sp/>the<sp/>last<sp/>&apos;&amp;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$req=substr($req,0,strlen($req)-1);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$req;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>_recaptcha_http_post($host,<sp/>$path,<sp/>$data,<sp/>$port<sp/>=<sp/>80)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$req<sp/>=<sp/>_recaptcha_qsencode<sp/>($data);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$http_request<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;POST<sp/>$path<sp/>HTTP/1.0\r\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$http_request<sp/>.=<sp/></highlight><highlight class="stringliteral">&quot;Host:<sp/>$host\r\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$http_request<sp/>.=<sp/></highlight><highlight class="stringliteral">&quot;Content-Type:<sp/>application/x-www-form-urlencoded;\r\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$http_request<sp/>.=<sp/></highlight><highlight class="stringliteral">&quot;Content-Length:<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>strlen($req)<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;\r\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$http_request<sp/>.=<sp/></highlight><highlight class="stringliteral">&quot;User-Agent:<sp/>reCAPTCHA/PHP\r\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$http_request<sp/>.=<sp/></highlight><highlight class="stringliteral">&quot;\r\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$http_request<sp/>.=<sp/>$req;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$response<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>==<sp/>(<sp/>$fs<sp/>=<sp/>@fsockopen($host,<sp/>$port,<sp/>$errno,<sp/>$errstr,<sp/>10)<sp/>)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>die<sp/>(</highlight><highlight class="stringliteral">&apos;Could<sp/>not<sp/>open<sp/>socket&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite($fs,<sp/>$http_request);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>!feof($fs)<sp/>)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$response<sp/>.=<sp/>fgets($fs,<sp/>1160);<sp/></highlight><highlight class="comment">//<sp/>One<sp/>TCP-IP<sp/>packet</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose($fs);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$response<sp/>=<sp/>explode(</highlight><highlight class="stringliteral">&quot;\r\n\r\n&quot;</highlight><highlight class="normal">,<sp/>$response,<sp/>2);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$response;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>recaptcha_get_html<sp/>($pubkey,<sp/>$error<sp/>=<sp/>null,<sp/>$use_ssl<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($pubkey<sp/>==<sp/>null<sp/>||<sp/>$pubkey<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>die<sp/>(</highlight><highlight class="stringliteral">&quot;To<sp/>use<sp/>reCAPTCHA<sp/>you<sp/>must<sp/>get<sp/>an<sp/>API<sp/>key<sp/>from<sp/>&lt;a<sp/>href=&apos;http://recaptcha.net/api/getkey&apos;&gt;http://recaptcha.net/api/getkey&lt;/a&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($use_ssl)<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$server<sp/>=<sp/>RECAPTCHA_API_SECURE_SERVER;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$server<sp/>=<sp/>RECAPTCHA_API_SERVER;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$errorpart<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($error)<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$errorpart<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&amp;amp;error=&quot;</highlight><highlight class="normal"><sp/>.<sp/>$error;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;&lt;script<sp/>type=&quot;text/javascript&quot;<sp/>src=&quot;&apos;</highlight><highlight class="normal">.<sp/>$server<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/challenge?k=&apos;</highlight><highlight class="normal"><sp/>.<sp/>$pubkey<sp/>.<sp/>$errorpart<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;&quot;&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="123"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="124"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;noscript&gt;</highlight></codeline>
+<codeline lineno="125"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;iframe<sp/>src=&quot;&apos;</highlight><highlight class="normal">.<sp/>$server<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/noscript?k=&apos;</highlight><highlight class="normal"><sp/>.<sp/>$pubkey<sp/>.<sp/>$errorpart<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;&quot;<sp/>height=&quot;300&quot;<sp/>width=&quot;500&quot;<sp/>frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;br/&gt;</highlight></codeline>
+<codeline lineno="126"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;textarea<sp/>name=&quot;recaptcha_challenge_field&quot;<sp/>rows=&quot;3&quot;<sp/>cols=&quot;40&quot;&gt;&lt;/textarea&gt;</highlight></codeline>
+<codeline lineno="127"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>type=&quot;hidden&quot;<sp/>name=&quot;recaptcha_response_field&quot;<sp/>value=&quot;manual_challenge&quot;/&gt;</highlight></codeline>
+<codeline lineno="128"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&lt;/noscript&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="class_re_captcha_response" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_re_captcha_response" kindref="compound">ReCaptchaResponse</ref><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>$is_valid;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>$error;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>recaptcha_check_answer<sp/>($privkey,<sp/>$remoteip,<sp/>$challenge,<sp/>$response,<sp/>$extra_params<sp/>=<sp/>array())</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($privkey<sp/>==<sp/>null<sp/>||<sp/>$privkey<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>die<sp/>(</highlight><highlight class="stringliteral">&quot;To<sp/>use<sp/>reCAPTCHA<sp/>you<sp/>must<sp/>get<sp/>an<sp/>API<sp/>key<sp/>from<sp/>&lt;a<sp/>href=&apos;http://recaptcha.net/api/getkey&apos;&gt;http://recaptcha.net/api/getkey&lt;/a&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($remoteip<sp/>==<sp/>null<sp/>||<sp/>$remoteip<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>die<sp/>(</highlight><highlight class="stringliteral">&quot;For<sp/>security<sp/>reasons,<sp/>you<sp/>must<sp/>pass<sp/>the<sp/>remote<sp/>ip<sp/>to<sp/>reCAPTCHA&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//discard<sp/>spam<sp/>submissions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($challenge<sp/>==<sp/>null<sp/>||<sp/>strlen($challenge)<sp/>==<sp/>0<sp/>||<sp/>$response<sp/>==<sp/>null<sp/>||<sp/>strlen($response)<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$recaptcha_response<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_re_captcha_response" kindref="compound">ReCaptchaResponse</ref>();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$recaptcha_response-&gt;is_valid<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$recaptcha_response-&gt;error<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;incorrect-captcha-sol&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$recaptcha_response;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$response<sp/>=<sp/>_recaptcha_http_post<sp/>(RECAPTCHA_VERIFY_SERVER,<sp/></highlight><highlight class="stringliteral">&quot;/verify&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>array<sp/>(</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;privatekey&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$privkey,</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;remoteip&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$remoteip,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;challenge&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$challenge,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$response</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>+<sp/>$extra_params</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$answers<sp/>=<sp/>explode<sp/>(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">,<sp/>$response<sp/>[1]);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$recaptcha_response<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_re_captcha_response" kindref="compound">ReCaptchaResponse</ref>();</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(trim<sp/>($answers<sp/>[0])<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;true&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$recaptcha_response-&gt;is_valid<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$recaptcha_response-&gt;is_valid<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$recaptcha_response-&gt;error<sp/>=<sp/>$answers<sp/>[1];</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$recaptcha_response;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>recaptcha_get_signup_url<sp/>($domain<sp/>=<sp/>null,<sp/>$appname<sp/>=<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;http://recaptcha.net/api/getkey?&quot;</highlight><highlight class="normal"><sp/>.<sp/><sp/>_recaptcha_qsencode<sp/>(array<sp/>(</highlight><highlight class="stringliteral">&apos;domain&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$domain,<sp/></highlight><highlight class="stringliteral">&apos;app&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$appname));</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>_recaptcha_aes_pad($val)<sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>$block_size<sp/>=<sp/>16;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>$numpad<sp/>=<sp/>$block_size<sp/>-<sp/>(strlen<sp/>($val)<sp/>%<sp/>$block_size);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str_pad($val,<sp/>strlen<sp/>($val)<sp/>+<sp/>$numpad,<sp/>chr($numpad));</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Mailhide<sp/>related<sp/>code<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>_recaptcha_aes_encrypt($val,$ky)<sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<sp/>function_exists<sp/>(</highlight><highlight class="stringliteral">&quot;mcrypt_encrypt&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>die<sp/>(</highlight><highlight class="stringliteral">&quot;To<sp/>use<sp/>reCAPTCHA<sp/>Mailhide,<sp/>you<sp/>need<sp/>to<sp/>have<sp/>the<sp/>mcrypt<sp/>php<sp/>module<sp/>installed.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>$mode=MCRYPT_MODE_CBC;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>$enc=MCRYPT_RIJNDAEL_128;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>$val=_recaptcha_aes_pad($val);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mcrypt_encrypt($enc,<sp/>$ky,<sp/>$val,<sp/>$mode,<sp/></highlight><highlight class="stringliteral">&quot;\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>_recaptcha_mailhide_urlbase64<sp/>($x)<sp/>{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strtr(base64_encode<sp/>($x),<sp/></highlight><highlight class="stringliteral">&apos;+/&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;-_&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>gets<sp/>the<sp/>reCAPTCHA<sp/>Mailhide<sp/>url<sp/>for<sp/>a<sp/>given<sp/>email,<sp/>public<sp/>key<sp/>and<sp/>private<sp/>key<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>recaptcha_mailhide_url($pubkey,<sp/>$privkey,<sp/>$email)<sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($pubkey<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"><sp/>||<sp/>$pubkey<sp/>==<sp/>null<sp/>||<sp/>$privkey<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>||<sp/>$privkey<sp/>==<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>die<sp/>(</highlight><highlight class="stringliteral">&quot;To<sp/>use<sp/>reCAPTCHA<sp/>Mailhide,<sp/>you<sp/>have<sp/>to<sp/>sign<sp/>up<sp/>for<sp/>a<sp/>public<sp/>and<sp/>private<sp/>key,<sp/>&quot;</highlight><highlight class="normal"><sp/>.</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;you<sp/>can<sp/>do<sp/>so<sp/>at<sp/>&lt;a<sp/>href=&apos;http://mailhide.recaptcha.net/apikey&apos;&gt;http://mailhide.recaptcha.net/apikey&lt;/a&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>$ky<sp/>=<sp/>pack(</highlight><highlight class="stringliteral">&apos;H*&apos;</highlight><highlight class="normal">,<sp/>$privkey);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>$cryptmail<sp/>=<sp/>_recaptcha_aes_encrypt<sp/>($email,<sp/>$ky);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;http://mailhide.recaptcha.net/d?k=&quot;</highlight><highlight class="normal"><sp/>.<sp/>$pubkey<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&amp;c=&quot;</highlight><highlight class="normal"><sp/>.<sp/>_recaptcha_mailhide_urlbase64<sp/>($cryptmail);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>_recaptcha_mailhide_email_parts<sp/>($email)<sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>$arr<sp/>=<sp/>preg_split(</highlight><highlight class="stringliteral">&quot;/@/&quot;</highlight><highlight class="normal">,<sp/>$email<sp/>);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strlen<sp/>($arr[0])<sp/>&lt;=<sp/>4)<sp/>{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$arr[0]<sp/>=<sp/>substr<sp/>($arr[0],<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strlen<sp/>($arr[0])<sp/>&lt;=<sp/>6)<sp/>{</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$arr[0]<sp/>=<sp/>substr<sp/>($arr[0],<sp/>0,<sp/>3);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$arr[0]<sp/>=<sp/>substr<sp/>($arr[0],<sp/>0,<sp/>4);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$arr;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>recaptcha_mailhide_html($pubkey,<sp/>$privkey,<sp/>$email)<sp/>{</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>$emailparts<sp/>=<sp/>_recaptcha_mailhide_email_parts<sp/>($email);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>$url<sp/>=<sp/>recaptcha_mailhide_url<sp/>($pubkey,<sp/>$privkey,<sp/>$email);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>htmlentities($emailparts[0])<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;a<sp/>href=&apos;&quot;</highlight><highlight class="normal"><sp/>.<sp/>htmlentities<sp/>($url)<sp/>.</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&apos;<sp/>onclick=\&quot;window.open(&apos;&quot;</highlight><highlight class="normal"><sp/>.<sp/>htmlentities<sp/>($url)<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&apos;,<sp/>&apos;&apos;,<sp/>&apos;toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300&apos;);<sp/>return<sp/>false;\&quot;<sp/>title=\&quot;Reveal<sp/>this<sp/>e-mail<sp/>address\&quot;&gt;...&lt;/a&gt;@&quot;</highlight><highlight class="normal"><sp/>.<sp/>htmlentities<sp/>($emailparts<sp/>[1]);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/class/recaptchalib.php"/>
+  </compounddef>
+</doxygen>

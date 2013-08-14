@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_bd13a096207c83869a1f07b9bd0a6274" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xrest/preloads</compoundname>
+    <innerfile refid="xrest_2preloads_2core_8php">core.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/preloads/"/>
+  </compounddef>
+</doxygen>

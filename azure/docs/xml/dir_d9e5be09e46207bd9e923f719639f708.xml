@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_d9e5be09e46207bd9e923f719639f708" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xserial</compoundname>
+    <innerdir refid="dir_c1e2d6d0637fae0cc0d713790e9aa8bd">E:/Packages/xortify server/htdocs/modules/xserial/admin</innerdir>
+    <innerdir refid="dir_71ac0d58db71fcd428a02866c8897feb">E:/Packages/xortify server/htdocs/modules/xserial/class</innerdir>
+    <innerdir refid="dir_059df332f626470585f695d7fbf2d0e9">E:/Packages/xortify server/htdocs/modules/xserial/include</innerdir>
+    <innerdir refid="dir_144fabf5630cf3c27276c534bd7ffd26">E:/Packages/xortify server/htdocs/modules/xserial/language</innerdir>
+    <innerdir refid="dir_6b1ed1fd27b4955bf39fd4d833c182a4">E:/Packages/xortify server/htdocs/modules/xserial/plugins</innerdir>
+    <innerfile refid="modules_2xserial_2index_8php">index.php</innerfile>
+    <innerfile refid="xserial_2xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xserial/"/>
+  </compounddef>
+</doxygen>

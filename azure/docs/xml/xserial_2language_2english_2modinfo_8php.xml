@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xserial_2language_2english_2modinfo_8php" kind="file">
+    <compoundname>modinfo.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a68df7cb9737cc1f56c109cf2edbc6a8a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_WDSL</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_WDSL</name>
+        <initializer>&apos;Allow WDSL serial Server&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1ad86dc71212f6f6e10ab4aa6bbb02e311" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_WDSLDESC</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_WDSLDESC</name>
+        <initializer>&apos;Turn on and off WDSL Services&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a7d1d470e7c280aeb6ac1dcd81e874ad0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_USERAUTH</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_USERAUTH</name>
+        <initializer>&apos;Requires Username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a395a791b7c363a79efa2e8e94db215e4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_USERAUTHDESC</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_USERAUTHDESC</name>
+        <initializer>&apos;Only Allows Site Users to use services&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a6a4ce0ec11b6bd2b9bde3b10b2032972" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_ADMINMENU_1</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_ADMINMENU_1</name>
+        <initializer>&apos;Configure Tables&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a77e9131202226201d6f7cd51c9bd91e3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_ADMINMENU_2</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_ADMINMENU_2</name>
+        <initializer>&apos;Configure Fields&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a3a9eb0db6e3a16016a3d4cf7cfed6877" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_ADMINMENU_3</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_ADMINMENU_3</name>
+        <initializer>&apos;Configure Views&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1ae6749b6ab67f9507db62c7bc7ae2dfbd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_ADMINMENU_4</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_ADMINMENU_4</name>
+        <initializer>&apos;Configure Plugins&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1aa7c9153b08343e6d936243cd97750f86" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_ADMINMENU_5</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_ADMINMENU_5</name>
+        <initializer>&apos;Permissions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a86eb37ed0da426e1b4ec8452ac2373da" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_PERMISSIONSVIEWMAN</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_PERMISSIONSVIEWMAN</name>
+        <initializer>&apos;Function Call Permissions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a090bd9d97e3a6064c5b045bbee1caffa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_VIEW_FUNCTION</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_VIEW_FUNCTION</name>
+        <initializer>&apos;Functions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a0fb7f8096ba8d9d0f7eeca81a726f447" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_NOPERMSSET</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_NOPERMSSET</name>
+        <initializer>&apos;No Permissions Set&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a17ad93f4e9f71ce1848835470eed7a59" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_VIEWSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_VIEWSFOR</name>
+        <initializer>&apos;Views for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1ae27e983375b035360d39e2e472dd1dbb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_FIELDOPTIONSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_FIELDOPTIONSFOR</name>
+        <initializer>&apos;Field Options for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a1540eb03f1f77b43163cb0a35aa5d25e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SELECTTABLE</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SELECTTABLE</name>
+        <initializer>&apos;Select Table&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a84518c186c9e1a95471ec4dfa227f5c1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_PLUGINAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_PLUGINAVAILABLE</name>
+        <initializer>&apos;Plugin\&apos;s Available&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1ac8af6ad3a707dfd46be5e6a1388f3b61" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_TABLESAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_TABLESAVAILABLE</name>
+        <initializer>&apos;Tables\&apos;s Available from &apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a55be99323887949e4d823548d2472e64" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_WSDLSUCCESSFUL</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_WSDLSUCCESSFUL</name>
+        <initializer>&apos;Database Updated - Complete Compile of WSDL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1ab975e6ee58686b9c209989cd02f1a273" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_WSDLUNSUCCESSFUL</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_WSDLUNSUCCESSFUL</name>
+        <initializer>&apos;Database Updated - Error Compiling WSDL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a763fa29c8c3448cf5899f09661be6921" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_DATABASEUPDATED</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_DATABASEUPDATED</name>
+        <initializer>&apos;Database Updated&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1aada071cebac9c127ad127373635121d7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS</name>
+        <initializer>&apos;Function lock out time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1aad575eb5db6bfff190abe908589ca0c3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_DESC</name>
+        <initializer>&apos;Period of time for locked function to be invocated on incorrect username and password details!!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1ac00b09a3ab53265c7de738cf973052c5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDSCACHE</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDSCACHE</name>
+        <initializer>&apos;Lockout cache stored for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a36ed5effe203d14ab6f02c2053282600" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDSCACHE_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDSCACHE_DESC</name>
+        <initializer>&apos;Period of time for cache function to be invocated!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a528428520630613c6d099d7e7ae74eab" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_FUNCTIONSCACHE</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_FUNCTIONSCACHE</name>
+        <initializer>&apos;Function calls are cached for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1addc314cf381969161425ffae299f9ff2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_FUNCTIONSCACHE_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_FUNCTIONSCACHE_DESC</name>
+        <initializer>&apos;Period of time for cache function to be invocated!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a8436697250b9dcdfadc079b00ba7ad63" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_3600</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_3600</name>
+        <initializer>&apos;1 Hour&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="53" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1ab3b3446ea1217296c1d64c08eadda7fa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_1800</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_1800</name>
+        <initializer>&apos;30 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a14e7508db82b6c32358e41e4c2fb2a3e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_1200</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_1200</name>
+        <initializer>&apos;20 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a7fa8cb4a9fe60d191edc44353fb14ade" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_600</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_600</name>
+        <initializer>&apos;10 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="56" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a7979f572a717815ced70c0edff83d9b7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_300</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_300</name>
+        <initializer>&apos;5 Minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a605571e41935ceac5f395ebca3dd7c2a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_180</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_180</name>
+        <initializer>&apos;3 Minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a3f33aad3169e7e67b0592bb52c702705" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_60</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_60</name>
+        <initializer>&apos;1 Minute&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1ac2d32cac8e2f15d0bc356fa17a82a262" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SECONDS_30</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SECONDS_30</name>
+        <initializer>&apos;30 Seconds&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a75fd554abdd85fc091c4db83132cc63f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_USERANDOMLOCK</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_USERANDOMLOCK</name>
+        <initializer>&apos;Random seconds seed (maximum value)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2modinfo_8php_1a6621b2046d869d4f613faac0696601ba" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_USERANDOMLOCK_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_USERANDOMLOCK_DESC</name>
+        <initializer>&apos;You should not set this above the maximum function lockout time!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" line="63" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_WDSL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Allow<sp/>WDSL<sp/>serial<sp/>Server&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_WDSLDESC&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Turn<sp/>on<sp/>and<sp/>off<sp/>WDSL<sp/>Services&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_USERAUTH&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Requires<sp/>Username&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_USERAUTHDESC&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Only<sp/>Allows<sp/>Site<sp/>Users<sp/>to<sp/>use<sp/>services&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_ADMINMENU_1&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Tables&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_ADMINMENU_2&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Fields&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_ADMINMENU_3&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Views&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_ADMINMENU_4&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Plugins&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_ADMINMENU_5&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Permissions&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_PERMISSIONSVIEWMAN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Function<sp/>Call<sp/>Permissions&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_VIEW_FUNCTION&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Functions&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_NOPERMSSET&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;No<sp/>Permissions<sp/>Set&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_VIEWSFOR&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Views<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_FIELDOPTIONSFOR&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Field<sp/>Options<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SELECTTABLE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Select<sp/>Table&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_PLUGINAVAILABLE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Plugin\&apos;s<sp/>Available&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_TABLESAVAILABLE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Tables\&apos;s<sp/>Available<sp/>from<sp/>&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_WSDLSUCCESSFUL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Database<sp/>Updated<sp/>-<sp/>Complete<sp/>Compile<sp/>of<sp/>WSDL&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_WSDLUNSUCCESSFUL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Database<sp/>Updated<sp/>-<sp/>Error<sp/>Compiling<sp/>WSDL&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_DATABASEUPDATED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Database<sp/>Updated&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Function<sp/>lock<sp/>out<sp/>time&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>locked<sp/>function<sp/>to<sp/>be<sp/>invocated<sp/>on<sp/>incorrect<sp/>username<sp/>and<sp/>password<sp/>details!!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDSCACHE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Lockout<sp/>cache<sp/>stored<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDSCACHE_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>cache<sp/>function<sp/>to<sp/>be<sp/>invocated!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_FUNCTIONSCACHE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Function<sp/>calls<sp/>are<sp/>cached<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_FUNCTIONSCACHE_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>cache<sp/>function<sp/>to<sp/>be<sp/>invocated!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_3600&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Hour&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_1800&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;30<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_1200&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;20<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_600&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;10<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_300&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;5<sp/>Minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_180&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;3<sp/>Minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_60&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Minute&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SECONDS_30&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;30<sp/>Seconds&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_USERANDOMLOCK&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Random<sp/>seconds<sp/>seed<sp/>(maximum<sp/>value)&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_USERANDOMLOCK_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>should<sp/>not<sp/>set<sp/>this<sp/>above<sp/>the<sp/>maximum<sp/>function<sp/>lockout<sp/>time!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/modinfo.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xjson_2admin_2permissions_8php" kind="file">
+    <compoundname>permissions.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xjson_2admin_2permissions_8php_1a7c93a81c9b28ec2f78f33cdabda28c76" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$op</definition>
+        <argsstring></argsstring>
+        <name>$op</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xjson/admin/permissions.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xjson/admin/permissions.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&quot;admin_header.php&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">include_once<sp/>XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/class/xoopsform/grouppermform.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">$op<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($_POST<sp/>as<sp/>$k<sp/>=&gt;<sp/>$v)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>${$k}<sp/>=<sp/>$v;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($_GET<sp/>as<sp/>$k<sp/>=&gt;<sp/>$v)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>${$k}<sp/>=<sp/>$v;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>($op)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;default&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>global<sp/>$xoopsDB,<sp/>$xoopsModule;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$module_handler<sp/>=<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoModule<sp/>=<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;xjson&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xoops_cp_header();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>adminmenu(5);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>View<sp/>Categories<sp/>permissions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item_list_view<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$block_view<sp/>=<sp/>array();<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result_view<sp/>=<sp/>$xoopsDB-&gt;query(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>plugin_id,<sp/>plugin_name<sp/>FROM<sp/>&quot;</highlight><highlight class="normal"><sp/>.<sp/>$xoopsDB-&gt;prefix(</highlight><highlight class="stringliteral">&quot;json_plugins&quot;</highlight><highlight class="normal">)<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($xoopsDB-&gt;getRowsNum($result_view))<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>($myrow_view<sp/>=<sp/>$xoopsDB-&gt;fetcharray($result_view))<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item_list_view[</highlight><highlight class="stringliteral">&apos;cid&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$myrow_view[</highlight><highlight class="stringliteral">&apos;plugin_id&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item_list_view[</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$myrow_view[</highlight><highlight class="stringliteral">&apos;plugin_name&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$form_view<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsGroupPermForm(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>$xoModule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&quot;plugin_call&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&lt;img<sp/>id=&apos;toptableicon&apos;<sp/>src=&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/&quot;</highlight><highlight class="normal"><sp/>.<sp/>$xoopsModule-&gt;dirname()<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/images/close12.gif<sp/>alt=&apos;&apos;<sp/>/&gt;&lt;/a&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_XC_PERMISSIONSVIEWMAN<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/h3&gt;&lt;div<sp/>id=&apos;toptable&apos;&gt;&lt;span<sp/>style=\&quot;color:<sp/>#567;<sp/>margin:<sp/>3px<sp/>0<sp/>0<sp/>0;<sp/>font-size:<sp/>small;<sp/>display:<sp/>block;<sp/>\&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_XC_VIEW_FUNCTION<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/span&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$block_view[]<sp/>=<sp/>$item_list_view;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>($block_view<sp/>as<sp/>$itemlists)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$form_view-&gt;addItem($itemlists[</highlight><highlight class="stringliteral">&apos;cid&apos;</highlight><highlight class="normal">],<sp/>$itemlists[</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>$form_view-&gt;render();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;img<sp/>id=&apos;toptableicon&apos;<sp/>src=&quot;</highlight><highlight class="normal"><sp/>.<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/modules/&quot;</highlight><highlight class="normal"><sp/>.<sp/>$xoModule-&gt;dirname()<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;/images/close12.gif<sp/>alt=&apos;&apos;<sp/>/&gt;&lt;/a&gt;&amp;nbsp;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_XCOAP_PERMISSIONSVIEWMAN<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/h3&gt;&lt;div<sp/>id=&apos;toptable&apos;&gt;&lt;span<sp/>style=\&quot;color:<sp/>#567;<sp/>margin:<sp/>3px<sp/>0<sp/>0<sp/>0;<sp/>font-size:<sp/>small;<sp/>display:<sp/>block;<sp/>\&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>.<sp/>_XC_NOPERMSSET<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;&lt;/span&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/div&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;br<sp/>/&gt;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">footer_adminMenu();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">xoops_cp_footer();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xjson/admin/permissions.php"/>
+  </compounddef>
+</doxygen>

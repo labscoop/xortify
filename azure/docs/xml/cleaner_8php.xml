@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="cleaner_8php" kind="file">
+    <compoundname>cleaner.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="cleaner_8php_1a0ec03a5a968cdd1d512b90f1139adca8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$cache_files</definition>
+        <argsstring></argsstring>
+        <name>$cache_files</name>
+        <initializer>= Xoopslists::getFileListAsArray(XOOPS_VAR_PATH.&apos;/cache/xoops_cache&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/cron/cleaner.php" line="6" column="1" bodyfile="E:/Packages/xortify server/htdocs/cron/cleaner.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>set_time_limit(3600);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>include(</highlight><highlight class="stringliteral">&apos;../mainfile.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>xoops_load(</highlight><highlight class="stringliteral">&apos;XoopsLists&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>$cache_files<sp/>=<sp/>Xoopslists::getFileListAsArray(XOOPS_VAR_PATH.</highlight><highlight class="stringliteral">&apos;/cache/xoops_cache&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($cache_files<sp/>as<sp/>$file)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fileatime(XOOPS_VAR_PATH.</highlight><highlight class="stringliteral">&apos;/cache/xoops_cache/&apos;</highlight><highlight class="normal">.$file)&lt;time()-3600)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unlink(XOOPS_VAR_PATH.</highlight><highlight class="stringliteral">&apos;/cache/xoops_cache/&apos;</highlight><highlight class="normal">.$file);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/cron/cleaner.php"/>
+  </compounddef>
+</doxygen>

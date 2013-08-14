@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xserial_2language_2english_2admin_8php" kind="file">
+    <compoundname>admin.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xserial_2language_2english_2admin_8php_1a84518c186c9e1a95471ec4dfa227f5c1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_PLUGINAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_PLUGINAVAILABLE</name>
+        <initializer>&apos;serial Plugins Available&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2admin_8php_1a1540eb03f1f77b43163cb0a35aa5d25e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_SELECTTABLE</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_SELECTTABLE</name>
+        <initializer>&apos;Please Select Table to Work with&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2admin_8php_1ac8af6ad3a707dfd46be5e6a1388f3b61" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_TABLESAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_TABLESAVAILABLE</name>
+        <initializer>&apos;Tables available in database&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2admin_8php_1ae27e983375b035360d39e2e472dd1dbb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_FIELDOPTIONSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_FIELDOPTIONSFOR</name>
+        <initializer>&apos;Field options within the table selected&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2admin_8php_1a17ad93f4e9f71ce1848835470eed7a59" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_VIEWSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_VIEWSFOR</name>
+        <initializer>&apos;Views available in database&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2admin_8php_1a55be99323887949e4d823548d2472e64" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_WSDLSUCCESSFUL</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_WSDLSUCCESSFUL</name>
+        <initializer>&apos;Writting WDSL Successful&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xserial_2language_2english_2admin_8php_1ab975e6ee58686b9c209989cd02f1a273" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XSERIAL_WSDLUNSUCCESSFUL</definition>
+        <argsstring></argsstring>
+        <name>_XSERIAL_WSDLUNSUCCESSFUL</name>
+        <initializer>&apos;Writting WDSL was Unsuccessful&lt;br/&gt;Please check the permissioning of the xserial folder and make sure it is writable&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_PLUGINAVAILABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;serial<sp/>Plugins<sp/>Available&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_PLUGINAVAILABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;serial<sp/>Plugins<sp/>Available&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_SELECTTABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Please<sp/>Select<sp/>Table<sp/>to<sp/>Work<sp/>with&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_TABLESAVAILABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Tables<sp/>available<sp/>in<sp/>database&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_FIELDOPTIONSFOR&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Field<sp/>options<sp/>within<sp/>the<sp/>table<sp/>selected&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_VIEWSFOR&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Views<sp/>available<sp/>in<sp/>database&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_WSDLSUCCESSFUL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Writting<sp/>WDSL<sp/>Successful&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XSERIAL_WSDLUNSUCCESSFUL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Writting<sp/>WDSL<sp/>was<sp/>Unsuccessful&lt;br/&gt;Please<sp/>check<sp/>the<sp/>permissioning<sp/>of<sp/>the<sp/>xserial<sp/>folder<sp/>and<sp/>make<sp/>sure<sp/>it<sp/>is<sp/>writable&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xserial/language/english/admin.php"/>
+  </compounddef>
+</doxygen>

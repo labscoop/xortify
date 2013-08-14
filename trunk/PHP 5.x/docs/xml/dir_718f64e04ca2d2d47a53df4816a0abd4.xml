@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_718f64e04ca2d2d47a53df4816a0abd4" kind="dir">
+    <compoundname>Q:/@websites@/coop/labs/dev2/class/cache</compoundname>
+    <innerfile refid="apc_8php">apc.php</innerfile>
+    <innerfile refid="cache_8php">cache.php</innerfile>
+    <innerfile refid="file_8php">file.php</innerfile>
+    <innerfile refid="memcache_8php">memcache.php</innerfile>
+    <innerfile refid="model_8php">model.php</innerfile>
+    <innerfile refid="xcache_8php">xcache.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Q:/@websites@/coop/labs/dev2/class/cache/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+.TH "CacheEngine" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CacheEngine \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBCacheApc\fP, \fBCacheFile\fP, \fBCacheMemcache\fP, \fBCacheModel\fP, and \fBCacheXcache\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBinit\fP ($\fBsettings\fP=array())"
+.br
+.ti -1c
+.RI "\fBgc\fP ()"
+.br
+.ti -1c
+.RI "\fBwrite\fP ($key, &$value, $duration)"
+.br
+.ti -1c
+.RI "\fBread\fP ($key)"
+.br
+.ti -1c
+.RI "\fBdelete\fP ($key)"
+.br
+.ti -1c
+.RI "\fBclear\fP ($check)"
+.br
+.ti -1c
+.RI "\fBsettings\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$settings\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "clear ($check)"
+Delete all keys from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$check\fP if true will check expiration, otherwise delete all 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the cache was succesfully cleared, false otherwise  public 
+.RE
+.PP
+
+.SS "delete ($key)"
+Delete a key from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+.RE
+.PP
+
+.SS "gc ()"
+Garbage collection
+.PP
+Permanently remove all expired and deleted data
+.PP
+public 
+.SS "init ($settings = \fCarray()\fP)"
+Iitialize the cache engine
+.PP
+Called automatically by the cache frontend
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$params\fP Associative array of parameters for the engine 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the engine has been succesfully initialized, false if not  public 
+.RE
+.PP
+
+.SS "read ($key)"
+Read a key from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+.RE
+.PP
+
+.SS "settings ()"
+\fBCache\fP Engine settings
+.PP
+\fBReturns:\fP
+.RS 4
+array settings  public 
+.RE
+.PP
+
+.SS "write ($key, &$value, $duration)"
+Write value for a key into cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.br
+\fI$value\fP Data to be cached 
+.br
+\fI$duration\fP How long to cache the data, in seconds 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the data was succesfully cached, false on failure  public 
+.RE
+.PP
+
+.SH "Field Documentation"
+.PP 
+.SS "$\fBsettings\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

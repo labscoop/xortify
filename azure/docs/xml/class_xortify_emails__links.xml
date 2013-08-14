@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_emails__links" kind="class" prot="public">
+    <compoundname>XortifyEmails_links</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_emails__links_1a92acc301077c8e3b54e83301b2f20861" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XortifyEmails_links</definition>
+        <argsstring>($id=null)</argsstring>
+        <name>XortifyEmails_links</name>
+        <param>
+          <declname>$id</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/emails_links.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/emails_links.php" bodystart="57" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_emails__links_1a658defb34762c8f40085aec87e16ba1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>toArray</definition>
+        <argsstring>()</argsstring>
+        <name>toArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/emails_links.php" line="65" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/emails_links.php" bodystart="65" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="711">
+        <label>XoopsObject</label>
+      </node>
+      <node id="710">
+        <label>XortifyEmails_links</label>
+        <link refid="class_xortify_emails__links"/>
+        <childnode refid="711" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="713">
+        <label>XoopsObject</label>
+      </node>
+      <node id="712">
+        <label>XortifyEmails_links</label>
+        <link refid="class_xortify_emails__links"/>
+        <childnode refid="713" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/emails_links.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/emails_links.php" bodystart="54" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_xortify_emails__links_1a658defb34762c8f40085aec87e16ba1a" prot="public" virt="non-virtual"><scope>XortifyEmails_links</scope><name>toArray</name></member>
+      <member refid="class_xortify_emails__links_1a92acc301077c8e3b54e83301b2f20861" prot="public" virt="non-virtual"><scope>XortifyEmails_links</scope><name>XortifyEmails_links</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

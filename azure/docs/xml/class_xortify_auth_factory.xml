@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_auth_factory" kind="class" prot="public">
+    <compoundname>XortifyAuthFactory</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_xortify_auth_factory_1af388e5776c61ce51aa86d3d6822dcabe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>&amp;</type>
+        <definition>&amp; getAuthConnection</definition>
+        <argsstring>($uname, $xortify_auth_method= &apos;soap&apos;)</argsstring>
+        <name>getAuthConnection</name>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <param>
+          <declname>$xortify_auth_method</declname>
+          <defval>&apos;soap&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a reference to the only instance of authentication class</para><para>if the class has not been instantiated yet, this will also take care of that</para><para><simplesect kind="return"><para>object Reference to the only instance of authentication class </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/auth/authfactory.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/auth/authfactory.php" bodystart="44" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/auth/authfactory.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/class/auth/authfactory.php" bodystart="32" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_xortify_auth_factory_1af388e5776c61ce51aa86d3d6822dcabe" prot="public" virt="non-virtual"><scope>XortifyAuthFactory</scope><name>getAuthConnection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

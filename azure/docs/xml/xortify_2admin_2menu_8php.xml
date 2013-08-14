@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xortify_2admin_2menu_8php" kind="file">
+    <compoundname>menu.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1afe9169534dbc3935c0823c21cfbf68bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$module_handler</definition>
+        <argsstring></argsstring>
+        <name>$module_handler</name>
+        <initializer>=&amp; xoops_gethandler(&apos;module&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a337b648fca998b37a46d84b43aa6e8f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;ImageAdmin&apos;]</definition>
+        <argsstring>[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;ImageAdmin&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= $GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]-&gt;getInfo(&apos;icons32&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a437a484252a5515b5e548e46cf70be62" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;XortifyImageAdmin&apos;]</definition>
+        <argsstring>[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;XortifyImageAdmin&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= $GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;module&apos;]-&gt;getInfo(&apos;xortify_icons32&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a9e95e7fdb7ca106c9d44e97430edef59" prot="public" static="no" mutable="no">
+        <type>global</type>
+        <definition>$adminmenu</definition>
+        <argsstring></argsstring>
+        <name>$adminmenu</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1aa4d95e2b8402adb7aac22031a76bf8ac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;title&apos;]</definition>
+        <argsstring>[1][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _XOR_ADMENU4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a2bfe17f3051123a62497c4f163a989be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;icon&apos;]</definition>
+        <argsstring>[1][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;ImageAdmin&apos;].&apos;/home.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a874680199c4b14f5e8fb1123a3bf24b6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;image&apos;]</definition>
+        <argsstring>[1][&apos;image&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;ImageAdmin&apos;].&apos;/home.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a8b18a24b489369490446d45ac2b617f7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;link&apos;]</definition>
+        <argsstring>[1][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=dashboard&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a0786c93d1375203e0020cc121fe02068" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;title&apos;]</definition>
+        <argsstring>[2][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _XOR_ADMENU1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a0f5b9b0199b46370782c408755cad310" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;icon&apos;]</definition>
+        <argsstring>[2][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;XortifyImageAdmin&apos;].&apos;/current.bans.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1ae2b4c511406ecfc8cb23eeba3cef2959" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;image&apos;]</definition>
+        <argsstring>[2][&apos;image&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;XortifyImageAdmin&apos;].&apos;/current.bans.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a5f30f443311414593df5a4ae2c7501c8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;link&apos;]</definition>
+        <argsstring>[2][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=list&amp;fct=bans&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1ad27660fd5d267f334743070c732b1286" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;title&apos;]</definition>
+        <argsstring>[3][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _XOR_ADMENU3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a967967c3b047a56a25c5e7fb4979a0de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;icon&apos;]</definition>
+        <argsstring>[3][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;XortifyImageAdmin&apos;].&apos;/xortify.log.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a611f5939c752bb454bdce8f81812e872" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;image&apos;]</definition>
+        <argsstring>[3][&apos;image&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;XortifyImageAdmin&apos;].&apos;/xortify.log.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1ac8c8ccf89ea2c8889dd64b08737d6dd9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;link&apos;]</definition>
+        <argsstring>[3][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=log&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="52" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1ac3c70c66723d68528e5e9c8a4383c126" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;title&apos;]</definition>
+        <argsstring>[4][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _XOR_ADMENU2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="53" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1ae825aefb069414ecc0bbf1fc86335167" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;icon&apos;]</definition>
+        <argsstring>[4][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;XortifyImageAdmin&apos;].&apos;/access.list.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1aab8f8f168350fdbc929c79d6f8e6564c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;image&apos;]</definition>
+        <argsstring>[4][&apos;image&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;XortifyImageAdmin&apos;].&apos;/access.list.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a076adc5338eb254a63b2e2d679087482" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;link&apos;]</definition>
+        <argsstring>[4][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=signup&amp;fct=signup&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="56" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a014e06ed36a394774cc2f03aa232a072" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;title&apos;]</definition>
+        <argsstring>[5][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _XOR_ADMENU5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1aadc33c1b4aea642afa84d339642b4844" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;icon&apos;]</definition>
+        <argsstring>[5][&apos;icon&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;ImageAdmin&apos;].&apos;/about.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a2aba67319256287d166fc8ebfa4bede6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;image&apos;]</definition>
+        <argsstring>[5][&apos;image&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &apos;../../&apos;.$GLOBALS[&apos;xortify&apos;][XORTIFY_INSTANCE_KEY][&apos;ImageAdmin&apos;].&apos;/about.png&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xortify_2admin_2menu_8php_1a86c31a48d4510b1076e6fbfb731ba1d8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[5][&apos;link&apos;]</definition>
+        <argsstring>[5][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=about&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Prevents<sp/>Spam,<sp/>Harvesting,<sp/>Human<sp/>Rights<sp/>Abuse,<sp/>Captcha<sp/>Abuse<sp/>etc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>basic<sp/>statistic<sp/>of<sp/>them<sp/>in<sp/>XOOPS<sp/>Copyright<sp/>(C)<sp/>2012<sp/>Simon<sp/>Roberts<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Contact:<sp/>wishcraft<sp/>-<sp/>simon@labs.coop</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>See<sp/>/docs/license.pdf<sp/>for<sp/>full<sp/>license.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Shouts:-<sp/><sp/><sp/><sp/><sp/>Mamba<sp/>(www.xoops.org),<sp/>flipse<sp/>(www.nlxoops.nl)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Many<sp/>thanks<sp/>for<sp/>your<sp/>additional<sp/>work<sp/>with<sp/>version<sp/>1.01</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Version:<sp/><sp/><sp/><sp/><sp/>3.10<sp/>Final<sp/>(Stable)</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>Published:<sp/><sp/><sp/>Chronolabs</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>Download:<sp/><sp/><sp/><sp/>http://code.google.com/p/chronolabs</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>This<sp/>File:<sp/><sp/><sp/>menu.php<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>Description:<sp/>menu<sp/>defines<sp/>for<sp/>admin</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>Date:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>09/09/2012<sp/>19:34<sp/>AEST</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>License:<sp/><sp/><sp/><sp/><sp/>GNU3</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">$module_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!is_object($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;ImageAdmin&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getInfo(</highlight><highlight class="stringliteral">&apos;icons32&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;XortifyImageAdmin&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">]-&gt;getInfo(</highlight><highlight class="stringliteral">&apos;xortify_icons32&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">global<sp/>$adminmenu;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">$adminmenu<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_XOR_ADMENU4;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;ImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/home.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;ImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/home.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=dashboard&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_XOR_ADMENU1;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;XortifyImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/current.bans.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;XortifyImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/current.bans.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=list&amp;fct=bans&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_XOR_ADMENU3;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;XortifyImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/xortify.log.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;XortifyImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/xortify.log.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=log&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_XOR_ADMENU2;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;XortifyImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/access.list.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;XortifyImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/access.list.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=signup&amp;fct=signup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_XOR_ADMENU5;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;icon&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;ImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/about.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;image&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][XORTIFY_INSTANCE_KEY][</highlight><highlight class="stringliteral">&apos;ImageAdmin&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;/about.png&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">$adminmenu[5][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=about&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/admin/menu.php"/>
+  </compounddef>
+</doxygen>

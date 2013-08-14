@@ -1,0 +1,233 @@
+\hypertarget{classwsdlcache}{\section{wsdlcache Class Reference}
+\label{classwsdlcache}\index{wsdlcache@{wsdlcache}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classwsdlcache_a79f1d857b43ad05cccead7d6c276b799}{wsdlcache} (\$cache\-\_\-dir='.', \$cache\-\_\-lifetime=0)
+\item 
+\hyperlink{classwsdlcache_a6251fc73486e49b3ad8452c3cff4f4df}{create\-Filename} (\$\hyperlink{classwsdl}{wsdl})
+\item 
+\hyperlink{classwsdlcache_ac652bd9010bd39b0f2854f7ded3f6f33}{debug} (\$string)
+\item 
+\hyperlink{classwsdlcache_a95483fbc06ab50e4e5720ec16065b4f5}{get} (\$\hyperlink{classwsdl}{wsdl})
+\item 
+\hyperlink{classwsdlcache_a0ad0130e7028ed6b671ecdf4491dc7a2}{obtain\-Mutex} (\$filename, \$mode)
+\item 
+\hyperlink{classwsdlcache_a797ff61a54a3f50e9cb8c974cacc1bb8}{put} (\$wsdl\-\_\-instance)
+\item 
+\hyperlink{classwsdlcache_a424545075e6a286d26453c500ecaa26d}{release\-Mutex} (\$filename)
+\item 
+\hyperlink{classwsdlcache_ad6672e5263a78393605bc28e80d25902}{remove} (\$\hyperlink{classwsdl}{wsdl})
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classwsdlcache_ae9b06e44c182e3d33c7393dd8f925c15}{{\bfseries \$fplock}}\label{classwsdlcache_ae9b06e44c182e3d33c7393dd8f925c15}
+
+\item 
+\hypertarget{classwsdlcache_a5aaab753f75170fa670cbb602aa97119}{{\bfseries \$cache\-\_\-lifetime}}\label{classwsdlcache_a5aaab753f75170fa670cbb602aa97119}
+
+\item 
+\hypertarget{classwsdlcache_a22a35efc9ca709527d49ff8bfe76db78}{{\bfseries \$cache\-\_\-dir}}\label{classwsdlcache_a22a35efc9ca709527d49ff8bfe76db78}
+
+\item 
+\hypertarget{classwsdlcache_ad04cbe402f400eb4b0b40f2c03985452}{{\bfseries \$debug\-\_\-str} = ''}\label{classwsdlcache_ad04cbe402f400eb4b0b40f2c03985452}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+caches instances of the wsdl class
+
+\begin{DoxyAuthor}{Author}
+Scott Nichol \href{mailto:snichol@computer.org}{\tt snichol@computer.\-org} 
+
+Ingo Fischer \href{mailto:ingo@apollon.de}{\tt ingo@apollon.\-de} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id\-:}
+\hyperlink{class_8wsdlcache_8php_source}{class.\-wsdlcache.\-php},v 1.\-5 2005/05/20 17\-:58\-:17 snichol Exp 
+\end{DoxyParagraph}
+public 
+
+Definition at line 13 of file class.\-wsdlcache.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classwsdlcache_a6251fc73486e49b3ad8452c3cff4f4df}{\index{wsdlcache@{wsdlcache}!create\-Filename@{create\-Filename}}
+\index{create\-Filename@{create\-Filename}!wsdlcache@{wsdlcache}}
+\subsubsection[{create\-Filename}]{\setlength{\rightskip}{0pt plus 5cm}create\-Filename (
+\begin{DoxyParamCaption}
+\item[{}]{\$wsdl}
+\end{DoxyParamCaption}
+)}}\label{classwsdlcache_a6251fc73486e49b3ad8452c3cff4f4df}
+creates the filename used to cache a wsdl instance
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$wsdl} & The U\-R\-L of the wsdl instance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The filename used to cache the instance  private 
+\end{DoxyReturn}
+
+
+Definition at line 55 of file class.\-wsdlcache.\-php.
+
+\hypertarget{classwsdlcache_ac652bd9010bd39b0f2854f7ded3f6f33}{\index{wsdlcache@{wsdlcache}!debug@{debug}}
+\index{debug@{debug}!wsdlcache@{wsdlcache}}
+\subsubsection[{debug}]{\setlength{\rightskip}{0pt plus 5cm}debug (
+\begin{DoxyParamCaption}
+\item[{}]{\$string}
+\end{DoxyParamCaption}
+)}}\label{classwsdlcache_ac652bd9010bd39b0f2854f7ded3f6f33}
+adds debug data to the class level debug string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$string} & debug data  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 65 of file class.\-wsdlcache.\-php.
+
+\hypertarget{classwsdlcache_a95483fbc06ab50e4e5720ec16065b4f5}{\index{wsdlcache@{wsdlcache}!get@{get}}
+\index{get@{get}!wsdlcache@{wsdlcache}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}get (
+\begin{DoxyParamCaption}
+\item[{}]{\$wsdl}
+\end{DoxyParamCaption}
+)}}\label{classwsdlcache_a95483fbc06ab50e4e5720ec16065b4f5}
+gets a wsdl instance from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$wsdl} & The U\-R\-L of the wsdl instance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object wsdl The cached wsdl instance, null if the instance is not in the cache  public 
+\end{DoxyReturn}
+
+
+Definition at line 76 of file class.\-wsdlcache.\-php.
+
+\hypertarget{classwsdlcache_a0ad0130e7028ed6b671ecdf4491dc7a2}{\index{wsdlcache@{wsdlcache}!obtain\-Mutex@{obtain\-Mutex}}
+\index{obtain\-Mutex@{obtain\-Mutex}!wsdlcache@{wsdlcache}}
+\subsubsection[{obtain\-Mutex}]{\setlength{\rightskip}{0pt plus 5cm}obtain\-Mutex (
+\begin{DoxyParamCaption}
+\item[{}]{\$filename, }
+\item[{}]{\$mode}
+\end{DoxyParamCaption}
+)}}\label{classwsdlcache_a0ad0130e7028ed6b671ecdf4491dc7a2}
+obtains the local mutex
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & The Filename of the Cache to lock \\
+\hline
+string & {\em \$mode} & The open-\/mode (\char`\"{}r\char`\"{} or \char`\"{}w\char`\"{}) or the file -\/ affects lock-\/mode \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean Lock successfully obtained ?!  private 
+\end{DoxyReturn}
+
+
+Definition at line 114 of file class.\-wsdlcache.\-php.
+
+\hypertarget{classwsdlcache_a797ff61a54a3f50e9cb8c974cacc1bb8}{\index{wsdlcache@{wsdlcache}!put@{put}}
+\index{put@{put}!wsdlcache@{wsdlcache}}
+\subsubsection[{put}]{\setlength{\rightskip}{0pt plus 5cm}put (
+\begin{DoxyParamCaption}
+\item[{}]{\$wsdl\-\_\-instance}
+\end{DoxyParamCaption}
+)}}\label{classwsdlcache_a797ff61a54a3f50e9cb8c974cacc1bb8}
+adds a wsdl instance to the cache
+
+
+\begin{DoxyParams}{Parameters}
+{\em object} & wsdl \$wsdl\-\_\-instance The wsdl instance to add \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean W\-S\-D\-L successfully cached  public 
+\end{DoxyReturn}
+
+
+Definition at line 134 of file class.\-wsdlcache.\-php.
+
+\hypertarget{classwsdlcache_a424545075e6a286d26453c500ecaa26d}{\index{wsdlcache@{wsdlcache}!release\-Mutex@{release\-Mutex}}
+\index{release\-Mutex@{release\-Mutex}!wsdlcache@{wsdlcache}}
+\subsubsection[{release\-Mutex}]{\setlength{\rightskip}{0pt plus 5cm}release\-Mutex (
+\begin{DoxyParamCaption}
+\item[{}]{\$filename}
+\end{DoxyParamCaption}
+)}}\label{classwsdlcache_a424545075e6a286d26453c500ecaa26d}
+releases the local mutex
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & The Filename of the Cache to lock \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean Lock successfully released  private 
+\end{DoxyReturn}
+
+
+Definition at line 157 of file class.\-wsdlcache.\-php.
+
+\hypertarget{classwsdlcache_ad6672e5263a78393605bc28e80d25902}{\index{wsdlcache@{wsdlcache}!remove@{remove}}
+\index{remove@{remove}!wsdlcache@{wsdlcache}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}remove (
+\begin{DoxyParamCaption}
+\item[{}]{\$wsdl}
+\end{DoxyParamCaption}
+)}}\label{classwsdlcache_ad6672e5263a78393605bc28e80d25902}
+removes a wsdl instance from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$wsdl} & The U\-R\-L of the wsdl instance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean Whether there was an instance to remove  public 
+\end{DoxyReturn}
+
+
+Definition at line 174 of file class.\-wsdlcache.\-php.
+
+\hypertarget{classwsdlcache_a79f1d857b43ad05cccead7d6c276b799}{\index{wsdlcache@{wsdlcache}!wsdlcache@{wsdlcache}}
+\index{wsdlcache@{wsdlcache}!wsdlcache@{wsdlcache}}
+\subsubsection[{wsdlcache}]{\setlength{\rightskip}{0pt plus 5cm}{\bf wsdlcache} (
+\begin{DoxyParamCaption}
+\item[{}]{\$cache\-\_\-dir = {\ttfamily '.'}, }
+\item[{}]{\$cache\-\_\-lifetime = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classwsdlcache_a79f1d857b43ad05cccead7d6c276b799}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$cache\-\_\-dir} & directory for cache-\/files \\
+\hline
+integer & {\em \$cache\-\_\-lifetime} & lifetime for caching-\/files in seconds or 0 for unlimited  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 42 of file class.\-wsdlcache.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.\-wsdlcache.\-php\end{DoxyCompactItemize}

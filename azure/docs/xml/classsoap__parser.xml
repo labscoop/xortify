@@ -1,0 +1,1100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classsoap__parser" kind="class" prot="public">
+    <compoundname>soap_parser</compoundname>
+    <basecompoundref refid="classnusoap__base" prot="public" virt="non-virtual">nusoap_base</basecompoundref>
+    <basecompoundref refid="classnusoap__base" prot="public" virt="non-virtual">nusoap_base</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsoap__parser_1aa108d9d91e700ac530401dd363b0723b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xml</definition>
+        <argsstring></argsstring>
+        <name>$xml</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a1e2ee3fea6dbb8374da999a9df7d024d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xml_encoding</definition>
+        <argsstring></argsstring>
+        <name>$xml_encoding</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="17" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a12661b2fc0f57f97e30a1620889ce9c6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$method</definition>
+        <argsstring></argsstring>
+        <name>$method</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="18" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1af3a5b957348b6e993c324ff19bf3b538" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$root_struct</definition>
+        <argsstring></argsstring>
+        <name>$root_struct</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a5402eddc07a9c8642c2071974fed61b8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$root_struct_name</definition>
+        <argsstring></argsstring>
+        <name>$root_struct_name</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1ab9fc9293371b688c0cce333416ed5d54" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$root_struct_namespace</definition>
+        <argsstring></argsstring>
+        <name>$root_struct_namespace</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a75ccce2909a246d14268f80343725a8f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$root_header</definition>
+        <argsstring></argsstring>
+        <name>$root_header</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1ac5a31edb787609a3143dec9bfa8063ea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$document</definition>
+        <argsstring></argsstring>
+        <name>$document</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a58391ea75f2d29d5d708d7050b641c33" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$status</definition>
+        <argsstring></argsstring>
+        <name>$status</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a6e88dcb746884d18f6c89eb9b9c14a42" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$position</definition>
+        <argsstring></argsstring>
+        <name>$position</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a0abb04e6a8a04e161eb4657f54848b18" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$depth</definition>
+        <argsstring></argsstring>
+        <name>$depth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a3fc29546509a4525391bc5ce2d449cc3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$default_namespace</definition>
+        <argsstring></argsstring>
+        <name>$default_namespace</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a5a7d9500de9f7c938443d65cef9a074e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$namespaces</definition>
+        <argsstring></argsstring>
+        <name>$namespaces</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$message</definition>
+        <argsstring></argsstring>
+        <name>$message</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a4e2313a4b35b72a06ac45fd38960f677" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$parent</definition>
+        <argsstring></argsstring>
+        <name>$parent</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a365691ed834f59a9a513180136e7a847" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$fault</definition>
+        <argsstring></argsstring>
+        <name>$fault</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1adbd496b507280a747f3f0c8233bacc64" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$fault_code</definition>
+        <argsstring></argsstring>
+        <name>$fault_code</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a78c828a5cb9ea846349931855975aa6f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$fault_str</definition>
+        <argsstring></argsstring>
+        <name>$fault_str</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a07761a098f8711cee32cdf25aff844b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$fault_detail</definition>
+        <argsstring></argsstring>
+        <name>$fault_detail</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1aaaa53c3e91636edd41a46e767abb3347" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$depth_array</definition>
+        <argsstring></argsstring>
+        <name>$depth_array</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a4365dcf21d6ec72c63e5e6fcbddce4fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$debug_flag</definition>
+        <argsstring></argsstring>
+        <name>$debug_flag</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a9c288aee507cd28cde513ae4985be173" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$soapresponse</definition>
+        <argsstring></argsstring>
+        <name>$soapresponse</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a02f80cf3a7fe7cf42c97b821c167b934" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$responseHeaders</definition>
+        <argsstring></argsstring>
+        <name>$responseHeaders</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a58122f77be3e3451ebf7c4aad1d1334b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$body_position</definition>
+        <argsstring></argsstring>
+        <name>$body_position</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1af24e92ed6a9d45a19989253526012e03" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ids</definition>
+        <argsstring></argsstring>
+        <name>$ids</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a4cd04442a0b327bd7495c402c7621fdc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$multirefs</definition>
+        <argsstring></argsstring>
+        <name>$multirefs</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__parser_1a15fe586a802bc22337e3fe874d6da038" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$decode_utf8</definition>
+        <argsstring></argsstring>
+        <name>$decode_utf8</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsoap__parser_1a632e9d47e42c4f6660f9daed90058af5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>soap_parser</definition>
+        <argsstring>($xml, $encoding=&apos;UTF-8&apos;, $method=&apos;&apos;, $decode_utf8=true)</argsstring>
+        <name>soap_parser</name>
+        <param>
+          <declname>$xml</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>&apos;UTF-8&apos;</defval>
+        </param>
+        <param>
+          <declname>$method</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$decode_utf8</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor that actually does the parsing</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$xml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SOAP message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$encoding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>character encoding scheme of message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>method for which XML is parsed (unused?) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$decode_utf8</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to decode UTF-8 to ISO-8859-1  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="58" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="58" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1abf9dc4b028eeac08eeca4c7309a950e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>start_element</definition>
+        <argsstring>($parser, $name, $attrs)</argsstring>
+        <name>start_element</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start-element handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>resource</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$attrs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>associative array of attributes  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="150" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="150" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1ad45367c512cbc2d4679d1a49db3802f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>end_element</definition>
+        <argsstring>($parser, $name)</argsstring>
+        <name>end_element</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>end-element handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>resource</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element name  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="301" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="301" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a592a4f9b601cc33f15de0ad7a9c49ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>character_data</definition>
+        <argsstring>($parser, $data)</argsstring>
+        <name>character_data</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>element content handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>resource</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element content  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="405" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="405" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1acf3c69045efc130d3a325c26bd6ac5d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_response</definition>
+        <argsstring>()</argsstring>
+        <name>get_response</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the parsed message</para><para><simplesect kind="return"><para>mixed  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="430" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="430" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a157e0005d82edaa21cbea07fdc5c62da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getHeaders</definition>
+        <argsstring>()</argsstring>
+        <name>getHeaders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the parsed headers</para><para><simplesect kind="return"><para>string XML or empty if no headers  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="440" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="440" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a9094260815e81487fef378ac6222e9a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decodeSimple</definition>
+        <argsstring>($value, $type, $typens)</argsstring>
+        <name>decodeSimple</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$typens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>decodes simple types into PHP variables</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to decode </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML type to decode </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$typens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML type namespace to decode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed PHP value  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="453" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="453" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a8a4609375662042387aa159de2edd196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>buildVal</definition>
+        <argsstring>($pos)</argsstring>
+        <name>buildVal</name>
+        <param>
+          <declname>$pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>builds response structures for compound values (arrays/structs) and scalars</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position in node tree </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed PHP value  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="497" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="497" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a632e9d47e42c4f6660f9daed90058af5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>soap_parser</definition>
+        <argsstring>($xml, $encoding=&apos;UTF-8&apos;, $method=&apos;&apos;, $decode_utf8=true)</argsstring>
+        <name>soap_parser</name>
+        <param>
+          <declname>$xml</declname>
+        </param>
+        <param>
+          <declname>$encoding</declname>
+          <defval>&apos;UTF-8&apos;</defval>
+        </param>
+        <param>
+          <declname>$method</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$decode_utf8</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor that actually does the parsing</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$xml</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SOAP message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$encoding</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>character encoding scheme of message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>method for which XML is parsed (unused?) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$decode_utf8</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to decode UTF-8 to ISO-8859-1  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5844" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5844" bodyend="5926"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1abf9dc4b028eeac08eeca4c7309a950e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>start_element</definition>
+        <argsstring>($parser, $name, $attrs)</argsstring>
+        <name>start_element</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start-element handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>resource</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$attrs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>associative array of attributes  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="5936" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="5936" bodyend="6078"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1ad45367c512cbc2d4679d1a49db3802f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>end_element</definition>
+        <argsstring>($parser, $name)</argsstring>
+        <name>end_element</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>end-element handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>resource</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element name  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="6087" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="6087" bodyend="6182"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a592a4f9b601cc33f15de0ad7a9c49ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>character_data</definition>
+        <argsstring>($parser, $data)</argsstring>
+        <name>character_data</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>element content handler</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>resource</parametertype>
+<parametername>$parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML parser object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element content  private </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="6191" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="6191" bodyend="6208"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1acf3c69045efc130d3a325c26bd6ac5d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_response</definition>
+        <argsstring>()</argsstring>
+        <name>get_response</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the parsed message</para><para><simplesect kind="return"><para>mixed  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="6216" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="6216" bodyend="6218"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a157e0005d82edaa21cbea07fdc5c62da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getHeaders</definition>
+        <argsstring>()</argsstring>
+        <name>getHeaders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the parsed headers</para><para><simplesect kind="return"><para>string XML or empty if no headers  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="6226" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="6226" bodyend="6228"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a9094260815e81487fef378ac6222e9a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decodeSimple</definition>
+        <argsstring>($value, $type, $typens)</argsstring>
+        <name>decodeSimple</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$typens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>decodes simple types into PHP variables</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to decode </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML type to decode </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$typens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XML type namespace to decode </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed PHP value  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="6239" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="6239" bodyend="6273"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__parser_1a8a4609375662042387aa159de2edd196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>buildVal</definition>
+        <argsstring>($pos)</argsstring>
+        <name>buildVal</name>
+        <param>
+          <declname>$pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>builds response structures for compound values (arrays/structs) and scalars</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position in node tree </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed PHP value  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="6283" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="6283" bodyend="6379"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classsoap__parser" kindref="compound">soap_parser</ref> class parses SOAP XML messages into native PHP values</para><para><simplesect kind="author"><para>Dietrich Ayala <ulink url="mailto:dietrich@ganx4.com">dietrich@ganx4.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="class_8soap__parser_8php_source" kindref="compound">class.soap_parser.php</ref>,v 1.36 2005/08/04 01:27:42 snichol Exp </para></simplesect>
+public</para><para><ref refid="classsoap__parser" kindref="compound">soap_parser</ref> class parses SOAP XML messages into native PHP values</para><para><simplesect kind="author"><para>Dietrich Ayala <ulink url="mailto:dietrich@ganx4.com">dietrich@ganx4.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="nusoap_8php_source" kindref="compound">nusoap.php</ref>,v 1.94 2005/08/04 01:27:42 snichol Exp </para></simplesect>
+public </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="492">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+      <node id="491">
+        <label>soap_parser</label>
+        <link refid="classsoap__parser"/>
+        <childnode refid="492" relation="public-inheritance">
+        </childnode>
+        <childnode refid="492" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="494">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+      <node id="493">
+        <label>soap_parser</label>
+        <link refid="classsoap__parser"/>
+        <childnode refid="494" relation="public-inheritance">
+        </childnode>
+        <childnode refid="494" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_parser.php" bodystart="14" bodyend="594"/>
+    <listofallmembers>
+      <member refid="classsoap__parser_1a58122f77be3e3451ebf7c4aad1d1334b" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$body_position</name></member>
+      <member refid="classnusoap__base_1a6a4d8a570a9e0a89ef63b192fa3942f2" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$charencoding</name></member>
+      <member refid="classsoap__parser_1a4365dcf21d6ec72c63e5e6fcbddce4fb" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$debug_flag</name></member>
+      <member refid="classnusoap__base_1ad04cbe402f400eb4b0b40f2c03985452" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$debug_str</name></member>
+      <member refid="classnusoap__base_1a8907cc6f1fc6ed47ef25190cb8310f41" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$debugLevel</name></member>
+      <member refid="classsoap__parser_1a15fe586a802bc22337e3fe874d6da038" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$decode_utf8</name></member>
+      <member refid="classsoap__parser_1a3fc29546509a4525391bc5ce2d449cc3" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$default_namespace</name></member>
+      <member refid="classsoap__parser_1a0abb04e6a8a04e161eb4657f54848b18" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$depth</name></member>
+      <member refid="classsoap__parser_1aaaa53c3e91636edd41a46e767abb3347" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$depth_array</name></member>
+      <member refid="classsoap__parser_1ac5a31edb787609a3143dec9bfa8063ea" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$document</name></member>
+      <member refid="classnusoap__base_1ab9c9e44dc77820490ded7d8bf085cd7e" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$error_str</name></member>
+      <member refid="classsoap__parser_1a365691ed834f59a9a513180136e7a847" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$fault</name></member>
+      <member refid="classsoap__parser_1adbd496b507280a747f3f0c8233bacc64" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$fault_code</name></member>
+      <member refid="classsoap__parser_1a07761a098f8711cee32cdf25aff844b9" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$fault_detail</name></member>
+      <member refid="classsoap__parser_1a78c828a5cb9ea846349931855975aa6f" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$fault_str</name></member>
+      <member refid="classsoap__parser_1af24e92ed6a9d45a19989253526012e03" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$ids</name></member>
+      <member refid="classsoap__parser_1abf17cb2dba2ed17cb28aa5f37deb5293" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$message</name></member>
+      <member refid="classsoap__parser_1a12661b2fc0f57f97e30a1620889ce9c6" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$method</name></member>
+      <member refid="classsoap__parser_1a4cd04442a0b327bd7495c402c7621fdc" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$multirefs</name></member>
+      <member refid="classsoap__parser_1a5a7d9500de9f7c938443d65cef9a074e" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$namespaces</name></member>
+      <member refid="classsoap__parser_1a4e2313a4b35b72a06ac45fd38960f677" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$parent</name></member>
+      <member refid="classsoap__parser_1a6e88dcb746884d18f6c89eb9b9c14a42" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$position</name></member>
+      <member refid="classsoap__parser_1a02f80cf3a7fe7cf42c97b821c167b934" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$responseHeaders</name></member>
+      <member refid="classnusoap__base_1a4ff96b89e7ea5fa55acb086ecb6d0c03" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$revision</name></member>
+      <member refid="classsoap__parser_1a75ccce2909a246d14268f80343725a8f" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$root_header</name></member>
+      <member refid="classsoap__parser_1af3a5b957348b6e993c324ff19bf3b538" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$root_struct</name></member>
+      <member refid="classsoap__parser_1a5402eddc07a9c8642c2071974fed61b8" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$root_struct_name</name></member>
+      <member refid="classsoap__parser_1ab9fc9293371b688c0cce333416ed5d54" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$root_struct_namespace</name></member>
+      <member refid="classnusoap__base_1a54cf9ddad3b51e54af1bfad78efad09a" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$soap_defencoding</name></member>
+      <member refid="classsoap__parser_1a9c288aee507cd28cde513ae4985be173" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$soapresponse</name></member>
+      <member refid="classsoap__parser_1a58391ea75f2d29d5d708d7050b641c33" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$status</name></member>
+      <member refid="classnusoap__base_1ada57e7bb7c152edad18fe2f166188691" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$title</name></member>
+      <member refid="classnusoap__base_1abc776370d77b6fe463a62fa2faf26c2e" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$typemap</name></member>
+      <member refid="classnusoap__base_1a2bd7e321e4132fe338d8502a5594aebc" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$usedNamespaces</name></member>
+      <member refid="classnusoap__base_1a17c8948c68aa44fa9961ae169b6a8961" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$version</name></member>
+      <member refid="classsoap__parser_1aa108d9d91e700ac530401dd363b0723b" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$xml</name></member>
+      <member refid="classsoap__parser_1a1e2ee3fea6dbb8374da999a9df7d024d" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$xml_encoding</name></member>
+      <member refid="classnusoap__base_1a912a5d3348012e245bb16e2cab11d4cc" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$xmlEntities</name></member>
+      <member refid="classnusoap__base_1a170fda624f458ce4f4b29e496ebfce4c" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>$XMLSchemaVersion</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>appendDebug</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>appendDebug</name></member>
+      <member refid="classsoap__parser_1a8a4609375662042387aa159de2edd196" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>buildVal</name></member>
+      <member refid="classsoap__parser_1a8a4609375662042387aa159de2edd196" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>buildVal</name></member>
+      <member refid="classsoap__parser_1a592a4f9b601cc33f15de0ad7a9c49ae5" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>character_data</name></member>
+      <member refid="classsoap__parser_1a592a4f9b601cc33f15de0ad7a9c49ae5" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>character_data</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>debug</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>debug</name></member>
+      <member refid="classsoap__parser_1a9094260815e81487fef378ac6222e9a9" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>decodeSimple</name></member>
+      <member refid="classsoap__parser_1a9094260815e81487fef378ac6222e9a9" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>decodeSimple</name></member>
+      <member refid="classsoap__parser_1ad45367c512cbc2d4679d1a49db3802f2" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>end_element</name></member>
+      <member refid="classsoap__parser_1ad45367c512cbc2d4679d1a49db3802f2" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>end_element</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>formatDump</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>formatDump</name></member>
+      <member refid="classsoap__parser_1acf3c69045efc130d3a325c26bd6ac5d0" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>get_response</name></member>
+      <member refid="classsoap__parser_1acf3c69045efc130d3a325c26bd6ac5d0" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>get_response</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classsoap__parser_1a157e0005d82edaa21cbea07fdc5c62da" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getHeaders</name></member>
+      <member refid="classsoap__parser_1a157e0005d82edaa21cbea07fdc5c62da" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getHeaders</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>nusoap_base</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>nusoap_base</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>serializeEnvelope</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>serializeEnvelope</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>setDebugLevel</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>setDebugLevel</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classsoap__parser_1a632e9d47e42c4f6660f9daed90058af5" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>soap_parser</name></member>
+      <member refid="classsoap__parser_1a632e9d47e42c4f6660f9daed90058af5" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>soap_parser</name></member>
+      <member refid="classsoap__parser_1abf9dc4b028eeac08eeca4c7309a950e2" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>start_element</name></member>
+      <member refid="classsoap__parser_1abf9dc4b028eeac08eeca4c7309a950e2" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>start_element</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>varDump</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>soap_parser</scope><name>varDump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

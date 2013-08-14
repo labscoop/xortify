@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_cache" kind="class" prot="public">
+    <compoundname>Cache</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_cache_1a8a3b012ad4844366d9207d8f0e174a00" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$engine</definition>
+        <argsstring></argsstring>
+        <name>$engine</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="32" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cache_1a95691168d68a876ecc24c7dad14ef24e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$configs</definition>
+        <argsstring></argsstring>
+        <name>$configs</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="42" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cache_1ab2fc40d43824ea3e1ce5d86dee0d763b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$name</definition>
+        <argsstring></argsstring>
+        <name>$name</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="50" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cache_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_cache_1a095c5d389db211932136b53f25f39685" kindref="member">Cache::__construct()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="55" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1a24722ded84823064fa9927e17344d095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>&amp;</type>
+        <definition>&amp; getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a singleton instance</para><para><simplesect kind="return"><para>object  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="65" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="65" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1a71966fba19d8d30f58bde31dac2535e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>loadEngine</definition>
+        <argsstring>($name)</argsstring>
+        <name>loadEngine</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tries to find and include a file for a cache engine and returns object instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the engine </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed $engine object or null  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="82" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="82" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1aeee7a9202d7c4e6283d6b2d6fc3c49d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>config</definition>
+        <argsstring>($name= &apos;default&apos;, $settings=array())</argsstring>
+        <name>config</name>
+        <param>
+          <declname>$name</declname>
+          <defval>&apos;default&apos;</defval>
+        </param>
+        <param>
+          <declname>$settings</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the cache configuration to use</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the configuration </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional associative array of settings passed to the engine </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array (engine, settings) on success, false on failure  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="103" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="103" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1a227d1ab3c57640a1692c8d090eb4ef22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>engine</definition>
+        <argsstring>($name= &apos;file&apos;, $settings=array())</argsstring>
+        <name>engine</name>
+        <param>
+          <declname>$name</declname>
+          <defval>&apos;file&apos;</defval>
+        </param>
+        <param>
+          <declname>$settings</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the cache engine to use or modify settings for one instance</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the engine (without &apos;Engine&apos;) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional associative array of settings passed to the engine </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True on success, false on failure  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="152" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="152" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1a14ff7ef4b198ff14884dd8c564264ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gc</definition>
+        <argsstring>()</argsstring>
+        <name>gc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Garbage collection</para><para>Permanently remove all expired and deleted data</para><para>public </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="186" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="186" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1ac9098bc72089de2a7c740dbd5ece9223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>write</definition>
+        <argsstring>($key, $value, $duration=null)</argsstring>
+        <name>write</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$duration</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write data for key into cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier for the data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data to be cached - anything except a resource </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional - string configuration name OR how long to cache the data, either in seconds or a string that can be parsed by the strtotime() function OR array(&apos;config&apos; =&gt; &apos;default&apos;, &apos;duration&apos; =&gt; &apos;3600&apos;) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True if the data was successfully cached, false on failure  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="204" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="204" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1a5870656fdf4e51f8bb35330a8f96ed6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>read</definition>
+        <argsstring>($key, $config=null)</argsstring>
+        <name>read</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$config</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read a key from the cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier for the data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the configuration to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed The cached data, or false if the data doesn&apos;t exist, has expired, or if there was an error fetching it  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="256" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="256" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1aef2e9cbd8c2e91aea52d627293fc0a28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>($key, $config=null)</argsstring>
+        <name>delete</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$config</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete a key from the cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier for the data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the configuration to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True if the value was succesfully deleted, false if it didn&apos;t exist or couldn&apos;t be removed  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="287" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="287" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1a35d236a4ee7acd2c6d17d03f69fde9de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clear</definition>
+        <argsstring>($check=false, $config=null)</argsstring>
+        <name>clear</name>
+        <param>
+          <declname>$check</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <declname>$config</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete all keys from the cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>boolean</parametertype>
+<parametername>$check</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true will check expiration, otherwise delete all </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the configuration to use </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True if the cache was succesfully cleared, false otherwise  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="316" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="316" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1a893f76ab9fd416c1558c366ff5936070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isInitialized</definition>
+        <argsstring>($engine=null)</argsstring>
+        <name>isInitialized</name>
+        <param>
+          <declname>$engine</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check if <ref refid="class_cache" kindref="compound">Cache</ref> has initialized a working storage engine</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$engine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the engine </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the configuration setting </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="338" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="338" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1a80459923933ac7e60f64cd512670383a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>settings</definition>
+        <argsstring>($engine=null)</argsstring>
+        <name>settings</name>
+        <param>
+          <declname>$engine</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the settings for current cache engine</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$engine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the engine </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array list of settings for this engine  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="355" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="355" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_1af4c22495d0ca7e3289b851342a57f842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>key</definition>
+        <argsstring>($key)</argsstring>
+        <name>key</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>generates a safe key</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the key passed over </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed string $key or false  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="374" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="374" bodyend="381"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Caching for CakePHP. </para>    </detaileddescription>
+    <location file="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" line="25" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/cache.php" bodystart="24" bodyend="382"/>
+    <listofallmembers>
+      <member refid="class_cache_1a95691168d68a876ecc24c7dad14ef24e" prot="public" virt="non-virtual"><scope>Cache</scope><name>$configs</name></member>
+      <member refid="class_cache_1a8a3b012ad4844366d9207d8f0e174a00" prot="public" virt="non-virtual"><scope>Cache</scope><name>$engine</name></member>
+      <member refid="class_cache_1ab2fc40d43824ea3e1ce5d86dee0d763b" prot="public" virt="non-virtual"><scope>Cache</scope><name>$name</name></member>
+      <member refid="class_cache_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>Cache</scope><name>__construct</name></member>
+      <member refid="class_cache_1a35d236a4ee7acd2c6d17d03f69fde9de" prot="public" virt="non-virtual"><scope>Cache</scope><name>clear</name></member>
+      <member refid="class_cache_1aeee7a9202d7c4e6283d6b2d6fc3c49d1" prot="public" virt="non-virtual"><scope>Cache</scope><name>config</name></member>
+      <member refid="class_cache_1aef2e9cbd8c2e91aea52d627293fc0a28" prot="public" virt="non-virtual"><scope>Cache</scope><name>delete</name></member>
+      <member refid="class_cache_1a227d1ab3c57640a1692c8d090eb4ef22" prot="public" virt="non-virtual"><scope>Cache</scope><name>engine</name></member>
+      <member refid="class_cache_1a14ff7ef4b198ff14884dd8c564264ca3" prot="public" virt="non-virtual"><scope>Cache</scope><name>gc</name></member>
+      <member refid="class_cache_1a24722ded84823064fa9927e17344d095" prot="public" virt="non-virtual"><scope>Cache</scope><name>getInstance</name></member>
+      <member refid="class_cache_1a893f76ab9fd416c1558c366ff5936070" prot="public" virt="non-virtual"><scope>Cache</scope><name>isInitialized</name></member>
+      <member refid="class_cache_1af4c22495d0ca7e3289b851342a57f842" prot="public" virt="non-virtual"><scope>Cache</scope><name>key</name></member>
+      <member refid="class_cache_1a71966fba19d8d30f58bde31dac2535e4" prot="public" virt="non-virtual"><scope>Cache</scope><name>loadEngine</name></member>
+      <member refid="class_cache_1a5870656fdf4e51f8bb35330a8f96ed6c" prot="public" virt="non-virtual"><scope>Cache</scope><name>read</name></member>
+      <member refid="class_cache_1a80459923933ac7e60f64cd512670383a" prot="public" virt="non-virtual"><scope>Cache</scope><name>settings</name></member>
+      <member refid="class_cache_1ac9098bc72089de2a7c740dbd5ece9223" prot="public" virt="non-virtual"><scope>Cache</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

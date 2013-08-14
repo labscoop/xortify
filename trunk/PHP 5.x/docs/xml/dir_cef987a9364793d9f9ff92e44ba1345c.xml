@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_cef987a9364793d9f9ff92e44ba1345c" kind="dir">
+    <compoundname>Q:/@websites@/coop/labs/dev2/providers/projecthoneypot.org</compoundname>
+    <innerfile refid="projecthoneypot_8org_2post_8loader_8php">post.loader.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Q:/@websites@/coop/labs/dev2/providers/projecthoneypot.org/"/>
+  </compounddef>
+</doxygen>

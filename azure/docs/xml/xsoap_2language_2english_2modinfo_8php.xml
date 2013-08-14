@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xsoap_2language_2english_2modinfo_8php" kind="file">
+    <compoundname>modinfo.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ac14609a869878e1232175145ff977825" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_WDSL</definition>
+        <argsstring></argsstring>
+        <name>_XS_WDSL</name>
+        <initializer>&apos;Allow WDSL Soap Server&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1aeea69ac76a9e7e13dcae61cafbb6f1bb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_WDSLDESC</definition>
+        <argsstring></argsstring>
+        <name>_XS_WDSLDESC</name>
+        <initializer>&apos;Turn on and off WDSL Services&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1aa5c602b71897a6f44a076b2aad2dcad2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_USERAUTH</definition>
+        <argsstring></argsstring>
+        <name>_XS_USERAUTH</name>
+        <initializer>&apos;Requires Username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1aa687428d7ed486a6d4a9e08e771b0085" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_USERAUTHDESC</definition>
+        <argsstring></argsstring>
+        <name>_XS_USERAUTHDESC</name>
+        <initializer>&apos;Only Allows Site Users to use services&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a82f305d9de672ed8f2390183d7e2834a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_ADMINMENU_1</definition>
+        <argsstring></argsstring>
+        <name>_XS_ADMINMENU_1</name>
+        <initializer>&apos;Configure Tables&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a36f94a3ac5d8f11bd618e832206defa3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_ADMINMENU_2</definition>
+        <argsstring></argsstring>
+        <name>_XS_ADMINMENU_2</name>
+        <initializer>&apos;Configure Fields&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a70477f723421fb5ba646e4cfd0e5cfce" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_ADMINMENU_3</definition>
+        <argsstring></argsstring>
+        <name>_XS_ADMINMENU_3</name>
+        <initializer>&apos;Configure Views&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a29ffeae1774011182a435e825503cf0a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_ADMINMENU_4</definition>
+        <argsstring></argsstring>
+        <name>_XS_ADMINMENU_4</name>
+        <initializer>&apos;Configure Plugins&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ae91e69d57d48ac96e951f22a4c9d9ba0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_ADMINMENU_5</definition>
+        <argsstring></argsstring>
+        <name>_XS_ADMINMENU_5</name>
+        <initializer>&apos;Permissions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ae74455320c4ece6550f8a42f621c7819" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_PERMISSIONSVIEWMAN</definition>
+        <argsstring></argsstring>
+        <name>_XS_PERMISSIONSVIEWMAN</name>
+        <initializer>&apos;Function Call Permissions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a1564f09b5cef81d91a837e558dac05d7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_VIEW_FUNCTION</definition>
+        <argsstring></argsstring>
+        <name>_XS_VIEW_FUNCTION</name>
+        <initializer>&apos;Functions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1af92a7eddb3d0056316c6c9248cea6f9e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_NOPERMSSET</definition>
+        <argsstring></argsstring>
+        <name>_XS_NOPERMSSET</name>
+        <initializer>&apos;No Permissions Set&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ad1823a4c1983d218fb62c9a160e65db6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_VIEWSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XS_VIEWSFOR</name>
+        <initializer>&apos;Views for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a1942ba48ee3b00fa4e3c130daf5c7976" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_FIELDOPTIONSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XS_FIELDOPTIONSFOR</name>
+        <initializer>&apos;Field Options for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ae661e87d1516d95d06476a6e36e627eb" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SELECTTABLE</definition>
+        <argsstring></argsstring>
+        <name>_XS_SELECTTABLE</name>
+        <initializer>&apos;Select Table&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ae29a2d8ec883ed127c4dd3fb84837664" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_PLUGINAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XS_PLUGINAVAILABLE</name>
+        <initializer>&apos;Plugin\&apos;s Available&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a7d38398d1028f220b0d0ee00599f504f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_TABLESAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XS_TABLESAVAILABLE</name>
+        <initializer>&apos;Tables\&apos;s Available from &apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a8fb2cb896ff5a5ea53163f49b84aa7e7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_WSDLSUCCESSFUL</definition>
+        <argsstring></argsstring>
+        <name>_XS_WSDLSUCCESSFUL</name>
+        <initializer>&apos;Database Updated - Complete Compile of WSDL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a6c7cdd5afd534b120096c0ef0ff2e66b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_WSDLUNSUCCESSFUL</definition>
+        <argsstring></argsstring>
+        <name>_XS_WSDLUNSUCCESSFUL</name>
+        <initializer>&apos;Database Updated - Error Compiling WSDL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a97ca04c900ac9f5ccb2dbebd0519157a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_DATABASEUPDATED</definition>
+        <argsstring></argsstring>
+        <name>_XS_DATABASEUPDATED</name>
+        <initializer>&apos;Database Updated&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ad8d3a5ce56ab78d45c081a38a6bfde74" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS</name>
+        <initializer>&apos;Function lock out time&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ab6beaf8bd999e9946a9f0075e94931a9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_DESC</name>
+        <initializer>&apos;Period of time for locked function to be invocated on incorrect username and password details!!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a88fe80d4f737b59593992eb90e1ae852" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDSCACHE</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDSCACHE</name>
+        <initializer>&apos;Lockout cache stored for&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a3788afd74f3322ed3d759f2aed7ae6d3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDSCACHE_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDSCACHE_DESC</name>
+        <initializer>&apos;Period of time for cache function to be invocated!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1add0f98b1d7fc186e7dffc13ff5ffc8fc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_3600</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_3600</name>
+        <initializer>&apos;1 Hour&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a411c2eb3cc48428ef51546a4e77fa433" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_1800</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_1800</name>
+        <initializer>&apos;30 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a0819e5b9e7304d2e11d15f65a55c56aa" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_1200</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_1200</name>
+        <initializer>&apos;20 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="52" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a92aabd217dcdaf404657fd17e6b2b153" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_600</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_600</name>
+        <initializer>&apos;10 minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="53" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a178923aba43a79e9b0075bc656f86049" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_300</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_300</name>
+        <initializer>&apos;5 Minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a39b1f67cc62724c46793cd7b3ce42134" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_180</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_180</name>
+        <initializer>&apos;3 Minutes&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="55" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ac65db37bb2e6220c073e33526c5ada77" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_60</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_60</name>
+        <initializer>&apos;1 Minute&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="56" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ade2dcc43978d2a1e9af13a9dcaf031bd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_SECONDS_30</definition>
+        <argsstring></argsstring>
+        <name>_XS_SECONDS_30</name>
+        <initializer>&apos;30 Seconds&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1a864cbb2736226e28ff5e237b696c7034" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_USERANDOMLOCK</definition>
+        <argsstring></argsstring>
+        <name>_XS_USERANDOMLOCK</name>
+        <initializer>&apos;Random seconds seed (maximum value)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xsoap_2language_2english_2modinfo_8php_1ac9e8f2b477e79a10f7611c3d3df6eba7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XS_USERANDOMLOCK_DESC</definition>
+        <argsstring></argsstring>
+        <name>_XS_USERANDOMLOCK_DESC</name>
+        <initializer>&apos;You should not set this above the maximum function lockout time!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_WDSL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Allow<sp/>WDSL<sp/>Soap<sp/>Server&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_WDSLDESC&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Turn<sp/>on<sp/>and<sp/>off<sp/>WDSL<sp/>Services&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_USERAUTH&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Requires<sp/>Username&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_USERAUTHDESC&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Only<sp/>Allows<sp/>Site<sp/>Users<sp/>to<sp/>use<sp/>services&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_ADMINMENU_1&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Tables&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_ADMINMENU_2&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Fields&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_ADMINMENU_3&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Views&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_ADMINMENU_4&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Configure<sp/>Plugins&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_ADMINMENU_5&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Permissions&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_PERMISSIONSVIEWMAN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Function<sp/>Call<sp/>Permissions&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_VIEW_FUNCTION&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Functions&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_NOPERMSSET&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;No<sp/>Permissions<sp/>Set&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_VIEWSFOR&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Views<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_FIELDOPTIONSFOR&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Field<sp/>Options<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SELECTTABLE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Select<sp/>Table&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_PLUGINAVAILABLE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Plugin\&apos;s<sp/>Available&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_TABLESAVAILABLE&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Tables\&apos;s<sp/>Available<sp/>from<sp/>&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_WSDLSUCCESSFUL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Database<sp/>Updated<sp/>-<sp/>Complete<sp/>Compile<sp/>of<sp/>WSDL&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_WSDLUNSUCCESSFUL&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Database<sp/>Updated<sp/>-<sp/>Error<sp/>Compiling<sp/>WSDL&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_DATABASEUPDATED&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Database<sp/>Updated&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Function<sp/>lock<sp/>out<sp/>time&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>locked<sp/>function<sp/>to<sp/>be<sp/>invocated<sp/>on<sp/>incorrect<sp/>username<sp/>and<sp/>password<sp/>details!!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDSCACHE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Lockout<sp/>cache<sp/>stored<sp/>for&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDSCACHE_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Period<sp/>of<sp/>time<sp/>for<sp/>cache<sp/>function<sp/>to<sp/>be<sp/>invocated!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_3600&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Hour&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_1800&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;30<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_1200&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;20<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_600&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;10<sp/>minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_300&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;5<sp/>Minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_180&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;3<sp/>Minutes&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_60&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>Minute&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_SECONDS_30&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;30<sp/>Seconds&apos;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_USERANDOMLOCK&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Random<sp/>seconds<sp/>seed<sp/>(maximum<sp/>value)&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XS_USERANDOMLOCK_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>should<sp/>not<sp/>set<sp/>this<sp/>above<sp/>the<sp/>maximum<sp/>function<sp/>lockout<sp/>time!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/language/english/modinfo.php"/>
+  </compounddef>
+</doxygen>

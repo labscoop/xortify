@@ -1,0 +1,953 @@
+\hypertarget{class_x_m_l_schema}{\section{X\-M\-L\-Schema Class Reference}
+\label{class_x_m_l_schema}\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}}
+}
+
+
+Inheritance diagram for X\-M\-L\-Schema\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_x_m_l_schema__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for X\-M\-L\-Schema\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_x_m_l_schema__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_x_m_l_schema_a61d4e34cfda30d67186a9a6094c6d7c9}{X\-M\-L\-Schema} (\$schema='', \$xml='', \$namespaces=array())
+\item 
+\hyperlink{class_x_m_l_schema_a4495d09bfd675f7fbd6b6918ecc84795}{parse\-File} (\$xml, \$type)
+\item 
+\hyperlink{class_x_m_l_schema_ad3efb7e0aa9ceb47b09783473a7deae6}{parse\-String} (\$xml, \$type)
+\item 
+\hyperlink{class_x_m_l_schema_abe761abcfe8369fb87739c8d776eead0}{schema\-Start\-Element} (\$parser, \$name, \$attrs)
+\item 
+\hyperlink{class_x_m_l_schema_a8e536da75a8a0d3f44d6d275ff4229c9}{schema\-End\-Element} (\$parser, \$name)
+\item 
+\hyperlink{class_x_m_l_schema_af69d1aa4838f91acf8066b8f33e2a016}{schema\-Character\-Data} (\$parser, \$data)
+\item 
+\hyperlink{class_x_m_l_schema_ae1f5bc3d8e49c4592e8d00d7890f3e47}{serialize\-Schema} ()
+\item 
+\hyperlink{class_x_m_l_schema_af7f8d34ac5331189b07d83cb9fa5f4e9}{xdebug} (\$string)
+\item 
+\hyperlink{class_x_m_l_schema_aebfbaab31cdb69fabf5a7c5f2bbd605b}{get\-P\-H\-P\-Type} (\$type, \$ns)
+\item 
+\hyperlink{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}{get\-Type\-Def} (\$type)
+\item 
+\hyperlink{class_x_m_l_schema_a6ede91c15c6a31e99181cd698f06365c}{serialize\-Type\-Def} (\$type)
+\item 
+\hyperlink{class_x_m_l_schema_ad829fa57be032e351ebf74b60918c8ba}{type\-To\-Form} (\$name, \$type)
+\item 
+\hyperlink{class_x_m_l_schema_a8086789ccd44f879ab77ba98dfa08aa2}{add\-Complex\-Type} (\$name, \$type\-Class='complex\-Type', \$php\-Type='array', \$compositor='', \$restriction\-Base='', \$elements=array(), \$attrs=array(), \$array\-Type='')
+\item 
+\hyperlink{class_x_m_l_schema_a31228a55d8cdb602e32f481406e7455c}{add\-Simple\-Type} (\$name, \$restriction\-Base='', \$type\-Class='simple\-Type', \$php\-Type='scalar', \$enumeration=array())
+\item 
+\hyperlink{class_x_m_l_schema_a7341d393047f63fdcb50dd44d2eff448}{add\-Element} (\$attrs)
+\item 
+\hyperlink{class_x_m_l_schema_a61d4e34cfda30d67186a9a6094c6d7c9}{X\-M\-L\-Schema} (\$schema='', \$xml='', \$namespaces=array())
+\item 
+\hyperlink{class_x_m_l_schema_a4495d09bfd675f7fbd6b6918ecc84795}{parse\-File} (\$xml, \$type)
+\item 
+\hyperlink{class_x_m_l_schema_ad3efb7e0aa9ceb47b09783473a7deae6}{parse\-String} (\$xml, \$type)
+\item 
+\hyperlink{class_x_m_l_schema_abe761abcfe8369fb87739c8d776eead0}{schema\-Start\-Element} (\$parser, \$name, \$attrs)
+\item 
+\hyperlink{class_x_m_l_schema_a8e536da75a8a0d3f44d6d275ff4229c9}{schema\-End\-Element} (\$parser, \$name)
+\item 
+\hyperlink{class_x_m_l_schema_af69d1aa4838f91acf8066b8f33e2a016}{schema\-Character\-Data} (\$parser, \$data)
+\item 
+\hyperlink{class_x_m_l_schema_ae1f5bc3d8e49c4592e8d00d7890f3e47}{serialize\-Schema} ()
+\item 
+\hyperlink{class_x_m_l_schema_af7f8d34ac5331189b07d83cb9fa5f4e9}{xdebug} (\$string)
+\item 
+\hyperlink{class_x_m_l_schema_aebfbaab31cdb69fabf5a7c5f2bbd605b}{get\-P\-H\-P\-Type} (\$type, \$ns)
+\item 
+\hyperlink{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}{get\-Type\-Def} (\$type)
+\item 
+\hyperlink{class_x_m_l_schema_a6ede91c15c6a31e99181cd698f06365c}{serialize\-Type\-Def} (\$type)
+\item 
+\hyperlink{class_x_m_l_schema_ad829fa57be032e351ebf74b60918c8ba}{type\-To\-Form} (\$name, \$type)
+\item 
+\hyperlink{class_x_m_l_schema_a8086789ccd44f879ab77ba98dfa08aa2}{add\-Complex\-Type} (\$name, \$type\-Class='complex\-Type', \$php\-Type='array', \$compositor='', \$restriction\-Base='', \$elements=array(), \$attrs=array(), \$array\-Type='')
+\item 
+\hyperlink{class_x_m_l_schema_a31228a55d8cdb602e32f481406e7455c}{add\-Simple\-Type} (\$name, \$restriction\-Base='', \$type\-Class='simple\-Type', \$php\-Type='scalar', \$enumeration=array())
+\item 
+\hyperlink{class_x_m_l_schema_a7341d393047f63fdcb50dd44d2eff448}{add\-Element} (\$attrs)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_x_m_l_schema_a83022b1d70799d2bde3d64dca9cb40ee}{{\bfseries \$schema} = ''}\label{class_x_m_l_schema_a83022b1d70799d2bde3d64dca9cb40ee}
+
+\item 
+\hypertarget{class_x_m_l_schema_aa108d9d91e700ac530401dd363b0723b}{{\bfseries \$xml} = ''}\label{class_x_m_l_schema_aa108d9d91e700ac530401dd363b0723b}
+
+\item 
+\hypertarget{class_x_m_l_schema_a4ed6b922bbc98b7b09a14bbf141e0ada}{{\bfseries \$enclosing\-Namespaces}}\label{class_x_m_l_schema_a4ed6b922bbc98b7b09a14bbf141e0ada}
+
+\item 
+\hypertarget{class_x_m_l_schema_a3c87187fdb02d5c69ab1659f5c9a1099}{{\bfseries \$schema\-Info} = array()}\label{class_x_m_l_schema_a3c87187fdb02d5c69ab1659f5c9a1099}
+
+\item 
+\hypertarget{class_x_m_l_schema_a0b39c1afa0ee87e3ee1611e3325ad28d}{{\bfseries \$schema\-Target\-Namespace} = ''}\label{class_x_m_l_schema_a0b39c1afa0ee87e3ee1611e3325ad28d}
+
+\item 
+\hypertarget{class_x_m_l_schema_adc851f7a62250e75df0490c0280aef4c}{{\bfseries \$attributes} = array()}\label{class_x_m_l_schema_adc851f7a62250e75df0490c0280aef4c}
+
+\item 
+\hypertarget{class_x_m_l_schema_acf1dbaf5ad35f659428a61193928b78d}{{\bfseries \$complex\-Types} = array()}\label{class_x_m_l_schema_acf1dbaf5ad35f659428a61193928b78d}
+
+\item 
+\hypertarget{class_x_m_l_schema_aa99207ae2f6e513f071e064ed93d6e43}{{\bfseries \$complex\-Type\-Stack} = array()}\label{class_x_m_l_schema_aa99207ae2f6e513f071e064ed93d6e43}
+
+\item 
+\hypertarget{class_x_m_l_schema_aaa10b6abe9a98459054311aae8844fab}{{\bfseries \$current\-Complex\-Type} = null}\label{class_x_m_l_schema_aaa10b6abe9a98459054311aae8844fab}
+
+\item 
+\hypertarget{class_x_m_l_schema_ad18dd8fbe31b294e2bc4711dcde4548d}{{\bfseries \$elements} = array()}\label{class_x_m_l_schema_ad18dd8fbe31b294e2bc4711dcde4548d}
+
+\item 
+\hypertarget{class_x_m_l_schema_a9611ba868e9813aad53a75e370eef276}{{\bfseries \$element\-Stack} = array()}\label{class_x_m_l_schema_a9611ba868e9813aad53a75e370eef276}
+
+\item 
+\hypertarget{class_x_m_l_schema_a9804037add953a13a31d6ae239528c63}{{\bfseries \$current\-Element} = null}\label{class_x_m_l_schema_a9804037add953a13a31d6ae239528c63}
+
+\item 
+\hypertarget{class_x_m_l_schema_ad887c39157b1519b7c05efeee6364642}{{\bfseries \$simple\-Types} = array()}\label{class_x_m_l_schema_ad887c39157b1519b7c05efeee6364642}
+
+\item 
+\hypertarget{class_x_m_l_schema_a53f10697ad642da94db8cf98a2543a2c}{{\bfseries \$simple\-Type\-Stack} = array()}\label{class_x_m_l_schema_a53f10697ad642da94db8cf98a2543a2c}
+
+\item 
+\hypertarget{class_x_m_l_schema_a8ac76309526513ff285f8361308f4315}{{\bfseries \$current\-Simple\-Type} = null}\label{class_x_m_l_schema_a8ac76309526513ff285f8361308f4315}
+
+\item 
+\hypertarget{class_x_m_l_schema_a16ebe43772478ca9d7f3092ea6a325f1}{{\bfseries \$imports} = array()}\label{class_x_m_l_schema_a16ebe43772478ca9d7f3092ea6a325f1}
+
+\item 
+\hypertarget{class_x_m_l_schema_a147a766daa03d52576c7345fea31c945}{{\bfseries \$parser}}\label{class_x_m_l_schema_a147a766daa03d52576c7345fea31c945}
+
+\item 
+\hypertarget{class_x_m_l_schema_a6e88dcb746884d18f6c89eb9b9c14a42}{{\bfseries \$position} = 0}\label{class_x_m_l_schema_a6e88dcb746884d18f6c89eb9b9c14a42}
+
+\item 
+\hypertarget{class_x_m_l_schema_a0abb04e6a8a04e161eb4657f54848b18}{{\bfseries \$depth} = 0}\label{class_x_m_l_schema_a0abb04e6a8a04e161eb4657f54848b18}
+
+\item 
+\hypertarget{class_x_m_l_schema_aaaa53c3e91636edd41a46e767abb3347}{{\bfseries \$depth\-\_\-array} = array()}\label{class_x_m_l_schema_aaaa53c3e91636edd41a46e767abb3347}
+
+\item 
+\hypertarget{class_x_m_l_schema_abf17cb2dba2ed17cb28aa5f37deb5293}{{\bfseries \$message} = array()}\label{class_x_m_l_schema_abf17cb2dba2ed17cb28aa5f37deb5293}
+
+\item 
+\hypertarget{class_x_m_l_schema_aa42cc9586912dade6e7c4da10777efe5}{{\bfseries \$default\-Namespace} = array()}\label{class_x_m_l_schema_aa42cc9586912dade6e7c4da10777efe5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+parses an X\-M\-L Schema, allows access to it's data, other utility methods no validation... yet. very experimental and limited. As is discussed on X\-M\-L-\/\-D\-E\-V, I'm one of the people that just doesn't have time to read the spec(s) thoroughly, and just have a couple of trusty tutorials I refer to \-:)
+
+\begin{DoxyAuthor}{Author}
+Dietrich Ayala \href{mailto:dietrich@ganx4.com}{\tt dietrich@ganx4.\-com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id\-:}
+\hyperlink{class_8xmlschema_8php_source}{class.\-xmlschema.\-php},v 1.\-39 2005/08/04 01\-:27\-:42 snichol Exp 
+\end{DoxyParagraph}
+public
+
+parses an X\-M\-L Schema, allows access to it's data, other utility methods no validation... yet. very experimental and limited. As is discussed on X\-M\-L-\/\-D\-E\-V, I'm one of the people that just doesn't have time to read the spec(s) thoroughly, and just have a couple of trusty tutorials I refer to \-:)
+
+\begin{DoxyAuthor}{Author}
+Dietrich Ayala \href{mailto:dietrich@ganx4.com}{\tt dietrich@ganx4.\-com} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id\-:}
+\hyperlink{nusoap_8php_source}{nusoap.\-php},v 1.\-94 2005/08/04 01\-:27\-:42 snichol Exp 
+\end{DoxyParagraph}
+public 
+
+Definition at line 17 of file class.\-xmlschema.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_x_m_l_schema_a8086789ccd44f879ab77ba98dfa08aa2}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!add\-Complex\-Type@{add\-Complex\-Type}}
+\index{add\-Complex\-Type@{add\-Complex\-Type}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{add\-Complex\-Type}]{\setlength{\rightskip}{0pt plus 5cm}add\-Complex\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type\-Class = {\ttfamily 'complexType'}, }
+\item[{}]{\$php\-Type = {\ttfamily 'array'}, }
+\item[{}]{\$compositor = {\ttfamily ''}, }
+\item[{}]{\$restriction\-Base = {\ttfamily ''}, }
+\item[{}]{\$elements = {\ttfamily array()}, }
+\item[{}]{\$attrs = {\ttfamily array()}, }
+\item[{}]{\$array\-Type = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a8086789ccd44f879ab77ba98dfa08aa2}
+adds a complex type to the schema
+
+example\-: array
+
+add\-Type( 'Array\-Ofstring', 'complex\-Type', 'array', '', 'S\-O\-A\-P-\/\-E\-N\-C\-:Array', array('ref'=$>$'S\-O\-A\-P-\/\-E\-N\-C\-:array\-Type','wsdl\-:array\-Type'=$>$'string\mbox{[}\mbox{]}'), 'xsd\-:string' );
+
+example\-: P\-H\-P associative array ( S\-O\-A\-P Struct )
+
+add\-Type( 'S\-O\-A\-P\-Struct', 'complex\-Type', 'struct', 'all', array('my\-Var'=$>$ array('name'=$>$'my\-Var','type'=$>$'string') );
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em type\-Class} & (complex\-Type$|$simple\-Type$|$attribute) \\
+\hline
+{\em php\-Type,\-:} & currently supported are array and struct (php assoc array) \\
+\hline
+{\em compositor} & (all$|$sequence$|$choice) \\
+\hline
+{\em restriction\-Base} & namespace\-:name (\href{http://schemas.xmlsoap.org/soap/encoding/:Array}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:\-Array}) \\
+\hline
+{\em elements} & = array ( name = array(name=$>$'',type=$>$'') ) \\
+\hline
+{\em attrs} & = array( array( 'ref' =$>$ \char`\"{}http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:array\-Type\char`\"{}, \char`\"{}http\-://schemas.\-xmlsoap.\-org/wsdl/\-:array\-Type\char`\"{} =$>$ \char`\"{}string\mbox{[}$\,$\mbox{]}\char`\"{} ) ) \\
+\hline
+{\em array\-Type,\-:} & namespace\-:name (\href{http://www.w3.org/2001/XMLSchema:string}{\tt http\-://www.\-w3.\-org/2001/\-X\-M\-L\-Schema\-:string})  public \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}{get\-Type\-Def} 
+\end{DoxySeeAlso}
+
+
+Definition at line 843 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_a8086789ccd44f879ab77ba98dfa08aa2}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!add\-Complex\-Type@{add\-Complex\-Type}}
+\index{add\-Complex\-Type@{add\-Complex\-Type}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{add\-Complex\-Type}]{\setlength{\rightskip}{0pt plus 5cm}add\-Complex\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type\-Class = {\ttfamily 'complexType'}, }
+\item[{}]{\$php\-Type = {\ttfamily 'array'}, }
+\item[{}]{\$compositor = {\ttfamily ''}, }
+\item[{}]{\$restriction\-Base = {\ttfamily ''}, }
+\item[{}]{\$elements = {\ttfamily array()}, }
+\item[{}]{\$attrs = {\ttfamily array()}, }
+\item[{}]{\$array\-Type = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a8086789ccd44f879ab77ba98dfa08aa2}
+adds a complex type to the schema
+
+example\-: array
+
+add\-Type( 'Array\-Ofstring', 'complex\-Type', 'array', '', 'S\-O\-A\-P-\/\-E\-N\-C\-:Array', array('ref'=$>$'S\-O\-A\-P-\/\-E\-N\-C\-:array\-Type','wsdl\-:array\-Type'=$>$'string\mbox{[}\mbox{]}'), 'xsd\-:string' );
+
+example\-: P\-H\-P associative array ( S\-O\-A\-P Struct )
+
+add\-Type( 'S\-O\-A\-P\-Struct', 'complex\-Type', 'struct', 'all', array('my\-Var'=$>$ array('name'=$>$'my\-Var','type'=$>$'string') );
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em type\-Class} & (complex\-Type$|$simple\-Type$|$attribute) \\
+\hline
+{\em php\-Type,\-:} & currently supported are array and struct (php assoc array) \\
+\hline
+{\em compositor} & (all$|$sequence$|$choice) \\
+\hline
+{\em restriction\-Base} & namespace\-:name (\href{http://schemas.xmlsoap.org/soap/encoding/:Array}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:\-Array}) \\
+\hline
+{\em elements} & = array ( name = array(name=$>$'',type=$>$'') ) \\
+\hline
+{\em attrs} & = array( array( 'ref' =$>$ \char`\"{}http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:array\-Type\char`\"{}, \char`\"{}http\-://schemas.\-xmlsoap.\-org/wsdl/\-:array\-Type\char`\"{} =$>$ \char`\"{}string\mbox{[}$\,$\mbox{]}\char`\"{} ) ) \\
+\hline
+{\em array\-Type,\-:} & namespace\-:name (\href{http://www.w3.org/2001/XMLSchema:string}{\tt http\-://www.\-w3.\-org/2001/\-X\-M\-L\-Schema\-:string})  public \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}{get\-Type\-Def} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1828 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_a7341d393047f63fdcb50dd44d2eff448}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!add\-Element@{add\-Element}}
+\index{add\-Element@{add\-Element}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{add\-Element}]{\setlength{\rightskip}{0pt plus 5cm}add\-Element (
+\begin{DoxyParamCaption}
+\item[{}]{\$attrs}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a7341d393047f63fdcb50dd44d2eff448}
+adds an element to the schema
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attrs} & attributes that must include name and type \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema  public 
+\end{DoxySeeAlso}
+
+
+Definition at line 891 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_a7341d393047f63fdcb50dd44d2eff448}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!add\-Element@{add\-Element}}
+\index{add\-Element@{add\-Element}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{add\-Element}]{\setlength{\rightskip}{0pt plus 5cm}add\-Element (
+\begin{DoxyParamCaption}
+\item[{}]{\$attrs}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a7341d393047f63fdcb50dd44d2eff448}
+adds an element to the schema
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attrs} & attributes that must include name and type \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema  public 
+\end{DoxySeeAlso}
+
+
+Definition at line 1876 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_a31228a55d8cdb602e32f481406e7455c}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!add\-Simple\-Type@{add\-Simple\-Type}}
+\index{add\-Simple\-Type@{add\-Simple\-Type}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{add\-Simple\-Type}]{\setlength{\rightskip}{0pt plus 5cm}add\-Simple\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$restriction\-Base = {\ttfamily ''}, }
+\item[{}]{\$type\-Class = {\ttfamily 'simpleType'}, }
+\item[{}]{\$php\-Type = {\ttfamily 'scalar'}, }
+\item[{}]{\$enumeration = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a31228a55d8cdb602e32f481406e7455c}
+adds a simple type to the schema
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$restriction\-Base} & namespace\-:name (\href{http://schemas.xmlsoap.org/soap/encoding/:Array}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:\-Array}) \\
+\hline
+string & {\em \$type\-Class} & (should always be simple\-Type) \\
+\hline
+string & {\em \$php\-Type} & (should always be scalar) \\
+\hline
+array & {\em \$enumeration} & array of values  public \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema 
+
+\hyperlink{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}{get\-Type\-Def} 
+\end{DoxySeeAlso}
+
+
+Definition at line 871 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_a31228a55d8cdb602e32f481406e7455c}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!add\-Simple\-Type@{add\-Simple\-Type}}
+\index{add\-Simple\-Type@{add\-Simple\-Type}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{add\-Simple\-Type}]{\setlength{\rightskip}{0pt plus 5cm}add\-Simple\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$restriction\-Base = {\ttfamily ''}, }
+\item[{}]{\$type\-Class = {\ttfamily 'simpleType'}, }
+\item[{}]{\$php\-Type = {\ttfamily 'scalar'}, }
+\item[{}]{\$enumeration = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a31228a55d8cdb602e32f481406e7455c}
+adds a simple type to the schema
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$restriction\-Base} & namespace\-:name (\href{http://schemas.xmlsoap.org/soap/encoding/:Array}{\tt http\-://schemas.\-xmlsoap.\-org/soap/encoding/\-:\-Array}) \\
+\hline
+string & {\em \$type\-Class} & (should always be simple\-Type) \\
+\hline
+string & {\em \$php\-Type} & (should always be scalar) \\
+\hline
+array & {\em \$enumeration} & array of values  public \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+xmlschema 
+
+\hyperlink{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}{get\-Type\-Def} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1856 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_aebfbaab31cdb69fabf5a7c5f2bbd605b}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!get\-P\-H\-P\-Type@{get\-P\-H\-P\-Type}}
+\index{get\-P\-H\-P\-Type@{get\-P\-H\-P\-Type}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{get\-P\-H\-P\-Type}]{\setlength{\rightskip}{0pt plus 5cm}get\-P\-H\-P\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$type, }
+\item[{}]{\$ns}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_aebfbaab31cdb69fabf5a7c5f2bbd605b}
+get the P\-H\-P type of a user defined type in the schema P\-H\-P type is kind of a misnomer since it actually returns 'struct' for assoc. arrays returns false if no type exists, or not w/ the given namespace else returns a string that is either a native php type, or 'struct'
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$type,name} & of defined type \\
+\hline
+string & {\em \$ns,namespace} & of type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000009}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 633 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_aebfbaab31cdb69fabf5a7c5f2bbd605b}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!get\-P\-H\-P\-Type@{get\-P\-H\-P\-Type}}
+\index{get\-P\-H\-P\-Type@{get\-P\-H\-P\-Type}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{get\-P\-H\-P\-Type}]{\setlength{\rightskip}{0pt plus 5cm}get\-P\-H\-P\-Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$type, }
+\item[{}]{\$ns}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_aebfbaab31cdb69fabf5a7c5f2bbd605b}
+get the P\-H\-P type of a user defined type in the schema P\-H\-P type is kind of a misnomer since it actually returns 'struct' for assoc. arrays returns false if no type exists, or not w/ the given namespace else returns a string that is either a native php type, or 'struct'
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$type,name} & of defined type \\
+\hline
+string & {\em \$ns,namespace} & of type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000015}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 1618 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!get\-Type\-Def@{get\-Type\-Def}}
+\index{get\-Type\-Def@{get\-Type\-Def}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{get\-Type\-Def}]{\setlength{\rightskip}{0pt plus 5cm}get\-Type\-Def (
+\begin{DoxyParamCaption}
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}
+returns an associative array of information about a given type returns false if no type exists by the given name
+
+For a complex\-Type type\-Def = array( 'restriction\-Base' =$>$ '', 'php\-Type' =$>$ '', 'compositor' =$>$ '(sequence$|$all)', 'elements' =$>$ array(), // refs to elements array 'attrs' =$>$ array() // refs to attributes array ... and so on (see add\-Complex\-Type) )
+
+For simple\-Type or element, the array has different keys.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed  public 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{class_x_m_l_schema_a8086789ccd44f879ab77ba98dfa08aa2}{add\-Complex\-Type} 
+
+\hyperlink{class_x_m_l_schema_a31228a55d8cdb602e32f481406e7455c}{add\-Simple\-Type} 
+
+\hyperlink{class_x_m_l_schema_a7341d393047f63fdcb50dd44d2eff448}{add\-Element} 
+\end{DoxySeeAlso}
+
+
+Definition at line 666 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!get\-Type\-Def@{get\-Type\-Def}}
+\index{get\-Type\-Def@{get\-Type\-Def}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{get\-Type\-Def}]{\setlength{\rightskip}{0pt plus 5cm}get\-Type\-Def (
+\begin{DoxyParamCaption}
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a4d3354e230b2cbe9cbf168665ef0a79d}
+returns an associative array of information about a given type returns false if no type exists by the given name
+
+For a complex\-Type type\-Def = array( 'restriction\-Base' =$>$ '', 'php\-Type' =$>$ '', 'compositor' =$>$ '(sequence$|$all)', 'elements' =$>$ array(), // refs to elements array 'attrs' =$>$ array() // refs to attributes array ... and so on (see add\-Complex\-Type) )
+
+For simple\-Type or element, the array has different keys.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed  public 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{class_x_m_l_schema_a8086789ccd44f879ab77ba98dfa08aa2}{add\-Complex\-Type} 
+
+\hyperlink{class_x_m_l_schema_a31228a55d8cdb602e32f481406e7455c}{add\-Simple\-Type} 
+
+\hyperlink{class_x_m_l_schema_a7341d393047f63fdcb50dd44d2eff448}{add\-Element} 
+\end{DoxySeeAlso}
+
+
+Definition at line 1651 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_a4495d09bfd675f7fbd6b6918ecc84795}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!parse\-File@{parse\-File}}
+\index{parse\-File@{parse\-File}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{parse\-File}]{\setlength{\rightskip}{0pt plus 5cm}parse\-File (
+\begin{DoxyParamCaption}
+\item[{}]{\$xml, }
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a4495d09bfd675f7fbd6b6918ecc84795}
+parse an X\-M\-L file
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$xml,path/\-U\-R\-L} & to X\-M\-L file \\
+\hline
+string & {\em \$type,(schema} & $|$ xml) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean  public 
+\end{DoxyReturn}
+
+
+Definition at line 89 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_a4495d09bfd675f7fbd6b6918ecc84795}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!parse\-File@{parse\-File}}
+\index{parse\-File@{parse\-File}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{parse\-File}]{\setlength{\rightskip}{0pt plus 5cm}parse\-File (
+\begin{DoxyParamCaption}
+\item[{}]{\$xml, }
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a4495d09bfd675f7fbd6b6918ecc84795}
+parse an X\-M\-L file
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$xml,path/\-U\-R\-L} & to X\-M\-L file \\
+\hline
+string & {\em \$type,(schema} & $|$ xml) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean  public 
+\end{DoxyReturn}
+
+
+Definition at line 1074 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_ad3efb7e0aa9ceb47b09783473a7deae6}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!parse\-String@{parse\-String}}
+\index{parse\-String@{parse\-String}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{parse\-String}]{\setlength{\rightskip}{0pt plus 5cm}parse\-String (
+\begin{DoxyParamCaption}
+\item[{}]{\$xml, }
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_ad3efb7e0aa9ceb47b09783473a7deae6}
+parse an X\-M\-L string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$xml} & path or U\-R\-L \\
+\hline
+string & {\em \$type,(schema$|$xml)} & private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 115 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_ad3efb7e0aa9ceb47b09783473a7deae6}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!parse\-String@{parse\-String}}
+\index{parse\-String@{parse\-String}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{parse\-String}]{\setlength{\rightskip}{0pt plus 5cm}parse\-String (
+\begin{DoxyParamCaption}
+\item[{}]{\$xml, }
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_ad3efb7e0aa9ceb47b09783473a7deae6}
+parse an X\-M\-L string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$xml} & path or U\-R\-L \\
+\hline
+string & {\em \$type,(schema$|$xml)} & private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1100 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_af69d1aa4838f91acf8066b8f33e2a016}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!schema\-Character\-Data@{schema\-Character\-Data}}
+\index{schema\-Character\-Data@{schema\-Character\-Data}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{schema\-Character\-Data}]{\setlength{\rightskip}{0pt plus 5cm}schema\-Character\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_af69d1aa4838f91acf8066b8f33e2a016}
+element content handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$data} & element content  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 495 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_af69d1aa4838f91acf8066b8f33e2a016}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!schema\-Character\-Data@{schema\-Character\-Data}}
+\index{schema\-Character\-Data@{schema\-Character\-Data}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{schema\-Character\-Data}]{\setlength{\rightskip}{0pt plus 5cm}schema\-Character\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_af69d1aa4838f91acf8066b8f33e2a016}
+element content handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$data} & element content  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1480 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_a8e536da75a8a0d3f44d6d275ff4229c9}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!schema\-End\-Element@{schema\-End\-Element}}
+\index{schema\-End\-Element@{schema\-End\-Element}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{schema\-End\-Element}]{\setlength{\rightskip}{0pt plus 5cm}schema\-End\-Element (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$name}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a8e536da75a8a0d3f44d6d275ff4229c9}
+end-\/element handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$name} & element name  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 458 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_a8e536da75a8a0d3f44d6d275ff4229c9}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!schema\-End\-Element@{schema\-End\-Element}}
+\index{schema\-End\-Element@{schema\-End\-Element}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{schema\-End\-Element}]{\setlength{\rightskip}{0pt plus 5cm}schema\-End\-Element (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$name}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a8e536da75a8a0d3f44d6d275ff4229c9}
+end-\/element handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$name} & element name  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1443 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_abe761abcfe8369fb87739c8d776eead0}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!schema\-Start\-Element@{schema\-Start\-Element}}
+\index{schema\-Start\-Element@{schema\-Start\-Element}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{schema\-Start\-Element}]{\setlength{\rightskip}{0pt plus 5cm}schema\-Start\-Element (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$name, }
+\item[{}]{\$attrs}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_abe761abcfe8369fb87739c8d776eead0}
+start-\/element handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$name} & element name \\
+\hline
+string & {\em \$attrs} & associative array of attributes  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 163 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_abe761abcfe8369fb87739c8d776eead0}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!schema\-Start\-Element@{schema\-Start\-Element}}
+\index{schema\-Start\-Element@{schema\-Start\-Element}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{schema\-Start\-Element}]{\setlength{\rightskip}{0pt plus 5cm}schema\-Start\-Element (
+\begin{DoxyParamCaption}
+\item[{}]{\$parser, }
+\item[{}]{\$name, }
+\item[{}]{\$attrs}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_abe761abcfe8369fb87739c8d776eead0}
+start-\/element handler
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$parser} & X\-M\-L parser object \\
+\hline
+string & {\em \$name} & element name \\
+\hline
+string & {\em \$attrs} & associative array of attributes  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1148 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_ae1f5bc3d8e49c4592e8d00d7890f3e47}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!serialize\-Schema@{serialize\-Schema}}
+\index{serialize\-Schema@{serialize\-Schema}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{serialize\-Schema}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Schema (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_ae1f5bc3d8e49c4592e8d00d7890f3e47}
+serialize the schema
+
+public 
+
+Definition at line 505 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_ae1f5bc3d8e49c4592e8d00d7890f3e47}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!serialize\-Schema@{serialize\-Schema}}
+\index{serialize\-Schema@{serialize\-Schema}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{serialize\-Schema}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Schema (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_ae1f5bc3d8e49c4592e8d00d7890f3e47}
+serialize the schema
+
+public 
+
+Definition at line 1490 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_a6ede91c15c6a31e99181cd698f06365c}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!serialize\-Type\-Def@{serialize\-Type\-Def}}
+\index{serialize\-Type\-Def@{serialize\-Type\-Def}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{serialize\-Type\-Def}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Type\-Def (
+\begin{DoxyParamCaption}
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a6ede91c15c6a31e99181cd698f06365c}
+returns a sample serialization of a given type, or false if no type by the given name
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$type,name} & of type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000010}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 735 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_a6ede91c15c6a31e99181cd698f06365c}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!serialize\-Type\-Def@{serialize\-Type\-Def}}
+\index{serialize\-Type\-Def@{serialize\-Type\-Def}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{serialize\-Type\-Def}]{\setlength{\rightskip}{0pt plus 5cm}serialize\-Type\-Def (
+\begin{DoxyParamCaption}
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a6ede91c15c6a31e99181cd698f06365c}
+returns a sample serialization of a given type, or false if no type by the given name
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$type,name} & of type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000016}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 1720 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_ad829fa57be032e351ebf74b60918c8ba}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!type\-To\-Form@{type\-To\-Form}}
+\index{type\-To\-Form@{type\-To\-Form}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{type\-To\-Form}]{\setlength{\rightskip}{0pt plus 5cm}type\-To\-Form (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_ad829fa57be032e351ebf74b60918c8ba}
+returns H\-T\-M\-L form elements that allow a user to enter values for creating an instance of the given type.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name,name} & for type instance \\
+\hline
+string & {\em \$type,name} & of type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000011}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 771 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_ad829fa57be032e351ebf74b60918c8ba}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!type\-To\-Form@{type\-To\-Form}}
+\index{type\-To\-Form@{type\-To\-Form}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{type\-To\-Form}]{\setlength{\rightskip}{0pt plus 5cm}type\-To\-Form (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_ad829fa57be032e351ebf74b60918c8ba}
+returns H\-T\-M\-L form elements that allow a user to enter values for creating an instance of the given type.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name,name} & for type instance \\
+\hline
+string & {\em \$type,name} & of type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string  public 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000017}{Deprecated}]\end{DoxyRefDesc}
+
+
+Definition at line 1756 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_af7f8d34ac5331189b07d83cb9fa5f4e9}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!xdebug@{xdebug}}
+\index{xdebug@{xdebug}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{xdebug}]{\setlength{\rightskip}{0pt plus 5cm}xdebug (
+\begin{DoxyParamCaption}
+\item[{}]{\$string}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_af7f8d34ac5331189b07d83cb9fa5f4e9}
+adds debug data to the clas level debug string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$string} & debug data  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 617 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_af7f8d34ac5331189b07d83cb9fa5f4e9}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!xdebug@{xdebug}}
+\index{xdebug@{xdebug}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{xdebug}]{\setlength{\rightskip}{0pt plus 5cm}xdebug (
+\begin{DoxyParamCaption}
+\item[{}]{\$string}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_af7f8d34ac5331189b07d83cb9fa5f4e9}
+adds debug data to the clas level debug string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$string} & debug data  private \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1602 of file nusoap.\-php.
+
+\hypertarget{class_x_m_l_schema_a61d4e34cfda30d67186a9a6094c6d7c9}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!X\-M\-L\-Schema@{X\-M\-L\-Schema}}
+\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{X\-M\-L\-Schema}]{\setlength{\rightskip}{0pt plus 5cm}{\bf X\-M\-L\-Schema} (
+\begin{DoxyParamCaption}
+\item[{}]{\$schema = {\ttfamily ''}, }
+\item[{}]{\$xml = {\ttfamily ''}, }
+\item[{}]{\$namespaces = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a61d4e34cfda30d67186a9a6094c6d7c9}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$schema} & schema document U\-R\-I \\
+\hline
+string & {\em \$xml} & xml document U\-R\-I \\
+\hline
+string & {\em \$namespaces} & namespaces defined in enclosing X\-M\-L  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 56 of file class.\-xmlschema.\-php.
+
+\hypertarget{class_x_m_l_schema_a61d4e34cfda30d67186a9a6094c6d7c9}{\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!X\-M\-L\-Schema@{X\-M\-L\-Schema}}
+\index{X\-M\-L\-Schema@{X\-M\-L\-Schema}!XMLSchema@{X\-M\-L\-Schema}}
+\subsubsection[{X\-M\-L\-Schema}]{\setlength{\rightskip}{0pt plus 5cm}{\bf X\-M\-L\-Schema} (
+\begin{DoxyParamCaption}
+\item[{}]{\$schema = {\ttfamily ''}, }
+\item[{}]{\$xml = {\ttfamily ''}, }
+\item[{}]{\$namespaces = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}\label{class_x_m_l_schema_a61d4e34cfda30d67186a9a6094c6d7c9}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$schema} & schema document U\-R\-I \\
+\hline
+string & {\em \$xml} & xml document U\-R\-I \\
+\hline
+string & {\em \$namespaces} & namespaces defined in enclosing X\-M\-L  public \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1041 of file nusoap.\-php.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.\-xmlschema.\-php\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.\-php\end{DoxyCompactItemize}

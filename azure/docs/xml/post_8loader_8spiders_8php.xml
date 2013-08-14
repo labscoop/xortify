@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="post_8loader_8spiders_8php" kind="file">
+    <compoundname>post.loader.spiders.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1a6611624ba4b7160832558c8d9b21ccc8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>if(!defined(&apos;_MI_SPIDERS_DIRNAME&apos;)) define(&apos;_MI_SPIDERS_DIRNAME&apos;</definition>
+        <argsstring>(!defined(&apos;_MI_SPIDERS_DIRNAME&apos;)) define(&apos;_MI_SPIDERS_DIRNAME&apos;</argsstring>
+        <name>if</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1ac36ac1e24876748ab715db7804e38ee8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$spider_handler</definition>
+        <argsstring></argsstring>
+        <name>$spider_handler</name>
+        <initializer>= &amp;xoops_getmodulehandler( &apos;spiders&apos;, _MI_SPIDERS_DIRNAME )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1aa11f25db575250e5eda98d4026e63d93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$suser_handler</definition>
+        <argsstring></argsstring>
+        <name>$suser_handler</name>
+        <initializer>= &amp;xoops_getmodulehandler( &apos;spiders_user&apos;, _MI_SPIDERS_DIRNAME )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1a96a46c0ce8ce00d5484a4835f5e70232" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$member_handler</definition>
+        <argsstring></argsstring>
+        <name>$member_handler</name>
+        <initializer>= &amp;xoops_gethandler( &apos;member&apos; )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1abdeae64b35c868d6dcbafca7dedbf37b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$modulehandler</definition>
+        <argsstring></argsstring>
+        <name>$modulehandler</name>
+        <initializer>=&amp; xoops_gethandler(&apos;module&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1a3545f6ecdd22e101dcc65388ac05b9c1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$confighandler</definition>
+        <argsstring></argsstring>
+        <name>$confighandler</name>
+        <initializer>=&amp; xoops_gethandler(&apos;config&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1afdc36dd9c85ac1e819ccc0a80595aa00" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xoModule</definition>
+        <argsstring></argsstring>
+        <name>$xoModule</name>
+        <initializer>= $modulehandler-&gt;getByDirname(&apos;spiders&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1ae8ec7ccd30c7d835f4ada7293b917330" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xoConfig</definition>
+        <argsstring></argsstring>
+        <name>$xoConfig</name>
+        <initializer>= $confighandler-&gt;getConfigList($xoModule-&gt;getVar(&apos;mid&apos;),false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1a095f2061791cf4be58c4b41a5790dc85" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$criteria</definition>
+        <argsstring></argsstring>
+        <name>$criteria</name>
+        <initializer>= new CriteriaCompo()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1a9926d99c406076259bb8aded88ac85ce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$part</definition>
+        <argsstring></argsstring>
+        <name>$part</name>
+        <initializer>= $spider_handler-&gt;safeAgent($_SERVER[&apos;HTTP_USER_AGENT&apos;])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1a5c8ead41db152abfb118dcb03f7def17" prot="public" static="no" mutable="no">
+        <type>foreach(array(&apos;;&apos;,&apos;/&apos;,&apos;,&apos;,&apos;\\&apos;,&apos;(&apos;,&apos;)&apos;,&apos; &apos;) as $split)</type>
+        <definition>foreach</definition>
+        <argsstring>($ret as $value) if(!empty($value)&amp;&amp;!strpos($value</argsstring>
+        <name>foreach</name>
+        <initializer>{
+			$criteria-&gt;add(new Criteria(&apos;`robot-safeuseragent`&apos;, &apos;%&apos;.$value.&apos;%&apos;, &apos;LIKE&apos;), &apos;OR&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1a579edeb88619b808bd01e7dbf6caf5d8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$uagereg[]</definition>
+        <argsstring>[]</argsstring>
+        <name>$uagereg</name>
+        <initializer>= $value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="post_8loader_8spiders_8php_1a0b9ad795fd0c749030d1e58af407a74d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$spiders</definition>
+        <argsstring></argsstring>
+        <name>$spiders</name>
+        <initializer>= $spider_handler-&gt;getObjects($criteria, true)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Author:<sp/>wishcraft<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XOOPS<sp/>-<sp/>PHP<sp/>Content<sp/>Management<sp/>System<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>2000<sp/>XOOPS.org<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;http://www.xoops.org/&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>You<sp/>may<sp/>not<sp/>change<sp/>or<sp/>alter<sp/>any<sp/>portion<sp/>of<sp/>this<sp/>comment<sp/>or<sp/>credits<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>supporting<sp/>developers<sp/>from<sp/>this<sp/>source<sp/>code<sp/>or<sp/>any<sp/>supporting<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>source<sp/>code<sp/>which<sp/>is<sp/>considered<sp/>copyrighted<sp/>(c)<sp/>material<sp/>of<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>original<sp/>comment<sp/>or<sp/>credit<sp/>authors.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Foundation,<sp/>Inc.,<sp/>59<sp/>Temple<sp/>Place,<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307<sp/>USA<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Author:<sp/>Simon<sp/>Roberts<sp/>(AKA<sp/>wishcraft)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>URL:<sp/>http://www.chronolabs.org.au<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Project:<sp/>The<sp/>XOOPS<sp/>Project<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!defined(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_DIRNAME&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_DIRNAME&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;spiders&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>$spider_handler<sp/>=<sp/>&amp;xoops_getmodulehandler(<sp/></highlight><highlight class="stringliteral">&apos;spiders&apos;</highlight><highlight class="normal">,<sp/>_MI_SPIDERS_DIRNAME<sp/>);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>$suser_handler<sp/>=<sp/>&amp;xoops_getmodulehandler(<sp/></highlight><highlight class="stringliteral">&apos;spiders_user&apos;</highlight><highlight class="normal">,<sp/>_MI_SPIDERS_DIRNAME<sp/>);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>$member_handler<sp/>=<sp/>&amp;xoops_gethandler(<sp/></highlight><highlight class="stringliteral">&apos;member&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>$modulehandler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>$confighandler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>$xoModule<sp/>=<sp/>$modulehandler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;spiders&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>$xoConfig<sp/>=<sp/>$confighandler-&gt;getConfigList($xoModule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">),</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>$part<sp/>=<sp/>$spider_handler-&gt;safeAgent($_SERVER[</highlight><highlight class="stringliteral">&apos;HTTP_USER_AGENT&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(array(</highlight><highlight class="charliteral">&apos;;&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;(&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;)&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$split)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret=<sp/>array();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(explode($split,<sp/>$part)<sp/>as<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$part<sp/>=<sp/>implode(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,$ret);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($ret<sp/>as<sp/>$value)<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!empty($value)&amp;&amp;!strpos($value,<sp/></highlight><highlight class="stringliteral">&apos;www.&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;`robot-safeuseragent`&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;%&apos;</highlight><highlight class="normal">.$value.</highlight><highlight class="charliteral">&apos;%&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;LIKE&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&apos;OR&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$uagereg[]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//echo<sp/>&apos;&lt;pre&gt;&apos;.print_r($uagereg,true).&apos;&lt;/pre&gt;&apos;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>$spiders<sp/>=<sp/>$spider_handler-&gt;getObjects($criteria,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!is_object($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($spiders<sp/>as<sp/>$spider)<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$suser<sp/>=<sp/>$suser_handler-&gt;get($spider-&gt;getVar(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$robot<sp/>=<sp/>$member_handler-&gt;getUser(<sp/>$suser-&gt;getVar(</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$part<sp/>=<sp/>$spider_handler-&gt;safeAgent($spider-&gt;getVar(</highlight><highlight class="stringliteral">&apos;robot-useragent&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(array(</highlight><highlight class="charliteral">&apos;;&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;(&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;)&apos;</highlight><highlight class="normal">,</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$split)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$usersafeagent<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(explode($split,<sp/>$part)<sp/>as<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strlen(trim($value))!=0)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$usersafeagent[]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$part<sp/>=<sp/>implode(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,$usersafeagent);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$usersafeagent<sp/>=<sp/>explode(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,<sp/>$part);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$match=0;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dos_crsafe<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($uagereg<sp/>as<sp/>$uaid<sp/>=&gt;<sp/>$ireg)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((in_array($ireg,<sp/>$usersafeagent)&amp;&amp;!is_object($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">])))<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$match++;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dos_crsafe[]<sp/>=<sp/>$uagereg[$uaid];</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//echo<sp/>&apos;&lt;pre&gt;&apos;.print_r($usersafeagent,true).&apos;&lt;/pre&gt;&apos;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//echo<sp/>&apos;&lt;pre&gt;&apos;.$spider-&gt;getVar(&apos;robot-name&apos;).&apos;<sp/>=<sp/>&apos;.((intval($match/count($uagereg)*100)+intval($match/count($usersafeagent)*100))/2).&apos;%<sp/>&gt;<sp/>&apos;.intval($xoConfig[&apos;match_percentile&apos;]).&apos;%&lt;/pre&gt;&apos;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((intval($match/count($uagereg)*100)+intval($match/count($usersafeagent)*100))/2)&gt;intval($xoConfig[</highlight><highlight class="stringliteral">&apos;match_percentile&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsUserIsAdmin<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$member_handler<sp/>=<sp/>&amp;xoops_gethandler(<sp/></highlight><highlight class="stringliteral">&apos;member&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$spider<sp/>=<sp/>$spider_handler-&gt;get(<sp/>$suser-&gt;getVar(</highlight><highlight class="stringliteral">&apos;spider_id&apos;</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistics_handler<sp/>=&amp;<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;statistics&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;spiders&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistic<sp/>=<sp/>$statistics_handler-&gt;create();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistic-&gt;setVar(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,<sp/>$suser-&gt;getVar(</highlight><highlight class="stringliteral">&apos;spider_id&apos;</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistic-&gt;setVar(</highlight><highlight class="stringliteral">&apos;when&apos;</highlight><highlight class="normal">,<sp/>time()<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistic-&gt;setVar(</highlight><highlight class="stringliteral">&apos;uri&apos;</highlight><highlight class="normal">,<sp/>XOOPS_PROT.$_SERVER[</highlight><highlight class="stringliteral">&apos;HTTP_HOST&apos;</highlight><highlight class="normal">].$_SERVER[</highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal">].</highlight><highlight class="charliteral">&apos;?&apos;</highlight><highlight class="normal">.$_SERVER[</highlight><highlight class="stringliteral">&apos;QUERY_STRING&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistic-&gt;setVar(</highlight><highlight class="stringliteral">&apos;useragent&apos;</highlight><highlight class="normal">,<sp/>$_SERVER[</highlight><highlight class="stringliteral">&apos;HTTP_USER_AGENT&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($_SERVER[</highlight><highlight class="stringliteral">&quot;HTTP_X_FORWARDED_FOR&quot;</highlight><highlight class="normal">]<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">){<sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ip<sp/>=<sp/>(string)$_SERVER[</highlight><highlight class="stringliteral">&quot;HTTP_X_FORWARDED_FOR&quot;</highlight><highlight class="normal">];<sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$netaddy<sp/>=<sp/>(string)@gethostbyaddr($ip);<sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ip<sp/>=<sp/>(string)$_SERVER[</highlight><highlight class="stringliteral">&quot;REMOTE_ADDR&quot;</highlight><highlight class="normal">];<sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$netaddy<sp/>=<sp/>(string)@gethostbyaddr($ip);<sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistic-&gt;setVar(</highlight><highlight class="stringliteral">&apos;ip&apos;</highlight><highlight class="normal">,<sp/>$ip);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistic-&gt;setVar(</highlight><highlight class="stringliteral">&apos;netaddy&apos;</highlight><highlight class="normal">,<sp/>$netaddy);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$statistics_handler-&gt;insert($statistic,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$sql<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;DELETE<sp/>FROM<sp/>&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsDB&apos;</highlight><highlight class="normal">]-&gt;prefix(</highlight><highlight class="stringliteral">&apos;spiders_statistics&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;<sp/>WHERE<sp/>`when`<sp/>&lt;<sp/>&apos;</highlight><highlight class="normal">.time()-($xoConfig[</highlight><highlight class="stringliteral">&apos;weeks_stats&apos;</highlight><highlight class="normal">]*(7*24*60*60));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsDB&apos;</highlight><highlight class="normal">]-&gt;queryF($sql);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$sess_handler<sp/>=<sp/>&amp;xoops_gethandler(<sp/></highlight><highlight class="stringliteral">&apos;session&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strtolower($spider-&gt;getVar(</highlight><highlight class="stringliteral">&apos;robot-handlesession&apos;</highlight><highlight class="normal">))==</highlight><highlight class="stringliteral">&apos;yes&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@ini_set(<sp/></highlight><highlight class="stringliteral">&apos;session.gc_maxlifetime&apos;</highlight><highlight class="normal">,<sp/>$xoopsConfig[</highlight><highlight class="stringliteral">&apos;session_expire&apos;</highlight><highlight class="normal">]<sp/>*<sp/>60<sp/>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session_set_save_handler(<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;open&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;close&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;read&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;write&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;destroy&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;gc&apos;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session_start();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_SESSION[</highlight><highlight class="stringliteral">&apos;xoopsUserId&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$suser-&gt;getVar(</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]<sp/>=<sp/>&amp;$member_handler-&gt;getUser(<sp/>$suser-&gt;getVar(</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_SESSION[</highlight><highlight class="stringliteral">&apos;xoopsUserGroups&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;getGroups();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;sess_handler&apos;</highlight><highlight class="normal">]-&gt;update_cookie();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]<sp/>=<sp/>&amp;$member_handler-&gt;getUser(<sp/>$suser-&gt;getVar(</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$online_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;online&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$online_handler-&gt;write($suser-&gt;getVar(</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">),<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;uname&apos;</highlight><highlight class="normal">),<sp/>time(),<sp/>$xoModule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">),<sp/>(string)$_SERVER[</highlight><highlight class="stringliteral">&quot;REMOTE_ADDR&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;last_login&apos;</highlight><highlight class="normal">,<sp/>time());</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$member_handler-&gt;insertUser($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xoopsUserIsAdmin<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;isAdmin();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>in_array(<sp/>XOOPS_GROUP_BANNED,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;getGroups()<sp/>)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(<sp/></highlight><highlight class="stringliteral">&apos;include/site-banned.php&apos;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$dos_crsafe<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count($dos_crsafe)&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$module<sp/>=&amp;<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;protector&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_object($module)&amp;&amp;!empty($module))<sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$config_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;dos_crsafe&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&quot;AND&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="stringliteral">&apos;conf_modid&apos;</highlight><highlight class="normal">,<sp/>$module-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($config_handler-&gt;getConfigCount($criteria)&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configs<sp/>=<sp/>$config_handler-&gt;getConfigs($criteria);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_object($configs[0]))<sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($dos_crsafe<sp/>as<sp/>$uaid<sp/>=&gt;<sp/>$uasafe)<sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strpos($configs[0]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">),<sp/>$uasafe)&gt;0)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unset($dos_crsafe[$uaid]);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count($dos_crsafe)&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$buf<sp/>=<sp/>$dos_crsafe;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$bufb<sp/>=<sp/>explode(</highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal">,<sp/>$configs[0]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count($bufb)&gt;1)<sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($bufb<sp/>as<sp/>$id<sp/>=&gt;<sp/>$pagent)<sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[]<sp/>=<sp/>$pagent;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($id==2)<sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($buf<sp/>as<sp/>$id<sp/>=&gt;<sp/>$pagentb)<sp/></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[]<sp/>=<sp/>$pagentb;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configs[0]-&gt;setVar(</highlight><highlight class="stringliteral">&apos;conf_value&apos;</highlight><highlight class="normal">,<sp/>implode(</highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal">,<sp/>$ret));</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$config_handler-&gt;insertConfig($configs[0]);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/post.loader.spiders.php"/>
+  </compounddef>
+</doxygen>

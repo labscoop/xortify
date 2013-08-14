@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_7e8a1780f4f93a391d59f25044d0ae4b" kind="dir">
+    <compoundname>Q:/@websites@/coop/labs/dev2/include</compoundname>
+    <innerfile refid="common_8php">common.php</innerfile>
+    <innerfile refid="constants_8php">constants.php</innerfile>
+    <innerfile refid="functions_8php">functions.php</innerfile>
+    <innerfile refid="include_2json_8php">JSON.php</innerfile>
+    <innerfile refid="post_8footer_8end_8php">post.footer.end.php</innerfile>
+    <innerfile refid="post_8header_8addmeta_8php">post.header.addmeta.php</innerfile>
+    <innerfile refid="post_8header_8endcache_8php">post.header.endcache.php</innerfile>
+    <innerfile refid="post_8loader_8mainfile_8php">post.loader.mainfile.php</innerfile>
+    <innerfile refid="pre_8loader_8mainfile_8php">pre.loader.mainfile.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Q:/@websites@/coop/labs/dev2/include/"/>
+  </compounddef>
+</doxygen>

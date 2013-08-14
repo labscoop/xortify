@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_b2fa74e9582124a8748994cd2ba7b886" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xcurl</compoundname>
+    <innerdir refid="dir_6ff0073a297c6288386d4b56a7d03f27">E:/Packages/xortify server/htdocs/modules/xcurl/admin</innerdir>
+    <innerdir refid="dir_de409ada133e5cc9e68c8bcee20448be">E:/Packages/xortify server/htdocs/modules/xcurl/class</innerdir>
+    <innerdir refid="dir_d0568acd6e021b993cf891ef52bdb65d">E:/Packages/xortify server/htdocs/modules/xcurl/include</innerdir>
+    <innerdir refid="dir_b5160af3e3101c5ba39d02277cbc8cd7">E:/Packages/xortify server/htdocs/modules/xcurl/language</innerdir>
+    <innerdir refid="dir_367207266008e5bdf777ece73493684f">E:/Packages/xortify server/htdocs/modules/xcurl/plugins</innerdir>
+    <innerfile refid="modules_2xcurl_2index_8php">index.php</innerfile>
+    <innerfile refid="xcurl_2xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xcurl/"/>
+  </compounddef>
+</doxygen>

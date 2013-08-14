@@ -1,0 +1,203 @@
+.TH "wsdlcache" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+wsdlcache \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBwsdlcache\fP ($cache_dir='\&.', $cache_lifetime=0)"
+.br
+.ti -1c
+.RI "\fBcreateFilename\fP ($\fBwsdl\fP)"
+.br
+.ti -1c
+.RI "\fBdebug\fP ($string)"
+.br
+.ti -1c
+.RI "\fBget\fP ($\fBwsdl\fP)"
+.br
+.ti -1c
+.RI "\fBobtainMutex\fP ($filename, $mode)"
+.br
+.ti -1c
+.RI "\fBput\fP ($wsdl_instance)"
+.br
+.ti -1c
+.RI "\fBreleaseMutex\fP ($filename)"
+.br
+.ti -1c
+.RI "\fBremove\fP ($\fBwsdl\fP)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$fplock\fP"
+.br
+.ti -1c
+.RI "\fB$cache_lifetime\fP"
+.br
+.ti -1c
+.RI "\fB$cache_dir\fP"
+.br
+.ti -1c
+.RI "\fB$debug_str\fP = ''"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+caches instances of the wsdl class
+.PP
+\fBAuthor:\fP
+.RS 4
+Scott Nichol snichol@computer.org 
+.PP
+Ingo Fischer ingo@apollon.de 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.wsdlcache\&.php\fP,v 1\&.5 2005/05/20 17:58:17 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 13 of file class\&.wsdlcache\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "createFilename ($wsdl)"
+creates the filename used to cache a wsdl instance
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP The URL of the wsdl instance 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The filename used to cache the instance  private 
+.RE
+.PP
+
+.PP
+Definition at line 55 of file class\&.wsdlcache\&.php\&.
+.SS "debug ($string)"
+adds debug data to the class level debug string
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP debug data  private 
+.RE
+.PP
+
+.PP
+Definition at line 65 of file class\&.wsdlcache\&.php\&.
+.SS "get ($wsdl)"
+gets a wsdl instance from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP The URL of the wsdl instance 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+object wsdl The cached wsdl instance, null if the instance is not in the cache  public 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file class\&.wsdlcache\&.php\&.
+.SS "obtainMutex ($filename, $mode)"
+obtains the local mutex
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$filename\fP The Filename of the Cache to lock 
+.br
+\fI$mode\fP The open-mode ('r' or 'w') or the file - affects lock-mode 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean Lock successfully obtained ?!  private 
+.RE
+.PP
+
+.PP
+Definition at line 114 of file class\&.wsdlcache\&.php\&.
+.SS "put ($wsdl_instance)"
+adds a wsdl instance to the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobject\fP wsdl $wsdl_instance The wsdl instance to add 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean WSDL successfully cached  public 
+.RE
+.PP
+
+.PP
+Definition at line 134 of file class\&.wsdlcache\&.php\&.
+.SS "releaseMutex ($filename)"
+releases the local mutex
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$filename\fP The Filename of the Cache to lock 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean Lock successfully released  private 
+.RE
+.PP
+
+.PP
+Definition at line 157 of file class\&.wsdlcache\&.php\&.
+.SS "remove ($wsdl)"
+removes a wsdl instance from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP The URL of the wsdl instance 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean Whether there was an instance to remove  public 
+.RE
+.PP
+
+.PP
+Definition at line 174 of file class\&.wsdlcache\&.php\&.
+.SS "\fBwsdlcache\fP ($cache_dir = \fC'\&.'\fP, $cache_lifetime = \fC0\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cache_dir\fP directory for cache-files 
+.br
+\fI$cache_lifetime\fP lifetime for caching-files in seconds or 0 for unlimited  public 
+.RE
+.PP
+
+.PP
+Definition at line 42 of file class\&.wsdlcache\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

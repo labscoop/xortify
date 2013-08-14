@@ -1,0 +1,176 @@
+\hypertarget{class_xortify_auth_soap}{\section{Xortify\-Auth\-Soap Class Reference}
+\label{class_xortify_auth_soap}\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}}
+}
+
+
+Inheritance diagram for Xortify\-Auth\-Soap\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{class_xortify_auth_soap__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Xortify\-Auth\-Soap\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{class_xortify_auth_soap__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_xortify_auth_soap_ad502760b81f77dd8f0ebdbfa04cbac9c}{Xortify\-Auth\-Soap} (\&\$dao)
+\item 
+\hyperlink{class_xortify_auth_soap_a00678ba307326b734e6c679f28bea315}{authenticate} (\$uname, \$pwd=null)
+\item 
+\hyperlink{class_xortify_auth_soap_a91121a1b702dfd20fb65a027c8ed26ec}{validate} (\$uname, \$email, \$pass, \$vpass)
+\item 
+\hyperlink{class_xortify_auth_soap_a1874c27b6f81a3f2ff9015405ad0f8bc}{network\-\_\-disclaimer} ()
+\item 
+\hyperlink{class_xortify_auth_soap_ac72efc5ad313a592cf6706876f56f7ec}{create\-\_\-user} (\$user\-\_\-viewemail, \$uname, \$email, \$url, \$actkey, \$pass, \$timezone\-\_\-offset, \$user\-\_\-mailok, \$siteinfo)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_xortify_auth_soap_a18c3d5ef7b606d5f21c8fda9d08e8c7e}{\$soap\-\_\-client}
+\item 
+\hyperlink{class_xortify_auth_soap_ab46ae973f580890282bce8dbe346abab}{\$soap\-\_\-xoops\-\_\-username} = ''
+\item 
+\hyperlink{class_xortify_auth_soap_ac116a126fa48c572acc0a859f42fa8dc}{\$soap\-\_\-xoops\-\_\-password} = ''
+\item 
+\hyperlink{class_xortify_auth_soap_a12a029c610f699b4b25e79a1f64a3485}{\$\-\_\-dao}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_xortify_auth_soap_a00678ba307326b734e6c679f28bea315}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{authenticate}]{\setlength{\rightskip}{0pt plus 5cm}authenticate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$pwd = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_soap_a00678ba307326b734e6c679f28bea315}
+Authenticate user again S\-O\-A\-P directory (Bind)
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & Username \\
+\hline
+string & {\em \$pwd} & Password\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_soap_ac72efc5ad313a592cf6706876f56f7ec}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!create\-\_\-user@{create\-\_\-user}}
+\index{create\-\_\-user@{create\-\_\-user}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{create\-\_\-user}]{\setlength{\rightskip}{0pt plus 5cm}create\-\_\-user (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\-\_\-viewemail, }
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$url, }
+\item[{}]{\$actkey, }
+\item[{}]{\$pass, }
+\item[{}]{\$timezone\-\_\-offset, }
+\item[{}]{\$user\-\_\-mailok, }
+\item[{}]{\$siteinfo}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_soap_ac72efc5ad313a592cf6706876f56f7ec}
+create a user
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$user\-\_\-viewemail} & \\
+\hline
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$url} & \\
+\hline
+string & {\em \$actkey} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+integer & {\em \$timezone\-\_\-offset} & \\
+\hline
+bool & {\em \$user\-\_\-mailok} & \\
+\hline
+array & {\em \$siteinfo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_soap_a1874c27b6f81a3f2ff9015405ad0f8bc}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!network\-\_\-disclaimer@{network\-\_\-disclaimer}}
+\index{network\-\_\-disclaimer@{network\-\_\-disclaimer}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{network\-\_\-disclaimer}]{\setlength{\rightskip}{0pt plus 5cm}network\-\_\-disclaimer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_soap_a1874c27b6f81a3f2ff9015405ad0f8bc}
+get the xoops site disclaimer via soap
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_soap_a91121a1b702dfd20fb65a027c8ed26ec}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!validate@{validate}}
+\index{validate@{validate}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{validate}]{\setlength{\rightskip}{0pt plus 5cm}validate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$pass, }
+\item[{}]{\$vpass}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_soap_a91121a1b702dfd20fb65a027c8ed26ec}
+validate a user via soap
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+string & {\em \$vpass} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_soap_ad502760b81f77dd8f0ebdbfa04cbac9c}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}}
+\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{Xortify\-Auth\-Soap}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Xortify\-Auth\-Soap} (
+\begin{DoxyParamCaption}
+\item[{\&}]{\$dao}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_soap_ad502760b81f77dd8f0ebdbfa04cbac9c}
+Authentication Service constructor 
+
+\subsection{Field Documentation}
+\hypertarget{class_xortify_auth_soap_a12a029c610f699b4b25e79a1f64a3485}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!\$\-\_\-dao@{\$\-\_\-dao}}
+\index{\$\-\_\-dao@{\$\-\_\-dao}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{\$\-\_\-dao}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-dao}}\label{class_xortify_auth_soap_a12a029c610f699b4b25e79a1f64a3485}
+\hypertarget{class_xortify_auth_soap_a18c3d5ef7b606d5f21c8fda9d08e8c7e}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!\$soap\-\_\-client@{\$soap\-\_\-client}}
+\index{\$soap\-\_\-client@{\$soap\-\_\-client}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{\$soap\-\_\-client}]{\setlength{\rightskip}{0pt plus 5cm}\$soap\-\_\-client}}\label{class_xortify_auth_soap_a18c3d5ef7b606d5f21c8fda9d08e8c7e}
+\hypertarget{class_xortify_auth_soap_ac116a126fa48c572acc0a859f42fa8dc}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!\$soap\-\_\-xoops\-\_\-password@{\$soap\-\_\-xoops\-\_\-password}}
+\index{\$soap\-\_\-xoops\-\_\-password@{\$soap\-\_\-xoops\-\_\-password}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{\$soap\-\_\-xoops\-\_\-password}]{\setlength{\rightskip}{0pt plus 5cm}\$soap\-\_\-xoops\-\_\-password = ''}}\label{class_xortify_auth_soap_ac116a126fa48c572acc0a859f42fa8dc}
+\hypertarget{class_xortify_auth_soap_ab46ae973f580890282bce8dbe346abab}{\index{Xortify\-Auth\-Soap@{Xortify\-Auth\-Soap}!\$soap\-\_\-xoops\-\_\-username@{\$soap\-\_\-xoops\-\_\-username}}
+\index{\$soap\-\_\-xoops\-\_\-username@{\$soap\-\_\-xoops\-\_\-username}!XortifyAuthSoap@{Xortify\-Auth\-Soap}}
+\subsubsection[{\$soap\-\_\-xoops\-\_\-username}]{\setlength{\rightskip}{0pt plus 5cm}\$soap\-\_\-xoops\-\_\-username = ''}}\label{class_xortify_auth_soap_ab46ae973f580890282bce8dbe346abab}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Q\-:/@websites@/coop/labs/dev2/class/auth/\hyperlink{auth__soap_8php}{auth\-\_\-soap.\-php}\end{DoxyCompactItemize}

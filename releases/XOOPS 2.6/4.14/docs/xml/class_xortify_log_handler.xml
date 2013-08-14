@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_log_handler" kind="class" prot="public">
+    <compoundname>XortifyLogHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_log_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/log.php" line="156" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/log.php" bodystart="156" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_log_handler_1aa87428a86f05826a6eb558e15e11a2ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert</definition>
+        <argsstring>(XortifyLog $object, $force=true)</argsstring>
+        <name>insert</name>
+        <param>
+          <type><ref refid="class_xortify_log" kindref="compound">XortifyLog</ref></type>
+          <declname>$object</declname>
+        </param>
+        <param>
+          <declname>$force</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/log.php" line="169" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/log.php" bodystart="169" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_log_handler_1a9438af458937a969601359ed9db48792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCountByField</definition>
+        <argsstring>($field, $value)</argsstring>
+        <name>getCountByField</name>
+        <param>
+          <declname>$field</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/log.php" line="196" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/log.php" bodystart="196" bodyend="200"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="419">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="418">
+        <label>XortifyLogHandler</label>
+        <link refid="class_xortify_log_handler"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="421">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="420">
+        <label>XortifyLogHandler</label>
+        <link refid="class_xortify_log_handler"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/log.php" line="152" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/log.php" bodystart="151" bodyend="201"/>
+    <listofallmembers>
+      <member refid="class_xortify_log_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>XortifyLogHandler</scope><name>__construct</name></member>
+      <member refid="class_xortify_log_handler_1a9438af458937a969601359ed9db48792" prot="public" virt="non-virtual"><scope>XortifyLogHandler</scope><name>getCountByField</name></member>
+      <member refid="class_xortify_log_handler_1aa87428a86f05826a6eb558e15e11a2ec" prot="public" virt="non-virtual"><scope>XortifyLogHandler</scope><name>insert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

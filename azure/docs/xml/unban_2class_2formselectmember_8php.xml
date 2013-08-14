@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="unban_2class_2formselectmember_8php" kind="file">
+    <compoundname>formselectmember.php</compoundname>
+    <innerclass refid="classunban_form_select_member" prot="public">unbanFormSelectMember</innerclass>
+    <innernamespace refid="namespaceclass">class</innernamespace>
+    <innernamespace refid="namespacekernel">kernel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>You<sp/>may<sp/>not<sp/>change<sp/>or<sp/>alter<sp/>any<sp/>portion<sp/>of<sp/>this<sp/>comment<sp/>or<sp/>credits</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>of<sp/>supporting<sp/>developers<sp/>from<sp/>this<sp/>source<sp/>code<sp/>or<sp/>any<sp/>supporting<sp/>source<sp/>code<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>which<sp/>is<sp/>considered<sp/>copyrighted<sp/>(c)<sp/>material<sp/>of<sp/>the<sp/>original<sp/>comment<sp/>or<sp/>credit<sp/>authors.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">defined(</highlight><highlight class="stringliteral">&apos;XOOPS_ROOT_PATH&apos;</highlight><highlight class="normal">)<sp/>or<sp/>die(&apos;Restricted<sp/>access&apos;);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">if<sp/>(!<sp/>class_exists(&apos;XoopsFormElement&apos;))<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>xoops_load(</highlight><highlight class="stringliteral">&apos;xoopsformelement&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classunban_form_select_member" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classunban_form_select_member" kindref="compound">unbanFormSelectMember</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>XoopsFormElement</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$_options<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$_multiple<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$_size;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$_value<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="84" refid="classunban_form_select_member_1ad2edcd5234bd6e1974c2b5d32c0f09a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1ad2edcd5234bd6e1974c2b5d32c0f09a0" kindref="member">unbanFormSelectMember</ref>($caption,<sp/>$name,<sp/>$value<sp/>=<sp/>null,<sp/>$size<sp/>=<sp/>1,<sp/>$multiple<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;setCaption($caption);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;setName($name);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_multiple<sp/>=<sp/>$multiple;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_size<sp/>=<sp/>intval($size);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$membershandler<sp/>=&amp;<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;members&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;unban&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$members<sp/>=<sp/>$membershandler-&gt;getObjects(NULL);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="classunban_form_select_member_1ac485d7f4f2160de8fb47aa29aeed7080" kindref="member">addOption</ref>(0,<sp/></highlight><highlight class="stringliteral">&apos;(none)&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($members<sp/>as<sp/>$member)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="classunban_form_select_member_1ac485d7f4f2160de8fb47aa29aeed7080" kindref="member">addOption</ref>($member-&gt;getVar(</highlight><highlight class="stringliteral">&apos;member_id&apos;</highlight><highlight class="normal">),<sp/>$member-&gt;getVar(</highlight><highlight class="stringliteral">&apos;ipv4&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($value))<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="classunban_form_select_member_1a7494441b6ed08a391704971873f31432" kindref="member">setValue</ref>($value);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107" refid="classunban_form_select_member_1ac5d76ccb2e931e4abb4456d6ad492ac1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1ac5d76ccb2e931e4abb4456d6ad492ac1" kindref="member">isMultiple</ref>()</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;_multiple;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117" refid="classunban_form_select_member_1a75cce10cdf81be6dc84881c28b3379b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1a75cce10cdf81be6dc84881c28b3379b7" kindref="member">getSize</ref>()</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;_size;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="128" refid="classunban_form_select_member_1ab3c79e314dfd09da4de90fb2ce5eaa9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1ab3c79e314dfd09da4de90fb2ce5eaa9d" kindref="member">getValue</ref>($encode<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<sp/>$encode)<sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;_value;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$value<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($this-&gt;_value<sp/>as<sp/>$val)<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$value[]<sp/>=<sp/>$val<sp/>?<sp/>htmlspecialchars($val,<sp/>ENT_QUOTES)<sp/>:<sp/>$val;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$value;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="145" refid="classunban_form_select_member_1a7494441b6ed08a391704971873f31432" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1a7494441b6ed08a391704971873f31432" kindref="member">setValue</ref>($value)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_array($value))<sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($value<sp/>as<sp/>$v)<sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_value[]<sp/>=<sp/>$v;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>elseif<sp/>(isset($value))<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_value[]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="162" refid="classunban_form_select_member_1ac485d7f4f2160de8fb47aa29aeed7080" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1ac485d7f4f2160de8fb47aa29aeed7080" kindref="member">addOption</ref>($value,<sp/>$name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($name<sp/>!=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_options[$value]<sp/>=<sp/>$name;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_options[$value]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="176" refid="classunban_form_select_member_1a673ec8d6dc3cc0ee2f62fbe1c824ccc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1a673ec8d6dc3cc0ee2f62fbe1c824ccc5" kindref="member">addOptionArray</ref>($options)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_array($options))<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($options<sp/>as<sp/>$k<sp/>=&gt;<sp/>$v)<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="classunban_form_select_member_1ac485d7f4f2160de8fb47aa29aeed7080" kindref="member">addOption</ref>($k,<sp/>$v);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193" refid="classunban_form_select_member_1ac15eda2814c8ff0477244b28a315fb5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1ac15eda2814c8ff0477244b28a315fb5a" kindref="member">getOptions</ref>($encode<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<sp/>$encode)<sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;_options;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$value<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($this-&gt;_options<sp/>as<sp/>$val<sp/>=&gt;<sp/>$name)<sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$value[$encode<sp/>?<sp/>htmlspecialchars($val,<sp/>ENT_QUOTES)<sp/>:<sp/>$val]<sp/>=<sp/>($encode<sp/>&gt;<sp/>1)<sp/>?<sp/>htmlspecialchars($name,<sp/>ENT_QUOTES)<sp/>:<sp/>$name;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$value;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="210" refid="classunban_form_select_member_1afde88292c44dc59faf017738dae6dffb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1afde88292c44dc59faf017738dae6dffb" kindref="member">render</ref>()</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ele_name<sp/>=<sp/>$this-&gt;getName();</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ele_title<sp/>=<sp/>$this-&gt;getName();</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ele_value<sp/>=<sp/>$this-&gt;<ref refid="classunban_form_select_member_1ab3c79e314dfd09da4de90fb2ce5eaa9d" kindref="member">getValue</ref>();</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ele_options<sp/>=<sp/>$this-&gt;<ref refid="classunban_form_select_member_1ac15eda2814c8ff0477244b28a315fb5a" kindref="member">getOptions</ref>();</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&lt;select<sp/>size=&quot;&apos;</highlight><highlight class="normal"><sp/>.<sp/>$this-&gt;<ref refid="classunban_form_select_member_1a75cce10cdf81be6dc84881c28b3379b7" kindref="member">getSize</ref>()<sp/>.<sp/></highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal"><sp/>.<sp/>$this-&gt;getExtra();</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($this-&gt;<ref refid="classunban_form_select_member_1ac5d76ccb2e931e4abb4456d6ad492ac1" kindref="member">isMultiple</ref>()<sp/>!=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>.=<sp/></highlight><highlight class="stringliteral">&apos;<sp/>name=&quot;&apos;</highlight><highlight class="normal"><sp/>.<sp/>$ele_name<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;[]&quot;<sp/>id=&quot;&apos;</highlight><highlight class="normal"><sp/>.<sp/>$ele_name<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;&quot;<sp/>title=&quot;&apos;</highlight><highlight class="normal">.<sp/>$ele_title.<sp/></highlight><highlight class="stringliteral">&apos;&quot;<sp/>multiple=&quot;multiple&quot;&gt;&apos;</highlight><highlight class="normal"><sp/>.<sp/>NWLINE;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>.=<sp/></highlight><highlight class="stringliteral">&apos;<sp/>name=&quot;&apos;</highlight><highlight class="normal"><sp/>.<sp/>$ele_name<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;&quot;<sp/>id=&quot;&apos;</highlight><highlight class="normal"><sp/>.<sp/>$ele_name<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;&quot;<sp/>title=&quot;&apos;</highlight><highlight class="normal">.<sp/>$ele_title.<sp/></highlight><highlight class="stringliteral">&apos;&quot;&gt;&apos;</highlight><highlight class="normal"><sp/>.<sp/>NWLINE;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($ele_options<sp/>as<sp/>$value<sp/>=&gt;<sp/>$name)<sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>.=<sp/></highlight><highlight class="stringliteral">&apos;&lt;option<sp/>value=&quot;&apos;</highlight><highlight class="normal"><sp/>.<sp/>htmlspecialchars($value,<sp/>ENT_QUOTES)<sp/>.<sp/></highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count($ele_value)<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>in_array($value,<sp/>$ele_value))<sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>.=<sp/></highlight><highlight class="stringliteral">&apos;<sp/>selected=&quot;selected&quot;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>.=<sp/></highlight><highlight class="charliteral">&apos;&gt;&apos;</highlight><highlight class="normal"><sp/>.<sp/>$name<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;&lt;/option&gt;&apos;</highlight><highlight class="normal"><sp/>.<sp/>NWLINE;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>.=<sp/></highlight><highlight class="stringliteral">&apos;&lt;/select&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="238" refid="classunban_form_select_member_1a2747262e7fc6aba84bfc52bcf38407df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classunban_form_select_member_1a2747262e7fc6aba84bfc52bcf38407df" kindref="member">renderValidationJS</ref>()</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>render<sp/>custom<sp/>validation<sp/>code<sp/>if<sp/>any</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<sp/>empty($this-&gt;customValidationCode))<sp/>{</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>implode(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">,<sp/>$this-&gt;customValidationCode);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>generate<sp/>validation<sp/>code<sp/>if<sp/>required</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>elseif<sp/>($this-&gt;isRequired())<sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$eltname<sp/>=<sp/>$this-&gt;getName();</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$eltcaption<sp/>=<sp/>$this-&gt;getCaption();</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$eltmsg<sp/>=<sp/>empty($eltcaption)<sp/>?<sp/>sprintf(_FORM_ENTER,<sp/>$eltname)<sp/>:<sp/>sprintf(_FORM_ENTER,<sp/>$eltcaption);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$eltmsg<sp/>=<sp/>str_replace(</highlight><highlight class="charliteral">&apos;&quot;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;\&quot;&apos;</highlight><highlight class="normal">,<sp/>stripslashes($eltmsg));</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;\nvar<sp/>hasSelected<sp/>=<sp/>false;<sp/>var<sp/>selectBox<sp/>=<sp/>myform.{$eltname};&quot;</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="stringliteral">&quot;for<sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>selectBox.options.length;<sp/>i++<sp/>)<sp/>{<sp/>if<sp/>(selectBox.options[i].selected<sp/>==<sp/>true)<sp/>{<sp/>hasSelected<sp/>=<sp/>true;<sp/>break;<sp/>}<sp/>}&quot;</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="stringliteral">&quot;if<sp/>(!hasSelected)<sp/>{<sp/>window.alert(\&quot;{$eltmsg}\&quot;);<sp/>selectBox.focus();<sp/>return<sp/>false;<sp/>}&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formselectmember.php"/>
+  </compounddef>
+</doxygen>

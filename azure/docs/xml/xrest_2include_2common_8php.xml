@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xrest_2include_2common_8php" kind="file">
+    <compoundname>common.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="xrest_2include_2common_8php_1aabc52e4f78557f0e0b360a8aaba6e11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>obj2array</definition>
+        <argsstring>($objects)</argsstring>
+        <name>obj2array</name>
+        <param>
+          <declname>$objects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" bodystart="24" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="xrest_2include_2common_8php_1aaee79802f4f4ba71be22694eb42842fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>validateuser</definition>
+        <argsstring>($username, $password)</argsstring>
+        <name>validateuser</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" bodystart="45" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="xrest_2include_2common_8php_1a163fc151a2fecd89ee757db7beb9835c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user_uid</definition>
+        <argsstring>($username, $password)</argsstring>
+        <name>user_uid</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" line="63" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" bodystart="63" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="xrest_2include_2common_8php_1adf544cfc2a84c45cd4bf686a19576785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkright</definition>
+        <argsstring>($function_file, $username, $password)</argsstring>
+        <name>checkright</name>
+        <param>
+          <declname>$function_file</declname>
+        </param>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" line="83" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" bodystart="83" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="xrest_2include_2common_8php_1ac2d2f05c03234208380d0d52c4341c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>if(!function_exists(&apos;xrest_isIPv6&apos;)) if(!function_exists(&apos;xrest_getUserIP&apos;))</type>
+        <definition>if (!function_exists(&apos;xrest_isIPv6&apos;)) if (!function_exists(&apos;xrest_getUserIP&apos;)) check_for_lock</definition>
+        <argsstring>($function_file, $username, $password)</argsstring>
+        <name>check_for_lock</name>
+        <param>
+          <declname>$function_file</declname>
+        </param>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" line="206" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" bodystart="206" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="xrest_2include_2common_8php_1a4b101bd4f37c18905546497ce7bc36f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>mark_for_lock</definition>
+        <argsstring>($function_file, $username, $password)</argsstring>
+        <name>mark_for_lock</name>
+        <param>
+          <declname>$function_file</declname>
+        </param>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" line="233" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php" bodystart="233" bodyend="245"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">/*<sp/><sp/>Converts<sp/>an<sp/>Object<sp/>to<sp/>and<sp/>Array</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/><sp/>object2array($object)</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/><sp/>@return<sp/>array</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>obj2array($objects)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($objects<sp/>as<sp/>$key<sp/>=&gt;<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_a($value,<sp/></highlight><highlight class="stringliteral">&apos;stdClass&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[$key]<sp/>=<sp/>(array)obj2array($value);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>elseif<sp/>(is_array($value))<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[$key]<sp/>=<sp/>obj2array($value);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[$key]<sp/>=<sp/>$value;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>Validates<sp/>that<sp/>User<sp/>Credientials<sp/>Exist</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/><sp/>validateuser($username,<sp/>$password)</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$username<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Username<sp/>of<sp/>the<sp/>User<sp/>on<sp/>Xortify<sp/>Cloud</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$password<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Open<sp/>text<sp/>or<sp/>MD5<sp/>of<sp/>password<sp/>for<sp/>User</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/><sp/>@return<sp/>boolean</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>validateuser($username,<sp/>$password){</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>global<sp/>$xoopsDB;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>$sql<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;select<sp/>*<sp/>from<sp/>&quot;</highlight><highlight class="normal">.$xoopsDB-&gt;prefix(</highlight><highlight class="stringliteral">&apos;users&apos;</highlight><highlight class="normal">).<sp/></highlight><highlight class="stringliteral">&quot;<sp/>WHERE<sp/>uname<sp/>=<sp/>&apos;$username&apos;<sp/>and<sp/>pass<sp/>=<sp/>&quot;</highlight><highlight class="normal">.(strlen($password)==32&amp;&amp;strtolower($password)==$password?</highlight><highlight class="stringliteral">&quot;&apos;$password&apos;&quot;</highlight><highlight class="normal">:</highlight><highlight class="stringliteral">&quot;md5(&apos;$password&apos;)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>$xoopsDB-&gt;query($sql);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$xoopsDB-&gt;getRowsNum($ret))<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>Validates<sp/>that<sp/>User<sp/>Credientials<sp/>and<sp/>returned<sp/>the<sp/>UID</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/>user_uid($username,<sp/>$password)</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$username<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Username<sp/>of<sp/>the<sp/>User<sp/>on<sp/>Xortify<sp/>Cloud</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$password<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Open<sp/>text<sp/>or<sp/>MD5<sp/>of<sp/>password<sp/>for<sp/>User</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/><sp/>@return<sp/>integer</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>user_uid($username,<sp/>$password){</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>global<sp/>$xoopsDB;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>$sql<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;select<sp/>uid<sp/>from<sp/>&quot;</highlight><highlight class="normal">.$xoopsDB-&gt;prefix(</highlight><highlight class="stringliteral">&apos;users&apos;</highlight><highlight class="normal">).<sp/></highlight><highlight class="stringliteral">&quot;<sp/>WHERE<sp/>uname<sp/>=<sp/>&apos;$username&apos;<sp/>and<sp/>pass<sp/>=<sp/>&quot;</highlight><highlight class="normal">.(strlen($password)==32&amp;&amp;strtolower($password)==$password?</highlight><highlight class="stringliteral">&quot;&apos;$password&apos;&quot;</highlight><highlight class="normal">:</highlight><highlight class="stringliteral">&quot;md5(&apos;$password&apos;)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>$xoopsDB-&gt;query($sql);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$xoopsDB-&gt;getRowsNum($ret))<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$row<sp/>=<sp/>$xoopsDB-&gt;fetchArray($ret);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$row[</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>Check<sp/>User<sp/>has<sp/>the<sp/>right<sp/>to<sp/>fire<sp/>function<sp/>on<sp/>API</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/><sp/>checkright($function_file,<sp/>$username,<sp/>$password)</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$function_file<sp/><sp/><sp/><sp/>Function<sp/>name<sp/>of<sp/>file</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$username<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Username<sp/>of<sp/>the<sp/>User<sp/>on<sp/>Xortify<sp/>Cloud</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$password<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Open<sp/>text<sp/>or<sp/>MD5<sp/>of<sp/>password<sp/>for<sp/>User</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/><sp/>@return<sp/>string</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>checkright($function_file,<sp/>$username,<sp/>$password){</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>$uid<sp/>=<sp/>user_uid($username,$password);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>$module_handler<sp/>=<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>$gperm_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;groupperm&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>$member_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;member&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>$online_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;online&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;xrest&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestPlugin&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$username;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>$plugin_handler<sp/>=<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;plugins&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xrest&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>$plugin<sp/>=<sp/>$plugin_handler-&gt;getPluginWithFile($function_file);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>$item_id<sp/>=<sp/>$plugin-&gt;getVar(</highlight><highlight class="stringliteral">&apos;plugin_id&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>$modid<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($uid<sp/>&lt;&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$rUser<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsUser($uid);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$groups<sp/>=<sp/>is_object($rUser)<sp/>?<sp/>$rUser-&gt;getGroups()<sp/>:<sp/>array(XOOPS_GROUP_ANONYMOUS);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$online_handler-&gt;write($uid,<sp/>$username,<sp/>time(),<sp/>$modid,<sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)$_SERVER[</highlight><highlight class="stringliteral">&quot;REMOTE_ADDR&quot;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@ini_set(<sp/></highlight><highlight class="stringliteral">&apos;session.gc_maxlifetime&apos;</highlight><highlight class="normal">,<sp/>$xoopsConfig[</highlight><highlight class="stringliteral">&apos;session_expire&apos;</highlight><highlight class="normal">]<sp/>*<sp/>60<sp/>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session_set_save_handler(<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;open&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;close&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;read&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;write&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;destroy&apos;</highlight><highlight class="normal"><sp/>),<sp/>array(<sp/>&amp;$sess_handler,<sp/></highlight><highlight class="stringliteral">&apos;gc&apos;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session_start();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_SESSION[</highlight><highlight class="stringliteral">&apos;xoopsUserId&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$uid;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]<sp/>=<sp/>&amp;$member_handler-&gt;getUser(<sp/>$uid<sp/>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$_SESSION[</highlight><highlight class="stringliteral">&apos;xoopsUserGroups&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;getGroups();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;sess_handler&apos;</highlight><highlight class="normal">]-&gt;update_cookie();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$gperm_handler-&gt;checkRight(</highlight><highlight class="stringliteral">&apos;plugin_call&apos;</highlight><highlight class="normal">,$item_id,$groups,<sp/>$modid);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$gperm_handler<sp/>=&amp;<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;groupperm&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$groups<sp/>=<sp/>array(XOOPS_GROUP_ANONYMOUS);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$gperm_handler-&gt;checkRight(</highlight><highlight class="stringliteral">&apos;plugin_call&apos;</highlight><highlight class="normal">,$item_id,$groups,<sp/>$modid);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!function_exists(</highlight><highlight class="stringliteral">&apos;xrest_isIPv6&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/>Gets<sp/>a<sp/>True/False<sp/>if<sp/>IP<sp/>Address<sp/>is<sp/>IPv6</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>xoops_isIPv6($ip<sp/>=<sp/>&quot;&quot;)</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@param<sp/>string<sp/>$ip<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IP<sp/>Address</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@return<sp/>boolean</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>xrest_isIPv6($ip<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/><sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($ip<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(substr_count($ip,</highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal">)<sp/>&gt;<sp/>0){<sp/><sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/><sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!function_exists(</highlight><highlight class="stringliteral">&apos;xrest_getUserIP&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/>Gets<sp/>a<sp/>Associative<sp/>Array<sp/>on<sp/>networking<sp/>and<sp/>user<sp/>information</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>xoops_getUserIP($ip=false)</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@param<sp/>string<sp/>$ip<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IP<sp/>Address</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>@return<sp/>array</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>xrest_getUserIP($ip=</highlight><highlight class="keyword">false</highlight><highlight class="normal">){<sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>array();<sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_object($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]))<sp/>{<sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;uname&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsUser&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;uname&apos;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">]<sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;uname&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;anonymous&apos;</highlight><highlight class="normal">];<sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;sessionid&apos;</highlight><highlight class="normal">]<sp/>=<sp/>session_id();<sp/></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$ip)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($_SERVER[</highlight><highlight class="stringliteral">&quot;HTTP_X_FORWARDED_FOR&quot;</highlight><highlight class="normal">]<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">){<sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ip<sp/>=<sp/>(string)$_SERVER[</highlight><highlight class="stringliteral">&quot;HTTP_X_FORWARDED_FOR&quot;</highlight><highlight class="normal">];<sp/><sp/></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;is_proxied&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$proxy_ip<sp/>=<sp/>$_SERVER[</highlight><highlight class="stringliteral">&quot;REMOTE_ADDR&quot;</highlight><highlight class="normal">];<sp/><sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;network-addy&apos;</highlight><highlight class="normal">]<sp/>=<sp/>@gethostbyaddr($ip);<sp/><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;long&apos;</highlight><highlight class="normal">]<sp/>=<sp/>@ip2long($ip);<sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(xrest_isipv6($ip))<sp/>{<sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;ip6&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$ip;<sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;proxy-ip6&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$proxy_ip;<sp/></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;ip4&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$ip;<sp/></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;proxy-ip4&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$proxy_ip;<sp/></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{<sp/><sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;is_proxied&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ip<sp/>=<sp/>(string)$_SERVER[</highlight><highlight class="stringliteral">&quot;REMOTE_ADDR&quot;</highlight><highlight class="normal">];<sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;network-addy&apos;</highlight><highlight class="normal">]<sp/>=<sp/>@gethostbyaddr($ip);<sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;long&apos;</highlight><highlight class="normal">]<sp/>=<sp/>@ip2long($ip);<sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(xrest_isipv6($ip))<sp/>{<sp/></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;ip6&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$ip;<sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;ip4&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$ip;<sp/></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;is_proxied&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;network-addy&apos;</highlight><highlight class="normal">]<sp/>=<sp/>@gethostbyaddr($ip);<sp/><sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;long&apos;</highlight><highlight class="normal">]<sp/>=<sp/>@ip2long($ip);<sp/></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(xrest_isipv6($ip))<sp/>{<sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;ip6&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$ip;<sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;ip4&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$ip;<sp/></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;md5&apos;</highlight><highlight class="normal">]<sp/>=<sp/>md5($ip.$ret[</highlight><highlight class="stringliteral">&apos;long&apos;</highlight><highlight class="normal">].$ret[</highlight><highlight class="stringliteral">&apos;network-addy&apos;</highlight><highlight class="normal">].$ret[</highlight><highlight class="stringliteral">&apos;is_proxied&apos;</highlight><highlight class="normal">]);<sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;sha1&apos;</highlight><highlight class="normal">]<sp/>=<sp/>sha1($ip.$ret[</highlight><highlight class="stringliteral">&apos;long&apos;</highlight><highlight class="normal">].$ret[</highlight><highlight class="stringliteral">&apos;network-addy&apos;</highlight><highlight class="normal">].$ret[</highlight><highlight class="stringliteral">&apos;is_proxied&apos;</highlight><highlight class="normal">].$ret[</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">].<sp/>$ret[</highlight><highlight class="stringliteral">&apos;uname&apos;</highlight><highlight class="normal">]);<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;made&apos;</highlight><highlight class="normal">]<sp/>=<sp/>time();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;<sp/></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>Checks<sp/>if<sp/>the<sp/>function<sp/>is<sp/>locked</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*<sp/><sp/>check_for_lock($function_file,<sp/>$username,<sp/>$password)</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$function_file<sp/><sp/><sp/><sp/>Function<sp/>name<sp/>of<sp/>file</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$username<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Username<sp/>of<sp/>the<sp/>User<sp/>on<sp/>Xortify<sp/>Cloud</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$password<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Open<sp/>text<sp/>or<sp/>MD5<sp/>of<sp/>password<sp/>for<sp/>User</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/>*<sp/><sp/>@return<sp/>array</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>check_for_lock($function_file,<sp/>$username,<sp/>$password)<sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>xoops_load(</highlight><highlight class="stringliteral">&apos;xoopscache&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>$userip<sp/>=<sp/>xrest_getUserIP();</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>$retn<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($result<sp/>=<sp/>XoopsCache::read(</highlight><highlight class="stringliteral">&apos;lock_&apos;</highlight><highlight class="normal">.$function_file.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.$username))<sp/>{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($result<sp/>as<sp/>$id<sp/>=&gt;<sp/>$ret)<sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($ret[</highlight><highlight class="stringliteral">&apos;made&apos;</highlight><highlight class="normal">]&lt;time()-$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_seconds&apos;</highlight><highlight class="normal">]<sp/>||<sp/></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="stringliteral">&apos;made&apos;</highlight><highlight class="normal">]&lt;((time()-$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_seconds&apos;</highlight><highlight class="normal">])+mt_rand(1,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_random_seed&apos;</highlight><highlight class="normal">])))<sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unset($result[$id]);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>elseif<sp/>($ret[</highlight><highlight class="stringliteral">&apos;md5&apos;</highlight><highlight class="normal">]==$userip[</highlight><highlight class="stringliteral">&apos;md5&apos;</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$retn<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;ErrNum&apos;</highlight><highlight class="normal">=&gt;<sp/>9,<sp/></highlight><highlight class="stringliteral">&quot;ErrDesc&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/>_XC_MI_NOPERMFORPLUGIN);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsCache::delete(</highlight><highlight class="stringliteral">&apos;lock_&apos;</highlight><highlight class="normal">.$function_file.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.$username);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsCache::write(</highlight><highlight class="stringliteral">&apos;lock_&apos;</highlight><highlight class="normal">.$function_file.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.$username,<sp/>$result,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_seconds&apos;</highlight><highlight class="normal">]+mt_rand(1,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_random_seed&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$retn;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>MArks<sp/>a<sp/>function<sp/>lock<sp/>based<sp/>on<sp/>username<sp/>and<sp/>password</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/>*<sp/><sp/>check_for_lock($function_file,<sp/>$username,<sp/>$password)</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$function_file<sp/><sp/><sp/><sp/>Function<sp/>name<sp/>of<sp/>file</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$username<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Username<sp/>of<sp/>the<sp/>User<sp/>on<sp/>Xortify<sp/>Cloud</highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/>*<sp/><sp/>@param<sp/>string<sp/>$password<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Open<sp/>text<sp/>or<sp/>MD5<sp/>of<sp/>password<sp/>for<sp/>User</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/>*<sp/><sp/>@return<sp/>array</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>mark_for_lock($function_file,<sp/>$username,<sp/>$password)<sp/>{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>xoops_load(</highlight><highlight class="stringliteral">&apos;xoopscache&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>$userip<sp/>=<sp/>xrest_getUserIP();</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($result<sp/>=<sp/>XoopsCache::read(</highlight><highlight class="stringliteral">&apos;lock_&apos;</highlight><highlight class="normal">.$function_file.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.$username))<sp/>{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsCache::delete(</highlight><highlight class="stringliteral">&apos;lock_&apos;</highlight><highlight class="normal">.$function_file.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.$username);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsCache::write(</highlight><highlight class="stringliteral">&apos;lock_&apos;</highlight><highlight class="normal">.$function_file.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.$username,<sp/>$result,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_seconds&apos;</highlight><highlight class="normal">]+mt_rand(1,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_random_seed&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight><highlight class="stringliteral">&apos;ErrNum&apos;</highlight><highlight class="normal">=&gt;<sp/>9,<sp/></highlight><highlight class="stringliteral">&quot;ErrDesc&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/>_XC_MI_NOPERMFORPLUGIN);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsCache::delete(</highlight><highlight class="stringliteral">&apos;lock_&apos;</highlight><highlight class="normal">.$function_file.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.$username);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsCache::write(</highlight><highlight class="stringliteral">&apos;lock_&apos;</highlight><highlight class="normal">.$function_file.</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">.$username,<sp/>$userip,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_seconds&apos;</highlight><highlight class="normal">]+mt_rand(1,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xrestModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lock_random_seed&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight><highlight class="stringliteral">&apos;ErrNum&apos;</highlight><highlight class="normal">=&gt;<sp/>9,<sp/></highlight><highlight class="stringliteral">&quot;ErrDesc&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/>_XC_MI_NOPERMFORPLUGIN);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/include/common.php"/>
+  </compounddef>
+</doxygen>

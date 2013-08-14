@@ -1,0 +1,205 @@
+========================================
+ 2013/03/30 18:28:29 Version 4.05 SERVER
+========================================
+ - Changed /include/update.php - added server tables (wishcraft)
+ - Changed /language/english/modinfo.php - added config languages (Wishcraft)
+ - Changed /provider/xortify/post.loader.php - added spam checking routines (Wishcraft)
+ - Changed /class/xoopsform/formdhtmltextarea.php - added spam checking form element (Wishcraft)
+ - Changed /class/xoopsform/formeditor.php - added spam checking form element (Wishcraft)
+ - Changed /class/xoopsform/formtextarea.php - added spam checking form element (Wishcraft)
+ - Changed /class/rest_curl.php - added spam checking routine (Wishcraft)
+ - Changed /class/rest_curlserialised.php - added spam checking routine (Wishcraft)
+ - Changed /class/rest_curlxml.php - added spam checking routine (Wishcraft)
+ - Changed /class/rest_json.php - added spam checking routine (Wishcraft)
+ - Changed /class/rest_wgetserialised.php - added spam checking routine (Wishcraft)
+ - Changed /class/rest_wgetxml.php - added spam checking routine (Wishcraft)
+ - Changed /class/soap.php - added spam checking routine (Wishcraft)
+ - Changed /class/curl.php - added spam checking routine (Wishcraft)
+ - Changed /class/curlserialised.php - added spam checking routine (Wishcraft)
+ - Changed /class/curlxml.php - added spam checking routine (Wishcraft)
+ - Changed /class/json.php - added spam checking routine (Wishcraft)
+ - Changed /class/wgetserialised.php - added spam checking routine (Wishcraft)
+ - Changed /class/wgetxml.php - added spam checking routine (Wishcraft)
+ - Added /preloads/usercrawl.php - User Table Crawling (Wishcraft)
+ - Moved /Frameworks/moduleclasses/icons to /xortify/images move of the internal images (Wishcraft)
+ 
+ ========================================
+ 2013/03/04 11:33:20 Version 4.01 -PROD-
+========================================
+ - Changed /include/functions.php - xortify_getIP() changed to us XoopsUserUtility::getIP(true) (Wishcraft)
+ - Changed /include/functions.php - xortify_apimethod() changed to support REST API (Wishcraft)
+ - Added /class/auth/auth_rest_curl_provisionning.php - JSON Curl REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_curl.php - JSON Curl REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_curlserialised_provisionning.php - Serialized Curl REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_curlserialised.php - Serializaed Curl REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_curlxml_provisionning.php - XML Curl REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_curlxml.php - XML Curl REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_json_provisionning.php - JSON wGET REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_json.php - JSON wGET REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_wgetserialised_provisionning.php - Serialized wGET REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_wgetserialised.php - Serializaed wGET REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_wgetxml_provisionning.php - XML wGET REST Method (Wishcraft)
+ - Added /class/auth/auth_rest_wgetxml.php - XML wGET REST Method (Wishcraft)
+ - Added /class/rest_curl_provisionning.php - JSON Curl REST Method (Wishcraft)
+ - Added /class/rest_curl.php - JSON Curl REST Method (Wishcraft)
+ - Added /class/rest_curlserialised_provisionning.php - Serialized Curl REST Method (Wishcraft)
+ - Added /class/rest_curlserialised.php - Serializaed Curl REST Method (Wishcraft)
+ - Added /class/rest_curlxml_provisionning.php - XML Curl REST Method (Wishcraft)
+ - Added /class/rest_curlxml.php - XML Curl REST Method (Wishcraft)
+ - Added /class/rest_json_provisionning.php - JSON wGET REST Method (Wishcraft)
+ - Added /class/rest_json.php - JSON wGET REST Method (Wishcraft)
+ - Added /class/rest_wgetserialised_provisionning.php - Serialized wGET REST Method (Wishcraft)
+ - Added /class/rest_wgetserialised.php - Serializaed wGET REST Method (Wishcraft)
+ - Added /class/rest_wgetxml_provisionning.php - XML wGET REST Method (Wishcraft)
+ - Added /class/rest_wgetxml.php - XML wGET REST Method (Wishcraft)
+  
+========================================
+ 2012/09/10 03:40:00 Version 3.10 -PROD-
+========================================
+ - Changed /include/update.php - added instance key checking and updating (Wishcraft)
+ - Changed /include/install.php - added instance key checking and writing (Wishcraft)
+ - Changed /language/english/modinfo.php - added preference and instance key language & file (Wishcraft)
+ - Changed /language/english/admin.php - changes to dashboard language file (Wishcraft)
+ - Changed /admin/index.php - changes to dashboard added instance key information (Wishcraft)
+ - Changed /include/functions.php - function unlinkOldCachefiles() fixed filename issue *Bug 04* (Wishcraft)
+ - Changed /preloads/core.php - loading of /include/instance.php intanciated (Wishcraft)
+ - Changed /preloads/provider.php - function init() modified, loading of instance.php instanciated (Wishcraft)
+ - Changed /xoops_version.php - new google analytics preference added, image locations changed! (Wishcraft)
+ - Changed **GLOBAL** renamed $GLOBALS['xortify to $_SESSION['xortify'][' - removed use of globals!! performance!! (Wishcraft)
+ - Added /include/instance.php - Instance Key Define File (Wishcraft)
+ - Added /template/xortify_instance_key.php.txt - Instance Key Template for PHP File (Wishcraft)
+ - Added /include/post.footer.end.php - reinstated footer end file loader (was missing) (Wishcraft)
+ - Added /include/functions.php - function writeInstanceKey() added to unify local client! (Wishcraft)
+ - Moved /Frameworks/moduleclasses/icons to /xortify/images move of the internal images (Wishcraft)
+ 
+========================================
+ 2012/08/23 23:33:15 Version 3.09 BETA
+========================================
+ - Changed /provider/projecthoneypot.org/post.loader.php - renamed $soapExchg to $apiExchange (Wishcraft)
+ - Changed /provider/protector/footer.post.loader.php - renamed $soapExchg to $apiExchange (Wishcraft)
+ - Changed /provider/protector/header.post.loader.php - renamed $soapExchg to $apiExchange (Wishcraft)
+ - Changed /provider/stopforumspam.com/post.loader.php - renamed $soapExchg to $apiExchange (Wishcraft)
+ - Changed /provider/xortify/footer.post.loader.php - renamed $soapExchg to $apiExchange (Wishcraft)
+ - Changed /provider/xortify/header.post.loader.php - renamed $soapExchg to $apiExchange (Wishcraft)
+ - Changed /provider/xortify/post.loader.php - renamed $soapExchg to $apiExchange (Wishcraft)
+ - Changed /provider/xortify/pre.loader.php - renamed $soapExchg to $apiExchange (Wishcraft)
+ - Changed /provider/projecthoneypot.org/post.loader.php - function unlinkOldCachefiles() called to clean cache (Wishcraft)
+ - Changed /provider/protector/footer.post.loader.php - function unlinkOldCachefiles() called to clean cache (Wishcraft)
+ - Changed /provider/protector/header.post.loader.php - function unlinkOldCachefiles() called to clean cache (Wishcraft)
+ - Changed /provider/stopforumspam.com/post.loader.php - function unlinkOldCachefiles() called to clean cache (Wishcraft)
+ - Changed /provider/xortify/footer.post.loader.php - function unlinkOldCachefiles() called to clean cache (Wishcraft)
+ - Changed /provider/xortify/header.post.loader.php - function unlinkOldCachefiles() called to clean cache (Wishcraft)
+ - Changed /provider/xortify/post.loader.php - function unlinkOldCachefiles() called to clean cache (Wishcraft)
+ - Added /include/functions.php - function unlinkOldCachefiles() added to clean cache! (Wishcraft)
+ 
+========================================
+ 2012/07/12 00:11:12 Version 3.08 STABLE
+========================================
+ - Changed /cron/serverup.php - function unlinkOldCachefiles() added to clean cache! (Wishcraft)
+ 
+========================================
+ 2012/06/14 00:11:12 Version 3.06 STABLE
+========================================
+ - Changed /cron/serverup.php - Fixed saving of module been enabled when cloud service is detected! (Wishcraft)
+
+========================================
+ 2012/05/12 04:43:23 Version 3.05 STABLE
+========================================
+ - Added /class/curl.php function getServers() - Dial back service for server list (Wishcraft)
+ - Added /class/curlserialised.php function getServers() - Dial back service for server list (Wishcraft)
+ - Added /class/curlxml.php function getServers() - Dial back service for server list (Wishcraft)
+ - Added /class/json.php function getServers() - Dial back service for server list (Wishcraft)
+ - Added /class/soap.php function getServers() - Dial back service for server list (Wishcraft)
+ - Added /class/wgetserialised.php function getServers() - Dial back service for server list (Wishcraft)
+ - Added /class/wgetxml.php function getServers() - Dial back service for server list (Wishcraft)
+ - Added /poll/index.php - Dial back service for server list writting system (API) (Wishcraft)
+ - Added /providers/xortify/pre.loader.php - Dial back service for server list polling system (Wishcraft)
+ - Changed /cron/serverup.php - Dial back service data used to search for server that is up (Wishcraft)
+ - Changed /providers/providers.php - Versioning changed for waited upgrade version change (Wishcraft)
+ 
+========================================
+ 2012/01/30 03:36:00 Version 3.04 STABLE
+========================================
+ - Changed /providers/xortify/post.loader.php removed 'exit;' from line 73 - Causing WSOD (Wishcraft)
+ 
+========================================
+ 2012/01/12 20:21:00 Version 3.02 STABLE
+========================================
+ - Changed /preloads/core.php changed eventCoreIncludeCommonEnd() to include banning redirection (Wishcraft)
+ - Changed /provider/projecthoneypot.org/post.loader.php changed ban display method with session and redirection (Wishcraft)
+ - Changed /provider/stopforumspam.com/post.loader.php changed ban display method with session and redirection (Wishcraft)
+ - Changed /provider/spiders/post.loader.php changed ban display method with session and redirection (Wishcraft)
+ - Changed /provider/xortify/post.loader.php changed ban method with session and redirection (Wishcraft)
+ - Changed /class/log.php changed insert() to remove warning & notice (Wishcraft)
+ - Changed /language/english/ban.php updated description so it reflected banning  (Wishcraft)
+ - Added /banned.php added function for banning message  (Wishcraft)
+ 
+========================================
+ 2012/01/11 19:29:00 Version 3.01 STABLE
+========================================
+ - Changed /admin/index.php changed xortify_adminMenu() to include page (Wishcraft)
+ - Changed /admin/index.php changed ban data populated to ban list to include comments & category's (Wishcraft)
+ - Changed /admin/index.php changed dashboard population to include cache cleanup information (Wishcraft)
+ - Changed /admin/functions.php changed xortify_adminMenu() to include page navigation & removed system menu  (Wishcraft)
+ - Changed /preloads/core.php changed eventCoreIncludeCommonEnd() to include cache cleanup and file deletion  (Wishcraft)
+ - Changed /templates/xortify_cpanel_bans.html changed template to contain new data for ban list including comments  (Wishcraft)
+ - Added /preloads/core.php added function getFileListAsArray() to retrieve files containing cursor  (Wishcraft)
+ - Added /language/english/admin.php added new dashboard & ban list language constants  (Wishcraft)
+ 
+========================================
+ 2011/12/28 19:52:00 Version 3.00 STABLE
+========================================
+ - Changed /xoops_version.php Swapped Server 1 and Server 2 with preferences  (Wishcraft)
+ - Changed /cron/serverup.php Swapped Server 1 and Server 2  (Wishcraft)
+ - Changed /include/function.php removed 2.6 implementation for XOOPS 2.5 line 112 - 116  (Wishcraft)
+ - Changed $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['_api'] to $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['moduleConfig']['protocol']  (Wishcraft)
+ 
+========================================
+ 2011/12/15 15:26:00 Version 2.99 STABLE
+========================================
+ - Changed /admin/index.php correct header call and templating system implemented  (Wishcraft)
+ - Added /preloads/core.php function __construct() added to preloader; (Wishcraft)
+ - Added /preloads/core.php Failure delay system for preloader strapping; (Wishcraft)
+ - Added /templates/xortify_cpanel_signup_nocommunication.html error output for signup so debug is more clear (Wishcraft)
+ - Added /templates/xortify_cpanel_signup_form.html HTML Form output for signup (Wishcraft)
+ - Added /xoops_version.php Fault Delay for preloader Added to Preferences (Wishcraft)
+ - Renamed /templates/admin/xorify_cpanel_bans.html to xortify_cpanel_bans.html; typo in filename ammended  (Wishcraft)
+ - Changed $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['module'] renamed to $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['module']  (Wishcraft)
+ - Changed $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['moduleConfig'] renamed to $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['moduleConfig']  (Wishcraft)
+ - Changed xortify_banning_notice.html more details, debug error pre output, provider and version added (Wishcraft)
+ - Added eventCoreHeaderCacheEnd added to core preloader; (Wishcraft)
+ - Added headerpostcheck added to core preloader strapping class /provider/providers.php; (Wishcraft)
+ - Added For XOOPS 2.5.0 warning notice added to xoops_version.php (Wishcraft)
+ - Added header.post.loader.php; provider for preload in header instaniation - Header.Cache.End (mirrored footer.post.loader.php) (Wishcraft)
+ 
+========================================
+ 2011/11/08 07:04:00 Version 2.58 STABLE
+========================================
+ - Changed $pathImageAdmin renamed to $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['ImageAdmin']  (Wishcraft)
+ - Changed $pathImageIcon renamed to $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['ImageIcon']  (Wishcraft)
+ - Changed $GLOBALS['xoopsModule'] in module renamed to $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['module'] (Wishcraft)
+ - Changed $GLOBALS['xoopsModuleConfig'] in module renamed to $_SESSION['xortify'][XORTIFY_INSTANCE_KEY]['moduleConfig'] (Wishcraft)
+ 
+========================================
+ 2011/11/05 07:42:00 Version 2.57 STABLE
+========================================
+ - Changed path information for XOOPS Microbutton in admin footer include/functions.php  (Wishcraft)
+ 
+========================================
+ 2011/11/03 07:20:00 Version 2.56 STABLE
+========================================
+ - Changed Protocol URL Reverted back to http://xortify.chronolabs.coop xoops_version.php  (Wishcraft)
+ - Changed Increased seconds to 2 hours for cron on preloader/crontab xoops_version.php  (Wishcraft)
+ - Added docs folder added with documents (Wishcraft)
+ - Added language/english/help folder & files added with documents (Wishcraft)
+ - Added Function getCountByField was added to log.php class (wishcraft)
+ - Added GUI Dashboard was added to admins index.php (wishcraft)
+ - Added GUI About was added to admins index.php (wishcraft) 
+ - Changed Dashboard & About added to admin menu menu.php  (Wishcraft)
+ - Added Admin Icon 32x32 added to Frameworks Folder /Frameworks/Moduleclass  (Wishcraft) 
+ - Added credit.txt to /xortify/docs modular path  (Wishcraft) 
+ - Added install.txt to /xortify/docs modular path  (Wishcraft)
+ - Added changelog.txt to /xortify/docs modular path  (Wishcraft)
+ - Added readme.txt to /xortify/docs modular path  (Wishcraft)   
+ - Added help.html to /xortify/language/english/help path  (Wishcraft)
+ - Added licence.txt to /xortify/docs modular path  (Wishcraft) 

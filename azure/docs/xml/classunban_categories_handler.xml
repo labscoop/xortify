@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classunban_categories_handler" kind="class" prot="public">
+    <compoundname>unbanCategoriesHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPersistableObjectHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classunban_categories_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>(&amp;$db)</argsstring>
+        <name>__construct</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/categories.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/categories.php" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="564">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="563">
+        <label>unbanCategoriesHandler</label>
+        <link refid="classunban_categories_handler"/>
+        <childnode refid="564" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="566">
+        <label>XoopsPersistableObjectHandler</label>
+      </node>
+      <node id="565">
+        <label>unbanCategoriesHandler</label>
+        <link refid="classunban_categories_handler"/>
+        <childnode refid="566" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/class/categories.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/categories.php" bodystart="31" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classunban_categories_handler_1aaf2ef772755ec6f361d44e16cc9ffd69" prot="public" virt="non-virtual"><scope>unbanCategoriesHandler</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

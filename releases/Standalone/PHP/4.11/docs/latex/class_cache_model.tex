@@ -1,0 +1,178 @@
+\hypertarget{class_cache_model}{\section{Cache\-Model Class Reference}
+\label{class_cache_model}\index{Cache\-Model@{Cache\-Model}}
+}
+
+
+Inheritance diagram for Cache\-Model\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_cache_model__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cache\-Model\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{class_cache_model__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_model_a5a352605cb6d44ea8c1b059e6413589c}{init} (\$\hyperlink{class_cache_engine_ad7354383714c6ae99d6ee1bfb95ab49f}{settings})
+\item 
+\hyperlink{class_cache_model_a14ff7ef4b198ff14884dd8c564264ca3}{gc} ()
+\item 
+\hyperlink{class_cache_model_adb7885262e83b806fb75be99b310eea5}{write} (\$key, \$data, \$duration)
+\item 
+\hyperlink{class_cache_model_a4c50c958c469c08bba0c0ccb710ca8af}{read} (\$key)
+\item 
+\hyperlink{class_cache_model_aa74a2edd6f3cbb5c5353f7faa97b6d70}{delete} (\$key)
+\item 
+\hyperlink{class_cache_model_aa821bec12eaa7e0f649397c9675ff505}{clear} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cache_model_ac7c3353107070daa85f641882931b358}{\$settings} = array()
+\item 
+\hyperlink{class_cache_model_a08fdd91bde255dbe3e2d15a22d9663e8}{\$model} = null
+\item 
+\hyperlink{class_cache_model_ab2303c817e3b402b77b7f99627b9c319}{\$fields} = array()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Database Storage engine for cache
+
+P\-H\-P versions 4 and 5
+
+Cake\-P\-H\-P(tm) \-: Rapid Development Framework \href{http://www.cakephp.org/}{\tt http\-://www.\-cakephp.\-org/} Copyright 2005-\/2008, Cake Software Foundation, Inc. 1785 E. Sahara Avenue, Suite 490-\/204 Las Vegas, Nevada 89104
+
+Licensed under The M\-I\-T License Redistributions of files must retain the above copyright notice.
+
+\begin{DoxyCopyright}{Copyright}
+Copyright 2005-\/2008, Cake Software Foundation, Inc. \hyperlink{}{Cake\-P\-H\-P(tm) Project  Cake\-P\-H\-P(tm) v 1.\-2.\-0.\-4933        \href{http://www.opensource.org/licenses/mit-license.php}{\tt http\-://www.\-opensource.\-org/licenses/mit-\/license.\-php} The M\-I\-T License Database Storage engine for cache }
+\end{DoxyCopyright}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_cache_model_aa821bec12eaa7e0f649397c9675ff505}{\index{Cache\-Model@{Cache\-Model}!clear@{clear}}
+\index{clear@{clear}!CacheModel@{Cache\-Model}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cache_model_aa821bec12eaa7e0f649397c9675ff505}
+Delete all keys from the cache
+
+\begin{DoxyReturn}{Returns}
+boolean True if the cache was succesfully cleared, false otherwise  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_model_aa74a2edd6f3cbb5c5353f7faa97b6d70}{\index{Cache\-Model@{Cache\-Model}!delete@{delete}}
+\index{delete@{delete}!CacheModel@{Cache\-Model}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_model_aa74a2edd6f3cbb5c5353f7faa97b6d70}
+Delete a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_model_a14ff7ef4b198ff14884dd8c564264ca3}{\index{Cache\-Model@{Cache\-Model}!gc@{gc}}
+\index{gc@{gc}!CacheModel@{Cache\-Model}}
+\subsubsection[{gc}]{\setlength{\rightskip}{0pt plus 5cm}gc (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cache_model_a14ff7ef4b198ff14884dd8c564264ca3}
+Garbage collection. Permanently remove all expired and deleted data
+
+public \hypertarget{class_cache_model_a5a352605cb6d44ea8c1b059e6413589c}{\index{Cache\-Model@{Cache\-Model}!init@{init}}
+\index{init@{init}!CacheModel@{Cache\-Model}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}init (
+\begin{DoxyParamCaption}
+\item[{}]{\$settings}
+\end{DoxyParamCaption}
+)}}\label{class_cache_model_a5a352605cb6d44ea8c1b059e6413589c}
+Initialize the \hyperlink{class_cache}{Cache} Engine
+
+Called automatically by the cache frontend To reinitialize the settings call \hyperlink{class_cache_a227d1ab3c57640a1692c8d090eb4ef22}{Cache\-::engine}('Engine\-Name', \mbox{[}optional\mbox{]} settings = array());
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$setting} & array of setting for the engine \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the engine has been successfully initialized, false if not  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_model_a4c50c958c469c08bba0c0ccb710ca8af}{\index{Cache\-Model@{Cache\-Model}!read@{read}}
+\index{read@{read}!CacheModel@{Cache\-Model}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}read (
+\begin{DoxyParamCaption}
+\item[{}]{\$key}
+\end{DoxyParamCaption}
+)}}\label{class_cache_model_a4c50c958c469c08bba0c0ccb710ca8af}
+Read a key from the cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+\end{DoxyReturn}
+\hypertarget{class_cache_model_adb7885262e83b806fb75be99b310eea5}{\index{Cache\-Model@{Cache\-Model}!write@{write}}
+\index{write@{write}!CacheModel@{Cache\-Model}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}write (
+\begin{DoxyParamCaption}
+\item[{}]{\$key, }
+\item[{}]{\$data, }
+\item[{}]{\$duration}
+\end{DoxyParamCaption}
+)}}\label{class_cache_model_adb7885262e83b806fb75be99b310eea5}
+Write data for key into cache
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & Identifier for the data \\
+\hline
+mixed & {\em \$data} & Data to be cached \\
+\hline
+integer & {\em \$duration} & How long to cache the data, in seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean True if the data was succesfully cached, false on failure  public 
+\end{DoxyReturn}
+
+
+\subsection{Field Documentation}
+\hypertarget{class_cache_model_ab2303c817e3b402b77b7f99627b9c319}{\index{Cache\-Model@{Cache\-Model}!\$fields@{\$fields}}
+\index{\$fields@{\$fields}!CacheModel@{Cache\-Model}}
+\subsubsection[{\$fields}]{\setlength{\rightskip}{0pt plus 5cm}\$fields = array()}}\label{class_cache_model_ab2303c817e3b402b77b7f99627b9c319}
+\hypertarget{class_cache_model_a08fdd91bde255dbe3e2d15a22d9663e8}{\index{Cache\-Model@{Cache\-Model}!\$model@{\$model}}
+\index{\$model@{\$model}!CacheModel@{Cache\-Model}}
+\subsubsection[{\$model}]{\setlength{\rightskip}{0pt plus 5cm}\$model = null}}\label{class_cache_model_a08fdd91bde255dbe3e2d15a22d9663e8}
+\hypertarget{class_cache_model_ac7c3353107070daa85f641882931b358}{\index{Cache\-Model@{Cache\-Model}!\$settings@{\$settings}}
+\index{\$settings@{\$settings}!CacheModel@{Cache\-Model}}
+\subsubsection[{\$settings}]{\setlength{\rightskip}{0pt plus 5cm}\${\bf settings} = array()}}\label{class_cache_model_ac7c3353107070daa85f641882931b358}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Q\-:/@websites@/coop/labs/dev2/class/cache/\hyperlink{model_8php}{model.\-php}\end{DoxyCompactItemize}

@@ -1,0 +1,1593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classsoap__transport__http" kind="class" prot="public">
+    <compoundname>soap_transport_http</compoundname>
+    <basecompoundref refid="classnusoap__base" prot="public" virt="non-virtual">nusoap_base</basecompoundref>
+    <basecompoundref refid="classnusoap__base" prot="public" virt="non-virtual">nusoap_base</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsoap__transport__http_1acf215f34a917d014776ce684a9ee8909" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$url</definition>
+        <argsstring></argsstring>
+        <name>$url</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a653b5458163d338546c47271b4fb81b7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$uri</definition>
+        <argsstring></argsstring>
+        <name>$uri</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="17" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a7852708352a061a957ebd0fe6f4b0597" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$digest_uri</definition>
+        <argsstring></argsstring>
+        <name>$digest_uri</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="18" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a1665950e3e3b63a02fc5a48706ac81c4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$scheme</definition>
+        <argsstring></argsstring>
+        <name>$scheme</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a711797613cb863ca0756df789c396bf2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$host</definition>
+        <argsstring></argsstring>
+        <name>$host</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1aa0787efab4b22e8a212882f3409d4c77" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$port</definition>
+        <argsstring></argsstring>
+        <name>$port</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a0a4baf0b22973c07685c3981f0d17fc4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$path</definition>
+        <argsstring></argsstring>
+        <name>$path</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1afc31291e91d86d30d41495c3774ba977" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$request_method</definition>
+        <argsstring></argsstring>
+        <name>$request_method</name>
+        <initializer>= &apos;POST&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1ab3f5771c62cb5f1fc5035d3b863eb84d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$protocol_version</definition>
+        <argsstring></argsstring>
+        <name>$protocol_version</name>
+        <initializer>= &apos;1.0&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1aee271b7ce67fbe00b9976e6c347cbfbf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$encoding</definition>
+        <argsstring></argsstring>
+        <name>$encoding</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1ac4175695783164be56dd48fda2e405b2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$outgoing_headers</definition>
+        <argsstring></argsstring>
+        <name>$outgoing_headers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1afdf0f0ed01b1297a88e948540309701e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$incoming_headers</definition>
+        <argsstring></argsstring>
+        <name>$incoming_headers</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1aab5d3e1a6450164cd73bcc8360054a4c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$incoming_cookies</definition>
+        <argsstring></argsstring>
+        <name>$incoming_cookies</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a4a8841d1b10972ec8409318070a84bd9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$outgoing_payload</definition>
+        <argsstring></argsstring>
+        <name>$outgoing_payload</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a99bcf594acbbb4a3728040a193f3dd9f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$incoming_payload</definition>
+        <argsstring></argsstring>
+        <name>$incoming_payload</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1aa1836768f0ac363c44504f84fa890fe0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$useSOAPAction</definition>
+        <argsstring></argsstring>
+        <name>$useSOAPAction</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a638b1c5f7dc55a3d0286136de6d56eab" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$persistentConnection</definition>
+        <argsstring></argsstring>
+        <name>$persistentConnection</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a696b903bbc5c02914bdd402e91826eca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ch</definition>
+        <argsstring></argsstring>
+        <name>$ch</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$username</definition>
+        <argsstring></argsstring>
+        <name>$username</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1a607686ef9f99ea7c42f4f3dd3dbb2b0d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$password</definition>
+        <argsstring></argsstring>
+        <name>$password</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1ae81871b02c5845eb3a1071eb24e1f29c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$authtype</definition>
+        <argsstring></argsstring>
+        <name>$authtype</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1ad098598a3adf68983dbf72c92cd594dc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$digestRequest</definition>
+        <argsstring></argsstring>
+        <name>$digestRequest</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__transport__http_1adcbe9a77644bad97ed599d1651bd2719" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$certRequest</definition>
+        <argsstring></argsstring>
+        <name>$certRequest</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsoap__transport__http_1afcc6a2b2fc19a97a2e192670fc8feb77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>soap_transport_http</definition>
+        <argsstring>($url)</argsstring>
+        <name>soap_transport_http</name>
+        <param>
+          <declname>$url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a5a4415db7a7e36f85a4d975c892b0470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setURL</definition>
+        <argsstring>($url)</argsstring>
+        <name>setURL</name>
+        <param>
+          <declname>$url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="57" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a8648865ea5c701e29c03c79af40a7ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>connect</definition>
+        <argsstring>($connection_timeout=0, $response_timeout=30)</argsstring>
+        <name>connect</name>
+        <param>
+          <declname>$connection_timeout</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$response_timeout</declname>
+          <defval>30</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="96" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="96" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a124252f4e9d206d86fcd6522854eb919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>send</definition>
+        <argsstring>($data, $timeout=0, $response_timeout=30, $cookies=NULL)</argsstring>
+        <name>send</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$response_timeout</declname>
+          <defval>30</defval>
+        </param>
+        <param>
+          <declname>$cookies</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>send the SOAP message via HTTP</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set connection timeout in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$response_timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set response timeout in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$cookies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cookies to send </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string data  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="251" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="251" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1aa93a72fdc90b3535f17d471b7ccc3ffd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendHTTPS</definition>
+        <argsstring>($data, $timeout=0, $response_timeout=30, $cookies)</argsstring>
+        <name>sendHTTPS</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$response_timeout</declname>
+          <defval>30</defval>
+        </param>
+        <param>
+          <declname>$cookies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>send the SOAP message via HTTPS 1.0 using CURL</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set connection timeout in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$response_timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set response timeout in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$cookies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cookies to send </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string data  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="291" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="291" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1afc1032cca5010f0fefba2f0d5a9c4520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setCredentials</definition>
+        <argsstring>($username, $password, $authtype= &apos;basic&apos;, $digestRequest=array(), $certRequest=array())</argsstring>
+        <name>setCredentials</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <param>
+          <declname>$authtype</declname>
+          <defval>&apos;basic&apos;</defval>
+        </param>
+        <param>
+          <declname>$digestRequest</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$certRequest</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if authenticating, set user credentials here</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$authtype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(basic, digest, certificate) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$digestRequest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(keys must be nonce, nc, realm, qop) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$certRequest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(keys must be cainfofile (optional), sslcertfile, sslkeyfile, passphrase, verifypeer (optional), verifyhost (optional): see corresponding options in cURL docs)  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="305" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="305" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a792db42ef189835b80389a838fbf2cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setSOAPAction</definition>
+        <argsstring>($soapaction)</argsstring>
+        <name>setSOAPAction</name>
+        <param>
+          <declname>$soapaction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the soapaction value</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$soapaction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="373" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="373" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a9dde5d06442abd355db3acbde021121d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setEncoding</definition>
+        <argsstring>($enc=&apos;gzip, deflate&apos;)</argsstring>
+        <name>setEncoding</name>
+        <param>
+          <declname>$enc</declname>
+          <defval>&apos;gzip</defval>
+        </param>
+        <param>
+          <type>deflate&apos;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use http encoding</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$enc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>encoding style. supported values: gzip, deflate, or both  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="384" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="384" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a07092d2bf7866cbb464ec98726ccc75a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setProxy</definition>
+        <argsstring>($proxyhost, $proxyport, $proxyusername= &apos;&apos;, $proxypassword= &apos;&apos;)</argsstring>
+        <name>setProxy</name>
+        <param>
+          <declname>$proxyhost</declname>
+        </param>
+        <param>
+          <declname>$proxyport</declname>
+        </param>
+        <param>
+          <declname>$proxyusername</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$proxypassword</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set proxy info here</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyhost</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyusername</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxypassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="409" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="409" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a6dc9ad42ffb3aaea279c0ee16c4068b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decodeChunked</definition>
+        <argsstring>($buffer, $lb)</argsstring>
+        <name>decodeChunked</name>
+        <param>
+          <declname>$buffer</declname>
+        </param>
+        <param>
+          <declname>$lb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>decode a string that is encoded w/ "chunked&apos; transfer encoding as defined in RFC2068 19.4.6</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string  public </para></simplesect>
+<xrefsect id="deprecated_1_deprecated000005"><xreftitle>Deprecated</xreftitle><xrefdescription></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="429" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="429" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a3aaa5b45b7d75364bccaf3918a5ce908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>buildPayload</definition>
+        <argsstring>($data, $cookie_str= &apos;&apos;)</argsstring>
+        <name>buildPayload</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$cookie_str</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="481" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="481" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a58f0210b24415cdc753d31b425a406be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendRequest</definition>
+        <argsstring>($data, $cookies=NULL)</argsstring>
+        <name>sendRequest</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$cookies</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="512" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="512" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a6c907e8af775e517a77037dd0164222f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getResponse</definition>
+        <argsstring>()</argsstring>
+        <name>getResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="551" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="551" bodyend="905"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a1d16955b48732c7b979b7d2ccaea34c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setContentType</definition>
+        <argsstring>($type, $charset=false)</argsstring>
+        <name>setContentType</name>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$charset</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="907" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="907" bodyend="910"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a8ae21fdc1993b8741956e86fc58c12b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usePersistentConnection</definition>
+        <argsstring>()</argsstring>
+        <name>usePersistentConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="912" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="912" bodyend="921"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1ae8e635ed6f4df1ef3f9329f1103b6941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseCookie</definition>
+        <argsstring>($cookie_str)</argsstring>
+        <name>parseCookie</name>
+        <param>
+          <declname>$cookie_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parse an incoming Cookie into it&apos;s parts</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cookie_str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>content of cookie </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array with data of that cookie  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="933" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="933" bodyend="987"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a51e28e678d231bebb7de006262c31887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCookiesForRequest</definition>
+        <argsstring>($cookies, $secure=false)</argsstring>
+        <name>getCookiesForRequest</name>
+        <param>
+          <declname>$cookies</declname>
+        </param>
+        <param>
+          <declname>$secure</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sort out cookies for the current request</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$cookies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array with all cookies </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>boolean</parametertype>
+<parametername>$secure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the send-content secure or not? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for Cookie-HTTP-Header  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="997" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="997" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1afcc6a2b2fc19a97a2e192670fc8feb77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>soap_transport_http</definition>
+        <argsstring>($url)</argsstring>
+        <name>soap_transport_http</name>
+        <param>
+          <declname>$url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2041" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2041" bodyend="2047"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a5a4415db7a7e36f85a4d975c892b0470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setURL</definition>
+        <argsstring>($url)</argsstring>
+        <name>setURL</name>
+        <param>
+          <declname>$url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2049" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2049" bodyend="2086"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a8648865ea5c701e29c03c79af40a7ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>connect</definition>
+        <argsstring>($connection_timeout=0, $response_timeout=30)</argsstring>
+        <name>connect</name>
+        <param>
+          <declname>$connection_timeout</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$response_timeout</declname>
+          <defval>30</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2088" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2088" bodyend="2231"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a124252f4e9d206d86fcd6522854eb919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>send</definition>
+        <argsstring>($data, $timeout=0, $response_timeout=30, $cookies=NULL)</argsstring>
+        <name>send</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$response_timeout</declname>
+          <defval>30</defval>
+        </param>
+        <param>
+          <declname>$cookies</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>send the SOAP message via HTTP</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set connection timeout in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$response_timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set response timeout in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$cookies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cookies to send </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string data  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2243" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2243" bodyend="2270"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1aa93a72fdc90b3535f17d471b7ccc3ffd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendHTTPS</definition>
+        <argsstring>($data, $timeout=0, $response_timeout=30, $cookies)</argsstring>
+        <name>sendHTTPS</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$timeout</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <declname>$response_timeout</declname>
+          <defval>30</defval>
+        </param>
+        <param>
+          <declname>$cookies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>send the SOAP message via HTTPS 1.0 using CURL</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set connection timeout in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$response_timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set response timeout in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$cookies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cookies to send </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string data  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2283" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2283" bodyend="2285"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1afc1032cca5010f0fefba2f0d5a9c4520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setCredentials</definition>
+        <argsstring>($username, $password, $authtype= &apos;basic&apos;, $digestRequest=array(), $certRequest=array())</argsstring>
+        <name>setCredentials</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <param>
+          <declname>$authtype</declname>
+          <defval>&apos;basic&apos;</defval>
+        </param>
+        <param>
+          <declname>$digestRequest</declname>
+          <defval>array()</defval>
+        </param>
+        <param>
+          <declname>$certRequest</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if authenticating, set user credentials here</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$authtype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(basic, digest, certificate) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$digestRequest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(keys must be nonce, nc, realm, qop) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$certRequest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(keys must be cainfofile (optional), sslcertfile, sslkeyfile, passphrase, verifypeer (optional), verifyhost (optional): see corresponding options in cURL docs)  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2297" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2297" bodyend="2357"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a792db42ef189835b80389a838fbf2cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setSOAPAction</definition>
+        <argsstring>($soapaction)</argsstring>
+        <name>setSOAPAction</name>
+        <param>
+          <declname>$soapaction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the soapaction value</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$soapaction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2365" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2365" bodyend="2368"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a9dde5d06442abd355db3acbde021121d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setEncoding</definition>
+        <argsstring>($enc=&apos;gzip, deflate&apos;)</argsstring>
+        <name>setEncoding</name>
+        <param>
+          <declname>$enc</declname>
+          <defval>&apos;gzip</defval>
+        </param>
+        <param>
+          <type>deflate&apos;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use http encoding</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$enc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>encoding style. supported values: gzip, deflate, or both  public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2376" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2376" bodyend="2390"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a07092d2bf7866cbb464ec98726ccc75a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setProxy</definition>
+        <argsstring>($proxyhost, $proxyport, $proxyusername= &apos;&apos;, $proxypassword= &apos;&apos;)</argsstring>
+        <name>setProxy</name>
+        <param>
+          <declname>$proxyhost</declname>
+        </param>
+        <param>
+          <declname>$proxyport</declname>
+        </param>
+        <param>
+          <declname>$proxyusername</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$proxypassword</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set proxy info here</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyhost</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxyusername</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$proxypassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2401" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2401" bodyend="2409"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a6dc9ad42ffb3aaea279c0ee16c4068b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>decodeChunked</definition>
+        <argsstring>($buffer, $lb)</argsstring>
+        <name>decodeChunked</name>
+        <param>
+          <declname>$buffer</declname>
+        </param>
+        <param>
+          <declname>$lb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>decode a string that is encoded w/ "chunked&apos; transfer encoding as defined in RFC2068 19.4.6</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string  public </para></simplesect>
+<xrefsect id="deprecated_1_deprecated000018"><xreftitle>Deprecated</xreftitle><xrefdescription></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2421" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2421" bodyend="2468"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a3aaa5b45b7d75364bccaf3918a5ce908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>buildPayload</definition>
+        <argsstring>($data, $cookie_str= &apos;&apos;)</argsstring>
+        <name>buildPayload</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$cookie_str</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2473" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2473" bodyend="2502"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a58f0210b24415cdc753d31b425a406be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendRequest</definition>
+        <argsstring>($data, $cookies=NULL)</argsstring>
+        <name>sendRequest</name>
+        <param>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <declname>$cookies</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2504" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2504" bodyend="2541"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a6c907e8af775e517a77037dd0164222f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getResponse</definition>
+        <argsstring>()</argsstring>
+        <name>getResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2543" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2543" bodyend="2897"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a1d16955b48732c7b979b7d2ccaea34c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setContentType</definition>
+        <argsstring>($type, $charset=false)</argsstring>
+        <name>setContentType</name>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$charset</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2899" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2899" bodyend="2902"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a8ae21fdc1993b8741956e86fc58c12b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usePersistentConnection</definition>
+        <argsstring>()</argsstring>
+        <name>usePersistentConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2904" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2904" bodyend="2913"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1ae8e635ed6f4df1ef3f9329f1103b6941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parseCookie</definition>
+        <argsstring>($cookie_str)</argsstring>
+        <name>parseCookie</name>
+        <param>
+          <declname>$cookie_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parse an incoming Cookie into it&apos;s parts</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cookie_str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>content of cookie </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array with data of that cookie  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2925" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2925" bodyend="2979"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__transport__http_1a51e28e678d231bebb7de006262c31887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCookiesForRequest</definition>
+        <argsstring>($cookies, $secure=false)</argsstring>
+        <name>getCookiesForRequest</name>
+        <param>
+          <declname>$cookies</declname>
+        </param>
+        <param>
+          <declname>$secure</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sort out cookies for the current request</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$cookies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array with all cookies </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>boolean</parametertype>
+<parametername>$secure</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the send-content secure or not? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string for Cookie-HTTP-Header  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="2989" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="2989" bodyend="3026"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>transport class for sending/receiving data via HTTP and HTTPS NOTd: PHP must be compiled with the CURL extension for HTTPS support</para><para><simplesect kind="author"><para>Dietrich Ayala <ulink url="mailto:dietrich@ganx4.com">dietrich@ganx4.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="class_8soap__transport__http_8php_source" kindref="compound">class.soap_transport_http.php</ref>,v 1.57 2005/07/27 19:24:42 snichol Exp </para></simplesect>
+public</para><para>transport class for sending/receiving data via HTTP and HTTPS NOTd: PHP must be compiled with the CURL extension for HTTPS support</para><para><simplesect kind="author"><para>Dietrich Ayala <ulink url="mailto:dietrich@ganx4.com">dietrich@ganx4.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="nusoap_8php_source" kindref="compound">nusoap.php</ref>,v 1.94 2005/08/04 01:27:42 snichol Exp </para></simplesect>
+public </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="500">
+        <label>soap_transport_http</label>
+        <link refid="classsoap__transport__http"/>
+        <childnode refid="501" relation="public-inheritance">
+        </childnode>
+        <childnode refid="501" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="501">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="502">
+        <label>soap_transport_http</label>
+        <link refid="classsoap__transport__http"/>
+        <childnode refid="503" relation="public-inheritance">
+        </childnode>
+        <childnode refid="503" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="503">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_transport_http.php" bodystart="14" bodyend="1035"/>
+    <listofallmembers>
+      <member refid="classsoap__transport__http_1ae81871b02c5845eb3a1071eb24e1f29c" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$authtype</name></member>
+      <member refid="classsoap__transport__http_1adcbe9a77644bad97ed599d1651bd2719" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$certRequest</name></member>
+      <member refid="classsoap__transport__http_1a696b903bbc5c02914bdd402e91826eca" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$ch</name></member>
+      <member refid="classnusoap__base_1a6a4d8a570a9e0a89ef63b192fa3942f2" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$charencoding</name></member>
+      <member refid="classnusoap__base_1ad04cbe402f400eb4b0b40f2c03985452" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$debug_str</name></member>
+      <member refid="classnusoap__base_1a8907cc6f1fc6ed47ef25190cb8310f41" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$debugLevel</name></member>
+      <member refid="classsoap__transport__http_1a7852708352a061a957ebd0fe6f4b0597" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$digest_uri</name></member>
+      <member refid="classsoap__transport__http_1ad098598a3adf68983dbf72c92cd594dc" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$digestRequest</name></member>
+      <member refid="classsoap__transport__http_1aee271b7ce67fbe00b9976e6c347cbfbf" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$encoding</name></member>
+      <member refid="classnusoap__base_1ab9c9e44dc77820490ded7d8bf085cd7e" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$error_str</name></member>
+      <member refid="classsoap__transport__http_1a711797613cb863ca0756df789c396bf2" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$host</name></member>
+      <member refid="classsoap__transport__http_1aab5d3e1a6450164cd73bcc8360054a4c" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$incoming_cookies</name></member>
+      <member refid="classsoap__transport__http_1afdf0f0ed01b1297a88e948540309701e" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$incoming_headers</name></member>
+      <member refid="classsoap__transport__http_1a99bcf594acbbb4a3728040a193f3dd9f" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$incoming_payload</name></member>
+      <member refid="classnusoap__base_1a5a7d9500de9f7c938443d65cef9a074e" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$namespaces</name></member>
+      <member refid="classsoap__transport__http_1ac4175695783164be56dd48fda2e405b2" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$outgoing_headers</name></member>
+      <member refid="classsoap__transport__http_1a4a8841d1b10972ec8409318070a84bd9" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$outgoing_payload</name></member>
+      <member refid="classsoap__transport__http_1a607686ef9f99ea7c42f4f3dd3dbb2b0d" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$password</name></member>
+      <member refid="classsoap__transport__http_1a0a4baf0b22973c07685c3981f0d17fc4" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$path</name></member>
+      <member refid="classsoap__transport__http_1a638b1c5f7dc55a3d0286136de6d56eab" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$persistentConnection</name></member>
+      <member refid="classsoap__transport__http_1aa0787efab4b22e8a212882f3409d4c77" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$port</name></member>
+      <member refid="classsoap__transport__http_1ab3f5771c62cb5f1fc5035d3b863eb84d" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$protocol_version</name></member>
+      <member refid="classsoap__transport__http_1afc31291e91d86d30d41495c3774ba977" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$request_method</name></member>
+      <member refid="classnusoap__base_1a4ff96b89e7ea5fa55acb086ecb6d0c03" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$revision</name></member>
+      <member refid="classsoap__transport__http_1a1665950e3e3b63a02fc5a48706ac81c4" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$scheme</name></member>
+      <member refid="classnusoap__base_1a54cf9ddad3b51e54af1bfad78efad09a" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$soap_defencoding</name></member>
+      <member refid="classnusoap__base_1ada57e7bb7c152edad18fe2f166188691" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$title</name></member>
+      <member refid="classnusoap__base_1abc776370d77b6fe463a62fa2faf26c2e" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$typemap</name></member>
+      <member refid="classsoap__transport__http_1a653b5458163d338546c47271b4fb81b7" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$uri</name></member>
+      <member refid="classsoap__transport__http_1acf215f34a917d014776ce684a9ee8909" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$url</name></member>
+      <member refid="classnusoap__base_1a2bd7e321e4132fe338d8502a5594aebc" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$usedNamespaces</name></member>
+      <member refid="classsoap__transport__http_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$username</name></member>
+      <member refid="classsoap__transport__http_1aa1836768f0ac363c44504f84fa890fe0" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$useSOAPAction</name></member>
+      <member refid="classnusoap__base_1a17c8948c68aa44fa9961ae169b6a8961" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$version</name></member>
+      <member refid="classnusoap__base_1a912a5d3348012e245bb16e2cab11d4cc" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$xmlEntities</name></member>
+      <member refid="classnusoap__base_1a170fda624f458ce4f4b29e496ebfce4c" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>$XMLSchemaVersion</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>appendDebug</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>appendDebug</name></member>
+      <member refid="classsoap__transport__http_1a3aaa5b45b7d75364bccaf3918a5ce908" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>buildPayload</name></member>
+      <member refid="classsoap__transport__http_1a3aaa5b45b7d75364bccaf3918a5ce908" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>buildPayload</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>clearDebug</name></member>
+      <member refid="classsoap__transport__http_1a8648865ea5c701e29c03c79af40a7ffc" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>connect</name></member>
+      <member refid="classsoap__transport__http_1a8648865ea5c701e29c03c79af40a7ffc" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>connect</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>debug</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>debug</name></member>
+      <member refid="classsoap__transport__http_1a6dc9ad42ffb3aaea279c0ee16c4068b2" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>decodeChunked</name></member>
+      <member refid="classsoap__transport__http_1a6dc9ad42ffb3aaea279c0ee16c4068b2" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>decodeChunked</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>formatDump</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>formatDump</name></member>
+      <member refid="classsoap__transport__http_1a51e28e678d231bebb7de006262c31887" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getCookiesForRequest</name></member>
+      <member refid="classsoap__transport__http_1a51e28e678d231bebb7de006262c31887" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getCookiesForRequest</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classsoap__transport__http_1a6c907e8af775e517a77037dd0164222f" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getResponse</name></member>
+      <member refid="classsoap__transport__http_1a6c907e8af775e517a77037dd0164222f" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>getResponse</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>nusoap_base</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>nusoap_base</name></member>
+      <member refid="classsoap__transport__http_1ae8e635ed6f4df1ef3f9329f1103b6941" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>parseCookie</name></member>
+      <member refid="classsoap__transport__http_1ae8e635ed6f4df1ef3f9329f1103b6941" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>parseCookie</name></member>
+      <member refid="classsoap__transport__http_1a124252f4e9d206d86fcd6522854eb919" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>send</name></member>
+      <member refid="classsoap__transport__http_1a124252f4e9d206d86fcd6522854eb919" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>send</name></member>
+      <member refid="classsoap__transport__http_1aa93a72fdc90b3535f17d471b7ccc3ffd" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>sendHTTPS</name></member>
+      <member refid="classsoap__transport__http_1aa93a72fdc90b3535f17d471b7ccc3ffd" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>sendHTTPS</name></member>
+      <member refid="classsoap__transport__http_1a58f0210b24415cdc753d31b425a406be" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>sendRequest</name></member>
+      <member refid="classsoap__transport__http_1a58f0210b24415cdc753d31b425a406be" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>sendRequest</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>serializeEnvelope</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>serializeEnvelope</name></member>
+      <member refid="classsoap__transport__http_1a1d16955b48732c7b979b7d2ccaea34c8" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setContentType</name></member>
+      <member refid="classsoap__transport__http_1a1d16955b48732c7b979b7d2ccaea34c8" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setContentType</name></member>
+      <member refid="classsoap__transport__http_1afc1032cca5010f0fefba2f0d5a9c4520" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setCredentials</name></member>
+      <member refid="classsoap__transport__http_1afc1032cca5010f0fefba2f0d5a9c4520" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setCredentials</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setDebugLevel</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setDebugLevel</name></member>
+      <member refid="classsoap__transport__http_1a9dde5d06442abd355db3acbde021121d" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setEncoding</name></member>
+      <member refid="classsoap__transport__http_1a9dde5d06442abd355db3acbde021121d" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setEncoding</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classsoap__transport__http_1a07092d2bf7866cbb464ec98726ccc75a" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setProxy</name></member>
+      <member refid="classsoap__transport__http_1a07092d2bf7866cbb464ec98726ccc75a" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setProxy</name></member>
+      <member refid="classsoap__transport__http_1a792db42ef189835b80389a838fbf2cef" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setSOAPAction</name></member>
+      <member refid="classsoap__transport__http_1a792db42ef189835b80389a838fbf2cef" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setSOAPAction</name></member>
+      <member refid="classsoap__transport__http_1a5a4415db7a7e36f85a4d975c892b0470" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setURL</name></member>
+      <member refid="classsoap__transport__http_1a5a4415db7a7e36f85a4d975c892b0470" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>setURL</name></member>
+      <member refid="classsoap__transport__http_1afcc6a2b2fc19a97a2e192670fc8feb77" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>soap_transport_http</name></member>
+      <member refid="classsoap__transport__http_1afcc6a2b2fc19a97a2e192670fc8feb77" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>soap_transport_http</name></member>
+      <member refid="classsoap__transport__http_1a8ae21fdc1993b8741956e86fc58c12b1" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>usePersistentConnection</name></member>
+      <member refid="classsoap__transport__http_1a8ae21fdc1993b8741956e86fc58c12b1" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>usePersistentConnection</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>varDump</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>soap_transport_http</scope><name>varDump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

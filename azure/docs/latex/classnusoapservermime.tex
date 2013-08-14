@@ -1,0 +1,226 @@
+\hypertarget{classnusoapservermime}{\section{nusoapservermime Class Reference}
+\label{classnusoapservermime}\index{nusoapservermime@{nusoapservermime}}
+}
+
+
+Inheritance diagram for nusoapservermime\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classnusoapservermime__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for nusoapservermime\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classnusoapservermime__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnusoapservermime_a05ac1d60ed38ac1db78295337c99eb86}{add\-Attachment} (\$data, \$filename= '', \$contenttype= 'application/octet-\/stream', \$cid=false)
+\item 
+\hyperlink{classnusoapservermime_a2b4d4199414b58bc4db009cb17ad8e3b}{clear\-Attachments} ()
+\item 
+\hyperlink{classnusoapservermime_aa91862c4e237ee5b53083f41633babb6}{get\-Attachments} ()
+\item 
+\hyperlink{classnusoapservermime_ab1e22b0858bdbe61d2d711ff442c0e78}{get\-H\-T\-T\-P\-Body} (\$soapmsg)
+\item 
+\hyperlink{classnusoapservermime_a2bed19ef2d537dee244535339cd6026a}{get\-H\-T\-T\-P\-Content\-Type} ()
+\item 
+\hyperlink{classnusoapservermime_a9051db33a9b7e50315d9222ef1c52ce9}{get\-H\-T\-T\-P\-Content\-Type\-Charset} ()
+\item 
+\hyperlink{classnusoapservermime_a7a69990540b6dc277f2775abd40772a1}{parse\-Request} (\$headers, \$data)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classnusoapservermime_ac58af5d0476b202790c63410360c4696}{{\bfseries \$request\-Attachments} = array()}\label{classnusoapservermime_ac58af5d0476b202790c63410360c4696}
+
+\item 
+\hypertarget{classnusoapservermime_a065527a5618c8bb7597a79b33b410a6e}{{\bfseries \$response\-Attachments}}\label{classnusoapservermime_a065527a5618c8bb7597a79b33b410a6e}
+
+\item 
+\hypertarget{classnusoapservermime_afca41a43fc6c89107faf7c34a5dedb32}{{\bfseries \$mime\-Content\-Type}}\label{classnusoapservermime_afca41a43fc6c89107faf7c34a5dedb32}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+nusoapservermime server supporting M\-I\-M\-E attachments defined at \href{http://www.w3.org/TR/SOAP-attachments}{\tt http\-://www.\-w3.\-org/\-T\-R/\-S\-O\-A\-P-\/attachments}. It depends on the P\-E\-A\-R Mail\-\_\-\-M\-I\-M\-E library.
+
+\begin{DoxyAuthor}{Author}
+Scott Nichol \href{mailto:snichol@sourceforge.net}{\tt snichol@sourceforge.\-net} 
+
+Thanks to Guillaume and Henning Reich for posting great attachment code to the mail list 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id\-:}
+\hyperlink{nusoapmime_8php_source}{nusoapmime.\-php},v 1.\-7 2005/07/27 19\-:24\-:42 snichol Exp 
+\end{DoxyParagraph}
+public 
+
+Definition at line 268 of file nusoapmime.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classnusoapservermime_a05ac1d60ed38ac1db78295337c99eb86}{\index{nusoapservermime@{nusoapservermime}!add\-Attachment@{add\-Attachment}}
+\index{add\-Attachment@{add\-Attachment}!nusoapservermime@{nusoapservermime}}
+\subsubsection[{add\-Attachment}]{\setlength{\rightskip}{0pt plus 5cm}add\-Attachment (
+\begin{DoxyParamCaption}
+\item[{}]{\$data, }
+\item[{}]{\$filename = {\ttfamily ''}, }
+\item[{}]{\$contenttype = {\ttfamily 'application/octet-\/stream'}, }
+\item[{}]{\$cid = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{classnusoapservermime_a05ac1d60ed38ac1db78295337c99eb86}
+adds a M\-I\-M\-E attachment to the current response.
+
+If the \$data parameter contains an empty string, this method will read the contents of the file named by the \$filename parameter.
+
+If the \$cid parameter is false, this method will generate the cid.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$data} & The data of the attachment \\
+\hline
+string & {\em \$filename} & The filename of the attachment (default is empty string) \\
+\hline
+string & {\em \$contenttype} & The M\-I\-M\-E Content-\/\-Type of the attachment (default is application/octet-\/stream) \\
+\hline
+string & {\em \$cid} & The content-\/id (cid) of the attachment (default is false) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The content-\/id (cid) of the attachment  public 
+\end{DoxyReturn}
+
+
+Definition at line 302 of file nusoapmime.\-php.
+
+\hypertarget{classnusoapservermime_a2b4d4199414b58bc4db009cb17ad8e3b}{\index{nusoapservermime@{nusoapservermime}!clear\-Attachments@{clear\-Attachments}}
+\index{clear\-Attachments@{clear\-Attachments}!nusoapservermime@{nusoapservermime}}
+\subsubsection[{clear\-Attachments}]{\setlength{\rightskip}{0pt plus 5cm}clear\-Attachments (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnusoapservermime_a2b4d4199414b58bc4db009cb17ad8e3b}
+clears the M\-I\-M\-E attachments for the current response.
+
+public 
+
+Definition at line 322 of file nusoapmime.\-php.
+
+\hypertarget{classnusoapservermime_aa91862c4e237ee5b53083f41633babb6}{\index{nusoapservermime@{nusoapservermime}!get\-Attachments@{get\-Attachments}}
+\index{get\-Attachments@{get\-Attachments}!nusoapservermime@{nusoapservermime}}
+\subsubsection[{get\-Attachments}]{\setlength{\rightskip}{0pt plus 5cm}get\-Attachments (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnusoapservermime_aa91862c4e237ee5b53083f41633babb6}
+gets the M\-I\-M\-E attachments from the current request.
+
+Each array element in the return is an associative array with keys data, filename, contenttype, cid. These keys correspond to the parameters for add\-Attachment.
+
+\begin{DoxyReturn}{Returns}
+array The attachments.  public 
+\end{DoxyReturn}
+
+
+Definition at line 336 of file nusoapmime.\-php.
+
+\hypertarget{classnusoapservermime_ab1e22b0858bdbe61d2d711ff442c0e78}{\index{nusoapservermime@{nusoapservermime}!get\-H\-T\-T\-P\-Body@{get\-H\-T\-T\-P\-Body}}
+\index{get\-H\-T\-T\-P\-Body@{get\-H\-T\-T\-P\-Body}!nusoapservermime@{nusoapservermime}}
+\subsubsection[{get\-H\-T\-T\-P\-Body}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Body (
+\begin{DoxyParamCaption}
+\item[{}]{\$soapmsg}
+\end{DoxyParamCaption}
+)}}\label{classnusoapservermime_ab1e22b0858bdbe61d2d711ff442c0e78}
+gets the H\-T\-T\-P body for the current response.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$soapmsg} & The S\-O\-A\-P payload \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The H\-T\-T\-P body, which includes the S\-O\-A\-P payload  private 
+\end{DoxyReturn}
+
+
+Definition at line 347 of file nusoapmime.\-php.
+
+\hypertarget{classnusoapservermime_a2bed19ef2d537dee244535339cd6026a}{\index{nusoapservermime@{nusoapservermime}!get\-H\-T\-T\-P\-Content\-Type@{get\-H\-T\-T\-P\-Content\-Type}}
+\index{get\-H\-T\-T\-P\-Content\-Type@{get\-H\-T\-T\-P\-Content\-Type}!nusoapservermime@{nusoapservermime}}
+\subsubsection[{get\-H\-T\-T\-P\-Content\-Type}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Content\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnusoapservermime_a2bed19ef2d537dee244535339cd6026a}
+gets the H\-T\-T\-P content type for the current response.
+
+Note\-: get\-H\-T\-T\-P\-Body must be called before this.
+
+\begin{DoxyReturn}{Returns}
+string the H\-T\-T\-P content type for the current response.  private 
+\end{DoxyReturn}
+
+
+Definition at line 406 of file nusoapmime.\-php.
+
+\hypertarget{classnusoapservermime_a9051db33a9b7e50315d9222ef1c52ce9}{\index{nusoapservermime@{nusoapservermime}!get\-H\-T\-T\-P\-Content\-Type\-Charset@{get\-H\-T\-T\-P\-Content\-Type\-Charset}}
+\index{get\-H\-T\-T\-P\-Content\-Type\-Charset@{get\-H\-T\-T\-P\-Content\-Type\-Charset}!nusoapservermime@{nusoapservermime}}
+\subsubsection[{get\-H\-T\-T\-P\-Content\-Type\-Charset}]{\setlength{\rightskip}{0pt plus 5cm}get\-H\-T\-T\-P\-Content\-Type\-Charset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnusoapservermime_a9051db33a9b7e50315d9222ef1c52ce9}
+gets the H\-T\-T\-P content type charset for the current response. returns false for non-\/text content types.
+
+Note\-: get\-H\-T\-T\-P\-Body must be called before this.
+
+\begin{DoxyReturn}{Returns}
+string the H\-T\-T\-P content type charset for the current response.  private 
+\end{DoxyReturn}
+
+
+Definition at line 422 of file nusoapmime.\-php.
+
+\hypertarget{classnusoapservermime_a7a69990540b6dc277f2775abd40772a1}{\index{nusoapservermime@{nusoapservermime}!parse\-Request@{parse\-Request}}
+\index{parse\-Request@{parse\-Request}!nusoapservermime@{nusoapservermime}}
+\subsubsection[{parse\-Request}]{\setlength{\rightskip}{0pt plus 5cm}parse\-Request (
+\begin{DoxyParamCaption}
+\item[{}]{\$headers, }
+\item[{}]{\$data}
+\end{DoxyParamCaption}
+)}}\label{classnusoapservermime_a7a69990540b6dc277f2775abd40772a1}
+processes S\-O\-A\-P message received from client
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$headers} & The H\-T\-T\-P headers \\
+\hline
+string & {\em \$data} & unprocessed request data from client \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed value of the message, decoded into a P\-H\-P type  private 
+\end{DoxyReturn}
+
+
+Definition at line 437 of file nusoapmime.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoapmime.\-php\end{DoxyCompactItemize}

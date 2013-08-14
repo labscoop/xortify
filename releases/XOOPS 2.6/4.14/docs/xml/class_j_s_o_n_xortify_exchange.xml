@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_j_s_o_n_xortify_exchange" kind="class" prot="public">
+    <compoundname>JSONXortifyExchange</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_j_s_o_n_xortify_exchange_1ac058687d82a56fb93513e7e58c4ec391" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$json_xoops_username</definition>
+        <argsstring></argsstring>
+        <name>$json_xoops_username</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="75" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_j_s_o_n_xortify_exchange_1a7af311f07c1c09254920e6ac0cefe9a9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$json_xoops_password</definition>
+        <argsstring></argsstring>
+        <name>$json_xoops_password</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="80" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_j_s_o_n_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$refresh</definition>
+        <argsstring></argsstring>
+        <name>$refresh</name>
+        <initializer>= 600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="85" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="90" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1a5b94fbd0db11c88aaac5a4d6025957c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JSONXortifyExchange</definition>
+        <argsstring>()</argsstring>
+        <name>JSONXortifyExchange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="98" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="98" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>training</definition>
+        <argsstring>($content, $ham=false)</argsstring>
+        <name>training</name>
+        <param>
+          <declname>$content</declname>
+        </param>
+        <param>
+          <declname>$ham</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="114" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="114" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkForSpam</definition>
+        <argsstring>($content)</argsstring>
+        <name>checkForSpam</name>
+        <param>
+          <declname>$content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="138" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="138" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1ae7926cba79660f77479306100f492c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSpoof</definition>
+        <argsstring>($type= &apos;comment&apos;)</argsstring>
+        <name>getSpoof</name>
+        <param>
+          <declname>$type</declname>
+          <defval>&apos;comment&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="164" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="164" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getServers</definition>
+        <argsstring>()</argsstring>
+        <name>getServers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="190" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="190" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendBan</definition>
+        <argsstring>($comment, $category_id=2, $ip=false)</argsstring>
+        <name>sendBan</name>
+        <param>
+          <declname>$comment</declname>
+        </param>
+        <param>
+          <declname>$category_id</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <declname>$ip</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="217" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="217" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkSFSBans</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkSFSBans</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="251" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="251" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkPHPBans</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkPHPBans</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="276" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="276" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBans</definition>
+        <argsstring>()</argsstring>
+        <name>getBans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="300" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="300" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>retrieveBans</definition>
+        <argsstring>()</argsstring>
+        <name>retrieveBans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="321" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="321" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_j_s_o_n_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkBanned</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkBanned</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="341" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="341" bodyend="353"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" line="70" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/class/json.php" bodystart="70" bodyend="354"/>
+    <listofallmembers>
+      <member refid="class_j_s_o_n_xortify_exchange_1a7af311f07c1c09254920e6ac0cefe9a9" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>$json_xoops_password</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1ac058687d82a56fb93513e7e58c4ec391" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>$json_xoops_username</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>$refresh</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>__construct</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>checkBanned</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>checkForSpam</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>checkPHPBans</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>checkSFSBans</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>getBans</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>getServers</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1ae7926cba79660f77479306100f492c03" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>getSpoof</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a5b94fbd0db11c88aaac5a4d6025957c5" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>JSONXortifyExchange</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>retrieveBans</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>sendBan</name></member>
+      <member refid="class_j_s_o_n_xortify_exchange_1a3b3be735e633ba330c6b5d086aa508cd" prot="public" virt="non-virtual"><scope>JSONXortifyExchange</scope><name>training</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

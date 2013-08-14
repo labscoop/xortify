@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_7ce4bda08a90fd4ec4fd75fcabfaa784" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/ban</compoundname>
+    <innerdir refid="dir_0d02df33e189fa96e96c60d624160c1b">E:/Packages/xortify server/htdocs/modules/ban/admin</innerdir>
+    <innerdir refid="dir_546433c4318cb90350fa267f38f1a93c">E:/Packages/xortify server/htdocs/modules/ban/class</innerdir>
+    <innerdir refid="dir_ca0b89390cb61cac6c0adb840abb51e3">E:/Packages/xortify server/htdocs/modules/ban/include</innerdir>
+    <innerdir refid="dir_6659177cf1f8c755aadaa22483873d7d">E:/Packages/xortify server/htdocs/modules/ban/language</innerdir>
+    <innerfile refid="ban_2backend_8php">backend.php</innerfile>
+    <innerfile refid="ban_2comment__delete_8php">comment_delete.php</innerfile>
+    <innerfile refid="ban_2comment__edit_8php">comment_edit.php</innerfile>
+    <innerfile refid="ban_2comment__new_8php">comment_new.php</innerfile>
+    <innerfile refid="ban_2comment__post_8php">comment_post.php</innerfile>
+    <innerfile refid="ban_2comment__reply_8php">comment_reply.php</innerfile>
+    <innerfile refid="modules_2ban_2index_8php">index.php</innerfile>
+    <innerfile refid="ban_2xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/"/>
+  </compounddef>
+</doxygen>

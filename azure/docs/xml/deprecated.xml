@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term><anchor id="deprecated_1_deprecated000003"/>Global <ref refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" kindref="member">nusoap_base::formatDump</ref>  ($str)</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000004"/>Global <ref refid="classsoap__server_1ad2e47223401828fb5e5fe54733abaf9a" kindref="member">soap_server::add_to_map</ref>  ($methodname, $in, $out)</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000005"/>Global <ref refid="classsoap__transport__http_1a6dc9ad42ffb3aaea279c0ee16c4068b2" kindref="member">soap_transport_http::decodeChunked</ref>  ($buffer, $lb)</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000006"/>Global <ref refid="classsoapclient_1a95ae30619429aa7d1c93f21e33300419" kindref="member">soapclient::getDefaultRpcParams</ref>  ()</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000007"/>Global <ref refid="classsoapclient_1a9d7b3609d1db3eb5f2d3cf92510e4e6b" kindref="member">soapclient::setDefaultRpcParams</ref>  ($rpcParams)</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000008"/>Global <ref refid="classwsdl_1afed507a7c4d2b216e27515ca9181361c" kindref="member">wsdl::serializeParameters</ref>  ($operation, $direction, $parameters)</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000009"/>Global <ref refid="class_x_m_l_schema_1aebfbaab31cdb69fabf5a7c5f2bbd605b" kindref="member">XMLSchema::getPHPType</ref>  ($type, $ns)</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000010"/>Global <ref refid="class_x_m_l_schema_1a6ede91c15c6a31e99181cd698f06365c" kindref="member">XMLSchema::serializeTypeDef</ref>  ($type)</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000011"/>Global <ref refid="class_x_m_l_schema_1ad829fa57be032e351ebf74b60918c8ba" kindref="member">XMLSchema::typeToForm</ref>  ($name, $type)</term></varlistentry>
+<listitem><para></para><para></para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

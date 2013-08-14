@@ -1,0 +1,558 @@
+.TH "soap_transport_http" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+soap_transport_http \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBnusoap_base\fP, and \fBnusoap_base\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsoap_transport_http\fP ($url)"
+.br
+.ti -1c
+.RI "\fBsetURL\fP ($url)"
+.br
+.ti -1c
+.RI "\fBconnect\fP ($connection_timeout=0, $response_timeout=30)"
+.br
+.ti -1c
+.RI "\fBsend\fP ($data, $timeout=0, $response_timeout=30, $cookies=NULL)"
+.br
+.ti -1c
+.RI "\fBsendHTTPS\fP ($data, $timeout=0, $response_timeout=30, $cookies)"
+.br
+.ti -1c
+.RI "\fBsetCredentials\fP ($username, $password, $authtype= 'basic', $digestRequest=array(), $certRequest=array())"
+.br
+.ti -1c
+.RI "\fBsetSOAPAction\fP ($soapaction)"
+.br
+.ti -1c
+.RI "\fBsetEncoding\fP ($enc='gzip, deflate')"
+.br
+.ti -1c
+.RI "\fBsetProxy\fP ($proxyhost, $proxyport, $proxyusername= '', $proxypassword= '')"
+.br
+.ti -1c
+.RI "\fBdecodeChunked\fP ($buffer, $lb)"
+.br
+.ti -1c
+.RI "\fBbuildPayload\fP ($data, $cookie_str= '')"
+.br
+.ti -1c
+.RI "\fBsendRequest\fP ($data, $cookies=NULL)"
+.br
+.ti -1c
+.RI "\fBgetResponse\fP ()"
+.br
+.ti -1c
+.RI "\fBsetContentType\fP ($type, $charset=false)"
+.br
+.ti -1c
+.RI "\fBusePersistentConnection\fP ()"
+.br
+.ti -1c
+.RI "\fBparseCookie\fP ($cookie_str)"
+.br
+.ti -1c
+.RI "\fBgetCookiesForRequest\fP ($cookies, $secure=false)"
+.br
+.ti -1c
+.RI "\fBsoap_transport_http\fP ($url)"
+.br
+.ti -1c
+.RI "\fBsetURL\fP ($url)"
+.br
+.ti -1c
+.RI "\fBconnect\fP ($connection_timeout=0, $response_timeout=30)"
+.br
+.ti -1c
+.RI "\fBsend\fP ($data, $timeout=0, $response_timeout=30, $cookies=NULL)"
+.br
+.ti -1c
+.RI "\fBsendHTTPS\fP ($data, $timeout=0, $response_timeout=30, $cookies)"
+.br
+.ti -1c
+.RI "\fBsetCredentials\fP ($username, $password, $authtype= 'basic', $digestRequest=array(), $certRequest=array())"
+.br
+.ti -1c
+.RI "\fBsetSOAPAction\fP ($soapaction)"
+.br
+.ti -1c
+.RI "\fBsetEncoding\fP ($enc='gzip, deflate')"
+.br
+.ti -1c
+.RI "\fBsetProxy\fP ($proxyhost, $proxyport, $proxyusername= '', $proxypassword= '')"
+.br
+.ti -1c
+.RI "\fBdecodeChunked\fP ($buffer, $lb)"
+.br
+.ti -1c
+.RI "\fBbuildPayload\fP ($data, $cookie_str= '')"
+.br
+.ti -1c
+.RI "\fBsendRequest\fP ($data, $cookies=NULL)"
+.br
+.ti -1c
+.RI "\fBgetResponse\fP ()"
+.br
+.ti -1c
+.RI "\fBsetContentType\fP ($type, $charset=false)"
+.br
+.ti -1c
+.RI "\fBusePersistentConnection\fP ()"
+.br
+.ti -1c
+.RI "\fBparseCookie\fP ($cookie_str)"
+.br
+.ti -1c
+.RI "\fBgetCookiesForRequest\fP ($cookies, $secure=false)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$url\fP = ''"
+.br
+.ti -1c
+.RI "\fB$uri\fP = ''"
+.br
+.ti -1c
+.RI "\fB$digest_uri\fP = ''"
+.br
+.ti -1c
+.RI "\fB$scheme\fP = ''"
+.br
+.ti -1c
+.RI "\fB$host\fP = ''"
+.br
+.ti -1c
+.RI "\fB$port\fP = ''"
+.br
+.ti -1c
+.RI "\fB$path\fP = ''"
+.br
+.ti -1c
+.RI "\fB$request_method\fP = 'POST'"
+.br
+.ti -1c
+.RI "\fB$protocol_version\fP = '1\&.0'"
+.br
+.ti -1c
+.RI "\fB$encoding\fP = ''"
+.br
+.ti -1c
+.RI "\fB$outgoing_headers\fP = array()"
+.br
+.ti -1c
+.RI "\fB$incoming_headers\fP = array()"
+.br
+.ti -1c
+.RI "\fB$incoming_cookies\fP = array()"
+.br
+.ti -1c
+.RI "\fB$outgoing_payload\fP = ''"
+.br
+.ti -1c
+.RI "\fB$incoming_payload\fP = ''"
+.br
+.ti -1c
+.RI "\fB$useSOAPAction\fP = true"
+.br
+.ti -1c
+.RI "\fB$persistentConnection\fP = false"
+.br
+.ti -1c
+.RI "\fB$ch\fP = false"
+.br
+.ti -1c
+.RI "\fB$username\fP = ''"
+.br
+.ti -1c
+.RI "\fB$password\fP = ''"
+.br
+.ti -1c
+.RI "\fB$authtype\fP = ''"
+.br
+.ti -1c
+.RI "\fB$digestRequest\fP = array()"
+.br
+.ti -1c
+.RI "\fB$certRequest\fP = array()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+transport class for sending/receiving data via HTTP and HTTPS NOTd: PHP must be compiled with the CURL extension for HTTPS support
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.soap_transport_http\&.php\fP,v 1\&.57 2005/07/27 19:24:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+transport class for sending/receiving data via HTTP and HTTPS NOTd: PHP must be compiled with the CURL extension for HTTPS support
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 14 of file class\&.soap_transport_http\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "decodeChunked ($buffer, $lb)"
+decode a string that is encoded w/ "chunked' transfer encoding as defined in RFC2068 19\&.4\&.6
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$buffer\fP 
+.br
+\fI$lb\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 429 of file class\&.soap_transport_http\&.php\&.
+.SS "decodeChunked ($buffer, $lb)"
+decode a string that is encoded w/ "chunked' transfer encoding as defined in RFC2068 19\&.4\&.6
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$buffer\fP 
+.br
+\fI$lb\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 2421 of file nusoap\&.php\&.
+.SS "getCookiesForRequest ($cookies, $secure = \fCfalse\fP)"
+sort out cookies for the current request
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cookies\fP array with all cookies 
+.br
+\fI$secure\fP is the send-content secure or not? 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string for Cookie-HTTP-Header  private 
+.RE
+.PP
+
+.PP
+Definition at line 997 of file class\&.soap_transport_http\&.php\&.
+.SS "getCookiesForRequest ($cookies, $secure = \fCfalse\fP)"
+sort out cookies for the current request
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cookies\fP array with all cookies 
+.br
+\fI$secure\fP is the send-content secure or not? 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string for Cookie-HTTP-Header  private 
+.RE
+.PP
+
+.PP
+Definition at line 2989 of file nusoap\&.php\&.
+.SS "parseCookie ($cookie_str)"
+parse an incoming Cookie into it's parts
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cookie_str\fP content of cookie 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array with data of that cookie  private 
+.RE
+.PP
+
+.PP
+Definition at line 933 of file class\&.soap_transport_http\&.php\&.
+.SS "parseCookie ($cookie_str)"
+parse an incoming Cookie into it's parts
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$cookie_str\fP content of cookie 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array with data of that cookie  private 
+.RE
+.PP
+
+.PP
+Definition at line 2925 of file nusoap\&.php\&.
+.SS "send ($data, $timeout = \fC0\fP, $response_timeout = \fC30\fP, $cookies = \fCNULL\fP)"
+send the SOAP message via HTTP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP message data 
+.br
+\fI$timeout\fP set connection timeout in seconds 
+.br
+\fI$response_timeout\fP set response timeout in seconds 
+.br
+\fI$cookies\fP cookies to send 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string data  public 
+.RE
+.PP
+
+.PP
+Definition at line 251 of file class\&.soap_transport_http\&.php\&.
+.SS "send ($data, $timeout = \fC0\fP, $response_timeout = \fC30\fP, $cookies = \fCNULL\fP)"
+send the SOAP message via HTTP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP message data 
+.br
+\fI$timeout\fP set connection timeout in seconds 
+.br
+\fI$response_timeout\fP set response timeout in seconds 
+.br
+\fI$cookies\fP cookies to send 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string data  public 
+.RE
+.PP
+
+.PP
+Definition at line 2243 of file nusoap\&.php\&.
+.SS "sendHTTPS ($data, $timeout = \fC0\fP, $response_timeout = \fC30\fP, $cookies)"
+send the SOAP message via HTTPS 1\&.0 using CURL
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$msg\fP message data 
+.br
+\fI$timeout\fP set connection timeout in seconds 
+.br
+\fI$response_timeout\fP set response timeout in seconds 
+.br
+\fI$cookies\fP cookies to send 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string data  public 
+.RE
+.PP
+
+.PP
+Definition at line 291 of file class\&.soap_transport_http\&.php\&.
+.SS "sendHTTPS ($data, $timeout = \fC0\fP, $response_timeout = \fC30\fP, $cookies)"
+send the SOAP message via HTTPS 1\&.0 using CURL
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$msg\fP message data 
+.br
+\fI$timeout\fP set connection timeout in seconds 
+.br
+\fI$response_timeout\fP set response timeout in seconds 
+.br
+\fI$cookies\fP cookies to send 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string data  public 
+.RE
+.PP
+
+.PP
+Definition at line 2283 of file nusoap\&.php\&.
+.SS "setCredentials ($username, $password, $authtype = \fC'basic'\fP, $digestRequest = \fCarray()\fP, $certRequest = \fCarray()\fP)"
+if authenticating, set user credentials here
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$username\fP 
+.br
+\fI$password\fP 
+.br
+\fI$authtype\fP (basic, digest, certificate) 
+.br
+\fI$digestRequest\fP (keys must be nonce, nc, realm, qop) 
+.br
+\fI$certRequest\fP (keys must be cainfofile (optional), sslcertfile, sslkeyfile, passphrase, verifypeer (optional), verifyhost (optional): see corresponding options in cURL docs)  public 
+.RE
+.PP
+
+.PP
+Definition at line 305 of file class\&.soap_transport_http\&.php\&.
+.SS "setCredentials ($username, $password, $authtype = \fC'basic'\fP, $digestRequest = \fCarray()\fP, $certRequest = \fCarray()\fP)"
+if authenticating, set user credentials here
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$username\fP 
+.br
+\fI$password\fP 
+.br
+\fI$authtype\fP (basic, digest, certificate) 
+.br
+\fI$digestRequest\fP (keys must be nonce, nc, realm, qop) 
+.br
+\fI$certRequest\fP (keys must be cainfofile (optional), sslcertfile, sslkeyfile, passphrase, verifypeer (optional), verifyhost (optional): see corresponding options in cURL docs)  public 
+.RE
+.PP
+
+.PP
+Definition at line 2297 of file nusoap\&.php\&.
+.SS "setEncoding ($enc = \fC'gzip\fP, deflate')"
+use http encoding
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$enc\fP encoding style\&. supported values: gzip, deflate, or both  public 
+.RE
+.PP
+
+.PP
+Definition at line 384 of file class\&.soap_transport_http\&.php\&.
+.SS "setEncoding ($enc = \fC'gzip\fP, deflate')"
+use http encoding
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$enc\fP encoding style\&. supported values: gzip, deflate, or both  public 
+.RE
+.PP
+
+.PP
+Definition at line 2376 of file nusoap\&.php\&.
+.SS "setProxy ($proxyhost, $proxyport, $proxyusername = \fC''\fP, $proxypassword = \fC''\fP)"
+set proxy info here
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$proxyhost\fP 
+.br
+\fI$proxyport\fP 
+.br
+\fI$proxyusername\fP 
+.br
+\fI$proxypassword\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 409 of file class\&.soap_transport_http\&.php\&.
+.SS "setProxy ($proxyhost, $proxyport, $proxyusername = \fC''\fP, $proxypassword = \fC''\fP)"
+set proxy info here
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$proxyhost\fP 
+.br
+\fI$proxyport\fP 
+.br
+\fI$proxyusername\fP 
+.br
+\fI$proxypassword\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 2401 of file nusoap\&.php\&.
+.SS "setSOAPAction ($soapaction)"
+set the soapaction value
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapaction\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 373 of file class\&.soap_transport_http\&.php\&.
+.SS "setSOAPAction ($soapaction)"
+set the soapaction value
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapaction\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 2365 of file nusoap\&.php\&.
+.SS "\fBsoap_transport_http\fP ($url)"
+constructor 
+.PP
+Definition at line 49 of file class\&.soap_transport_http\&.php\&.
+.SS "\fBsoap_transport_http\fP ($url)"
+constructor 
+.PP
+Definition at line 2041 of file nusoap\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

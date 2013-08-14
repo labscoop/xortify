@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2class_2formrecaptcha_8php" kind="file">
+    <compoundname>formrecaptcha.php</compoundname>
+    <innerclass refid="classban_form_recaptcha" prot="public">banFormRecaptcha</innerclass>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+    <innernamespace refid="namespacekernel">kernel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">defined(</highlight><highlight class="stringliteral">&apos;XOOPS_ROOT_PATH&apos;</highlight><highlight class="normal">)<sp/>or<sp/>die(&apos;Restricted<sp/>access&apos;);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Recaptcha<sp/>Class<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespacekernel" refkind="compound"><highlight class="normal">include_once<sp/>dirname(dirname(dirname(dirname(__FILE__))))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/>&apos;class&apos;<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/>&apos;captcha&apos;<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/>&apos;recaptcha&apos;<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/><sp/>&apos;recaptchalib.php&apos;;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classban_form_recaptcha" refkind="compound"><highlight class="normal">class<sp/><ref refid="classban_form_recaptcha" kindref="compound">banFormRecaptcha</ref><sp/>extends<sp/>XoopsFormElement</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>$_value;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51" refid="classban_form_recaptcha_1a827c11632b940dd984baa66da18de27c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classban_form_recaptcha_1a827c11632b940dd984baa66da18de27c" kindref="member">banFormRecaptcha</ref>($caption<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>$public_key<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;setCaption($caption);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;setName($name);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;_value<sp/>=<sp/>recaptcha_get_html($public_key);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64" refid="classban_form_recaptcha_1ab3c79e314dfd09da4de90fb2ce5eaa9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classban_form_recaptcha_1ab3c79e314dfd09da4de90fb2ce5eaa9d" kindref="member">getValue</ref>($encode<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$encode<sp/>?<sp/>htmlspecialchars($this-&gt;_value,<sp/>ENT_QUOTES)<sp/>:<sp/>$this-&gt;_value;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74" refid="classban_form_recaptcha_1afde88292c44dc59faf017738dae6dffb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classban_form_recaptcha_1afde88292c44dc59faf017738dae6dffb" kindref="member">render</ref>()</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;getValue();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/class/formrecaptcha.php"/>
+  </compounddef>
+</doxygen>

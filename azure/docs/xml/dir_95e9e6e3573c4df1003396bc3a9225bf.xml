@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_95e9e6e3573c4df1003396bc3a9225bf" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xortify/providers</compoundname>
+    <innerdir refid="dir_e96f401763356537f2a9c8e149324854">E:/Packages/xortify server/htdocs/modules/xortify/providers/projecthoneypot.org</innerdir>
+    <innerdir refid="dir_7d46f206c358e499643949b4e7590698">E:/Packages/xortify server/htdocs/modules/xortify/providers/protector</innerdir>
+    <innerdir refid="dir_1dbe4d4c107d59a1177fba8ddcd39edf">E:/Packages/xortify server/htdocs/modules/xortify/providers/spiders</innerdir>
+    <innerdir refid="dir_78d52de25fd2d887d77d5142aeeee32b">E:/Packages/xortify server/htdocs/modules/xortify/providers/stopforumspam.com</innerdir>
+    <innerdir refid="dir_45076f68f7073bfaea81de17b9627c4b">E:/Packages/xortify server/htdocs/modules/xortify/providers/xortify</innerdir>
+    <innerfile refid="providers_8php">providers.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/"/>
+  </compounddef>
+</doxygen>

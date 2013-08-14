@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_d26b8f7c222419eea24c3b4f4a071372" kind="dir">
+    <compoundname>Q:/@websites@</compoundname>
+    <innerdir refid="dir_351184f73991046526c460853182ff8c">Q:/@websites@/coop</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Q:/@websites@/"/>
+  </compounddef>
+</doxygen>

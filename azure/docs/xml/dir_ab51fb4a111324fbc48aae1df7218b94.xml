@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_ab51fb4a111324fbc48aae1df7218b94" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/spiders/class</compoundname>
+    <innerdir refid="dir_c737b8e0d5d55ec1fc809e308610637c">E:/Packages/xortify server/htdocs/modules/spiders/class/auth</innerdir>
+    <innerfile refid="spiders_2class_2curl_8php">curl.php</innerfile>
+    <innerfile refid="modules_2spiders_2class_2_j_s_o_n_8php">json.php</innerfile>
+    <innerfile refid="modifications_8php">modifications.php</innerfile>
+    <innerfile refid="spiders_2class_2soap_8php">soap.php</innerfile>
+    <innerfile refid="modules_2spiders_2class_2spiders_8php">spiders.php</innerfile>
+    <innerfile refid="spiders__user_8php">spiders_user.php</innerfile>
+    <innerfile refid="statistics_8php">statistics.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/class/"/>
+  </compounddef>
+</doxygen>

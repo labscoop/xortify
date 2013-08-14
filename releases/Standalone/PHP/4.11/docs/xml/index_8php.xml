@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="index_8php" kind="file">
+    <compoundname>index.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="index_8php_1ae2ccdf355624402b65fc2226f2a661cd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>if(xortify_validateToken($_REQUEST[&apos;token&apos;], true, &apos;poll_token&apos;)==true)</definition>
+        <argsstring>(xortify_validateToken($_REQUEST[&apos;token&apos;], true, &apos;poll_token&apos;)==true)</argsstring>
+        <name>if</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/poll/index.php" line="41" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/poll/index.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="index_8php_1a6733eb5f605d09eaede9845835d71c4e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>exit</definition>
+        <argsstring></argsstring>
+        <name>exit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/poll/index.php" line="47" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/poll/index.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Prevents<sp/>Spam,<sp/>Harvesting,<sp/>Human<sp/>Rights<sp/>Abuse,<sp/>Captcha<sp/>Abuse<sp/>etc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/>basic<sp/>statistic<sp/>of<sp/>them<sp/>in<sp/>XOOPS<sp/>Copyright<sp/>(C)<sp/>2012<sp/>Simon<sp/>Roberts</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/>Contact:<sp/>wishcraft<sp/>-<sp/>simon@chronolabs.com.au</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*<sp/>See<sp/>/docs/license.pdf<sp/>for<sp/>full<sp/>license.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*<sp/>Shouts:-<sp/><sp/>Mamba<sp/>(www.xoops.org),<sp/>flipse<sp/>(www.nlxoops.nl)</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Many<sp/>thanks<sp/>for<sp/>your<sp/>additional<sp/>work<sp/>with<sp/>version<sp/>1.01</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*<sp/>Version:<sp/><sp/><sp/><sp/><sp/><sp/>3.10<sp/>Final<sp/>(Stable)</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*<sp/>Published:<sp/><sp/><sp/><sp/>Chronolabs</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/>Download:<sp/><sp/><sp/><sp/><sp/>http://code.google.com/p/chronolabs</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*<sp/>This<sp/>File:<sp/><sp/><sp/><sp/>index.php</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/>Description:<sp/><sp/>Data<sp/>Push<sp/>recieving<sp/>service<sp/>from<sp/>Xortify<sp/>Cloud.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*<sp/>Date:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>09/09/2012<sp/>19:34<sp/>AEST</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*<sp/>License:<sp/><sp/><sp/><sp/><sp/><sp/>GNU3</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/><ref refid="config_8php_1ac6fe97d5bed058caeb41a99e3672e9df" kindref="member">_RUN_XORTIFY_ROOT_PATH</ref><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;include&apos;</highlight><highlight class="normal"><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;common.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>session_id($_REQUEST[</highlight><highlight class="stringliteral">&apos;session&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>session_start();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/><ref refid="config_8php_1ac6fe97d5bed058caeb41a99e3672e9df" kindref="member">_RUN_XORTIFY_ROOT_PATH</ref><sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;class&apos;</highlight><highlight class="normal">.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;cache&apos;</highlight><highlight class="normal">.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;cache.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="functions_8php_1ad760c4a5c7120b190ffb3551eff03db2" kindref="member">xortify_validateToken</ref>($_REQUEST[</highlight><highlight class="stringliteral">&apos;token&apos;</highlight><highlight class="normal">],<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;poll_token&apos;</highlight><highlight class="normal">)==</highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_cache_1ac9098bc72089de2a7c740dbd5ece9223" kindref="member">Cache::write</ref>($_REQUEST[</highlight><highlight class="stringliteral">&apos;carriage&apos;</highlight><highlight class="normal">],<sp/>$_REQUEST[</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">],<sp/>_RUN_XORTIFY_STORE_SECONDS);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>serialize(array(</highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="keyword">true</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="index_8php_1a6733eb5f605d09eaede9845835d71c4e" kindref="member">exit</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>serialize(array(</highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="keyword">false</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="index_8php_1a6733eb5f605d09eaede9845835d71c4e" kindref="member">exit</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="Q:/@websites@/coop/labs/dev2/poll/index.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_0b415397f399a26dc884056aaf978b7e" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/include/cloud/inc</compoundname>
+    <innerfile refid="authcheck_8php">authcheck.php</innerfile>
+    <innerfile refid="include_2cloud_2inc_2ip2locationlite_8class_8php">ip2locationlite.class.php</innerfile>
+    <innerfile refid="siteinfocheck_8php">siteinfocheck.php</innerfile>
+    <innerfile refid="translator_8php">translator.php</innerfile>
+    <innerfile refid="usercheck_8php">usercheck.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/include/cloud/inc/"/>
+  </compounddef>
+</doxygen>

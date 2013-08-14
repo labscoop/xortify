@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xrest_2language_2english_2forms_8php" kind="file">
+    <compoundname>forms.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a082b57562b3658a61af63d9135f2d57f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_SELECTTABLE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_SELECTTABLE</name>
+        <initializer>&apos;Please Select Table to Work with&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a9f4c22b0710010d1a915d1c662f0e235" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_SELECTTABLE_SELECT</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_SELECTTABLE_SELECT</name>
+        <initializer>&apos;Select Table:&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a968f1166b12557fe756e37f12c7c3a1a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_NEW</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_NEW</name>
+        <initializer>&apos; (new)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a0841aba088768c308bd769fb1a371d09" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_POST_FIELD</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_POST_FIELD</name>
+        <initializer>&apos;Post Field?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a0ec0a756a74d55875a560d2f336ee6b9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_RETRIEVE_FIELD</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_RETRIEVE_FIELD</name>
+        <initializer>&apos;Retrieve Field?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a7f34236c52b9a1508d8147a58d81f759" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_UPDATE_FIELD</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_UPDATE_FIELD</name>
+        <initializer>&apos;Update Field?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1ac1af09da1b39a94919570e650d30fc0e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_VISIBLE_FIELD</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_VISIBLE_FIELD</name>
+        <initializer>&apos;Visible Field?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a0bb48ae086178355d8aa106390f155b5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_CRC_FIELD</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_CRC_FIELD</name>
+        <initializer>&apos;Field is CRC?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1ae633f6b2122303be9cb3ae5e6cf62f5e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_RETRIEVE_VIEW</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_RETRIEVE_VIEW</name>
+        <initializer>&apos;Retrieve View?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1ad63529dc00cbd7f2cceab96a71ebfed4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_VISIBLE_VIEW</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_VISIBLE_VIEW</name>
+        <initializer>&apos;Visible View?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1abf93483c9095f6a7897e3501546ac4ab" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_ACTIVE_PLUGIN</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_ACTIVE_PLUGIN</name>
+        <initializer>&apos;Active Plugin?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1af1bab0a5e3b6a6c5bc3ebb67de29c994" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_POST_TABLE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_POST_TABLE</name>
+        <initializer>&apos;Post Table?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a50ce6cc61dcfc9a7a738ec4ea8db933c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_RETRIEVE_TABLE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_RETRIEVE_TABLE</name>
+        <initializer>&apos;Retrieve Table?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1ac432375875bb04de9160aa1d69d47d9e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_UPDATE_TABLE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_UPDATE_TABLE</name>
+        <initializer>&apos;Update Table?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1afed327d4eb2fcb6850badcacda1f1926" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_VISIBLE_TABLE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_VISIBLE_TABLE</name>
+        <initializer>&apos;Visible Table?&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a08bcddc4ccb6ffc587e8e8fc0f03711b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_FIELDOPTIONSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_FIELDOPTIONSFOR</name>
+        <initializer>&apos;Field options within the table \&apos;%s\&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1acb95cddd145d694e24d5de4de7664913" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_VIEWSFOR</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_VIEWSFOR</name>
+        <initializer>&apos;View within the database \&apos;%s\&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a08f392db382f389fffbbe5aed35d7869" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_PLUGINAVAILABLE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_PLUGINAVAILABLE</name>
+        <initializer>&apos;Plugins currently available!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a6528fdd77d1ac56bc38bc728bd5f744b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_TABLESFOR</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_TABLESFOR</name>
+        <initializer>&apos;Tables within the database \&apos;%s\&apos; with the prefix of \&apos;%s\&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a9e41882b2ee9579e933d751e23d64e95" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_PERMISSIONSVIEWMAN</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_PERMISSIONSVIEWMAN</name>
+        <initializer>&apos;Function Call Permissions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1ae478bf96d5778c0a03aecb6b1a5e64b3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_VIEW_FUNCTION</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_VIEW_FUNCTION</name>
+        <initializer>&apos;Plugin Functions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2forms_8php_1a61c3d7d51f7732a717a8ead77099eb04" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_FRM_NOPERMSSET</definition>
+        <argsstring></argsstring>
+        <name>_XREST_FRM_NOPERMSSET</name>
+        <initializer>&apos;No Permissions Set&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">//<sp/>Version<sp/>1.52</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Table<sp/>Selection</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_SELECTTABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Please<sp/>Select<sp/>Table<sp/>to<sp/>Work<sp/>with&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_SELECTTABLE_SELECT&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Select<sp/>Table:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>State<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_NEW&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;<sp/>(new)&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Check<sp/>Box<sp/>Options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_POST_FIELD&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Post<sp/>Field?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_RETRIEVE_FIELD&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Retrieve<sp/>Field?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_UPDATE_FIELD&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Update<sp/>Field?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_VISIBLE_FIELD&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Visible<sp/>Field?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_CRC_FIELD&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Field<sp/>is<sp/>CRC?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_RETRIEVE_VIEW&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Retrieve<sp/>View?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_VISIBLE_VIEW&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Visible<sp/>View?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_ACTIVE_PLUGIN&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Active<sp/>Plugin?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_POST_TABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Post<sp/>Table?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_RETRIEVE_TABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Retrieve<sp/>Table?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_UPDATE_TABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Update<sp/>Table?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_VISIBLE_TABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Visible<sp/>Table?&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Form<sp/>Titles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_FIELDOPTIONSFOR&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Field<sp/>options<sp/>within<sp/>the<sp/>table<sp/>\&apos;%s\&apos;&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_VIEWSFOR&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;View<sp/>within<sp/>the<sp/>database<sp/>\&apos;%s\&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_PLUGINAVAILABLE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Plugins<sp/>currently<sp/>available!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_TABLESFOR&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Tables<sp/>within<sp/>the<sp/>database<sp/>\&apos;%s\&apos;<sp/>with<sp/>the<sp/>prefix<sp/>of<sp/>\&apos;%s\&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Permissions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_PERMISSIONSVIEWMAN&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Function<sp/>Call<sp/>Permissions&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_VIEW_FUNCTION&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Plugin<sp/>Functions&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_FRM_NOPERMSSET&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;No<sp/>Permissions<sp/>Set&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/forms.php"/>
+  </compounddef>
+</doxygen>

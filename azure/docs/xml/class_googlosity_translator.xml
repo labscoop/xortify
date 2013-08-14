@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_googlosity_translator" kind="class" prot="public">
+    <compoundname>GooglosityTranslator</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_googlosity_translator_1ae34d152a2aef158ef4191f7d114ba2f5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const ENDPOINT</definition>
+        <argsstring></argsstring>
+        <name>ENDPOINT</name>
+        <initializer>= &apos;https://www.googleapis.com/language/<ref refid="class_googlosity_translator_1ac1a85a75769194de8af24fa19d5efd17" kindref="member">translate</ref>/v2&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_googlosity_translator_1a30d859488ed1921f08a7e8191363d9a4" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$_apiKey</definition>
+        <argsstring></argsstring>
+        <name>$_apiKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_googlosity_translator_1a41b639225f0835540c87d74be2018c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($apiKey)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$apiKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_googlosity_translator_1a41b639225f0835540c87d74be2018c0f" kindref="member">__construct()</ref> Class constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$apiKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Google API V2 Key (see: <ulink url="https://code.google.com/apis/console/">https://code.google.com/apis/console/</ulink>) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_googlosity_translator_1ada2ef7bac2979b90332fe9a527c60667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLanguages</definition>
+        <argsstring>()</argsstring>
+        <name>getLanguages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_googlosity_translator_1ada2ef7bac2979b90332fe9a527c60667" kindref="member">getLanguages()</ref> returns language ISO Codes for Google Translator</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" line="61" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_googlosity_translator_1ac1a85a75769194de8af24fa19d5efd17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>translate</definition>
+        <argsstring>($src, $target, $source= &apos;&apos;)</argsstring>
+        <name>translate</name>
+        <param>
+          <declname>$src</declname>
+        </param>
+        <param>
+          <declname>$target</declname>
+        </param>
+        <param>
+          <declname>$source</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_googlosity_translator_1ac1a85a75769194de8af24fa19d5efd17" kindref="member">translate()</ref> translate the text/html in $data. Translates to the language in $target. Can optionally specify the source language</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data to be translated. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Language ISO Code to translate To. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Language ISO Code to translate From. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" line="75" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" bodystart="75" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_googlosity_translator_1a4729b97f6facb95dd5c1be71c2d9a914" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static _languages</definition>
+        <argsstring>()</argsstring>
+        <name>_languages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_googlosity_translator_1a4729b97f6facb95dd5c1be71c2d9a914" kindref="member">_languages()</ref> returns language ISO Codes and XOOPS folder name for Google Translator</para><para><simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" bodystart="51" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Google Translator v2.0 API Class</para><para>Allows for Translation of Language by the Google Translator API</para><para>google </para>    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/cloud/inc/translator.php" bodystart="25" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_googlosity_translator_1a30d859488ed1921f08a7e8191363d9a4" prot="protected" virt="non-virtual"><scope>GooglosityTranslator</scope><name>$_apiKey</name></member>
+      <member refid="class_googlosity_translator_1a41b639225f0835540c87d74be2018c0f" prot="public" virt="non-virtual"><scope>GooglosityTranslator</scope><name>__construct</name></member>
+      <member refid="class_googlosity_translator_1a4729b97f6facb95dd5c1be71c2d9a914" prot="public" virt="non-virtual"><scope>GooglosityTranslator</scope><name>_languages</name></member>
+      <member refid="class_googlosity_translator_1ae34d152a2aef158ef4191f7d114ba2f5" prot="public" virt="non-virtual"><scope>GooglosityTranslator</scope><name>ENDPOINT</name></member>
+      <member refid="class_googlosity_translator_1ada2ef7bac2979b90332fe9a527c60667" prot="public" virt="non-virtual"><scope>GooglosityTranslator</scope><name>getLanguages</name></member>
+      <member refid="class_googlosity_translator_1ac1a85a75769194de8af24fa19d5efd17" prot="public" virt="non-virtual"><scope>GooglosityTranslator</scope><name>translate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

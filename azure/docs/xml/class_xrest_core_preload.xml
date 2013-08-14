@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xrest_core_preload" kind="class" prot="public">
+    <compoundname>XrestCorePreload</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPreloadItem</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xrest_core_preload_1af8c197de09add249b14503f6a03434d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eventCoreIncludeCommonEnd</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreIncludeCommonEnd</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/preloads/core.php" line="17" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/preloads/core.php" bodystart="17" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xrest_core_preload_1ab051dedd566a6be3fa3734afa8a002ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;xrest&quot;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;xrest&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/preloads/core.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/preloads/core.php" bodystart="41" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="770">
+        <label>XrestCorePreload</label>
+        <link refid="class_xrest_core_preload"/>
+        <childnode refid="771" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="771">
+        <label>XoopsPreloadItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="772">
+        <label>XrestCorePreload</label>
+        <link refid="class_xrest_core_preload"/>
+        <childnode refid="773" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="773">
+        <label>XoopsPreloadItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/preloads/core.php" line="15" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/preloads/core.php" bodystart="14" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_xrest_core_preload_1af8c197de09add249b14503f6a03434d1" prot="public" virt="non-virtual"><scope>XrestCorePreload</scope><name>eventCoreIncludeCommonEnd</name></member>
+      <member refid="class_xrest_core_preload_1ab051dedd566a6be3fa3734afa8a002ef" prot="public" virt="non-virtual"><scope>XrestCorePreload</scope><name>getFileListAsArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,999 @@
+.TH "nusoap_base" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+nusoap_base \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBsoap_fault\fP, \fBsoap_fault\fP, \fBsoap_parser\fP, \fBsoap_parser\fP, \fBsoap_server\fP, \fBsoap_server\fP, \fBsoap_transport_http\fP, \fBsoap_transport_http\fP, \fBsoapclient\fP, \fBsoapclient\fP, \fBsoapval\fP, \fBsoapval\fP, \fBwsdl\fP, \fBwsdl\fP, \fBXMLSchema\fP, and \fBXMLSchema\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBnusoap_base\fP ()"
+.br
+.ti -1c
+.RI "\fBgetGlobalDebugLevel\fP ()"
+.br
+.ti -1c
+.RI "\fBsetGlobalDebugLevel\fP ($level)"
+.br
+.ti -1c
+.RI "\fBgetDebugLevel\fP ()"
+.br
+.ti -1c
+.RI "\fBsetDebugLevel\fP ($level)"
+.br
+.ti -1c
+.RI "\fBdebug\fP ($string)"
+.br
+.ti -1c
+.RI "\fBappendDebug\fP ($string)"
+.br
+.ti -1c
+.RI "\fBclearDebug\fP ()"
+.br
+.ti -1c
+.RI "& \fBgetDebug\fP ()"
+.br
+.ti -1c
+.RI "& \fBgetDebugAsXMLComment\fP ()"
+.br
+.ti -1c
+.RI "\fBexpandEntities\fP ($val)"
+.br
+.ti -1c
+.RI "\fBgetError\fP ()"
+.br
+.ti -1c
+.RI "\fBsetError\fP ($str)"
+.br
+.ti -1c
+.RI "\fBisArraySimpleOrStruct\fP ($val)"
+.br
+.ti -1c
+.RI "\fBserialize_val\fP ($val, $name=false, $type=false, $name_ns=false, $type_ns=false, $attributes=false, $use='encoded')"
+.br
+.ti -1c
+.RI "\fBserializeEnvelope\fP ($body, $headers=false, $namespaces=array(), $style='rpc', $use='encoded', $encodingStyle='http://schemas\&.xmlsoap\&.org/soap/encoding/')"
+.br
+.ti -1c
+.RI "\fBformatDump\fP ($str)"
+.br
+.ti -1c
+.RI "\fBcontractQname\fP ($qname)"
+.br
+.ti -1c
+.RI "\fBexpandQname\fP ($qname)"
+.br
+.ti -1c
+.RI "\fBgetLocalPart\fP ($str)"
+.br
+.ti -1c
+.RI "\fBgetPrefix\fP ($str)"
+.br
+.ti -1c
+.RI "\fBgetNamespaceFromPrefix\fP ($prefix)"
+.br
+.ti -1c
+.RI "\fBgetPrefixFromNamespace\fP ($ns)"
+.br
+.ti -1c
+.RI "\fBgetmicrotime\fP ()"
+.br
+.ti -1c
+.RI "\fBvarDump\fP ($data)"
+.br
+.ti -1c
+.RI "\fBnusoap_base\fP ()"
+.br
+.ti -1c
+.RI "\fBgetGlobalDebugLevel\fP ()"
+.br
+.ti -1c
+.RI "\fBsetGlobalDebugLevel\fP ($level)"
+.br
+.ti -1c
+.RI "\fBgetDebugLevel\fP ()"
+.br
+.ti -1c
+.RI "\fBsetDebugLevel\fP ($level)"
+.br
+.ti -1c
+.RI "\fBdebug\fP ($string)"
+.br
+.ti -1c
+.RI "\fBappendDebug\fP ($string)"
+.br
+.ti -1c
+.RI "\fBclearDebug\fP ()"
+.br
+.ti -1c
+.RI "& \fBgetDebug\fP ()"
+.br
+.ti -1c
+.RI "& \fBgetDebugAsXMLComment\fP ()"
+.br
+.ti -1c
+.RI "\fBexpandEntities\fP ($val)"
+.br
+.ti -1c
+.RI "\fBgetError\fP ()"
+.br
+.ti -1c
+.RI "\fBsetError\fP ($str)"
+.br
+.ti -1c
+.RI "\fBisArraySimpleOrStruct\fP ($val)"
+.br
+.ti -1c
+.RI "\fBserialize_val\fP ($val, $name=false, $type=false, $name_ns=false, $type_ns=false, $attributes=false, $use='encoded')"
+.br
+.ti -1c
+.RI "\fBserializeEnvelope\fP ($body, $headers=false, $namespaces=array(), $style='rpc', $use='encoded', $encodingStyle='http://schemas\&.xmlsoap\&.org/soap/encoding/')"
+.br
+.ti -1c
+.RI "\fBformatDump\fP ($str)"
+.br
+.ti -1c
+.RI "\fBcontractQname\fP ($qname)"
+.br
+.ti -1c
+.RI "\fBexpandQname\fP ($qname)"
+.br
+.ti -1c
+.RI "\fBgetLocalPart\fP ($str)"
+.br
+.ti -1c
+.RI "\fBgetPrefix\fP ($str)"
+.br
+.ti -1c
+.RI "\fBgetNamespaceFromPrefix\fP ($prefix)"
+.br
+.ti -1c
+.RI "\fBgetPrefixFromNamespace\fP ($ns)"
+.br
+.ti -1c
+.RI "\fBgetmicrotime\fP ()"
+.br
+.ti -1c
+.RI "\fBvarDump\fP ($data)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$title\fP = 'NuSOAP'"
+.br
+.ti -1c
+.RI "\fB$version\fP = '0\&.7\&.2'"
+.br
+.ti -1c
+.RI "\fB$revision\fP = '$Revision: 1\&.43 $'"
+.br
+.ti -1c
+.RI "\fB$error_str\fP = ''"
+.br
+.ti -1c
+.RI "\fB$debug_str\fP = ''"
+.br
+.ti -1c
+.RI "\fB$charencoding\fP = true"
+.br
+.ti -1c
+.RI "\fB$debugLevel\fP"
+.br
+.ti -1c
+.RI "\fB$XMLSchemaVersion\fP = 'http://www\&.w3\&.org/2001/\fBXMLSchema\fP'"
+.br
+.ti -1c
+.RI "\fB$soap_defencoding\fP = 'ISO-8859-1'"
+.br
+.ti -1c
+.RI "\fB$namespaces\fP"
+.br
+.ti -1c
+.RI "\fB$usedNamespaces\fP = array()"
+.br
+.ti -1c
+.RI "\fB$typemap\fP"
+.br
+.ti -1c
+.RI "\fB$xmlEntities\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBnusoap_base\fP
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.nusoap_base\&.php\fP,v 1\&.43 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+\fBnusoap_base\fP
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 65 of file class\&.nusoap_base\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "appendDebug ($string)"
+adds debug data to the instance debug string without formatting
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP debug data  public 
+.RE
+.PP
+
+.PP
+Definition at line 267 of file class\&.nusoap_base\&.php\&.
+.SS "appendDebug ($string)"
+adds debug data to the instance debug string without formatting
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP debug data  public 
+.RE
+.PP
+
+.PP
+Definition at line 267 of file nusoap\&.php\&.
+.SS "clearDebug ()"
+clears the current debug data for this instance
+.PP
+public 
+.PP
+Definition at line 280 of file class\&.nusoap_base\&.php\&.
+.SS "clearDebug ()"
+clears the current debug data for this instance
+.PP
+public 
+.PP
+Definition at line 280 of file nusoap\&.php\&.
+.SS "contractQname ($qname)"
+contracts (changes namespace to prefix) a qualified name
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$qname\fP qname 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string contracted qname  private 
+.RE
+.PP
+
+.PP
+Definition at line 674 of file class\&.nusoap_base\&.php\&.
+.SS "contractQname ($qname)"
+contracts (changes namespace to prefix) a qualified name
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$qname\fP qname 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string contracted qname  private 
+.RE
+.PP
+
+.PP
+Definition at line 674 of file nusoap\&.php\&.
+.SS "debug ($string)"
+adds debug data to the instance debug string with formatting
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP debug data  private 
+.RE
+.PP
+
+.PP
+Definition at line 255 of file class\&.nusoap_base\&.php\&.
+.SS "debug ($string)"
+adds debug data to the instance debug string with formatting
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP debug data  private 
+.RE
+.PP
+
+.PP
+Definition at line 255 of file nusoap\&.php\&.
+.SS "expandEntities ($val)"
+expands entities, e\&.g\&. changes '<' to '<'\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$val\fP The string in which to expand entities\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 320 of file nusoap\&.php\&.
+.SS "expandEntities ($val)"
+expands entities, e\&.g\&. changes '<' to '<'\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$val\fP The string in which to expand entities\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 320 of file class\&.nusoap_base\&.php\&.
+.SS "expandQname ($qname)"
+expands (changes prefix to namespace) a qualified name
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP qname 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string expanded qname  private 
+.RE
+.PP
+
+.PP
+Definition at line 699 of file class\&.nusoap_base\&.php\&.
+.SS "expandQname ($qname)"
+expands (changes prefix to namespace) a qualified name
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP qname 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string expanded qname  private 
+.RE
+.PP
+
+.PP
+Definition at line 699 of file nusoap\&.php\&.
+.SS "formatDump ($str)"
+formats a string to be inserted into an HTML stream
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$str\fP The string to format 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The formatted string  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 662 of file class\&.nusoap_base\&.php\&.
+.SS "formatDump ($str)"
+formats a string to be inserted into an HTML stream
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$str\fP The string to format 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The formatted string  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 662 of file nusoap\&.php\&.
+.SS "& getDebug ()"
+gets the current debug data for this instance
+.PP
+\fBReturns:\fP
+.RS 4
+debug data  public 
+.RE
+.PP
+
+.PP
+Definition at line 292 of file class\&.nusoap_base\&.php\&.
+.SS "& getDebug ()"
+gets the current debug data for this instance
+.PP
+\fBReturns:\fP
+.RS 4
+debug data  public 
+.RE
+.PP
+
+.PP
+Definition at line 292 of file nusoap\&.php\&.
+.SS "& getDebugAsXMLComment ()"
+gets the current debug data for this instance as an XML comment this may change the contents of the debug data
+.PP
+\fBReturns:\fP
+.RS 4
+debug data as an XML comment  public 
+.RE
+.PP
+
+.PP
+Definition at line 305 of file nusoap\&.php\&.
+.SS "& getDebugAsXMLComment ()"
+gets the current debug data for this instance as an XML comment this may change the contents of the debug data
+.PP
+\fBReturns:\fP
+.RS 4
+debug data as an XML comment  public 
+.RE
+.PP
+
+.PP
+Definition at line 305 of file class\&.nusoap_base\&.php\&.
+.SS "getDebugLevel ()"
+gets the debug level for this instance
+.PP
+\fBReturns:\fP
+.RS 4
+int Debug level 0-9, where 0 turns off  public 
+.RE
+.PP
+
+.PP
+Definition at line 235 of file nusoap\&.php\&.
+.SS "getDebugLevel ()"
+gets the debug level for this instance
+.PP
+\fBReturns:\fP
+.RS 4
+int Debug level 0-9, where 0 turns off  public 
+.RE
+.PP
+
+.PP
+Definition at line 235 of file class\&.nusoap_base\&.php\&.
+.SS "getError ()"
+returns error string if present
+.PP
+\fBReturns:\fP
+.RS 4
+mixed error string or false  public 
+.RE
+.PP
+
+.PP
+Definition at line 337 of file nusoap\&.php\&.
+.SS "getError ()"
+returns error string if present
+.PP
+\fBReturns:\fP
+.RS 4
+mixed error string or false  public 
+.RE
+.PP
+
+.PP
+Definition at line 337 of file class\&.nusoap_base\&.php\&.
+.SS "getGlobalDebugLevel ()"
+gets the global debug level, which applies to future instances
+.PP
+\fBReturns:\fP
+.RS 4
+integer Debug level 0-9, where 0 turns off  public 
+.RE
+.PP
+
+.PP
+Definition at line 215 of file class\&.nusoap_base\&.php\&.
+.SS "getGlobalDebugLevel ()"
+gets the global debug level, which applies to future instances
+.PP
+\fBReturns:\fP
+.RS 4
+integer Debug level 0-9, where 0 turns off  public 
+.RE
+.PP
+
+.PP
+Definition at line 215 of file nusoap\&.php\&.
+.SS "getLocalPart ($str)"
+returns the local part of a prefixed string returns the original string, if not prefixed
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$str\fP The prefixed string 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The local part  public 
+.RE
+.PP
+
+.PP
+Definition at line 724 of file class\&.nusoap_base\&.php\&.
+.SS "getLocalPart ($str)"
+returns the local part of a prefixed string returns the original string, if not prefixed
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$str\fP The prefixed string 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The local part  public 
+.RE
+.PP
+
+.PP
+Definition at line 724 of file nusoap\&.php\&.
+.SS "getmicrotime ()"
+returns the time in ODBC canonical form with microseconds
+.PP
+\fBReturns:\fP
+.RS 4
+string The time in ODBC canonical form with microseconds  public 
+.RE
+.PP
+
+.PP
+Definition at line 788 of file class\&.nusoap_base\&.php\&.
+.SS "getmicrotime ()"
+returns the time in ODBC canonical form with microseconds
+.PP
+\fBReturns:\fP
+.RS 4
+string The time in ODBC canonical form with microseconds  public 
+.RE
+.PP
+
+.PP
+Definition at line 788 of file nusoap\&.php\&.
+.SS "getNamespaceFromPrefix ($prefix)"
+pass it a prefix, it returns a namespace
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$prefix\fP The prefix 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The namespace, false if no namespace has the specified prefix  public 
+.RE
+.PP
+
+.PP
+Definition at line 756 of file nusoap\&.php\&.
+.SS "getNamespaceFromPrefix ($prefix)"
+pass it a prefix, it returns a namespace
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$prefix\fP The prefix 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The namespace, false if no namespace has the specified prefix  public 
+.RE
+.PP
+
+.PP
+Definition at line 756 of file class\&.nusoap_base\&.php\&.
+.SS "getPrefix ($str)"
+returns the prefix part of a prefixed string returns false, if not prefixed
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$str\fP The prefixed string 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The prefix or false if there is no prefix  public 
+.RE
+.PP
+
+.PP
+Definition at line 741 of file class\&.nusoap_base\&.php\&.
+.SS "getPrefix ($str)"
+returns the prefix part of a prefixed string returns false, if not prefixed
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$str\fP The prefixed string 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The prefix or false if there is no prefix  public 
+.RE
+.PP
+
+.PP
+Definition at line 741 of file nusoap\&.php\&.
+.SS "getPrefixFromNamespace ($ns)"
+returns the prefix for a given namespace (or prefix) or false if no prefixes registered for the given namespace
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$ns\fP The namespace 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The prefix, false if the namespace has no prefixes  public 
+.RE
+.PP
+
+.PP
+Definition at line 772 of file nusoap\&.php\&.
+.SS "getPrefixFromNamespace ($ns)"
+returns the prefix for a given namespace (or prefix) or false if no prefixes registered for the given namespace
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$ns\fP The namespace 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The prefix, false if the namespace has no prefixes  public 
+.RE
+.PP
+
+.PP
+Definition at line 772 of file class\&.nusoap_base\&.php\&.
+.SS "isArraySimpleOrStruct ($val)"
+detect if array is a simple array or a struct (associative array)
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$val\fP The PHP array 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string (arraySimple|arrayStruct)  private 
+.RE
+.PP
+
+.PP
+Definition at line 361 of file nusoap\&.php\&.
+.SS "isArraySimpleOrStruct ($val)"
+detect if array is a simple array or a struct (associative array)
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$val\fP The PHP array 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string (arraySimple|arrayStruct)  private 
+.RE
+.PP
+
+.PP
+Definition at line 361 of file class\&.nusoap_base\&.php\&.
+.SS "\fBnusoap_base\fP ()"
+constructor
+.PP
+public 
+.PP
+Definition at line 205 of file class\&.nusoap_base\&.php\&.
+.SS "\fBnusoap_base\fP ()"
+constructor
+.PP
+public 
+.PP
+Definition at line 205 of file nusoap\&.php\&.
+.SS "serialize_val ($val, $name = \fCfalse\fP, $type = \fCfalse\fP, $name_ns = \fCfalse\fP, $type_ns = \fCfalse\fP, $attributes = \fCfalse\fP, $use = \fC'encoded'\fP)"
+serializes PHP values in accordance w/ section 5\&. Type information is not serialized if $use == 'literal'\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$val\fP The value to serialize 
+.br
+\fI$name\fP The name (local part) of the XML element 
+.br
+\fI$type\fP The XML schema type (local part) for the element 
+.br
+\fI$name_ns\fP The namespace for the name of the XML element 
+.br
+\fI$type_ns\fP The namespace for the type of the element 
+.br
+\fI$attributes\fP The attributes to serialize as name=>value pairs 
+.br
+\fI$use\fP The WSDL 'use' (encoded|literal) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The serialized element, possibly with child elements  public 
+.RE
+.PP
+
+.PP
+Definition at line 385 of file class\&.nusoap_base\&.php\&.
+.SS "serialize_val ($val, $name = \fCfalse\fP, $type = \fCfalse\fP, $name_ns = \fCfalse\fP, $type_ns = \fCfalse\fP, $attributes = \fCfalse\fP, $use = \fC'encoded'\fP)"
+serializes PHP values in accordance w/ section 5\&. Type information is not serialized if $use == 'literal'\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$val\fP The value to serialize 
+.br
+\fI$name\fP The name (local part) of the XML element 
+.br
+\fI$type\fP The XML schema type (local part) for the element 
+.br
+\fI$name_ns\fP The namespace for the name of the XML element 
+.br
+\fI$type_ns\fP The namespace for the type of the element 
+.br
+\fI$attributes\fP The attributes to serialize as name=>value pairs 
+.br
+\fI$use\fP The WSDL 'use' (encoded|literal) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The serialized element, possibly with child elements  public 
+.RE
+.PP
+
+.PP
+Definition at line 385 of file nusoap\&.php\&.
+.SS "serializeEnvelope ($body, $headers = \fCfalse\fP, $namespaces = \fCarray()\fP, $style = \fC'rpc'\fP, $use = \fC'encoded'\fP, $encodingStyle = \fC'http://schemas\&.xmlsoap\&.org/soap/encoding/'\fP)"
+serializes a message
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$body\fP the XML of the SOAP body 
+.br
+\fI$headers\fP optional string of XML with SOAP header content, or array of soapval objects for SOAP headers 
+.br
+\fI$namespaces\fP optional the namespaces used in generating the body and headers 
+.br
+\fI$style\fP optional (rpc|document) 
+.br
+\fI$use\fP optional (encoded|literal) 
+.br
+\fI$encodingStyle\fP optional (usually 'http://schemas.xmlsoap.org/soap/encoding/' for encoded) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string the message  public 
+.RE
+.PP
+
+.PP
+Definition at line 611 of file class\&.nusoap_base\&.php\&.
+.SS "serializeEnvelope ($body, $headers = \fCfalse\fP, $namespaces = \fCarray()\fP, $style = \fC'rpc'\fP, $use = \fC'encoded'\fP, $encodingStyle = \fC'http://schemas\&.xmlsoap\&.org/soap/encoding/'\fP)"
+serializes a message
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$body\fP the XML of the SOAP body 
+.br
+\fI$headers\fP optional string of XML with SOAP header content, or array of soapval objects for SOAP headers 
+.br
+\fI$namespaces\fP optional the namespaces used in generating the body and headers 
+.br
+\fI$style\fP optional (rpc|document) 
+.br
+\fI$use\fP optional (encoded|literal) 
+.br
+\fI$encodingStyle\fP optional (usually 'http://schemas.xmlsoap.org/soap/encoding/' for encoded) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string the message  public 
+.RE
+.PP
+
+.PP
+Definition at line 611 of file nusoap\&.php\&.
+.SS "setDebugLevel ($level)"
+sets the debug level for this instance
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$level\fP Debug level 0-9, where 0 turns off  public 
+.RE
+.PP
+
+.PP
+Definition at line 245 of file class\&.nusoap_base\&.php\&.
+.SS "setDebugLevel ($level)"
+sets the debug level for this instance
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$level\fP Debug level 0-9, where 0 turns off  public 
+.RE
+.PP
+
+.PP
+Definition at line 245 of file nusoap\&.php\&.
+.SS "setError ($str)"
+sets error string
+.PP
+\fBReturns:\fP
+.RS 4
+boolean $string error string  private 
+.RE
+.PP
+
+.PP
+Definition at line 350 of file nusoap\&.php\&.
+.SS "setError ($str)"
+sets error string
+.PP
+\fBReturns:\fP
+.RS 4
+boolean $string error string  private 
+.RE
+.PP
+
+.PP
+Definition at line 350 of file class\&.nusoap_base\&.php\&.
+.SS "setGlobalDebugLevel ($level)"
+sets the global debug level, which applies to future instances
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$level\fP Debug level 0-9, where 0 turns off  public 
+.RE
+.PP
+
+.PP
+Definition at line 225 of file nusoap\&.php\&.
+.SS "setGlobalDebugLevel ($level)"
+sets the global debug level, which applies to future instances
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$level\fP Debug level 0-9, where 0 turns off  public 
+.RE
+.PP
+
+.PP
+Definition at line 225 of file class\&.nusoap_base\&.php\&.
+.SS "varDump ($data)"
+Returns a string with the output of var_dump
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP The variable to var_dump 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The output of var_dump  public 
+.RE
+.PP
+
+.PP
+Definition at line 807 of file nusoap\&.php\&.
+.SS "varDump ($data)"
+Returns a string with the output of var_dump
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP The variable to var_dump 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The output of var_dump  public 
+.RE
+.PP
+
+.PP
+Definition at line 807 of file class\&.nusoap_base\&.php\&.
+.SH "Field Documentation"
+.PP 
+.SS "$namespaces"
+\fBInitial value:\fP
+.PP
+.nf
+= array(
+        'SOAP-ENV' => 'http://schemas\&.xmlsoap\&.org/soap/envelope/',
+        'xsd' => 'http://www\&.w3\&.org/2001/XMLSchema',
+        'xsi' => 'http://www\&.w3\&.org/2001/XMLSchema-instance',
+        'SOAP-ENC' => 'http://schemas\&.xmlsoap\&.org/soap/encoding/'
+        )
+.fi
+.PP
+Definition at line 142 of file class\&.nusoap_base\&.php\&.
+.SS "$typemap"
+\fBInitial value:\fP
+.PP
+.nf
+= array(
+    'http://www\&.w3\&.org/2001/XMLSchema' => array(
+        'string'=>'string','boolean'=>'boolean','float'=>'double','double'=>'double','decimal'=>'double',
+        'duration'=>'','dateTime'=>'string','time'=>'string','date'=>'string','gYearMonth'=>'',
+        'gYear'=>'','gMonthDay'=>'','gDay'=>'','gMonth'=>'','hexBinary'=>'string','base64Binary'=>'string',
+        
+        'anyType'=>'string','anySimpleType'=>'string',
+        
+        'normalizedString'=>'string','token'=>'string','language'=>'','NMTOKEN'=>'','NMTOKENS'=>'','Name'=>'','NCName'=>'','ID'=>'',
+        'IDREF'=>'','IDREFS'=>'','ENTITY'=>'','ENTITIES'=>'','integer'=>'integer','nonPositiveInteger'=>'integer',
+        'negativeInteger'=>'integer','long'=>'integer','int'=>'integer','short'=>'integer','byte'=>'integer','nonNegativeInteger'=>'integer',
+        'unsignedLong'=>'','unsignedInt'=>'','unsignedShort'=>'','unsignedByte'=>'','positiveInteger'=>''),
+    'http://www\&.w3\&.org/2000/10/XMLSchema' => array(
+        'i4'=>'','int'=>'integer','boolean'=>'boolean','string'=>'string','double'=>'double',
+        'float'=>'double','dateTime'=>'string',
+        'timeInstant'=>'string','base64Binary'=>'string','base64'=>'string','ur-type'=>'array'),
+    'http://www\&.w3\&.org/1999/XMLSchema' => array(
+        'i4'=>'','int'=>'integer','boolean'=>'boolean','string'=>'string','double'=>'double',
+        'float'=>'double','dateTime'=>'string',
+        'timeInstant'=>'string','base64Binary'=>'string','base64'=>'string','ur-type'=>'array'),
+    'http://soapinterop\&.org/xsd' => array('SOAPStruct'=>'struct'),
+    'http://schemas\&.xmlsoap\&.org/soap/encoding/' => array('base64'=>'string','array'=>'array','Array'=>'array'),
+    'http://xml\&.apache\&.org/xml-soap' => array('Map')
+    )
+.fi
+.PP
+Definition at line 164 of file class\&.nusoap_base\&.php\&.
+.SS "$xmlEntities"
+\fBInitial value:\fP
+.PP
+.nf
+= array('quot' => '"','amp' => '&',
+        'lt' => '<','gt' => '>','apos' => "'")
+.fi
+.PP
+Definition at line 197 of file class\&.nusoap_base\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

@@ -1,0 +1,15 @@
+<{includeq file="db:profile_breadcrumbs.html"}>
+<form action="<{$smarty.server.PHP_SELF}>" style="display:block; float:left;'">
+	<input type="submit" name="submit" value="Create OAuth2 Applet!"/>
+	<input type="hidden" name="op" value="create"/>
+</form>
+<div id="clear" class="clear" style="clear:both;">&nbsp;</div>
+<table>
+<{foreach from=$applets item=applet key=key}>
+	<tr>
+		<td><img src="<{$applet.image}>" width="24px"></td>
+		<td><{$applet.name}> - <i><{$applet.client_id}></i></td>
+		<td><a href="<{$smarty.server.PHP_SELF}>?op=edit&appid=<{$applet.appid}>"><img src="<{$xoops_url}>/modules/profile/images/edit.png"></a>&nbsp;<a href="<{$smarty.server.PHP_SELF}>?op=delete&appid=<{$applet.appid}>"><img src="<{$xoops_url}>/modules/profile/images/delete.png"></a></td>
+	</tr>
+<{/foreach}>
+</table>

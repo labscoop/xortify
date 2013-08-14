@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_4f8d3c1561531c66b4b98c7292c7e8fe" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/system</compoundname>
+    <innerdir refid="dir_cb3f94a68160d46ce21ebe8bd23fbdc6">E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/system/preloads</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/system/"/>
+  </compounddef>
+</doxygen>

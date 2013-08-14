@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_e6ad5575d07cd8db5c4c198be3be7f75" kind="dir">
+    <compoundname>E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/protector</compoundname>
+    <innerfile refid="protector_2footer_8post_8loader_8php">footer.post.loader.php</innerfile>
+    <innerfile refid="protector_2header_8post_8loader_8php">header.post.loader.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/providers/protector/"/>
+  </compounddef>
+</doxygen>

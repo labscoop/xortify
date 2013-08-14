@@ -1,0 +1,201 @@
+\hypertarget{class_xortify_auth_rest___json}{\section{Xortify\-Auth\-Rest\-\_\-\-Json Class Reference}
+\label{class_xortify_auth_rest___json}\index{Xortify\-Auth\-Rest\-\_\-\-Json@{Xortify\-Auth\-Rest\-\_\-\-Json}}
+}
+
+
+Inheritance diagram for Xortify\-Auth\-Rest\-\_\-\-Json\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{class_xortify_auth_rest___json__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Xortify\-Auth\-Rest\-\_\-\-Json\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{class_xortify_auth_rest___json__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_xortify_auth_rest___json_a49655248be6ee9b8888388b9137f433c}{Xortify\-Auth\-Rest\-\_\-\-Json} (\&\$dao)
+\item 
+\hyperlink{class_xortify_auth_rest___json_a00678ba307326b734e6c679f28bea315}{authenticate} (\$uname, \$pwd=null)
+\item 
+\hyperlink{class_xortify_auth_rest___json_a91121a1b702dfd20fb65a027c8ed26ec}{validate} (\$uname, \$email, \$pass, \$vpass)
+\item 
+\hypertarget{class_xortify_auth_rest___json_ae463a3baa44e95fa5b5151ab2334df1c}{{\bfseries reduce\-\_\-string} (\$str)}\label{class_xortify_auth_rest___json_ae463a3baa44e95fa5b5151ab2334df1c}
+
+\item 
+\hyperlink{class_xortify_auth_rest___json_a1874c27b6f81a3f2ff9015405ad0f8bc}{network\-\_\-disclaimer} ()
+\item 
+\hyperlink{class_xortify_auth_rest___json_ac72efc5ad313a592cf6706876f56f7ec}{create\-\_\-user} (\$user\-\_\-viewemail, \$uname, \$email, \$url, \$actkey, \$pass, \$timezone\-\_\-offset, \$user\-\_\-mailok, \$siteinfo)
+\item 
+\hypertarget{class_xortify_auth_rest___json_aabc52e4f78557f0e0b360a8aaba6e11d}{{\bfseries obj2array} (\$objects)}\label{class_xortify_auth_rest___json_aabc52e4f78557f0e0b360a8aaba6e11d}
+
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_xortify_auth_rest___json_a2d091f9d959cab9ac28ad2cc96149447}{{\bfseries \$json\-\_\-client}}\label{class_xortify_auth_rest___json_a2d091f9d959cab9ac28ad2cc96149447}
+
+\item 
+\hypertarget{class_xortify_auth_rest___json_ac058687d82a56fb93513e7e58c4ec391}{{\bfseries \$json\-\_\-xoops\-\_\-username} = ''}\label{class_xortify_auth_rest___json_ac058687d82a56fb93513e7e58c4ec391}
+
+\item 
+\hypertarget{class_xortify_auth_rest___json_a7af311f07c1c09254920e6ac0cefe9a9}{{\bfseries \$json\-\_\-xoops\-\_\-password} = ''}\label{class_xortify_auth_rest___json_a7af311f07c1c09254920e6ac0cefe9a9}
+
+\item 
+\hypertarget{class_xortify_auth_rest___json_a12a029c610f699b4b25e79a1f64a3485}{{\bfseries \$\-\_\-dao}}\label{class_xortify_auth_rest___json_a12a029c610f699b4b25e79a1f64a3485}
+
+\item 
+\hypertarget{class_xortify_auth_rest___json_a94787b37d92a2dee02534eed4f316589}{{\bfseries \$\-\_\-json} = ''}\label{class_xortify_auth_rest___json_a94787b37d92a2dee02534eed4f316589}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 56 of file auth\-\_\-rest\-\_\-json.\-php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_xortify_auth_rest___json_a00678ba307326b734e6c679f28bea315}{\index{Xortify\-Auth\-Rest\-\_\-\-Json@{Xortify\-Auth\-Rest\-\_\-\-Json}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!XortifyAuthRest_Json@{Xortify\-Auth\-Rest\-\_\-\-Json}}
+\subsubsection[{authenticate}]{\setlength{\rightskip}{0pt plus 5cm}authenticate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$pwd = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_rest___json_a00678ba307326b734e6c679f28bea315}
+Authenticate user again json directory (Bind)
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & Username \\
+\hline
+string & {\em \$pwd} & Password\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file auth\-\_\-rest\-\_\-json.\-php.
+
+\hypertarget{class_xortify_auth_rest___json_ac72efc5ad313a592cf6706876f56f7ec}{\index{Xortify\-Auth\-Rest\-\_\-\-Json@{Xortify\-Auth\-Rest\-\_\-\-Json}!create\-\_\-user@{create\-\_\-user}}
+\index{create\-\_\-user@{create\-\_\-user}!XortifyAuthRest_Json@{Xortify\-Auth\-Rest\-\_\-\-Json}}
+\subsubsection[{create\-\_\-user}]{\setlength{\rightskip}{0pt plus 5cm}create\-\_\-user (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\-\_\-viewemail, }
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$url, }
+\item[{}]{\$actkey, }
+\item[{}]{\$pass, }
+\item[{}]{\$timezone\-\_\-offset, }
+\item[{}]{\$user\-\_\-mailok, }
+\item[{}]{\$siteinfo}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_rest___json_ac72efc5ad313a592cf6706876f56f7ec}
+create a user
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$user\-\_\-viewemail} & \\
+\hline
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$url} & \\
+\hline
+string & {\em \$actkey} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+integer & {\em \$timezone\-\_\-offset} & \\
+\hline
+bool & {\em \$user\-\_\-mailok} & \\
+\hline
+array & {\em \$siteinfo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 162 of file auth\-\_\-rest\-\_\-json.\-php.
+
+\hypertarget{class_xortify_auth_rest___json_a1874c27b6f81a3f2ff9015405ad0f8bc}{\index{Xortify\-Auth\-Rest\-\_\-\-Json@{Xortify\-Auth\-Rest\-\_\-\-Json}!network\-\_\-disclaimer@{network\-\_\-disclaimer}}
+\index{network\-\_\-disclaimer@{network\-\_\-disclaimer}!XortifyAuthRest_Json@{Xortify\-Auth\-Rest\-\_\-\-Json}}
+\subsubsection[{network\-\_\-disclaimer}]{\setlength{\rightskip}{0pt plus 5cm}network\-\_\-disclaimer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_rest___json_a1874c27b6f81a3f2ff9015405ad0f8bc}
+get the xoops site disclaimer via json
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 134 of file auth\-\_\-rest\-\_\-json.\-php.
+
+\hypertarget{class_xortify_auth_rest___json_a91121a1b702dfd20fb65a027c8ed26ec}{\index{Xortify\-Auth\-Rest\-\_\-\-Json@{Xortify\-Auth\-Rest\-\_\-\-Json}!validate@{validate}}
+\index{validate@{validate}!XortifyAuthRest_Json@{Xortify\-Auth\-Rest\-\_\-\-Json}}
+\subsubsection[{validate}]{\setlength{\rightskip}{0pt plus 5cm}validate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$pass, }
+\item[{}]{\$vpass}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_rest___json_a91121a1b702dfd20fb65a027c8ed26ec}
+validate a user via json
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+string & {\em \$vpass} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 98 of file auth\-\_\-rest\-\_\-json.\-php.
+
+\hypertarget{class_xortify_auth_rest___json_a49655248be6ee9b8888388b9137f433c}{\index{Xortify\-Auth\-Rest\-\_\-\-Json@{Xortify\-Auth\-Rest\-\_\-\-Json}!Xortify\-Auth\-Rest\-\_\-\-Json@{Xortify\-Auth\-Rest\-\_\-\-Json}}
+\index{Xortify\-Auth\-Rest\-\_\-\-Json@{Xortify\-Auth\-Rest\-\_\-\-Json}!XortifyAuthRest_Json@{Xortify\-Auth\-Rest\-\_\-\-Json}}
+\subsubsection[{Xortify\-Auth\-Rest\-\_\-\-Json}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Xortify\-Auth\-Rest\-\_\-\-Json} (
+\begin{DoxyParamCaption}
+\item[{\&}]{\$dao}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_rest___json_a49655248be6ee9b8888388b9137f433c}
+Authentication Service constructor 
+
+Definition at line 66 of file auth\-\_\-rest\-\_\-json.\-php.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/xortify server/htdocs/modules/xortify/class/auth/auth\-\_\-rest\-\_\-json.\-php\end{DoxyCompactItemize}

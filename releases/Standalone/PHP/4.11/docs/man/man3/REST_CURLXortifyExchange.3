@@ -1,0 +1,106 @@
+.TH "REST_CURLXortifyExchange" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+REST_CURLXortifyExchange \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($url= 'http://xortify\&.com')"
+.br
+.ti -1c
+.RI "\fBREST_CURLXortifyExchange\fP ($url)"
+.br
+.ti -1c
+.RI "\fBtraining\fP ($content, $ham=false)"
+.br
+.ti -1c
+.RI "\fBcheckForSpam\fP ($content)"
+.br
+.ti -1c
+.RI "\fBgetSpoof\fP ($type= 'comment')"
+.br
+.ti -1c
+.RI "\fBgetServers\fP ()"
+.br
+.ti -1c
+.RI "\fBsendBan\fP ($comment, $category_id=2, $ip=false)"
+.br
+.ti -1c
+.RI "\fBcheckSFSBans\fP ($ipdata)"
+.br
+.ti -1c
+.RI "\fBcheckPHPBans\fP ($ipdata)"
+.br
+.ti -1c
+.RI "\fBgetBans\fP ()"
+.br
+.ti -1c
+.RI "\fBretrieveBans\fP ()"
+.br
+.ti -1c
+.RI "\fBcheckBanned\fP ($ipdata)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$curl_client\fP"
+.br
+.ti -1c
+.RI "\fB$curl_xoops_username\fP = ''"
+.br
+.ti -1c
+.RI "\fB$curl_xoops_password\fP = ''"
+.br
+.ti -1c
+.RI "\fB$refresh\fP = 600"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($url = \fC'http://xortify\&.com'\fP)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "checkBanned ($ipdata)"
+
+.SS "checkForSpam ($content)"
+
+.SS "checkPHPBans ($ipdata)"
+
+.SS "checkSFSBans ($ipdata)"
+
+.SS "getBans ()"
+
+.SS "getServers ()"
+
+.SS "getSpoof ($type = \fC'comment'\fP)"
+
+.SS "\fBREST_CURLXortifyExchange\fP ($url)"
+
+.SS "retrieveBans ()"
+
+.SS "sendBan ($comment, $category_id = \fC2\fP, $ip = \fCfalse\fP)"
+
+.SS "training ($content, $ham = \fCfalse\fP)"
+
+.SH "Field Documentation"
+.PP 
+.SS "$curl_client"
+
+.SS "$curl_xoops_password = ''"
+
+.SS "$curl_xoops_username = ''"
+
+.SS "$refresh = 600"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

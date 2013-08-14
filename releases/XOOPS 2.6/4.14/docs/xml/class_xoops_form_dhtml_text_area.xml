@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xoops_form_dhtml_text_area" kind="class" prot="public">
+    <compoundname>XoopsFormDhtmlTextArea</compoundname>
+    <basecompoundref refid="class_xoops_form_text_area" prot="public" virt="non-virtual">XoopsFormTextArea</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xoops_form_dhtml_text_area_1a329008b431ffa2c4030435018c8d773c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$htmlEditor</definition>
+        <argsstring></argsstring>
+        <name>$htmlEditor</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extended HTML editor</para><para>If an extended HTML editor is set, the renderer will be replaced by the specified editor, usually a visual or WYSIWYG editor.</para><para><itemizedlist>
+<listitem>
+</listitem>
+</itemizedlist>
+and user guide:  <itemizedlist>
+<listitem>
+</listitem>
+</itemizedlist>
+run-time settings per call To use an editor pre-configured by <ref refid="" kindref="compound">XoopsEditor</ref>, e.g. &apos;fckeditor&apos;: <computeroutput>$options[&apos;editor&apos;] = &apos;fckeditor&apos;;</computeroutput> To use a custom editor, e.g. &apos;MyEditor&apos; class located in &quot;/modules/myeditor/myeditor.php&quot;: <computeroutput>$options[&apos;editor&apos;] = array(&apos;MyEditor&apos;, XOOPS_ROOT_PATH . &quot;/modules/myeditor/myeditor.php&quot;);</computeroutput>    <itemizedlist>
+<listitem>
+</listitem>
+</itemizedlist>
+pre-configured settings, which will force to use a editor if no specific editor is set for call  <itemizedlist>
+<listitem>
+</listitem>
+</itemizedlist>
+up custom configs: in XOOPS_VAR_PATH . &apos;/configs/xoopsconfig.php&apos; set a editor as default, e.g. a pre-configured editor &apos;fckeditor&apos;: <computeroutput>return array(&apos;editor&apos; =&gt; &apos;fckeditor&apos;);</computeroutput> a custom editor &apos;MyEditor&apos; class located in &quot;/modules/myeditor/myeditor.php&quot;: <computeroutput>return array(&apos;editor&apos; =&gt; array(&apos;MyEditor&apos;, XOOPS_ROOT_PATH . &quot;/modules/myeditor/myeditor.php&quot;);</computeroutput>   To disable the default editor, in XOOPS_VAR_PATH . &apos;/configs/xoopsconfig.php&apos;: <computeroutput>return array();</computeroutput> To disable the default editor for a specific call: <computeroutput>$options[&apos;editor&apos;] = &apos;dhtmltextarea&apos;;</computeroutput>    </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="60" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_form_dhtml_text_area_1aa0dd4edcea52081fc67fdc3053edc2ed" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$skipPreview</definition>
+        <argsstring></argsstring>
+        <name>$skipPreview</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="72" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_form_dhtml_text_area_1afbcedef390be09deb8c4939b7cfab1eb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$doHtml</definition>
+        <argsstring></argsstring>
+        <name>$doHtml</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="77" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_form_dhtml_text_area_1a747181e96d083c6396169e81e4d2056d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$js</definition>
+        <argsstring></argsstring>
+        <name>$js</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="82" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xoops_form_dhtml_text_area_1a95691168d68a876ecc24c7dad14ef24e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$configs</definition>
+        <argsstring></argsstring>
+        <name>$configs</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="87" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_xoops_form_dhtml_text_area_1a44964e6a3dc5569cded691026318bb46" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$_hiddenText</definition>
+        <argsstring></argsstring>
+        <name>$_hiddenText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="67" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xoops_form_dhtml_text_area_1a7f1529c70e84a7fc20288ce43504fbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($caption, $name, $value=&quot;&quot;, $rows=5, $cols=50, $hiddentext=&quot;xoopsHiddenText&quot;, $options=array())</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$caption</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <declname>$rows</declname>
+          <defval>5</defval>
+        </param>
+        <param>
+          <declname>$cols</declname>
+          <defval>50</defval>
+        </param>
+        <param>
+          <declname>$hiddentext</declname>
+          <defval>&quot;xoopsHiddenText&quot;</defval>
+        </param>
+        <param>
+          <declname>$options</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caption </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&quot;name&quot; attribute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial text </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$rows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of rows </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$cols</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of columns </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$hiddentext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier for hidden Text </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Extra options </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="100" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="100" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_dhtml_text_area_1afde88292c44dc59faf017738dae6dffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepare HTML for output</para><para><simplesect kind="return"><para>string HTML </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="159" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="159" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_dhtml_text_area_1acb81ef17f7e7796804e22ca93aeb6fd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>codeIcon</definition>
+        <argsstring>()</argsstring>
+        <name>codeIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_xoops_form_dhtml_text_area_1acb81ef17f7e7796804e22ca93aeb6fd5" kindref="member">XoopsFormDhtmlTextArea::codeIcon()</ref></para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="210" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="210" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_dhtml_text_area_1ab30939ed7ed069182752a0a763d4d2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fontArray</definition>
+        <argsstring>()</argsstring>
+        <name>fontArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="244" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="244" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xoops_form_dhtml_text_area_1a2747262e7fc6aba84bfc52bcf38407df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>renderValidationJS</definition>
+        <argsstring>()</argsstring>
+        <name>renderValidationJS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool|string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="294" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="294" bodyend="302"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A textarea with xoopsish formatting and smilie buttons </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="274">
+        <label>XoopsFormElement</label>
+      </node>
+      <node id="272">
+        <label>XoopsFormDhtmlTextArea</label>
+        <link refid="class_xoops_form_dhtml_text_area"/>
+        <childnode refid="273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>XoopsFormTextArea</label>
+        <link refid="class_xoops_form_text_area"/>
+        <childnode refid="274" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="277">
+        <label>XoopsFormElement</label>
+      </node>
+      <node id="275">
+        <label>XoopsFormDhtmlTextArea</label>
+        <link refid="class_xoops_form_dhtml_text_area"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>XoopsFormTextArea</label>
+        <link refid="class_xoops_form_text_area"/>
+        <childnode refid="277" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" line="33" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/class/xoopsform/formdhtmltextarea.php" bodystart="32" bodyend="303"/>
+    <listofallmembers>
+      <member refid="class_xoops_form_dhtml_text_area_1a44964e6a3dc5569cded691026318bb46" prot="private" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>$_hiddenText</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1a95691168d68a876ecc24c7dad14ef24e" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>$configs</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1afbcedef390be09deb8c4939b7cfab1eb" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>$doHtml</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1a329008b431ffa2c4030435018c8d773c" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>$htmlEditor</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1a747181e96d083c6396169e81e4d2056d" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>$js</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1aa0dd4edcea52081fc67fdc3053edc2ed" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>$skipPreview</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1a7f1529c70e84a7fc20288ce43504fbd7" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>__construct</name></member>
+      <member refid="class_xoops_form_text_area_1a74181343558bddc9598d682718a9b018" prot="public" virt="non-virtual" ambiguityscope="XoopsFormTextArea::"><scope>XoopsFormDhtmlTextArea</scope><name>__construct</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1acb81ef17f7e7796804e22ca93aeb6fd5" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>codeIcon</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1ab30939ed7ed069182752a0a763d4d2bd" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>fontArray</name></member>
+      <member refid="class_xoops_form_text_area_1afc020a5052f695efa2e9e8d9ce6e6029" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>getCols</name></member>
+      <member refid="class_xoops_form_text_area_1a4afcccec5ceaedaa747a38d2459d82a5" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>getPlaceholder</name></member>
+      <member refid="class_xoops_form_text_area_1ad93a3a7b26a8578a36b6e8f6d05ca5ba" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>getRows</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1afde88292c44dc59faf017738dae6dffb" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>render</name></member>
+      <member refid="class_xoops_form_dhtml_text_area_1a2747262e7fc6aba84bfc52bcf38407df" prot="public" virt="non-virtual"><scope>XoopsFormDhtmlTextArea</scope><name>renderValidationJS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_4f9d2cf74ca30faff12a06990ce4bab5" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xortify/cron</compoundname>
+    <innerfile refid="serverup_8php">serverup.php</innerfile>
+    <innerfile refid="modules_2xortify_2cron_2unbanner_8php">unbanner.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/cron/"/>
+  </compounddef>
+</doxygen>

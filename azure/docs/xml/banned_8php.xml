@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="banned_8php" kind="file">
+    <compoundname>banned.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="banned_8php_1afe9169534dbc3935c0823c21cfbf68bb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$module_handler</definition>
+        <argsstring></argsstring>
+        <name>$module_handler</name>
+        <initializer>= xoops_gethandler(&apos;module&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/banned.php" line="15" column="1" bodyfile="E:/Packages/xortify server/htdocs/banned.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="banned_8php_1ac7549915fb67a650b63e3ff334818994" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$GLOBALS[&apos;xortifyModule&apos;]</definition>
+        <argsstring>[&apos;xortifyModule&apos;]</argsstring>
+        <name>$GLOBALS</name>
+        <initializer>= $module_handler-&gt;getByDirname(&apos;xortify&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/banned.php" line="16" column="1" bodyfile="E:/Packages/xortify server/htdocs/banned.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="banned_8php_1a171ebe8a60fd56a37ca40aeac2cd2437" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xoopsOption[&apos;template_main&apos;]</definition>
+        <argsstring>[&apos;template_main&apos;]</argsstring>
+        <name>$xoopsOption</name>
+        <initializer>= &apos;xortify_banning_notice.html&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/banned.php" line="18" column="1" bodyfile="E:/Packages/xortify server/htdocs/banned.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="banned_8php_1a57087b1c7fc5b4ecf0edf917f6c40b71" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$log_handler</definition>
+        <argsstring></argsstring>
+        <name>$log_handler</name>
+        <initializer>= xoops_getmodulehandler(&apos;log&apos;, &apos;xortify&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/banned.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/banned.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="banned_8php_1a9a2cf15a653aee8be437f7ae474cd494" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$log</definition>
+        <argsstring></argsstring>
+        <name>$log</name>
+        <initializer>= $log_handler-&gt;get($lid)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/banned.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/banned.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>include<sp/>dirname(__FILE__).</highlight><highlight class="stringliteral">&apos;/mainfile.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lid&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lid<sp/>=<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lid&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setcookie(</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">,<sp/>array(</highlight><highlight class="stringliteral">&apos;lid&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$lid),<sp/>time()+3600*24*7*4*3);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>elseif<sp/>(isset($_COOKIE[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lid&apos;</highlight><highlight class="normal">]))<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lid<sp/>=<sp/>$_COOKIE[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lid&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;lid&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$lid;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>xoops_loadLanguage(</highlight><highlight class="stringliteral">&apos;ban&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>$module_handler<sp/>=<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortifyModule&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>$xoopsOption[</highlight><highlight class="stringliteral">&apos;template_main&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;xortify_banning_notice.html&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH.</highlight><highlight class="stringliteral">&apos;/header.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>_RUN_XORTIFY_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/include/functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>addmeta_googleanalytics(_XOR_MI_XOOPS_GOOGLE_ANALYTICS_ACCOUNTID_FAILEDTOPASS,<sp/>$_SERVER[</highlight><highlight class="stringliteral">&apos;HTTP_HOST&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(defined(</highlight><highlight class="stringliteral">&apos;_XOR_MI_CLIENT_GOOGLE_ANALYTICS_ACCOUNTID_FAILEDTOPASS&apos;</highlight><highlight class="normal">)&amp;&amp;strlen(constant(</highlight><highlight class="stringliteral">&apos;_XOR_MI_CLIENT_GOOGLE_ANALYTICS_ACCOUNTID_FAILEDTOPASS&apos;</highlight><highlight class="normal">))&gt;=13)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>addmeta_googleanalytics(_XOR_MI_CLIENT_GOOGLE_ANALYTICS_ACCOUNTID_FAILEDTOPASS,<sp/>$_SERVER[</highlight><highlight class="stringliteral">&apos;HTTP_HOST&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_pagetitle&apos;</highlight><highlight class="normal">,<sp/>_XOR_PAGETITLE);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">,<sp/>_XOR_DESCRIPTION);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;version&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xortifyModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;version&apos;</highlight><highlight class="normal">)/100);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;platform&apos;</highlight><highlight class="normal">,<sp/>XOOPS_VERSION);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>$log_handler<sp/>=<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;log&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>$log<sp/>=<sp/>$log_handler-&gt;get($lid);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(is_object($log))<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setcookie(</highlight><highlight class="stringliteral">&apos;xortify&apos;</highlight><highlight class="normal">,<sp/>array(</highlight><highlight class="stringliteral">&apos;lid&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$lid),<sp/>time()+3600*24*7*4*3);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">,<sp/>$log-&gt;getVar(</highlight><highlight class="stringliteral">&apos;extra&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;provider&apos;</highlight><highlight class="normal">,<sp/>$log-&gt;getVar(</highlight><highlight class="stringliteral">&apos;provider&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;agent&apos;</highlight><highlight class="normal">,<sp/>$log-&gt;getVar(</highlight><highlight class="stringliteral">&apos;agent&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_lblocks&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_rblocks&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_ccblocks&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_clblocks&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_crblocks&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_showlblock&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_showrblock&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsTpl&apos;</highlight><highlight class="normal">]-&gt;assign(</highlight><highlight class="stringliteral">&apos;xoops_showcblock&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>include_once<sp/>XOOPS_ROOT_PATH.</highlight><highlight class="stringliteral">&apos;/footer.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/banned.php"/>
+  </compounddef>
+</doxygen>

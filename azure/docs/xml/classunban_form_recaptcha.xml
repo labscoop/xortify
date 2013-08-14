@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classunban_form_recaptcha" kind="class" prot="public">
+    <compoundname>unbanFormRecaptcha</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsFormElement</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classunban_form_recaptcha_1a599c02a4727030b8ecc632f7c8adafeb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_value</definition>
+        <argsstring></argsstring>
+        <name>$_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classunban_form_recaptcha_1a6c93c661a20e78774949e65324da6ce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>unbanFormRecaptcha</definition>
+        <argsstring>($caption= &apos;&apos;, $public_key= &apos;&apos;)</argsstring>
+        <name>unbanFormRecaptcha</name>
+        <param>
+          <declname>$caption</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$public_key</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$caption</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caption </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Text </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" line="56" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_recaptcha_1ab3c79e314dfd09da4de90fb2ce5eaa9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getValue</definition>
+        <argsstring>($encode=false)</argsstring>
+        <name>getValue</name>
+        <param>
+          <declname>$encode</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the &quot;value&quot; attribute</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$encode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>To sanitizer the text? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" line="69" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classunban_form_recaptcha_1afde88292c44dc59faf017738dae6dffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepare HTML for output</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" line="79" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="567">
+        <label>unbanFormRecaptcha</label>
+        <link refid="classunban_form_recaptcha"/>
+        <childnode refid="568" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="568">
+        <label>XoopsFormElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="569">
+        <label>unbanFormRecaptcha</label>
+        <link refid="classunban_form_recaptcha"/>
+        <childnode refid="570" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="570">
+        <label>XoopsFormElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/class/formrecaptcha.php" bodystart="40" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classunban_form_recaptcha_1a599c02a4727030b8ecc632f7c8adafeb" prot="public" virt="non-virtual"><scope>unbanFormRecaptcha</scope><name>$_value</name></member>
+      <member refid="classunban_form_recaptcha_1ab3c79e314dfd09da4de90fb2ce5eaa9d" prot="public" virt="non-virtual"><scope>unbanFormRecaptcha</scope><name>getValue</name></member>
+      <member refid="classunban_form_recaptcha_1afde88292c44dc59faf017738dae6dffb" prot="public" virt="non-virtual"><scope>unbanFormRecaptcha</scope><name>render</name></member>
+      <member refid="classunban_form_recaptcha_1a6c93c661a20e78774949e65324da6ce3" prot="public" virt="non-virtual"><scope>unbanFormRecaptcha</scope><name>unbanFormRecaptcha</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,180 @@
+\hypertarget{class_xortify_auth_wgetxml}{\section{Xortify\-Auth\-Wgetxml Class Reference}
+\label{class_xortify_auth_wgetxml}\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}}
+}
+
+
+Inheritance diagram for Xortify\-Auth\-Wgetxml\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{class_xortify_auth_wgetxml__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Xortify\-Auth\-Wgetxml\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{class_xortify_auth_wgetxml__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_xortify_auth_wgetxml_a877a7c66977f20634965c4ebe6657cfb}{Xortify\-Auth\-Wgetxml} (\&\$dao)
+\item 
+\hyperlink{class_xortify_auth_wgetxml_a00678ba307326b734e6c679f28bea315}{authenticate} (\$uname, \$pwd=null)
+\item 
+\hyperlink{class_xortify_auth_wgetxml_a91121a1b702dfd20fb65a027c8ed26ec}{validate} (\$uname, \$email, \$pass, \$vpass)
+\item 
+\hyperlink{class_xortify_auth_wgetxml_ae463a3baa44e95fa5b5151ab2334df1c}{reduce\-\_\-string} (\$str)
+\item 
+\hyperlink{class_xortify_auth_wgetxml_a1874c27b6f81a3f2ff9015405ad0f8bc}{network\-\_\-disclaimer} ()
+\item 
+\hyperlink{class_xortify_auth_wgetxml_ac72efc5ad313a592cf6706876f56f7ec}{create\-\_\-user} (\$user\-\_\-viewemail, \$uname, \$email, \$url, \$actkey, \$pass, \$timezone\-\_\-offset, \$user\-\_\-mailok, \$siteinfo)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_xortify_auth_wgetxml_a725df0dd6b578e15522ed15945e5901c}{\$xml\-\_\-xoops\-\_\-username} = ''
+\item 
+\hyperlink{class_xortify_auth_wgetxml_a8ec2889165c837354fded1cedbd42157}{\$xml\-\_\-xoops\-\_\-password} = ''
+\item 
+\hyperlink{class_xortify_auth_wgetxml_a12a029c610f699b4b25e79a1f64a3485}{\$\-\_\-dao}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_xortify_auth_wgetxml_a00678ba307326b734e6c679f28bea315}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{authenticate}]{\setlength{\rightskip}{0pt plus 5cm}authenticate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$pwd = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_wgetxml_a00678ba307326b734e6c679f28bea315}
+Authenticate user again json directory (Bind)
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & Username \\
+\hline
+string & {\em \$pwd} & Password\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_wgetxml_ac72efc5ad313a592cf6706876f56f7ec}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!create\-\_\-user@{create\-\_\-user}}
+\index{create\-\_\-user@{create\-\_\-user}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{create\-\_\-user}]{\setlength{\rightskip}{0pt plus 5cm}create\-\_\-user (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\-\_\-viewemail, }
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$url, }
+\item[{}]{\$actkey, }
+\item[{}]{\$pass, }
+\item[{}]{\$timezone\-\_\-offset, }
+\item[{}]{\$user\-\_\-mailok, }
+\item[{}]{\$siteinfo}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_wgetxml_ac72efc5ad313a592cf6706876f56f7ec}
+create a user
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$user\-\_\-viewemail} & \\
+\hline
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$url} & \\
+\hline
+string & {\em \$actkey} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+integer & {\em \$timezone\-\_\-offset} & \\
+\hline
+bool & {\em \$user\-\_\-mailok} & \\
+\hline
+array & {\em \$siteinfo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_wgetxml_a1874c27b6f81a3f2ff9015405ad0f8bc}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!network\-\_\-disclaimer@{network\-\_\-disclaimer}}
+\index{network\-\_\-disclaimer@{network\-\_\-disclaimer}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{network\-\_\-disclaimer}]{\setlength{\rightskip}{0pt plus 5cm}network\-\_\-disclaimer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_wgetxml_a1874c27b6f81a3f2ff9015405ad0f8bc}
+get the xoops site disclaimer via json
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_wgetxml_ae463a3baa44e95fa5b5151ab2334df1c}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!reduce\-\_\-string@{reduce\-\_\-string}}
+\index{reduce\-\_\-string@{reduce\-\_\-string}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{reduce\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}reduce\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{}]{\$str}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_wgetxml_ae463a3baa44e95fa5b5151ab2334df1c}
+\hypertarget{class_xortify_auth_wgetxml_a91121a1b702dfd20fb65a027c8ed26ec}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!validate@{validate}}
+\index{validate@{validate}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{validate}]{\setlength{\rightskip}{0pt plus 5cm}validate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$pass, }
+\item[{}]{\$vpass}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_wgetxml_a91121a1b702dfd20fb65a027c8ed26ec}
+validate a user via json
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+string & {\em \$vpass} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_wgetxml_a877a7c66977f20634965c4ebe6657cfb}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}}
+\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{Xortify\-Auth\-Wgetxml}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Xortify\-Auth\-Wgetxml} (
+\begin{DoxyParamCaption}
+\item[{\&}]{\$dao}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_wgetxml_a877a7c66977f20634965c4ebe6657cfb}
+Authentication Service constructor 
+
+\subsection{Field Documentation}
+\hypertarget{class_xortify_auth_wgetxml_a12a029c610f699b4b25e79a1f64a3485}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!\$\-\_\-dao@{\$\-\_\-dao}}
+\index{\$\-\_\-dao@{\$\-\_\-dao}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{\$\-\_\-dao}]{\setlength{\rightskip}{0pt plus 5cm}\$\-\_\-dao}}\label{class_xortify_auth_wgetxml_a12a029c610f699b4b25e79a1f64a3485}
+\hypertarget{class_xortify_auth_wgetxml_a8ec2889165c837354fded1cedbd42157}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!\$xml\-\_\-xoops\-\_\-password@{\$xml\-\_\-xoops\-\_\-password}}
+\index{\$xml\-\_\-xoops\-\_\-password@{\$xml\-\_\-xoops\-\_\-password}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{\$xml\-\_\-xoops\-\_\-password}]{\setlength{\rightskip}{0pt plus 5cm}\$xml\-\_\-xoops\-\_\-password = ''}}\label{class_xortify_auth_wgetxml_a8ec2889165c837354fded1cedbd42157}
+\hypertarget{class_xortify_auth_wgetxml_a725df0dd6b578e15522ed15945e5901c}{\index{Xortify\-Auth\-Wgetxml@{Xortify\-Auth\-Wgetxml}!\$xml\-\_\-xoops\-\_\-username@{\$xml\-\_\-xoops\-\_\-username}}
+\index{\$xml\-\_\-xoops\-\_\-username@{\$xml\-\_\-xoops\-\_\-username}!XortifyAuthWgetxml@{Xortify\-Auth\-Wgetxml}}
+\subsubsection[{\$xml\-\_\-xoops\-\_\-username}]{\setlength{\rightskip}{0pt plus 5cm}\$xml\-\_\-xoops\-\_\-username = ''}}\label{class_xortify_auth_wgetxml_a725df0dd6b578e15522ed15945e5901c}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.\-6/4.\-11/htdocs/modules/xortify/class/auth/\hyperlink{auth__wgetxml_8php}{auth\-\_\-wgetxml.\-php}\end{DoxyCompactItemize}

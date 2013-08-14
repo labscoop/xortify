@@ -1,0 +1,154 @@
+\hypertarget{class_xortify_auth_curlserialised}{\section{Xortify\-Auth\-Curlserialised Class Reference}
+\label{class_xortify_auth_curlserialised}\index{Xortify\-Auth\-Curlserialised@{Xortify\-Auth\-Curlserialised}}
+}
+Inheritance diagram for Xortify\-Auth\-Curlserialised\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_xortify_auth_curlserialised}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_xortify_auth_curlserialised_ad8dc9a71e59eb9ba69ba3868ffe63fd6}{Xortify\-Auth\-Curlserialised} (\&\$dao)
+\item 
+\hyperlink{class_xortify_auth_curlserialised_a7e556d3df4daa3ae5cf28cc88bba7af5}{authenticate} (\$uname, \$pwd=null)
+\item 
+\hyperlink{class_xortify_auth_curlserialised_a664044df8555e557efc94edd93f0b20c}{validate} (\$uname, \$email, \$pass, \$vpass)
+\item 
+\hyperlink{class_xortify_auth_curlserialised_abcf97aad748d91e7861aed098b65d874}{network\-\_\-disclaimer} ()
+\item 
+\hyperlink{class_xortify_auth_curlserialised_a8cdfc464b86345af05c21d2f85565486}{create\-\_\-user} (\$user\-\_\-viewemail, \$uname, \$email, \$url, \$actkey, \$pass, \$timezone\-\_\-offset, \$user\-\_\-mailok, \$siteinfo)
+\item 
+\hypertarget{class_xortify_auth_curlserialised_a658f076c16d1497c5818a0711e57711b}{{\bfseries obj2array} (\$objects)}\label{class_xortify_auth_curlserialised_a658f076c16d1497c5818a0711e57711b}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_xortify_auth_curlserialised_a03b4a3a9842a30b6a2095833dde9734d}{{\bfseries \$curl\-\_\-client}}\label{class_xortify_auth_curlserialised_a03b4a3a9842a30b6a2095833dde9734d}
+
+\item 
+\hypertarget{class_xortify_auth_curlserialised_a44285946a71a2897f3081c7467825221}{{\bfseries \$curl\-\_\-xoops\-\_\-username} = ''}\label{class_xortify_auth_curlserialised_a44285946a71a2897f3081c7467825221}
+
+\item 
+\hypertarget{class_xortify_auth_curlserialised_a1e9cf265cf1fcc016e03355300a487c8}{{\bfseries \$curl\-\_\-xoops\-\_\-password} = ''}\label{class_xortify_auth_curlserialised_a1e9cf265cf1fcc016e03355300a487c8}
+
+\item 
+\hypertarget{class_xortify_auth_curlserialised_a1b56ce468d8f358513cecac882edb5de}{{\bfseries \$\-\_\-dao}}\label{class_xortify_auth_curlserialised_a1b56ce468d8f358513cecac882edb5de}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_xortify_auth_curlserialised_a7e556d3df4daa3ae5cf28cc88bba7af5}{\index{Xortify\-Auth\-Curlserialised@{Xortify\-Auth\-Curlserialised}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!XortifyAuthCurlserialised@{Xortify\-Auth\-Curlserialised}}
+\subsubsection[{authenticate}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Curlserialised\-::authenticate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$pwd = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_curlserialised_a7e556d3df4daa3ae5cf28cc88bba7af5}
+Authenticate user again curl directory (Bind)
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & Username \\
+\hline
+string & {\em \$pwd} & Password\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_curlserialised_a8cdfc464b86345af05c21d2f85565486}{\index{Xortify\-Auth\-Curlserialised@{Xortify\-Auth\-Curlserialised}!create\-\_\-user@{create\-\_\-user}}
+\index{create\-\_\-user@{create\-\_\-user}!XortifyAuthCurlserialised@{Xortify\-Auth\-Curlserialised}}
+\subsubsection[{create\-\_\-user}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Curlserialised\-::create\-\_\-user (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\-\_\-viewemail, }
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$url, }
+\item[{}]{\$actkey, }
+\item[{}]{\$pass, }
+\item[{}]{\$timezone\-\_\-offset, }
+\item[{}]{\$user\-\_\-mailok, }
+\item[{}]{\$siteinfo}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_curlserialised_a8cdfc464b86345af05c21d2f85565486}
+create a user
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$user\-\_\-viewemail} & \\
+\hline
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$url} & \\
+\hline
+string & {\em \$actkey} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+integer & {\em \$timezone\-\_\-offset} & \\
+\hline
+bool & {\em \$user\-\_\-mailok} & \\
+\hline
+array & {\em \$siteinfo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_curlserialised_abcf97aad748d91e7861aed098b65d874}{\index{Xortify\-Auth\-Curlserialised@{Xortify\-Auth\-Curlserialised}!network\-\_\-disclaimer@{network\-\_\-disclaimer}}
+\index{network\-\_\-disclaimer@{network\-\_\-disclaimer}!XortifyAuthCurlserialised@{Xortify\-Auth\-Curlserialised}}
+\subsubsection[{network\-\_\-disclaimer}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Curlserialised\-::network\-\_\-disclaimer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_curlserialised_abcf97aad748d91e7861aed098b65d874}
+get the xoops site disclaimer via curl
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_curlserialised_a664044df8555e557efc94edd93f0b20c}{\index{Xortify\-Auth\-Curlserialised@{Xortify\-Auth\-Curlserialised}!validate@{validate}}
+\index{validate@{validate}!XortifyAuthCurlserialised@{Xortify\-Auth\-Curlserialised}}
+\subsubsection[{validate}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Curlserialised\-::validate (
+\begin{DoxyParamCaption}
+\item[{}]{\$uname, }
+\item[{}]{\$email, }
+\item[{}]{\$pass, }
+\item[{}]{\$vpass}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_curlserialised_a664044df8555e557efc94edd93f0b20c}
+validate a user via curl
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uname} & \\
+\hline
+string & {\em \$email} & \\
+\hline
+string & {\em \$pass} & \\
+\hline
+string & {\em \$vpass} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_xortify_auth_curlserialised_ad8dc9a71e59eb9ba69ba3868ffe63fd6}{\index{Xortify\-Auth\-Curlserialised@{Xortify\-Auth\-Curlserialised}!Xortify\-Auth\-Curlserialised@{Xortify\-Auth\-Curlserialised}}
+\index{Xortify\-Auth\-Curlserialised@{Xortify\-Auth\-Curlserialised}!XortifyAuthCurlserialised@{Xortify\-Auth\-Curlserialised}}
+\subsubsection[{Xortify\-Auth\-Curlserialised}]{\setlength{\rightskip}{0pt plus 5cm}Xortify\-Auth\-Curlserialised\-::\-Xortify\-Auth\-Curlserialised (
+\begin{DoxyParamCaption}
+\item[{\&}]{\$dao}
+\end{DoxyParamCaption}
+)}}\label{class_xortify_auth_curlserialised_ad8dc9a71e59eb9ba69ba3868ffe63fd6}
+Authentication Service constructor 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-Packages/\-X\-O\-O\-P\-S 2.\-5/xoops2.\-5\-\_\-xortify\-\_\-4.\-11/htdocs/modules/xortify/class/auth/auth\-\_\-curlserialised.\-php\end{DoxyCompactItemize}

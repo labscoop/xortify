@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classsoap__fault" kind="class" prot="public">
+    <compoundname>soap_fault</compoundname>
+    <basecompoundref refid="classnusoap__base" prot="public" virt="non-virtual">nusoap_base</basecompoundref>
+    <basecompoundref refid="classnusoap__base" prot="public" virt="non-virtual">nusoap_base</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsoap__fault_1a07e7ee58f39f98cdd8b2bd2b40ff72d7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$faultcode</definition>
+        <argsstring></argsstring>
+        <name>$faultcode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__fault_1a671472ecd6911705ac4c919bba6d1eec" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$faultactor</definition>
+        <argsstring></argsstring>
+        <name>$faultactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__fault_1acc1a7d86f9bd39e5717add56fbcdfaaa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$faultstring</definition>
+        <argsstring></argsstring>
+        <name>$faultstring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsoap__fault_1a7683364ae0ad0e22863a0f20f0626453" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$faultdetail</definition>
+        <argsstring></argsstring>
+        <name>$faultdetail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsoap__fault_1a5ff5d34258399b8240be578db7def943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>soap_fault</definition>
+        <argsstring>($faultcode, $faultactor=&apos;&apos;, $faultstring=&apos;&apos;, $faultdetail=&apos;&apos;)</argsstring>
+        <name>soap_fault</name>
+        <param>
+          <declname>$faultcode</declname>
+        </param>
+        <param>
+          <declname>$faultactor</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$faultstring</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$faultdetail</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$faultcode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(client | server) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$faultactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>only used when msg routed between multiple actors </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$faultstring</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>human readable error message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$faultdetail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>detail, typically a string or array of string </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__fault_1a4d9813fea8525b19a1d370eeb8fe41d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serialize</definition>
+        <argsstring>()</argsstring>
+        <name>serialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serialize a fault</para><para><simplesect kind="return"><para>string The serialization of the fault instance.  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" bodystart="62" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__fault_1a5ff5d34258399b8240be578db7def943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>soap_fault</definition>
+        <argsstring>($faultcode, $faultactor=&apos;&apos;, $faultstring=&apos;&apos;, $faultdetail=&apos;&apos;)</argsstring>
+        <name>soap_fault</name>
+        <param>
+          <declname>$faultcode</declname>
+        </param>
+        <param>
+          <declname>$faultactor</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$faultstring</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <param>
+          <declname>$faultdetail</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$faultcode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(client | server) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$faultactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>only used when msg routed between multiple actors </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$faultstring</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>human readable error message </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$faultdetail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>detail, typically a string or array of string </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="950" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="950" bodyend="956"/>
+      </memberdef>
+      <memberdef kind="function" id="classsoap__fault_1a4d9813fea8525b19a1d370eeb8fe41d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>serialize</definition>
+        <argsstring>()</argsstring>
+        <name>serialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>serialize a fault</para><para><simplesect kind="return"><para>string The serialization of the fault instance.  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" line="964" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/nusoap.php" bodystart="964" bodyend="982"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains information for a SOAP fault. Mainly used for returning faults from deployed functions in a server instance. <simplesect kind="author"><para>Dietrich Ayala <ulink url="mailto:dietrich@ganx4.com">dietrich@ganx4.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="class_8soap__fault_8php_source" kindref="compound">class.soap_fault.php</ref>,v 1.12 2005/07/27 19:24:42 snichol Exp </para></simplesect>
+public</para><para>Contains information for a SOAP fault. Mainly used for returning faults from deployed functions in a server instance. <simplesect kind="author"><para>Dietrich Ayala <ulink url="mailto:dietrich@ganx4.com">dietrich@ganx4.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="nusoap_8php_source" kindref="compound">nusoap.php</ref>,v 1.94 2005/08/04 01:27:42 snichol Exp </para></simplesect>
+public </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="487">
+        <label>soap_fault</label>
+        <link refid="classsoap__fault"/>
+        <childnode refid="488" relation="public-inheritance">
+        </childnode>
+        <childnode refid="488" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="488">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="489">
+        <label>soap_fault</label>
+        <link refid="classsoap__fault"/>
+        <childnode refid="490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="490" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="490">
+        <label>nusoap_base</label>
+        <link refid="classnusoap__base"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" line="14" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap/class.soap_fault.php" bodystart="14" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classnusoap__base_1a6a4d8a570a9e0a89ef63b192fa3942f2" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$charencoding</name></member>
+      <member refid="classnusoap__base_1ad04cbe402f400eb4b0b40f2c03985452" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$debug_str</name></member>
+      <member refid="classnusoap__base_1a8907cc6f1fc6ed47ef25190cb8310f41" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$debugLevel</name></member>
+      <member refid="classnusoap__base_1ab9c9e44dc77820490ded7d8bf085cd7e" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$error_str</name></member>
+      <member refid="classsoap__fault_1a671472ecd6911705ac4c919bba6d1eec" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$faultactor</name></member>
+      <member refid="classsoap__fault_1a07e7ee58f39f98cdd8b2bd2b40ff72d7" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$faultcode</name></member>
+      <member refid="classsoap__fault_1a7683364ae0ad0e22863a0f20f0626453" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$faultdetail</name></member>
+      <member refid="classsoap__fault_1acc1a7d86f9bd39e5717add56fbcdfaaa" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$faultstring</name></member>
+      <member refid="classnusoap__base_1a5a7d9500de9f7c938443d65cef9a074e" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$namespaces</name></member>
+      <member refid="classnusoap__base_1a4ff96b89e7ea5fa55acb086ecb6d0c03" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$revision</name></member>
+      <member refid="classnusoap__base_1a54cf9ddad3b51e54af1bfad78efad09a" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$soap_defencoding</name></member>
+      <member refid="classnusoap__base_1ada57e7bb7c152edad18fe2f166188691" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$title</name></member>
+      <member refid="classnusoap__base_1abc776370d77b6fe463a62fa2faf26c2e" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$typemap</name></member>
+      <member refid="classnusoap__base_1a2bd7e321e4132fe338d8502a5594aebc" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$usedNamespaces</name></member>
+      <member refid="classnusoap__base_1a17c8948c68aa44fa9961ae169b6a8961" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$version</name></member>
+      <member refid="classnusoap__base_1a912a5d3348012e245bb16e2cab11d4cc" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$xmlEntities</name></member>
+      <member refid="classnusoap__base_1a170fda624f458ce4f4b29e496ebfce4c" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>$XMLSchemaVersion</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>appendDebug</name></member>
+      <member refid="classnusoap__base_1a659455287a25d64cd0bcb0c04ec9d62d" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>appendDebug</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a5b44893b1d018eee5868a29ef790b97a" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>clearDebug</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1a80d8fbb13c77aa2c9f55412d3ec42b35" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>contractQname</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>debug</name></member>
+      <member refid="classnusoap__base_1ac652bd9010bd39b0f2854f7ded3f6f33" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>debug</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1ad9e06c7fc6850aa47459bab8f5593520" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>expandEntities</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a4ae2088629a518bce1dcd587493ba1c5" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>expandQname</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>formatDump</name></member>
+      <member refid="classnusoap__base_1a25b092fe846b5b64eb91f3e69c0135d7" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>formatDump</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a4b229e854137bd6ffae366eac8374623" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getDebug</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a756e9d545f662fdd678613ffdbb8b979" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getDebugAsXMLComment</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a122db96cedfc221cf187ce4328f992f7" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getDebugLevel</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1a24ada5decce3d1b79cd82f5a90ccf404" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getError</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1ace64a2a947aa8b2e41b59676eb3b2c04" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1ad8a635f36c991a56a1f922bbb4f4b926" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getLocalPart</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1acdd881f58961544f44bfe96ad57f1299" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getmicrotime</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classnusoap__base_1ac1674cfdd84b7c057f567b5a412765ca" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getNamespaceFromPrefix</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1a4065364adef252b0f97ae746c4ad04bf" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getPrefix</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classnusoap__base_1ac61943e23235475161427270581a0b32" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>getPrefixFromNamespace</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a3f7c5ca19c4afead9923f60efc66b9de" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>isArraySimpleOrStruct</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>nusoap_base</name></member>
+      <member refid="classnusoap__base_1a07443354955c9c613494da2c352f8c6e" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>nusoap_base</name></member>
+      <member refid="classsoap__fault_1a4d9813fea8525b19a1d370eeb8fe41d6" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>serialize</name></member>
+      <member refid="classsoap__fault_1a4d9813fea8525b19a1d370eeb8fe41d6" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>serialize</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a22f911ea3c09627dd423ded892862033" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>serialize_val</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>serializeEnvelope</name></member>
+      <member refid="classnusoap__base_1a8b06d8e53a3ca64b0d28d76dbdbd1cb3" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>serializeEnvelope</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>setDebugLevel</name></member>
+      <member refid="classnusoap__base_1a5254eafb0d4b255e290f98b186a7036d" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>setDebugLevel</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a89a9fdd49ee8436ae44af84f18177bcf" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>setError</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classnusoap__base_1a11ccf93dc5a46058da219a8dc2a826f1" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>setGlobalDebugLevel</name></member>
+      <member refid="classsoap__fault_1a5ff5d34258399b8240be578db7def943" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>soap_fault</name></member>
+      <member refid="classsoap__fault_1a5ff5d34258399b8240be578db7def943" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>soap_fault</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>varDump</name></member>
+      <member refid="classnusoap__base_1a072b06434688ac7c909f822ddbb48535" prot="public" virt="non-virtual"><scope>soap_fault</scope><name>varDump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

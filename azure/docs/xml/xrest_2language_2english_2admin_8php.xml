@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="xrest_2language_2english_2admin_8php" kind="file">
+    <compoundname>admin.php</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a00bbf2acf96031c82e8df9695fb4fc68" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_MSG_SAVEFIELDS_DATABASE_UPDATED</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_MSG_SAVEFIELDS_DATABASE_UPDATED</name>
+        <initializer>&apos;Saving Fields is complete, database has been updated!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a93ef04789ee5458acb665535bd79ba4c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_MSG_SAVETABLES_DATABASE_UPDATED</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_MSG_SAVETABLES_DATABASE_UPDATED</name>
+        <initializer>&apos;Saving Tables is complete, database has been updated!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ac248959ca5bf83f3f3460fc18b10491d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_MSG_SAVEVIEWS_DATABASE_UPDATED</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_MSG_SAVEVIEWS_DATABASE_UPDATED</name>
+        <initializer>&apos;Saving Views is complete, database has been updated!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ae0f43be1c7a4fc48da326c5c73803103" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_MSG_SAVEPLUGINS_DATABASE_UPDATED</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_MSG_SAVEPLUGINS_DATABASE_UPDATED</name>
+        <initializer>&apos;Saving Plugins is complete, database has been updated - Don\&apos;t forget to set your permissions!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a4e0ac63974f9c549d3b577ac479670a0" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_MSG_NEEDTOSAVETABLES_FIRST</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_MSG_NEEDTOSAVETABLES_FIRST</name>
+        <initializer>&apos;Either the table ID you have selected doesn\&apos;t exist or you haven\&apos;t saved any tables in the database yet!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ab4173066db858354adfa4f161d00951e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_MAKE_DONATION</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_MAKE_DONATION</name>
+        <initializer>&apos;Make XRest Even Better - Make a donation now!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1adc680d5eae217303e7544b3d3e3ec30d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_SUMANDTOTAL</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_SUMANDTOTAL</name>
+        <initializer>&apos;Sums and Totals&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1acd93d80af5c57ad7e5ed0fc307720497" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_TOTAL_PLUGINS</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_TOTAL_PLUGINS</name>
+        <initializer>&apos;Total Plugins: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a6b3d03b5e7d97e8df368ada8728fc5db" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_TOTAL_ACTIVE_PLUGINS</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_TOTAL_ACTIVE_PLUGINS</name>
+        <initializer>&apos;Active Plugins: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ad50583c5fbf3359789bc60b3ae34cee5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_TOTAL_INACTIVE_PLUGINS</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_TOTAL_INACTIVE_PLUGINS</name>
+        <initializer>&apos;Inactive Plugins: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ad2048f5156b9f0f785397f7d12ea251a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_TOTAL_FAILED_PLUGINS</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_TOTAL_FAILED_PLUGINS</name>
+        <initializer>&apos;Failed Plugins: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ab2488e2f452234654f1e8f0dadf35a88" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_TOTAL_TABLES</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_TOTAL_TABLES</name>
+        <initializer>&apos;Total Tables: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ad6e99b5bb8348bd52f2f01622ef38a0d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_TOTAL_VIEWS</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_TOTAL_VIEWS</name>
+        <initializer>&apos;Total Views: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ae80cfabd3a7fc47b65d3975914ec5d77" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_TOTAL_FIELDS</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_TOTAL_FIELDS</name>
+        <initializer>&apos;Total Fields: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a78214c7a977a0b9d6a5bf4e27c3d41b4" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_AVERAGE_FIELDS</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_AVERAGE_FIELDS</name>
+        <initializer>&apos;Average Fields per Table: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1af5a62bd31ddc258f6d3caa22698d487e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LASTANDDATE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LASTANDDATE</name>
+        <initializer>&apos;Last Plugin Execution&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a9fdcaa66e83ebd54cb88a5240c9007a5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_PLUGINS_CALLED</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_PLUGINS_CALLED</name>
+        <initializer>&apos;Last plugin called: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1abc995aa5ad3fe13b17f11a67df94d6a6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_PLUGINS_CALLEDBY</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_PLUGINS_CALLEDBY</name>
+        <initializer>&apos;Last plugin called by: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1adb6a72ea910ba83e7b86a9360ad4fa41" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_PLUGINS_CALLEDWHEN</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_PLUGINS_CALLEDWHEN</name>
+        <initializer>&apos;Last plugin called when: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a53b5ad045ce0dbebcf118184e0b7f6fc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_PLUGINS_TOOKTOEXECUTE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_PLUGINS_TOOKTOEXECUTE</name>
+        <initializer>&apos;Last plugin took to execute: %s seconds.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1ad6376a5ca619d9c76d30cb6ae1d708f7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_PLUGINS_EXECUTED</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_PLUGINS_EXECUTED</name>
+        <initializer>&apos;Total Plugin Execution since cleanup: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a01cd7bbba50b81546473e6f4e4d2122d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_PLUGINS_EXECUTION</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_PLUGINS_EXECUTION</name>
+        <initializer>&apos;Total seconds of Executions since cleanup: %s&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1abcb01a31634ab2fe910e28b9b743e859" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_CLEANUPANDDATE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_CLEANUPANDDATE</name>
+        <initializer>&apos;Clean up details&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1a42c5e631a5954571babfbbcd0fdc330a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_CLEANUP_WHEN</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_CLEANUP_WHEN</name>
+        <initializer>&apos;Last Cleanup: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1aaaccd06bc68036d20bdec5d7394fda2f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_CLEANUP_FILES</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_CLEANUP_FILES</name>
+        <initializer>&apos;Number of Files Deleted: %s.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="48" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="xrest_2language_2english_2admin_8php_1adde99638dc3218508b0700908f7c1bc8" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _XREST_AM_XREST_LAST_CLEANUP_TOOKTOEXECUTE</definition>
+        <argsstring></argsstring>
+        <name>_XREST_AM_XREST_LAST_CLEANUP_TOOKTOEXECUTE</name>
+        <initializer>&apos;Cleanup Took to Execute: %s seconds.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">//<sp/>Version<sp/>1.52</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_MSG_SAVEFIELDS_DATABASE_UPDATED&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Saving<sp/>Fields<sp/>is<sp/>complete,<sp/>database<sp/>has<sp/>been<sp/>updated!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_MSG_SAVETABLES_DATABASE_UPDATED&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Saving<sp/>Tables<sp/>is<sp/>complete,<sp/>database<sp/>has<sp/>been<sp/>updated!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_MSG_SAVEVIEWS_DATABASE_UPDATED&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Saving<sp/>Views<sp/>is<sp/>complete,<sp/>database<sp/>has<sp/>been<sp/>updated!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_MSG_SAVEPLUGINS_DATABASE_UPDATED&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Saving<sp/>Plugins<sp/>is<sp/>complete,<sp/>database<sp/>has<sp/>been<sp/>updated<sp/>-<sp/>Don\&apos;t<sp/>forget<sp/>to<sp/>set<sp/>your<sp/>permissions!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_MSG_NEEDTOSAVETABLES_FIRST&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Either<sp/>the<sp/>table<sp/>ID<sp/>you<sp/>have<sp/>selected<sp/>doesn\&apos;t<sp/>exist<sp/>or<sp/>you<sp/>haven\&apos;t<sp/>saved<sp/>any<sp/>tables<sp/>in<sp/>the<sp/>database<sp/>yet!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//About<sp/>box</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_MAKE_DONATION&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Make<sp/>XRest<sp/>Even<sp/>Better<sp/>-<sp/>Make<sp/>a<sp/>donation<sp/>now!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Dashboard</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_SUMANDTOTAL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Sums<sp/>and<sp/>Totals&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_TOTAL_PLUGINS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Total<sp/>Plugins:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_TOTAL_ACTIVE_PLUGINS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Active<sp/>Plugins:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_TOTAL_INACTIVE_PLUGINS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Inactive<sp/>Plugins:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_TOTAL_FAILED_PLUGINS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Failed<sp/>Plugins:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_TOTAL_TABLES&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Total<sp/>Tables:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_TOTAL_VIEWS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Total<sp/>Views:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_TOTAL_FIELDS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Total<sp/>Fields:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_AVERAGE_FIELDS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Average<sp/>Fields<sp/>per<sp/>Table:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LASTANDDATE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Last<sp/>Plugin<sp/>Execution&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_PLUGINS_CALLED&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Last<sp/>plugin<sp/>called:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_PLUGINS_CALLEDBY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Last<sp/>plugin<sp/>called<sp/>by:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_PLUGINS_CALLEDWHEN&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Last<sp/>plugin<sp/>called<sp/>when:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_PLUGINS_TOOKTOEXECUTE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Last<sp/>plugin<sp/>took<sp/>to<sp/>execute:<sp/>%s<sp/>seconds.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_PLUGINS_EXECUTED&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Total<sp/>Plugin<sp/>Execution<sp/>since<sp/>cleanup:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_PLUGINS_EXECUTION&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Total<sp/>seconds<sp/>of<sp/>Executions<sp/>since<sp/>cleanup:<sp/>%s&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_CLEANUPANDDATE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Clean<sp/>up<sp/>details&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_CLEANUP_WHEN&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Last<sp/>Cleanup:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_CLEANUP_FILES&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Number<sp/>of<sp/>Files<sp/>Deleted:<sp/>%s.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">define(</highlight><highlight class="stringliteral">&apos;_XREST_AM_XREST_LAST_CLEANUP_TOOKTOEXECUTE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Cleanup<sp/>Took<sp/>to<sp/>Execute:<sp/>%s<sp/>seconds.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/language/english/admin.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_269aea34127a9b0919a4cf2ad7cd9204" kind="dir">
+    <compoundname>Q:/@websites@/coop/labs/dev2/providers</compoundname>
+    <innerdir refid="dir_cef987a9364793d9f9ff92e44ba1345c">Q:/@websites@/coop/labs/dev2/providers/projecthoneypot.org</innerdir>
+    <innerdir refid="dir_68de70197c4982389e9e5334c5470272">Q:/@websites@/coop/labs/dev2/providers/stopforumspam.com</innerdir>
+    <innerdir refid="dir_66685bd4852827c078f557af0932b7c2">Q:/@websites@/coop/labs/dev2/providers/xortify</innerdir>
+    <innerfile refid="providers_8php">providers.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Q:/@websites@/coop/labs/dev2/providers/"/>
+  </compounddef>
+</doxygen>

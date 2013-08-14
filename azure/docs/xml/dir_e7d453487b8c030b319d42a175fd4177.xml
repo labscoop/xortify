@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_e7d453487b8c030b319d42a175fd4177" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xortify/plugin</compoundname>
+    <innerfile refid="projecthoneypot_8org_8php">projecthoneypot.org.php</innerfile>
+    <innerfile refid="protector_8php">protector.php</innerfile>
+    <innerfile refid="modules_2xortify_2plugin_2spiders_8php">spiders.php</innerfile>
+    <innerfile refid="stopforumspam_8com_8php">stopforumspam.com.php</innerfile>
+    <innerfile refid="xortify_8php">xortify.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/plugin/"/>
+  </compounddef>
+</doxygen>

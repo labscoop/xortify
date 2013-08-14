@@ -1,0 +1,138 @@
+.TH "XortifyAuthSoap" 3 "Fri Jul 26 2013" "Version 4.11" "Xortify Client for XOOPS 2.6" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+XortifyAuthSoap \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBXortifyAuth\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBXortifyAuthSoap\fP (&$dao)"
+.br
+.ti -1c
+.RI "\fBauthenticate\fP ($uname, $pwd=null)"
+.br
+.ti -1c
+.RI "\fBvalidate\fP ($uname, $email, $pass, $vpass)"
+.br
+.ti -1c
+.RI "\fBnetwork_disclaimer\fP ()"
+.br
+.ti -1c
+.RI "\fBcreate_user\fP ($user_viewemail, $uname, $email, $url, $actkey, $pass, $timezone_offset, $user_mailok, $siteinfo)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$soap_client\fP"
+.br
+.ti -1c
+.RI "\fB$soap_xoops_username\fP = ''"
+.br
+.ti -1c
+.RI "\fB$soap_xoops_password\fP = ''"
+.br
+.ti -1c
+.RI "\fB$_dao\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "authenticate ($uname, $pwd = \fCnull\fP)"
+Authenticate user again SOAP directory (Bind)
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$uname\fP Username 
+.br
+\fI$pwd\fP Password
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.SS "create_user ($user_viewemail, $uname, $email, $url, $actkey, $pass, $timezone_offset, $user_mailok, $siteinfo)"
+create a user
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$user_viewemail\fP 
+.br
+\fI$uname\fP 
+.br
+\fI$email\fP 
+.br
+\fI$url\fP 
+.br
+\fI$actkey\fP 
+.br
+\fI$pass\fP 
+.br
+\fI$timezone_offset\fP 
+.br
+\fI$user_mailok\fP 
+.br
+\fI$siteinfo\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.SS "network_disclaimer ()"
+get the xoops site disclaimer via soap
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.SS "validate ($uname, $email, $pass, $vpass)"
+validate a user via soap
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$uname\fP 
+.br
+\fI$email\fP 
+.br
+\fI$pass\fP 
+.br
+\fI$vpass\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.SS "\fBXortifyAuthSoap\fP (&$dao)"
+Authentication Service constructor 
+.SH "Field Documentation"
+.PP 
+.SS "$_dao"
+
+.SS "$soap_client"
+
+.SS "$soap_xoops_password = ''"
+
+.SS "$soap_xoops_username = ''"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Client for XOOPS 2\&.6 from the source code\&.

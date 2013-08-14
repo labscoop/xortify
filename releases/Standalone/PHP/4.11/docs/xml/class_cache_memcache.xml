@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_cache_memcache" kind="class" prot="public">
+    <compoundname>CacheMemcache</compoundname>
+    <basecompoundref refid="class_cache_engine" prot="public" virt="non-virtual">CacheEngine</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_cache_memcache_1ae7b98d2059d138bf69a5b67c3426d01a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$memcache</definition>
+        <argsstring></argsstring>
+        <name>$memcache</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="55" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cache_memcache_1ac7c3353107070daa85f641882931b358" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$settings</definition>
+        <argsstring></argsstring>
+        <name>$settings</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="64" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cache_memcache_1add47463221d657541f10f2ca5ec218d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>init</definition>
+        <argsstring>($settings=array())</argsstring>
+        <name>init</name>
+        <param>
+          <declname>$settings</declname>
+          <defval>array()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize the <ref refid="class_cache" kindref="compound">Cache</ref> Engine</para><para>Called automatically by the cache frontend To reinitialize the settings call <ref refid="class_cache_1a227d1ab3c57640a1692c8d090eb4ef22" kindref="member">Cache::engine</ref>(&apos;EngineName&apos;, [optional] settings = array());</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$setting</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of setting for the engine </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True if the engine has been successfully initialized, false if not  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="75" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="75" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_memcache_1a0e72b4e1d3c5ff461155883cad18358d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>write</definition>
+        <argsstring>($key, &amp;$value, $duration)</argsstring>
+        <name>write</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$value</declname>
+        </param>
+        <param>
+          <declname>$duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write data for key into cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier for the data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data to be cached </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How long to cache the data, in seconds </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True if the data was succesfully cached, false on failure  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="118" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_memcache_1a4c50c958c469c08bba0c0ccb710ca8af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>read</definition>
+        <argsstring>($key)</argsstring>
+        <name>read</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read a key from the cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier for the data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed The cached data, or false if the data doesn&apos;t exist, has expired, or if there was an error fetching it  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="129" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_memcache_1aa74a2edd6f3cbb5c5353f7faa97b6d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>($key)</argsstring>
+        <name>delete</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete a key from the cache</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier for the data </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True if the value was succesfully deleted, false if it didn&apos;t exist or couldn&apos;t be removed  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="140" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_memcache_1aa821bec12eaa7e0f649397c9675ff505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete all keys from the cache</para><para><simplesect kind="return"><para>boolean True if the cache was succesfully cleared, false otherwise  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="150" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="150" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cache_memcache_1addde359a43219d7665c8d7677fbbab31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>connect</definition>
+        <argsstring>($host, $port=11211)</argsstring>
+        <name>connect</name>
+        <param>
+          <declname>$host</declname>
+        </param>
+        <param>
+          <declname>$port</declname>
+          <defval>11211</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Connects to a server in connection pool</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>host ip address or name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Server port </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean True if memcache server was connected  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="162" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="162" bodyend="171"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Memcache storage engine for cache</para><para>PHP versions 4 and 5</para><para>CakePHP(tm) : Rapid Development Framework <ulink url="http://www.cakephp.org/">http://www.cakephp.org/</ulink> Copyright 2005-2008, Cake Software Foundation, Inc. 1785 E. Sahara Avenue, Suite 490-204 Las Vegas, Nevada 89104</para><para>Licensed under The MIT License Redistributions of files must retain the above copyright notice.</para><para><simplesect kind="copyright"><para>Copyright 2005-2008, Cake Software Foundation, Inc. <ref refid="" kindref="compound">CakePHP(tm) Project  CakePHP(tm) v 1.2.0.4933        <ulink url="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</ulink> The MIT License Memcache storage engine for cache </ref></para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="177">
+        <label>CacheMemcache</label>
+        <link refid="class_cache_memcache"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>CacheEngine</label>
+        <link refid="class_cache_engine"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="179">
+        <label>CacheMemcache</label>
+        <link refid="class_cache_memcache"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>CacheEngine</label>
+        <link refid="class_cache_engine"/>
+      </node>
+    </collaborationgraph>
+    <location file="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" line="48" column="1" bodyfile="Q:/@websites@/coop/labs/dev2/class/cache/memcache.php" bodystart="47" bodyend="172"/>
+    <listofallmembers>
+      <member refid="class_cache_memcache_1ae7b98d2059d138bf69a5b67c3426d01a" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>$memcache</name></member>
+      <member refid="class_cache_memcache_1ac7c3353107070daa85f641882931b358" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>$settings</name></member>
+      <member refid="class_cache_memcache_1aa821bec12eaa7e0f649397c9675ff505" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>clear</name></member>
+      <member refid="class_cache_engine_1a25e4cc07f5ba4a55b97a26734f71eac6" prot="public" virt="non-virtual" ambiguityscope="CacheEngine::"><scope>CacheMemcache</scope><name>clear</name></member>
+      <member refid="class_cache_memcache_1addde359a43219d7665c8d7677fbbab31" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>connect</name></member>
+      <member refid="class_cache_memcache_1aa74a2edd6f3cbb5c5353f7faa97b6d70" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>delete</name></member>
+      <member refid="class_cache_engine_1a14ff7ef4b198ff14884dd8c564264ca3" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>gc</name></member>
+      <member refid="class_cache_memcache_1add47463221d657541f10f2ca5ec218d8" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>init</name></member>
+      <member refid="class_cache_memcache_1a4c50c958c469c08bba0c0ccb710ca8af" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>read</name></member>
+      <member refid="class_cache_engine_1ad7354383714c6ae99d6ee1bfb95ab49f" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>settings</name></member>
+      <member refid="class_cache_memcache_1a0e72b4e1d3c5ff461155883cad18358d" prot="public" virt="non-virtual"><scope>CacheMemcache</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

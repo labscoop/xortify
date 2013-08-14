@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2comment__new_8php" kind="file">
+    <compoundname>comment_new.php</compoundname>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ban_2comment__new_8php_1add373585903caea12a06f99865546f89" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$com_itemid</definition>
+        <argsstring></argsstring>
+        <name>$com_itemid</name>
+        <initializer>= isset($_GET[&apos;com_itemid&apos;]) ? intval($_GET[&apos;com_itemid&apos;]) : 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/comment_new.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/comment_new.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">include<sp/>dirname(dirname(dirname(__FILE__)))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;mainfile.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">include<sp/></highlight><highlight class="stringliteral">&apos;include/functions.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">$com_itemid<sp/>=<sp/>isset($_GET[</highlight><highlight class="stringliteral">&apos;com_itemid&apos;</highlight><highlight class="normal">])<sp/>?<sp/>intval($_GET[</highlight><highlight class="stringliteral">&apos;com_itemid&apos;</highlight><highlight class="normal">])<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($com_itemid<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>include<sp/>XOOPS_ROOT_PATH.</highlight><highlight class="stringliteral">&apos;/include/comment_new.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/comment_new.php"/>
+  </compounddef>
+</doxygen>

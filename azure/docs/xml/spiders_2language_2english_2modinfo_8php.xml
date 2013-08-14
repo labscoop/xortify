@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="spiders_2language_2english_2modinfo_8php" kind="file">
+    <compoundname>modinfo.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a8187aa30e77f92aa4bd3e5753e4acece" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_DIRNAME</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_DIRNAME</name>
+        <initializer>&apos;spiders&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1aed13c5e6d3dcaaa06102a39ce17b1bf9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_NAME</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_NAME</name>
+        <initializer>&apos;Robot Manager&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a4d50ec19b20670252eedf59682e9cb2c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_DESCRIPTION</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_DESCRIPTION</name>
+        <initializer>&apos;This module is for robot management cloud services!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a1e912eeb8df7aa64e76b2870ac7f4c05" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_LOGON</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_LOGON</name>
+        <initializer>&apos;Logon Session&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a2ca9acac40900144e0b43a4ea12f295d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_LOGONDESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_LOGONDESC</name>
+        <initializer>&apos;When a robots agent is detected log the bot in under its username.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a946ed9fbacd8925bdfb04d8210d8f1fd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_MM1</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_MM1</name>
+        <initializer>&apos;Robots&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1aea0121338a06ec28db9b78f144f06304" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_MM2</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_MM2</name>
+        <initializer>&apos;Last Here Report&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a68db1cb096c875c91da4a50703c77663" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_MM3</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_MM3</name>
+        <initializer>&apos;Save Robots Textfile&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a3e7fa47fe189c502b6727def7f3146db" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_ADMINMENU1</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_ADMINMENU1</name>
+        <initializer>&apos;Manage Robots&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1aaa272535a9b8564563a8d7a0f7ace45f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_ADMINMENU2</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_ADMINMENU2</name>
+        <initializer>&apos;Add Robot&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="44" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a01d650be56a8ef490bf665acfa3eeecc" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_ADMINMENU3</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_ADMINMENU3</name>
+        <initializer>&apos;List Robot Modifications&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="45" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a4c45a2a4d25715ac1196e9759bd0457e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_ADMINMENU4</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_ADMINMENU4</name>
+        <initializer>&apos;Import Robot Definitions&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="46" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a66392cb783da4e13f089ffabb5c54e22" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_ADMINMENU5</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_ADMINMENU5</name>
+        <initializer>&apos;Signup to Xortify.com&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1ae1cf859167d5654e4f9400b71e05e996" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_GROUP_TYPE</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_GROUP_TYPE</name>
+        <initializer>&apos;Spider&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a1b6e0e7fc1d61db0c83ca24a8c7cae39" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_GROUP_NAME</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_GROUP_NAME</name>
+        <initializer>&apos;Robots, Crawlers &amp; Spiders&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a5034060ad9b2a3f26a6a2c8af8647203" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDERS_GROUP_DESCRIPTION</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDERS_GROUP_DESCRIPTION</name>
+        <initializer>&apos;Robots, Crawlers &amp; Spiders that scan your website and have authority.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a12950aa3a81d04878226cf805d555794" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_RESERVEDPHRASES</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_RESERVEDPHRASES</name>
+        <initializer>&apos;Protected Keywords from Useragents&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="53" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a27f67c77e6453e03ea49089534590169" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_RESERVEDPHRASES_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_RESERVEDPHRASES_DESC</name>
+        <initializer>&apos;These phrases cannot be a component used in authentication with the site (Seperate with a &lt;strong&gt;|&lt;/strong&gt;)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a04c99adb9f3a6dc8e964ec0adf9e43f2" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_MATCHPERCENTILE</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_MATCHPERCENTILE</name>
+        <initializer>&apos;User Agent Match Percentile&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="56" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1ae2bddba380fbd527a039b2f9f4d537d7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_MATCHPERCENTILE_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_MATCHPERCENTILE_DESC</name>
+        <initializer>&apos;For increased security you and specify the percentile needed for match of a User agent of a spider.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="57" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a7b5df07ad13e01d74e49347e3c58af98" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_WEEKSSTATS</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_WEEKSSTATS</name>
+        <initializer>&apos;Number of Weeks Spider Stats are Stored&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a6cc600e14bf3c9665be35ee377ecff7c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_WEEKSSTATS_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_WEEKSSTATS_DESC</name>
+        <initializer>&apos;This is the total number of weeks statistics on any spider, crawler or robot you have are stored!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a700d7cc249a95f6ab5fa1ffabcd70a7c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_HTACCESS</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_HTACCESS</name>
+        <initializer>&apos;Enabled HTACCESS SEO&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="62" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a4d468d00a8a3a768e5136fed420ee242" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_HTACCESS_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_HTACCESS_DESC</name>
+        <initializer>&apos;This enables SEO&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="63" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a93240de69892d7f4da12b12ec405d609" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_BASEURL</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_BASEURL</name>
+        <initializer>&apos;Base URL for SEO&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="65" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a60a287ab90ca1ddf8e48d5cbbc224968" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_BASEURL_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_BASEURL_DESC</name>
+        <initializer>&apos;Base URL for SEO&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="66" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1adf61fec7d6f45832e83a93b6033b8b39" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_ENDOFURL</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_ENDOFURL</name>
+        <initializer>&apos;End of URL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="68" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1aab463bffa7df8303606641d7f210e35b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_ENDOFURL_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_ENDOFURL_DESC</name>
+        <initializer>&apos;File Extension to HTML Files&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="69" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a0ce202ae65e65295cbc9d242284de705" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_ENDOFURLRSS</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_ENDOFURLRSS</name>
+        <initializer>&apos;End of URL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="71" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a0d8d4d8da9c0f27c85060a3ab85d0912" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_ENDOFURLRSS_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_ENDOFURLRSS_DESC</name>
+        <initializer>&apos;File Extension to RSS Pages&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="72" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a103c8eb5628a410146ba06752cd87909" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_ENDOFURLPDF</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_ENDOFURLPDF</name>
+        <initializer>&apos;End of URL&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="74" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1ae861a01c28595475ee9e91b3d0cb51b3" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_ENDOFURLPDF_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_ENDOFURLPDF_DESC</name>
+        <initializer>&apos;File Extension to Adobe Acrobat (PDF) Files&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="75" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a39dff537bf0ef26e5892d686c4317b72" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_USERNAME</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_USERNAME</name>
+        <initializer>&apos;Xortify.com Username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="77" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1af0efdb17d4b4a4dbdd7be75b51acb692" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_USERNAME_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_USERNAME_DESC</name>
+        <initializer>&apos;You can get one of these by going to the menu &lt;a href=&quot;&apos;.XOOPS_URL.&apos;/modules/spiders/admin/index.php?op=signup&quot;&gt;Sign-up&lt;/a&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="78" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a1f7913c44260d5510dc0c276d5e5f729" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_PASSWORD</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_PASSWORD</name>
+        <initializer>&apos;Xortify.com Password&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="80" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a667fa7bd37db171176b7e67f73505771" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_PASSWORD_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_PASSWORD_DESC</name>
+        <initializer>&apos;You assign one of these by going to the menu &lt;a href=&quot;&apos;.XOOPS_URL.&apos;/modules/spiders/admin/index.php?op=signup&quot;&gt;Sign-up&lt;/a&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="81" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1ad0db4fd55ad93110f0db5894394cc59a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_SEOSHAREME</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_SEOSHAREME</name>
+        <initializer>&apos;Utilise Xortify.com SEO Sharing&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="83" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1adf526ae229e750113eb67e20fb07137a" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_SEOSHAREME_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_SEOSHAREME_DESC</name>
+        <initializer>&apos;You can share your URL Across the Xortify Networking using this option!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="84" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a77f4eb750d74d7a18602f673f02e8527" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_BOTGROUP</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_BOTGROUP</name>
+        <initializer>&apos;Group which bots belong to&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="86" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a830702ed0698414d19d8cbb0a358999b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_BOTGROUP_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_BOTGROUP_DESC</name>
+        <initializer>&apos;Group which bots belong to on the system for SEO Advantage!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="87" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a65fd0579cdbcff0e75a2e20fcd64da18" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_COMPAIRPERCENTILE</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_COMPAIRPERCENTILE</name>
+        <initializer>&apos;User Agent API Compair Percentile&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="89" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spiders_2language_2english_2modinfo_8php_1a2f837854bbee28a57e6fbee983a88f93" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _MI_SPIDER_COMPAIRPERCENTILE_DESC</definition>
+        <argsstring></argsstring>
+        <name>_MI_SPIDER_COMPAIRPERCENTILE_DESC</name>
+        <initializer>&apos;For increased security of your data this is the percentile of changes you need to lodge a changed robot text as a modification from the api.&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" line="90" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Author:<sp/>wishcraft<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XOOPS<sp/>-<sp/>PHP<sp/>Content<sp/>Management<sp/>System<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>2000<sp/>XOOPS.org<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;http://www.xoops.org/&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>You<sp/>may<sp/>not<sp/>change<sp/>or<sp/>alter<sp/>any<sp/>portion<sp/>of<sp/>this<sp/>comment<sp/>or<sp/>credits<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>of<sp/>supporting<sp/>developers<sp/>from<sp/>this<sp/>source<sp/>code<sp/>or<sp/>any<sp/>supporting<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>source<sp/>code<sp/>which<sp/>is<sp/>considered<sp/>copyrighted<sp/>(c)<sp/>material<sp/>of<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>original<sp/>comment<sp/>or<sp/>credit<sp/>authors.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Foundation,<sp/>Inc.,<sp/>59<sp/>Temple<sp/>Place,<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307<sp/>USA<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Author:<sp/>Simon<sp/>Roberts<sp/>(AKA<sp/>wishcraft)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>URL:<sp/>http://www.chronolabs.org.au<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Project:<sp/>The<sp/>XOOPS<sp/>Project<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-------------------------------------------------------------------------<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_DIRNAME&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;spiders&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_NAME&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;Robot<sp/>Manager&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_DESCRIPTION&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;This<sp/>module<sp/>is<sp/>for<sp/>robot<sp/>management<sp/>cloud<sp/>services!&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_LOGON&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Logon<sp/>Session&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_LOGONDESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;When<sp/>a<sp/>robots<sp/>agent<sp/>is<sp/>detected<sp/>log<sp/>the<sp/>bot<sp/>in<sp/>under<sp/>its<sp/>username.&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_MM1&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Robots&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_MM2&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Last<sp/>Here<sp/>Report&apos;</highlight><highlight class="normal">);<sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_MM3&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Save<sp/>Robots<sp/>Textfile&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_ADMINMENU1&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Manage<sp/>Robots&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_ADMINMENU2&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Add<sp/>Robot&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_ADMINMENU3&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;List<sp/>Robot<sp/>Modifications&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_ADMINMENU4&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Import<sp/>Robot<sp/>Definitions&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_ADMINMENU5&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Signup<sp/>to<sp/>Xortify.com&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_GROUP_TYPE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Spider&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_GROUP_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Robots,<sp/>Crawlers<sp/>&amp;<sp/>Spiders&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDERS_GROUP_DESCRIPTION&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Robots,<sp/>Crawlers<sp/>&amp;<sp/>Spiders<sp/>that<sp/>scan<sp/>your<sp/>website<sp/>and<sp/>have<sp/>authority.&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_RESERVEDPHRASES&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Protected<sp/>Keywords<sp/>from<sp/>Useragents&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_RESERVEDPHRASES_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;These<sp/>phrases<sp/>cannot<sp/>be<sp/>a<sp/>component<sp/>used<sp/>in<sp/>authentication<sp/>with<sp/>the<sp/>site<sp/>(Seperate<sp/>with<sp/>a<sp/>&lt;strong&gt;|&lt;/strong&gt;)&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_MATCHPERCENTILE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;User<sp/>Agent<sp/>Match<sp/>Percentile&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_MATCHPERCENTILE_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;For<sp/>increased<sp/>security<sp/>you<sp/>and<sp/>specify<sp/>the<sp/>percentile<sp/>needed<sp/>for<sp/>match<sp/>of<sp/>a<sp/>User<sp/>agent<sp/>of<sp/>a<sp/>spider.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_WEEKSSTATS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Number<sp/>of<sp/>Weeks<sp/>Spider<sp/>Stats<sp/>are<sp/>Stored&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_WEEKSSTATS_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;This<sp/>is<sp/>the<sp/>total<sp/>number<sp/>of<sp/>weeks<sp/>statistics<sp/>on<sp/>any<sp/>spider,<sp/>crawler<sp/>or<sp/>robot<sp/>you<sp/>have<sp/>are<sp/>stored!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_HTACCESS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Enabled<sp/>HTACCESS<sp/>SEO&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_HTACCESS_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;This<sp/>enables<sp/>SEO&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_BASEURL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Base<sp/>URL<sp/>for<sp/>SEO&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_BASEURL_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Base<sp/>URL<sp/>for<sp/>SEO&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_ENDOFURL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;End<sp/>of<sp/>URL&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_ENDOFURL_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;File<sp/>Extension<sp/>to<sp/>HTML<sp/>Files&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_ENDOFURLRSS&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;End<sp/>of<sp/>URL&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_ENDOFURLRSS_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;File<sp/>Extension<sp/>to<sp/>RSS<sp/>Pages&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_ENDOFURLPDF&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;End<sp/>of<sp/>URL&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_ENDOFURLPDF_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;File<sp/>Extension<sp/>to<sp/>Adobe<sp/>Acrobat<sp/>(PDF)<sp/>Files&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_USERNAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Xortify.com<sp/>Username&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_USERNAME_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>can<sp/>get<sp/>one<sp/>of<sp/>these<sp/>by<sp/>going<sp/>to<sp/>the<sp/>menu<sp/>&lt;a<sp/>href=&quot;&apos;</highlight><highlight class="normal">.XOOPS_URL.</highlight><highlight class="stringliteral">&apos;/modules/spiders/admin/index.php?op=signup&quot;&gt;Sign-up&lt;/a&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_PASSWORD&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Xortify.com<sp/>Password&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_PASSWORD_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>assign<sp/>one<sp/>of<sp/>these<sp/>by<sp/>going<sp/>to<sp/>the<sp/>menu<sp/>&lt;a<sp/>href=&quot;&apos;</highlight><highlight class="normal">.XOOPS_URL.</highlight><highlight class="stringliteral">&apos;/modules/spiders/admin/index.php?op=signup&quot;&gt;Sign-up&lt;/a&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_SEOSHAREME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Utilise<sp/>Xortify.com<sp/>SEO<sp/>Sharing&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_SEOSHAREME_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>can<sp/>share<sp/>your<sp/>URL<sp/>Across<sp/>the<sp/>Xortify<sp/>Networking<sp/>using<sp/>this<sp/>option!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_BOTGROUP&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Group<sp/>which<sp/>bots<sp/>belong<sp/>to&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_BOTGROUP_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Group<sp/>which<sp/>bots<sp/>belong<sp/>to<sp/>on<sp/>the<sp/>system<sp/>for<sp/>SEO<sp/>Advantage!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_COMPAIRPERCENTILE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;User<sp/>Agent<sp/>API<sp/>Compair<sp/>Percentile&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_MI_SPIDER_COMPAIRPERCENTILE_DESC&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;For<sp/>increased<sp/>security<sp/>of<sp/>your<sp/>data<sp/>this<sp/>is<sp/>the<sp/>percentile<sp/>of<sp/>changes<sp/>you<sp/>need<sp/>to<sp/>lodge<sp/>a<sp/>changed<sp/>robot<sp/>text<sp/>as<sp/>a<sp/>modification<sp/>from<sp/>the<sp/>api.&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/language/english/modinfo.php"/>
+  </compounddef>
+</doxygen>

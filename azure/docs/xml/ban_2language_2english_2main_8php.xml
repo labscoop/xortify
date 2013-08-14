@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2language_2english_2main_8php" kind="file">
+    <compoundname>main.php</compoundname>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a912c5f09be3f62740a3b4e00ef897e87" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_MEMBER_ID</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_MEMBER_ID</name>
+        <initializer>&apos;Ban ID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="19" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1ac5810f1c9caba84d41f7ba11ae43a3e5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_CATEGORY_ID</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_CATEGORY_ID</name>
+        <initializer>&apos;Category ID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="20" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a620e11ad443c7b10004552620c80a691" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_UID</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_UID</name>
+        <initializer>&apos;User ID&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a218c9e1f1b7d2c6693afb18125378b5e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_UNAME</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_UNAME</name>
+        <initializer>&apos;Username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="22" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1ad40fe338f47a27033d1de2b834c3599b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_EMAIL</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_EMAIL</name>
+        <initializer>&apos;Email&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="23" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1ac92e36a361b6bbcd1f1b2f5271eeef6c" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_IP4</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_IP4</name>
+        <initializer>&apos;IPv4&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="24" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a4a55c3cd351eae21e5397fe89265d81b" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_IP6</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_IP6</name>
+        <initializer>&apos;IPv6&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a18a0aed99479667ed969a369a083adb6" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_LONG</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_LONG</name>
+        <initializer>&apos;Network Pointer&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="26" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1aefbf2deea2179f4e814b236b8dbcfb3f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_PROXY_IP4</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_PROXY_IP4</name>
+        <initializer>&apos;Proxy IPv4&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="27" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a3459586c4189c6942dafba0c18aa6a8f" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_PROXY_IP6</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_PROXY_IP6</name>
+        <initializer>&apos;Proxy IPv6&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="28" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a3429fd42e20f70d4579e120e1dbc7279" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_NETWORK_ADDY</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_NETWORK_ADDY</name>
+        <initializer>&apos;Netbios Name&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="29" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a5269dd30995e1095f67af64065ea0e4e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_MAC_ADDY</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_MAC_ADDY</name>
+        <initializer>&apos;Mac Address&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a15fd04f1c224ca44b514efd8635e626d" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_COUNTRY_CODE</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_COUNTRY_CODE</name>
+        <initializer>&apos;Country Code&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="31" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1ac6f7c4ec5e877b81a0d404dec04a1122" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_COUNTRY_NAME</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_COUNTRY_NAME</name>
+        <initializer>&apos;Country&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="32" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a83b16851ae547e3c0a6a8884de7111a7" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_REGION_NAME</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_REGION_NAME</name>
+        <initializer>&apos;Region&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="33" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a4946cccbbe690eb38d6d8c81f1ba52f1" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_CITY_NAME</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_CITY_NAME</name>
+        <initializer>&apos;City&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="34" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a155c3a47c33f0032933beee0f202e9b5" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_POSTCODE</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_POSTCODE</name>
+        <initializer>&apos;Postcode&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="35" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a1be7ecbdd2b0249925560a29557d4e38" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_LATITUDE</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_LATITUDE</name>
+        <initializer>&apos;Latitude&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="36" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a466e2a265895352d5d6706be7c1f6696" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_LONGITUDE</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_LONGITUDE</name>
+        <initializer>&apos;Longitude&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1abe9edd2da8bfff7e573ff6a0d2bec186" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_TIMEZONE</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_TIMEZONE</name>
+        <initializer>&apos;Timezone&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="38" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1af1f869ce477682abfff64a0ba5391d5e" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_MADE</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_MADE</name>
+        <initializer>&apos;Ban Made&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1a7aab2e9b839dceae5d9736ec259152a9" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_CATEGORY</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_CATEGORY</name>
+        <initializer>&apos;Category of Ban&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2language_2english_2main_8php_1ae096dbaedb5de28bc37cf5ac51b7ed82" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const _BAN_MF_EMAIL_BANNOTICE</definition>
+        <argsstring></argsstring>
+        <name>_BAN_MF_EMAIL_BANNOTICE</name>
+        <initializer>&apos;One of your resources %s is being abused!&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_MEMBER_ID&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Ban<sp/>ID&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_CATEGORY_ID&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Category<sp/>ID&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_UID&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;User<sp/>ID&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_UNAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Username&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_EMAIL&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Email&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_IP4&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;IPv4&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_IP6&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;IPv6&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_LONG&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Network<sp/>Pointer&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_PROXY_IP4&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Proxy<sp/>IPv4&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_PROXY_IP6&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Proxy<sp/>IPv6&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_NETWORK_ADDY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Netbios<sp/>Name&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_MAC_ADDY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Mac<sp/>Address&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_COUNTRY_CODE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Country<sp/>Code&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_COUNTRY_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Country&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_REGION_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Region&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_CITY_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;City&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_POSTCODE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Postcode&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_LATITUDE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Latitude&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_LONGITUDE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Longitude&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_TIMEZONE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Timezone&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_MADE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Ban<sp/>Made&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_CATEGORY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Category<sp/>of<sp/>Ban&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Email<sp/>subjects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>define(</highlight><highlight class="stringliteral">&apos;_BAN_MF_EMAIL_BANNOTICE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;One<sp/>of<sp/>your<sp/>resources<sp/>%s<sp/>is<sp/>being<sp/>abused!&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/language/english/main.php"/>
+  </compounddef>
+</doxygen>

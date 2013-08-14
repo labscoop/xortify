@@ -1,0 +1,8 @@
+[15-Aug-2008 01:58:50] PHP Parse error:  syntax error, unexpected ')' in /home/htriukrw/public_html/qcp64/class/qcp64.enumerator.php on line 88
+[15-Aug-2008 01:59:50] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/htriukrw/public_html/qcp64/class/qcp64.enumerator.php on line 93
+[15-Aug-2008 02:00:47] PHP Fatal error:  Class 'qcp64' not found in /home/htriukrw/public_html/qcp64/class/qcp64.enumerator.php on line 30
+[15-Aug-2008 02:50:12] PHP Parse error:  syntax error, unexpected ';' in /home/htriukrw/public_html/qcp64/class/qcp64.enumerator.php on line 187
+[15-Aug-2008 03:04:12] PHP Parse error:  syntax error, unexpected ')' in /home/htriukrw/public_html/qcp64/class/qcp64.enumerator.php on line 187
+[15-Aug-2008 03:07:31] PHP Parse error:  syntax error, unexpected ';' in /home/htriukrw/public_html/qcp64/class/qcp64.enumerator.php on line 187
+[15-Aug-2008 03:10:13] PHP Fatal error:  Class 'qcp64' not found in /home/htriukrw/public_html/qcp64/class/qcp64.enumerator.php on line 30
+[15-Aug-2008 03:25:08] PHP Fatal error:  Class 'qcp64' not found in /home/htriukrw/public_html/qcp64/class/qcp64.leaver.php on line 32

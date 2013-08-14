@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_d8f1f3352018219a5f8bede0ce589b93" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xsoap/include</compoundname>
+    <innerdir refid="dir_9de7d06eabdac68592f1bdebc48e6eb0">E:/Packages/xortify server/htdocs/modules/xsoap/include/nusoap</innerdir>
+    <innerfile refid="xsoap_2include_2common_8php">common.php</innerfile>
+    <innerfile refid="xsoap_2include_2functions_8php">functions.php</innerfile>
+    <innerfile refid="modules_2xsoap_2include_2_j_s_o_n_8php">JSON.php</innerfile>
+    <innerfile refid="modules_2xsoap_2include_2server_8php">server.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xsoap/include/"/>
+  </compounddef>
+</doxygen>

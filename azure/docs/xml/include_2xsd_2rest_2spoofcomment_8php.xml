@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="include_2xsd_2rest_2spoofcomment_8php" kind="file">
+    <compoundname>spoofcomment.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="include_2xsd_2rest_2spoofcomment_8php_1ac513449b50e63eacbe66ddca69d82dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>spoofcomment_xsd</definition>
+        <argsstring>()</argsstring>
+        <name>spoofcomment_xsd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/spoofcomment.php" line="2" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/spoofcomment.php" bodystart="2" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="include_2xsd_2rest_2spoofcomment_8php_1a1fb2fcd63ae4c9e3de464ee03924ce9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>spoofcomment_wsdl</definition>
+        <argsstring>()</argsstring>
+        <name>spoofcomment_wsdl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/spoofcomment.php" line="21" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/spoofcomment.php" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="include_2xsd_2rest_2spoofcomment_8php_1a380ca7b47ac082f9b41ad3074684106c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>spoofcomment_wsdl_service</definition>
+        <argsstring>()</argsstring>
+        <name>spoofcomment_wsdl_service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/spoofcomment.php" line="25" column="1" bodyfile="E:/Packages/xortify server/htdocs/include/xsd/rest/spoofcomment.php" bodystart="25" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>spoofcomment_xsd(){</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;username&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;uri&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;ip&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;language&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;form&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;elements&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;action&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;method&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;css&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$xsd;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>spoofcomment_wsdl(){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>spoofcomment_wsdl_service(){</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/include/xsd/rest/spoofcomment.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="modules_2xrest_2plugins_2tweet_8php" kind="file">
+    <compoundname>tweet.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="modules_2xrest_2plugins_2tweet_8php_1a2af2d28f911aec5f26e72ecab8931ef6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tweet</definition>
+        <argsstring>($username, $password, $nick, $message)</argsstring>
+        <name>tweet</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <param>
+          <declname>$nick</declname>
+        </param>
+        <param>
+          <declname>$message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" line="6" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" bodystart="6" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="modules_2xrest_2plugins_2tweet_8php_1addb46a602e068e6d788a2bda83dac65b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tweet_xsd_rest</definition>
+        <argsstring>($parser)</argsstring>
+        <name>tweet_xsd_rest</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" line="103" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" bodystart="103" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="modules_2xrest_2plugins_2tweet_8php_1a3b138075e5b8c7c3bff9ae40311fec67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tweet_xsd_soap</definition>
+        <argsstring>($parser)</argsstring>
+        <name>tweet_xsd_soap</name>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" line="124" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" bodystart="124" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="modules_2xrest_2plugins_2tweet_8php_1a71a0f2ddb1687527b16e83bd8e2b9f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tweet_wsdl</definition>
+        <argsstring>()</argsstring>
+        <name>tweet_wsdl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" line="145" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="modules_2xrest_2plugins_2tweet_8php_1a1997a8893ca02f1a53865803c0bf4d3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tweet_wsdl_service</definition>
+        <argsstring>()</argsstring>
+        <name>tweet_wsdl_service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" line="154" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" bodystart="154" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="modules_2xrest_2plugins_2tweet_8php_1aeb27be30581e16485e8850a154931d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tweet_wsdl_documentation</definition>
+        <argsstring>($plugin, $parser)</argsstring>
+        <name>tweet_wsdl_documentation</name>
+        <param>
+          <declname>$plugin</declname>
+        </param>
+        <param>
+          <declname>$parser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" line="163" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php" bodystart="163" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>Plugin<sp/>function<sp/>(Must<sp/>have<sp/>same<sp/>case<sp/>and<sp/>filename<sp/>as<sp/>plugin)</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>tweet($username,<sp/>$password,<sp/>$nick,<sp/>$message)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strlen($message)&lt;10)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight><highlight class="stringliteral">&apos;CODE&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>300);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>global<sp/>$xoopsModuleConfig,<sp/>$xoopsConfig;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($xoopsModuleConfig[</highlight><highlight class="stringliteral">&apos;site_user_auth&apos;</highlight><highlight class="normal">]==1){</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($ret<sp/>=<sp/>check_for_lock(basename(__FILE__),$username,$password))<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!checkright(basename(__FILE__),$username,$password))<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mark_for_lock(basename(__FILE__),$username,$password);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight><highlight class="stringliteral">&apos;ErrNum&apos;</highlight><highlight class="normal">=&gt;<sp/>9,<sp/></highlight><highlight class="stringliteral">&quot;ErrDesc&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;No<sp/>Permission<sp/>for<sp/>plug-in&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;modules/twitterbomb/include/functions.php&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xoops_load(</highlight><highlight class="stringliteral">&apos;cache&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set_time_limit(480);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;myts&apos;</highlight><highlight class="normal">]<sp/>=<sp/>MyTextSanitizer::getInstance();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$module_handler<sp/>=<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;module&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$config_handler<sp/>=<sp/>xoops_gethandler(</highlight><highlight class="stringliteral">&apos;config&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModule&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$module_handler-&gt;getByDirname(</highlight><highlight class="stringliteral">&apos;twitterbomb&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModuleConfig&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$config_handler-&gt;getConfigList($GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;mid&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tweet<sp/>=<sp/></highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">.str_replace(array(</highlight><highlight class="charliteral">&apos;@&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;+&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;%&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>$nick).</highlight><highlight class="stringliteral">&apos;<sp/>-<sp/>&apos;</highlight><highlight class="normal">.twitterbomb_TweetString(htmlspecialchars_decode($message),<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;scheduler_aggregate&apos;</highlight><highlight class="normal">],<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;scheduler_wordlength&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log_handler=xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;log&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;twitterbomb&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$scheduler_handler=xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;scheduler&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;twitterbomb&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$oauth_handler=xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;oauth&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;twitterbomb&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$urls_handler=xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;urls&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;twitterbomb&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$oauth<sp/>=<sp/>$oauth_handler-&gt;getRootOauth(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>XoopsCache::read(</highlight><highlight class="stringliteral">&apos;tweetbomb_scheduler_&apos;</highlight><highlight class="normal">.md5(</highlight><highlight class="charliteral">&apos;2&apos;</highlight><highlight class="normal">.</highlight><highlight class="charliteral">&apos;2&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!is_array($ret))<sp/>$ret=array();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule<sp/>=<sp/>$scheduler_handler-&gt;create();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;cid&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;2&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;catid&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;2&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;mode&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;direct&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;pre&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;#sex&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">,<sp/>$tweet);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;uid&apos;</highlight><highlight class="normal">,<sp/>user_uid($username,<sp/>$password));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule<sp/>=<sp/>$scheduler_handler-&gt;get($scheduler_handler-&gt;insert($schedule));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$url<sp/>=<sp/>$urls_handler-&gt;getUrl($schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;cid&apos;</highlight><highlight class="normal">),<sp/>$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;catid&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$link<sp/>=<sp/>XOOPS_URL.</highlight><highlight class="stringliteral">&apos;/modules/twitterbomb/go.php?sid=&apos;</highlight><highlight class="normal">.$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;sid&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&amp;cid=&apos;</highlight><highlight class="normal">.$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;cid&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&amp;catid=&apos;</highlight><highlight class="normal">.$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;catid&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&amp;uri=&apos;</highlight><highlight class="normal">.urlencode(<sp/>sprintf($url,<sp/>urlencode(str_replace(array(</highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;@&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,$tweet))));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log<sp/>=<sp/>$log_handler-&gt;create();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;provider&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;scheduler&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;cid&apos;</highlight><highlight class="normal">,<sp/>$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;cid&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;catid&apos;</highlight><highlight class="normal">,<sp/>$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;catid&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;sid&apos;</highlight><highlight class="normal">,<sp/>$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;sid&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">,<sp/>$link);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;tweet&apos;</highlight><highlight class="normal">,<sp/>substr($tweet,0,139));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;tags&apos;</highlight><highlight class="normal">,<sp/>twitterbomb_ExtractTags($tweet));</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log<sp/>=<sp/>$log_handler-&gt;get($lid<sp/>=<sp/>$log_handler-&gt;insert($log,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$link<sp/>=<sp/>XOOPS_URL.</highlight><highlight class="stringliteral">&apos;/modules/twitterbomb/go.php?sid=&apos;</highlight><highlight class="normal">.$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;sid&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&amp;cid=&apos;</highlight><highlight class="normal">.$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;cid&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&amp;lid=&apos;</highlight><highlight class="normal">.$lid.</highlight><highlight class="stringliteral">&apos;&amp;catid=&apos;</highlight><highlight class="normal">.$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;catid&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&amp;uri=&apos;</highlight><highlight class="normal">.urlencode(<sp/>sprintf($url,<sp/>urlencode(str_replace(array(</highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;@&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,$tweet))));</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$link<sp/>=<sp/>twitterbomb_shortenurl($link);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;url&apos;</highlight><highlight class="normal">,<sp/>$link);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log<sp/>=<sp/>$log_handler-&gt;get($lid<sp/>=<sp/>$log_handler-&gt;insert($log,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($id<sp/>=<sp/>$oauth-&gt;sendTweet($schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;pre&apos;</highlight><highlight class="normal">).</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">.$tweet,<sp/>$link,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;tags&apos;</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tag_handler<sp/>=<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;tag&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;tag&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tag_handler-&gt;updateByItem(twitterbomb_ExtractTags($tweet),<sp/>$lid,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&quot;dirname&quot;</highlight><highlight class="normal">),<sp/>$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;catid&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,<sp/>$id);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log-&gt;setVar(</highlight><highlight class="stringliteral">&apos;alias&apos;</highlight><highlight class="normal">,<sp/>$nick);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$log_handler-&gt;insert($log,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;when&apos;</highlight><highlight class="normal">,<sp/>time());</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;tweeted&apos;</highlight><highlight class="normal">,<sp/>time());</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$scheduler_handler-&gt;insert($schedule);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$tweet;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">($ret)][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$link;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">($ret)][</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">]<sp/>=<sp/>htmlspecialchars_decode($tweet);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">($ret)][</highlight><highlight class="stringliteral">&apos;lid&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$lid;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret[</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">($ret)][</highlight><highlight class="stringliteral">&apos;sid&apos;</highlight><highlight class="normal">]<sp/>=<sp/>$schedule-&gt;getVar(</highlight><highlight class="stringliteral">&apos;sid&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count($ret)&gt;$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;scheduler_items&apos;</highlight><highlight class="normal">])<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($ret<sp/>as<sp/>$key<sp/>=&gt;<sp/>$value)<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count($ret)&gt;$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;scheduler_items&apos;</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unset($ret[$key]);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XoopsCache::write(</highlight><highlight class="stringliteral">&apos;tweetbomb_scheduler_&apos;</highlight><highlight class="normal">.md5(</highlight><highlight class="charliteral">&apos;2&apos;</highlight><highlight class="normal">.</highlight><highlight class="charliteral">&apos;2&apos;</highlight><highlight class="normal">),<sp/>$ret,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;interval_of_cron&apos;</highlight><highlight class="normal">]+$GLOBALS[</highlight><highlight class="stringliteral">&apos;twitterbombModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;scheduler_cache&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight><highlight class="stringliteral">&apos;CODE&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>200);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$schedule-&gt;setVar(</highlight><highlight class="stringliteral">&apos;when&apos;</highlight><highlight class="normal">,<sp/>time());</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$scheduler_handler-&gt;insert($schedule);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@$log_handler-&gt;delete($log,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>array(</highlight><highlight class="stringliteral">&apos;CODE&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>100);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>XSD<sp/>Variable<sp/>Definitions<sp/>(REST<sp/>JSON/XML/SERIALISATION<sp/>ONLY)</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>tweet_xsd_rest($parser){</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;username&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;nick&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;items&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/>array(</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;message&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;ERRNUM&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;RESULT&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;CODE&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$xsd;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>XSD<sp/>Variable<sp/>Definitions<sp/>-<sp/>See<sp/>Templating<sp/>*.XML<sp/>(SOAP<sp/>ONLY)</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>tweet_xsd_soap($parser){</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd<sp/>=<sp/>array();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;username&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;nick&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;request&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;message&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$i=0;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;ERRNUM&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;integer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;RESULT&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$xsd[</highlight><highlight class="stringliteral">&apos;response&apos;</highlight><highlight class="normal">][$i++]<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;CODE&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$xsd;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>Enabled<sp/>to<sp/>true<sp/>if<sp/>base<sp/>default<sp/>WSDL<sp/>is<sp/>issued<sp/>(SOAP<sp/>ONLY)</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>See:<sp/>http://www.w3.org/TR/wsdl#_wsdl</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>tweet_wsdl(){</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>Enabled<sp/>to<sp/>true<sp/>if<sp/>services<sp/>default<sp/>WSDL<sp/>is<sp/>issued<sp/>(SOAP<sp/>ONLY)</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>See:<sp/>http://www.w3.org/TR/wsdl#_style</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>tweet_wsdl_service(){</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>Enabled<sp/>to<sp/>true<sp/>if<sp/>services<sp/>default<sp/>WSDL<sp/>is<sp/>issued<sp/>(SOAP<sp/>ONLY)</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>See:<sp/>http://www.w3.org/TR/wsdl#_documentation</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>tweet_wsdl_documentation($plugin,<sp/>$parser){</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$doc<sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$doc<sp/><sp/><sp/><sp/>.=<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$doc<sp/><sp/><sp/><sp/>.=<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$doc<sp/><sp/><sp/><sp/>.=<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$doc<sp/><sp/><sp/><sp/>.=<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$doc;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/plugins/tweet.php"/>
+  </compounddef>
+</doxygen>

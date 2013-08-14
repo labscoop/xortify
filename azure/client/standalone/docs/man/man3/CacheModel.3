@@ -1,0 +1,150 @@
+.TH "CacheModel" 3 "Wed Jul 17 2013" "Version 4.11" "Xortify Honeypot PHP Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CacheModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBCacheEngine\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBinit\fP ($\fBsettings\fP)"
+.br
+.ti -1c
+.RI "\fBgc\fP ()"
+.br
+.ti -1c
+.RI "\fBwrite\fP ($key, $data, $duration)"
+.br
+.ti -1c
+.RI "\fBread\fP ($key)"
+.br
+.ti -1c
+.RI "\fBdelete\fP ($key)"
+.br
+.ti -1c
+.RI "\fBclear\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$settings\fP = array()"
+.br
+.ti -1c
+.RI "\fB$model\fP = null"
+.br
+.ti -1c
+.RI "\fB$fields\fP = array()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Database Storage engine for cache
+.PP
+PHP versions 4 and 5
+.PP
+CakePHP(tm) : Rapid Development Framework http://www.cakephp.org/ Copyright 2005-2008, Cake Software Foundation, Inc\&. 1785 E\&. Sahara Avenue, Suite 490-204 Las Vegas, Nevada 89104
+.PP
+Licensed under The MIT License Redistributions of files must retain the above copyright notice\&.
+.PP
+\fBCopyright:\fP
+.RS 4
+Copyright 2005-2008, Cake Software Foundation, Inc\&. \fBCakePHP(tm) Project  CakePHP(tm) v 1\&.2\&.0\&.4933        http://www.opensource.org/licenses/mit-license.php The MIT License Database Storage engine for cache \fP
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "clear ()"
+Delete all keys from the cache
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the cache was succesfully cleared, false otherwise  public 
+.RE
+.PP
+
+.SS "delete ($key)"
+Delete a key from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the value was succesfully deleted, false if it didn't exist or couldn't be removed  public 
+.RE
+.PP
+
+.SS "gc ()"
+Garbage collection\&. Permanently remove all expired and deleted data
+.PP
+public 
+.SS "init ($settings)"
+Initialize the \fBCache\fP Engine
+.PP
+Called automatically by the cache frontend To reinitialize the settings call \fBCache::engine\fP('EngineName', [optional] settings = array());
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$setting\fP array of setting for the engine 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the engine has been successfully initialized, false if not  public 
+.RE
+.PP
+
+.SS "read ($key)"
+Read a key from the cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The cached data, or false if the data doesn't exist, has expired, or if there was an error fetching it  public 
+.RE
+.PP
+
+.SS "write ($key, $data, $duration)"
+Write data for key into cache
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$key\fP Identifier for the data 
+.br
+\fI$data\fP Data to be cached 
+.br
+\fI$duration\fP How long to cache the data, in seconds 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean True if the data was succesfully cached, false on failure  public 
+.RE
+.PP
+
+.SH "Field Documentation"
+.PP 
+.SS "$fields = array()"
+
+.SS "$model = null"
+
+.SS "$\fBsettings\fP = array()"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot PHP Library from the source code\&.

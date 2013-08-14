@@ -1,0 +1,39 @@
+\hypertarget{stopforumspam_8com_2post_8loader_8php}{\section{Q\-:/@websites@/coop/labs/dev2/providers/stopforumspam.com/post.loader.\-php File Reference}
+\label{stopforumspam_8com_2post_8loader_8php}\index{Q\-:/@websites@/coop/labs/dev2/providers/stopforumspam.\-com/post.\-loader.\-php@{Q\-:/"@websites"@/coop/labs/dev2/providers/stopforumspam.\-com/post.\-loader.\-php}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{index_8php_ae2ccdf355624402b65fc2226f2a661cd}{if}(isset(\$\-\_\-\-S\-E\-S\-S\-I\-O\-N\mbox{[}'xortify'\mbox{]}\mbox{[}'uname'\mbox{]})\&\&isset(\$\-\_\-\-S\-E\-S\-S\-I\-O\-N\mbox{[}'xortify'\mbox{]}\mbox{[}'uid'\mbox{]})\&\&isset(\$\-\_\-\-S\-E\-S\-S\-I\-O\-N\mbox{[}'xortify'\mbox{]}\mbox{[}'email'\mbox{]})) \hyperlink{stopforumspam_8com_2post_8loader_8php_a99f38b0c8c178a9286d03586510aa646}{else}
+\item 
+\hyperlink{stopforumspam_8com_2post_8loader_8php_a227a9443cabbe5e23cfc10c4371e09d1}{\$uname} = (isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'uname'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'uname'\mbox{]}\-:'')
+\item 
+\hyperlink{stopforumspam_8com_2post_8loader_8php_ad634f418b20382e2802f80532d76d3cd}{\$email} = (isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'email'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'email'\mbox{]}\-:'')
+\item 
+\hyperlink{stopforumspam_8com_2post_8loader_8php_a2538b33e5d86382acfcd6fc288dedbb0}{\$ipdata} = xortify\-\_\-get\-I\-P\-Data(false)
+\item 
+\hyperlink{stopforumspam_8com_2post_8loader_8php_aae831eeaf71994cc7e31c1412a29f6fd}{\$checked} = \hyperlink{class_cache_a5870656fdf4e51f8bb35330a8f96ed6c}{Cache\-::read}('xortify\-\_\-sfs\-\_\-'.sha1(\$ipdata\mbox{[}'uname'\mbox{]}.\$ipdata\mbox{[}'email'\mbox{]}.(isset(\$ipdata\mbox{[}'ip4'\mbox{]})?\$ipdata\mbox{[}'ip4'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'ip6'\mbox{]})?\$ipdata\mbox{[}'ip6'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]})?\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]})?\$ipdata\mbox{[}'proxy-\/ip6'\mbox{]}\-:\char`\"{}\char`\"{}).\$ipdata\mbox{[}'network-\/addy'\mbox{]}))
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{stopforumspam_8com_2post_8loader_8php_aae831eeaf71994cc7e31c1412a29f6fd}{\index{stopforumspam.\-com/post.\-loader.\-php@{stopforumspam.\-com/post.\-loader.\-php}!\$checked@{\$checked}}
+\index{\$checked@{\$checked}!stopforumspam.com/post.loader.php@{stopforumspam.\-com/post.\-loader.\-php}}
+\subsubsection[{\$checked}]{\setlength{\rightskip}{0pt plus 5cm}\$checked = {\bf Cache\-::read}('xortify\-\_\-sfs\-\_\-'.sha1(\$ipdata\mbox{[}'uname'\mbox{]}.\$ipdata\mbox{[}'email'\mbox{]}.(isset(\$ipdata\mbox{[}'ip4'\mbox{]})?\$ipdata\mbox{[}'ip4'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'ip6'\mbox{]})?\$ipdata\mbox{[}'ip6'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]})?\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]}\-:\char`\"{}\char`\"{}).(isset(\$ipdata\mbox{[}'proxy-\/ip4'\mbox{]})?\$ipdata\mbox{[}'proxy-\/ip6'\mbox{]}\-:\char`\"{}\char`\"{}).\$ipdata\mbox{[}'network-\/addy'\mbox{]}))}}\label{stopforumspam_8com_2post_8loader_8php_aae831eeaf71994cc7e31c1412a29f6fd}
+\hypertarget{stopforumspam_8com_2post_8loader_8php_ad634f418b20382e2802f80532d76d3cd}{\index{stopforumspam.\-com/post.\-loader.\-php@{stopforumspam.\-com/post.\-loader.\-php}!\$email@{\$email}}
+\index{\$email@{\$email}!stopforumspam.com/post.loader.php@{stopforumspam.\-com/post.\-loader.\-php}}
+\subsubsection[{\$email}]{\setlength{\rightskip}{0pt plus 5cm}\$email = (isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'email'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'email'\mbox{]}\-:'')}}\label{stopforumspam_8com_2post_8loader_8php_ad634f418b20382e2802f80532d76d3cd}
+\hypertarget{stopforumspam_8com_2post_8loader_8php_a2538b33e5d86382acfcd6fc288dedbb0}{\index{stopforumspam.\-com/post.\-loader.\-php@{stopforumspam.\-com/post.\-loader.\-php}!\$ipdata@{\$ipdata}}
+\index{\$ipdata@{\$ipdata}!stopforumspam.com/post.loader.php@{stopforumspam.\-com/post.\-loader.\-php}}
+\subsubsection[{\$ipdata}]{\setlength{\rightskip}{0pt plus 5cm}\$ipdata = xortify\-\_\-get\-I\-P\-Data(false)}}\label{stopforumspam_8com_2post_8loader_8php_a2538b33e5d86382acfcd6fc288dedbb0}
+\hypertarget{stopforumspam_8com_2post_8loader_8php_a227a9443cabbe5e23cfc10c4371e09d1}{\index{stopforumspam.\-com/post.\-loader.\-php@{stopforumspam.\-com/post.\-loader.\-php}!\$uname@{\$uname}}
+\index{\$uname@{\$uname}!stopforumspam.com/post.loader.php@{stopforumspam.\-com/post.\-loader.\-php}}
+\subsubsection[{\$uname}]{\setlength{\rightskip}{0pt plus 5cm}\$uname = (isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'uname'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'uname'\mbox{]}\-:'')}}\label{stopforumspam_8com_2post_8loader_8php_a227a9443cabbe5e23cfc10c4371e09d1}
+\hypertarget{stopforumspam_8com_2post_8loader_8php_a99f38b0c8c178a9286d03586510aa646}{\index{stopforumspam.\-com/post.\-loader.\-php@{stopforumspam.\-com/post.\-loader.\-php}!else@{else}}
+\index{else@{else}!stopforumspam.com/post.loader.php@{stopforumspam.\-com/post.\-loader.\-php}}
+\subsubsection[{else}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (isset(\$\-\_\-\-S\-E\-S\-S\-I\-O\-N\mbox{[}'xortify'\mbox{]}\mbox{[}'uname'\mbox{]})\&\&isset(\$\-\_\-\-S\-E\-S\-S\-I\-O\-N\mbox{[}'xortify'\mbox{]}\mbox{[}'uid'\mbox{]})\&\&isset(\$\-\_\-\-S\-E\-S\-S\-I\-O\-N\mbox{[}'xortify'\mbox{]}\mbox{[}'email'\mbox{]})) else}}\label{stopforumspam_8com_2post_8loader_8php_a99f38b0c8c178a9286d03586510aa646}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+        $uid = 0
+\end{DoxyCode}

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="go_8php" kind="file">
+    <compoundname>go.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="go_8php_1a653b5458163d338546c47271b4fb81b7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$uri</definition>
+        <argsstring></argsstring>
+        <name>$uri</name>
+        <initializer>= isset($_REQUEST[&apos;uri&apos;])?$_REQUEST[&apos;uri&apos;]:&apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/spiders/go.php" line="4" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/spiders/go.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/>include(</highlight><highlight class="stringliteral">&apos;../../mainfile.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>$uri<sp/>=<sp/>isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;uri&apos;</highlight><highlight class="normal">])?$_REQUEST[</highlight><highlight class="stringliteral">&apos;uri&apos;</highlight><highlight class="normal">]:</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($url=</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>header(<sp/></highlight><highlight class="stringliteral">&quot;HTTP/1.1<sp/>301<sp/>Moved<sp/>Permanently&quot;</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>header(</highlight><highlight class="stringliteral">&apos;Location:<sp/>&apos;</highlight><highlight class="normal">.XOOPS_URL);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(0);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>header(<sp/></highlight><highlight class="stringliteral">&quot;HTTP/1.1<sp/>301<sp/>Moved<sp/>Permanently&quot;</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>header(</highlight><highlight class="stringliteral">&apos;Location:<sp/>&apos;</highlight><highlight class="normal">.$uri);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/go.php"/>
+  </compounddef>
+</doxygen>

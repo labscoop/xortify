@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_986b603a083ad29d335eb299a442a13f" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs</compoundname>
+    <innerdir refid="dir_28c9f02525f1dd9652b5953c701f2009">E:/Packages/xortify server/htdocs/cron</innerdir>
+    <innerdir refid="dir_22c74226e082a9c2f494c636a11784d4">E:/Packages/xortify server/htdocs/include</innerdir>
+    <innerdir refid="dir_d8506bb3b0b54f40ba22e4f663bda429">E:/Packages/xortify server/htdocs/language</innerdir>
+    <innerdir refid="dir_3d9a2643e5c2991e18f5ed18773ef738">E:/Packages/xortify server/htdocs/modules</innerdir>
+    <innerdir refid="dir_045a2865d5a737887786245945f4c893">E:/Packages/xortify server/htdocs/spoof</innerdir>
+    <innerdir refid="dir_d50213c1512595c666e6e424a3010e7f">E:/Packages/xortify server/htdocs/training</innerdir>
+    <innerdir refid="dir_06200f47a9727ec7ff1429b2a95df0fd">E:/Packages/xortify server/htdocs/xoops_lib</innerdir>
+    <innerfile refid="banned_8php">banned.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/"/>
+  </compounddef>
+</doxygen>

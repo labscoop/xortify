@@ -1,0 +1,56 @@
+\hypertarget{functions_8php}{\section{Q\-:/@websites@/coop/labs/dev2/include/functions.php File Reference}
+\label{functions_8php}\index{Q\-:/@websites@/coop/labs/dev2/include/functions.\-php@{Q\-:/"@websites"@/coop/labs/dev2/include/functions.\-php}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{functions_8php_aa46ab2088589568c9c30e5d585eb63f5}{xortify\-\_\-create\-Token} (\$timeout=0, \$name= 'X\-O\-R\-T\-I\-F\-Y\-\_\-\-T\-O\-K\-E\-N')
+\item 
+\hyperlink{functions_8php_ad760c4a5c7120b190ffb3551eff03db2}{xortify\-\_\-validate\-Token} (\$token=false, \$clear\-If\-Valid=true, \$name= 'X\-O\-R\-T\-I\-F\-Y\-\_\-\-T\-O\-K\-E\-N')
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{functions_8php_aa46ab2088589568c9c30e5d585eb63f5}{\index{functions.\-php@{functions.\-php}!xortify\-\_\-create\-Token@{xortify\-\_\-create\-Token}}
+\index{xortify\-\_\-create\-Token@{xortify\-\_\-create\-Token}!functions.php@{functions.\-php}}
+\subsubsection[{xortify\-\_\-create\-Token}]{\setlength{\rightskip}{0pt plus 5cm}xortify\-\_\-create\-Token (
+\begin{DoxyParamCaption}
+\item[{}]{\$timeout = {\ttfamily 0}, }
+\item[{}]{\$name = {\ttfamily 'XORTIFY\-\_\-TOKEN'}}
+\end{DoxyParamCaption}
+)}}\label{functions_8php_aa46ab2088589568c9c30e5d585eb63f5}
+Create a token in the user's session
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$timeout} & time in seconds the token should be valid \\
+\hline
+string & {\em \$name} & session name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string token value 
+\end{DoxyReturn}
+\hypertarget{functions_8php_ad760c4a5c7120b190ffb3551eff03db2}{\index{functions.\-php@{functions.\-php}!xortify\-\_\-validate\-Token@{xortify\-\_\-validate\-Token}}
+\index{xortify\-\_\-validate\-Token@{xortify\-\_\-validate\-Token}!functions.php@{functions.\-php}}
+\subsubsection[{xortify\-\_\-validate\-Token}]{\setlength{\rightskip}{0pt plus 5cm}xortify\-\_\-validate\-Token (
+\begin{DoxyParamCaption}
+\item[{}]{\$token = {\ttfamily false}, }
+\item[{}]{\$clear\-If\-Valid = {\ttfamily true}, }
+\item[{}]{\$name = {\ttfamily 'XORTIFY\-\_\-TOKEN'}}
+\end{DoxyParamCaption}
+)}}\label{functions_8php_ad760c4a5c7120b190ffb3551eff03db2}
+Check if a token is valid. If no token is specified, \$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}\$name . '\-\_\-\-R\-E\-Q\-U\-E\-S\-T'\mbox{]} is checked
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$token} & token to validate \\
+\hline
+bool & {\em \$clear\-If\-Valid} & whether to clear the token value if valid \\
+\hline
+string & {\em \$name} & session name to validate\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}

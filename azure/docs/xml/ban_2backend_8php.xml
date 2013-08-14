@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ban_2backend_8php" kind="file">
+    <compoundname>backend.php</compoundname>
+    <innernamespace refid="namespacebans">bans</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ban_2backend_8php_1ab32f3cc9cb000b90e7170d9a2e13f777" prot="public" static="no" mutable="no">
+        <type>if($GLOBALS[&apos;xoopsModuleConfig&apos;][&apos;htaccess&apos;]==true) $GLOBALS[&apos;xoopsLogger&apos;]</type>
+        <definition>if ($GLOBALS[&apos;xoopsModuleConfig&apos;][&apos;htaccess&apos;]==true) $GLOBALS [&apos;xoopsLogger&apos;] activated</definition>
+        <argsstring></argsstring>
+        <name>activated</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/backend.php" line="30" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/backend.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2backend_8php_1a04b1944cdb09f9a4e290cde7a12499e6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$tpl</definition>
+        <argsstring></argsstring>
+        <name>$tpl</name>
+        <initializer>= new XoopsTpl()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/backend.php" line="37" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/backend.php" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2backend_8php_1a4c29af6f98e3049de95861b01a7bb00d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$compile_id</definition>
+        <argsstring></argsstring>
+        <name>$compile_id</name>
+        <initializer>= (isset($_REQUEST[&apos;twit&apos;])?1:2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/backend.php" line="40" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/backend.php" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ban_2backend_8php_1adf5e5f020e5f0b5fbf6656117df79489" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xoopsCachedTemplateId</definition>
+        <argsstring></argsstring>
+        <name>$xoopsCachedTemplateId</name>
+        <initializer>= &apos;mod_&apos;.$GLOBALS[&apos;xoopsModule&apos;]-&gt;getVar(&apos;dirname&apos;).&apos;|&apos;.md5(str_replace(XOOPS_URL, &apos;&apos;, $GLOBALS[&apos;xoopsRequestUri&apos;]))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/backend.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/backend.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ban_2backend_8php_1ab3ad5dd7bf638b952c5b1739938128e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>xoStripeKey</definition>
+        <argsstring>($xoops_key)</argsstring>
+        <name>xoStripeKey</name>
+        <param>
+          <declname>$xoops_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>*#@+ Xoops Stripe Licence System Key </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/ban/backend.php" line="107" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/ban/backend.php" bodystart="107" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">include<sp/>dirname(dirname(dirname(__FILE__)))<sp/>.<sp/>DIRECTORY_SEPARATOR<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;mainfile.php&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsModuleConfig&apos;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&apos;htaccess&apos;</highlight><highlight class="normal">]==</highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>$url<sp/>=<sp/>XOOPS_URL.</highlight><highlight class="stringliteral">&apos;/ban/&apos;</highlight><highlight class="normal">.basename($_SERVER[</highlight><highlight class="stringliteral">&apos;PHP_SELF&apos;</highlight><highlight class="normal">]).</highlight><highlight class="charliteral">&apos;?&apos;</highlight><highlight class="normal">.$_SERVER[</highlight><highlight class="stringliteral">&apos;QUERY_STRING&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($_SERVER[</highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal">].</highlight><highlight class="charliteral">&apos;?&apos;</highlight><highlight class="normal">.$_SERVER[</highlight><highlight class="stringliteral">&apos;QUERY_STRING&apos;</highlight><highlight class="normal">]!=$url<sp/>&amp;&amp;<sp/>strpos($_SERVER[</highlight><highlight class="stringliteral">&apos;REQUEST_URI&apos;</highlight><highlight class="normal">],<sp/></highlight><highlight class="stringliteral">&apos;odules/&apos;</highlight><highlight class="normal">)&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>header(<sp/></highlight><highlight class="stringliteral">&quot;HTTP/1.1<sp/>301<sp/>Moved<sp/>Permanently&quot;</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>header(</highlight><highlight class="stringliteral">&apos;Location:<sp/>&apos;</highlight><highlight class="normal">.$url);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(0);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsLogger&apos;</highlight><highlight class="normal">]-&gt;activated<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(function_exists(</highlight><highlight class="stringliteral">&apos;mb_http_output&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>mb_http_output(</highlight><highlight class="stringliteral">&apos;pass&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">header(</highlight><highlight class="stringliteral">&apos;Content-Type:text/xml;<sp/>charset=utf-8&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">include_once<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoops&apos;</highlight><highlight class="normal">]-&gt;path(</highlight><highlight class="stringliteral">&apos;class/template.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">$tpl<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>XoopsTpl();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">$tpl-&gt;xoops_setCaching(2);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">$tpl-&gt;xoops_setCacheTime(30);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">$compile_id<sp/>=<sp/>(isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;twit&apos;</highlight><highlight class="normal">])?1:2);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">$xoopsCachedTemplateId<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;mod_&apos;</highlight><highlight class="normal">.$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsModule&apos;</highlight><highlight class="normal">]-&gt;getVar(</highlight><highlight class="stringliteral">&apos;dirname&apos;</highlight><highlight class="normal">).</highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal">.md5(str_replace(XOOPS_URL,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>$GLOBALS[</highlight><highlight class="stringliteral">&apos;xoopsRequestUri&apos;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!$tpl-&gt;is_cached(</highlight><highlight class="stringliteral">&apos;db:system_rss.html&apos;</highlight><highlight class="normal">,<sp/>$xoopsCachedTemplateId,<sp/>$compile_id))<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>xoops_load(</highlight><highlight class="stringliteral">&apos;XoopsLocal&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_title&apos;</highlight><highlight class="normal">,<sp/>XoopsLocal::convert_encoding(htmlspecialchars($xoopsConfig[</highlight><highlight class="stringliteral">&apos;sitename&apos;</highlight><highlight class="normal">],<sp/>ENT_QUOTES)));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_link&apos;</highlight><highlight class="normal">,<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_desc&apos;</highlight><highlight class="normal">,<sp/>XoopsLocal::convert_encoding(htmlspecialchars($xoopsConfig[</highlight><highlight class="stringliteral">&apos;slogan&apos;</highlight><highlight class="normal">],<sp/>ENT_QUOTES)));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_lastbuild&apos;</highlight><highlight class="normal">,<sp/>formatTimestamp(time(),<sp/></highlight><highlight class="stringliteral">&apos;rss&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_webmaster&apos;</highlight><highlight class="normal">,<sp/>$xoopsConfig[</highlight><highlight class="stringliteral">&apos;adminmail&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_editor&apos;</highlight><highlight class="normal">,<sp/>$xoopsConfig[</highlight><highlight class="stringliteral">&apos;adminmail&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_category&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;News&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_generator&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;XOOPS&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;channel_language&apos;</highlight><highlight class="normal">,<sp/>_LANGCODE);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;image_url&apos;</highlight><highlight class="normal">,<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/images/logo.png&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>$dimention<sp/>=<sp/>getimagesize(XOOPS_ROOT_PATH<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/images/logo.png&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(empty($dimention[0]))<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$width<sp/>=<sp/>88;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$width<sp/>=<sp/>($dimention[0]<sp/>&gt;<sp/>144)<sp/>?<sp/>144<sp/>:<sp/>$dimention[0];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(empty($dimention[1]))<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$height<sp/>=<sp/>31;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$height<sp/>=<sp/>($dimention[1]<sp/>&gt;<sp/>400)<sp/>?<sp/>400<sp/>:<sp/>$dimention[1];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;image_width&apos;</highlight><highlight class="normal">,<sp/>$width);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>$tpl-&gt;assign(</highlight><highlight class="stringliteral">&apos;image_height&apos;</highlight><highlight class="normal">,<sp/>$height);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>$banmemberhandler<sp/>=&amp;<sp/>xoops_getmodulehandler(</highlight><highlight class="stringliteral">&apos;members&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;ban&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CriteriaCompo(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Criteria(</highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;1&apos;</highlight><highlight class="normal"><sp/>));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria-&gt;setSort(</highlight><highlight class="stringliteral">&apos;`member_id`&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>$criteria-&gt;setOrder(</highlight><highlight class="stringliteral">&apos;DESC&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>$num<sp/>=<sp/>isset($_REQUEST[</highlight><highlight class="stringliteral">&apos;num&apos;</highlight><highlight class="normal">])?intval($_REQUEST[</highlight><highlight class="stringliteral">&apos;num&apos;</highlight><highlight class="normal">]):35;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($num&lt;200)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;setLimit($num);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$criteria-&gt;setLimit(20);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>$banned<sp/>=<sp/>$banmemberhandler-&gt;getObjects($criteria,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($banned<sp/>as<sp/>$id<sp/>=&gt;<sp/>$ban)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strlen($ban-&gt;getVar(</highlight><highlight class="stringliteral">&apos;ip4&apos;</highlight><highlight class="normal">))&gt;0)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$category<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;IPv4&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$category<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;IPv6&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$title<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;#Ban<sp/>&apos;</highlight><highlight class="normal">.$id.</highlight><highlight class="stringliteral">&apos;<sp/>:<sp/>#IP<sp/>(#&apos;</highlight><highlight class="normal">.$category.</highlight><highlight class="stringliteral">&apos;)<sp/>&apos;</highlight><highlight class="normal">.$ban-&gt;ipaddy().<sp/></highlight><highlight class="stringliteral">&apos;<sp/>:<sp/>#Netbios<sp/>&apos;</highlight><highlight class="normal">.$ban-&gt;getVar(</highlight><highlight class="stringliteral">&apos;network-addy&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$tpl-&gt;append(</highlight><highlight class="stringliteral">&apos;items&apos;</highlight><highlight class="normal">,<sp/>array(</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>XoopsLocal::convert_encoding(htmlspecialchars($title,<sp/>ENT_QUOTES))<sp/>,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/modules/ban/index.php?op=member&amp;amp;id=&apos;</highlight><highlight class="normal">.$ban-&gt;getVar(</highlight><highlight class="stringliteral">&apos;member_id&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;guid&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>XOOPS_URL<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;/modules/ban/index.php?op=member&amp;amp;id=&apos;</highlight><highlight class="normal">.$ban-&gt;getVar(</highlight><highlight class="stringliteral">&apos;member_id&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;category&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$category,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;pubdate&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>formatTimestamp($ban-&gt;getVar(</highlight><highlight class="stringliteral">&apos;made&apos;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&apos;rss&apos;</highlight><highlight class="normal">)<sp/>,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>XoopsLocal::convert_encoding(htmlspecialchars($ban-&gt;story(),<sp/>ENT_QUOTES))</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">$tpl-&gt;display(</highlight><highlight class="stringliteral">&apos;db:system_rss.html&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="keyword">function</highlight><highlight class="normal"><sp/>xoStripeKey($xoops_key)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>$uu<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>$num<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>$length<sp/>=<sp/>strlen($xoops_key);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>$strip<sp/>=<sp/>floor(strlen($xoops_key)<sp/>/<sp/>6);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>($i<sp/>=<sp/>0;<sp/>$i<sp/>&lt;<sp/>strlen($xoops_key);<sp/>$i++)<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($i<sp/>&lt;<sp/>$length)<sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$uu++;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($uu<sp/>==<sp/>$strip)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>.=<sp/>substr($xoops_key,<sp/>$i,<sp/>1)<sp/>.<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$uu<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(substr($xoops_key,<sp/>$i,<sp/>1)<sp/>!=<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>.=<sp/>substr($xoops_key,<sp/>$i,<sp/>1);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$uu--;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>str_replace(</highlight><highlight class="stringliteral">&apos;--&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">,<sp/>$ret);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(substr($ret,<sp/>0,<sp/>1)<sp/>==<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>substr($ret,<sp/>2,<sp/>strlen($ret));</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(substr($ret,<sp/>strlen($ret)<sp/>-<sp/>1,<sp/>1)<sp/>==<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ret<sp/>=<sp/>substr($ret,<sp/>0,<sp/>strlen($ret)<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$ret;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/ban/backend.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_cache_engine.html" title="CacheEngine" alt="" coords="5,107,104,133"/>
+<area shape="rect" id="node2" href="$class_cache_apc.html" title="CacheApc" alt="" coords="172,5,255,32"/>
+<area shape="rect" id="node3" href="$class_cache_file.html" title="CacheFile" alt="" coords="173,56,253,83"/>
+<area shape="rect" id="node4" href="$class_cache_memcache.html" title="CacheMemcache" alt="" coords="152,107,275,133"/>
+<area shape="rect" id="node5" href="$class_cache_model.html" title="CacheModel" alt="" coords="166,157,261,184"/>
+<area shape="rect" id="node6" href="$class_cache_xcache.html" title="CacheXcache" alt="" coords="163,208,264,235"/>
+</map>

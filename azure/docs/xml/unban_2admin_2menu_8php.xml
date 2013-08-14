@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="unban_2admin_2menu_8php" kind="file">
+    <compoundname>menu.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1a9e95e7fdb7ca106c9d44e97430edef59" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu</definition>
+        <argsstring></argsstring>
+        <name>$adminmenu</name>
+        <initializer>=array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="2" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1aa4d95e2b8402adb7aac22031a76bf8ac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;title&apos;]</definition>
+        <argsstring>[1][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _UNBAN_ADMENU1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="3" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1a8b18a24b489369490446d45ac2b617f7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[1][&apos;link&apos;]</definition>
+        <argsstring>[1][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="4" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1a0786c93d1375203e0020cc121fe02068" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;title&apos;]</definition>
+        <argsstring>[2][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _UNBAN_ADMENU2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="5" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1a5f30f443311414593df5a4ae2c7501c8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[2][&apos;link&apos;]</definition>
+        <argsstring>[2][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=members&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="6" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1ad27660fd5d267f334743070c732b1286" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;title&apos;]</definition>
+        <argsstring>[3][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _UNBAN_ADMENU3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="7" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1ac8c8ccf89ea2c8889dd64b08737d6dd9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[3][&apos;link&apos;]</definition>
+        <argsstring>[3][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=categories&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="8" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1ac3c70c66723d68528e5e9c8a4383c126" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;title&apos;]</definition>
+        <argsstring>[4][&apos;title&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= _UNBAN_ADMENU4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="9" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unban_2admin_2menu_8php_1a076adc5338eb254a63b2e2d679087482" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$adminmenu[4][&apos;link&apos;]</definition>
+        <argsstring>[4][&apos;link&apos;]</argsstring>
+        <name>$adminmenu</name>
+        <initializer>= &quot;admin/index.php?op=categories&amp;fct=new&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" line="10" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">$adminmenu=array();</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_UNBAN_ADMENU1;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">$adminmenu[1][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_UNBAN_ADMENU2;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">$adminmenu[2][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=members&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_UNBAN_ADMENU3;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">$adminmenu[3][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=categories&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>_UNBAN_ADMENU4;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">$adminmenu[4][</highlight><highlight class="stringliteral">&apos;link&apos;</highlight><highlight class="normal">]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;admin/index.php?op=categories&amp;fct=new&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="E:/Packages/xortify server/htdocs/modules/unban/admin/menu.php"/>
+  </compounddef>
+</doxygen>

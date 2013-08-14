@@ -1,0 +1,81 @@
+\hypertarget{admin_2index_8php}{\section{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.6/4.11/htdocs/modules/xortify/admin/index.php File Reference}
+\label{admin_2index_8php}\index{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.\-6/4.\-11/htdocs/modules/xortify/admin/index.\-php@{E\-:/== S\-V\-N ==/\-Xortify/releases/\-X\-O\-O\-P\-S 2.\-6/4.\-11/htdocs/modules/xortify/admin/index.\-php}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{admin_2index_8php_ad10934112c0d18cf6b358d47afa6fcf1}{\$\-G\-L\-O\-B\-A\-L\-S} \mbox{[}'xoops'\mbox{]} = Xoops\-::get\-Instance()
+\item 
+\hyperlink{poll_2index_8php_ae404acbb304be6b6ac443de921697faf}{if}(!defined('\-\_\-\-C\-H\-A\-R\-S\-E\-T')) \\*
+define(\char`\"{}\-\_\-\-C\-H\-A\-R\-S\-E\-T\char`\"{} \hyperlink{admin_2index_8php_a68a3115a9d21b3451b1b631ea0aa45a8}{U\-T\-F}
+\item 
+\hyperlink{poll_2index_8php_ae404acbb304be6b6ac443de921697faf}{if}(!defined('\-\_\-\-C\-H\-A\-R\-S\-E\-T\-\_\-\-I\-S\-O')) \\*
+define(\char`\"{}\-\_\-\-C\-H\-A\-R\-S\-E\-T\-\_\-\-I\-S\-O\char`\"{} \hyperlink{admin_2index_8php_a925a4f82eb4a8af51868be3473dd6cb3}{I\-S\-O}
+\item 
+\hyperlink{admin_2index_8php_aea741b6e2c7fbb6439b8cdb3091591a4}{\$\-G\-L\-O\-B\-A\-L\-S} \mbox{[}'myts'\mbox{]} = My\-Text\-Sanitizer\-::get\-Instance()
+\item 
+\hyperlink{admin_2index_8php_afe9169534dbc3935c0823c21cfbf68bb}{\$module\-\_\-handler} = \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Handler('module')
+\item 
+\hyperlink{admin_2index_8php_a3906023967379550e215cdec8f56ae20}{\$config\-\_\-handler} = \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Handler('config')
+\item 
+\hyperlink{admin_2index_8php_ade93c98e293ae39806072af3365c6f0e}{\$\-G\-L\-O\-B\-A\-L\-S} \mbox{[}'xortify'\mbox{]}\mbox{[}\hyperlink{instance_8php_ad4a865d4289ea8a5a0454b65e7ea47c7}{X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'module'\mbox{]} = \$module\-\_\-handler-\/$>$get\-By\-Dirname('xortify')
+\item 
+\hyperlink{admin_2index_8php_a64b8ca00cce4671f7e9ca46aa82d0f88}{\$\-G\-L\-O\-B\-A\-L\-S} \mbox{[}'xortify'\mbox{]}\mbox{[}\hyperlink{instance_8php_ad4a865d4289ea8a5a0454b65e7ea47c7}{X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'Image\-Icon'\mbox{]} = X\-O\-O\-P\-S\-\_\-\-U\-R\-L .'/'. \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xortify'\mbox{]}\mbox{[}\hyperlink{instance_8php_ad4a865d4289ea8a5a0454b65e7ea47c7}{X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'module'\mbox{]}-\/$>$get\-Info('icons16')
+\item 
+\hyperlink{admin_2index_8php_a337b648fca998b37a46d84b43aa6e8f9}{\$\-G\-L\-O\-B\-A\-L\-S} \mbox{[}'xortify'\mbox{]}\mbox{[}\hyperlink{instance_8php_ad4a865d4289ea8a5a0454b65e7ea47c7}{X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'Image\-Admin'\mbox{]} = X\-O\-O\-P\-S\-\_\-\-U\-R\-L .'/'. \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xortify'\mbox{]}\mbox{[}\hyperlink{instance_8php_ad4a865d4289ea8a5a0454b65e7ea47c7}{X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'module'\mbox{]}-\/$>$get\-Info('icons32')
+\item 
+\hyperlink{admin_2index_8php_a12466d9a3f1c87076ded6bfe0cf0c9e5}{\$myts} = My\-Text\-Sanitizer\-::get\-Instance()
+\item 
+\hyperlink{poll_2index_8php_ae404acbb304be6b6ac443de921697faf}{if}(\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops\-User'\mbox{]}) \hyperlink{admin_2index_8php_abeec3bb8da31e2d7ea01403e08a70401}{else}
+\item 
+\hyperlink{admin_2index_8php_a7c93a81c9b28ec2f78f33cdabda28c76}{\$op} = isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'op'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'op'\mbox{]}\-:\char`\"{}dashboard\char`\"{}
+\item 
+\hyperlink{admin_2index_8php_acc8d70c12faff4b8d057986eece72b6c}{\$fct} = isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'fct'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'fct'\mbox{]}\-:\char`\"{}\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{admin_2index_8php_a3906023967379550e215cdec8f56ae20}{\index{admin/index.\-php@{admin/index.\-php}!\$config\-\_\-handler@{\$config\-\_\-handler}}
+\index{\$config\-\_\-handler@{\$config\-\_\-handler}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$config\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}\$config\-\_\-handler = \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Handler('config')}}\label{admin_2index_8php_a3906023967379550e215cdec8f56ae20}
+\hypertarget{admin_2index_8php_acc8d70c12faff4b8d057986eece72b6c}{\index{admin/index.\-php@{admin/index.\-php}!\$fct@{\$fct}}
+\index{\$fct@{\$fct}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$fct}]{\setlength{\rightskip}{0pt plus 5cm}\$fct = isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'fct'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'fct'\mbox{]}\-:\char`\"{}\char`\"{}}}\label{admin_2index_8php_acc8d70c12faff4b8d057986eece72b6c}
+\hypertarget{admin_2index_8php_ad10934112c0d18cf6b358d47afa6fcf1}{\index{admin/index.\-php@{admin/index.\-php}!\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}}
+\index{\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$\-G\-L\-O\-B\-A\-L\-S}]{\setlength{\rightskip}{0pt plus 5cm}\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]} = Xoops\-::get\-Instance()}}\label{admin_2index_8php_ad10934112c0d18cf6b358d47afa6fcf1}
+\hypertarget{admin_2index_8php_aea741b6e2c7fbb6439b8cdb3091591a4}{\index{admin/index.\-php@{admin/index.\-php}!\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}}
+\index{\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$\-G\-L\-O\-B\-A\-L\-S}]{\setlength{\rightskip}{0pt plus 5cm}\$G\-L\-O\-B\-A\-L\-S\mbox{[}'myts'\mbox{]} = My\-Text\-Sanitizer\-::get\-Instance()}}\label{admin_2index_8php_aea741b6e2c7fbb6439b8cdb3091591a4}
+\hypertarget{admin_2index_8php_ade93c98e293ae39806072af3365c6f0e}{\index{admin/index.\-php@{admin/index.\-php}!\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}}
+\index{\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$\-G\-L\-O\-B\-A\-L\-S}]{\setlength{\rightskip}{0pt plus 5cm}\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xortify'\mbox{]}\mbox{[}{\bf X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'module'\mbox{]} = \$module\-\_\-handler-\/$>$get\-By\-Dirname('xortify')}}\label{admin_2index_8php_ade93c98e293ae39806072af3365c6f0e}
+\hypertarget{admin_2index_8php_a64b8ca00cce4671f7e9ca46aa82d0f88}{\index{admin/index.\-php@{admin/index.\-php}!\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}}
+\index{\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$\-G\-L\-O\-B\-A\-L\-S}]{\setlength{\rightskip}{0pt plus 5cm}\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xortify'\mbox{]}\mbox{[}{\bf X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'Image\-Icon'\mbox{]} = X\-O\-O\-P\-S\-\_\-\-U\-R\-L .'/'. \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xortify'\mbox{]}\mbox{[}{\bf X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'module'\mbox{]}-\/$>$get\-Info('icons16')}}\label{admin_2index_8php_a64b8ca00cce4671f7e9ca46aa82d0f88}
+\hypertarget{admin_2index_8php_a337b648fca998b37a46d84b43aa6e8f9}{\index{admin/index.\-php@{admin/index.\-php}!\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}}
+\index{\$\-G\-L\-O\-B\-A\-L\-S@{\$\-G\-L\-O\-B\-A\-L\-S}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$\-G\-L\-O\-B\-A\-L\-S}]{\setlength{\rightskip}{0pt plus 5cm}\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xortify'\mbox{]}\mbox{[}{\bf X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'Image\-Admin'\mbox{]} = X\-O\-O\-P\-S\-\_\-\-U\-R\-L .'/'. \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xortify'\mbox{]}\mbox{[}{\bf X\-O\-R\-T\-I\-F\-Y\-\_\-\-I\-N\-S\-T\-A\-N\-C\-E\-\_\-\-K\-E\-Y}\mbox{]}\mbox{[}'module'\mbox{]}-\/$>$get\-Info('icons32')}}\label{admin_2index_8php_a337b648fca998b37a46d84b43aa6e8f9}
+\hypertarget{admin_2index_8php_afe9169534dbc3935c0823c21cfbf68bb}{\index{admin/index.\-php@{admin/index.\-php}!\$module\-\_\-handler@{\$module\-\_\-handler}}
+\index{\$module\-\_\-handler@{\$module\-\_\-handler}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$module\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}\$module\-\_\-handler = \$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops'\mbox{]}-\/$>$get\-Handler('module')}}\label{admin_2index_8php_afe9169534dbc3935c0823c21cfbf68bb}
+\hypertarget{admin_2index_8php_a12466d9a3f1c87076ded6bfe0cf0c9e5}{\index{admin/index.\-php@{admin/index.\-php}!\$myts@{\$myts}}
+\index{\$myts@{\$myts}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$myts}]{\setlength{\rightskip}{0pt plus 5cm}\$myts = My\-Text\-Sanitizer\-::get\-Instance()}}\label{admin_2index_8php_a12466d9a3f1c87076ded6bfe0cf0c9e5}
+\hypertarget{admin_2index_8php_a7c93a81c9b28ec2f78f33cdabda28c76}{\index{admin/index.\-php@{admin/index.\-php}!\$op@{\$op}}
+\index{\$op@{\$op}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{\$op}]{\setlength{\rightskip}{0pt plus 5cm}\$op = isset(\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'op'\mbox{]})?\$\-\_\-\-R\-E\-Q\-U\-E\-S\-T\mbox{[}'op'\mbox{]}\-:\char`\"{}dashboard\char`\"{}}}\label{admin_2index_8php_a7c93a81c9b28ec2f78f33cdabda28c76}
+\hypertarget{admin_2index_8php_abeec3bb8da31e2d7ea01403e08a70401}{\index{admin/index.\-php@{admin/index.\-php}!else@{else}}
+\index{else@{else}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{else}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (\$G\-L\-O\-B\-A\-L\-S\mbox{[}'xoops\-User'\mbox{]}) else}}\label{admin_2index_8php_abeec3bb8da31e2d7ea01403e08a70401}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+\{
+        \hyperlink{banned_8php_ad10934112c0d18cf6b358d47afa6fcf1}{$GLOBALS}[\textcolor{stringliteral}{'xoops'}]->redirect(XOOPS\_URL . \textcolor{stringliteral}{"/user.php"}, 1, \_NOPERM)
+\end{DoxyCode}
+\hypertarget{admin_2index_8php_a925a4f82eb4a8af51868be3473dd6cb3}{\index{admin/index.\-php@{admin/index.\-php}!I\-S\-O@{I\-S\-O}}
+\index{I\-S\-O@{I\-S\-O}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{I\-S\-O}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (!defined('\-\_\-\-C\-H\-A\-R\-S\-E\-T\-\_\-\-I\-S\-O')) define(\char`\"{}\-\_\-\-C\-H\-A\-R\-S\-E\-T\-\_\-\-I\-S\-O\char`\"{} I\-S\-O}}\label{admin_2index_8php_a925a4f82eb4a8af51868be3473dd6cb3}
+\hypertarget{admin_2index_8php_a68a3115a9d21b3451b1b631ea0aa45a8}{\index{admin/index.\-php@{admin/index.\-php}!U\-T\-F@{U\-T\-F}}
+\index{U\-T\-F@{U\-T\-F}!admin/index.php@{admin/index.\-php}}
+\subsubsection[{U\-T\-F}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (!defined('\-\_\-\-C\-H\-A\-R\-S\-E\-T')) define(\char`\"{}\-\_\-\-C\-H\-A\-R\-S\-E\-T\char`\"{} U\-T\-F}}\label{admin_2index_8php_a68a3115a9d21b3451b1b631ea0aa45a8}

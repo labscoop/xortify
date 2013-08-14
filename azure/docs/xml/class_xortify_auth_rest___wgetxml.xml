@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_auth_rest___wgetxml" kind="class" prot="public">
+    <compoundname>XortifyAuthRest_Wgetxml</compoundname>
+    <basecompoundref refid="class_xortify_auth" prot="public" virt="non-virtual">XortifyAuth</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xortify_auth_rest___wgetxml_1a725df0dd6b578e15522ed15945e5901c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xml_xoops_username</definition>
+        <argsstring></argsstring>
+        <name>$xml_xoops_username</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="41" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xortify_auth_rest___wgetxml_1a8ec2889165c837354fded1cedbd42157" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xml_xoops_password</definition>
+        <argsstring></argsstring>
+        <name>$xml_xoops_password</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="42" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xortify_auth_rest___wgetxml_1a12a029c610f699b4b25e79a1f64a3485" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_dao</definition>
+        <argsstring></argsstring>
+        <name>$_dao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="43" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_1a84ac6c33916f84f4dc6c94124aae0cb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XortifyAuthRest_Wgetxml</definition>
+        <argsstring>(&amp;$dao)</argsstring>
+        <name>XortifyAuthRest_Wgetxml</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$dao</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Authentication Service constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_1a00678ba307326b734e6c679f28bea315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>authenticate</definition>
+        <argsstring>($uname, $pwd=null)</argsstring>
+        <name>authenticate</name>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <param>
+          <declname>$pwd</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Authenticate user again json directory (Bind)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$pwd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="60" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_1a91121a1b702dfd20fb65a027c8ed26ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>validate</definition>
+        <argsstring>($uname, $email, $pass, $vpass)</argsstring>
+        <name>validate</name>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <param>
+          <declname>$pass</declname>
+        </param>
+        <param>
+          <declname>$vpass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>validate a user via json</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$pass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$vpass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="79" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="79" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_1ae463a3baa44e95fa5b5151ab2334df1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>reduce_string</definition>
+        <argsstring>($str)</argsstring>
+        <name>reduce_string</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="91" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="91" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_1a1874c27b6f81a3f2ff9015405ad0f8bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>network_disclaimer</definition>
+        <argsstring>()</argsstring>
+        <name>network_disclaimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the xoops site disclaimer via json</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="115" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="115" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_auth_rest___wgetxml_1ac72efc5ad313a592cf6706876f56f7ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create_user</definition>
+        <argsstring>($user_viewemail, $uname, $email, $url, $actkey, $pass, $timezone_offset, $user_mailok, $siteinfo)</argsstring>
+        <name>create_user</name>
+        <param>
+          <declname>$user_viewemail</declname>
+        </param>
+        <param>
+          <declname>$uname</declname>
+        </param>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <param>
+          <declname>$url</declname>
+        </param>
+        <param>
+          <declname>$actkey</declname>
+        </param>
+        <param>
+          <declname>$pass</declname>
+        </param>
+        <param>
+          <declname>$timezone_offset</declname>
+        </param>
+        <param>
+          <declname>$user_mailok</declname>
+        </param>
+        <param>
+          <declname>$siteinfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create a user</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$user_viewemail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$uname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$actkey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$pass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>integer</parametertype>
+<parametername>$timezone_offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>bool</parametertype>
+<parametername>$user_mailok</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$siteinfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="143" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="143" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="675">
+        <label>XortifyAuth</label>
+        <link refid="class_xortify_auth"/>
+      </node>
+      <node id="674">
+        <label>XortifyAuthRest_Wgetxml</label>
+        <link refid="class_xortify_auth_rest___wgetxml"/>
+        <childnode refid="675" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="677">
+        <label>XortifyAuth</label>
+        <link refid="class_xortify_auth"/>
+      </node>
+      <node id="676">
+        <label>XortifyAuthRest_Wgetxml</label>
+        <link refid="class_xortify_auth_rest___wgetxml"/>
+        <childnode refid="677" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" line="39" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/auth/auth_rest_wgetxml.php" bodystart="39" bodyend="156"/>
+    <listofallmembers>
+      <member refid="class_xortify_auth_rest___wgetxml_1a12a029c610f699b4b25e79a1f64a3485" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>$_dao</name></member>
+      <member refid="class_xortify_auth_1a09272cb16edd572f760a622f37cee6d1" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>$_errors</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_1a8ec2889165c837354fded1cedbd42157" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>$xml_xoops_password</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_1a725df0dd6b578e15522ed15945e5901c" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>$xml_xoops_username</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_1a00678ba307326b734e6c679f28bea315" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>authenticate</name></member>
+      <member refid="class_xortify_auth_1a750c93a7dfab5314f2bf662a407bc5a6" prot="public" virt="non-virtual" ambiguityscope="XortifyAuth::"><scope>XortifyAuthRest_Wgetxml</scope><name>authenticate</name></member>
+      <member refid="class_xortify_auth_1a9d67d9bde367762a7a27e279e3cfcdf3" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>check_siteinfo</name></member>
+      <member refid="class_xortify_auth_1a9d67d9bde367762a7a27e279e3cfcdf3" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>check_siteinfo</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_1ac72efc5ad313a592cf6706876f56f7ec" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>create_user</name></member>
+      <member refid="class_xortify_auth_1a6e548ebf2656742bfd19939ead923ed2" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>getErrors</name></member>
+      <member refid="class_xortify_auth_1a6e548ebf2656742bfd19939ead923ed2" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>getErrors</name></member>
+      <member refid="class_xortify_auth_1a10ee66ee5b086b4e6692174531af900e" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>getHtmlErrors</name></member>
+      <member refid="class_xortify_auth_1a10ee66ee5b086b4e6692174531af900e" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>getHtmlErrors</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_1a1874c27b6f81a3f2ff9015405ad0f8bc" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>network_disclaimer</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_1ae463a3baa44e95fa5b5151ab2334df1c" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>reduce_string</name></member>
+      <member refid="class_xortify_auth_1a84268a33f3ed3114bd0b08404e48893f" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>setErrors</name></member>
+      <member refid="class_xortify_auth_1a84268a33f3ed3114bd0b08404e48893f" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>setErrors</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_1a91121a1b702dfd20fb65a027c8ed26ec" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>validate</name></member>
+      <member refid="class_xortify_auth_1a726d2829d96759ca86f62e9990b10a15" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>XortifyAuth</name></member>
+      <member refid="class_xortify_auth_1a726d2829d96759ca86f62e9990b10a15" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>XortifyAuth</name></member>
+      <member refid="class_xortify_auth_rest___wgetxml_1a84ac6c33916f84f4dc6c94124aae0cb4" prot="public" virt="non-virtual"><scope>XortifyAuthRest_Wgetxml</scope><name>XortifyAuthRest_Wgetxml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

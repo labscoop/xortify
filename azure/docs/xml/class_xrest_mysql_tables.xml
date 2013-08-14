@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xrest_mysql_tables" kind="class" prot="public">
+    <compoundname>XrestMysqlTables</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xrest_mysql_tables_1a293f4ff8a6897e71d18797e3d87b5907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XrestMysqlTables</definition>
+        <argsstring>()</argsstring>
+        <name>XrestMysqlTables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" bodystart="54" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="787">
+        <label>XoopsObject</label>
+      </node>
+      <node id="786">
+        <label>XrestMysqlTables</label>
+        <link refid="class_xrest_mysql_tables"/>
+        <childnode refid="787" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="789">
+        <label>XoopsObject</label>
+      </node>
+      <node id="788">
+        <label>XrestMysqlTables</label>
+        <link refid="class_xrest_mysql_tables"/>
+        <childnode refid="789" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" line="52" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/tables.php" bodystart="51" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_xrest_mysql_tables_1a293f4ff8a6897e71d18797e3d87b5907" prot="public" virt="non-virtual"><scope>XrestMysqlTables</scope><name>XrestMysqlTables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

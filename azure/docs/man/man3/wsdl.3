@@ -1,0 +1,1078 @@
+.TH "wsdl" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+wsdl \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBnusoap_base\fP, and \fBnusoap_base\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBwsdl\fP ($\fBwsdl\fP= '', $proxyhost=false, $proxyport=false, $proxyusername=false, $proxypassword=false, $timeout=0, $response_timeout=30)"
+.br
+.ti -1c
+.RI "\fBparseWSDL\fP ($\fBwsdl\fP= '')"
+.br
+.ti -1c
+.RI "\fBstart_element\fP ($parser, $name, $attrs)"
+.br
+.ti -1c
+.RI "\fBend_element\fP ($parser, $name)"
+.br
+.ti -1c
+.RI "\fBcharacter_data\fP ($parser, $data)"
+.br
+.ti -1c
+.RI "\fBgetBindingData\fP ($binding)"
+.br
+.ti -1c
+.RI "\fBgetOperations\fP ($bindingType= 'soap')"
+.br
+.ti -1c
+.RI "\fBgetOperationData\fP ($operation, $bindingType= 'soap')"
+.br
+.ti -1c
+.RI "\fBgetOperationDataForSoapAction\fP ($soapAction, $bindingType= 'soap')"
+.br
+.ti -1c
+.RI "\fBgetTypeDef\fP ($type, $ns)"
+.br
+.ti -1c
+.RI "\fBwebDescription\fP ()"
+.br
+.ti -1c
+.RI "\fBserialize\fP ($\fBdebug\fP=0)"
+.br
+.ti -1c
+.RI "\fBserializeRPCParameters\fP ($operation, $direction, $parameters)"
+.br
+.ti -1c
+.RI "\fBserializeParameters\fP ($operation, $direction, $parameters)"
+.br
+.ti -1c
+.RI "\fBserializeType\fP ($name, $type, $value, $use='encoded', $encodingStyle=false, $unqualified=false)"
+.br
+.ti -1c
+.RI "\fBserializeComplexTypeAttributes\fP ($typeDef, $value, $ns, $uqType)"
+.br
+.ti -1c
+.RI "\fBserializeComplexTypeElements\fP ($typeDef, $value, $ns, $uqType, $use='encoded', $encodingStyle=false)"
+.br
+.ti -1c
+.RI "\fBaddComplexType\fP ($name, $typeClass='complexType', $phpType='array', $compositor='', $restrictionBase='', $elements=array(), $attrs=array(), $arrayType='')"
+.br
+.ti -1c
+.RI "\fBaddSimpleType\fP ($name, $restrictionBase='', $typeClass='simpleType', $phpType='scalar', $enumeration=array())"
+.br
+.ti -1c
+.RI "\fBaddElement\fP ($attrs)"
+.br
+.ti -1c
+.RI "\fBaddOperation\fP ($name, $in=false, $out=false, $namespace=false, $soapaction=false, $style= 'rpc', $use= 'encoded', $documentation= '', $encodingStyle= '')"
+.br
+.ti -1c
+.RI "\fBwsdl\fP ($\fBwsdl\fP= '', $proxyhost=false, $proxyport=false, $proxyusername=false, $proxypassword=false, $timeout=0, $response_timeout=30)"
+.br
+.ti -1c
+.RI "\fBparseWSDL\fP ($\fBwsdl\fP= '')"
+.br
+.ti -1c
+.RI "\fBstart_element\fP ($parser, $name, $attrs)"
+.br
+.ti -1c
+.RI "\fBend_element\fP ($parser, $name)"
+.br
+.ti -1c
+.RI "\fBcharacter_data\fP ($parser, $data)"
+.br
+.ti -1c
+.RI "\fBgetBindingData\fP ($binding)"
+.br
+.ti -1c
+.RI "\fBgetOperations\fP ($bindingType= 'soap')"
+.br
+.ti -1c
+.RI "\fBgetOperationData\fP ($operation, $bindingType= 'soap')"
+.br
+.ti -1c
+.RI "\fBgetOperationDataForSoapAction\fP ($soapAction, $bindingType= 'soap')"
+.br
+.ti -1c
+.RI "\fBgetTypeDef\fP ($type, $ns)"
+.br
+.ti -1c
+.RI "\fBwebDescription\fP ()"
+.br
+.ti -1c
+.RI "\fBserialize\fP ($\fBdebug\fP=0)"
+.br
+.ti -1c
+.RI "\fBserializeRPCParameters\fP ($operation, $direction, $parameters)"
+.br
+.ti -1c
+.RI "\fBserializeParameters\fP ($operation, $direction, $parameters)"
+.br
+.ti -1c
+.RI "\fBserializeType\fP ($name, $type, $value, $use='encoded', $encodingStyle=false, $unqualified=false)"
+.br
+.ti -1c
+.RI "\fBserializeComplexTypeAttributes\fP ($typeDef, $value, $ns, $uqType)"
+.br
+.ti -1c
+.RI "\fBserializeComplexTypeElements\fP ($typeDef, $value, $ns, $uqType, $use='encoded', $encodingStyle=false)"
+.br
+.ti -1c
+.RI "\fBaddComplexType\fP ($name, $typeClass='complexType', $phpType='array', $compositor='', $restrictionBase='', $elements=array(), $attrs=array(), $arrayType='')"
+.br
+.ti -1c
+.RI "\fBaddSimpleType\fP ($name, $restrictionBase='', $typeClass='simpleType', $phpType='scalar', $enumeration=array())"
+.br
+.ti -1c
+.RI "\fBaddElement\fP ($attrs)"
+.br
+.ti -1c
+.RI "\fBaddOperation\fP ($name, $in=false, $out=false, $namespace=false, $soapaction=false, $style= 'rpc', $use= 'encoded', $documentation= '', $encodingStyle= '')"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$wsdl\fP"
+.br
+.ti -1c
+.RI "\fB$schemas\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentSchema\fP"
+.br
+.ti -1c
+.RI "\fB$message\fP = array()"
+.br
+.ti -1c
+.RI "\fB$complexTypes\fP = array()"
+.br
+.ti -1c
+.RI "\fB$messages\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentMessage\fP"
+.br
+.ti -1c
+.RI "\fB$currentOperation\fP"
+.br
+.ti -1c
+.RI "\fB$portTypes\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentPortType\fP"
+.br
+.ti -1c
+.RI "\fB$bindings\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentBinding\fP"
+.br
+.ti -1c
+.RI "\fB$ports\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentPort\fP"
+.br
+.ti -1c
+.RI "\fB$opData\fP = array()"
+.br
+.ti -1c
+.RI "\fB$status\fP = ''"
+.br
+.ti -1c
+.RI "\fB$documentation\fP = false"
+.br
+.ti -1c
+.RI "\fB$endpoint\fP = ''"
+.br
+.ti -1c
+.RI "\fB$import\fP = array()"
+.br
+.ti -1c
+.RI "\fB$parser\fP"
+.br
+.ti -1c
+.RI "\fB$position\fP = 0"
+.br
+.ti -1c
+.RI "\fB$depth\fP = 0"
+.br
+.ti -1c
+.RI "\fB$depth_array\fP = array()"
+.br
+.ti -1c
+.RI "\fB$proxyhost\fP = ''"
+.br
+.ti -1c
+.RI "\fB$proxyport\fP = ''"
+.br
+.ti -1c
+.RI "\fB$proxyusername\fP = ''"
+.br
+.ti -1c
+.RI "\fB$proxypassword\fP = ''"
+.br
+.ti -1c
+.RI "\fB$timeout\fP = 0"
+.br
+.ti -1c
+.RI "\fB$response_timeout\fP = 30"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+parses a WSDL file, allows access to it's data, other utility methods
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.wsdl\&.php\fP,v 1\&.56 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+parses a WSDL file, allows access to it's data, other utility methods
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 13 of file class\&.wsdl\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "addComplexType ($name, $typeClass = \fC'complexType'\fP, $phpType = \fC'array'\fP, $compositor = \fC''\fP, $restrictionBase = \fC''\fP, $elements = \fCarray()\fP, $attrs = \fCarray()\fP, $arrayType = \fC''\fP)"
+adds an XML Schema complex type to the WSDL types
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring\fP name 
+.br
+\fIstring\fP typeClass (complexType|simpleType|attribute) 
+.br
+\fIstring\fP phpType: currently supported are array and struct (php assoc array) 
+.br
+\fIstring\fP compositor (all|sequence|choice) 
+.br
+\fIstring\fP restrictionBase namespace:name (http://schemas.xmlsoap.org/soap/encoding/:Array) 
+.br
+\fIarray\fP elements = array ( name => array(name=>'',type=>'') ) 
+.br
+\fIarray\fP attrs = array(array('ref'=>'SOAP-ENC:arrayType','wsdl:arrayType'=>'xsd:string[]')) 
+.br
+\fIstring\fP arrayType: namespace:name (xsd:string) 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema  public 
+.RE
+.PP
+
+.PP
+Definition at line 1573 of file class\&.wsdl\&.php\&.
+.SS "addComplexType ($name, $typeClass = \fC'complexType'\fP, $phpType = \fC'array'\fP, $compositor = \fC''\fP, $restrictionBase = \fC''\fP, $elements = \fCarray()\fP, $attrs = \fCarray()\fP, $arrayType = \fC''\fP)"
+adds an XML Schema complex type to the WSDL types
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring\fP name 
+.br
+\fIstring\fP typeClass (complexType|simpleType|attribute) 
+.br
+\fIstring\fP phpType: currently supported are array and struct (php assoc array) 
+.br
+\fIstring\fP compositor (all|sequence|choice) 
+.br
+\fIstring\fP restrictionBase namespace:name (http://schemas.xmlsoap.org/soap/encoding/:Array) 
+.br
+\fIarray\fP elements = array ( name => array(name=>'',type=>'') ) 
+.br
+\fIarray\fP attrs = array(array('ref'=>'SOAP-ENC:arrayType','wsdl:arrayType'=>'xsd:string[]')) 
+.br
+\fIstring\fP arrayType: namespace:name (xsd:string) 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema  public 
+.RE
+.PP
+
+.PP
+Definition at line 5635 of file nusoap\&.php\&.
+.SS "addElement ($attrs)"
+adds an element to the WSDL types
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$attrs\fP attributes that must include name and type 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema  public 
+.RE
+.PP
+
+.PP
+Definition at line 1632 of file class\&.wsdl\&.php\&.
+.SS "addElement ($attrs)"
+adds an element to the WSDL types
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$attrs\fP attributes that must include name and type 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema  public 
+.RE
+.PP
+
+.PP
+Definition at line 5694 of file nusoap\&.php\&.
+.SS "addOperation ($name, $in = \fCfalse\fP, $out = \fCfalse\fP, $namespace = \fCfalse\fP, $soapaction = \fCfalse\fP, $style = \fC'rpc'\fP, $use = \fC'encoded'\fP, $documentation = \fC''\fP, $encodingStyle = \fC''\fP)"
+register an operation with the server
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP operation (method) name 
+.br
+\fI$in\fP assoc array of input values: key = param name, value = param type 
+.br
+\fI$out\fP assoc array of output values: key = param name, value = param type 
+.br
+\fI$namespace\fP optional The namespace for the operation 
+.br
+\fI$soapaction\fP optional The soapaction for the operation 
+.br
+\fI$style\fP (rpc|document) optional The style for the operation Note: when 'document' is specified, parameter and return wrappers are created for you automatically 
+.br
+\fI$use\fP (encoded|literal) optional The use for the parameters (cannot mix right now) 
+.br
+\fI$documentation\fP optional The description to include in the WSDL 
+.br
+\fI$encodingStyle\fP optional (usually 'http://schemas.xmlsoap.org/soap/encoding/' for encoded)  public 
+.RE
+.PP
+
+.PP
+Definition at line 1651 of file class\&.wsdl\&.php\&.
+.SS "addOperation ($name, $in = \fCfalse\fP, $out = \fCfalse\fP, $namespace = \fCfalse\fP, $soapaction = \fCfalse\fP, $style = \fC'rpc'\fP, $use = \fC'encoded'\fP, $documentation = \fC''\fP, $encodingStyle = \fC''\fP)"
+register an operation with the server
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP operation (method) name 
+.br
+\fI$in\fP assoc array of input values: key = param name, value = param type 
+.br
+\fI$out\fP assoc array of output values: key = param name, value = param type 
+.br
+\fI$namespace\fP optional The namespace for the operation 
+.br
+\fI$soapaction\fP optional The soapaction for the operation 
+.br
+\fI$style\fP (rpc|document) optional The style for the operation Note: when 'document' is specified, parameter and return wrappers are created for you automatically 
+.br
+\fI$use\fP (encoded|literal) optional The use for the parameters (cannot mix right now) 
+.br
+\fI$documentation\fP optional The description to include in the WSDL 
+.br
+\fI$encodingStyle\fP optional (usually 'http://schemas.xmlsoap.org/soap/encoding/' for encoded)  public 
+.RE
+.PP
+
+.PP
+Definition at line 5713 of file nusoap\&.php\&.
+.SS "addSimpleType ($name, $restrictionBase = \fC''\fP, $typeClass = \fC'simpleType'\fP, $phpType = \fC'scalar'\fP, $enumeration = \fCarray()\fP)"
+adds an XML Schema simple type to the WSDL types
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$restrictionBase\fP namespace:name (http://schemas.xmlsoap.org/soap/encoding/:Array) 
+.br
+\fI$typeClass\fP (should always be simpleType) 
+.br
+\fI$phpType\fP (should always be scalar) 
+.br
+\fI$enumeration\fP array of values 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema  public 
+.RE
+.PP
+
+.PP
+Definition at line 1618 of file class\&.wsdl\&.php\&.
+.SS "addSimpleType ($name, $restrictionBase = \fC''\fP, $typeClass = \fC'simpleType'\fP, $phpType = \fC'scalar'\fP, $enumeration = \fCarray()\fP)"
+adds an XML Schema simple type to the WSDL types
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$restrictionBase\fP namespace:name (http://schemas.xmlsoap.org/soap/encoding/:Array) 
+.br
+\fI$typeClass\fP (should always be simpleType) 
+.br
+\fI$phpType\fP (should always be scalar) 
+.br
+\fI$enumeration\fP array of values 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema  public 
+.RE
+.PP
+
+.PP
+Definition at line 5680 of file nusoap\&.php\&.
+.SS "character_data ($parser, $data)"
+element content handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$data\fP element content  private 
+.RE
+.PP
+
+.PP
+Definition at line 514 of file class\&.wsdl\&.php\&.
+.SS "character_data ($parser, $data)"
+element content handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$data\fP element content  private 
+.RE
+.PP
+
+.PP
+Definition at line 4576 of file nusoap\&.php\&.
+.SS "end_element ($parser, $name)"
+end-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name  private 
+.RE
+.PP
+
+.PP
+Definition at line 484 of file class\&.wsdl\&.php\&.
+.SS "end_element ($parser, $name)"
+end-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name  private 
+.RE
+.PP
+
+.PP
+Definition at line 4546 of file nusoap\&.php\&.
+.SS "getOperationData ($operation, $bindingType = \fC'soap'\fP)"
+returns an associative array of data necessary for calling an operation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$operation,name\fP of operation 
+.br
+\fI$bindingType,type\fP of binding eg: soap 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array  public 
+.RE
+.PP
+
+.PP
+Definition at line 569 of file class\&.wsdl\&.php\&.
+.SS "getOperationData ($operation, $bindingType = \fC'soap'\fP)"
+returns an associative array of data necessary for calling an operation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$operation,name\fP of operation 
+.br
+\fI$bindingType,type\fP of binding eg: soap 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array  public 
+.RE
+.PP
+
+.PP
+Definition at line 4631 of file nusoap\&.php\&.
+.SS "getOperationDataForSoapAction ($soapAction, $bindingType = \fC'soap'\fP)"
+returns an associative array of data necessary for calling an operation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapAction\fP soapAction for operation 
+.br
+\fI$bindingType\fP type of binding eg: soap 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array  public 
+.RE
+.PP
+
+.PP
+Definition at line 599 of file class\&.wsdl\&.php\&.
+.SS "getOperationDataForSoapAction ($soapAction, $bindingType = \fC'soap'\fP)"
+returns an associative array of data necessary for calling an operation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapAction\fP soapAction for operation 
+.br
+\fI$bindingType\fP type of binding eg: soap 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array  public 
+.RE
+.PP
+
+.PP
+Definition at line 4661 of file nusoap\&.php\&.
+.SS "getOperations ($bindingType = \fC'soap'\fP)"
+returns an assoc array of operation names => operation data
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$bindingType\fP eg: soap, smtp, dime (only soap is currently supported) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array  public 
+.RE
+.PP
+
+.PP
+Definition at line 539 of file class\&.wsdl\&.php\&.
+.SS "getOperations ($bindingType = \fC'soap'\fP)"
+returns an assoc array of operation names => operation data
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$bindingType\fP eg: soap, smtp, dime (only soap is currently supported) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array  public 
+.RE
+.PP
+
+.PP
+Definition at line 4601 of file nusoap\&.php\&.
+.SS "getTypeDef ($type, $ns)"
+returns an array of information about a given type returns false if no type exists by the given name
+.PP
+typeDef = array( 'elements' => array(), // refs to elements array 'restrictionBase' => '', 'phpType' => '', 'order' => '(sequence|all)', 'attrs' => array() // refs to attributes array )
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$type\fP string the type 
+.br
+\fI$ns\fP string namespace (not prefix) of the type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema 
+.RE
+.PP
+
+.PP
+Definition at line 635 of file class\&.wsdl\&.php\&.
+.SS "getTypeDef ($type, $ns)"
+returns an array of information about a given type returns false if no type exists by the given name
+.PP
+typeDef = array( 'elements' => array(), // refs to elements array 'restrictionBase' => '', 'phpType' => '', 'order' => '(sequence|all)', 'attrs' => array() // refs to attributes array )
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$type\fP string the type 
+.br
+\fI$ns\fP string namespace (not prefix) of the type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed  public 
+.RE
+.PP
+\fBSee Also:\fP
+.RS 4
+xmlschema 
+.RE
+.PP
+
+.PP
+Definition at line 4697 of file nusoap\&.php\&.
+.SS "parseWSDL ($wsdl = \fC''\fP)"
+parses the wsdl document
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP path or URL  private 
+.RE
+.PP
+
+.PP
+Definition at line 171 of file class\&.wsdl\&.php\&.
+.SS "parseWSDL ($wsdl = \fC''\fP)"
+parses the wsdl document
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP path or URL  private 
+.RE
+.PP
+
+.PP
+Definition at line 4233 of file nusoap\&.php\&.
+.SS "serialize ($debug = \fC0\fP)"
+serialize the parsed wsdl
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$debug\fP whether to put debug=1 in endpoint URL 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string serialization of WSDL  public 
+.RE
+.PP
+
+.PP
+Definition at line 815 of file class\&.wsdl\&.php\&.
+.SS "serialize ($debug = \fC0\fP)"
+serialize the parsed wsdl
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$debug\fP whether to put debug=1 in endpoint URL 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string serialization of WSDL  public 
+.RE
+.PP
+
+.PP
+Definition at line 4877 of file nusoap\&.php\&.
+.SS "serializeComplexTypeAttributes ($typeDef, $value, $ns, $uqType)"
+serializes the attributes for a complexType
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$typeDef\fP our internal representation of an XML schema type (or element) 
+.br
+\fI$value\fP a native PHP value (parameter value) 
+.br
+\fI$ns\fP the namespace of the type 
+.br
+\fI$uqType\fP the local part of the type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string value serialized as an XML string  private 
+.RE
+.PP
+
+.PP
+Definition at line 1409 of file class\&.wsdl\&.php\&.
+.SS "serializeComplexTypeAttributes ($typeDef, $value, $ns, $uqType)"
+serializes the attributes for a complexType
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$typeDef\fP our internal representation of an XML schema type (or element) 
+.br
+\fI$value\fP a native PHP value (parameter value) 
+.br
+\fI$ns\fP the namespace of the type 
+.br
+\fI$uqType\fP the local part of the type 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string value serialized as an XML string  private 
+.RE
+.PP
+
+.PP
+Definition at line 5471 of file nusoap\&.php\&.
+.SS "serializeComplexTypeElements ($typeDef, $value, $ns, $uqType, $use = \fC'encoded'\fP, $encodingStyle = \fCfalse\fP)"
+serializes the elements for a complexType
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$typeDef\fP our internal representation of an XML schema type (or element) 
+.br
+\fI$value\fP a native PHP value (parameter value) 
+.br
+\fI$ns\fP the namespace of the type 
+.br
+\fI$uqType\fP the local part of the type 
+.br
+\fI$use\fP use for part (encoded|literal) 
+.br
+\fI$encodingStyle\fP SOAP encoding style for the value (if different than the enclosing style) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string value serialized as an XML string  private 
+.RE
+.PP
+
+.PP
+Definition at line 1471 of file class\&.wsdl\&.php\&.
+.SS "serializeComplexTypeElements ($typeDef, $value, $ns, $uqType, $use = \fC'encoded'\fP, $encodingStyle = \fCfalse\fP)"
+serializes the elements for a complexType
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$typeDef\fP our internal representation of an XML schema type (or element) 
+.br
+\fI$value\fP a native PHP value (parameter value) 
+.br
+\fI$ns\fP the namespace of the type 
+.br
+\fI$uqType\fP the local part of the type 
+.br
+\fI$use\fP use for part (encoded|literal) 
+.br
+\fI$encodingStyle\fP SOAP encoding style for the value (if different than the enclosing style) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string value serialized as an XML string  private 
+.RE
+.PP
+
+.PP
+Definition at line 5533 of file nusoap\&.php\&.
+.SS "serializeParameters ($operation, $direction, $parameters)"
+serialize a PHP value according to a WSDL message definition
+.PP
+TODO
+.IP "\(bu" 2
+multi-ref serialization
+.IP "\(bu" 2
+validate PHP values against type definitions, return errors if invalid
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring\fP $ type name 
+.br
+\fImixed\fP $ param value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed new param or false if initial value didn't validate  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 1033 of file class\&.wsdl\&.php\&.
+.SS "serializeParameters ($operation, $direction, $parameters)"
+serialize a PHP value according to a WSDL message definition
+.PP
+TODO
+.IP "\(bu" 2
+multi-ref serialization
+.IP "\(bu" 2
+validate PHP values against type definitions, return errors if invalid
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstring\fP $ type name 
+.br
+\fImixed\fP $ param value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed new param or false if initial value didn't validate  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 5095 of file nusoap\&.php\&.
+.SS "serializeRPCParameters ($operation, $direction, $parameters)"
+serialize PHP values according to a WSDL message definition
+.PP
+TODO
+.IP "\(bu" 2
+multi-ref serialization
+.IP "\(bu" 2
+validate PHP values against type definitions, return errors if invalid
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$operation\fP operation name 
+.br
+\fI$direction\fP (input|output) 
+.br
+\fI$parameters\fP parameter value(s) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed parameters serialized as XML or false on error (e\&.g\&. operation not found)  public 
+.RE
+.PP
+
+.PP
+Definition at line 954 of file class\&.wsdl\&.php\&.
+.SS "serializeRPCParameters ($operation, $direction, $parameters)"
+serialize PHP values according to a WSDL message definition
+.PP
+TODO
+.IP "\(bu" 2
+multi-ref serialization
+.IP "\(bu" 2
+validate PHP values against type definitions, return errors if invalid
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$operation\fP operation name 
+.br
+\fI$direction\fP (input|output) 
+.br
+\fI$parameters\fP parameter value(s) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed parameters serialized as XML or false on error (e\&.g\&. operation not found)  public 
+.RE
+.PP
+
+.PP
+Definition at line 5016 of file nusoap\&.php\&.
+.SS "serializeType ($name, $type, $value, $use = \fC'encoded'\fP, $encodingStyle = \fCfalse\fP, $unqualified = \fCfalse\fP)"
+serializes a PHP value according a given type definition
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP name of value (part or element) 
+.br
+\fI$type\fP XML schema type of value (type or element) 
+.br
+\fI$value\fP a native PHP value (parameter value) 
+.br
+\fI$use\fP use for part (encoded|literal) 
+.br
+\fI$encodingStyle\fP SOAP encoding style for the value (if different than the enclosing style) 
+.br
+\fI$unqualified\fP a kludge for what should be XML namespace form handling 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string value serialized as an XML string  private 
+.RE
+.PP
+
+.PP
+Definition at line 1112 of file class\&.wsdl\&.php\&.
+.SS "serializeType ($name, $type, $value, $use = \fC'encoded'\fP, $encodingStyle = \fCfalse\fP, $unqualified = \fCfalse\fP)"
+serializes a PHP value according a given type definition
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP name of value (part or element) 
+.br
+\fI$type\fP XML schema type of value (type or element) 
+.br
+\fI$value\fP a native PHP value (parameter value) 
+.br
+\fI$use\fP use for part (encoded|literal) 
+.br
+\fI$encodingStyle\fP SOAP encoding style for the value (if different than the enclosing style) 
+.br
+\fI$unqualified\fP a kludge for what should be XML namespace form handling 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string value serialized as an XML string  private 
+.RE
+.PP
+
+.PP
+Definition at line 5174 of file nusoap\&.php\&.
+.SS "start_element ($parser, $name, $attrs)"
+start-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name 
+.br
+\fI$attrs\fP associative array of attributes  private 
+.RE
+.PP
+
+.PP
+Definition at line 271 of file class\&.wsdl\&.php\&.
+.SS "start_element ($parser, $name, $attrs)"
+start-element handler
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$parser\fP XML parser object 
+.br
+\fI$name\fP element name 
+.br
+\fI$attrs\fP associative array of attributes  private 
+.RE
+.PP
+
+.PP
+Definition at line 4333 of file nusoap\&.php\&.
+.SS "webDescription ()"
+prints html description of services
+.PP
+private 
+.PP
+Definition at line 682 of file class\&.wsdl\&.php\&.
+.SS "webDescription ()"
+prints html description of services
+.PP
+private 
+.PP
+Definition at line 4744 of file nusoap\&.php\&.
+.SS "\fBwsdl\fP ($wsdl = \fC''\fP, $proxyhost = \fCfalse\fP, $proxyport = \fCfalse\fP, $proxyusername = \fCfalse\fP, $proxypassword = \fCfalse\fP, $timeout = \fC0\fP, $response_timeout = \fC30\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP WSDL document URL 
+.br
+\fI$proxyhost\fP 
+.br
+\fI$proxyport\fP 
+.br
+\fI$proxyusername\fP 
+.br
+\fI$proxypassword\fP 
+.br
+\fI$timeout\fP set the connection timeout 
+.br
+\fI$response_timeout\fP set the response timeout  public 
+.RE
+.PP
+
+.PP
+Definition at line 61 of file class\&.wsdl\&.php\&.
+.SS "\fBwsdl\fP ($wsdl = \fC''\fP, $proxyhost = \fCfalse\fP, $proxyport = \fCfalse\fP, $proxyusername = \fCfalse\fP, $proxypassword = \fCfalse\fP, $timeout = \fC0\fP, $response_timeout = \fC30\fP)"
+constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP WSDL document URL 
+.br
+\fI$proxyhost\fP 
+.br
+\fI$proxyport\fP 
+.br
+\fI$proxyusername\fP 
+.br
+\fI$proxypassword\fP 
+.br
+\fI$timeout\fP set the connection timeout 
+.br
+\fI$response_timeout\fP set the response timeout  public 
+.RE
+.PP
+
+.PP
+Definition at line 4123 of file nusoap\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

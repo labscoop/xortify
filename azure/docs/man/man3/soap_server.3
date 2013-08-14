@@ -1,0 +1,732 @@
+.TH "soap_server" 3 "Tue Jul 23 2013" "Version 4.11" "Xortify Honeypot Cloud Services" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+soap_server \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBnusoap_base\fP, and \fBnusoap_base\fP\&.
+.PP
+Inherited by \fBnusoapservermime\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsoap_server\fP ($\fBwsdl\fP=false)"
+.br
+.ti -1c
+.RI "\fBservice\fP ($data)"
+.br
+.ti -1c
+.RI "\fBparse_http_headers\fP ()"
+.br
+.ti -1c
+.RI "\fBparse_request\fP ($data='')"
+.br
+.ti -1c
+.RI "\fBinvoke_method\fP ()"
+.br
+.ti -1c
+.RI "\fBserialize_return\fP ()"
+.br
+.ti -1c
+.RI "\fBsend_response\fP ()"
+.br
+.ti -1c
+.RI "\fBverify_method\fP ($operation, $request)"
+.br
+.ti -1c
+.RI "\fBparseRequest\fP ($headers, $data)"
+.br
+.ti -1c
+.RI "\fBgetHTTPBody\fP ($soapmsg)"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentType\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentTypeCharset\fP ()"
+.br
+.ti -1c
+.RI "\fBadd_to_map\fP ($methodname, $in, $out)"
+.br
+.ti -1c
+.RI "\fBregister\fP ($name, $in=array(), $out=array(), $namespace=false, $soapaction=false, $style=false, $use=false, $documentation='', $encodingStyle='')"
+.br
+.ti -1c
+.RI "\fBfault\fP ($faultcode, $faultstring, $faultactor='', $faultdetail='')"
+.br
+.ti -1c
+.RI "\fBconfigureWSDL\fP ($serviceName, $namespace=false, $endpoint=false, $style='rpc', $transport= 'http://schemas\&.xmlsoap\&.org/soap/http', $schemaTargetNamespace=false)"
+.br
+.ti -1c
+.RI "\fBsoap_server\fP ($\fBwsdl\fP=false)"
+.br
+.ti -1c
+.RI "\fBservice\fP ($data)"
+.br
+.ti -1c
+.RI "\fBparse_http_headers\fP ()"
+.br
+.ti -1c
+.RI "\fBparse_request\fP ($data='')"
+.br
+.ti -1c
+.RI "\fBinvoke_method\fP ()"
+.br
+.ti -1c
+.RI "\fBserialize_return\fP ()"
+.br
+.ti -1c
+.RI "\fBsend_response\fP ()"
+.br
+.ti -1c
+.RI "\fBverify_method\fP ($operation, $request)"
+.br
+.ti -1c
+.RI "\fBparseRequest\fP ($headers, $data)"
+.br
+.ti -1c
+.RI "\fBgetHTTPBody\fP ($soapmsg)"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentType\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHTTPContentTypeCharset\fP ()"
+.br
+.ti -1c
+.RI "\fBadd_to_map\fP ($methodname, $in, $out)"
+.br
+.ti -1c
+.RI "\fBregister\fP ($name, $in=array(), $out=array(), $namespace=false, $soapaction=false, $style=false, $use=false, $documentation='', $encodingStyle='')"
+.br
+.ti -1c
+.RI "\fBfault\fP ($faultcode, $faultstring, $faultactor='', $faultdetail='')"
+.br
+.ti -1c
+.RI "\fBconfigureWSDL\fP ($serviceName, $namespace=false, $endpoint=false, $style='rpc', $transport= 'http://schemas\&.xmlsoap\&.org/soap/http', $schemaTargetNamespace=false)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$headers\fP = array()"
+.br
+.ti -1c
+.RI "\fB$request\fP = ''"
+.br
+.ti -1c
+.RI "\fB$requestHeaders\fP = ''"
+.br
+.ti -1c
+.RI "\fB$document\fP = ''"
+.br
+.ti -1c
+.RI "\fB$requestSOAP\fP = ''"
+.br
+.ti -1c
+.RI "\fB$methodURI\fP = ''"
+.br
+.ti -1c
+.RI "\fB$methodname\fP = ''"
+.br
+.ti -1c
+.RI "\fB$methodparams\fP = array()"
+.br
+.ti -1c
+.RI "\fB$SOAPAction\fP = ''"
+.br
+.ti -1c
+.RI "\fB$xml_encoding\fP = ''"
+.br
+.ti -1c
+.RI "\fB$decode_utf8\fP = true"
+.br
+.ti -1c
+.RI "\fB$outgoing_headers\fP = array()"
+.br
+.ti -1c
+.RI "\fB$response\fP = ''"
+.br
+.ti -1c
+.RI "\fB$responseHeaders\fP = ''"
+.br
+.ti -1c
+.RI "\fB$responseSOAP\fP = ''"
+.br
+.ti -1c
+.RI "\fB$methodreturn\fP = false"
+.br
+.ti -1c
+.RI "\fB$methodreturnisliteralxml\fP = false"
+.br
+.ti -1c
+.RI "\fB$fault\fP = false"
+.br
+.ti -1c
+.RI "\fB$result\fP = 'successful'"
+.br
+.ti -1c
+.RI "\fB$operations\fP = array()"
+.br
+.ti -1c
+.RI "\fB$wsdl\fP = false"
+.br
+.ti -1c
+.RI "\fB$externalWSDLURL\fP = false"
+.br
+.ti -1c
+.RI "\fB$debug_flag\fP = false"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBsoap_server\fP allows the user to create a SOAP server that is capable of receiving messages and returning responses
+.PP
+NOTd: WSDL functionality is experimental
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBclass\&.soap_server\&.php\fP,v 1\&.48 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public
+.PP
+\fBsoap_server\fP allows the user to create a SOAP server that is capable of receiving messages and returning responses
+.PP
+NOTd: WSDL functionality is experimental
+.PP
+\fBAuthor:\fP
+.RS 4
+Dietrich Ayala dietrich@ganx4.com 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+.RE
+.PP
+\fBId:\fP
+.RS 4
+\fBnusoap\&.php\fP,v 1\&.94 2005/08/04 01:27:42 snichol Exp 
+.RE
+.PP
+public 
+.PP
+Definition at line 17 of file class\&.soap_server\&.php\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "add_to_map ($methodname, $in, $out)"
+add a method to the dispatch map (this has been replaced by the register method)
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$methodname\fP 
+.br
+\fI$in\fP array of input values 
+.br
+\fI$out\fP array of output values  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 872 of file class\&.soap_server\&.php\&.
+.SS "add_to_map ($methodname, $in, $out)"
+add a method to the dispatch map (this has been replaced by the register method)
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$methodname\fP 
+.br
+\fI$in\fP array of input values 
+.br
+\fI$out\fP array of output values  public 
+.RE
+.PP
+\fBDeprecated\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 3899 of file nusoap\&.php\&.
+.SS "configureWSDL ($serviceName, $namespace = \fCfalse\fP, $endpoint = \fCfalse\fP, $style = \fC'rpc'\fP, $transport = \fC'http://schemas\&.xmlsoap\&.org/soap/http'\fP, $schemaTargetNamespace = \fCfalse\fP)"
+Sets up wsdl object\&. Acts as a flag to enable internal WSDL generation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$serviceName,name\fP of the service 
+.br
+\fI$namespace\fP optional 'tns' service namespace or false 
+.br
+\fI$endpoint\fP optional URL of service endpoint or false 
+.br
+\fI$style\fP optional (rpc|document) WSDL style (also specified by operation) 
+.br
+\fI$transport\fP optional SOAP transport 
+.br
+\fI$schemaTargetNamespace\fP optional 'types' targetNamespace for service schema or false 
+.RE
+.PP
+
+.PP
+Definition at line 971 of file class\&.soap_server\&.php\&.
+.SS "configureWSDL ($serviceName, $namespace = \fCfalse\fP, $endpoint = \fCfalse\fP, $style = \fC'rpc'\fP, $transport = \fC'http://schemas\&.xmlsoap\&.org/soap/http'\fP, $schemaTargetNamespace = \fCfalse\fP)"
+Sets up wsdl object\&. Acts as a flag to enable internal WSDL generation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$serviceName,name\fP of the service 
+.br
+\fI$namespace\fP optional 'tns' service namespace or false 
+.br
+\fI$endpoint\fP optional URL of service endpoint or false 
+.br
+\fI$style\fP optional (rpc|document) WSDL style (also specified by operation) 
+.br
+\fI$transport\fP optional SOAP transport 
+.br
+\fI$schemaTargetNamespace\fP optional 'types' targetNamespace for service schema or false 
+.RE
+.PP
+
+.PP
+Definition at line 3998 of file nusoap\&.php\&.
+.SS "fault ($faultcode, $faultstring, $faultactor = \fC''\fP, $faultdetail = \fC''\fP)"
+Specify a fault to be returned to the client\&. This also acts as a flag to the server that a fault has occured\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$faultcode\fP 
+.br
+\fI$faultstring\fP 
+.br
+\fI$faultactor\fP 
+.br
+\fI$faultdetail\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 952 of file class\&.soap_server\&.php\&.
+.SS "fault ($faultcode, $faultstring, $faultactor = \fC''\fP, $faultdetail = \fC''\fP)"
+Specify a fault to be returned to the client\&. This also acts as a flag to the server that a fault has occured\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$faultcode\fP 
+.br
+\fI$faultstring\fP 
+.br
+\fI$faultactor\fP 
+.br
+\fI$faultdetail\fP public 
+.RE
+.PP
+
+.PP
+Definition at line 3979 of file nusoap\&.php\&.
+.SS "getHTTPBody ($soapmsg)"
+gets the HTTP body for the current response\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapmsg\fP The SOAP payload 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The HTTP body, which includes the SOAP payload  private 
+.RE
+.PP
+
+.PP
+Definition at line 834 of file class\&.soap_server\&.php\&.
+.SS "getHTTPBody ($soapmsg)"
+gets the HTTP body for the current response\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$soapmsg\fP The SOAP payload 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The HTTP body, which includes the SOAP payload  private 
+.RE
+.PP
+
+.PP
+Definition at line 3861 of file nusoap\&.php\&.
+.SS "getHTTPContentType ()"
+gets the HTTP content type for the current response\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type for the current response\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 846 of file class\&.soap_server\&.php\&.
+.SS "getHTTPContentType ()"
+gets the HTTP content type for the current response\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type for the current response\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 3873 of file nusoap\&.php\&.
+.SS "getHTTPContentTypeCharset ()"
+gets the HTTP content type charset for the current response\&. returns false for non-text content types\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type charset for the current response\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 859 of file class\&.soap_server\&.php\&.
+.SS "getHTTPContentTypeCharset ()"
+gets the HTTP content type charset for the current response\&. returns false for non-text content types\&.
+.PP
+Note: getHTTPBody must be called before this\&.
+.PP
+\fBReturns:\fP
+.RS 4
+string the HTTP content type charset for the current response\&.  private 
+.RE
+.PP
+
+.PP
+Definition at line 3886 of file nusoap\&.php\&.
+.SS "invoke_method ()"
+invokes a PHP function for the requested SOAP method
+.PP
+The following fields are set by this function (when successful)
+.PP
+methodreturn
+.PP
+Note that the PHP function that is called may also set the following fields to affect the response sent to the client
+.PP
+responseHeaders outgoing_headers
+.PP
+This sets the fault field on error
+.PP
+private 
+.PP
+Definition at line 466 of file class\&.soap_server\&.php\&.
+.SS "invoke_method ()"
+invokes a PHP function for the requested SOAP method
+.PP
+The following fields are set by this function (when successful)
+.PP
+methodreturn
+.PP
+Note that the PHP function that is called may also set the following fields to affect the response sent to the client
+.PP
+responseHeaders outgoing_headers
+.PP
+This sets the fault field on error
+.PP
+private 
+.PP
+Definition at line 3493 of file nusoap\&.php\&.
+.SS "parse_http_headers ()"
+parses HTTP request headers\&.
+.PP
+The following fields are set by this function (when successful)
+.PP
+headers request xml_encoding SOAPAction
+.PP
+private 
+.PP
+Definition at line 293 of file class\&.soap_server\&.php\&.
+.SS "parse_http_headers ()"
+parses HTTP request headers\&.
+.PP
+The following fields are set by this function (when successful)
+.PP
+headers request xml_encoding SOAPAction
+.PP
+private 
+.PP
+Definition at line 3320 of file nusoap\&.php\&.
+.SS "parse_request ($data = \fC''\fP)"
+parses a request
+.PP
+The following fields are set by this function (when successful)
+.PP
+headers request xml_encoding SOAPAction request requestSOAP methodURI methodname methodparams requestHeaders document
+.PP
+This sets the fault field on error
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP XML string  private 
+.RE
+.PP
+
+.PP
+Definition at line 419 of file class\&.soap_server\&.php\&.
+.SS "parse_request ($data = \fC''\fP)"
+parses a request
+.PP
+The following fields are set by this function (when successful)
+.PP
+headers request xml_encoding SOAPAction request requestSOAP methodURI methodname methodparams requestHeaders document
+.PP
+This sets the fault field on error
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP XML string  private 
+.RE
+.PP
+
+.PP
+Definition at line 3446 of file nusoap\&.php\&.
+.SS "parseRequest ($headers, $data)"
+processes SOAP message received from client
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$headers\fP The HTTP headers 
+.br
+\fI$data\fP unprocessed request data from client 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed value of the message, decoded into a PHP type  private 
+.RE
+.PP
+
+.PP
+Definition at line 785 of file class\&.soap_server\&.php\&.
+.SS "parseRequest ($headers, $data)"
+processes SOAP message received from client
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$headers\fP The HTTP headers 
+.br
+\fI$data\fP unprocessed request data from client 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed value of the message, decoded into a PHP type  private 
+.RE
+.PP
+
+.PP
+Definition at line 3812 of file nusoap\&.php\&.
+.SS "register ($name, $in = \fCarray()\fP, $out = \fCarray()\fP, $namespace = \fCfalse\fP, $soapaction = \fCfalse\fP, $style = \fCfalse\fP, $use = \fCfalse\fP, $documentation = \fC''\fP, $encodingStyle = \fC''\fP)"
+register a service function with the server
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP the name of the PHP function, class\&.method or class\&.\&.method 
+.br
+\fI$in\fP assoc array of input values: key = param name, value = param type 
+.br
+\fI$out\fP assoc array of output values: key = param name, value = param type 
+.br
+\fI$namespace\fP the element namespace for the method or false 
+.br
+\fI$soapaction\fP the soapaction for the method or false 
+.br
+\fI$style\fP optional (rpc|document) or false Note: when 'document' is specified, parameter and return wrappers are created for you automatically 
+.br
+\fI$use\fP optional (encoded|literal) or false 
+.br
+\fI$documentation\fP optional Description to include in WSDL 
+.br
+\fI$encodingStyle\fP optional (usually 'http://schemas.xmlsoap.org/soap/encoding/' for encoded)  public 
+.RE
+.PP
+
+.PP
+Definition at line 890 of file class\&.soap_server\&.php\&.
+.SS "register ($name, $in = \fCarray()\fP, $out = \fCarray()\fP, $namespace = \fCfalse\fP, $soapaction = \fCfalse\fP, $style = \fCfalse\fP, $use = \fCfalse\fP, $documentation = \fC''\fP, $encodingStyle = \fC''\fP)"
+register a service function with the server
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP the name of the PHP function, class\&.method or class\&.\&.method 
+.br
+\fI$in\fP assoc array of input values: key = param name, value = param type 
+.br
+\fI$out\fP assoc array of output values: key = param name, value = param type 
+.br
+\fI$namespace\fP the element namespace for the method or false 
+.br
+\fI$soapaction\fP the soapaction for the method or false 
+.br
+\fI$style\fP optional (rpc|document) or false Note: when 'document' is specified, parameter and return wrappers are created for you automatically 
+.br
+\fI$use\fP optional (encoded|literal) or false 
+.br
+\fI$documentation\fP optional Description to include in WSDL 
+.br
+\fI$encodingStyle\fP optional (usually 'http://schemas.xmlsoap.org/soap/encoding/' for encoded)  public 
+.RE
+.PP
+
+.PP
+Definition at line 3917 of file nusoap\&.php\&.
+.SS "send_response ()"
+sends an HTTP response
+.PP
+The following fields are set by this function (when successful)
+.PP
+outgoing_headers response
+.PP
+private 
+.PP
+Definition at line 687 of file class\&.soap_server\&.php\&.
+.SS "send_response ()"
+sends an HTTP response
+.PP
+The following fields are set by this function (when successful)
+.PP
+outgoing_headers response
+.PP
+private 
+.PP
+Definition at line 3714 of file nusoap\&.php\&.
+.SS "serialize_return ()"
+serializes the return value from a PHP function into a full SOAP Envelope
+.PP
+The following fields are set by this function (when successful)
+.PP
+responseSOAP
+.PP
+This sets the fault field on error
+.PP
+private 
+.PP
+Definition at line 600 of file class\&.soap_server\&.php\&.
+.SS "serialize_return ()"
+serializes the return value from a PHP function into a full SOAP Envelope
+.PP
+The following fields are set by this function (when successful)
+.PP
+responseSOAP
+.PP
+This sets the fault field on error
+.PP
+private 
+.PP
+Definition at line 3627 of file nusoap\&.php\&.
+.SS "service ($data)"
+processes request and returns response
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP usually is the value of $HTTP_RAW_POST_DATA  public 
+.RE
+.PP
+
+.PP
+Definition at line 231 of file class\&.soap_server\&.php\&.
+.SS "service ($data)"
+processes request and returns response
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP usually is the value of $HTTP_RAW_POST_DATA  public 
+.RE
+.PP
+
+.PP
+Definition at line 3258 of file nusoap\&.php\&.
+.SS "\fBsoap_server\fP ($wsdl = \fCfalse\fP)"
+constructor the optional parameter is a path to a WSDL file that you'd like to bind the server instance to\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP file path or URL (string), or wsdl instance (object)  public 
+.RE
+.PP
+
+.PP
+Definition at line 168 of file class\&.soap_server\&.php\&.
+.SS "\fBsoap_server\fP ($wsdl = \fCfalse\fP)"
+constructor the optional parameter is a path to a WSDL file that you'd like to bind the server instance to\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$wsdl\fP file path or URL (string), or wsdl instance (object)  public 
+.RE
+.PP
+
+.PP
+Definition at line 3195 of file nusoap\&.php\&.
+.SS "verify_method ($operation, $request)"
+takes the value that was created by parsing the request and compares to the method's signature, if available\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$operation\fP The operation to be invoked 
+.br
+\fI$request\fP The array of parameter values 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean Whether the operation was found  private 
+.RE
+.PP
+
+.PP
+Definition at line 766 of file class\&.soap_server\&.php\&.
+.SS "verify_method ($operation, $request)"
+takes the value that was created by parsing the request and compares to the method's signature, if available\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$operation\fP The operation to be invoked 
+.br
+\fI$request\fP The array of parameter values 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean Whether the operation was found  private 
+.RE
+.PP
+
+.PP
+Definition at line 3793 of file nusoap\&.php\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Xortify Honeypot Cloud Services from the source code\&.

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespaceprotector" kind="namespace">
+    <compoundname>protector</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Protector</para><para><simplesect kind="copyright"><para>The XOOPS Project <ulink url="http://sourceforge.net/projects/xoops/">http://sourceforge.net/projects/xoops/</ulink>  <ulink url="http://www.fsf.org/copyleft/gpl.html">http://www.fsf.org/copyleft/gpl.html</ulink> GNU public license</para></simplesect>
+<simplesect kind="author"><para>trabis <ulink url="mailto:lusopoemas@gmail.com">lusopoemas@gmail.com</ulink> </para></simplesect>
+<simplesect kind="version"><para></para></simplesect>
+<simplesect kind="rcs"><title>Id:</title><para><ref refid="precheck_8inc_8php" kindref="compound">precheck.inc.php</ref> 8391 2011-12-02 22:32:34Z trabis </para></simplesect>
+</para>    </detaileddescription>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/protector/include/precheck.inc.php" line="17" column="1"/>
+  </compounddef>
+</doxygen>

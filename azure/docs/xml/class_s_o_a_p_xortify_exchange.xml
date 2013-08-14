@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_s_o_a_p_xortify_exchange" kind="class" prot="public">
+    <compoundname>SOAPXortifyExchange</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_a_p_xortify_exchange_1a18c3d5ef7b606d5f21c8fda9d08e8c7e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$soap_client</definition>
+        <argsstring></argsstring>
+        <name>$soap_client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="49" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_a_p_xortify_exchange_1ab46ae973f580890282bce8dbe346abab" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$soap_xoops_username</definition>
+        <argsstring></argsstring>
+        <name>$soap_xoops_username</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="50" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_a_p_xortify_exchange_1ac116a126fa48c572acc0a859f42fa8dc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$soap_xoops_password</definition>
+        <argsstring></argsstring>
+        <name>$soap_xoops_password</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="51" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_a_p_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$refresh</definition>
+        <argsstring></argsstring>
+        <name>$refresh</name>
+        <initializer>= 600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="52" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1add339868d9ad9a22afe8c95564aa063a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOAPXortifyExchange</definition>
+        <argsstring>()</argsstring>
+        <name>SOAPXortifyExchange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="54" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="54" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkForSpam</definition>
+        <argsstring>($content)</argsstring>
+        <name>checkForSpam</name>
+        <param>
+          <declname>$content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="72" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="72" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getServers</definition>
+        <argsstring>()</argsstring>
+        <name>getServers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="95" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="95" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sendBan</definition>
+        <argsstring>($comment, $category_id=2, $ip=false)</argsstring>
+        <name>sendBan</name>
+        <param>
+          <declname>$comment</declname>
+        </param>
+        <param>
+          <declname>$category_id</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <declname>$ip</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="117" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="117" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkSFSBans</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkSFSBans</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="146" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="146" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkPHPBans</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkPHPBans</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="165" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="165" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBans</definition>
+        <argsstring>()</argsstring>
+        <name>getBans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="183" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="183" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>retrieveBans</definition>
+        <argsstring>()</argsstring>
+        <name>retrieveBans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="199" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="199" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_a_p_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkBanned</definition>
+        <argsstring>($ipdata)</argsstring>
+        <name>checkBanned</name>
+        <param>
+          <declname>$ipdata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="211" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="211" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" line="47" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xortify/class/soap.php" bodystart="47" bodyend="222"/>
+    <listofallmembers>
+      <member refid="class_s_o_a_p_xortify_exchange_1a8527f826b6959aaa92b0e51ee427ba1a" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>$refresh</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1a18c3d5ef7b606d5f21c8fda9d08e8c7e" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>$soap_client</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1ac116a126fa48c572acc0a859f42fa8dc" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>$soap_xoops_password</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1ab46ae973f580890282bce8dbe346abab" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>$soap_xoops_username</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1ae41df0f26620b727f7f63342648f6474" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>checkBanned</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1a7a4f53c3841dc7806455261af557d514" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>checkForSpam</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1aeb1bf9aaee4718870adbd07333490aaf" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>checkPHPBans</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1a985a563a84e3e5c54694fcce192bda53" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>checkSFSBans</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1aea26db2906896833d32445a698fc4cdc" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>getBans</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1a882f365bc81e207dc2123ef707735e82" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>getServers</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1a4af29af927aae9aada97ef0c2cd08fa1" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>retrieveBans</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1a0293acfa4afe0cb5b2816352a35d8ca7" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>sendBan</name></member>
+      <member refid="class_s_o_a_p_xortify_exchange_1add339868d9ad9a22afe8c95564aa063a" prot="public" virt="non-virtual"><scope>SOAPXortifyExchange</scope><name>SOAPXortifyExchange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

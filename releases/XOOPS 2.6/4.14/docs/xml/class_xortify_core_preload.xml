@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xortify_core_preload" kind="class" prot="public">
+    <compoundname>XortifyCorePreload</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsPreloadItem</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_xortify_core_preload_1a9f0be6ae273d3669e11c29910a0be338" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" line="51" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" bodystart="51" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a0ac5c4ae5ca172fc4ba58f576c215186" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static eventCoreIncludeAuthSuccess</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreIncludeAuthSuccess</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" line="66" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" bodystart="66" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a5cb12f8c8b7ab32f89c01204bdc7dda9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static eventCoreIncludeCommonEnd</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreIncludeCommonEnd</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" line="81" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" bodystart="81" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1ab40d1b1df5c1bbe50a8b662ccdca179b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static eventCoreHeaderCacheEnd</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreHeaderCacheEnd</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" line="128" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" bodystart="128" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1ad87d8eb3de0b5e76826affb376348ed8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static eventCoreHeaderAddmeta</definition>
+        <argsstring>($args)</argsstring>
+        <name>eventCoreHeaderAddmeta</name>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" line="144" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" bodystart="144" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a87a684f242cb74d15cef3f0105e25776" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static hasAPIUserPass</definition>
+        <argsstring>()</argsstring>
+        <name>hasAPIUserPass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" line="169" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" bodystart="169" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xortify_core_preload_1a04f25a3d87f0ec4c02b11858680c86db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getFileListAsArray</definition>
+        <argsstring>($dirname, $prefix=&quot;xortify&quot;)</argsstring>
+        <name>getFileListAsArray</name>
+        <param>
+          <declname>$dirname</declname>
+        </param>
+        <param>
+          <declname>$prefix</declname>
+          <defval>&quot;xortify&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" line="182" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" bodystart="182" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="394">
+        <label>XortifyCorePreload</label>
+        <link refid="class_xortify_core_preload"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>XoopsPreloadItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="396">
+        <label>XortifyCorePreload</label>
+        <link refid="class_xortify_core_preload"/>
+        <childnode refid="397" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>XoopsPreloadItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" line="46" column="1" bodyfile="E:/== SVN ==/Xortify/releases/XOOPS 2.6/4.11/htdocs/modules/xortify/preloads/core.php" bodystart="45" bodyend="204"/>
+    <listofallmembers>
+      <member refid="class_xortify_core_preload_1ad87d8eb3de0b5e76826affb376348ed8" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreHeaderAddmeta</name></member>
+      <member refid="class_xortify_core_preload_1ab40d1b1df5c1bbe50a8b662ccdca179b" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreHeaderCacheEnd</name></member>
+      <member refid="class_xortify_core_preload_1a0ac5c4ae5ca172fc4ba58f576c215186" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreIncludeAuthSuccess</name></member>
+      <member refid="class_xortify_core_preload_1a5cb12f8c8b7ab32f89c01204bdc7dda9" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>eventCoreIncludeCommonEnd</name></member>
+      <member refid="class_xortify_core_preload_1a04f25a3d87f0ec4c02b11858680c86db" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>getFileListAsArray</name></member>
+      <member refid="class_xortify_core_preload_1a87a684f242cb74d15cef3f0105e25776" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>hasAPIUserPass</name></member>
+      <member refid="class_xortify_core_preload_1a9f0be6ae273d3669e11c29910a0be338" prot="public" virt="non-virtual"><scope>XortifyCorePreload</scope><name>init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

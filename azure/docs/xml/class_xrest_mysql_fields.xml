@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_xrest_mysql_fields" kind="class" prot="public">
+    <compoundname>XrestMysqlFields</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">XoopsObject</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xrest_mysql_fields_1a204832ff89fe46bf10a2d0d5cc1dfbe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XrestMysqlFields</definition>
+        <argsstring>()</argsstring>
+        <name>XrestMysqlFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" line="61" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" bodystart="61" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="783">
+        <label>XoopsObject</label>
+      </node>
+      <node id="782">
+        <label>XrestMysqlFields</label>
+        <link refid="class_xrest_mysql_fields"/>
+        <childnode refid="783" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="785">
+        <label>XoopsObject</label>
+      </node>
+      <node id="784">
+        <label>XrestMysqlFields</label>
+        <link refid="class_xrest_mysql_fields"/>
+        <childnode refid="785" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" line="59" column="1" bodyfile="E:/Packages/xortify server/htdocs/modules/xrest/class/fields.php" bodystart="58" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_xrest_mysql_fields_1a204832ff89fe46bf10a2d0d5cc1dfbe7" prot="public" virt="non-virtual"><scope>XrestMysqlFields</scope><name>XrestMysqlFields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

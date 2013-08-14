@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespacexortify" kind="namespace">
+    <compoundname>xortify</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>module  Sector Network Security Drone <simplesect kind="author"><para>Simon Roberts WISHCRAFT <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2010-2013 XOOPS.org  docs/End User Licence.pdf</para></simplesect>
+Class for Blue Room Xortify Email <simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@xoops.org">simon@xoops.org</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2009-2003 XOOPS.org</para></simplesect>
+XOOPS Xortify Email handler class. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects.</para><para><simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink></para></simplesect>
+Class for Blue Room Xortify Emails Linking <simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@xoops.org">simon@xoops.org</ulink> </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2009-2003 XOOPS.org</para></simplesect>
+XOOPS Xortify Emails Linking handler class. This class is responsible for providing data access mechanisms to the data source of XOOPS user class objects.</para><para><simplesect kind="author"><para>Simon Roberts <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink></para></simplesect>
+module  Sector Nexoork Security Drone <simplesect kind="author"><para>Simon Roberts WISHCRAFT <ulink url="mailto:simon@labs.coop">simon@labs.coop</ulink> </para><simplesectsep/><para>Richardo Costa TRABIS </para></simplesect>
+<simplesect kind="copyright"><para>copyright (c) 2010-2013 XOOPS.org  GPL 2.0 - see docs/LICENCE.txt </para></simplesect>
+</para>    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/preloads/core.php" line="3" column="1"/>
+  </compounddef>
+</doxygen>

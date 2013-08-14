@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_b6fc20c8e5c36e517031f22eb212e060" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/spiders/preloads</compoundname>
+    <innerfile refid="spiders_2preloads_2core_8php">core.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/spiders/preloads/"/>
+  </compounddef>
+</doxygen>

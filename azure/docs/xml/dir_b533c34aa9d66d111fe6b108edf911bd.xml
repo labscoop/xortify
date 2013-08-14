@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_b533c34aa9d66d111fe6b108edf911bd" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xjson</compoundname>
+    <innerdir refid="dir_890a96c554d1302ea84a22d6c81dd6de">E:/Packages/xortify server/htdocs/modules/xjson/admin</innerdir>
+    <innerdir refid="dir_3f73e69ccc288b129f945891c87d5450">E:/Packages/xortify server/htdocs/modules/xjson/class</innerdir>
+    <innerdir refid="dir_cbb60b9e6b64db036aa30805ff13f97b">E:/Packages/xortify server/htdocs/modules/xjson/include</innerdir>
+    <innerdir refid="dir_71909325b8c1cb4b7ce53c0d8a7928b6">E:/Packages/xortify server/htdocs/modules/xjson/language</innerdir>
+    <innerdir refid="dir_ff730fd920908e5d87170031d49ab679">E:/Packages/xortify server/htdocs/modules/xjson/plugins</innerdir>
+    <innerfile refid="modules_2xjson_2index_8php">index.php</innerfile>
+    <innerfile refid="xjson_2xoops__version_8php">xoops_version.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xjson/"/>
+  </compounddef>
+</doxygen>

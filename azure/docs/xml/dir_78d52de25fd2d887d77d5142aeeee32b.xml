@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_78d52de25fd2d887d77d5142aeeee32b" kind="dir">
+    <compoundname>E:/Packages/xortify server/htdocs/modules/xortify/providers/stopforumspam.com</compoundname>
+    <innerfile refid="stopforumspam_8com_2post_8loader_8php">post.loader.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Packages/xortify server/htdocs/modules/xortify/providers/stopforumspam.com/"/>
+  </compounddef>
+</doxygen>
